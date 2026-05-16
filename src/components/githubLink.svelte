@@ -19,18 +19,18 @@
   <img
     src={logoStackLight}
     alt={siteLogoAlt}
-    width={28}
-    height={28}
-    class="size-full object-contain dark:hidden"
+    width={48}
+    height={48}
+    class="size-full origin-center scale-[1.5] object-contain dark:hidden"
     decoding="async"
   />
   <img
     src={logoStackDark}
     alt={siteLogoAlt}
     aria-hidden="true"
-    width={28}
-    height={28}
-    class="hidden size-full object-contain dark:block"
+    width={48}
+    height={48}
+    class="hidden size-full origin-center scale-[1.5] object-contain dark:block"
     decoding="async"
   />
 </InternalLink>

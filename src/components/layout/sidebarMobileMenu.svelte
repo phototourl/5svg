@@ -43,23 +43,25 @@
     <Sheet.Header>
       <Sheet.Title>
         <InternalLink href="/library" className="flex items-center space-x-2">
-        <img
-          src={logoStackLight}
-          alt={siteLogoAlt}
-          width={56}
-          height={56}
-          class="size-14 shrink-0 object-contain dark:hidden"
-          decoding="async"
-        />
-        <img
-          src={logoStackDark}
-          alt={siteLogoAlt}
-          aria-hidden="true"
-          width={56}
-          height={56}
-          class="hidden size-14 shrink-0 object-contain dark:block"
-          decoding="async"
-        />
+        <span class="inline-flex h-10 w-11 shrink-0 items-center justify-center overflow-visible">
+          <img
+            src={logoStackLight}
+            alt={siteLogoAlt}
+            width={80}
+            height={80}
+            class="h-10 w-10 origin-center scale-[1.75] object-contain dark:hidden"
+            decoding="async"
+          />
+          <img
+            src={logoStackDark}
+            alt={siteLogoAlt}
+            aria-hidden="true"
+            width={80}
+            height={80}
+            class="hidden h-10 w-10 origin-center scale-[1.75] object-contain dark:block"
+            decoding="async"
+          />
+        </span>
         <h2 class="text-xl font-medium tracking-tight">5svg</h2>
         </InternalLink>
       </Sheet.Title>

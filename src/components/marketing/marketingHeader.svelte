@@ -30,22 +30,24 @@
   class="sticky top-0 z-50 border-b border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950"
 >
   <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
-    <InternalLink href="/" className="flex shrink-0 items-center gap-2">
-      <img
-        src={logoStackLight}
-        alt={siteLogoAlt}
-        width={56}
-        height={56}
-        class="size-14 shrink-0 object-contain dark:hidden"
-      />
-      <img
-        src={logoStackDark}
-        alt={siteLogoAlt}
-        aria-hidden="true"
-        width={56}
-        height={56}
-        class="hidden size-14 shrink-0 object-contain dark:block"
-      />
+    <InternalLink href="/" className="flex shrink-0 items-center gap-2.5">
+      <span class="inline-flex h-10 w-11 shrink-0 items-center justify-center overflow-visible">
+        <img
+          src={logoStackLight}
+          alt={siteLogoAlt}
+          width={80}
+          height={80}
+          class="h-10 w-10 origin-center scale-[1.75] object-contain dark:hidden"
+        />
+        <img
+          src={logoStackDark}
+          alt={siteLogoAlt}
+          aria-hidden="true"
+          width={80}
+          height={80}
+          class="hidden h-10 w-10 origin-center scale-[1.75] object-contain dark:block"
+        />
+      </span>
       <span
         class="text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
         >{brand.displayName}</span
