@@ -19,10 +19,13 @@
   let { data }: PageProps = $props();
   let tocOpen = $state(false);
   const document = $derived(data.document);
+  const pageTitle = $derived(
+    document.metaTitle ?? `${document.title} | 5SVG — Free SVG Files`,
+  );
 </script>
 
 <svelte:head>
-  <title>{data.document.title} - 5svg</title>
+  <title>{pageTitle}</title>
   <meta name="description" content={data.document.description} />
 </svelte:head>
 
@@ -31,10 +34,10 @@
     <div
       class="flex items-center space-x-2 font-medium text-neutral-950 dark:text-neutral-50"
     >
-      <FileText size={18} strokeWidth={1.5} />
-      <p>
+      <FileText size={18} strokeWidth={1.5} aria-hidden="true" />
+      <h1 class="text-base font-medium">
         {document.title}
-      </p>
+      </h1>
     </div>
     <DocumentSettings
       rawUrl={document.rawUrl}

@@ -18,6 +18,7 @@
   import Button from "@/components/ui/button/button.svelte";
   import SvgNotFound from "@/components/svgs/svgNotFound.svelte";
   import WarningMessage from "@/components/warningMessage.svelte";
+  import { librarySeo } from "@/config/library-seo";
 
   import Files from "@lucide/svelte/icons/files";
   import SearchXIcon from "@lucide/svelte/icons/search-x";
@@ -96,7 +97,8 @@
 </script>
 
 <svelte:head>
-  <title>Browse library — 5svg</title>
+  <title>{librarySeo.title}</title>
+  <meta name="description" content={librarySeo.description} />
 </svelte:head>
 
 <Search
@@ -149,6 +151,20 @@
     <WarningMessage />
   {/if}
   <Container className="my-6">
+    <div class="sr-only">
+      <h1>{librarySeo.h1}</h1>
+      <p>{librarySeo.lead}</p>
+      <section>
+        <h2>{librarySeo.sections.search.h2}</h2>
+        <p>{librarySeo.sections.search.body}</p>
+        <h3>{librarySeo.sections.search.h3}</h3>
+      </section>
+      <section>
+        <h2>{librarySeo.sections.download.h2}</h2>
+        <p>{librarySeo.sections.download.body}</p>
+        <h3>{librarySeo.sections.download.h3}</h3>
+      </section>
+    </div>
     <Grid>
       {#each displaySvgs as svg (svg.id)}
         <SvgCard svgInfo={svg} />

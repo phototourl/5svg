@@ -22,8 +22,14 @@
   import ChevronDownIcon from "@lucide/svelte/icons/chevron-down";
   import ChevronUpIcon from "@lucide/svelte/icons/chevron-up";
 
+  import { getDirectorySeo } from "@/config/directory-seo";
+
   // SSR Data:
   let { data }: PageProps = $props();
+
+  const directorySeo = $derived(
+    getDirectorySeo(data.category, data.initialSvgs.length),
+  );
 
   // States:
   const INITIAL_DISPLAY = 30;
@@ -75,13 +81,32 @@
 </script>
 
 <svelte:head>
-  <title>{data.category} SVG icons - 5svg</title>
+  <title>{directorySeo.title}</title>
+  <meta name="description" content={directorySeo.description} />
 </svelte:head>
+
+<div class="space-y-1 px-0.5">
+  <h1 class="text-lg font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
+    {directorySeo.headerH1}
+  </h1>
+  <p class="text-sm text-neutral-500 dark:text-neutral-400">
+    {directorySeo.subtitle}
+  </p>
+</div>
+
+<div class="sr-only">
+  {#each directorySeo.sections as section (section.h2)}
+    <section>
+      <h2>{section.h2}</h2>
+      <h3>{section.h3}</h3>
+    </section>
+  {/each}
+</div>
 
 <Search
   searchValue={searchTerm}
   onSearch={handleSearch}
-  placeholder={`Search ${data.category}'s SVGs...`}
+  placeholder={`Search free ${data.category} SVG icons...`}
 />
 
 <PageCard
@@ -110,13 +135,12 @@
       {:else}
         <FolderIcon class="ml-1" size={18} strokeWidth={1.5} />
       {/if}
-      <p>
-        {data.category}
-      </p>
-      <span>-</span>
+      <p class="text-base font-medium">{data.category}</p>
+      <span aria-hidden="true">·</span>
       {#if !searchTerm}
         <p>
-          <span>{data.initialSvgs.length} SVGs </span>
+          <span class="font-mono">{data.initialSvgs.length}</span>
+          <span>SVG logos</span>
         </p>
       {:else}
         <p>
@@ -148,6 +172,13 @@
     </div>
   </PageHeader>
   <Container className="my-6">
+    <div class="mb-3 space-y-0.5">
+      {#each directorySeo.sections as section (section.h3)}
+        <h3 class="text-xs font-medium text-neutral-500 dark:text-neutral-400">
+          {section.h3}
+        </h3>
+      {/each}
+    </div>
     <Grid>
       {#each displaySvgs as svg (svg.id)}
         <SvgCard svgInfo={svg} />

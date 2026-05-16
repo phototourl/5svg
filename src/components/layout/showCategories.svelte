@@ -20,6 +20,11 @@
   });
 </script>
 
+<h2
+  class="mb-1 px-2 text-[11px] font-semibold tracking-wider text-neutral-500 uppercase dark:text-neutral-400"
+>
+  Categories
+</h2>
 {#each categories.sort() as category (category)}
   <InternalLink
     href={`/directory/${category.toLowerCase()}`}
@@ -31,7 +36,7 @@
       "pr-3",
     )}
   >
-    <p class="truncate">{category}</p>
+    <h3 class="truncate text-sm font-normal">{category}</h3>
     <span
       class={cn(sidebarBadgeClasses, page.url.pathname && "border-transparent")}
     >

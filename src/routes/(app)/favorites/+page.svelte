@@ -19,6 +19,7 @@
   import Search from "@/components/search.svelte";
   import SvgCard from "@/components/svgs/svgCard.svelte";
   import SvgNotFound from "@/components/svgs/svgNotFound.svelte";
+  import { favoritesSeo } from "@/config/favorites-seo";
 
   import SearchIcon from "@lucide/svelte/icons/search";
   import SearchXIcon from "@lucide/svelte/icons/search-x";
@@ -63,8 +64,8 @@
 </script>
 
 <svelte:head>
-  <title>Favorites - 5svg</title>
-  <meta name="description" content="Your favorite SVGs." />
+  <title>{favoritesSeo.title}</title>
+  <meta name="description" content={favoritesSeo.description} />
 </svelte:head>
 
 <Search
@@ -93,7 +94,7 @@
       {:else}
         <FolderHeart size={18} strokeWidth={1.5} />
       {/if}
-      <p>Favorites</p>
+      <p class="text-base font-medium">Favorites</p>
       {#if favoritesCount > 0}
         <span>-</span>
         {#if !searchTerm}
@@ -114,6 +115,20 @@
     {/if}
   </PageHeader>
   <Container className="my-6">
+    <div class="sr-only">
+      <h1>{favoritesSeo.h1}</h1>
+      <p>{favoritesSeo.lead}</p>
+      <section>
+        <h2>{favoritesSeo.sections.manage.h2}</h2>
+        <p>{favoritesSeo.sections.manage.body}</p>
+        <h3>{favoritesSeo.sections.manage.h3}</h3>
+      </section>
+      <section>
+        <h2>{favoritesSeo.sections.browse.h2}</h2>
+        <p>{favoritesSeo.sections.browse.body}</p>
+        <h3>{favoritesSeo.sections.browse.h3}</h3>
+      </section>
+    </div>
     <Grid>
       {#each filteredFavorites as svg (svg.id)}
         <SvgCard svgInfo={svg} />

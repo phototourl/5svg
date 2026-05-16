@@ -23,6 +23,8 @@ const docs = defineCollection({
   include: "**/*.md",
   schema: z.object({
     title: z.string(),
+    /** Full `<title>` when set (40–60 chars). Falls back to `{title} | 5SVG — Free SVG Files`. */
+    metaTitle: z.string().optional(),
     description: z.string(),
     content: z.string(),
   }),

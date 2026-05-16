@@ -1,11 +1,12 @@
 ---
 title: API Reference
-description: API reference for the 5SVG asset catalog.
+metaTitle: 5SVG REST API Reference — SVG Icons & Categories
+description: Free REST API to list, search, and fetch SVG icons and brand logo vectors from the 5SVG catalog. JSON endpoints, TypeScript types, and rate limits.
 ---
 
 ## Introduction
 
-5SVG API is a RESTFul API that allows you to get all the information of the SVGs that are in the repository.
+The 5SVG REST API gives you free access to our SVG library: list every vector icon, search SVG files by title, filter by category, and fetch raw SVG markup for apps, plugins, and design tools. Responses include download URLs, categories, and optional light/dark SVG variants.
 
 ## Limitations
 
