@@ -5,18 +5,18 @@ description: How to use shadcn/ui to add SVGs to your project.
 
 ## shadcn/ui
 
-SVGL v5 support [shadcn/ui](https://ui.shadcn.com/) registry 🎉, so you can easily add SVGs to your project using [their CLI](https://ui.shadcn.com/docs/cli). Add the registry config once and you will be able to install any SVG in **`.tsx`** using `npm`, `yarn`, `bun` or `pnpm`.
+5SVG v5 support [shadcn/ui](https://ui.shadcn.com/) registry 🎉, so you can easily add SVGs to your project using [their CLI](https://ui.shadcn.com/docs/cli). Add the registry config once and you will be able to install any SVG in **`.tsx`** using `npm`, `yarn`, `bun` or `pnpm`.
 
 ## Add registry (optional)
 
 > If you have already added shadcn/ui in your project, you can skip this step.
 
-Add the SVGL registry to your `components.json` file:
+Add the 5SVG registry to your `components.json` file:
 
 ```json
 {
   "registries": {
-    "@svgl": "https://svgl.app/r/{name}.json"
+    "@5svg": "https://5svg.com/r/{name}.json"
   }
 }
 ```
@@ -28,33 +28,33 @@ Add the SVGL registry to your `components.json` file:
 Add SVGs using the [shadcn/ui CLI](https://ui.shadcn.com/docs/cli/installation):
 
 ```bash
-npx shadcn@latest add @svgl/sanity
+npx shadcn@latest add @5svg/sanity
 # or
-pnpm dlx shadcn@latest add @svgl/sanity
+pnpm dlx shadcn@latest add @5svg/sanity
 # or
-yarn dlx shadcn@latest add @svgl/sanity
+yarn dlx shadcn@latest add @5svg/sanity
 # or
-bunx shadcn@latest add @svgl/sanity
+bunx shadcn@latest add @5svg/sanity
 ```
 
 Add multiple SVGs at once:
 
 ```bash
-pnpm dlx shadcn@latest add @svgl/sanity @svgl/github @svgl/supabase @svgl/vercel
+pnpm dlx shadcn@latest add @5svg/sanity @5svg/github @5svg/supabase @5svg/vercel
 ```
 
 ## MCP Server
 
-You can use the [shadcn MCP server](https://ui.shadcn.com/docs/mcp) to browse, search, and add React SVGs from SVGL registry:
+You can use the [shadcn MCP server](https://ui.shadcn.com/docs/mcp) to browse, search, and add React SVGs from 5SVG registry:
 
 ### Prerequisites
 
-You need to have `@svgl` in your `components.json` file:
+You need to have `@5svg` in your `components.json` file:
 
 ```json
 {
   "registries": {
-    "@svgl": "https://svgl.app/r/{name}.json"
+    "@5svg": "https://5svg.com/r/{name}.json"
   }
 }
 ```
@@ -87,12 +87,12 @@ Then, open `.vscode/mcp.json` and click Start next to the shadcn server.
 
 ### Example Prompts
 
-Here are some example prompts you can use to add SVGs from SVGL registry:
+Here are some example prompts you can use to add SVGs from 5SVG registry:
 
 ```
-Can you add the "GitHub" SVG from SVGL registry?
+Can you add the "GitHub" SVG from 5SVG registry?
 ```
 
 ```
-Please add React, Svelte and Vue SVGs from SVGL registry.
+Please add React, Svelte and Vue SVGs from 5SVG registry.
 ```

@@ -1,6 +1,6 @@
 import type { ThemeOptions } from '../../src/types/svg';
 
-const fullUrl = 'https://svgl.app';
+const fullUrl = 'https://5svg.com';
 
 export const addFullUrl = (value: string | ThemeOptions): string | ThemeOptions => {
   if (typeof value === 'string') {

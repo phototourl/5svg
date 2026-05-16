@@ -1,4 +1,4 @@
-name = "svglapi"
+name = "5svg-api"
 main = "src/index.ts"
 minify = true
 compatibility_date = "2023-12-01"

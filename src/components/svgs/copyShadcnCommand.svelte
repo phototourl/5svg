@@ -49,4 +49,4 @@
     />
   </ExternalLink>
 </div>
-<CodeBlock code={`${shadcnCommand} @svgl/${svgFormatTitle}`} />
+<CodeBlock code={`${shadcnCommand} @5svg/${svgFormatTitle}`} />

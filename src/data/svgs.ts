@@ -2790,10 +2790,10 @@ export const svgs: iSVG[] = [
     url: "https://www.gnu.org/software/emacs/",
   },
   {
-    title: "Svgl",
+    title: "5svg",
     category: "Library",
     route: "/library/svgl.svg",
-    url: "https://svgl.app",
+    url: "https://5svg.com",
   },
   {
     title: "Google Idx",

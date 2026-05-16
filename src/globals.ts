@@ -1,16 +1,16 @@
+import { brand } from "@/brand";
+
 export const globals = {
-  appUrl: "https://svgl.app",
-  githubUrl: "https://github.com/pheralb/svgl",
+  appUrl: brand.siteUrl,
+  githubUrl: brand.githubUrl,
   apiGithub: {
-    url: "https://ungh.cc/repos/pheralb/svgl",
-    fallback: 5000,
+    url: "https://ungh.cc/repos/phototourl/5svg",
+    fallback: 0,
   },
-  twitterUrl: "https://x.com/pheralb_",
-  sponsorLink: "https://github.com/sponsors/pheralb",
-  submitUrl:
-    "https://github.com/pheralb/svgl?tab=readme-ov-file#-getting-started",
-  requestSvgUrl:
-    "https://github.com/pheralb/svgl/issues/new?template=request-svg.yml",
-  registryUrl: "https://svgl.app/r/",
+  twitterUrl: brand.siteUrl,
+  sponsorLink: brand.githubUrl,
+  submitUrl: `${brand.githubUrl}/issues/new/choose`,
+  requestSvgUrl: `${brand.githubUrl}/issues/new/choose`,
+  registryUrl: `${brand.siteUrl}/r/`,
   v0Url: "https://v0.dev/chat/api/open?url=",
 };

@@ -6,7 +6,7 @@ export const extensions: Extension[] = [
     description: "A CLI for easily adding SVG icons to your project.",
     url: "https://github.com/sujjeee/svgls",
     image:
-      "https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static/images/svgl_svg.svg",
+      "https://raw.githubusercontent.com/phototourl/5svg/refs/heads/main/static/images/svgl_svg.svg",
     created_by: {
       name: "sujjeee",
       socialUrl: "https://x.com/sujjeeee",
@@ -18,7 +18,7 @@ export const extensions: Extension[] = [
       "An open-source NPM package that offers a SVGL Logos for React.",
     url: "https://github.com/ridemountainpig/svgl-react",
     image:
-      "https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static/library/react_light.svg",
+      "https://raw.githubusercontent.com/phototourl/5svg/refs/heads/main/static/library/react_light.svg",
     created_by: {
       name: "ridemountainpig",
       socialUrl: "https://x.com/ridemountainpig",
@@ -30,7 +30,7 @@ export const extensions: Extension[] = [
       "Import colorful SVG logos, fast and easy using our plugin for Framer.",
     url: "https://www.framer.com/marketplace/plugins/svgl/",
     image:
-      "https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static/library/framer.svg",
+      "https://raw.githubusercontent.com/phototourl/5svg/refs/heads/main/static/library/framer.svg",
     created_by: {
       name: "Krishna Singh",
       socialUrl: "https://x.com/krishnasinghdev",
@@ -41,7 +41,7 @@ export const extensions: Extension[] = [
     description: "An open-source NPM package that offers a SVGL Logos for Vue.",
     url: "https://github.com/selemondev/svgl-vue",
     image:
-      "https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static/library/vue.svg",
+      "https://raw.githubusercontent.com/phototourl/5svg/refs/heads/main/static/library/vue.svg",
     created_by: {
       name: "selemondev",
       socialUrl: "https://x.com/selemondev",
@@ -52,7 +52,7 @@ export const extensions: Extension[] = [
     description:
       "An open-source NPM package that offers a SVGL Logos for Svelte.",
     url: "https://github.com/selemondev/svgl-svelte",
-    image: "https://github.com/pheralb/svgl/raw/main/static/library/svelte.svg",
+    image: "https://github.com/phototourl/5svg/raw/main/static/library/svelte.svg",
     created_by: {
       name: "selemondev",
       socialUrl: "https://x.com/selemondev",
@@ -62,7 +62,7 @@ export const extensions: Extension[] = [
     name: "SVGL for Figma",
     description: "Add svgs from svgl to your Figma project.",
     url: "https://www.figma.com/community/plugin/1320306989350693206/svgl",
-    image: "https://github.com/pheralb/svgl/raw/main/static/library/figma.svg",
+    image: "https://github.com/phototourl/5svg/raw/main/static/library/figma.svg",
     created_by: {
       name: "quilljou",
       socialUrl: "https://x.com/quillzhou",
@@ -73,7 +73,7 @@ export const extensions: Extension[] = [
     description: "Search & copy SVG logos in PowerToys Run.",
     url: "https://svgl.sameerjs.com/",
     image:
-      "https://github.com/pheralb/svgl/raw/main/static/library/powertoys.svg",
+      "https://github.com/phototourl/5svg/raw/main/static/library/powertoys.svg",
     created_by: {
       name: "SameerJS6",
       socialUrl: "https://x.com/Sameerjs6",
@@ -84,7 +84,7 @@ export const extensions: Extension[] = [
     description: "Search SVG logos via svgl.",
     url: "https://www.raycast.com/1weiho/svgl",
     image:
-      "https://github.com/pheralb/svgl/raw/main/static/library/raycast.svg",
+      "https://github.com/phototourl/5svg/raw/main/static/library/raycast.svg",
     created_by: {
       name: "1weiho",
       socialUrl: "https://x.com/1weiho",
@@ -94,7 +94,7 @@ export const extensions: Extension[] = [
     name: "SVGL for Visual Studio Code",
     description: "SVGL directly in your VSCode.",
     url: "https://marketplace.visualstudio.com/items?itemName=EsteveSegura.svgl",
-    image: "https://github.com/pheralb/svgl/raw/main/static/library/vscode.svg",
+    image: "https://github.com/phototourl/5svg/raw/main/static/library/vscode.svg",
     created_by: {
       name: "girlazote",
       socialUrl: "https://x.com/girlazote",
@@ -127,7 +127,7 @@ export const extensions: Extension[] = [
     description: "PowerShell extension to quickly get svgl logos anywhere.",
     url: "https://github.com/spaansba/SVGL-PowerShell",
     image:
-      "https://github.com/pheralb/svgl/raw/main/static/library/powershell.svg",
+      "https://github.com/phototourl/5svg/raw/main/static/library/powershell.svg",
     created_by: {
       name: "Bart Spaans",
       socialUrl: "https://bsky.app/profile/bartspaans.bsky.social",
@@ -138,7 +138,7 @@ export const extensions: Extension[] = [
     description: "Search & copy SVG logos in Flow Launcher.",
     url: "https://github.com/spaansba/SVGL-Flow-Launcher",
     image:
-      "https://github.com/pheralb/svgl/raw/main/static/library/FlowLauncher.svg",
+      "https://github.com/phototourl/5svg/raw/main/static/library/FlowLauncher.svg",
     created_by: {
       name: "AF_Askar",
       socialUrl: "https://x.com/Askar_AF",

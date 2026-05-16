@@ -1,7 +1,7 @@
 import type { UnistNode, UnistTree } from "@/types/unist";
 import { visit } from "unist-util-visit";
 
-const APP_DOMAIN = "svgl.app";
+const APP_DOMAIN = "5svg.com";
 
 export const rehypeExternalLinks = () => {
   return (tree: UnistTree) => {

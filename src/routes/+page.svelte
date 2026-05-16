@@ -93,7 +93,7 @@
 </script>
 
 <svelte:head>
-  <title>A beautiful library with SVG logos - Svgl</title>
+  <title>5svg — SVG icons & vector resources</title>
 </svelte:head>
 
 <Search

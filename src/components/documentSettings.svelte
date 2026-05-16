@@ -43,7 +43,7 @@
   }
 
   const aiPrompt = $derived(
-    `The following is a documentation page from SVGL, a web app with SVG logos: ${documentUrl}. Help me understand how to use it. Be ready to explain concepts, give examples, or help debug based on it.`,
+    `The following is a documentation page from 5svg (5svg.com), a web app with SVG icons and vectors: ${documentUrl}. Help me understand how to use it. Be ready to explain concepts, give examples, or help debug based on it.`,
   );
 
   const aiOptions: AiOption[] = $derived([

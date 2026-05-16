@@ -1,30 +1,30 @@
 ---
 title: API Reference
-description: The API reference is a detailed documentation of all the endpoints available in the SVGL API.
+description: API reference for the 5SVG asset catalog.
 ---
 
 ## Introduction
 
-SVGL API is a RESTFul API that allows you to get all the information of the SVGs that are in the repository.
+5SVG API is a RESTFul API that allows you to get all the information of the SVGs that are in the repository.
 
 ## Limitations
 
 The API is currently open to everyone and does not require any authentication. However, to prevent abusive use of the API, there is a limit to the number of requests.
 
-> Don't use the API for create the same product as SVGL. The API is intended to be used for extensions, plugins, or other tools that can help the community.
+> Don't use the API for create the same product as 5SVG. The API is intended to be used for extensions, plugins, or other tools that can help the community.
 
 ## Base URLs
 
 SVGs URL:
 
 ```bash
-https://api.svgl.app
+https://5svg.com/api
 ```
 
 Categories URL:
 
 ```bash
-https://api.svgl.app/categories
+https://5svg.com/api/categories
 ```
 
 ## Typescript
@@ -48,14 +48,14 @@ export interface SVG {
 }
 ```
 
-> If you need types for the `category`, you can find them [here](https://github.com/pheralb/svgl/blob/main/src/types/categories.ts). Change the type of `category` to `Category | Category[]`.
+> If you need types for the `category`, you can find them [here](https://github.com/phototourl/5svg/blob/main/src/types/categories.ts). Change the type of `category` to `Category | Category[]`.
 
 ## Endpoints
 
 ### Get all SVGs
 
 ```bash
-https://api.svgl.app
+https://5svg.com/api
 ```
 
 ```json
@@ -65,7 +65,7 @@ https://api.svgl.app
     "id": 0,
     "title": "Discord",
     "category": "Software",
-    "route": "https://svgl.app/discord.svg",
+    "route": "https://5svg.com/discord.svg",
     "url": "https://discord.com/"
   },
   ...
@@ -75,7 +75,7 @@ https://api.svgl.app
 ### Get all SVGs with limit
 
 ```bash
-https://api.svgl.app?limit=10
+https://5svg.com/api?limit=10
 ```
 
 ```json
@@ -85,7 +85,7 @@ https://api.svgl.app?limit=10
     "id": 0,
     "title": "Discord",
     "category": "Software",
-    "route": "https://svgl.app/discord.svg",
+    "route": "https://5svg.com/discord.svg",
     "url": "https://discord.com/"
   },
   ...
@@ -95,7 +95,7 @@ https://api.svgl.app?limit=10
 ### Get SVGs by category
 
 ```bash
-https://api.svgl.app/category/software
+https://5svg.com/api/category/software
 ```
 
 ```json
@@ -105,27 +105,27 @@ https://api.svgl.app/category/software
     "id": 0,
     "title": "Discord",
     "category": "Software",
-    "route": "https://svgl.app/discord.svg",
+    "route": "https://5svg.com/discord.svg",
     "url": "https://discord.com/"
   },
   ...
 ]
 ```
 
-> The list of categories is available [here](https://github.com/pheralb/svgl/blob/main/src/types/categories.ts).
+> The list of categories is available [here](https://github.com/phototourl/5svg/blob/main/src/types/categories.ts).
 
 ### Get the SVG code
 
 Optimized SVG using [svgo](https://github.com/svg/svgo):
 
 ```bash
-https://api.svgl.app/svg/adobe.svg
+https://5svg.com/api/svg/adobe.svg
 ```
 
 No optimized SVG:
 
 ```bash
-https://api.svgl.app/svg/adobe.svg?no-optimize
+https://5svg.com/api/svg/adobe.svg?no-optimize
 ```
 
 ```html
@@ -156,7 +156,7 @@ https://api.svgl.app/svg/adobe.svg?no-optimize
 ### Search SVG by title
 
 ```bash
-https://api.svgl.app?search=axiom
+https://5svg.com/api?search=axiom
 ```
 
 ```json
@@ -167,8 +167,8 @@ https://api.svgl.app?search=axiom
     "title": "Axiom",
     "category": "Software",
     "route": {
-      "light": "https://svgl.app/axiom-light.svg",
-      "dark": "https://svgl.app/axiom-dark.svg"
+      "light": "https://5svg.com/axiom-light.svg",
+      "dark": "https://5svg.com/axiom-dark.svg"
     },
     "url": "https://axiom.co/"
   }
@@ -178,7 +178,7 @@ https://api.svgl.app?search=axiom
 ### Get the list of categories
 
 ```bash
-https://api.svgl.app/categories
+https://5svg.com/api/categories
 ```
 
 ```json

@@ -75,7 +75,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.category} SVG logos - Svgl</title>
+  <title>{data.category} SVG icons - 5svg</title>
 </svelte:head>
 
 <Search

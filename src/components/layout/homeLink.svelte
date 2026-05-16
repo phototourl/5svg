@@ -18,10 +18,10 @@
   import HeartHandshakeIcon from "@lucide/svelte/icons/heart-handshake";
 
   const svgInfo = {
-    title: "Svgl",
+    title: "5svg",
     category: "Library",
     route: `/library/svgl.svg`,
-    url: "https://svgl.app",
+    url: "https://5svg.com",
   } as iSVG;
 
   const copySvgToClipboard = async () => {
@@ -53,7 +53,7 @@
       className="flex items-center space-x-2 transition-colors hover:text-neutral-700 dark:hover:text-neutral-300"
     >
       <Svgl size={28} />
-      <h2 class="text-xl font-medium tracking-tight">svgl</h2>
+      <h2 class="text-xl font-medium tracking-tight">5svg</h2>
     </InternalLink>
   </ContextMenu.Trigger>
   <ContextMenu.Content class="w-fit">

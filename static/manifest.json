@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "SVGL",
-  "short_name": "SVGL",
-  "description": "A beautiful library with SVG logos",
+  "name": "5SVG",
+  "short_name": "5svg",
+  "description": "5svg — SVG icons & vector resources",
   "icons": [
     {
       "src": "/images/icons/icon-192x192.png",

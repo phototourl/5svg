@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.document.title} - Svgl</title>
+  <title>{data.document.title} - 5svg</title>
   <meta name="description" content={data.document.description} />
 </svelte:head>
 

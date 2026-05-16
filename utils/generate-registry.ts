@@ -40,8 +40,8 @@ interface ShadcnSchema {
 
 const shadcnSchema: ShadcnSchema = {
   $schema: "https://ui.shadcn.com/schema/registry.json",
-  name: "svgl",
-  homepage: "https://svgl.app",
+  name: "5svg",
+  homepage: "https://5svg.com",
   items: [],
 };
 

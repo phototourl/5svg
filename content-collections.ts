@@ -49,8 +49,8 @@ const docs = defineCollection({
       createdAt: new Date(birthtimeMs),
       updatedAt: new Date(mtimeMs),
       tableOfContents,
-      rawUrl: `https://svgl.app/api/docs/${document._meta.path}`,
-      documentUrl: `https://svgl.app/docs/${document._meta.path}`,
+      rawUrl: `https://5svg.com/api/docs/${document._meta.path}`,
+      documentUrl: `https://5svg.com/docs/${document._meta.path}`,
     };
   },
 });

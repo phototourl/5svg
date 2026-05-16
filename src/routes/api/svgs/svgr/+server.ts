@@ -5,7 +5,7 @@ import { optimizeSvg } from "@/utils/optimizeSvg";
 import { parseReactSvgContent } from "@/utils/parseReactSvgContent";
 
 export const GET = async () => {
-  return redirect(301, "https://svgl.app/api");
+  return redirect(301, "https://5svg.com/api");
 };
 
 export const POST = async ({ request }: RequestEvent) => {

@@ -20,6 +20,7 @@
   import PackageOpen from "@lucide/svelte/icons/package-open";
   import PlusIcon from "@lucide/svelte/icons/plus";
   import Search from "@/components/search.svelte";
+  import { globals } from "@/globals";
 
   // SSR Data:
   let { data }: PageProps = $props();
@@ -46,10 +47,10 @@
 </script>
 
 <svelte:head>
-  <title>Extensions - Svgl</title>
+  <title>Extensions - 5svg</title>
   <meta
     name="description"
-    content="Integrate SVGL with your favorite tools and apps to streamline your workflow. Created by the community."
+    content="Integrate 5svg with your favorite tools and apps. Community extensions."
   />
 </svelte:head>
 
@@ -68,8 +69,8 @@
       class={cn("flex w-full flex-col items-center justify-center space-y-4")}
     >
       <p>
-        Integrate SVGL with your favorite tools and apps to streamline your
-        workflow. Created by the community.
+        Integrate 5svg with your favorite tools and apps. Created by the
+        community.
       </p>
       <div class="flex items-center space-x-2">
         <a href="/docs/api" class={cn(buttonVariants({ variant: "radial" }))}>
@@ -78,7 +79,7 @@
         </a>
         <a
           target="_blank"
-          href="https://github.com/pheralb/svgl/issues/new/choose"
+          href="{globals.githubUrl}/issues/new/choose"
           class={cn(buttonVariants({ variant: "outline" }))}
         >
           <PlusIcon size={16} strokeWidth={2} />

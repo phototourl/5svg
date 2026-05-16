@@ -14,7 +14,7 @@ import { Redis } from "@upstash/redis/cloudflare";
 import { addFullUrl } from "./utils";
 import { optimizeSvg } from "../../src/utils/optimizeSvg";
 
-// 📦 Import data from SVGL src:
+// 📦 Import data from 5svg src:
 import { svgsData } from "../../src/data";
 
 declare module "hono" {
@@ -82,7 +82,7 @@ app.get("/", async (c) => {
   const { success } = await ratelimit.limit(ip ?? "anonymous");
 
   if (!success) {
-    return c.json({ error: "🛑 (SVGL - API) Too many request" }, 429);
+    return c.json({ error: "🛑 (5SVG - API) Too many request" }, 429);
   }
 
   if (limit) {
@@ -97,7 +97,7 @@ app.get("/", async (c) => {
       svg.title.toLowerCase().includes(search.toLowerCase()),
     );
     if (searchResults.length === 0) {
-      return c.json({ error: "❌ (SVGL - API) SVG not found" }, 404);
+      return c.json({ error: "❌ (5SVG - API) SVG not found" }, 404);
     }
     return c.json(searchResults);
   }
@@ -112,7 +112,7 @@ app.get("/categories", async (c) => {
   const { success } = await ratelimit.limit(ip ?? "anonymous");
 
   if (!success) {
-    return c.json({ error: "❌ (SVGL - API) Too many request" }, 429);
+    return c.json({ error: "❌ (5SVG - API) Too many request" }, 429);
   }
 
   const categoryTotals: Record<string, number> = {};
@@ -146,7 +146,7 @@ app.get("/category/:category", async (c) => {
   const { success } = await ratelimit.limit(ip ?? "anonymous");
 
   if (!success) {
-    return c.json({ error: "🛑 (SVGL - API) Too many request" }, 429);
+    return c.json({ error: "🛑 (5SVG - API) Too many request" }, 429);
   }
 
   const categorySvgs = fullRouteSvgsData.filter((svg) => {
@@ -159,7 +159,7 @@ app.get("/category/:category", async (c) => {
     return false;
   });
   if (categorySvgs.length === 0) {
-    return c.json({ error: "❌ (SVGL - API) Category not found" }, 404);
+    return c.json({ error: "❌ (5SVG - API) Category not found" }, 404);
   }
   return c.json(categorySvgs);
 });
@@ -167,7 +167,7 @@ app.get("/category/:category", async (c) => {
 // 🌱 GET: "/svg/:filename" - Return the SVG code file by filename:
 app.get("/svg/:filename", async (c) => {
   const fileName = c.req.param("filename") as string;
-  const svgLibrary = "https://svgl.app/library/";
+  const svgLibrary = "https://5svg.com/library/";
 
   const ratelimit = c.get("ratelimit");
   const returnNoOptimized = c.req.query("no-optimize");
@@ -175,13 +175,13 @@ app.get("/svg/:filename", async (c) => {
   const { success } = await ratelimit.limit(ip ?? "anonymous");
 
   if (!success) {
-    return c.json({ error: "🛑 (SVGL - API) Too many request" }, 429);
+    return c.json({ error: "🛑 (5SVG - API) Too many request" }, 429);
   }
 
   try {
     const svg = await fetch(`${svgLibrary}${fileName}`).then((res) => {
       if (!res.ok)
-        throw new Error("❌ (SVGL - API) Network response was not ok");
+        throw new Error("❌ (5SVG - API) Network response was not ok");
       return res.text();
     });
 
@@ -197,7 +197,7 @@ app.get("/svg/:filename", async (c) => {
     });
   } catch (err) {
     return c.json(
-      { error: `❌ (SVGL - API) SVG file not found - ${err}` },
+      { error: `❌ (5SVG - API) SVG file not found - ${err}` },
       404,
     );
   }

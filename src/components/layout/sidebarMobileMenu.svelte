@@ -21,7 +21,7 @@
 
 <Sheet.Root>
   <Sheet.Trigger
-    title="Open SVGL Menu"
+    title="Open 5svg menu"
     class={cn(buttonVariants({ variant: "ghost", size: "icon" }), className)}
   >
     <MenuIcon class="size-5" />
@@ -31,7 +31,7 @@
     <Sheet.Header>
       <Sheet.Title class="flex items-center space-x-2">
         <Svgl size={28} />
-        <h2 class="text-xl font-medium tracking-tight">svgl</h2>
+        <h2 class="text-xl font-medium tracking-tight">5svg</h2>
       </Sheet.Title>
     </Sheet.Header>
     <ScrollArea

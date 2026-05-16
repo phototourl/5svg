@@ -5,6 +5,7 @@
   import AlertTriangleIcon from "@lucide/svelte/icons/alert-triangle";
 
   import { warningStore, acceptWarning } from "@/stores/warning.store";
+  import { globals } from "@/globals";
 </script>
 
 {#if !$warningStore}
@@ -25,7 +26,7 @@
         Each SVG includes a link to its respective product. Permission must be
         obtained before using a logo. For removal requests,
         <a
-          href="https://github.com/pheralb/svgl/issues/new"
+          href="{globals.githubUrl}/issues/new"
           target="_blank"
           class="underline decoration-neutral-500 underline-offset-4"
         >

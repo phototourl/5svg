@@ -63,7 +63,7 @@
 </script>
 
 <svelte:head>
-  <title>Favorites - Svgl</title>
+  <title>Favorites - 5svg</title>
   <meta name="description" content="Your favorite SVGs." />
 </svelte:head>
 
