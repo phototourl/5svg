@@ -34,17 +34,17 @@
       <img
         src={logoStackLight}
         alt={siteLogoAlt}
-        width={40}
-        height={40}
-        class="size-10 object-contain dark:hidden"
+        width={56}
+        height={56}
+        class="size-14 shrink-0 object-contain dark:hidden"
       />
       <img
         src={logoStackDark}
         alt={siteLogoAlt}
         aria-hidden="true"
-        width={40}
-        height={40}
-        class="hidden size-10 object-contain dark:block"
+        width={56}
+        height={56}
+        class="hidden size-14 shrink-0 object-contain dark:block"
       />
       <span
         class="text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"

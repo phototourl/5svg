@@ -46,18 +46,18 @@
         <img
           src={logoStackLight}
           alt={siteLogoAlt}
-          width={50}
-          height={50}
-          class="size-[50px] shrink-0 object-contain dark:hidden"
+          width={56}
+          height={56}
+          class="size-14 shrink-0 object-contain dark:hidden"
           decoding="async"
         />
         <img
           src={logoStackDark}
           alt={siteLogoAlt}
           aria-hidden="true"
-          width={50}
-          height={50}
-          class="hidden size-[50px] shrink-0 object-contain dark:block"
+          width={56}
+          height={56}
+          class="hidden size-14 shrink-0 object-contain dark:block"
           decoding="async"
         />
         <h2 class="text-xl font-medium tracking-tight">5svg</h2>
