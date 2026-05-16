@@ -5,8 +5,9 @@ RUN corepack enable && corepack prepare pnpm@11.1.0 --activate
 WORKDIR /app
 
 FROM base AS deps
-COPY package.json pnpm-lock.yaml ./
-RUN pnpm install --frozen-lockfile
+# 安装前带上 Svelte 配置，避免 prepare 里 svelte-kit sync 报 Missing config
+COPY package.json pnpm-lock.yaml .npmrc svelte.config.js tsconfig.json vite.config.ts content-collections.ts ./
+RUN pnpm install --frozen-lockfile --dangerously-allow-all-builds
 
 # ========== 阶段 2：构建 ==========
 FROM base AS builder
