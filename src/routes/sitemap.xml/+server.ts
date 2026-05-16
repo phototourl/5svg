@@ -1,6 +1,5 @@
 import { brand } from "@/brand";
-import { getCategories } from "@/data";
-import { allDocs } from "content-collections";
+import { getCategories, getSvgsByCategory } from "@/data";
 
 const siteUrl = brand.siteUrl.replace(/\/+$/, "");
 
@@ -13,6 +12,10 @@ function escapeXml(value: string): string {
     .replace(/'/g, "&apos;");
 }
 
+function categoryPath(category: string): string {
+  return `/directory/${encodeURI(category.toLowerCase())}`;
+}
+
 function urlEntry(
   path: string,
   changefreq: "daily" | "weekly" | "monthly" = "weekly",
@@ -22,28 +25,48 @@ function urlEntry(
   return `  <url><loc>${escapeXml(loc)}</loc><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
 }
 
+/** Paths that are linked in nav and safe to index (no duplicate / hidden docs). */
+const publicPaths: Array<{
+  path: string;
+  changefreq: "daily" | "weekly" | "monthly";
+  priority: string;
+}> = [
+  { path: "/", changefreq: "daily", priority: "1.0" },
+  { path: "/library", changefreq: "daily", priority: "0.9" },
+  { path: "/favorites", changefreq: "weekly", priority: "0.5" },
+];
+
 export function GET() {
-  const urls: string[] = [
-    urlEntry("/", "daily", "1.0"),
-    urlEntry("/library", "daily", "0.9"),
-    urlEntry("/favorites", "weekly", "0.5"),
-  ];
+  const seen = new Set<string>();
+  const urls: string[] = [];
+
+  const add = (
+    path: string,
+    changefreq: "daily" | "weekly" | "monthly",
+    priority: string,
+  ) => {
+    const loc = `${siteUrl}${path}`;
+    if (seen.has(loc)) return;
+    seen.add(loc);
+    urls.push(urlEntry(path, changefreq, priority));
+  };
+
+  for (const entry of publicPaths) {
+    add(entry.path, entry.changefreq, entry.priority);
+  }
 
   for (const category of getCategories()) {
-    urls.push(urlEntry(`/directory/${category.toLowerCase()}`, "weekly", "0.8"));
+    if (getSvgsByCategory(category).length === 0) continue;
+    add(categoryPath(category), "weekly", "0.8");
   }
 
   if (brand.showApiNav) {
-    urls.push(urlEntry("/docs/api", "monthly", "0.6"));
+    add("/docs/api", "monthly", "0.6");
   }
 
   if (brand.showDeveloperTools) {
-    urls.push(urlEntry("/extensions", "monthly", "0.5"));
-    urls.push(urlEntry("/docs/shadcn-ui", "monthly", "0.5"));
-  }
-
-  for (const doc of allDocs) {
-    urls.push(urlEntry(`/docs/${doc._meta.path}`, "monthly", "0.5"));
+    add("/extensions", "monthly", "0.5");
+    add("/docs/shadcn-ui", "monthly", "0.5");
   }
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
