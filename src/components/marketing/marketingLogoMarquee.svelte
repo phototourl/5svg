@@ -2,6 +2,8 @@
   import type { iSVG } from "@/types/svg";
   import { getSvgImgUrl } from "@/data";
   import { getSvgAltText } from "@/utils/svgAlt";
+  import { getSvgLibraryHref } from "@/utils/svgLinks";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
   import { mode } from "mode-watcher";
   interface Props {
     items: iSVG[];
@@ -26,9 +28,10 @@
       : ''}"
   >
     {#each track as svg, index (`${svg.id}-${svg.title}-${index}`)}
-      <div
-        class="flex h-16 w-28 shrink-0 items-center justify-center rounded-xl border border-neutral-200 bg-white px-3 dark:border-neutral-800 dark:bg-neutral-900"
+      <InternalLink
+        href={getSvgLibraryHref(svg)}
         title={svg.title}
+        className="flex h-16 w-28 shrink-0 items-center justify-center rounded-xl border border-neutral-200 bg-white px-3 transition-colors hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-brand/50"
       >
         <img
           src={getSvgImgUrl({ url: svg.route!, isDark })}
@@ -37,7 +40,7 @@
           loading="lazy"
           decoding="async"
         />
-      </div>
+      </InternalLink>
     {/each}
   </div>
 </div>

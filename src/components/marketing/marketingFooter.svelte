@@ -19,7 +19,7 @@
   <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-3">
     <div>
       <h3
-        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand-energy"
+        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
       >
         Explore
       </h3>
@@ -39,7 +39,7 @@
 
     <div>
       <h3
-        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand-energy"
+        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
       >
         Categories
       </h3>
@@ -59,7 +59,7 @@
 
     <div>
       <h3
-        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand-energy"
+        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
       >
         We're here for you
       </h3>

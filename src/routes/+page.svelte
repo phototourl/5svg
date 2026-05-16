@@ -19,6 +19,8 @@
   import FolderOpen from "@lucide/svelte/icons/folder-open";
   import { mode } from "mode-watcher";
   import { getSvgAltText } from "@/utils/svgAlt";
+  import { getCategoryHref } from "@/utils/svgLinks";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
 
   const valueProps = [
     {
@@ -189,39 +191,43 @@
     </p>
     <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {#each categoryStats as cat (cat.name)}
-        <li
-          class="flex items-center gap-3 rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3.5 dark:border-neutral-800 dark:bg-neutral-900"
-        >
-          <div
-            class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-neutral-200 bg-white p-1.5 dark:border-neutral-700 dark:bg-neutral-950"
+        <li>
+          <InternalLink
+            href={getCategoryHref(cat.name)}
+            title={`Browse ${cat.name} SVGs`}
+            className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3.5 transition-colors hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-brand/50"
           >
-            {#if cat.preview?.route}
-              <img
-                src={getSvgImgUrl({ url: cat.preview.route, isDark: categoryIconDark })}
-                alt={getSvgAltText(cat.preview)}
-                class="max-h-full max-w-full object-contain"
-                loading="lazy"
-                decoding="async"
-              />
-            {:else}
-              <FolderOpen
-                size={20}
-                strokeWidth={1.75}
-                class="text-neutral-400 dark:text-neutral-500"
-                aria-hidden="true"
-              />
-            {/if}
-          </div>
-          <div class="flex min-w-0 flex-1 items-center justify-between gap-2">
-            <span
-              class="font-medium capitalize text-neutral-900 dark:text-neutral-50"
+            <div
+              class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-neutral-200 bg-white p-1.5 dark:border-neutral-700 dark:bg-neutral-950"
             >
-              {cat.name}
-            </span>
-            <span class="shrink-0 text-sm tabular-nums text-neutral-500 dark:text-neutral-400">
-              {cat.count} SVG{cat.count === 1 ? "" : "s"}
-            </span>
-          </div>
+              {#if cat.preview?.route}
+                <img
+                  src={getSvgImgUrl({ url: cat.preview.route, isDark: categoryIconDark })}
+                  alt={getSvgAltText(cat.preview)}
+                  class="max-h-full max-w-full object-contain"
+                  loading="lazy"
+                  decoding="async"
+                />
+              {:else}
+                <FolderOpen
+                  size={20}
+                  strokeWidth={1.75}
+                  class="text-neutral-400 dark:text-neutral-500"
+                  aria-hidden="true"
+                />
+              {/if}
+            </div>
+            <div class="flex min-w-0 flex-1 items-center justify-between gap-2">
+              <span
+                class="font-medium capitalize text-neutral-900 dark:text-neutral-50"
+              >
+                {cat.name}
+              </span>
+              <span class="shrink-0 text-sm tabular-nums text-neutral-500 dark:text-neutral-400">
+                {cat.count} SVG{cat.count === 1 ? "" : "s"}
+              </span>
+            </div>
+          </InternalLink>
         </li>
       {/each}
     </ul>

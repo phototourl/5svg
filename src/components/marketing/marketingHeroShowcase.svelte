@@ -10,6 +10,8 @@
   } from "@/data";
   import { cn } from "@/utils/cn";
   import { getSvgAltText } from "@/utils/svgAlt";
+  import { getSvgLibraryHref } from "@/utils/svgLinks";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
   import { mode } from "mode-watcher";
   import * as Tabs from "@/components/ui/tabs";
   const TAB_ROTATE_MS = 4500;
@@ -118,9 +120,13 @@
           class="grid grid-cols-4 gap-3 rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm dark:border-neutral-800 dark:bg-neutral-950"
         >
           {#each tab.items as svg (`${tab.id}-${svg.id}`)}
-            <div
-              class="flex aspect-square items-center justify-center rounded-lg border border-neutral-200 bg-neutral-50 p-2 dark:border-neutral-800 dark:bg-neutral-900"
+            <InternalLink
+              href={getSvgLibraryHref(svg)}
               title={svg.title}
+              className={cn(
+                "flex aspect-square items-center justify-center rounded-lg border border-neutral-200 bg-neutral-50 p-2 transition-colors",
+                "hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-brand/50",
+              )}
             >
               <img
                 src={getSvgImgUrl({ url: svg.route!, isDark })}
@@ -129,7 +135,7 @@
                 loading="lazy"
                 decoding="async"
               />
-            </div>
+            </InternalLink>
           {/each}
         </div>
       </Tabs.Content>

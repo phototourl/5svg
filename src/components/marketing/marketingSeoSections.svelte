@@ -3,6 +3,8 @@
   import { getSvgsByTitles, getSvgImgUrl } from "@/data";
   import { cn } from "@/utils/cn";
   import { getSvgAltText } from "@/utils/svgAlt";
+  import { getSvgLibraryHref } from "@/utils/svgLinks";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
   import { mode } from "mode-watcher";
 
   const isDark = $derived(mode.current === "dark");
@@ -76,11 +78,15 @@
       {#if visuals.length > 0}
         <div
           class="grid grid-cols-2 gap-3 rounded-2xl border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-800 dark:bg-neutral-900/50"
-          aria-hidden="true"
         >
           {#each visuals as svg (`${block.id}-${svg.id}`)}
-            <div
-              class="flex aspect-square items-center justify-center rounded-xl border border-neutral-200 bg-white p-3 dark:border-neutral-700 dark:bg-neutral-950 sm:p-4"
+            <InternalLink
+              href={getSvgLibraryHref(svg)}
+              title={svg.title}
+              className={cn(
+                "flex aspect-square items-center justify-center rounded-xl border border-neutral-200 bg-white p-3 transition-colors sm:p-4",
+                "hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:border-brand/50",
+              )}
             >
               <img
                 src={getSvgImgUrl({ url: svg.route!, isDark })}
@@ -89,7 +95,7 @@
                 loading="lazy"
                 decoding="async"
               />
-            </div>
+            </InternalLink>
           {/each}
         </div>
       {/if}
