@@ -54,24 +54,30 @@
   const marqueeRowB = sampleSvgs(20, 11);
   const categoryStats = getCategoryStats(6);
   const categoryIconDark = $derived(mode.current === "dark");
+
+  const scriptClose = "</" + "script>";
+  const websiteJsonLdHtml =
+    '<script type="application/ld+json">' +
+    JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: siteSeo.siteName,
+      url: siteSeo.url,
+      description: siteSeo.description,
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${brand.siteUrl}/library?search={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    }) +
+    scriptClose;
 </script>
 
 <svelte:head>
   <title>{siteSeo.title}</title>
   <meta name="description" content={siteSeo.description} />
   <meta name="keywords" content={homeSeoMeta.keywords} />
-  {@html `<script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: siteSeo.siteName,
-    url: siteSeo.url,
-    description: siteSeo.description,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${brand.siteUrl}/library?search={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
-  })}</script>`}
+  {@html websiteJsonLdHtml}
 </svelte:head>
 
 <!-- Hero -->

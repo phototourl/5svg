@@ -18,6 +18,11 @@
   import { siteSeo } from "@/config/seo";
 
   let { data, children }: LayoutProps = $props();
+
+  const scriptClose = "</" + "script>";
+  const gaScriptHtml = $derived(
+    data.gaInlineScript ? "<script>" + data.gaInlineScript + scriptClose : "",
+  );
 </script>
 
 <svelte:head>
@@ -57,8 +62,8 @@
     crossorigin="anonymous"
   />
 
-  {#if data.gaInlineScript}
-    {@html `<script>${data.gaInlineScript}</script>`}
+  {#if gaScriptHtml}
+    {@html gaScriptHtml}
   {/if}
 </svelte:head>
 
