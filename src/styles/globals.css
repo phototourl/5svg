@@ -24,12 +24,32 @@
 }
 
 @theme {
+  /* 5SVG Green + Brown — src/brand.ts */
+  --color-brand: #15803d;
+  --color-brand-hover: #166534;
+  --color-brand-foreground: #ffffff;
+  --color-brand-energy: #5c4033;
+  --color-brand-energy-hover: #4a3728;
+  --color-brand-energy-foreground: #ffffff;
+  --color-brand-paper: #ffffff;
+  --color-brand-surface: #ffffff;
+  --color-brand-muted: #f4f4f5;
+  --color-brand-border: #e4e4e7;
+
   --font-sans:
     "Geist", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-mono:
     "GeistMono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace, "Apple Color Emoji";
+}
+
+/* Promo/CTA colors stay vivid; page content uses neutral + dark: */
+.dark {
+  --color-brand: #22c55e;
+  --color-brand-hover: #16a34a;
+  --color-brand-energy: #6b5344;
+  --color-brand-energy-hover: #5c4033;
 }
 
 /* Shiki light/dark mode */

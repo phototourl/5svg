@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { brand } from "@/brand";
   import { cn } from "@/utils/cn";
   import { globals } from "@/globals";
 
@@ -25,16 +26,18 @@
 </script>
 
 <InternalLink
-  href="/"
+  href="/library"
   preloadData={true}
   className={cn(
     sidebarItemClasses.base,
     "justify-start space-x-3",
-    page.url.pathname === "/" && sidebarItemClasses.active,
+    (page.url.pathname === "/library" ||
+      page.url.pathname.startsWith("/directory")) &&
+      sidebarItemClasses.active,
   )}
 >
   <House size={16} />
-  <p class="truncate">Home</p>
+  <p class="truncate">Free SVG</p>
 </InternalLink>
 <InternalLink
   href="/favorites"
@@ -57,43 +60,49 @@
     </span>
   {/if}
 </InternalLink>
-<InternalLink
-  preloadData={true}
-  href="/docs/api"
-  className={cn(
-    sidebarItemClasses.base,
-    "justify-start space-x-3",
-    String(page.url.pathname) === "/docs/api" && sidebarItemClasses.active,
-  )}
->
-  <Cloud size={16} />
-  <p class="truncate">API</p>
-</InternalLink>
-<InternalLink
-  preloadData={true}
-  href="/docs/shadcn-ui"
-  className={cn(
-    sidebarItemClasses.base,
-    "justify-start space-x-3",
-    String(page.url.pathname) === "/docs/shadcn-ui" &&
-      sidebarItemClasses.active,
-  )}
->
-  <Shadcn size={14} />
-  <p class="truncate">shadcn/ui</p>
-</InternalLink>
-<InternalLink
-  preloadData={true}
-  href="/extensions"
-  className={cn(
-    sidebarItemClasses.base,
-    "justify-start space-x-3",
-    String(page.url.pathname) === "/extensions" && sidebarItemClasses.active,
-  )}
->
-  <Box size={16} />
-  <p class="truncate">Extensions</p>
-</InternalLink>
+{#if brand.showApiNav}
+  <InternalLink
+    preloadData={true}
+    href="/docs/api"
+    className={cn(
+      sidebarItemClasses.base,
+      "justify-start space-x-3",
+      (page.url.pathname === "/docs/api" ||
+        page.url.pathname.startsWith("/docs/api/")) &&
+        sidebarItemClasses.active,
+    )}
+  >
+    <Cloud size={16} />
+    <p class="truncate">API</p>
+  </InternalLink>
+{/if}
+{#if brand.showDeveloperTools}
+  <InternalLink
+    preloadData={true}
+    href="/docs/shadcn-ui"
+    className={cn(
+      sidebarItemClasses.base,
+      "justify-start space-x-3",
+      String(page.url.pathname) === "/docs/shadcn-ui" &&
+        sidebarItemClasses.active,
+    )}
+  >
+    <Shadcn size={14} />
+    <p class="truncate">shadcn/ui</p>
+  </InternalLink>
+  <InternalLink
+    preloadData={true}
+    href="/extensions"
+    className={cn(
+      sidebarItemClasses.base,
+      "justify-start space-x-3",
+      String(page.url.pathname) === "/extensions" && sidebarItemClasses.active,
+    )}
+  >
+    <Box size={16} />
+    <p class="truncate">Extensions</p>
+  </InternalLink>
+{/if}
 {#if globals.enableSubmit}
   <ExternalLink
     href={globals.submitUrl}
@@ -106,13 +115,15 @@
     <p class="truncate">Submit SVG</p>
   </ExternalLink>
 {/if}
-<ExternalLink
-  href={globals.githubUrl}
-  className={cn(
-    sidebarItemClasses.base,
-    "flex justify-start space-x-3 md:hidden",
-  )}
->
-  <Github size={16} />
-  <p class="truncate">GitHub Repository</p>
-</ExternalLink>
+{#if brand.showDeveloperTools}
+  <ExternalLink
+    href={globals.githubUrl}
+    className={cn(
+      sidebarItemClasses.base,
+      "flex justify-start space-x-3 md:hidden",
+    )}
+  >
+    <Github size={16} />
+    <p class="truncate">GitHub Repository</p>
+  </ExternalLink>
+{/if}

@@ -4,6 +4,7 @@
   import { cn } from "@/utils/cn";
   import { mode } from "mode-watcher";
   import { getSvgImgUrl } from "@/data";
+  import { getSvgAltText } from "@/utils/svgAlt";
 
   // Icons:
   import XIcon from "@lucide/svelte/icons/x";
@@ -116,7 +117,7 @@
       loading="lazy"
       class={cn("hidden dark:block", globalImageStyles)}
       src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: true })}
-      alt={svgInfo.title}
+      alt={getSvgAltText(svgInfo, "wordmark")}
       title={svgInfo.title}
       height="40"
     />
@@ -124,7 +125,7 @@
       loading="lazy"
       class={cn("block dark:hidden", globalImageStyles)}
       src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: false })}
-      alt={svgInfo.title}
+      alt={getSvgAltText(svgInfo, "wordmark")}
       title={svgInfo.title}
       height="40"
     />
@@ -133,7 +134,7 @@
       loading="lazy"
       class={cn("hidden dark:block", globalImageStyles)}
       src={getSvgImgUrl({ url: svgInfo.route, isDark: true })}
-      alt={svgInfo.title}
+      alt={getSvgAltText(svgInfo)}
       title={svgInfo.title}
       height="40"
     />
@@ -141,7 +142,7 @@
       loading="lazy"
       class={cn("block dark:hidden", globalImageStyles)}
       src={getSvgImgUrl({ url: svgInfo.route, isDark: false })}
-      alt={svgInfo.title}
+      alt={getSvgAltText(svgInfo)}
       title={svgInfo.title}
       height="40"
     />

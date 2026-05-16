@@ -5,13 +5,15 @@ const buttonVariants = tv({
   variants: {
     variant: {
       default:
-        "bg-neutral-900 text-neutral-50 shadow hover:bg-neutral-900/90 dark:bg-neutral-800 dark:text-neutral-50 dark:hover:bg-neutral-800/70",
+        "bg-brand text-brand-foreground shadow-md shadow-brand/25 hover:bg-brand-hover dark:bg-brand dark:hover:bg-brand-hover",
       radial:
-        "bg-radial-[at_52%_-52%] **:[text-shadow:0_1px_0_var(--color-neutral-950)] border-neutral-950 from-neutral-950/70 to-neutral-950/95 text-white inset-shadow-2xs inset-shadow-white/25 border text-sm shadow-md shadow-neutral-950/30 ring-0 transition-[filter] duration-200 hover:brightness-125 active:brightness-95 dark:bg-white dark:text-neutral-50 dark:shadow-none dark:border-0",
+        "bg-brand text-brand-foreground text-sm font-semibold uppercase tracking-wide shadow-md shadow-brand/25 ring-0 transition-colors duration-200 hover:bg-brand-hover active:brightness-[0.97] dark:bg-brand dark:hover:bg-brand-hover",
+      accent:
+        "bg-brand-energy text-brand-energy-foreground shadow-md shadow-brand-energy/25 hover:bg-brand-energy-hover dark:bg-brand-energy dark:hover:bg-brand-energy-hover",
       destructive:
         "bg-red-500 text-neutral-50 shadow-sm hover:bg-red-500/90 dark:bg-red-900 dark:text-neutral-50 dark:hover:bg-red-900/90",
       outline:
-        "border border-neutral-200 bg-white hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 hover:border-neutral-300 dark:hover:border-neutral-700 shadow-none",
+        "border border-neutral-200 bg-white text-neutral-900 hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 hover:border-neutral-300 dark:hover:border-neutral-700 shadow-none",
       secondary:
         "bg-neutral-100 text-neutral-900 shadow-sm hover:bg-neutral-100/80 dark:bg-neutral-800 dark:text-neutral-50 dark:hover:bg-neutral-800/80",
       ghost:

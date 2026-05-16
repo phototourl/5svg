@@ -132,7 +132,7 @@
           Start adding SVGs to your favorites by clicking the heart icon on any
           SVG.
         </p>
-        <a href="/" class={buttonVariants({ variant: "outline" })}>
+        <a href="/library" class={buttonVariants({ variant: "outline" })}>
           <SearchIcon size={14} strokeWidth={1.5} />
           <span>Browse SVGs</span>
         </a>

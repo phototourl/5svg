@@ -1,16 +1,19 @@
 <script lang="ts">
   import type { iSVG } from "@/types/svg";
 
+  import { brand } from "@/brand";
   import { globals } from "@/globals";
   import { toast } from "svelte-sonner";
   import { clipboard } from "@/utils/clipboard";
 
   import { getSource } from "@/templates/getSource";
 
-  import Svgl from "@/components/logos/svgl.svelte";
+  import logoStackLight from "@/components/logos/logo_stack_light.png";
+  import logoStackDark from "@/components/logos/logo_stack_dark.png";
   import Github from "@/components/logos/github.svelte";
   import * as ContextMenu from "@/components/ui/context-menu";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
+  import { siteLogoAlt } from "@/utils/svgAlt";
 
   import BugIcon from "@lucide/svelte/icons/bug";
   import CopyIcon from "@lucide/svelte/icons/copy";
@@ -52,7 +55,23 @@
       href="/"
       className="flex items-center space-x-2 transition-colors hover:text-neutral-700 dark:hover:text-neutral-300"
     >
-      <Svgl size={28} />
+      <img
+        src={logoStackLight}
+        alt={siteLogoAlt}
+        width={50}
+        height={50}
+        class="size-[50px] shrink-0 object-contain dark:hidden"
+        decoding="async"
+      />
+      <img
+        src={logoStackDark}
+        alt={siteLogoAlt}
+        aria-hidden="true"
+        width={50}
+        height={50}
+        class="hidden size-[50px] shrink-0 object-contain dark:block"
+        decoding="async"
+      />
       <h2 class="text-xl font-medium tracking-tight">5svg</h2>
     </InternalLink>
   </ContextMenu.Trigger>
@@ -61,24 +80,26 @@
       <CopyIcon size={14} />
       <span>Copy SVG</span>
     </ContextMenu.Item>
-    <ContextMenu.Item
-      onclick={() => gotoUrl(`${globals.githubUrl}/issues/new/choose`)}
-    >
-      <BugIcon size={14} />
-      <span>Create Issue</span>
-      <ArrowUpRight size={14} />
-    </ContextMenu.Item>
-    {#if globals.enableSubmit}
-      <ContextMenu.Item onclick={() => gotoUrl(globals.submitUrl)}>
-        <HeartHandshakeIcon size={14} />
-        <span>Contribute</span>
+    {#if brand.showDeveloperTools}
+      <ContextMenu.Item
+        onclick={() => gotoUrl(`${globals.githubUrl}/issues/new/choose`)}
+      >
+        <BugIcon size={14} />
+        <span>Create Issue</span>
+        <ArrowUpRight size={14} />
+      </ContextMenu.Item>
+      {#if globals.enableSubmit}
+        <ContextMenu.Item onclick={() => gotoUrl(globals.submitUrl)}>
+          <HeartHandshakeIcon size={14} />
+          <span>Contribute</span>
+          <ArrowUpRight size={14} />
+        </ContextMenu.Item>
+      {/if}
+      <ContextMenu.Item onclick={() => gotoUrl(globals.githubUrl)}>
+        <Github size={14} />
+        <span>GitHub Repository</span>
         <ArrowUpRight size={14} />
       </ContextMenu.Item>
     {/if}
-    <ContextMenu.Item onclick={() => gotoUrl(globals.githubUrl)}>
-      <Github size={14} />
-      <span>GitHub Repository</span>
-      <ArrowUpRight size={14} />
-    </ContextMenu.Item>
   </ContextMenu.Content>
 </ContextMenu.Root>

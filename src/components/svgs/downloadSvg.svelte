@@ -6,6 +6,7 @@
 
   // Utils:
   import { cn } from "@/utils/cn";
+  import { getSvgAltText } from "@/utils/svgAlt";
   import { downloadAllVariants, downloadSvg } from "@/utils/downloadSvg";
 
   // Components:
@@ -124,7 +125,7 @@
           <div class={cardDownloadStyles}>
             <img
               src={isDarkTheme() ? svgInfo.route : svgInfo.route}
-              alt={svgInfo.title}
+              alt={getSvgAltText(svgInfo)}
               class={imgStyles}
             />
             <Button
@@ -149,7 +150,7 @@
           <div class={cardDownloadStyles}>
             <img
               src={isDarkTheme() ? svgInfo.route.dark : svgInfo.route.light}
-              alt={svgInfo.title}
+              alt={getSvgAltText(svgInfo)}
               class={imgStyles}
             />
             <Button
@@ -214,7 +215,7 @@
           <div class={cardDownloadStyles}>
             <img
               src={isDarkTheme() ? svgInfo.wordmark : svgInfo.wordmark}
-              alt={svgInfo.title}
+              alt={getSvgAltText(svgInfo)}
               class={imgStyles}
             />
             <Button
@@ -243,7 +244,7 @@
               src={isDarkTheme()
                 ? svgInfo.wordmark.dark
                 : svgInfo.wordmark.light}
-              alt={svgInfo.title}
+              alt={getSvgAltText(svgInfo)}
               class={imgStyles}
             />
             <Button

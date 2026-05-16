@@ -1,6 +1,8 @@
 <script lang="ts">
   import type { iSVG } from "@/types/svg";
 
+  import { brand } from "@/brand";
+
   // Utils:
   import { cn } from "@/utils/cn";
   import { clipboard } from "@/utils/clipboard";
@@ -397,6 +399,7 @@
     {/if}
   </Popover.Trigger>
   <Popover.Content class="flex flex-col space-y-2 p-4" sideOffset={2}>
+    {#if brand.showDeveloperTools}
     <Tabs.Root value="source" class="flex w-full flex-col space-y-1">
       <Tabs.List
         class="flex h-auto w-auto flex-col space-y-2 space-x-0 border-0 md:h-9 md:flex-row md:space-y-0 md:space-x-1"
@@ -575,6 +578,19 @@
         </section>
       </Tabs.Content>
     </Tabs.Root>
+    {:else}
+      <Button
+        variant="outline"
+        class="w-full justify-start"
+        title={isWordmarkSvg
+          ? "Copy wordmark SVG to clipboard"
+          : "Copy SVG to clipboard"}
+        onclick={() => copyToClipboard()}
+      >
+        <ClipboardIcon size={16} strokeWidth={2} />
+        <span>Copy SVG</span>
+      </Button>
+    {/if}
     <div
       class="mt-1 flex w-full items-center text-center text-[12px] text-neutral-600 dark:text-neutral-400"
     >

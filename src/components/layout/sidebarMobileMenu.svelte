@@ -1,12 +1,16 @@
 <script lang="ts">
+  import { page } from "$app/state";
   import { cn } from "@/utils/cn";
 
   import * as Sheet from "@/components/ui/sheet";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
   import { buttonVariants } from "@/components/ui/button";
   import Separator from "@/components/ui/separator/separator.svelte";
 
   import MenuIcon from "@lucide/svelte/icons/menu";
-  import Svgl from "@/components/logos/svgl.svelte";
+  import logoStackLight from "@/components/logos/logo_stack_light.png";
+  import logoStackDark from "@/components/logos/logo_stack_dark.png";
+  import { siteLogoAlt } from "@/utils/svgAlt";
 
   import ShowCategories from "@/components/layout/showCategories.svelte";
   import ShowSidebarLinks from "@/components/layout/showSidebarLinks.svelte";
@@ -17,9 +21,17 @@
   }
 
   let { className }: Props = $props();
+
+  let open = $state(false);
+
+  /** Close drawer after navigation so the tap feels responsive */
+  $effect(() => {
+    void page.url.pathname;
+    open = false;
+  });
 </script>
 
-<Sheet.Root>
+<Sheet.Root bind:open>
   <Sheet.Trigger
     title="Open 5svg menu"
     class={cn(buttonVariants({ variant: "ghost", size: "icon" }), className)}
@@ -29,9 +41,27 @@
   </Sheet.Trigger>
   <Sheet.Content class="gap-0.5" side="left">
     <Sheet.Header>
-      <Sheet.Title class="flex items-center space-x-2">
-        <Svgl size={28} />
+      <Sheet.Title>
+        <InternalLink href="/library" className="flex items-center space-x-2">
+        <img
+          src={logoStackLight}
+          alt={siteLogoAlt}
+          width={50}
+          height={50}
+          class="size-[50px] shrink-0 object-contain dark:hidden"
+          decoding="async"
+        />
+        <img
+          src={logoStackDark}
+          alt={siteLogoAlt}
+          aria-hidden="true"
+          width={50}
+          height={50}
+          class="hidden size-[50px] shrink-0 object-contain dark:block"
+          decoding="async"
+        />
         <h2 class="text-xl font-medium tracking-tight">5svg</h2>
+        </InternalLink>
       </Sheet.Title>
     </Sheet.Header>
     <ScrollArea

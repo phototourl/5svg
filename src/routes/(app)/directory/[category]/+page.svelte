@@ -93,7 +93,7 @@
       class="flex items-center space-x-2 font-medium text-neutral-950 dark:text-neutral-50"
     >
       <a
-        href="/"
+        href="/library"
         class={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
       >
         <ArrowLeftIcon size={18} strokeWidth={1.5} />
