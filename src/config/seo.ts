@@ -2,6 +2,11 @@ import { brand } from "@/brand";
 
 const siteUrl = brand.siteUrl.replace(/\/+$/, "");
 
+/** Bump when replacing static/favicon.png so CDN/browsers fetch the new file. */
+export const faviconVersion = "2";
+
+const faviconPath = `/favicon.png?v=${faviconVersion}`;
+
 /** Default SEO / Open Graph / Twitter (aligned with phototourl `seo-metadata.ts`) */
 export const siteSeo = {
   title: "5SVG — Free SVG Files & Vector Graphics",
@@ -15,6 +20,6 @@ export const siteSeo = {
   ogImageHeight: 630,
   ogImageAlt: "5SVG — free SVG files and vector graphics",
   twitterCard: "summary_large_image",
-  favicon: "/favicon.png",
-  appleTouchIcon: "/favicon.png",
+  favicon: faviconPath,
+  appleTouchIcon: faviconPath,
 } as const;
