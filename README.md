@@ -73,6 +73,17 @@ pnpm install
 pnpm dev
 ```
 
+## Analytics (Google)
+
+Measurement ID defaults in [`src/config/website.ts`](./src/config/website.ts) (`G-V4P03XBERL`), same pattern as phototourl env override:
+
+```bash
+# .env or Dokploy Environment (optional override)
+PUBLIC_GOOGLE_ANALYTICS_ID=G-V4P03XBERL
+```
+
+Set `analytics.enableGoogleAnalytics` to `false` in `website.ts` to disable without removing env.
+
 ## Scripts
 
 | Command | Description |

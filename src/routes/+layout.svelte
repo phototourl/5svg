@@ -11,10 +11,12 @@
   import { ModeWatcher } from "mode-watcher";
   import Sidebar from "@/components/layout/sidebar.svelte";
   import Sonner from "@/components/ui/sonner/sonner.svelte";
+  import GoogleAnalytics from "@/components/layout/GoogleAnalytics.svelte";
 
   let { children }: LayoutProps = $props();
 </script>
 
+<GoogleAnalytics />
 <ModeWatcher />
 <Sonner />
 <Header />
