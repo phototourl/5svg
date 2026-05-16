@@ -13,8 +13,14 @@
   import Sonner from "@/components/ui/sonner/sonner.svelte";
   import GoogleAnalytics from "@/components/layout/GoogleAnalytics.svelte";
 
-  let { children }: LayoutProps = $props();
+  let { data, children }: LayoutProps = $props();
 </script>
+
+<svelte:head>
+  {#if data.gaInlineScript}
+    {@html `<script>${data.gaInlineScript}</script>`}
+  {/if}
+</svelte:head>
 
 <ModeWatcher />
 <GoogleAnalytics />
