@@ -68,11 +68,13 @@
       <span>Create Issue</span>
       <ArrowUpRight size={14} />
     </ContextMenu.Item>
-    <ContextMenu.Item onclick={() => gotoUrl(globals.submitUrl)}>
-      <HeartHandshakeIcon size={14} />
-      <span>Contribute</span>
-      <ArrowUpRight size={14} />
-    </ContextMenu.Item>
+    {#if globals.enableSubmit}
+      <ContextMenu.Item onclick={() => gotoUrl(globals.submitUrl)}>
+        <HeartHandshakeIcon size={14} />
+        <span>Contribute</span>
+        <ArrowUpRight size={14} />
+      </ContextMenu.Item>
+    {/if}
     <ContextMenu.Item onclick={() => gotoUrl(globals.githubUrl)}>
       <Github size={14} />
       <span>GitHub Repository</span>

@@ -10,7 +10,11 @@ COPY package.json pnpm-lock.yaml svelte.config.js tsconfig.json vite.config.ts c
 RUN pnpm install --frozen-lockfile --dangerously-allow-all-builds
 
 # ========== 阶段 2：构建 ==========
+# Dokploy Build-time Arguments（与 phototourl 相同）:
+#   NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-V4P03XBERL
 FROM base AS builder
+ARG NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
+ENV NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=$NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN pnpm run check:size

@@ -47,12 +47,14 @@
       <span>Request SVG</span>
       <ArrowUpRight size={14} strokeWidth={1.5} />
     </ExternalLink>
-    <ExternalLink
-      href={globals.submitUrl}
-      className={buttonVariants({ variant: "outline" })}
-    >
-      <span>Submit SVG</span>
-      <ArrowUpRight size={14} strokeWidth={1.5} />
-    </ExternalLink>
+    {#if globals.enableSubmit}
+      <ExternalLink
+        href={globals.submitUrl}
+        className={buttonVariants({ variant: "outline" })}
+      >
+        <span>Submit SVG</span>
+        <ArrowUpRight size={14} strokeWidth={1.5} />
+      </ExternalLink>
+    {/if}
   </div>
 </div>

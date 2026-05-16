@@ -5,7 +5,6 @@
   import AlertTriangleIcon from "@lucide/svelte/icons/alert-triangle";
 
   import { warningStore, acceptWarning } from "@/stores/warning.store";
-  import { globals } from "@/globals";
 </script>
 
 {#if !$warningStore}
@@ -23,15 +22,8 @@
         class="shrink-0 animate-pulse text-yellow-600 dark:text-yellow-500"
       />
       <p>
-        Each SVG includes a link to its respective product. Permission must be
-        obtained before using a logo. For removal requests,
-        <a
-          href="{globals.githubUrl}/issues/new"
-          target="_blank"
-          class="underline decoration-neutral-500 underline-offset-4"
-        >
-          please open an issue on GitHub
-        </a>.
+        SVG assets are provided for reference. You are responsible for
+        verifying trademark and usage rights before using them in your projects.
       </p>
     </div>
     <Button size="sm" onclick={acceptWarning}>

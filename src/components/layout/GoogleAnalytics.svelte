@@ -2,10 +2,11 @@
   import { onMount } from "svelte";
   import { afterNavigate } from "$app/navigation";
   import { browser } from "$app/environment";
-  import { env } from "$env/dynamic/public";
+  import { readGoogleAnalyticsEnvId } from "@/config/analytics-env";
   import { getGoogleAnalyticsId } from "@/config/website";
 
-  const gaId = getGoogleAnalyticsId(env.PUBLIC_GOOGLE_ANALYTICS_ID);
+  /** Same env name as phototourl; optional in local dev */
+  const gaId = $derived(getGoogleAnalyticsId(readGoogleAnalyticsEnvId()));
 
   function loadGoogleAnalytics(id: string) {
     if (!browser || !id) return;

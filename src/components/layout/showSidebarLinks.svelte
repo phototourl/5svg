@@ -94,16 +94,18 @@
   <Box size={16} />
   <p class="truncate">Extensions</p>
 </InternalLink>
-<ExternalLink
-  href={globals.submitUrl}
-  className={cn(
-    sidebarItemClasses.base,
-    "flex justify-start space-x-3 md:hidden",
-  )}
->
-  <Submit size={16} />
-  <p class="truncate">Submit SVG</p>
-</ExternalLink>
+{#if globals.enableSubmit}
+  <ExternalLink
+    href={globals.submitUrl}
+    className={cn(
+      sidebarItemClasses.base,
+      "flex justify-start space-x-3 md:hidden",
+    )}
+  >
+    <Submit size={16} />
+    <p class="truncate">Submit SVG</p>
+  </ExternalLink>
+{/if}
 <ExternalLink
   href={globals.githubUrl}
   className={cn(

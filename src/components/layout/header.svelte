@@ -47,18 +47,20 @@
       <div class="hidden h-5 items-center space-x-2 md:flex">
         <Separator orientation="vertical" />
         <GithubLink />
-        <Separator orientation="vertical" />
-        <ExternalLink
-          href={globals.submitUrl}
-          className={cn(
-            buttonVariants({
-              variant: mode.current === "dark" ? "default" : "radial",
-            }),
-          )}
-        >
-          <SendIcon size={14} />
-          <span>Submit</span>
-        </ExternalLink>
+        {#if globals.enableSubmit}
+          <Separator orientation="vertical" />
+          <ExternalLink
+            href={globals.submitUrl}
+            className={cn(
+              buttonVariants({
+                variant: mode.current === "dark" ? "default" : "radial",
+              }),
+            )}
+          >
+            <SendIcon size={14} />
+            <span>Submit</span>
+          </ExternalLink>
+        {/if}
       </div>
     </div>
   </nav>

@@ -16,8 +16,8 @@
   let { children }: LayoutProps = $props();
 </script>
 
-<GoogleAnalytics />
 <ModeWatcher />
+<GoogleAnalytics />
 <Sonner />
 <Header />
 <Sidebar>

@@ -9,6 +9,8 @@ export const globals = {
   },
   twitterUrl: brand.siteUrl,
   sponsorLink: brand.githubUrl,
+  /** Set to true to show Submit links (GitHub new issue) */
+  enableSubmit: false,
   submitUrl: `${brand.githubUrl}/issues/new/choose`,
   requestSvgUrl: `${brand.githubUrl}/issues/new/choose`,
   registryUrl: `${brand.siteUrl}/r/`,
