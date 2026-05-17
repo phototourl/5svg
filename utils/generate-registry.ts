@@ -76,12 +76,24 @@ function prepareRegistryJson(): ShadcnSchema {
     const svgPaths = extractSvgPaths(svg);
 
     svgPaths.forEach((svgFile) => {
+      const filesystemPath = convertToFilesystemPath(svgFile.path);
+      if (!fs.existsSync(filesystemPath)) {
+        logError(`[⚠️] Skipping missing SVG in registry: ${filesystemPath}`);
+        return;
+      }
+
       const tsxComponentName = parseSvgFilename({
         file: svgFile.filename,
         log: false,
       });
+      const tsxPath = path.join(OUTPUT_DIR, `${tsxComponentName}.tsx`);
+      if (!fs.existsSync(tsxPath)) {
+        logError(`[⚠️] Skipping missing component in registry: ${tsxPath}`);
+        return;
+      }
+
       files.push({
-        path: `./${OUTPUT_DIR}/${tsxComponentName}.tsx`,
+        path: `./${tsxPath}`,
         type: "registry:component",
         target: `components/ui/svgs/${tsxComponentName}.tsx`,
       });
