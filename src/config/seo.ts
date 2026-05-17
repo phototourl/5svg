@@ -6,7 +6,7 @@ const siteUrl = brand.siteUrl.replace(/\/+$/, "");
 export const siteSeo = {
   title: "5SVG — Free SVG Files & Vector Graphics",
   description:
-    "Browse and download free SVG files, brand logos, and icons for Cricut, Silhouette, Canva, crafts, and design. Search by category — no signup.",
+    "5SVG delivers free, production-ready SVG assets—brand logos and icons organized by category for crafts, vinyl cutting, and design on Cricut, Silhouette, Canva.",
   siteName: brand.displayName,
   url: `${siteUrl}/`,
   ogType: "website",

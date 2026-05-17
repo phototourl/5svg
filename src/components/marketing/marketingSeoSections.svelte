@@ -1,22 +1,6 @@
 <script lang="ts">
   import { homeSeoIntro, homeSeoBlocks, homeSeoFaq, homeSeoFaqSection } from "@/config/home-seo";
-  import { getSvgsByTitles, getSvgImgUrl } from "@/data";
   import { cn } from "@/utils/cn";
-  import { getSvgAltText } from "@/utils/svgAlt";
-  import { getSvgLibraryHref } from "@/utils/svgLinks";
-  import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import { mode } from "mode-watcher";
-
-  const isDark = $derived(mode.current === "dark");
-
-  const blockVisuals = $derived(
-    Object.fromEntries(
-      homeSeoBlocks.map((block) => [
-        block.id,
-        block.visualBrands ? getSvgsByTitles(block.visualBrands) : [],
-      ]),
-    ),
-  );
 </script>
 
 <section class="border-b border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
@@ -38,7 +22,6 @@
 </section>
 
 {#each homeSeoBlocks as block (block.id)}
-  {@const visuals = blockVisuals[block.id] ?? []}
   <section
     class="border-b border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950"
   >
@@ -75,30 +58,17 @@
         </ul>
       </div>
 
-      {#if visuals.length > 0}
-        <div
-          class="grid grid-cols-2 gap-3 rounded-2xl border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-800 dark:bg-neutral-900/50"
-        >
-          {#each visuals as svg (`${block.id}-${svg.id}`)}
-            <InternalLink
-              href={getSvgLibraryHref(svg)}
-              title={svg.title}
-              className={cn(
-                "flex aspect-square items-center justify-center rounded-xl border border-neutral-200 bg-white p-3 transition-colors sm:p-4",
-                "hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:border-brand/50",
-              )}
-            >
-              <img
-                src={getSvgImgUrl({ url: svg.route!, isDark })}
-                alt={getSvgAltText(svg)}
-                class="max-h-[58%] max-w-[72%] object-contain"
-                loading="lazy"
-                decoding="async"
-              />
-            </InternalLink>
-          {/each}
-        </div>
-      {/if}
+      <div
+        class="overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900/50"
+      >
+        <img
+          src={block.bannerImage}
+          alt={block.bannerAlt}
+          class="block w-full object-contain"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
     </div>
   </section>
 {/each}

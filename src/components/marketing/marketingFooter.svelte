@@ -71,6 +71,185 @@
   </div>
 
   <div
+    class="flex flex-wrap items-center justify-center gap-3 border-t border-neutral-200 px-4 py-4 dark:border-neutral-800"
+  >
+    <a
+      href="https://fazier.com/launches/5svg.com"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
+        width="120"
+        height="28"
+        alt="Fazier badge"
+        class="h-6 w-auto shrink-0 opacity-90 transition-opacity hover:opacity-100"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://fwfw.app/item/5svg"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://fwfw.app/badge-white.svg"
+        width="250"
+        height="54"
+        alt="Featured on FWFW"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://showmebest.ai"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://showmebest.ai/badge/feature-badge-white.webp"
+        width="220"
+        height="60"
+        alt="Featured on ShowMeBestAI"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://goodaitools.com/ai/5svg"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://goodaitools.com/assets/images/badge.png"
+        height="54"
+        alt="Good AI Tools"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://twelve.tools"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://twelve.tools/badge0-light.svg"
+        width="200"
+        height="54"
+        alt="Featured on Twelve Tools"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://wired.business"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://wired.business/badge0-white.svg"
+        width="200"
+        height="54"
+        alt="Featured on Wired Business"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://findly.tools/5svg?utm_source=5svg"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://findly.tools/badges/findly-tools-badge-light.svg"
+        width="175"
+        height="55"
+        alt="Featured on Findly.tools"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://aiagentsdirectory.com/agent/5svg?utm_source=badge&utm_medium=referral&utm_campaign=free_listing&utm_content=5svg"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://aiagentsdirectory.com/featured-badge.svg?v=2024"
+        width="200"
+        height="50"
+        alt="5SVG - Featured AI Agent on AI Agents Directory"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://submitaitools.org"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://submitaitools.org/static_submitaitools/images/submitaitools.png"
+        width="200"
+        height="60"
+        alt="Submit AI Tools"
+        class="h-6 w-auto shrink-0 rounded-[10px]"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://turbo0.com/item/5svg"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://img.turbo0.com/badge-listed-light.svg"
+        height="54"
+        alt="Listed on Turbo0"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://dofollow.tools"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://dofollow.tools/badge/badge_light.svg"
+        width="200"
+        height="54"
+        alt="Featured on Dofollow.Tools"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+  </div>
+
+  <div
     class="bg-brand-energy px-4 py-8 text-center text-brand-energy-foreground dark:bg-brand-energy"
   >
     <p class="text-sm font-semibold">

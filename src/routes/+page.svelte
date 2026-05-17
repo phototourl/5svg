@@ -1,7 +1,7 @@
 <script lang="ts">
   import { brand } from "@/brand";
   import { siteSeo } from "@/config/seo";
-  import { homeSeoMeta } from "@/config/home-seo";
+  import { homeSeoMeta, homeMarketingImage } from "@/config/home-seo";
   import {
     svgsData,
     getSvgImgUrl,
@@ -97,12 +97,13 @@
         {brand.tagline}
       </p>
       <img
-        src="/og-image.png"
-        alt="5svg.com — modern SVG resources and tools"
+        src={homeMarketingImage.bannerLogo}
+        alt={homeMarketingImage.bannerLogoAlt}
         class="mt-8 w-full max-w-md object-contain"
         width="1200"
         height="630"
-        loading="lazy"
+        loading="eager"
+        fetchpriority="high"
         decoding="async"
       />
     </div>

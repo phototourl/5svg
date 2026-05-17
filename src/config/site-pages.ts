@@ -1,11 +1,14 @@
 import { allDocs } from "content-collections";
+import { brand } from "@/brand";
 import { getCategories, getSvgsByCategory } from "@/data";
 
 /** Marketing home */
 export const marketingPaths = ["/"] as const;
 
 /** App routes with a +page.svelte (excludes redirects like /directory, /docs, /api) */
-export const appStaticPaths = ["/library", "/favorites", "/extensions"] as const;
+export const appStaticPaths = brand.showDeveloperTools
+  ? (["/library", "/favorites", "/extensions"] as const)
+  : (["/library", "/favorites"] as const);
 
 export function getDirectoryPaths(): string[] {
   return getCategories()
@@ -14,7 +17,11 @@ export function getDirectoryPaths(): string[] {
 }
 
 export function getDocsPaths(): string[] {
-  return allDocs.map((doc) => `/docs/${doc._meta.path}`);
+  return allDocs
+    .filter(
+      (doc) => brand.showDeveloperTools || doc._meta.path !== "shadcn-ui",
+    )
+    .map((doc) => `/docs/${doc._meta.path}`);
 }
 
 /** Every indexable HTML page on 5svg.com */

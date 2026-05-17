@@ -14,7 +14,11 @@ export const homeSeoMeta = {
 
 } as const;
 
-
+/** Hero + FAQ product art (`static/banner-logo.png`). */
+export const homeMarketingImage = {
+  bannerLogo: "/banner-logo.png",
+  bannerLogoAlt: "5SVG — free SVG files and brand logo library",
+} as const;
 
 export const homeSeoIntro = {
 
@@ -42,9 +46,9 @@ export type HomeSeoBlock = {
 
   bullets: readonly string[];
 
-  /** Optional library previews (display only) */
-
-  visualBrands?: readonly string[];
+  /** Section banner (`static/banner1.jpg`, etc.) */
+  bannerImage: string;
+  bannerAlt: string;
 
   reverse?: boolean;
 
@@ -74,7 +78,8 @@ export const homeSeoBlocks: readonly HomeSeoBlock[] = [
 
     ],
 
-    visualBrands: ["GitHub", "NVIDIA", "Stripe", "Figma"],
+    bannerImage: "/banner1.jpg",
+    bannerAlt: "5SVG — millions of high-quality SVG vectors and categories",
 
   },
 
@@ -100,7 +105,8 @@ export const homeSeoBlocks: readonly HomeSeoBlock[] = [
 
     ],
 
-    visualBrands: ["Spotify", "YouTube", "Apple", "Notion"],
+    bannerImage: "/banner2.png",
+    bannerAlt: "5SVG — design, build, and present with UI kits and app icons",
 
     reverse: true,
 
@@ -128,7 +134,8 @@ export const homeSeoBlocks: readonly HomeSeoBlock[] = [
 
     ],
 
-    visualBrands: ["OpenAI", "Vercel", "Discord", "Tailwind CSS"],
+    bannerImage: "/banner3.png",
+    bannerAlt: "5SVG — fastest vector search across devices",
 
   },
 
