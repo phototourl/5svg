@@ -12,8 +12,8 @@ export const iconPacks = [
     indexPath: "/bootstrap-icons/index.json",
   },
   {
-    id: "font-awesome-7",
-    name: "Font Awesome 7",
+    id: "font-awesome",
+    name: "Font Awesome",
     description: "Font Awesome free SVGs — solid, regular, and brand styles.",
     license: "CC BY 4.0",
     staticDir: "font-awesome-7",

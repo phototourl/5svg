@@ -42,7 +42,7 @@ pnpm build:prod
 pnpm preview
 ```
 
-**Dokploy:** Large icon packs under `static/bootstrap-icons/`, `static/font-awesome-7/`, and `static/react-icons/` are not in git. Either rsync them into the server before deploy, or accept that `/more/*` pack routes need a separate asset sync. Without them, `build:prod` still succeeds (pack index step is skipped).
+**Dokploy:** Commit the three folders under `static/` (`bootstrap-icons`, `font-awesome-7`, `react-icons`, ~45MB). The Font Awesome pack is browsed at `/more/font-awesome`. Run `pnpm build:pack-indexes` before pushing so each pack has `index.json`. Without them in the repo, `/more/*` will 503 on production while the main library still works.
 
 ## Adding icons
 

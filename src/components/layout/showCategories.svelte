@@ -3,8 +3,8 @@
   import { page } from "$app/state";
 
   import { cn } from "@/utils/cn";
+  import { getCategories, getIndexableIconSlugs } from "@/data";
   import { svgs } from "@/data/svgs";
-  import { getCategories } from "@/data";
 
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import { sidebarItemClasses } from "@/components/layout/sidebarItemClasses";
@@ -12,6 +12,7 @@
 
   // Get category counts:
   const categories: Category[] = getCategories();
+  const logoIndexCount = getIndexableIconSlugs().length;
   let categoryCounts: Record<string, number> = {};
   categories.forEach((category) => {
     categoryCounts[category] = svgs.filter((svg) =>
@@ -25,6 +26,23 @@
 >
   Categories
 </h2>
+<InternalLink
+  href="/browse"
+  preloadData={true}
+  className={cn(
+    sidebarItemClasses.base,
+    (page.url.pathname === "/browse" || page.url.pathname.startsWith("/tags")) &&
+      sidebarItemClasses.active,
+    "pr-3",
+  )}
+>
+  <h3 class="truncate text-sm font-normal">All logos A–Z</h3>
+  <span
+    class={cn(sidebarBadgeClasses, page.url.pathname && "border-transparent")}
+  >
+    {logoIndexCount}
+  </span>
+</InternalLink>
 {#each categories.sort() as category (category)}
   <InternalLink
     href={`/directory/${category.toLowerCase()}`}

@@ -13,9 +13,6 @@ node_modules
 /build
 /registry.json
 /static/r/
-/static/bootstrap-icons/
-/static/font-awesome-7/
-/static/react-icons/
 /static/og/icons/*.png
 
 # IDE
