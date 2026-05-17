@@ -1,5 +1,5 @@
 import { error } from "@sveltejs/kit";
-import type { PageLoad } from "./$types";
+import type { PageServerLoad } from "./$types";
 
 import { getPackIconDetailSeo } from "@/config/pack-icon-detail-seo";
 import { isIconPackId } from "@/config/icon-packs";
@@ -18,7 +18,7 @@ export function entries() {
   });
 }
 
-export const load: PageLoad = ({ params }) => {
+export const load: PageServerLoad = ({ params }) => {
   if (!isIconPackId(params.pack)) {
     error(404, "Pack not found");
   }
