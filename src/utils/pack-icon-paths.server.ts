@@ -1,13 +1,38 @@
+import fs from "node:fs";
+import path from "node:path";
+
 import { iconPacks } from "../config/icon-packs";
 import type { PackIndex } from "../types/icon-pack";
 import { getPackIconSitemapPathsFromDisk } from "../config/site-pages";
-import { readPackIndex } from "./pack-index.server";
 import {
   getPackIconDetailHref,
   PACK_ICON_DETAIL_LIMIT,
 } from "./pack-icon-paths";
 
 export { PACK_ICON_DETAIL_LIMIT, getPackIconDetailHref };
+
+function packIndexCandidates(staticDir: string): string[] {
+  return [
+    path.join(process.cwd(), "build/client", staticDir, "index.json"),
+    path.join(process.cwd(), "static", staticDir, "index.json"),
+  ];
+}
+
+export function readPackIndex(staticDir: string): PackIndex | null {
+  for (const file of packIndexCandidates(staticDir)) {
+    if (!fs.existsSync(file)) continue;
+    try {
+      return JSON.parse(fs.readFileSync(file, "utf8")) as PackIndex;
+    } catch {
+      return null;
+    }
+  }
+  return null;
+}
+
+export function isPackDeployed(staticDir: string): boolean {
+  return readPackIndex(staticDir) !== null;
+}
 
 /** Same paths as sitemap (re-export for prerender `entries()`). */
 export function getPackIconDetailPaths(): string[] {
