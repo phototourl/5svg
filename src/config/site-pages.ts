@@ -1,9 +1,33 @@
+import fs from "node:fs";
+import path from "node:path";
+
 import { brand } from "@/brand";
 import { getTagPaths } from "@/config/tag-pages";
 import { getCategories, getIconDetailPaths, getSvgsByCategory } from "@/data";
 import { getDocsPaths } from "@/utils/docs-paths";
-import { getPackIconSitemapPathsFromDisk } from "@/config/pack-sitemap-paths";
 import { iconPacks } from "@/config/icon-packs";
+
+const PACK_ICON_SITEMAP_LIMIT = 50;
+
+/** Pack icon detail URLs from on-disk `index.json` (skipped when packs are absent). */
+export function getPackIconSitemapPathsFromDisk(): string[] {
+  const paths: string[] = [];
+
+  for (const pack of iconPacks) {
+    const indexFile = path.join(process.cwd(), "static", pack.staticDir, "index.json");
+    if (!fs.existsSync(indexFile)) continue;
+
+    const index = JSON.parse(fs.readFileSync(indexFile, "utf8")) as {
+      items: { id: string }[];
+    };
+
+    for (const item of index.items.slice(0, PACK_ICON_SITEMAP_LIMIT)) {
+      paths.push(`/more/${pack.id}/icon/${encodeURIComponent(item.id)}`);
+    }
+  }
+
+  return paths;
+}
 
 /** Marketing home */
 export const marketingPaths = ["/"] as const;

@@ -1,6 +1,6 @@
 import { iconPacks } from "../config/icon-packs";
 import type { PackIndex } from "../types/icon-pack";
-import { getPackIconSitemapPathsFromDisk } from "../config/pack-sitemap-paths";
+import { getPackIconSitemapPathsFromDisk } from "../config/site-pages";
 import { readPackIndex } from "./pack-index.server";
 import {
   getPackIconDetailHref,
