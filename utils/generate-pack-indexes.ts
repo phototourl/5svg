@@ -45,10 +45,6 @@ function walkSvgFiles(dir: string, baseDir: string, out: PackIcon[]): void {
 
 function buildIndex(packId: string, staticDir: string): PackIndex {
   const packRoot = path.join(STATIC_ROOT, staticDir);
-  if (!fs.existsSync(packRoot)) {
-    throw new Error(`Pack directory not found: ${packRoot}`);
-  }
-
   const items: PackIcon[] = [];
   walkSvgFiles(packRoot, packRoot, items);
   items.sort((a, b) => a.title.localeCompare(b.title));
@@ -57,11 +53,31 @@ function buildIndex(packId: string, staticDir: string): PackIndex {
 }
 
 async function main() {
+  let built = 0;
+  let skipped = 0;
+
   for (const pack of iconPacks) {
+    const packRoot = path.join(STATIC_ROOT, pack.staticDir);
+    if (!fs.existsSync(packRoot)) {
+      skipped += 1;
+      console.warn(
+        `[skip] ${pack.id}: directory missing (${packRoot}). ` +
+          "Icon packs are not in git — copy static/{pack}/ onto the server or into the build context, then rerun.",
+      );
+      continue;
+    }
+
     const index = buildIndex(pack.id, pack.staticDir);
     const outPath = path.join(STATIC_ROOT, pack.staticDir, "index.json");
     await fs.promises.writeFile(outPath, JSON.stringify(index), "utf-8");
+    built += 1;
     console.log(`[ok] ${pack.id}: ${index.count} icons -> ${outPath}`);
+  }
+
+  if (built === 0 && skipped > 0) {
+    console.warn(
+      `[warn] No pack indexes built (${skipped} skipped). Main library build can continue; /more/* packs need assets on disk.`,
+    );
   }
 }
 

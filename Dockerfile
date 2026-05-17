@@ -12,6 +12,10 @@ RUN pnpm install --frozen-lockfile --dangerously-allow-all-builds
 # ========== 阶段 2：构建 ==========
 # Dokploy Build-time Arguments（与 phototourl 相同）:
 #   NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-V4P03XBERL
+#
+# Optional: copy gitignored pack folders into build context before build:
+#   static/bootstrap-icons/, static/font-awesome-7/, static/react-icons/
+# (see static/IMPORTED-SOURCES.md). Build succeeds without them; /more/* needs assets at runtime.
 FROM base AS builder
 ARG NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
 ENV NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=$NEXT_PUBLIC_GOOGLE_ANALYTICS_ID

@@ -42,6 +42,8 @@ pnpm build:prod
 pnpm preview
 ```
 
+**Dokploy:** Large icon packs under `static/bootstrap-icons/`, `static/font-awesome-7/`, and `static/react-icons/` are not in git. Either rsync them into the server before deploy, or accept that `/more/*` pack routes need a separate asset sync. Without them, `build:prod` still succeeds (pack index step is skipped).
+
 ## Adding icons
 
 1. Place optimized `.svg` files in [`static/library/`](./static/library/) (keep `viewBox`; aim for &lt; 21kb per file).

@@ -14,4 +14,11 @@ Regenerate indexes after adding SVGs:
 pnpm build:pack-indexes
 ```
 
+These folders are **gitignored** (too large for GitHub). For **Dokploy / Docker**:
+
+1. Copy `static/bootstrap-icons/`, `static/font-awesome-7/`, and `static/react-icons/` onto the build machine **before** `pnpm build:prod`, **or**
+2. Mount them as volumes on the running app at `build/client/{pack}/` after deploy.
+
+If packs are missing at build time, `build:pack-indexes` skips them with a warning and the rest of the site still builds.
+
 Licenses: Bootstrap Icons (MIT), Font Awesome icons (CC BY 4.0), react-icons (per upstream pack).
