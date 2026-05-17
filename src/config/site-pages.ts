@@ -1,7 +1,7 @@
-import { allDocs } from "content-collections";
 import { brand } from "@/brand";
 import { getTagPaths } from "@/config/tag-pages";
 import { getCategories, getIconDetailPaths, getSvgsByCategory } from "@/data";
+import { getDocsPaths } from "@/utils/docs-paths";
 import { getPackIconDetailPaths } from "@/utils/pack-icon-paths.server";
 import { iconPacks } from "@/config/icon-packs";
 
@@ -27,14 +27,6 @@ export function getDirectoryPaths(): string[] {
 
 export function getMorePackPaths(): string[] {
   return iconPacks.map((pack) => `/more/${pack.id}`);
-}
-
-export function getDocsPaths(): string[] {
-  return allDocs
-    .filter(
-      (doc) => brand.showDeveloperTools || doc._meta.path !== "shadcn-ui",
-    )
-    .map((doc) => `/docs/${doc._meta.path}`);
 }
 
 /** Paths excluded from sitemap (still reachable, e.g. user-local favorites). */
