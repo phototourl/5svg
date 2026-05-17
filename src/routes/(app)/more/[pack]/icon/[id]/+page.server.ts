@@ -8,14 +8,17 @@ import {
   getPackIconDetailPaths,
 } from "@/utils/pack-icon-paths.server";
 
-export const prerender = true;
+/** Only prerender when pack `index.json` exists (skipped in Docker without gitignored assets). */
+const packIconPrerenderEntries = getPackIconDetailPaths().map((path) => {
+  const match = path.match(/^\/more\/([^/]+)\/icon\/(.+)$/);
+  if (!match) throw new Error(`Invalid pack icon path: ${path}`);
+  return { pack: match[1], id: decodeURIComponent(match[2]) };
+});
+
+export const prerender = packIconPrerenderEntries.length > 0;
 
 export function entries() {
-  return getPackIconDetailPaths().map((path) => {
-    const match = path.match(/^\/more\/([^/]+)\/icon\/(.+)$/);
-    if (!match) throw new Error(`Invalid pack icon path: ${path}`);
-    return { pack: match[1], id: decodeURIComponent(match[2]) };
-  });
+  return packIconPrerenderEntries;
 }
 
 export const load: PageServerLoad = ({ params }) => {
