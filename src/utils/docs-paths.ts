@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import { brand } from "@/brand";
+import { brand } from "../brand";
 
 const DOCS_ROOT = path.resolve("src/docs");
 

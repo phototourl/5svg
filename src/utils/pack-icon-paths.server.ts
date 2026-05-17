@@ -1,25 +1,17 @@
-import { iconPacks } from "@/config/icon-packs";
-import type { PackIndex } from "@/types/icon-pack";
-import { readPackIndex } from "@/utils/pack-index.server";
+import { iconPacks } from "../config/icon-packs";
+import type { PackIndex } from "../types/icon-pack";
+import { getPackIconSitemapPathsFromDisk } from "../config/pack-sitemap-paths";
+import { readPackIndex } from "./pack-index.server";
 import {
   getPackIconDetailHref,
   PACK_ICON_DETAIL_LIMIT,
-} from "@/utils/pack-icon-paths";
+} from "./pack-icon-paths";
 
 export { PACK_ICON_DETAIL_LIMIT, getPackIconDetailHref };
 
+/** Same paths as sitemap (re-export for prerender `entries()`). */
 export function getPackIconDetailPaths(): string[] {
-  const paths: string[] = [];
-
-  for (const pack of iconPacks) {
-    const index = readPackIndex(pack.staticDir);
-    if (!index) continue;
-    for (const item of index.items.slice(0, PACK_ICON_DETAIL_LIMIT)) {
-      paths.push(getPackIconDetailHref(pack.id, item.id));
-    }
-  }
-
-  return paths;
+  return getPackIconSitemapPathsFromDisk();
 }
 
 export function findPackIcon(

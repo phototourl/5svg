@@ -2,7 +2,7 @@ import { brand } from "@/brand";
 import { getTagPaths } from "@/config/tag-pages";
 import { getCategories, getIconDetailPaths, getSvgsByCategory } from "@/data";
 import { getDocsPaths } from "@/utils/docs-paths";
-import { getPackIconDetailPaths } from "@/utils/pack-icon-paths.server";
+import { getPackIconSitemapPathsFromDisk } from "@/config/pack-sitemap-paths";
 import { iconPacks } from "@/config/icon-packs";
 
 /** Marketing home */
@@ -53,7 +53,7 @@ export function getIconSitemapPaths(): string[] {
 
 /** Every indexable HTML page on 5svg.com */
 export function getPackIconSitemapPaths(): string[] {
-  return getPackIconDetailPaths();
+  return getPackIconSitemapPathsFromDisk();
 }
 
 export function getPublicPagePaths(): string[] {

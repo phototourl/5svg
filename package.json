@@ -42,11 +42,12 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "build:shadcn": "shadcn build --output ./static/r",
-    "build:prod": "pnpm build:pack-indexes && pnpm build:og-icons && pnpm build:sitemaps && pnpm build:registry && vite build",
+    "build:prod": "pnpm build:pack-indexes && pnpm build:og-icons && pnpm verify:build-scripts && pnpm build:sitemaps && pnpm build:registry && vite build",
     "build:sitemaps": "tsx ./utils/generate-sitemaps.ts",
     "build:registry": "tsx ./utils/generate-registry.ts",
     "build:pack-indexes": "tsx ./utils/generate-pack-indexes.ts",
-    "build:og-icons": "tsx ./utils/generate-og-icons.ts"
+    "build:og-icons": "tsx ./utils/generate-og-icons.ts",
+    "verify:build-scripts": "tsx ./utils/verify-build-scripts.ts"
   },
   "dependencies": {
     "@shikijs/langs": "4.0.2",
