@@ -1,0 +1,33 @@
+# 5SVG
+
+> Free SVG brand logos and icons for crafts, design, and the web.
+
+5SVG (https://5svg.com) is an independent library of production-ready vector logos. Browse, search, copy SVG code, or download files with no signup.
+
+## Main pages
+
+- Home: https://5svg.com/
+- Library (search & grid): https://5svg.com/library
+- Browse all logos A–Z: https://5svg.com/browse
+- Topics (social, AI, Cricut, etc.): https://5svg.com/tags
+- Pack icon details: https://5svg.com/more/{pack}/icon/{id} (top 50 per pack)
+- Icon detail pages: https://5svg.com/icon/{slug} (e.g. https://5svg.com/icon/discord)
+- Categories: https://5svg.com/directory/{category}
+- More icon packs: https://5svg.com/more
+- License & trademarks: https://5svg.com/license
+- About: https://5svg.com/about
+
+## Sitemaps
+
+- Index: https://5svg.com/sitemap.xml
+- Main pages: https://5svg.com/sitemap-main.xml
+- Icon pages: https://5svg.com/sitemap-icons.xml
+
+## Build
+
+- Production build runs `pnpm build:og-icons` to generate PNG Open Graph previews at `/og/icons/{slug}.png`.
+
+## Usage notes
+
+- Brand logos are trademarks of their respective owners; check official brand guidelines before commercial use.
+- Favorites are stored locally in the browser only.

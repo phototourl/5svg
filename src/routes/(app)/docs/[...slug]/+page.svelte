@@ -19,15 +19,7 @@
   let { data }: PageProps = $props();
   let tocOpen = $state(false);
   const document = $derived(data.document);
-  const pageTitle = $derived(
-    document.metaTitle ?? `${document.title} | 5SVG — Free SVG Files`,
-  );
 </script>
-
-<svelte:head>
-  <title>{pageTitle}</title>
-  <meta name="description" content={data.document.description} />
-</svelte:head>
 
 <PageCard>
   <PageHeader>

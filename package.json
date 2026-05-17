@@ -42,8 +42,11 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "build:shadcn": "shadcn build --output ./static/r",
-    "build:prod": "pnpm build:registry && vite build",
-    "build:registry": "tsx ./utils/generate-registry.ts"
+    "build:prod": "pnpm build:pack-indexes && pnpm build:og-icons && pnpm build:sitemaps && pnpm build:registry && vite build",
+    "build:sitemaps": "tsx ./utils/generate-sitemaps.ts",
+    "build:registry": "tsx ./utils/generate-registry.ts",
+    "build:pack-indexes": "tsx ./utils/generate-pack-indexes.ts",
+    "build:og-icons": "tsx ./utils/generate-og-icons.ts"
   },
   "dependencies": {
     "@shikijs/langs": "4.0.2",
@@ -64,6 +67,7 @@
     "@eslint/js": "10.0.1",
     "@internationalized/date": "3.12.1",
     "@lucide/svelte": "1.14.0",
+    "@resvg/resvg-js": "^2.6.2",
     "@shikijs/rehype": "4.0.2",
     "@sveltejs/adapter-node": "5.5.4",
     "@sveltejs/kit": "2.59.1",

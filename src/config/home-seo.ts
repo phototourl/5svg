@@ -17,14 +17,14 @@ export const homeSeoMeta = {
 /** Hero + FAQ product art (`static/banner-logo.png`). */
 export const homeMarketingImage = {
   bannerLogo: "/banner-logo.png",
-  bannerLogoAlt: "5SVG — free SVG files and brand logo library",
+  bannerLogoAlt: "5SVG — Free SVG Files, Logos & Icons",
 } as const;
 
 export const homeSeoIntro = {
 
   tag: "About SVG",
 
-  title: "Free vector graphics for crafts, design, and everyday projects",
+  title: "Free SVG files, logos & icons for crafts, design, and everyday projects",
 
   description:
 

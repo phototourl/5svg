@@ -2,6 +2,7 @@ import type { iSVG, ThemeOptions } from "@/types/svg";
 import type { Category } from "@/types/categories";
 
 import { svgs } from "@/data/svgs";
+import { getSvgSlug } from "@/utils/svg-slug";
 
 export const svgsData = svgs.map((svg: iSVG, index: number) => {
   return { id: index, ...svg };
@@ -135,3 +136,37 @@ export const getCategoryStats = (limit?: number): CategoryStat[] => {
 
 export const getPopularCategories = (limit = 8): Category[] =>
   getCategoryStats(limit).map((item) => item.name);
+
+const iconSlugIndex = buildIconSlugIndex();
+
+function buildIconSlugIndex(): Map<string, iSVG> {
+  const map = new Map<string, iSVG>();
+  for (const svg of svgsData) {
+    const slug = getSvgSlug(svg);
+    if (!slug || map.has(slug)) continue;
+    map.set(slug, svg);
+  }
+  return map;
+}
+
+export function getSvgBySlug(slug: string): iSVG | undefined {
+  return iconSlugIndex.get(decodeURIComponent(slug));
+}
+
+export function getIndexableIconSlugs(): string[] {
+  return [...iconSlugIndex.keys()].sort();
+}
+
+export function getIconDetailPaths(): string[] {
+  return getIndexableIconSlugs().map((slug) => `/icon/${encodeURIComponent(slug)}`);
+}
+
+export function getRelatedSvgs(svg: iSVG, limit = 8): iSVG[] {
+  const categories = Array.isArray(svg.category) ? svg.category : [svg.category];
+  const primary = categories[0];
+  if (!primary) return [];
+
+  return getSvgsByCategory(primary)
+    .filter((item) => item.id !== svg.id && getSvgSlug(item))
+    .slice(0, limit);
+}

@@ -22,6 +22,7 @@
   import ChevronDownIcon from "@lucide/svelte/icons/chevron-down";
   import ChevronUpIcon from "@lucide/svelte/icons/chevron-up";
 
+  import { brand } from "@/brand";
   import { getDirectorySeo } from "@/config/directory-seo";
 
   // SSR Data:
@@ -78,11 +79,27 @@
   const handleShowAll = () => {
     maxDisplay = filteredSvgs.length;
   };
+
+  const scriptClose = "</" + "script>";
+  const collectionJsonLdHtml = $derived.by(() => {
+    const categoryPath = `/directory/${data.category.toLowerCase()}`;
+    return (
+      '<script type="application/ld+json">' +
+      JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: directorySeo.headerH1,
+        description: directorySeo.description,
+        url: `${brand.siteUrl}${categoryPath}`,
+        numberOfItems: data.initialSvgs.length,
+      }) +
+      scriptClose
+    );
+  });
 </script>
 
 <svelte:head>
-  <title>{directorySeo.title}</title>
-  <meta name="description" content={directorySeo.description} />
+  {@html collectionJsonLdHtml}
 </svelte:head>
 
 <div class="space-y-1 px-0.5">

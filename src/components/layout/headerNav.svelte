@@ -6,7 +6,9 @@
 
   const links = [
     { href: "/library", label: "Free SVG" },
+    { href: "/browse", label: "Browse" },
     { href: "/favorites", label: "Favorites" },
+    { href: "/more", label: "More" },
     ...(brand.showApiNav ? ([{ href: "/docs/api", label: "API" }] as const) : []),
     ...(brand.showDeveloperTools
       ? ([{ href: "/extensions", label: "Extensions" }] as const)
@@ -15,7 +17,17 @@
 
   function isActive(href: string, pathname: string) {
     if (href === "/library") {
-      return pathname === "/library" || pathname.startsWith("/directory");
+      return (
+        pathname === "/library" ||
+        pathname.startsWith("/directory") ||
+        pathname.startsWith("/icon/")
+      );
+    }
+    if (href === "/browse") {
+      return pathname === "/browse" || pathname.startsWith("/tags");
+    }
+    if (href === "/more") {
+      return pathname === "/more" || pathname.startsWith("/more/");
     }
     if (href === "/docs/api") {
       return pathname === "/docs/api" || pathname.startsWith("/docs/api/");

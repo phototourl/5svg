@@ -63,11 +63,6 @@
   });
 </script>
 
-<svelte:head>
-  <title>{favoritesSeo.title}</title>
-  <meta name="description" content={favoritesSeo.description} />
-</svelte:head>
-
 <Search
   searchValue={searchTerm}
   onSearch={handleSearch}

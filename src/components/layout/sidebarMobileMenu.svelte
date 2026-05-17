@@ -13,6 +13,7 @@
   import { siteLogoAlt } from "@/utils/svgAlt";
 
   import ShowCategories from "@/components/layout/showCategories.svelte";
+  import ShowPackLinks from "@/components/layout/showPackLinks.svelte";
   import ShowSidebarLinks from "@/components/layout/showSidebarLinks.svelte";
   import ScrollArea from "@/components/ui/scroll-area/scroll-area.svelte";
 
@@ -72,6 +73,8 @@
       maskClassName="before:from-white after:from-white dark:before:from-neutral-900 dark:after:from-neutral-900"
     >
       <ShowSidebarLinks />
+      <Separator orientation="horizontal" class="my-3" />
+      <ShowPackLinks />
       <Separator orientation="horizontal" class="my-3" />
       <ShowCategories />
     </ScrollArea>

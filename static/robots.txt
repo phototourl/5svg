@@ -2,4 +2,7 @@
 User-agent: *
 Allow: /
 
+# Site summary for AI assistants and LLM crawlers
+# https://5svg.com/llms.txt
+
 Sitemap: https://5svg.com/sitemap.xml

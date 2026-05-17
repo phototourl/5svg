@@ -18,7 +18,10 @@
   import Button from "@/components/ui/button/button.svelte";
   import SvgNotFound from "@/components/svgs/svgNotFound.svelte";
   import WarningMessage from "@/components/warningMessage.svelte";
+  import { brand } from "@/brand";
   import { librarySeo } from "@/config/library-seo";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
+  import SiteFreshness from "@/components/seo/site-freshness.svelte";
 
   import Files from "@lucide/svelte/icons/files";
   import SearchXIcon from "@lucide/svelte/icons/search-x";
@@ -94,12 +97,37 @@
     observer.observe(sentinel);
     return () => observer.disconnect();
   });
+
+  const scriptClose = "</" + "script>";
+  const collectionJsonLdHtml =
+    '<script type="application/ld+json">' +
+    JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: librarySeo.h1,
+      description: librarySeo.description,
+      url: `${brand.siteUrl}/library`,
+      numberOfItems: svgsData.length,
+    }) +
+    scriptClose;
 </script>
 
 <svelte:head>
-  <title>{librarySeo.title}</title>
-  <meta name="description" content={librarySeo.description} />
+  {@html collectionJsonLdHtml}
 </svelte:head>
+
+<div class="space-y-1 px-0.5">
+  <h1 class="text-lg font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
+    {librarySeo.h1}
+  </h1>
+  <p class="text-sm text-neutral-500 dark:text-neutral-400">
+    {librarySeo.lead}
+    <InternalLink href="/browse" className="ml-1 text-brand-energy dark:text-brand">
+      A–Z index
+    </InternalLink>
+  </p>
+  <SiteFreshness className="mt-1 text-xs text-neutral-400" />
+</div>
 
 <Search
   searchValue={searchTerm}
@@ -152,8 +180,6 @@
   {/if}
   <Container className="my-6">
     <div class="sr-only">
-      <h1>{librarySeo.h1}</h1>
-      <p>{librarySeo.lead}</p>
       <section>
         <h2>{librarySeo.sections.search.h2}</h2>
         <p>{librarySeo.sections.search.body}</p>

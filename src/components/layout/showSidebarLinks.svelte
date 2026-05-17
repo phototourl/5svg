@@ -17,6 +17,8 @@
   import Heart from "@lucide/svelte/icons/heart";
   import Cloud from "@lucide/svelte/icons/cloud";
   import Submit from "@lucide/svelte/icons/send";
+  import Layers from "@lucide/svelte/icons/layers";
+  import List from "@lucide/svelte/icons/list";
 
   import Github from "@/components/logos/github.svelte";
   import Shadcn from "@/components/logos/shadcn.svelte";
@@ -59,6 +61,30 @@
       {favoritesCount}
     </span>
   {/if}
+</InternalLink>
+<InternalLink
+  href="/browse"
+  preloadData={true}
+  className={cn(
+    sidebarItemClasses.base,
+    "justify-start space-x-3",
+    page.url.pathname === "/browse" && sidebarItemClasses.active,
+  )}
+>
+  <List size={16} />
+  <p class="truncate">Browse A–Z</p>
+</InternalLink>
+<InternalLink
+  href="/more"
+  preloadData={true}
+  className={cn(
+    sidebarItemClasses.base,
+    "justify-start space-x-3",
+    page.url.pathname.startsWith("/more") && sidebarItemClasses.active,
+  )}
+>
+  <Layers size={16} />
+  <p class="truncate">More</p>
 </InternalLink>
 {#if brand.showApiNav}
   <InternalLink

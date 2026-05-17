@@ -1,7 +1,7 @@
 <script lang="ts">
   import { brand } from "@/brand";
   import { siteSeo } from "@/config/seo";
-  import { homeSeoMeta, homeMarketingImage } from "@/config/home-seo";
+  import { homeSeoMeta, homeMarketingImage, homeSeoFaq } from "@/config/home-seo";
   import {
     svgsData,
     getSvgImgUrl,
@@ -21,6 +21,7 @@
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getCategoryHref } from "@/utils/svgLinks";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
+  import SiteFreshness from "@/components/seo/site-freshness.svelte";
 
   const valueProps = [
     {
@@ -58,26 +59,50 @@
   const categoryIconDark = $derived(mode.current === "dark");
 
   const scriptClose = "</" + "script>";
-  const websiteJsonLdHtml =
-    '<script type="application/ld+json">' +
-    JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      name: siteSeo.siteName,
-      url: siteSeo.url,
-      description: siteSeo.description,
-      potentialAction: {
-        "@type": "SearchAction",
-        target: `${brand.siteUrl}/library?search={search_term_string}`,
-        "query-input": "required name=search_term_string",
+  const jsonLdGraph = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${brand.siteUrl}/#organization`,
+        name: siteSeo.siteName,
+        url: siteSeo.url,
+        logo: `${brand.siteUrl}/favicon.png`,
+        sameAs: [brand.githubUrl],
       },
-    }) +
-    scriptClose;
+      {
+        "@type": "WebSite",
+        "@id": `${brand.siteUrl}/#website`,
+        name: siteSeo.siteName,
+        url: siteSeo.url,
+        description: siteSeo.description,
+        publisher: { "@id": `${brand.siteUrl}/#organization` },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${brand.siteUrl}/library?search={search_term_string}`,
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${brand.siteUrl}/#faq`,
+        mainEntity: homeSeoFaq.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.answer,
+          },
+        })),
+      },
+    ],
+  };
+
+  const websiteJsonLdHtml =
+    '<script type="application/ld+json">' + JSON.stringify(jsonLdGraph) + scriptClose;
 </script>
 
 <svelte:head>
-  <title>{siteSeo.title}</title>
-  <meta name="description" content={siteSeo.description} />
   <meta name="keywords" content={homeSeoMeta.keywords} />
   {@html websiteJsonLdHtml}
 </svelte:head>
@@ -91,11 +116,12 @@
       <h1
         class="text-3xl font-semibold leading-tight tracking-tight text-neutral-900 md:text-4xl lg:text-5xl dark:text-neutral-50"
       >
-        Free SVG files &amp; vector graphics for crafts and design
+        Free SVG files, logos &amp; icons for crafts and design
       </h1>
       <p class="mt-4 text-base leading-relaxed text-neutral-600 dark:text-neutral-400">
         {brand.tagline}
       </p>
+      <SiteFreshness className="mt-3 text-sm text-neutral-500" />
       <img
         src={homeMarketingImage.bannerLogo}
         alt={homeMarketingImage.bannerLogoAlt}

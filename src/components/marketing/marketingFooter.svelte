@@ -4,6 +4,7 @@
 
   const infoLinks = [
     { href: "/library", label: "Explore library" },
+    { href: "/browse", label: "Browse A–Z index" },
     { href: "/favorites", label: "Favorites" },
     { href: "/", label: "Home" },
   ] as const;
@@ -13,10 +14,16 @@
     { href: "/directory/social", label: "Social" },
     { href: "/directory/software", label: "Software" },
   ] as const;
+
+  const legalLinks = [
+    { href: "/about", label: "About" },
+    { href: "/license", label: "License" },
+    { href: "/privacy", label: "Privacy" },
+  ] as const;
 </script>
 
 <footer class="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
-  <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-3">
+  <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-2 md:grid-cols-4">
     <div>
       <h3
         class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
@@ -45,6 +52,26 @@
       </h3>
       <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
         {#each resourceLinks as link (link.href)}
+          <li>
+            <InternalLink
+              href={link.href}
+              className="transition-colors hover:text-brand-energy dark:hover:text-brand"
+            >
+              {link.label}
+            </InternalLink>
+          </li>
+        {/each}
+      </ul>
+    </div>
+
+    <div>
+      <h3
+        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
+      >
+        Legal
+      </h3>
+      <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
+        {#each legalLinks as link (link.href)}
           <li>
             <InternalLink
               href={link.href}

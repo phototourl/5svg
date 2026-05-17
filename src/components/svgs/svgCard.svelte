@@ -5,6 +5,7 @@
   import { mode } from "mode-watcher";
   import { getSvgImgUrl } from "@/data";
   import { getSvgAltText } from "@/utils/svgAlt";
+  import { getIconHref } from "@/utils/svg-slug";
 
   // Icons:
   import XIcon from "@lucide/svelte/icons/x";
@@ -113,47 +114,49 @@
   </div>
   <!-- Image -->
   {#if wordmarkSvg && svgInfo.wordmark !== undefined}
-    <img
-      loading="lazy"
-      class={cn("hidden dark:block", globalImageStyles)}
-      src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: true })}
-      alt={getSvgAltText(svgInfo, "wordmark")}
-      title={svgInfo.title}
-      height="40"
-    />
-    <img
-      loading="lazy"
-      class={cn("block dark:hidden", globalImageStyles)}
-      src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: false })}
-      alt={getSvgAltText(svgInfo, "wordmark")}
-      title={svgInfo.title}
-      height="40"
-    />
+    <InternalLink href={getIconHref(svgInfo)} className="contents" title={svgInfo.title}>
+      <img
+        loading="lazy"
+        class={cn("hidden dark:block", globalImageStyles)}
+        src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: true })}
+        alt={getSvgAltText(svgInfo, "wordmark")}
+        height="40"
+      />
+      <img
+        loading="lazy"
+        class={cn("block dark:hidden", globalImageStyles)}
+        src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: false })}
+        alt={getSvgAltText(svgInfo, "wordmark")}
+        height="40"
+      />
+    </InternalLink>
   {:else}
-    <img
-      loading="lazy"
-      class={cn("hidden dark:block", globalImageStyles)}
-      src={getSvgImgUrl({ url: svgInfo.route, isDark: true })}
-      alt={getSvgAltText(svgInfo)}
-      title={svgInfo.title}
-      height="40"
-    />
-    <img
-      loading="lazy"
-      class={cn("block dark:hidden", globalImageStyles)}
-      src={getSvgImgUrl({ url: svgInfo.route, isDark: false })}
-      alt={getSvgAltText(svgInfo)}
-      title={svgInfo.title}
-      height="40"
-    />
+    <InternalLink href={getIconHref(svgInfo)} className="contents" title={svgInfo.title}>
+      <img
+        loading="lazy"
+        class={cn("hidden dark:block", globalImageStyles)}
+        src={getSvgImgUrl({ url: svgInfo.route, isDark: true })}
+        alt={getSvgAltText(svgInfo)}
+        height="40"
+      />
+      <img
+        loading="lazy"
+        class={cn("block dark:hidden", globalImageStyles)}
+        src={getSvgImgUrl({ url: svgInfo.route, isDark: false })}
+        alt={getSvgAltText(svgInfo)}
+        height="40"
+      />
+    </InternalLink>
   {/if}
   <!-- Title -->
   <div class="mb-3 flex flex-col items-center justify-center space-y-1">
-    <p
-      class="truncate text-center text-[15px] font-medium text-balance select-all"
+    <InternalLink
+      href={getIconHref(svgInfo)}
+      className="truncate text-center text-[15px] font-medium text-balance hover:text-brand-energy dark:hover:text-brand"
+      title={`${svgInfo.title} — view SVG details`}
     >
       {svgInfo.title}
-    </p>
+    </InternalLink>
     <div class="flex items-center justify-center space-x-1">
       {#if Array.isArray(svgInfo.category)}
         {#each svgInfo.category.slice(0, maxVisibleCategories) as c (c)}

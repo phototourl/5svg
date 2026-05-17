@@ -27,7 +27,7 @@ export const brand = {
   displayName: "5SVG",
   colors: brandColors,
   tagline:
-    "Free SVG files and vector graphics for crafts, design, and everyday projects — browse, download, and save your favorites.",
+    "Free SVG files, logos & icons for crafts, design, and everyday projects — browse, download, and save your favorites.",
   siteUrl: "https://5svg.com",
   githubUrl: "https://github.com/phototourl/5svg",
   githubRepoGit: "https://github.com/phototourl/5svg.git",

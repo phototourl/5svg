@@ -1,8 +1,9 @@
 import type { iSVG } from "@/types/svg";
+import { getIconHref } from "@/utils/svg-slug";
 
-/** Link to a single SVG in the library (search by title). */
-export function getSvgLibraryHref(svg: Pick<iSVG, "title">): string {
-  return `/library?search=${encodeURIComponent(svg.title.trim())}`;
+/** Link to icon detail page, or library search fallback. */
+export function getSvgLibraryHref(svg: Pick<iSVG, "route" | "title">): string {
+  return getIconHref(svg);
 }
 
 export function getCategoryHref(category: string): string {
