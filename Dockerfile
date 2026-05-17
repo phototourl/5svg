@@ -18,6 +18,8 @@ RUN pnpm install --frozen-lockfile --dangerously-allow-all-builds
 FROM base AS builder
 ARG NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
 ENV NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=$NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
+# adapter-node prerender + large static/icon packs can exceed Node’s default ~2GB heap
+ENV NODE_OPTIONS=--max-old-space-size=6144
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN pnpm run check:size

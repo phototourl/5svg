@@ -18,15 +18,26 @@ function packIndexCandidates(staticDir: string): string[] {
   ];
 }
 
+const packIndexCache = new Map<string, PackIndex | null>();
+
 export function readPackIndex(staticDir: string): PackIndex | null {
+  if (packIndexCache.has(staticDir)) {
+    return packIndexCache.get(staticDir) ?? null;
+  }
+
   for (const file of packIndexCandidates(staticDir)) {
     if (!fs.existsSync(file)) continue;
     try {
-      return JSON.parse(fs.readFileSync(file, "utf8")) as PackIndex;
+      const index = JSON.parse(fs.readFileSync(file, "utf8")) as PackIndex;
+      packIndexCache.set(staticDir, index);
+      return index;
     } catch {
+      packIndexCache.set(staticDir, null);
       return null;
     }
   }
+
+  packIndexCache.set(staticDir, null);
   return null;
 }
 

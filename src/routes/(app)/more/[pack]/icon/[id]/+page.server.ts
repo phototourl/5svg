@@ -3,23 +3,10 @@ import type { PageServerLoad } from "./$types";
 
 import { getPackIconDetailSeo } from "@/config/pack-icon-detail-seo";
 import { isIconPackId } from "@/config/icon-packs";
-import {
-  findPackIcon,
-  getPackIconDetailPaths,
-} from "@/utils/pack-icon-paths.server";
+import { findPackIcon } from "@/utils/pack-icon-paths.server";
 
-/** Only prerender when pack `index.json` exists (skipped in Docker without gitignored assets). */
-const packIconPrerenderEntries = getPackIconDetailPaths().map((path) => {
-  const match = path.match(/^\/more\/([^/]+)\/icon\/(.+)$/);
-  if (!match) throw new Error(`Invalid pack icon path: ${path}`);
-  return { pack: match[1], id: decodeURIComponent(match[2]) };
-});
-
-export const prerender = packIconPrerenderEntries.length > 0;
-
-export function entries() {
-  return packIconPrerenderEntries;
-}
+/** SSR at runtime — prerendering would parse multi‑MB pack indexes many times and OOM in Docker. */
+export const prerender = false;
 
 export const load: PageServerLoad = ({ params }) => {
   if (!isIconPackId(params.pack)) {
