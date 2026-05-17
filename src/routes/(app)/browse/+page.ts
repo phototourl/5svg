@@ -5,6 +5,10 @@ import { getBrowseIcons, groupBrowseIconsByLetter } from "@/utils/browse-index";
 
 export const prerender = true;
 
+export function entries() {
+  return [{}];
+}
+
 export const load: PageLoad = () => {
   const icons = getBrowseIcons();
 

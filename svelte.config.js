@@ -9,6 +9,10 @@ const config = {
   preprocess: [vitePreprocess()],
   kit: {
     adapter: adapter(),
+    prerender: {
+      /** Avoid crawling sidebar links into /more/* (multi‑MB pack indexes). */
+      crawl: false,
+    },
     alias: {
       "@/*": "./src/*",
       "@/lib/*": "./src/lib/*",

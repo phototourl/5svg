@@ -4,6 +4,8 @@ import type { PageServerLoad } from "./$types";
 import { iconPackById, isIconPackId } from "@/config/icon-packs";
 import { readPackIndex } from "@/utils/pack-icon-paths.server";
 
+export const prerender = false;
+
 export const load: PageServerLoad = ({ params }) => {
   if (!isIconPackId(params.pack)) {
     error(404, "Icon pack not found");

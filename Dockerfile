@@ -23,7 +23,16 @@ ENV NODE_OPTIONS=--max-old-space-size=6144
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN pnpm run check:size
-RUN pnpm run build:prod
+# Pack SVG dirs (~46k files) stay in git for runtime but must not go through adapter static
+# copy in one shot — that hits EMFILE (too many open files) in Docker.
+RUN pnpm build:pack-indexes \
+  && pnpm build:og-icons \
+  && pnpm build:sitemaps \
+  && pnpm build:registry
+RUN mkdir -p /tmp/pack-static \
+  && mv static/bootstrap-icons static/font-awesome-7 static/react-icons /tmp/pack-static/
+RUN sh -c "ulimit -n 65535 2>/dev/null || true; pnpm vite build"
+RUN mv /tmp/pack-static/bootstrap-icons /tmp/pack-static/font-awesome-7 /tmp/pack-static/react-icons build/client/
 
 # ========== 阶段 3：运行（SvelteKit adapter-node → node build） ==========
 FROM node:22-alpine AS runner
