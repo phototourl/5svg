@@ -101,6 +101,22 @@
     class="flex flex-wrap items-center justify-center gap-3 border-t border-neutral-200 px-4 py-4 dark:border-neutral-800"
   >
     <a
+      href="https://www.producthunt.com/products/5svg?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-5svg"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1150063&theme=light"
+        width="250"
+        height="54"
+        alt="5SVG — Free SVG Logo & Icon Library on Product Hunt"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
       href="https://fazier.com/launches/5svg.com"
       target="_blank"
       rel="noreferrer"
