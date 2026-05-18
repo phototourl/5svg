@@ -274,6 +274,69 @@
         decoding="async"
       />
     </a>
+    <a
+      href="https://dayslaunch.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://dayslaunch.com/badages-awards.svg"
+        height="54"
+        alt="Featured on Days Launch"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://frogdr.com/5svg.com?utm_source=5svg.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://frogdr.com/5svg.com/badge-white.svg"
+        width="250"
+        height="54"
+        alt="Monitor your Domain Rating with FrogDR"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://www.toolpilot.ai"
+      target="_blank"
+      rel="noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://www.toolpilot.ai/cdn/shop/files/f-w_690x151_crop_center.png"
+        width="120"
+        height="28"
+        alt="Featured on Toolpilot"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+    <a
+      href="https://dang.ai/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block transition-transform hover:scale-105"
+    >
+      <img
+        src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png"
+        width="150"
+        height="54"
+        alt="Dang.ai"
+        class="h-6 w-auto shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
   </div>
 
   <div
