@@ -2,12 +2,8 @@
   import { brand } from "@/brand";
   import { siteSeo } from "@/config/seo";
   import { homeSeoMeta, homeMarketingImage, homeSeoFaq } from "@/config/home-seo";
-  import {
-    svgsData,
-    getSvgImgUrl,
-    sampleSvgs,
-    getCategoryStats,
-  } from "@/data";
+  import { svgsData, sampleSvgs, getCategoryStats } from "@/data";
+  import ThemeSvgImg from "@/components/svgs/theme-svg-img.svelte";
   import MarketingLogoMarquee from "@/components/marketing/marketingLogoMarquee.svelte";
   import MarketingHeroShowcase from "@/components/marketing/marketingHeroShowcase.svelte";
   import MarketingSeoSections from "@/components/marketing/marketingSeoSections.svelte";
@@ -17,7 +13,6 @@
   import BadgePercent from "@lucide/svelte/icons/badge-percent";
   import Headphones from "@lucide/svelte/icons/headphones";
   import FolderOpen from "@lucide/svelte/icons/folder-open";
-  import { mode } from "mode-watcher";
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getCategoryHref } from "@/utils/svgLinks";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
@@ -56,7 +51,6 @@
   const marqueeRowA = sampleSvgs(20, 0);
   const marqueeRowB = sampleSvgs(20, 11);
   const categoryStats = getCategoryStats(6);
-  const categoryIconDark = $derived(mode.current === "dark");
 
   const scriptClose = "</" + "script>";
   const jsonLdGraph = {
@@ -228,12 +222,10 @@
               class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-neutral-200 bg-white p-1.5 dark:border-neutral-700 dark:bg-neutral-950"
             >
               {#if cat.preview?.route}
-                <img
-                  src={getSvgImgUrl({ url: cat.preview.route, isDark: categoryIconDark })}
+                <ThemeSvgImg
+                  route={cat.preview.route}
                   alt={getSvgAltText(cat.preview)}
                   class="max-h-full max-w-full object-contain"
-                  loading="lazy"
-                  decoding="async"
                 />
               {:else}
                 <FolderOpen

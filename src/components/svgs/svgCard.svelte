@@ -2,8 +2,8 @@
   import type { iSVG } from "@/types/svg";
 
   import { cn } from "@/utils/cn";
-  import { mode } from "mode-watcher";
-  import { getSvgImgUrl } from "@/data";
+  import ThemeSvgImg from "@/components/svgs/theme-svg-img.svelte";
+  import { getIsDark } from "@/lib/resolve-is-dark";
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getIconHref } from "@/utils/svg-slug";
 
@@ -115,36 +115,20 @@
   <!-- Image -->
   {#if wordmarkSvg && svgInfo.wordmark !== undefined}
     <InternalLink href={getIconHref(svgInfo)} className="contents" title={svgInfo.title}>
-      <img
-        loading="lazy"
-        class={cn("hidden dark:block", globalImageStyles)}
-        src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: true })}
+      <ThemeSvgImg
+        route={svgInfo.wordmark}
         alt={getSvgAltText(svgInfo, "wordmark")}
-        height="40"
-      />
-      <img
-        loading="lazy"
-        class={cn("block dark:hidden", globalImageStyles)}
-        src={getSvgImgUrl({ url: svgInfo.wordmark, isDark: false })}
-        alt={getSvgAltText(svgInfo, "wordmark")}
-        height="40"
+        class={globalImageStyles}
+        height={40}
       />
     </InternalLink>
   {:else}
     <InternalLink href={getIconHref(svgInfo)} className="contents" title={svgInfo.title}>
-      <img
-        loading="lazy"
-        class={cn("hidden dark:block", globalImageStyles)}
-        src={getSvgImgUrl({ url: svgInfo.route, isDark: true })}
+      <ThemeSvgImg
+        route={svgInfo.route}
         alt={getSvgAltText(svgInfo)}
-        height="40"
-      />
-      <img
-        loading="lazy"
-        class={cn("block dark:hidden", globalImageStyles)}
-        src={getSvgImgUrl({ url: svgInfo.route, isDark: false })}
-        alt={getSvgAltText(svgInfo)}
-        height="40"
+        class={globalImageStyles}
+        height={40}
       />
     </InternalLink>
   {/if}
@@ -242,7 +226,7 @@
       />
     {/if}
 
-    <DownloadSvg {svgInfo} isDarkTheme={() => mode.current === "dark"} />
+    <DownloadSvg {svgInfo} isDarkTheme={getIsDark} />
 
     <ExternalLink
       href={svgInfo.url}

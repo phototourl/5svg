@@ -1,10 +1,9 @@
 <script lang="ts">
   import type { iSVG } from "@/types/svg";
-  import { getSvgImgUrl } from "@/data";
+  import ThemeSvgImg from "@/components/svgs/theme-svg-img.svelte";
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getSvgLibraryHref } from "@/utils/svgLinks";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import { mode } from "mode-watcher";
   interface Props {
     items: iSVG[];
     reverse?: boolean;
@@ -14,7 +13,6 @@
 
   let { items, reverse = false, duration = "45s", class: className = "" }: Props = $props();
 
-  const isDark = $derived(mode.current === "dark");
   const track = $derived([...items, ...items]);
 </script>
 
@@ -33,12 +31,10 @@
         title={svg.title}
         className="flex h-16 w-28 shrink-0 items-center justify-center rounded-xl border border-neutral-200 bg-white px-3 transition-colors hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-brand/50"
       >
-        <img
-          src={getSvgImgUrl({ url: svg.route!, isDark })}
+        <ThemeSvgImg
+          route={svg.route}
           alt={getSvgAltText(svg)}
           class="max-h-10 max-w-full object-contain"
-          loading="lazy"
-          decoding="async"
         />
       </InternalLink>
     {/each}

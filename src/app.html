@@ -3,6 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <script>
+      (function () {
+        var key = "mode-watcher-mode";
+        var mode = localStorage.getItem(key) ?? "system";
+        var light =
+          mode === "light" ||
+          (mode === "system" &&
+            window.matchMedia("(prefers-color-scheme: light)").matches);
+        var root = document.documentElement;
+        if (light) root.classList.remove("dark");
+        else root.classList.add("dark");
+        root.style.colorScheme = light ? "light" : "dark";
+      })();
+    </script>
     %sveltekit.head%
   </head>
   <body

@@ -2,17 +2,16 @@
   import { browser } from "$app/environment";
   import type { Category } from "@/types/categories";
   import {
-    getSvgImgUrl,
     getHeroPreviewSvgs,
     getFamousBrandPreviewSvgs,
     getCategoryPreviewSvgs,
     sampleSvgs,
   } from "@/data";
+  import ThemeSvgImg from "@/components/svgs/theme-svg-img.svelte";
   import { cn } from "@/utils/cn";
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getSvgLibraryHref } from "@/utils/svgLinks";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import { mode } from "mode-watcher";
   import * as Tabs from "@/components/ui/tabs";
   const TAB_ROTATE_MS = 4500;
 
@@ -63,7 +62,6 @@
 
   let activeTab = $state(heroTabs[0]!.id);
   let paused = $state(false);
-  const isDark = $derived(mode.current === "dark");
 
   const advanceTab = () => {
     const index = heroTabs.findIndex((tab) => tab.id === activeTab);
@@ -128,12 +126,10 @@
                 "hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-brand/50",
               )}
             >
-              <img
-                src={getSvgImgUrl({ url: svg.route!, isDark })}
+              <ThemeSvgImg
+                route={svg.route}
                 alt={getSvgAltText(svg)}
                 class="max-h-full max-w-full object-contain"
-                loading="lazy"
-                decoding="async"
               />
             </InternalLink>
           {/each}

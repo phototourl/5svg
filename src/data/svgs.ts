@@ -190,7 +190,10 @@ export const svgs: iSVG[] = [
   {
     title: "Suno",
     category: "AI",
-    route: "/library/suno.svg",
+    route: {
+      light: "/library/suno.svg",
+      dark: "/library/suno_dark.svg",
+    },
     wordmark: {
       light: "/library/suno_wordmark_light.svg",
       dark: "/library/suno_wordmark_dark.svg",

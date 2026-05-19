@@ -2,8 +2,9 @@
   import type { PageProps } from "./$types";
   import { brand } from "@/brand";
   import { cn } from "@/utils/cn";
-  import { mode } from "mode-watcher";
   import { getSvgImgUrl } from "@/data";
+  import { getIsDark } from "@/lib/resolve-is-dark";
+  import ThemeSvgImg from "@/components/svgs/theme-svg-img.svelte";
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getSvgSlug } from "@/utils/svg-slug";
   import { getCategoryHref } from "@/utils/svgLinks";
@@ -30,7 +31,7 @@
   const seo = $derived(data.seo);
   const categories = $derived(getIconCategories(svg));
   const slug = $derived(getSvgSlug(svg) ?? "");
-  const isDark = $derived(mode.current === "dark");
+  const isDark = $derived(getIsDark());
 
   let wordmarkView = $state(false);
 
@@ -154,14 +155,11 @@
         "border border-dashed border-neutral-200 bg-neutral-50 px-6 py-10 dark:border-neutral-700 dark:bg-neutral-950/50",
       )}
     >
-      <img
-        src={previewUrl}
+      <ThemeSvgImg
+        route={wordmarkView && svg.wordmark !== undefined ? svg.wordmark : svg.route}
         alt={getSvgAltText(svg, wordmarkView ? "wordmark" : "logo")}
-        width="160"
-        height="80"
         class="max-h-20 w-auto select-none"
         loading="eager"
-        fetchpriority="high"
       />
     </div>
 
