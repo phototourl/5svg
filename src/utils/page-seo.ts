@@ -1,5 +1,9 @@
 import { brand } from "@/brand";
 import { siteDocTitleSuffix, siteSeo } from "@/config/seo";
+import { LOCALES } from "@/lib/i18n/config";
+import { stripLocalePrefix } from "@/lib/i18n/paths";
+import { createTranslator } from "@/lib/i18n/translator";
+import type { Messages } from "@/lib/i18n/messages";
 import { librarySeo } from "@/config/library-seo";
 import { favoritesSeo } from "@/config/favorites-seo";
 import { getDirectorySeo } from "@/config/directory-seo";
@@ -58,9 +62,21 @@ export function resolvePageSeo(
   pathname: string,
   pageData?: Record<string, unknown>,
 ): ResolvedPageSeo {
+  const pathKey = stripLocalePrefix(pathname, LOCALES);
   const canonical = toCanonicalUrl(pathname);
+  const messages = pageData?.messages as Messages | undefined;
 
-  if (NOINDEX_PATHS.has(pathname)) {
+  if (pathKey === "/" && messages) {
+    const t = createTranslator(messages);
+    return {
+      title: t("seo.title"),
+      description: t("seo.description"),
+      canonical,
+      robots: "index, follow",
+    };
+  }
+
+  if (NOINDEX_PATHS.has(pathKey)) {
     return {
       title: favoritesSeo.title,
       description: favoritesSeo.description,
@@ -69,7 +85,7 @@ export function resolvePageSeo(
     };
   }
 
-  if (pathname.startsWith("/docs/") && pageData?.document) {
+  if (pathKey.startsWith("/docs/") && pageData?.document) {
     const doc = pageData.document as {
       metaTitle?: string;
       title: string;
@@ -83,7 +99,7 @@ export function resolvePageSeo(
     };
   }
 
-  if (pathname.startsWith("/icon/") && pageData?.svg) {
+  if (pathKey.startsWith("/icon/") && pageData?.svg) {
     return resolveIconPageSeo(pageData.svg as iSVG, canonical);
   }
 
@@ -97,7 +113,7 @@ export function resolvePageSeo(
     };
   }
 
-  const tagMatch = pathname.match(/^\/tags\/([^/]+)\/?$/);
+  const tagMatch = pathKey.match(/^\/tags\/([^/]+)\/?$/);
   if (tagMatch && isTagSlug(tagMatch[1])) {
     const tag = tagPageBySlug[tagMatch[1]];
     return {
@@ -108,7 +124,7 @@ export function resolvePageSeo(
     };
   }
 
-  if (pathname === "/tags") {
+  if (pathKey === "/tags") {
     return {
       title: "SVG Topics & Collections — Free Logo Guides | 5SVG",
       description:
@@ -118,7 +134,7 @@ export function resolvePageSeo(
     };
   }
 
-  const packListMatch = pathname.match(/^\/more\/([^/]+)\/?$/);
+  const packListMatch = pathKey.match(/^\/more\/([^/]+)\/?$/);
   if (packListMatch && isIconPackId(packListMatch[1]) && pageData?.pack) {
     const pack = pageData.pack as {
       name: string;
@@ -133,7 +149,7 @@ export function resolvePageSeo(
     };
   }
 
-  const directoryMatch = pathname.match(/^\/directory\/([^/]+)\/?$/);
+  const directoryMatch = pathKey.match(/^\/directory\/([^/]+)\/?$/);
   if (directoryMatch) {
     const slug = decodeURIComponent(directoryMatch[1]);
     const formatted = formatCategorySlug(slug);
@@ -161,12 +177,12 @@ export function resolvePageSeo(
     "/privacy": { title: privacyPage.title, description: privacyPage.description },
   };
 
-  const staticSeo = staticPages[pathname];
+  const staticSeo = staticPages[pathKey];
   if (staticSeo) {
     return { ...staticSeo, canonical, robots: "index, follow" };
   }
 
-  const packMatch = pathname.match(/^\/more\/([^/]+)\/?$/);
+  const packMatch = pathKey.match(/^\/more\/([^/]+)\/?$/);
   if (packMatch && isIconPackId(packMatch[1])) {
     const pack = iconPackById[packMatch[1]];
     return {
@@ -177,7 +193,7 @@ export function resolvePageSeo(
     };
   }
 
-  const iconMatch = pathname.match(/^\/icon\/([^/]+)\/?$/);
+  const iconMatch = pathKey.match(/^\/icon\/([^/]+)\/?$/);
   if (iconMatch) {
     const svg = getSvgBySlug(iconMatch[1]);
     if (svg) {
@@ -185,7 +201,7 @@ export function resolvePageSeo(
     }
   }
 
-  const docsMatch = pathname.match(/^\/docs\/(.+)$/);
+  const docsMatch = pathKey.match(/^\/docs\/(.+)$/);
   if (docsMatch) {
     const doc = allDocs.find((entry) => entry._meta.path === docsMatch[1]);
     if (doc) {

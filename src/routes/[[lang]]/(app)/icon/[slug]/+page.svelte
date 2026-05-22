@@ -21,7 +21,6 @@
   import { Button } from "@/components/ui/button";
 
   import LinkIcon from "@lucide/svelte/icons/link";
-  import SiteFreshness from "@/components/seo/site-freshness.svelte";
   import BaselineIcon from "@lucide/svelte/icons/baseline";
   import SparklesIcon from "@lucide/svelte/icons/sparkles";
 
@@ -132,7 +131,6 @@
         <p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
           {seo.lead}
         </p>
-        <SiteFreshness className="mt-2 text-xs text-neutral-500" />
         <div class="mt-4 flex flex-wrap gap-2">
           {#each categories as category (category)}
             <InternalLink

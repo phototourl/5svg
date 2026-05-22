@@ -16,6 +16,9 @@
   import ShowPackLinks from "@/components/layout/showPackLinks.svelte";
   import ShowSidebarLinks from "@/components/layout/showSidebarLinks.svelte";
   import ScrollArea from "@/components/ui/scroll-area/scroll-area.svelte";
+  import { getI18n } from "@/lib/i18n/context";
+
+  const i18n = $derived(getI18n());
 
   interface Props {
     className?: string;
@@ -34,11 +37,11 @@
 
 <Sheet.Root bind:open>
   <Sheet.Trigger
-    title="Open 5svg menu"
+    title={i18n.t("common.nav.openMenu")}
     class={cn(buttonVariants({ variant: "ghost", size: "icon" }), className)}
   >
     <MenuIcon class="size-5" />
-    <span class="sr-only">Open Menu</span>
+    <span class="sr-only">{i18n.t("common.nav.openMenu")}</span>
   </Sheet.Trigger>
   <Sheet.Content class="gap-0.5" side="left">
     <Sheet.Header>

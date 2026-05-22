@@ -4,6 +4,8 @@
   import Sidebar from "@/components/layout/sidebar.svelte";
   import AppBreadcrumbs from "@/components/layout/appBreadcrumbs.svelte";
   import { getAppBreadcrumbs } from "@/utils/breadcrumbs";
+  import { stripLocalePrefix } from "@/lib/i18n/paths";
+  import { LOCALES } from "@/lib/i18n/config";
 
   interface Props {
     children: Snippet;
@@ -16,7 +18,7 @@
   );
 
   const showBreadcrumbs = $derived(
-    breadcrumbs.length > 1 && page.url.pathname !== "/",
+    breadcrumbs.length > 1 && stripLocalePrefix(page.url.pathname, LOCALES) !== "/",
   );
 </script>
 

@@ -1,0 +1,141 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Switch language",
+    "languageSelect": {
+      "title": "Select your language",
+      "subtitle": "Choose a language for the site interface."
+    },
+    "nav": {
+      "freeSvg": "Free SVG",
+      "browse": "Browse",
+      "favorites": "Favorites",
+      "more": "More",
+      "api": "API",
+      "extensions": "Extensions",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Search library",
+      "openMenu": "Open menu"
+    },
+    "sidebar": {
+      "categories": "Categories",
+      "iconPacks": "Icon packs",
+      "allLogosAz": "All logos A–Z",
+      "submitSvg": "Submit SVG",
+      "githubRepo": "GitHub Repository"
+    },
+    "footer": {
+      "explore": "Explore",
+      "categories": "Categories",
+      "legal": "Legal",
+      "supportTitle": "We're here for you",
+      "supportBody": "Browse free SVG files for crafts, stickers, shirts, and everyday design. Search the library, download what you need, and save favorites for later.",
+      "exploreLibrary": "Explore library",
+      "browseIndex": "Browse A–Z index",
+      "home": "Home",
+      "about": "About",
+      "license": "License",
+      "privacy": "Privacy",
+      "design": "Design",
+      "social": "Social",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ free SVG logos — browse the library",
+      "favorites": "Download · save favorites · free for personal use"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Free SVG Logo & Icon Library",
+    "description": "Free SVG resource library: brand logos and icons for crafts and design. Browse by category, download files, and save favorites — for Cricut, Silhouette, Canva, and more.",
+    "keywords": "free svg files, free svg download, svg library, brand logo svg, cricut svg, silhouette svg, canva"
+  },
+  "home": {
+    "hero": {
+      "title": "Free SVG files, logos & icons",
+      "subtitle": "SVG resources for crafts, design, and everyday creative work — browse, download, and save favorites. No signup required.",
+      "marqueeAria": "Browse SVG files in the library"
+    },
+    "value": {
+      "freeTitle": "Free to browse",
+      "freeDesc": "Open the library anytime — search, filter by category, and download SVG files with no signup.",
+      "curatedTitle": "Curated collection",
+      "curatedDesc": "Hundreds of brand logos and icons in one place — ready for crafts, design, and print.",
+      "easyTitle": "Easy to use",
+      "easyDesc": "One-click download, save favorites, and use SVGs in Cricut, Silhouette, Canva, or any design app."
+    },
+    "craft": {
+      "title": "Made for everyday makers",
+      "subtitle": "Logos and icons you can use in Cricut, Silhouette, Canva, shirts, stickers, and more.",
+      "cutting": "Cutting crafts",
+      "stickers": "Stickers & decals",
+      "gifts": "Gifts & party",
+      "labels": "Labels & tags",
+      "print": "Print & photo",
+      "personal": "Personal projects",
+      "iconAlt": "{label} craft icon"
+    },
+    "library": {
+      "title": "What's in the library",
+      "subtitle": "{count}+ SVG files grouped by topic — use the header menu when you're ready to browse or download.",
+      "browseTitle": "Browse {name} SVGs",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVGs"
+    },
+    "how": {
+      "tag": "How it works",
+      "title": "Browse, download, save",
+      "subtitle": "Three steps from browse to download — no account required.",
+      "searchTitle": "Search or browse",
+      "searchDesc": "Open the library, pick a category, or search by name — filters help you narrow down fast.",
+      "downloadTitle": "Download SVG",
+      "downloadDesc": "Copy SVG code or download the file, then import it into design apps or cutting machines.",
+      "favoritesTitle": "Save favorites",
+      "favoritesDesc": "Heart the ones you use often and come back anytime — your list stays on this device."
+    },
+    "seoIntro": {
+      "tag": "SVG resources",
+      "title": "A free SVG library for crafts, design, and everyday projects",
+      "description": "5SVG is a free SVG resource site: logos, icons, and vector files you can browse and download. Search by name or category, grab the file you need, and save favorites — no account required."
+    },
+    "seoBlocks": {
+      "whatTag": "Basics",
+      "whatTitle": "What is an SVG file?",
+      "whatBody": "SVG (Scalable Vector Graphics) stores shapes and paths as math instead of pixels. That means logos and icons stay crisp whether you shrink them for a sticker or enlarge them for a poster.",
+      "whatB1": "Scales to any size without getting blurry",
+      "whatB2": "Common format for logos, icons, and simple illustrations",
+      "whatB3": "Supported by browsers, design software, and vinyl cutters",
+      "whatAlt": "5SVG — millions of high-quality SVG vectors and categories",
+      "usesTag": "Uses",
+      "usesTitle": "What can you do with SVG files?",
+      "usesBody": "SVGs are a practical starting point for personal projects — mockups, learning design, party crafts, and maker workflows where you need a clean vector you can resize.",
+      "usesB1": "Cut vinyl decals with Cricut or Silhouette",
+      "usesB2": "Drop icons into Canva, Figma, or PowerPoint",
+      "usesB3": "Print shirts, tags, and party decorations at home",
+      "usesB4": "Build mood boards and school projects with real brand logos",
+      "usesAlt": "5SVG — design, build, and present with UI kits and app icons",
+      "getTag": "Get files",
+      "getTitle": "How to get SVG files from 5SVG",
+      "getBody": "Everything in the library is free to browse. Open the library from the menu, search by name or pick a category, then copy or download the SVG file to your device.",
+      "getB1": "Browse or search — no signup required",
+      "getB2": "Click a logo to copy SVG code or download the file",
+      "getB3": "Use the heart icon to save favorites on this device",
+      "getB4": "Check each brand's official guidelines before commercial use",
+      "getAlt": "5SVG — fastest vector search across devices"
+    },
+    "faq": {
+      "title": "Common questions",
+      "subtitle": "SVG basics, downloads, and how the library works.",
+      "lead": "5SVG is built for quick browsing: search thousands of logos, open a file, and download or copy SVG in one click. Everything below is free — no account, no paywall.",
+      "q1": "Are SVG files on 5SVG free?",
+      "a1": "Yes. Browse, search, and download at no cost. Logos and trademarks belong to their owners — use them responsibly for personal, educational, and mockup work.",
+      "q2": "What is the difference between SVG and PNG?",
+      "a2": "PNG is pixel-based and can look soft when enlarged. SVG is vector-based and stays sharp at any size — better for logos, icons, and cutting machines.",
+      "q3": "Can I use these SVGs with Cricut or Silhouette?",
+      "a3": "Yes. Download the SVG, then import it into Cricut Design Space, Silhouette Studio, or any app that accepts vector files.",
+      "q4": "Do I need an account?",
+      "a4": "No. Browse and download without signing up. Favorites are stored locally in your browser on this device."
+    },
+    "bannerAlt": "5SVG — Free SVG Files, Logos & Icons"
+  }
+}

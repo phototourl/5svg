@@ -21,8 +21,16 @@ declare global {
 
   namespace App {
     // interface Error {}
-    // interface Locals {}
-    // interface PageData {}
+    interface Locals {
+      locale: import("@/lib/i18n/config").AppLocale;
+      pathnameWithoutLocale: string;
+    }
+    interface PageData {
+      locale?: import("@/lib/i18n/config").AppLocale;
+      messages?: import("@/lib/i18n/messages").Messages;
+      gaId?: string | null;
+      gaInlineScript?: string | null;
+    }
     // interface PageState {}
     // interface Platform {}
   }

@@ -2,27 +2,27 @@
   import Search from "@lucide/svelte/icons/search";
   import Download from "@lucide/svelte/icons/download";
   import Heart from "@lucide/svelte/icons/heart";
+  import { getI18n } from "@/lib/i18n/context";
 
-  const steps = [
+  const i18n = $derived(getI18n());
+
+  const steps = $derived([
     {
       icon: Search,
-      title: "Search or browse",
-      description:
-        "Open the library, pick a category, or search by name — filters help you narrow down fast.",
+      title: i18n.t("home.how.searchTitle"),
+      description: i18n.t("home.how.searchDesc"),
     },
     {
       icon: Download,
-      title: "Download SVG",
-      description:
-        "Copy SVG code or download the file, then import it into design apps or cutting machines.",
+      title: i18n.t("home.how.downloadTitle"),
+      description: i18n.t("home.how.downloadDesc"),
     },
     {
       icon: Heart,
-      title: "Save favorites",
-      description:
-        "Heart the ones you use often and come back anytime — your list stays on this device.",
+      title: i18n.t("home.how.favoritesTitle"),
+      description: i18n.t("home.how.favoritesDesc"),
     },
-  ] as const;
+  ]);
 </script>
 
 <section
@@ -32,15 +32,15 @@
     <p
       class="mx-auto w-fit rounded-full border border-brand/30 bg-brand/5 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand"
     >
-      How it works
+      {i18n.t("home.how.tag")}
     </p>
     <h2
       class="mt-4 text-center text-2xl font-semibold tracking-tight text-neutral-900 md:text-3xl dark:text-neutral-50"
     >
-      Browse, download, save
+      {i18n.t("home.how.title")}
     </h2>
     <p class="mx-auto mt-2 max-w-xl text-center text-sm text-neutral-600 dark:text-neutral-400">
-      Three steps from browse to download — no account required.
+      {i18n.t("home.how.subtitle")}
     </p>
 
     <ol class="mt-10 grid list-none gap-10 p-0 md:grid-cols-3 md:gap-8">

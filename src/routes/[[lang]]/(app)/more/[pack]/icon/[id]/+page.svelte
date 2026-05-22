@@ -15,8 +15,6 @@
   import CopyIcon from "@lucide/svelte/icons/copy";
   import DownloadIcon from "@lucide/svelte/icons/download";
   import { toast } from "svelte-sonner";
-  import SiteFreshness from "@/components/seo/site-freshness.svelte";
-
   let { data }: PageProps = $props();
 
   let copying = $state(false);
@@ -52,7 +50,6 @@
       {data.seo.h1}
     </h1>
     <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">{data.seo.lead}</p>
-    <SiteFreshness className="mt-2 text-xs text-neutral-500" />
     <p class="mt-2 text-xs text-neutral-500">
       License: {data.pack.license}
       <InternalLink href="/license" className="ml-1 text-brand-energy dark:text-brand">

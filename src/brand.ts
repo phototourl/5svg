@@ -26,8 +26,9 @@ export const brand = {
   name: "5svg",
   displayName: "5SVG",
   colors: brandColors,
+  /** Fallback English; homepage uses `home.hero.subtitle` from i18n. */
   tagline:
-    "Free SVG files, logos & icons for crafts, design, and everyday projects — browse, download, and save your favorites.",
+    "For crafts, design, and everyday projects — browse, download, and save your favorites.",
   siteUrl: "https://5svg.com",
   githubUrl: "https://github.com/phototourl/5svg",
   githubRepoGit: "https://github.com/phototourl/5svg.git",

@@ -1,34 +1,41 @@
 <script lang="ts">
   import { brand } from "@/brand";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
+  import LanguageSwitcher from "@/components/layout/languageSwitcher.svelte";
+  import { getI18n } from "@/lib/i18n/context";
 
-  const infoLinks = [
-    { href: "/library", label: "Explore library" },
-    { href: "/browse", label: "Browse A–Z index" },
-    { href: "/favorites", label: "Favorites" },
-    { href: "/", label: "Home" },
-  ] as const;
+  const i18n = $derived(getI18n());
 
-  const resourceLinks = [
-    { href: "/directory/design", label: "Design" },
-    { href: "/directory/social", label: "Social" },
-    { href: "/directory/software", label: "Software" },
-  ] as const;
+  const infoLinks = $derived([
+    { href: "/library", label: i18n.t("common.footer.exploreLibrary") },
+    { href: "/browse", label: i18n.t("common.footer.browseIndex") },
+    { href: "/favorites", label: i18n.t("common.nav.favorites") },
+    { href: "/", label: i18n.t("common.footer.home") },
+  ]);
 
-  const legalLinks = [
-    { href: "/about", label: "About" },
-    { href: "/license", label: "License" },
-    { href: "/privacy", label: "Privacy" },
-  ] as const;
+  const resourceLinks = $derived([
+    { href: "/directory/design", label: i18n.t("common.footer.design") },
+    { href: "/directory/social", label: i18n.t("common.footer.social") },
+    { href: "/directory/software", label: i18n.t("common.footer.software") },
+  ]);
+
+  const legalLinks = $derived([
+    { href: "/about", label: i18n.t("common.footer.about") },
+    { href: "/license", label: i18n.t("common.footer.license") },
+    { href: "/privacy", label: i18n.t("common.footer.privacy") },
+  ]);
 </script>
 
 <footer class="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
+  <div class="mx-auto flex max-w-6xl justify-end px-4 pt-8">
+    <LanguageSwitcher />
+  </div>
   <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-2 md:grid-cols-4">
     <div>
       <h3
         class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
       >
-        Explore
+        {i18n.t("common.footer.explore")}
       </h3>
       <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
         {#each infoLinks as link (link.href)}
@@ -48,7 +55,7 @@
       <h3
         class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
       >
-        Categories
+        {i18n.t("common.footer.categories")}
       </h3>
       <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
         {#each resourceLinks as link (link.href)}
@@ -68,7 +75,7 @@
       <h3
         class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
       >
-        Legal
+        {i18n.t("common.footer.legal")}
       </h3>
       <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
         {#each legalLinks as link (link.href)}
@@ -88,11 +95,10 @@
       <h3
         class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
       >
-        We're here for you
+        {i18n.t("common.footer.supportTitle")}
       </h3>
       <p class="text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
-        Browse free SVG files for crafts, stickers, shirts, and everyday design. Search the
-        library, download what you need, and save favorites for later.
+        {i18n.t("common.footer.supportBody")}
       </p>
     </div>
   </div>

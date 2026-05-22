@@ -1,13 +1,14 @@
 <script lang="ts">
   import { brand } from "@/brand";
   import { siteSeo } from "@/config/seo";
-  import { homeSeoMeta, homeMarketingImage, homeSeoFaq } from "@/config/home-seo";
+  import { homeMarketingImage } from "@/config/home-seo";
   import { svgsData, sampleSvgs, getCategoryStats } from "@/data";
   import ThemeSvgImg from "@/components/svgs/theme-svg-img.svelte";
   import MarketingLogoMarquee from "@/components/marketing/marketingLogoMarquee.svelte";
   import MarketingHeroShowcase from "@/components/marketing/marketingHeroShowcase.svelte";
   import MarketingSeoSections from "@/components/marketing/marketingSeoSections.svelte";
   import MarketingHowItWorks from "@/components/marketing/marketingHowItWorks.svelte";
+  import { getI18n } from "@/lib/i18n/context";
 
   import Truck from "@lucide/svelte/icons/truck";
   import BadgePercent from "@lucide/svelte/icons/badge-percent";
@@ -16,44 +17,49 @@
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getCategoryHref } from "@/utils/svgLinks";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import SiteFreshness from "@/components/seo/site-freshness.svelte";
 
-  const valueProps = [
+  const i18n = $derived(getI18n());
+
+  const valueProps = $derived([
     {
       icon: Truck,
-      title: "Free to browse",
-      description:
-        "Open the library anytime — search, filter by category, and download SVG files with no signup.",
+      title: i18n.t("home.value.freeTitle"),
+      description: i18n.t("home.value.freeDesc"),
     },
     {
       icon: BadgePercent,
-      title: "Curated collection",
-      description:
-        "Hundreds of brand logos and icons in one place — ready for crafts, design, and print.",
+      title: i18n.t("home.value.curatedTitle"),
+      description: i18n.t("home.value.curatedDesc"),
     },
     {
       icon: Headphones,
-      title: "Easy to use",
-      description:
-        "One-click download, save favorites, and use SVGs in Cricut, Silhouette, Canva, or any design app.",
+      title: i18n.t("home.value.easyTitle"),
+      description: i18n.t("home.value.easyDesc"),
     },
-  ] as const;
+  ]);
 
-  const craftUses = [
-    { icon: "/marketing/craft/scissors.svg", label: "Cutting crafts" },
-    { icon: "/marketing/craft/sparkles.svg", label: "Stickers & decals" },
-    { icon: "/marketing/craft/gift.svg", label: "Gifts & party" },
-    { icon: "/marketing/craft/tag.svg", label: "Labels & tags" },
-    { icon: "/marketing/craft/photo.svg", label: "Print & photo" },
-    { icon: "/marketing/craft/heart.svg", label: "Personal projects" },
-  ] as const;
+  const craftUses = $derived([
+    { icon: "/marketing/craft/scissors.svg", label: i18n.t("home.craft.cutting") },
+    { icon: "/marketing/craft/sparkles.svg", label: i18n.t("home.craft.stickers") },
+    { icon: "/marketing/craft/gift.svg", label: i18n.t("home.craft.gifts") },
+    { icon: "/marketing/craft/tag.svg", label: i18n.t("home.craft.labels") },
+    { icon: "/marketing/craft/photo.svg", label: i18n.t("home.craft.print") },
+    { icon: "/marketing/craft/heart.svg", label: i18n.t("home.craft.personal") },
+  ]);
+
+  const homeSeoFaq = $derived([
+    { question: i18n.t("home.faq.q1"), answer: i18n.t("home.faq.a1") },
+    { question: i18n.t("home.faq.q2"), answer: i18n.t("home.faq.a2") },
+    { question: i18n.t("home.faq.q3"), answer: i18n.t("home.faq.a3") },
+    { question: i18n.t("home.faq.q4"), answer: i18n.t("home.faq.a4") },
+  ]);
 
   const marqueeRowA = sampleSvgs(20, 0);
   const marqueeRowB = sampleSvgs(20, 11);
   const categoryStats = getCategoryStats(6);
 
   const scriptClose = "</" + "script>";
-  const jsonLdGraph = {
+  const jsonLdGraph = $derived({
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -69,7 +75,7 @@
         "@id": `${brand.siteUrl}/#website`,
         name: siteSeo.siteName,
         url: siteSeo.url,
-        description: siteSeo.description,
+        description: i18n.t("seo.description"),
         publisher: { "@id": `${brand.siteUrl}/#organization` },
         potentialAction: {
           "@type": "SearchAction",
@@ -80,7 +86,7 @@
       {
         "@type": "FAQPage",
         "@id": `${brand.siteUrl}/#faq`,
-        mainEntity: homeSeoFaq.map((item) => ({
+        mainEntity: homeSeoFaq.map((item: { question: string; answer: string }) => ({
           "@type": "Question",
           name: item.question,
           acceptedAnswer: {
@@ -90,14 +96,15 @@
         })),
       },
     ],
-  };
+  });
 
-  const websiteJsonLdHtml =
-    '<script type="application/ld+json">' + JSON.stringify(jsonLdGraph) + scriptClose;
+  const websiteJsonLdHtml = $derived(
+    '<script type="application/ld+json">' + JSON.stringify(jsonLdGraph) + scriptClose,
+  );
 </script>
 
 <svelte:head>
-  <meta name="keywords" content={homeSeoMeta.keywords} />
+  <meta name="keywords" content={i18n.t("seo.keywords")} />
   {@html websiteJsonLdHtml}
 </svelte:head>
 
@@ -110,12 +117,11 @@
       <h1
         class="text-3xl font-semibold leading-tight tracking-tight text-neutral-900 md:text-4xl lg:text-5xl dark:text-neutral-50"
       >
-        Free SVG files, logos &amp; icons for crafts and design
+        {i18n.t("home.hero.title")}
       </h1>
       <p class="mt-4 text-base leading-relaxed text-neutral-600 dark:text-neutral-400">
-        {brand.tagline}
+        {i18n.t("home.hero.subtitle")}
       </p>
-      <SiteFreshness className="mt-3 text-sm text-neutral-500" />
       <img
         src={homeMarketingImage.bannerLogo}
         alt={homeMarketingImage.bannerLogoAlt}
@@ -135,7 +141,7 @@
 <!-- Scrolling logo strip (8svg-style density) -->
 <section
   class="space-y-3 border-y border-neutral-200 bg-neutral-50 py-6 dark:border-neutral-800 dark:bg-neutral-900/50"
-  aria-label="Browse logos from the library"
+  aria-label={i18n.t("home.hero.marqueeAria")}
 >
   <MarketingLogoMarquee items={marqueeRowA} duration="50s" />
   <MarketingLogoMarquee items={marqueeRowB} reverse duration="55s" />
@@ -172,10 +178,10 @@
   <h2
     class="text-center text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
   >
-    Made for everyday makers
+    {i18n.t("home.craft.title")}
   </h2>
   <p class="mt-2 text-center text-sm text-neutral-600 dark:text-neutral-400">
-    Logos and icons you can use in Cricut, Silhouette, Canva, shirts, stickers, and more.
+    {i18n.t("home.craft.subtitle")}
   </p>
   <div class="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
     {#each craftUses as item (item.label)}
@@ -184,7 +190,7 @@
       >
         <img
           src={item.icon}
-          alt={`${item.label} craft icon`}
+          alt={i18n.t("home.craft.iconAlt", { label: item.label })}
           class="size-10 text-neutral-900 dark:invert"
           loading="lazy"
         />
@@ -204,18 +210,17 @@
     <h2
       class="text-center text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
     >
-      What’s in the library
+      {i18n.t("home.library.title")}
     </h2>
     <p class="mt-2 text-center text-sm text-neutral-600 dark:text-neutral-400">
-      {svgsData.length}+ SVG files grouped by topic — use the header menu when you’re ready to browse or
-      download.
+      {i18n.t("home.library.subtitle", { count: svgsData.length })}
     </p>
     <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {#each categoryStats as cat (cat.name)}
         <li>
           <InternalLink
             href={getCategoryHref(cat.name)}
-            title={`Browse ${cat.name} SVGs`}
+            title={i18n.t("home.library.browseTitle", { name: cat.name })}
             className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3.5 transition-colors hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-brand/50"
           >
             <div
@@ -243,7 +248,9 @@
                 {cat.name}
               </span>
               <span class="shrink-0 text-sm tabular-nums text-neutral-500 dark:text-neutral-400">
-                {cat.count} SVG{cat.count === 1 ? "" : "s"}
+                {cat.count === 1
+                  ? i18n.t("home.library.svgCount", { count: cat.count })
+                  : i18n.t("home.library.svgCountPlural", { count: cat.count })}
               </span>
             </div>
           </InternalLink>

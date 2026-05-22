@@ -1,5 +1,7 @@
 import { browseSeo } from "@/config/browse-seo";
 import { librarySeo } from "@/config/library-seo";
+import { LOCALES } from "@/lib/i18n/config";
+import { stripLocalePrefix } from "@/lib/i18n/paths";
 import { tagPageBySlug, isTagSlug } from "@/config/tag-pages";
 import { iconPackById, isIconPackId } from "@/config/icon-packs";
 import { getDirectorySeo } from "@/config/directory-seo";
@@ -14,21 +16,22 @@ export function getAppBreadcrumbs(
   pathname: string,
   pageData?: Record<string, unknown>,
 ): BreadcrumbItem[] {
+  const path = stripLocalePrefix(pathname, LOCALES);
   const home: BreadcrumbItem = { label: "Home", href: "/" };
 
-  if (pathname === "/library") {
+  if (path === "/library") {
     return [home, { label: librarySeo.h1 }];
   }
 
-  if (pathname === "/browse") {
+  if (path === "/browse") {
     return [home, { label: browseSeo.h1 }];
   }
 
-  if (pathname === "/more") {
+  if (path === "/more") {
     return [home, { label: "More icon packs" }];
   }
 
-  const directoryMatch = pathname.match(/^\/directory\/([^/]+)\/?$/);
+  const directoryMatch = path.match(/^\/directory\/([^/]+)\/?$/);
   if (directoryMatch) {
     const slug = decodeURIComponent(directoryMatch[1]);
     const formatted = slug.charAt(0).toUpperCase() + slug.slice(1);
@@ -39,7 +42,7 @@ export function getAppBreadcrumbs(
     ];
   }
 
-  const tagMatch = pathname.match(/^\/tags\/([^/]+)\/?$/);
+  const tagMatch = path.match(/^\/tags\/([^/]+)\/?$/);
   if (tagMatch && isTagSlug(tagMatch[1])) {
     const tag = tagPageBySlug[tagMatch[1]];
     return [
@@ -49,11 +52,11 @@ export function getAppBreadcrumbs(
     ];
   }
 
-  if (pathname === "/tags") {
+  if (path === "/tags") {
     return [home, { label: "Topics" }];
   }
 
-  const iconMatch = pathname.match(/^\/icon\/([^/]+)\/?$/);
+  const iconMatch = path.match(/^\/icon\/([^/]+)\/?$/);
   if (iconMatch) {
     const svg = getSvgBySlug(iconMatch[1]);
     if (svg) {
@@ -81,13 +84,13 @@ export function getAppBreadcrumbs(
     ];
   }
 
-  const packMatch = pathname.match(/^\/more\/([^/]+)\/?$/);
+  const packMatch = path.match(/^\/more\/([^/]+)\/?$/);
   if (packMatch && isIconPackId(packMatch[1])) {
     const pack = iconPackById[packMatch[1]];
     return [home, { label: "More", href: "/more" }, { label: pack.name }];
   }
 
-  if (pathname.startsWith("/docs/")) {
+  if (path.startsWith("/docs/")) {
     const doc = pageData?.document as { title?: string } | undefined;
     return [
       home,
@@ -96,9 +99,9 @@ export function getAppBreadcrumbs(
     ];
   }
 
-  if (["/about", "/license", "/privacy"].includes(pathname)) {
+  if (["/about", "/license", "/privacy"].includes(path)) {
     const label =
-      pathname === "/about" ? "About" : pathname === "/license" ? "License" : "Privacy";
+      path === "/about" ? "About" : path === "/license" ? "License" : "Privacy";
     return [home, { label }];
   }
 

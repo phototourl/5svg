@@ -4,26 +4,30 @@
   import { buttonVariants } from "@/components/ui/button";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import ModeToggle from "@/components/modeToggle.svelte";
+  import LanguageSwitcher from "@/components/layout/languageSwitcher.svelte";
   import logoStackLight from "@/components/logos/logo_stack_light.png";
   import logoStackDark from "@/components/logos/logo_stack_dark.png";
   import { siteLogoAlt } from "@/utils/svgAlt";
+  import { getI18n } from "@/lib/i18n/context";
 
   import Search from "@lucide/svelte/icons/search";
   import Menu from "@lucide/svelte/icons/menu";
 
+  const i18n = $derived(getI18n());
+
   let mobileOpen = $state(false);
 
-  const navLinks = [
-    { href: "/library", label: "Free SVG" },
-    { href: "/favorites", label: "Favorites" },
-    ...(brand.showApiNav ? ([{ href: "/docs/api", label: "API" }] as const) : []),
+  const navLinks = $derived([
+    { href: "/library", label: i18n.t("common.nav.freeSvg") },
+    { href: "/favorites", label: i18n.t("common.nav.favorites") },
+    ...(brand.showApiNav ? ([{ href: "/docs/api", label: i18n.t("common.nav.api") }] as const) : []),
     ...(brand.showDeveloperTools
       ? ([
-          { href: "/extensions", label: "Extensions" },
-          { href: "/docs/shadcn-ui", label: "shadcn/ui" },
+          { href: "/extensions", label: i18n.t("common.nav.extensions") },
+          { href: "/docs/shadcn-ui", label: i18n.t("common.nav.shadcn") },
         ] as const)
       : []),
-  ] as const;
+  ]);
 </script>
 
 <header
@@ -69,13 +73,14 @@
     </nav>
 
     <div class="flex items-center gap-1">
+      <LanguageSwitcher />
       <InternalLink
         href="/library"
         className={cn(
           buttonVariants({ variant: "ghost", size: "icon" }),
           "hidden sm:inline-flex",
         )}
-        title="Search library"
+        title={i18n.t("common.nav.searchLibrary")}
       >
         <Search size={20} strokeWidth={1.5} />
       </InternalLink>
@@ -88,7 +93,7 @@
       <button
         type="button"
         class={cn(buttonVariants({ variant: "ghost", size: "icon" }), "lg:hidden")}
-        aria-label="Open menu"
+        aria-label={i18n.t("common.nav.openMenu")}
         onclick={() => (mobileOpen = !mobileOpen)}
       >
         <Menu size={20} />

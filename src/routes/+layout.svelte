@@ -1,17 +1,8 @@
 <script lang="ts">
   import type { LayoutProps } from "./$types";
 
-  // Styles:
   import "@/styles/globals.css";
 
-  // Layout:
-  import Header from "@/components/layout/header.svelte";
-  import MarketingAnnouncement from "@/components/marketing/marketingAnnouncement.svelte";
-  import MarketingHeader from "@/components/marketing/marketingHeader.svelte";
-  import MarketingFooter from "@/components/marketing/marketingFooter.svelte";
-  import { page } from "$app/state";
-
-  // Providers:
   import { ModeWatcher } from "mode-watcher";
   import Sonner from "@/components/ui/sonner/sonner.svelte";
   import GoogleAnalytics from "@/components/layout/GoogleAnalytics.svelte";
@@ -45,14 +36,4 @@
 <ModeWatcher />
 <GoogleAnalytics />
 <Sonner />
-{#if page.url.pathname === "/"}
-  <div class="min-h-screen bg-white dark:bg-neutral-950">
-    <MarketingAnnouncement />
-    <MarketingHeader />
-    <main>{@render children?.()}</main>
-    <MarketingFooter />
-  </div>
-{:else}
-  <Header />
-  {@render children?.()}
-{/if}
+{@render children?.()}

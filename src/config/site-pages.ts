@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import { brand } from "@/brand";
+import { expandPathsForAllLocales } from "@/lib/i18n/sitemap";
 import { getTagPaths } from "@/config/tag-pages";
 import { getCategories, getIconDetailPaths, getSvgsByCategory } from "@/data";
 import { getDocsPaths } from "@/utils/docs-paths";
@@ -56,9 +57,9 @@ export function getMorePackPaths(): string[] {
 /** Paths excluded from sitemap (still reachable, e.g. user-local favorites). */
 const SITEMAP_EXCLUDED = new Set(["/favorites"]);
 
-/** Core pages (excludes per-icon detail URLs). */
+/** Core pages (excludes per-icon detail URLs). Listed in all supported locales. */
 export function getMainSitemapPaths(): string[] {
-  return [
+  const base = [
     ...marketingPaths,
     ...appStaticPaths.filter((path) => !SITEMAP_EXCLUDED.has(path)),
     ...trustPaths,
@@ -68,6 +69,7 @@ export function getMainSitemapPaths(): string[] {
     ...getMorePackPaths(),
     ...getDocsPaths(),
   ];
+  return expandPathsForAllLocales(base);
 }
 
 /** Per-logo detail pages (`/icon/*`). */

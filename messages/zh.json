@@ -1,0 +1,141 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "切换语言",
+    "languageSelect": {
+      "title": "选择语言",
+      "subtitle": "选择网站界面显示的语言。"
+    },
+    "nav": {
+      "freeSvg": "免费 SVG",
+      "browse": "浏览",
+      "favorites": "收藏",
+      "more": "更多",
+      "api": "API",
+      "extensions": "扩展",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "搜索图库",
+      "openMenu": "打开菜单"
+    },
+    "sidebar": {
+      "categories": "分类",
+      "iconPacks": "图标包",
+      "allLogosAz": "全部标志 A–Z",
+      "submitSvg": "提交 SVG",
+      "githubRepo": "GitHub 仓库"
+    },
+    "footer": {
+      "explore": "探索",
+      "categories": "分类",
+      "legal": "法律信息",
+      "supportTitle": "我们随时为你服务",
+      "supportBody": "浏览免费 SVG，用于手工、贴纸、T 恤和日常设计。搜索图库、下载所需文件，并保存收藏以便下次使用。",
+      "exploreLibrary": "浏览图库",
+      "browseIndex": "A–Z 索引",
+      "home": "首页",
+      "about": "关于",
+      "license": "许可",
+      "privacy": "隐私",
+      "design": "设计",
+      "social": "社交",
+      "software": "软件"
+    },
+    "announcement": {
+      "library": "{count}+ 免费 SVG 标志 — 浏览图库",
+      "favorites": "下载 · 收藏 · 个人使用免费"
+    }
+  },
+  "seo": {
+    "title": "5SVG — 免费 SVG 标志与图标库",
+    "description": "免费 SVG 资源库：品牌标志与图标，适用于手工与设计。按分类浏览、下载文件、保存收藏，可用于 Cricut、Silhouette、Canva 等。",
+    "keywords": "免费 svg, svg 下载, svg 图库, 品牌 logo svg, cricut svg, silhouette svg, canva"
+  },
+  "home": {
+    "hero": {
+      "title": "免费 SVG 文件、标志与图标",
+      "subtitle": "面向手工制作、平面设计与日常创作，提供可浏览、可下载的 SVG 资源，并支持本地收藏，无需注册。",
+      "marqueeAria": "浏览图库中的 SVG"
+    },
+    "value": {
+      "freeTitle": "免费浏览",
+      "freeDesc": "随时打开图库——按分类搜索、筛选并下载 SVG，无需注册。",
+      "curatedTitle": "精选合集",
+      "curatedDesc": "数百个品牌标志与图标集中一处——适用于手工、设计与印刷。",
+      "easyTitle": "简单易用",
+      "easyDesc": "一键下载、保存收藏，可用于 Cricut、Silhouette、Canva 或任何设计软件。"
+    },
+    "craft": {
+      "title": "为日常创作者而生",
+      "subtitle": "可用于 Cricut、Silhouette、Canva、T 恤、贴纸等场景的标志与图标。",
+      "cutting": "切割手工",
+      "stickers": "贴纸与贴花",
+      "gifts": "礼物与派对",
+      "labels": "标签",
+      "print": "印刷与照片",
+      "personal": "个人项目",
+      "iconAlt": "{label} 手工图标"
+    },
+    "library": {
+      "title": "图库包含什么",
+      "subtitle": "{count}+ 个 SVG 文件按主题分组——准备好后使用顶部菜单浏览或下载。",
+      "browseTitle": "浏览 {name} SVG",
+      "svgCount": "{count} 个 SVG",
+      "svgCountPlural": "{count} 个 SVG"
+    },
+    "how": {
+      "tag": "使用方式",
+      "title": "浏览、下载、收藏",
+      "subtitle": "三步完成下载——无需账户。",
+      "searchTitle": "搜索或浏览",
+      "searchDesc": "打开图库、选择分类或按名称搜索——筛选可快速缩小范围。",
+      "downloadTitle": "下载 SVG",
+      "downloadDesc": "复制 SVG 代码或下载文件，然后导入设计软件或切割机。",
+      "favoritesTitle": "保存收藏",
+      "favoritesDesc": "收藏常用文件，随时回来——列表保存在本设备。"
+    },
+    "seoIntro": {
+      "tag": "SVG 资源",
+      "title": "面向手工、设计与日常项目的免费 SVG 资源库",
+      "description": "5SVG 是免费 SVG 资源站：提供可浏览、可下载的标志与图标文件。按名称或分类搜索，获取所需 SVG，并保存收藏——无需注册。"
+    },
+    "seoBlocks": {
+      "whatTag": "基础",
+      "whatTitle": "什么是 SVG 文件？",
+      "whatBody": "SVG（可缩放矢量图形）用数学描述形状与路径，而非像素。因此标志与图标在缩小为贴纸或放大为海报时仍保持清晰。",
+      "whatB1": "任意缩放不失真",
+      "whatB2": "常用于标志、图标与简单插画",
+      "whatB3": "浏览器、设计软件与切割机均支持",
+      "whatAlt": "5SVG — 海量高质量 SVG 矢量与分类",
+      "usesTag": "用途",
+      "usesTitle": "SVG 文件可以做什么？",
+      "usesBody": "SVG 是个人项目的实用起点——样机、学习设计、派对手工，以及需要可缩放矢量的创作流程。",
+      "usesB1": "用 Cricut 或 Silhouette 切割乙烯贴",
+      "usesB2": "放入 Canva、Figma 或 PowerPoint",
+      "usesB3": "在家印制 T 恤、标签与派对装饰",
+      "usesB4": "用真实品牌标志制作情绪板与学校项目",
+      "usesAlt": "5SVG — 用 UI 套件与应用图标设计、构建与展示",
+      "getTag": "获取文件",
+      "getTitle": "如何从 5SVG 获取 SVG",
+      "getBody": "图库内容均可免费浏览。从菜单打开图库，按名称搜索或选择分类，然后复制或下载 SVG 到设备。",
+      "getB1": "浏览或搜索——无需注册",
+      "getB2": "点击标志复制 SVG 或下载文件",
+      "getB3": "使用心形图标在本设备保存收藏",
+      "getB4": "商业使用前请查阅各品牌官方指南",
+      "getAlt": "5SVG — 跨设备最快矢量搜索"
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "SVG 基础、下载与图库使用说明。",
+      "lead": "5SVG 为快速浏览而设计：搜索数千标志、打开文件、一键下载或复制 SVG。以下全部免费——无账户、无付费墙。",
+      "q1": "5SVG 上的 SVG 免费吗？",
+      "a1": "是的。浏览、搜索与下载均免费。标志与商标归原权利人所有——请负责任地用于个人、教育与样机用途。",
+      "q2": "SVG 和 PNG 有什么区别？",
+      "a2": "PNG 基于像素，放大可能模糊。SVG 是矢量，任意尺寸都清晰——更适合标志、图标与切割机。",
+      "q3": "能否用于 Cricut 或 Silhouette？",
+      "a3": "可以。下载 SVG 后导入 Cricut Design Space、Silhouette Studio 或任何支持矢量的应用。",
+      "q4": "需要账户吗？",
+      "a4": "不需要。无需注册即可浏览与下载。收藏保存在本浏览器中。"
+    },
+    "bannerAlt": "5SVG — 免费 SVG 文件、标志与图标"
+  }
+}

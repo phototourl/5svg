@@ -6,7 +6,12 @@
   import HomeLink from "@/components/layout/homeLink.svelte";
   import HeaderNav from "@/components/layout/headerNav.svelte";
   import SidebarMobileMenu from "@/components/layout/sidebarMobileMenu.svelte";
+  import LanguageSwitcher from "@/components/layout/languageSwitcher.svelte";
   import { buttonVariants } from "@/components/ui/button";
+  import { stripLocalePrefix } from "@/lib/i18n/paths";
+  import { LOCALES } from "@/lib/i18n/config";
+
+  const basePath = $derived(stripLocalePrefix(page.url.pathname, LOCALES));
 </script>
 
 <header
@@ -14,13 +19,14 @@
 >
   <nav class="flex w-full items-center justify-between">
     <div class="flex items-center space-x-2">
-      {#if page.url.pathname !== "/"}
+      {#if basePath !== "/"}
         <SidebarMobileMenu className="md:hidden" />
       {/if}
       <HomeLink />
       <HeaderNav />
     </div>
-    <div class="flex items-center">
+    <div class="flex items-center gap-1">
+      <LanguageSwitcher />
       <ModeToggle
         className={cn(
           buttonVariants({ variant: "ghost", size: "icon" }),

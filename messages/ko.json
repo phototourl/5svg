@@ -1,0 +1,137 @@
+{
+  "common": {
+    "switchLanguage": "언어 변경",
+    "languageSelect": {
+      "title": "언어 선택",
+      "subtitle": "사이트 인터페이스 언어를 선택하세요."
+    },
+    "nav": {
+      "freeSvg": "무료 SVG",
+      "browse": "둘러보기",
+      "favorites": "즐겨찾기",
+      "more": "더보기",
+      "searchLibrary": "라이브러리 검색",
+      "openMenu": "메뉴 열기"
+    },
+    "sidebar": {
+      "categories": "카테고리",
+      "iconPacks": "아이콘 팩",
+      "allLogosAz": "전체 로고 A–Z",
+      "submitSvg": "SVG 제출",
+      "githubRepo": "GitHub 저장소"
+    },
+    "footer": {
+      "explore": "탐색",
+      "categories": "카테고리",
+      "legal": "법적 정보",
+      "supportTitle": "언제든 도와드립니다",
+      "supportBody": "공예, 스티커, 티셔츠, 일상 디자인용 무료 SVG를 둘러보세요. 라이브러리를 검색하고 다운로드한 뒤 즐겨찾기에 저장하세요.",
+      "exploreLibrary": "라이브러리 탐색",
+      "browseIndex": "A–Z 색인",
+      "home": "홈",
+      "about": "소개",
+      "license": "라이선스",
+      "privacy": "개인정보",
+      "design": "디자인",
+      "social": "소셜",
+      "software": "소프트웨어"
+    },
+    "announcement": {
+      "library": "무료 SVG 로고 {count}+개 — 라이브러리 둘러보기",
+      "favorites": "다운로드 · 즐겨찾기 · 개인 사용 무료"
+    }
+  },
+  "seo": {
+    "title": "5SVG — 무료 SVG 로고 및 아이콘 라이브러리",
+    "description": "무료 SVG 리소스 라이브러리: 공예와 디자인용 로고·아이콘. 카테고리별 탐색, 파일 다운로드, 즐겨찾기 저장.",
+    "keywords": "무료 svg, svg 다운로드, svg 라이브러리, 로고 svg, cricut svg, silhouette svg, canva"
+  },
+  "home": {
+    "hero": {
+      "title": "무료 SVG 파일, 로고 및 아이콘",
+      "subtitle": "공예, 디자인, 일상 제작을 위한 SVG 리소스 — 탐색, 다운로드, 즐겨찾기 저장. 가입 불필요.",
+      "marqueeAria": "라이브러리 SVG 파일 둘러보기"
+    },
+    "value": {
+      "freeTitle": "무료로 둘러보기",
+      "freeDesc": "언제든 라이브러리를 열고 검색, 카테고리 필터, SVG 다운로드 — 가입 불필요.",
+      "curatedTitle": "엄선 컬렉션",
+      "curatedDesc": "수백 개의 브랜드 로고와 아이콘을 한곳에 — 공예, 디자인, 인쇄에 바로 사용.",
+      "easyTitle": "쉬운 사용",
+      "easyDesc": "원클릭 다운로드, 즐겨찾기 저장, Cricut·Silhouette·Canva 등 디자인 앱 지원."
+    },
+    "craft": {
+      "title": "일상 크리에이터를 위해",
+      "subtitle": "Cricut, Silhouette, Canva, 티셔츠, 스티커 등에 쓰는 로고와 아이콘.",
+      "cutting": "커팅 공예",
+      "stickers": "스티커",
+      "gifts": "선물·파티",
+      "labels": "라벨",
+      "print": "인쇄·사진",
+      "personal": "개인 프로젝트",
+      "iconAlt": "{label} 공예 아이콘"
+    },
+    "library": {
+      "title": "라이브러리 구성",
+      "subtitle": "{count}+ SVG 파일을 주제별로 정리 — 상단 메뉴에서 둘러보거나 다운로드하세요.",
+      "browseTitle": "{name} SVG 둘러보기",
+      "svgCount": "SVG {count}개",
+      "svgCountPlural": "SVG {count}개"
+    },
+    "how": {
+      "tag": "사용 방법",
+      "title": "둘러보기, 다운로드, 저장",
+      "subtitle": "3단계로 다운로드 — 계정 불필요.",
+      "searchTitle": "검색 또는 둘러보기",
+      "searchDesc": "라이브러리를 열고 카테고리를 선택하거나 이름으로 검색 — 필터로 빠르게 좁히기.",
+      "downloadTitle": "SVG 다운로드",
+      "downloadDesc": "SVG 코드 복사 또는 파일 저장 후 디자인 앱·커팅 머신에 가져오기.",
+      "favoritesTitle": "즐겨찾기 저장",
+      "favoritesDesc": "자주 쓰는 항목에 하트 표시 — 목록은 이 기기에 저장됩니다."
+    },
+    "seoIntro": {
+      "tag": "SVG 소개",
+      "title": "공예, 디자인, 일상 프로젝트용 무료 SVG, 로고 및 아이콘",
+      "description": "5SVG는 SVG 아이콘과 브랜드 로고의 무료 온라인 라이브러리입니다. SVG란 무엇인지, 활용법, 둘러보기 및 다운로드 방법을 안내합니다 — 계정 불필요."
+    },
+    "seoBlocks": {
+      "whatTag": "기초",
+      "whatTitle": "SVG 파일이란?",
+      "whatBody": "SVG(Scalable Vector Graphics)는 도형과 경로를 픽셀이 아닌 수식으로 저장합니다. 스티커부터 포스터까지 로고와 아이콘이 선명합니다.",
+      "whatB1": "어떤 크기로도 흐려지지 않음",
+      "whatB2": "로고, 아이콘, 단순 일러스트에 흔히 사용",
+      "whatB3": "브라우저, 디자인 소프트웨어, 커팅 머신 지원",
+      "whatAlt": "5SVG — 고품질 SVG 벡터와 카테고리",
+      "usesTag": "활용",
+      "usesTitle": "SVG로 할 수 있는 일",
+      "usesBody": "SVG는 개인 프로젝트의 실용적인 출발점 — 목업, 디자인 학습, 파티 공예, 크기 조절 가능한 벡터가 필요한 메이커 워크플로.",
+      "usesB1": "Cricut·Silhouette로 비닐 커팅",
+      "usesB2": "Canva, Figma, PowerPoint에 아이콘 삽입",
+      "usesB3": "티셔츠, 태그, 파티 장식을 집에서 인쇄",
+      "usesB4": "실제 브랜드 로고로 무드보드·학교 과제",
+      "usesAlt": "5SVG — UI 키트와 앱 아이콘으로 디자인·발표",
+      "getTag": "파일 받기",
+      "getTitle": "5SVG에서 SVG 받는 방법",
+      "getBody": "라이브러리는 모두 무료로 둘러볼 수 있습니다. 메뉴에서 열고 이름 또는 카테고리로 검색한 뒤 SVG를 복사하거나 다운로드하세요.",
+      "getB1": "둘러보기·검색 — 가입 불필요",
+      "getB2": "로고를 클릭해 SVG 복사 또는 다운로드",
+      "getB3": "하트로 이 기기에 즐겨찾기 저장",
+      "getB4": "상업적 사용 전 각 브랜드 공식 가이드 확인",
+      "getAlt": "5SVG — 모든 기기에서 빠른 벡터 검색"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "SVG 기초, 다운로드, 라이브러리 사용법.",
+      "lead": "5SVG는 빠른 탐색을 위해 만들어졌습니다. 수천 로고를 검색하고 파일을 연 뒤 원클릭으로 SVG를 다운로드하거나 복사하세요. 모두 무료 — 계정·페이월 없음.",
+      "q1": "5SVG의 SVG는 무료인가요?",
+      "a1": "네. 둘러보기, 검색, 다운로드가 무료입니다. 로고와 상표는 권리자에게 속합니다 — 개인·교육·목업 용도로 책임 있게 사용하세요.",
+      "q2": "SVG와 PNG의 차이는?",
+      "a2": "PNG는 픽셀 기반이라 확대 시 흐려질 수 있습니다. SVG는 벡터라 어떤 크기에서도 선명 — 로고, 아이콘, 커팅 머신에 적합.",
+      "q3": "Cricut·Silhouette에서 사용할 수 있나요?",
+      "a3": "네. SVG를 다운로드해 Cricut Design Space, Silhouette Studio 등 벡터 지원 앱에 가져오세요.",
+      "q4": "계정이 필요한가요?",
+      "a4": "아니요. 가입 없이 둘러보고 다운로드할 수 있습니다. 즐겨찾기는 이 브라우저에 로컬 저장됩니다."
+    },
+    "bannerAlt": "5SVG — 무료 SVG 파일, 로고 및 아이콘"
+  }
+}

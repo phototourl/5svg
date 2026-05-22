@@ -21,8 +21,6 @@
   import { brand } from "@/brand";
   import { librarySeo } from "@/config/library-seo";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import SiteFreshness from "@/components/seo/site-freshness.svelte";
-
   import Files from "@lucide/svelte/icons/files";
   import SearchXIcon from "@lucide/svelte/icons/search-x";
 
@@ -126,7 +124,6 @@
       A–Z index
     </InternalLink>
   </p>
-  <SiteFreshness className="mt-1 text-xs text-neutral-400" />
 </div>
 
 <Search

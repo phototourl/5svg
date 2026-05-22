@@ -1,0 +1,137 @@
+{
+  "common": {
+    "switchLanguage": "言語を切り替え",
+    "languageSelect": {
+      "title": "言語を選択",
+      "subtitle": "サイトの表示言語を選んでください。"
+    },
+    "nav": {
+      "freeSvg": "無料 SVG",
+      "browse": "一覧",
+      "favorites": "お気に入り",
+      "more": "その他",
+      "searchLibrary": "ライブラリを検索",
+      "openMenu": "メニューを開く"
+    },
+    "sidebar": {
+      "categories": "カテゴリー",
+      "iconPacks": "アイコンパック",
+      "allLogosAz": "すべてのロゴ A–Z",
+      "submitSvg": "SVG を投稿",
+      "githubRepo": "GitHub リポジトリ"
+    },
+    "footer": {
+      "explore": "探索",
+      "categories": "カテゴリ",
+      "legal": "法的情報",
+      "supportTitle": "いつでもサポート",
+      "supportBody": "クラフト、ステッカー、Tシャツ、日常デザイン向けの無料 SVG を閲覧。ライブラリを検索してダウンロードし、お気に入りを保存できます。",
+      "exploreLibrary": "ライブラリを見る",
+      "browseIndex": "A–Z インデックス",
+      "home": "ホーム",
+      "about": "概要",
+      "license": "ライセンス",
+      "privacy": "プライバシー",
+      "design": "デザイン",
+      "social": "ソーシャル",
+      "software": "ソフトウェア"
+    },
+    "announcement": {
+      "library": "無料 SVG ロゴ {count}+ 件 — ライブラリを見る",
+      "favorites": "ダウンロード · お気に入り · 個人利用無料"
+    }
+  },
+  "seo": {
+    "title": "5SVG — 無料 SVG ロゴ＆アイコンライブラリ",
+    "description": "無料の SVG リソースライブラリ：クラフトとデザイン向けのロゴ・アイコン。カテゴリ別に閲覧・ダウンロード・お気に入り保存。",
+    "keywords": "無料 svg, svg ダウンロード, svg ライブラリ, ロゴ svg, cricut svg, silhouette svg, canva"
+  },
+  "home": {
+    "hero": {
+      "title": "無料 SVG ファイル・ロゴ・アイコン",
+      "subtitle": "クラフト、デザイン、日常の制作向け SVG リソースを閲覧・ダウンロード・お気に入り保存。登録不要。",
+      "marqueeAria": "ライブラリの SVG ファイルを表示"
+    },
+    "value": {
+      "freeTitle": "無料で閲覧",
+      "freeDesc": "いつでもライブラリを開き、検索・カテゴリ絞り込み・SVG ダウンロードが可能。登録不要。",
+      "curatedTitle": "厳選コレクション",
+      "curatedDesc": "数百のブランドロゴとアイコンを一箇所に。クラフト、デザイン、印刷にすぐ使えます。",
+      "easyTitle": "かんたん操作",
+      "easyDesc": "ワンクリックでダウンロード、お気に入り保存。Cricut、Silhouette、Canva などに対応。"
+    },
+    "craft": {
+      "title": "日常のクリエイター向け",
+      "subtitle": "Cricut、Silhouette、Canva、Tシャツ、ステッカーなどに使えるロゴとアイコン。",
+      "cutting": "カッティング",
+      "stickers": "ステッカー",
+      "gifts": "ギフト・パーティ",
+      "labels": "ラベル",
+      "print": "印刷・写真",
+      "personal": "個人プロジェクト",
+      "iconAlt": "{label} クラフトアイコン"
+    },
+    "library": {
+      "title": "ライブラリの内容",
+      "subtitle": "{count}+ の SVG をテーマ別に整理。上部メニューから閲覧・ダウンロードできます。",
+      "browseTitle": "{name} の SVG を見る",
+      "svgCount": "SVG {count} 件",
+      "svgCountPlural": "SVG {count} 件"
+    },
+    "how": {
+      "tag": "使い方",
+      "title": "閲覧・ダウンロード・保存",
+      "subtitle": "3 ステップでダウンロード — アカウント不要。",
+      "searchTitle": "検索または閲覧",
+      "searchDesc": "ライブラリを開き、カテゴリを選ぶか名前で検索。フィルターで素早く絞り込み。",
+      "downloadTitle": "SVG をダウンロード",
+      "downloadDesc": "SVG コードをコピーまたはファイルを保存し、デザインアプリやカッティングマシンに取り込み。",
+      "favoritesTitle": "お気に入り保存",
+      "favoritesDesc": "よく使うものにハートを付けて、いつでも再訪 — 一覧はこの端末に保存されます。"
+    },
+    "seoIntro": {
+      "tag": "SVG について",
+      "title": "クラフト・デザイン・日常プロジェクト向けの無料 SVG・ロゴ・アイコン",
+      "description": "5SVG は SVG アイコンとブランドロゴの無料オンラインライブラリです。SVG の基礎、活用例、閲覧・ダウンロード方法を紹介 — アカウント不要。"
+    },
+    "seoBlocks": {
+      "whatTag": "基礎",
+      "whatTitle": "SVG ファイルとは？",
+      "whatBody": "SVG（Scalable Vector Graphics）は形状とパスを数式で保存し、ピクセルではありません。ステッカーからポスターまで、ロゴとアイコンは常にシャープです。",
+      "whatB1": "どんなサイズでもぼやけない",
+      "whatB2": "ロゴ・アイコン・シンプルなイラストに一般的",
+      "whatB3": "ブラウザ、デザインソフト、カッティングマシンで対応",
+      "whatAlt": "5SVG — 高品質 SVG ベクターとカテゴリ",
+      "usesTag": "用途",
+      "usesTitle": "SVG でできること",
+      "usesBody": "SVG は個人プロジェクトの実用的な出発点 — モックアップ、デザイン学習、パーティクラフト、リサイズ可能なベクターが必要なメイカー向けワークフロー。",
+      "usesB1": "Cricut や Silhouette でビニールカット",
+      "usesB2": "Canva、Figma、PowerPoint にアイコン配置",
+      "usesB3": "Tシャツ、タグ、パーティ装飾を自宅で印刷",
+      "usesB4": "実ブランドロゴでムードボードや学校課題",
+      "usesAlt": "5SVG — UI キットとアプリアイコンでデザイン・発表",
+      "getTag": "ファイル取得",
+      "getTitle": "5SVG から SVG を取得する方法",
+      "getBody": "ライブラリはすべて無料で閲覧可能。メニューから開き、名前またはカテゴリで検索し、SVG をコピーまたはダウンロード。",
+      "getB1": "閲覧・検索 — 登録不要",
+      "getB2": "ロゴをクリックして SVG をコピーまたはダウンロード",
+      "getB3": "ハートでこの端末にお気に入り保存",
+      "getB4": "商用利用前に各ブランドの公式ガイドを確認",
+      "getAlt": "5SVG — 全デバイスで最速のベクター検索"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "subtitle": "SVG の基礎、ダウンロード、ライブラリの使い方。",
+      "lead": "5SVG は素早い閲覧のためのサイト：数千のロゴを検索し、ファイルを開いてワンクリックで SVG をダウンロードまたはコピー。すべて無料 — アカウント・ペイウォールなし。",
+      "q1": "5SVG の SVG は無料ですか？",
+      "a1": "はい。閲覧・検索・ダウンロードは無料です。ロゴと商標は権利者に帰属 — 個人・教育・モックアップ用途で責任を持ってご利用ください。",
+      "q2": "SVG と PNG の違いは？",
+      "a2": "PNG はピクセルベースで拡大するとぼやけます。SVG はベクターで任意サイズでも鮮明 — ロゴ・アイコン・カッティングマシンに最適。",
+      "q3": "Cricut や Silhouette で使えますか？",
+      "a3": "はい。SVG をダウンロードし、Cricut Design Space、Silhouette Studio などベクター対応アプリに取り込めます。",
+      "q4": "アカウントは必要ですか？",
+      "a4": "いいえ。登録なしで閲覧・ダウンロード可能。お気に入りはこのブラウザにローカル保存されます。"
+    },
+    "bannerAlt": "5SVG — 無料 SVG ファイル・ロゴ・アイコン"
+  }
+}

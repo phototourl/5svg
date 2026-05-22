@@ -6,8 +6,6 @@
   import Grid from "@/components/grid.svelte";
   import SvgCard from "@/components/svgs/svgCard.svelte";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import SiteFreshness from "@/components/seo/site-freshness.svelte";
-
   let { data }: PageProps = $props();
 </script>
 
@@ -19,7 +17,6 @@
     <p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
       {data.tag.lead}
     </p>
-    <SiteFreshness className="mt-3 text-xs text-neutral-500" />
     <p class="mt-4 flex flex-wrap gap-3 text-sm">
       <InternalLink href="/library" className="text-brand-energy dark:text-brand">
         Full library

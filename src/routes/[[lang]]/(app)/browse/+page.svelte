@@ -7,7 +7,6 @@
 
   import Container from "@/components/container.svelte";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import SiteFreshness from "@/components/seo/site-freshness.svelte";
   import { cn } from "@/utils/cn";
 
   let { data }: PageProps = $props();
@@ -49,7 +48,6 @@
       {browseSeo.lead}
       <span class="font-mono text-neutral-500"> ({data.total} logos)</span>
     </p>
-    <SiteFreshness className="mt-2 text-xs text-neutral-500" />
     <p class="mt-4 text-sm">
       <InternalLink href="/library" className="font-medium text-brand-energy dark:text-brand">
         ← Interactive library
