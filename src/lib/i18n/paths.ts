@@ -25,7 +25,6 @@ export function localizePath(path: string, locale: AppLocale): string {
 /** Switch locale while keeping the same page path. */
 export function switchLocalePath(
   pathname: string,
-  from: AppLocale,
   to: AppLocale,
   locales: readonly string[],
 ): string {

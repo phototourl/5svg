@@ -13,7 +13,7 @@
   let open = $state(false);
 
   function pick(next: AppLocale) {
-    const target = switchLocalePath(page.url.pathname, i18n.locale, next, LOCALES);
+    const target = switchLocalePath(page.url.pathname, next, LOCALES);
     document.cookie = `${LOCALE_COOKIE}=${next};path=/;max-age=31536000;SameSite=Lax`;
     open = false;
     void goto(target);

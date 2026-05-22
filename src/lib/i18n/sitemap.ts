@@ -1,4 +1,4 @@
-import { DEFAULT_LOCALE, LOCALES, type AppLocale } from "./config";
+import { LOCALES } from "./config";
 import { localizePath } from "./paths";
 
 /** Expand core paths for all locales (as-needed: `en` has no prefix). */
@@ -18,12 +18,3 @@ export function expandPathsForAllLocales(paths: readonly string[]): string[] {
 
   return out;
 }
-
-export function localeHreflangPaths(path: string): { locale: AppLocale; href: string }[] {
-  return LOCALES.map((locale) => ({
-    locale,
-    href: localizePath(path, locale),
-  }));
-}
-
-export { DEFAULT_LOCALE };
