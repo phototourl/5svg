@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { homeMarketingImage } from "@/config/home-seo";
   import { cn } from "@/utils/cn";
   import { getI18n } from "@/lib/i18n/context";
 
@@ -133,7 +132,7 @@
 >
   <article class="mx-auto max-w-3xl px-4">
     <img
-      src={homeMarketingImage.bannerLogo}
+      src="/og-image.png"
       alt={i18n.t("home.bannerAlt")}
       class="mx-auto mb-8 block max-w-md object-contain"
       loading="lazy"
