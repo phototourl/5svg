@@ -130,14 +130,20 @@
 <section
   class="w-full border-b border-neutral-200 bg-neutral-100 py-12 md:py-16 dark:border-neutral-800 dark:bg-neutral-900/50"
 >
+  <div class="mx-auto max-w-6xl px-4">
+    <div
+      class="mx-auto mb-8 w-full overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-50 md:w-1/2 dark:border-neutral-800 dark:bg-neutral-900/50"
+    >
+      <img
+        src="/og-image.png"
+        alt={i18n.t("home.bannerAlt")}
+        class="block w-full object-contain"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  </div>
   <article class="mx-auto max-w-3xl px-4">
-    <img
-      src="/og-image.png"
-      alt={i18n.t("home.bannerAlt")}
-      class="mx-auto mb-8 block max-w-md object-contain"
-      loading="lazy"
-      decoding="async"
-    />
     <h2
       class="text-center text-2xl font-semibold tracking-tight text-neutral-900 md:text-3xl dark:text-neutral-50"
     >
