@@ -2,8 +2,6 @@
   import type { LayoutProps } from "./$types";
   import { page } from "$app/state";
   import Header from "@/components/layout/header.svelte";
-  import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner.svelte";
-  import AdsterraResponsiveBanners from "@/components/ads/AdsterraResponsiveBanners.svelte";
   import MarketingAnnouncement from "@/components/marketing/marketingAnnouncement.svelte";
   import MarketingHeader from "@/components/marketing/marketingHeader.svelte";
   import MarketingFooter from "@/components/marketing/marketingFooter.svelte";
@@ -21,13 +19,9 @@
     <MarketingAnnouncement />
     <MarketingHeader />
     <main>{@render children?.()}</main>
-    <AdsterraResponsiveBanners class="border-t border-neutral-200 bg-neutral-50/60 dark:border-neutral-800 dark:bg-neutral-900/40" />
-    <AdsterraNativeBanner class="border-t border-neutral-200 bg-neutral-50/60 dark:border-neutral-800 dark:bg-neutral-900/40" />
     <MarketingFooter />
   </div>
 {:else}
   <Header />
   {@render children?.()}
-  <AdsterraResponsiveBanners class="border-t border-neutral-200 bg-neutral-50/60 dark:border-neutral-800 dark:bg-neutral-900/40" />
-  <AdsterraNativeBanner class="border-t border-neutral-200 bg-neutral-50/60 dark:border-neutral-800 dark:bg-neutral-900/40" />
 {/if}

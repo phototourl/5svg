@@ -6,7 +6,6 @@
   import { ModeWatcher } from "mode-watcher";
   import Sonner from "@/components/ui/sonner/sonner.svelte";
   import GoogleAnalytics from "@/components/layout/GoogleAnalytics.svelte";
-  import AdsterraSocialBar from "@/components/ads/AdsterraSocialBar.svelte";
   import SiteHead from "@/components/seo/site-head.svelte";
 
   let { data, children }: LayoutProps = $props();
@@ -38,5 +37,3 @@
 <GoogleAnalytics />
 <Sonner />
 {@render children?.()}
-<!-- Adsterra Social Bar — above </body> per publisher docs -->
-<AdsterraSocialBar />
