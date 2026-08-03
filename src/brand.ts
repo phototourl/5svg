@@ -32,7 +32,7 @@ export const brand = {
   siteUrl: "https://5svg.com",
   githubUrl: "https://github.com/phototourl/5svg",
   githubRepoGit: "https://github.com/phototourl/5svg.git",
-  showApiNav: true,
+  showApiNav: false,
   showDeveloperTools: false,
   copyrightRights: "All rights reserved.",
   copyrightDisclaimer:

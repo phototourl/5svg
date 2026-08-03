@@ -12,27 +12,17 @@ RUN pnpm install --frozen-lockfile --dangerously-allow-all-builds
 # ========== 阶段 2：构建 ==========
 # Dokploy Build-time Arguments（与 phototourl 相同）:
 #   NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-V4P03XBERL
-#
-# Icon packs live in git under static/{bootstrap-icons,font-awesome-7,react-icons} (~45MB).
-# Run `pnpm build:pack-indexes` before commit so each pack has index.json.
 FROM base AS builder
 ARG NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
 ENV NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=$NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
-# adapter-node prerender + large static/icon packs can exceed Node’s default ~2GB heap
 ENV NODE_OPTIONS=--max-old-space-size=6144
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN pnpm run check:size
-# Pack SVG dirs (~46k files) stay in git for runtime but must not go through adapter static
-# copy in one shot — that hits EMFILE (too many open files) in Docker.
-RUN pnpm build:pack-indexes \
-  && pnpm build:og-icons \
+RUN pnpm build:og-icons \
   && pnpm build:sitemaps \
   && pnpm build:registry
-RUN mkdir -p /tmp/pack-static \
-  && mv static/bootstrap-icons static/font-awesome-7 static/react-icons /tmp/pack-static/
-RUN sh -c "ulimit -n 65535 2>/dev/null || true; pnpm vite build"
-RUN mv /tmp/pack-static/bootstrap-icons /tmp/pack-static/font-awesome-7 /tmp/pack-static/react-icons build/client/
+RUN pnpm vite build
 
 # ========== 阶段 3：运行（SvelteKit adapter-node → node build） ==========
 FROM node:22-alpine AS runner
