@@ -20,7 +20,6 @@
   <meta name="description" content={pageSeo.description} />
   <meta name="author" content={siteSeo.siteName} />
   <meta name="robots" content={pageSeo.robots} />
-  <meta name="monetag" content="85e03838d16410b3e12b3acf913c9701" />
   <link rel="canonical" href={pageSeo.canonical} />
 
   <link rel="icon" type="image/png" href={siteSeo.favicon} sizes="96x96" />

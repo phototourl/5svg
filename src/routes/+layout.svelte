@@ -6,7 +6,6 @@
   import { ModeWatcher } from "mode-watcher";
   import Sonner from "@/components/ui/sonner/sonner.svelte";
   import GoogleAnalytics from "@/components/layout/GoogleAnalytics.svelte";
-  import MonetagAds from "@/components/ads/MonetagAds.svelte";
   import SiteHead from "@/components/seo/site-head.svelte";
 
   let { data, children }: LayoutProps = $props();
@@ -36,6 +35,5 @@
 
 <ModeWatcher />
 <GoogleAnalytics />
-<MonetagAds />
 <Sonner />
 {@render children?.()}

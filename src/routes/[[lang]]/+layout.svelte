@@ -5,7 +5,6 @@
   import MarketingAnnouncement from "@/components/marketing/marketingAnnouncement.svelte";
   import MarketingHeader from "@/components/marketing/marketingHeader.svelte";
   import MarketingFooter from "@/components/marketing/marketingFooter.svelte";
-  import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner.svelte";
   import { stripLocalePrefix } from "@/lib/i18n/paths";
   import { LOCALES } from "@/lib/i18n/config";
 
@@ -20,11 +19,9 @@
     <MarketingAnnouncement />
     <MarketingHeader />
     <main>{@render children?.()}</main>
-    <AdsterraNativeBanner />
     <MarketingFooter />
   </div>
 {:else}
   <Header />
   {@render children?.()}
-  <AdsterraNativeBanner />
 {/if}
