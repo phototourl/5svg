@@ -18,7 +18,6 @@
   import Heart from "@lucide/svelte/icons/heart";
   import Cloud from "@lucide/svelte/icons/cloud";
   import Submit from "@lucide/svelte/icons/send";
-  import Layers from "@lucide/svelte/icons/layers";
   import LayoutGrid from "@lucide/svelte/icons/layout-grid";
   import Github from "@/components/logos/github.svelte";
   import Shadcn from "@/components/logos/shadcn.svelte";
@@ -38,8 +37,6 @@
         return LayoutGrid;
       case "/favorites":
         return Heart;
-      case "/more":
-        return Layers;
       case "/docs/api":
         return Cloud;
       case "/extensions":

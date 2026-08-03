@@ -9,13 +9,11 @@
       "freeSvg": "無料 SVG",
       "browse": "一覧",
       "favorites": "お気に入り",
-      "more": "その他",
       "searchLibrary": "ライブラリを検索",
       "openMenu": "メニューを開く"
     },
     "sidebar": {
       "categories": "カテゴリー",
-      "iconPacks": "アイコンパック",
       "allLogosAz": "すべてのロゴ A–Z",
       "submitSvg": "SVG を投稿",
       "githubRepo": "GitHub リポジトリ"

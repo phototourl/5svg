@@ -10,7 +10,6 @@
       "freeSvg": "免费 SVG",
       "browse": "浏览",
       "favorites": "收藏",
-      "more": "更多",
       "api": "API",
       "extensions": "扩展",
       "shadcn": "shadcn/ui",
@@ -19,7 +18,6 @@
     },
     "sidebar": {
       "categories": "分类",
-      "iconPacks": "图标包",
       "allLogosAz": "全部标志 A–Z",
       "submitSvg": "提交 SVG",
       "githubRepo": "GitHub 仓库"

@@ -12,7 +12,6 @@ export function getAppNavLinks(i18n: I18nContext): AppNavLink[] {
     { href: "/library", label: i18n.t("common.nav.freeSvg") },
     { href: "/browse", label: i18n.t("common.nav.browse") },
     { href: "/favorites", label: i18n.t("common.nav.favorites") },
-    { href: "/more", label: i18n.t("common.nav.more") },
     ...(brand.showApiNav
       ? ([{ href: "/docs/api", label: i18n.t("common.nav.api") }] as const)
       : []),
@@ -32,9 +31,6 @@ export function isAppNavActive(href: string, path: string): boolean {
   }
   if (href === "/browse") {
     return path === "/browse" || path.startsWith("/tags");
-  }
-  if (href === "/more") {
-    return path === "/more" || path.startsWith("/more/");
   }
   if (href === "/docs/api") {
     return path === "/docs/api" || path.startsWith("/docs/api/");

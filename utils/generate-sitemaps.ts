@@ -11,7 +11,6 @@ import path from "node:path";
 import {
   getIconSitemapPaths,
   getMainSitemapPaths,
-  getPackIconSitemapPaths,
 } from "../src/config/site-pages.ts";
 import { buildSitemapIndexXml, buildUrlsetXml } from "../src/utils/sitemap-xml.ts";
 
@@ -29,18 +28,10 @@ function withStylesheet(xml: string): string {
 const files = [
   {
     name: "sitemap.xml",
-    content: buildSitemapIndexXml([
-      "/sitemap-main.xml",
-      "/sitemap-icons.xml",
-      "/sitemap-pack-icons.xml",
-    ]),
+    content: buildSitemapIndexXml(["/sitemap-main.xml", "/sitemap-icons.xml"]),
   },
   { name: "sitemap-main.xml", content: buildUrlsetXml(getMainSitemapPaths()) },
   { name: "sitemap-icons.xml", content: buildUrlsetXml(getIconSitemapPaths()) },
-  {
-    name: "sitemap-pack-icons.xml",
-    content: buildUrlsetXml(getPackIconSitemapPaths()),
-  },
 ] as const;
 
 function main() {
@@ -49,7 +40,7 @@ function main() {
     fs.writeFileSync(outPath, withStylesheet(file.content), "utf8");
     const urlCount =
       file.name === "sitemap.xml"
-        ? 3
+        ? 2
         : (file.content.match(/<loc>/g) ?? []).length;
     console.log(`  ${file.name} (${urlCount} entries/locs)`);
   }

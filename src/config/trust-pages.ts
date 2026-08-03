@@ -8,7 +8,7 @@ export const aboutPage = {
   sections: [
     {
       h2: "What we offer",
-      body: "5SVG hosts a curated library of free SVG brand logos and icons, plus optional large icon packs (Bootstrap Icons, Font Awesome, React Icons). Browse, search, copy SVG code, or download files — no account required for the main library.",
+      body: "5SVG hosts a curated library of free SVG brand logos and icons. Browse, search, copy SVG code, or download files — no account required.",
     },
     {
       h2: "Who we are",
@@ -16,7 +16,7 @@ export const aboutPage = {
     },
     {
       h2: "How to use the site",
-      body: "Start on the library page, pick a category, or open More icon packs for additional collections. Save favorites in your browser, and read our License page before commercial use of any trademarked logo.",
+      body: "Start on the library page or pick a category. Save favorites in your browser, and read our License page before commercial use of any trademarked logo.",
     },
   ],
 } as const;
@@ -24,16 +24,12 @@ export const aboutPage = {
 export const licensePage = {
   title: "License & Trademark Notice — 5SVG",
   description:
-    "How to use SVG files from 5SVG: site terms, third-party pack licenses, and trademark guidelines for brand logos.",
+    "How to use SVG files from 5SVG: site terms and trademark guidelines for brand logos.",
   h1: "License & trademarks",
   sections: [
     {
       h2: "Main library (brand logos)",
       body: "Logos and wordmarks are trademarks of their respective owners. 5SVG provides files for personal projects, education, and mockups. Commercial use may require permission from the rights holder — always check each brand’s official brand guidelines.",
-    },
-    {
-      h2: "Icon packs",
-      body: "External packs list their own license on the pack page (for example MIT for Bootstrap Icons, CC BY 4.0 for Font Awesome free SVGs). Follow the upstream license when you redistribute or sell work that includes those icons.",
     },
     {
       h2: "No warranty",

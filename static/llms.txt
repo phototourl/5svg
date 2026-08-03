@@ -10,10 +10,8 @@
 - Library (search & grid): https://5svg.com/library
 - Browse all logos A–Z: https://5svg.com/browse
 - Topics (social, AI, Cricut, etc.): https://5svg.com/tags
-- Pack icon details: https://5svg.com/more/{pack}/icon/{id} (top 50 per pack)
 - Icon detail pages: https://5svg.com/icon/{slug} (e.g. https://5svg.com/icon/discord)
 - Categories: https://5svg.com/directory/{category}
-- More icon packs: https://5svg.com/more
 - License & trademarks: https://5svg.com/license
 - About: https://5svg.com/about
 

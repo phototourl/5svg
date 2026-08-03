@@ -42,8 +42,6 @@ pnpm build:prod
 pnpm preview
 ```
 
-**Dokploy:** Commit the three folders under `static/` (`bootstrap-icons`, `font-awesome-7`, `react-icons`, ~45MB). The Font Awesome pack is browsed at `/more/font-awesome`. Run `pnpm build:pack-indexes` before pushing so each pack has `index.json`. Without them in the repo, `/more/*` will 503 on production while the main library still works.
-
 ## Adding icons
 
 1. Place optimized `.svg` files in [`static/library/`](./static/library/) (keep `viewBox`; aim for &lt; 21kb per file).

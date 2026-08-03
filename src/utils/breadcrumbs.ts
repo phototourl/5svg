@@ -3,7 +3,6 @@ import { librarySeo } from "@/config/library-seo";
 import { LOCALES } from "@/lib/i18n/config";
 import { stripLocalePrefix } from "@/lib/i18n/paths";
 import { tagPageBySlug, isTagSlug } from "@/config/tag-pages";
-import { iconPackById, isIconPackId } from "@/config/icon-packs";
 import { getDirectorySeo } from "@/config/directory-seo";
 import { getSvgBySlug } from "@/data";
 
@@ -25,10 +24,6 @@ export function getAppBreadcrumbs(
 
   if (path === "/browse") {
     return [home, { label: browseSeo.h1 }];
-  }
-
-  if (path === "/more") {
-    return [home, { label: "More icon packs" }];
   }
 
   const directoryMatch = path.match(/^\/directory\/([^/]+)\/?$/);
@@ -71,23 +66,6 @@ export function getAppBreadcrumbs(
       crumbs.push({ label: svg.title });
       return crumbs;
     }
-  }
-
-  if (pageData?.pack && pageData?.icon) {
-    const pack = pageData.pack as { id: string; name: string };
-    const icon = pageData.icon as { title: string };
-    return [
-      home,
-      { label: "More", href: "/more" },
-      { label: pack.name, href: `/more/${pack.id}` },
-      { label: icon.title },
-    ];
-  }
-
-  const packMatch = path.match(/^\/more\/([^/]+)\/?$/);
-  if (packMatch && isIconPackId(packMatch[1])) {
-    const pack = iconPackById[packMatch[1]];
-    return [home, { label: "More", href: "/more" }, { label: pack.name }];
   }
 
   if (path.startsWith("/docs/")) {

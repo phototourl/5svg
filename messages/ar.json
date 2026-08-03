@@ -9,13 +9,11 @@
       "freeSvg": "SVG مجاني",
       "browse": "تصفح",
       "favorites": "المفضلة",
-      "more": "المزيد",
       "searchLibrary": "بحث في المكتبة",
       "openMenu": "فتح القائمة"
     },
     "sidebar": {
       "categories": "الفئات",
-      "iconPacks": "حزم الأيقونات",
       "allLogosAz": "جميع الشعارات A–Z",
       "submitSvg": "إرسال SVG",
       "githubRepo": "مستودع GitHub"

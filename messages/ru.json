@@ -9,13 +9,11 @@
       "freeSvg": "Бесплатные SVG",
       "browse": "Обзор",
       "favorites": "Избранное",
-      "more": "Ещё",
       "searchLibrary": "Поиск в библиотеке",
       "openMenu": "Открыть меню"
     },
     "sidebar": {
       "categories": "Категории",
-      "iconPacks": "Наборы иконок",
       "allLogosAz": "Все логотипы A–Z",
       "submitSvg": "Отправить SVG",
       "githubRepo": "Репозиторий GitHub"

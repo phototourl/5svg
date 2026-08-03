@@ -9,13 +9,11 @@
       "freeSvg": "SVG grátis",
       "browse": "Explorar",
       "favorites": "Favoritos",
-      "more": "Mais",
       "searchLibrary": "Buscar na biblioteca",
       "openMenu": "Abrir menu"
     },
     "sidebar": {
       "categories": "Categorias",
-      "iconPacks": "Pacotes de ícones",
       "allLogosAz": "Todos os logos A–Z",
       "submitSvg": "Enviar SVG",
       "githubRepo": "Repositório no GitHub"

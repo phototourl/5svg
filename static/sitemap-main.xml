@@ -2,63 +2,563 @@
 <?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://5svg.com/</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/library</loc><lastmod>2026-05-17</lastmod></url>
-  <url><loc>https://5svg.com/more</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/library</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/about</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/about</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/license</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/license</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/privacy</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/browse</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/browse</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags/social-icons</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags/ai-logos</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags/design-icons</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags/software-logos</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags/google-logos</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags/cricut-svg</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/tags/brand-logos</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/software</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/software</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/ai</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/platform</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/automation</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/framework</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/library</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/library</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/hardware</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/privacy</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/communications</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/google</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/google</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/education</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/education</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/payment</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/devtool</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/adobe</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/design</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/design</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/language</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/language</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/marketplace</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/nuxt</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/microsoft</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/crypto</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/authentication</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/cms</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/music</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/music</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/social</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/social</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/compiler</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/monorepo</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/vercel</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/entertainment</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/browser</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/hosting</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/database</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/database</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/cybersecurity</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/community</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/community</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/analytics</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/iot</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/config</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/config</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/secrets</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/iac</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/sync%20engine</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/voidzero</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
-  <url><loc>https://5svg.com/more/bootstrap-icons</loc><lastmod>2026-05-17</lastmod></url>
-  <url><loc>https://5svg.com/more/font-awesome</loc><lastmod>2026-05-17</lastmod></url>
-  <url><loc>https://5svg.com/more/react-icons</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/directory/themes</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://5svg.com/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/zh/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/es/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/de/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/fr/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/jp/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/pt/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ko/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ru/docs/api</loc><lastmod>2026-05-17</lastmod></url>
+  <url><loc>https://5svg.com/ar/docs/api</loc><lastmod>2026-05-17</lastmod></url>
 </urlset>

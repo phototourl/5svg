@@ -9,13 +9,11 @@
       "freeSvg": "무료 SVG",
       "browse": "둘러보기",
       "favorites": "즐겨찾기",
-      "more": "더보기",
       "searchLibrary": "라이브러리 검색",
       "openMenu": "메뉴 열기"
     },
     "sidebar": {
       "categories": "카테고리",
-      "iconPacks": "아이콘 팩",
       "allLogosAz": "전체 로고 A–Z",
       "submitSvg": "SVG 제출",
       "githubRepo": "GitHub 저장소"

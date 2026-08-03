@@ -10,7 +10,6 @@
       "freeSvg": "Free SVG",
       "browse": "Browse",
       "favorites": "Favorites",
-      "more": "More",
       "api": "API",
       "extensions": "Extensions",
       "shadcn": "shadcn/ui",
@@ -19,7 +18,6 @@
     },
     "sidebar": {
       "categories": "Categories",
-      "iconPacks": "Icon packs",
       "allLogosAz": "All logos A–Z",
       "submitSvg": "Submit SVG",
       "githubRepo": "GitHub Repository"

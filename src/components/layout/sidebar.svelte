@@ -3,7 +3,6 @@
 
   import { Separator } from "@/components/ui/separator";
   import ShowCategories from "@/components/layout/showCategories.svelte";
-  import ShowPackLinks from "@/components/layout/showPackLinks.svelte";
   import ShowSidebarLinks from "@/components/layout/showSidebarLinks.svelte";
   import ScrollArea from "@/components/ui/scroll-area/scroll-area.svelte";
   import ScrollAreaScrollbar from "@/components/ui/scroll-area/scroll-area-scrollbar.svelte";
@@ -21,12 +20,6 @@
   >
     <nav class="flex flex-col space-y-0.5 px-2">
       <ShowSidebarLinks />
-    </nav>
-    <div class="px-2">
-      <Separator orientation="horizontal" />
-    </div>
-    <nav class="flex flex-col space-y-0.5 px-2">
-      <ShowPackLinks />
     </nav>
     <div class="px-2">
       <Separator orientation="horizontal" />
