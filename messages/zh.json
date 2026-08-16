@@ -264,6 +264,7 @@
       "downloadButton": "下载 ZIP",
       "linkFallback": "或复制此备用下载链接：",
       "note": "若支付后未自动下载，请再次打开此链接下载。",
+      "limitNote": "此链接每单最多可下载 {maxDownloads} 次，自付款起 {days} 天内有效。请勿公开分享。",
       "textIntro": "感谢您购买 {title}。",
       "textDownload": "下载 ZIP（备用链接）：",
       "textSupport": "支持：{email}"

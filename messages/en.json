@@ -260,6 +260,7 @@
       "downloadButton": "Download ZIP",
       "linkFallback": "Or copy this backup download link:",
       "note": "If the file did not download automatically after payment, open this link again to download.",
+      "limitNote": "This link allows up to {maxDownloads} downloads and expires {days} days after payment. Do not share it publicly.",
       "textIntro": "Thanks for your purchase of {title}.",
       "textDownload": "Download your ZIP (backup link):",
       "textSupport": "Support: {email}"

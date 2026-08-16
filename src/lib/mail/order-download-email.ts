@@ -3,6 +3,8 @@ import {
   claimOrderEmailSend,
   releaseOrderEmailClaim,
   getOrderByToken,
+  MAX_DOWNLOADS_PER_ORDER,
+  DOWNLOAD_TTL_DAYS,
 } from "@/lib/shop/orders";
 import { getProductBySlug } from "@/lib/shop/catalog";
 import { sendRawEmail } from "./resend";
@@ -69,15 +71,27 @@ export async function trySendOrderDownloadEmailOnce(input: {
   const button = t("Mail.orderDownloadLink.downloadButton");
   const linkFallback = t("Mail.orderDownloadLink.linkFallback");
   const note = t("Mail.orderDownloadLink.note");
+  const limitNote = t("Mail.orderDownloadLink.limitNote", {
+    maxDownloads: MAX_DOWNLOADS_PER_ORDER,
+    days: DOWNLOAD_TTL_DAYS,
+  });
   const textIntro = t("Mail.orderDownloadLink.textIntro", { title });
   const textDownload = t("Mail.orderDownloadLink.textDownload");
   const textSupport = t("Mail.orderDownloadLink.textSupport", {
     email: brand.supportEmail,
   });
 
-  const text = [textIntro, "", textDownload, url, "", note, "", textSupport].join(
-    "\n",
-  );
+  const text = [
+    textIntro,
+    "",
+    textDownload,
+    url,
+    "",
+    note,
+    limitNote,
+    "",
+    textSupport,
+  ].join("\n");
 
   const html = `
     <div style="font-family:system-ui,-apple-system,sans-serif;line-height:1.5;color:#111">
@@ -93,7 +107,8 @@ export async function trySendOrderDownloadEmailOnce(input: {
       <p style="margin:0 0 20px;font-size:13px;word-break:break-all">
         <a href="${escapeAttr(url)}">${escapeHtml(url)}</a>
       </p>
-      <p style="margin:0;font-size:12px;color:#777">${escapeHtml(note)}</p>
+      <p style="margin:0 0 8px;font-size:12px;color:#777">${escapeHtml(note)}</p>
+      <p style="margin:0;font-size:12px;color:#777">${escapeHtml(limitNote)}</p>
     </div>
   `;
 
