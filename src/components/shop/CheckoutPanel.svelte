@@ -71,7 +71,7 @@
     {#if onRetry}
       <Button
         type="button"
-        variant="outline"
+        variant="default"
         class="w-full"
         onclick={() => void onRetry()}
       >
