@@ -26,8 +26,8 @@ export const POST: RequestHandler = async ({ request }) => {
     productSlug,
     email,
     successPath,
-    localePathPrefix:
-      locale === DEFAULT_LOCALE ? "" : `/${locale}`,
+    locale,
+    localePathPrefix: locale === DEFAULT_LOCALE ? "" : `/${locale}`,
   });
 
   if (!result.ok) {

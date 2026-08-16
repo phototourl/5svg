@@ -19,6 +19,8 @@ export type CreateShopCheckoutInput = {
   email: string;
   /** Locale-aware return path after pay, e.g. `/shop/my-pack` or `/zh/shop/my-pack`. */
   successPath: string;
+  /** Checkout UI locale — also stored in Creem metadata for webhook emails. */
+  locale?: string | null;
   /** Optional locale prefix for email backup link, e.g. `/zh` */
   localePathPrefix?: string;
 };
@@ -98,6 +100,8 @@ export async function createShopCheckout(
         productSlug: product.slug,
         scene: planKey,
         planId: planKey,
+        // Webhook fulfills first and has no browser locale — keep it here.
+        locale: (input.locale || "en").trim() || "en",
       },
     });
     await setOrderStatus(order.token, "pending", {

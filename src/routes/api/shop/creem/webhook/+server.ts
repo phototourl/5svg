@@ -5,6 +5,7 @@ import { parseCreemWebhookBody, verifyCreemWebhook } from "@/lib/creem";
 import { fulfillPaidOrder, getOrderByToken } from "@/lib/shop/server";
 import { isDbConfigured, exec } from "@/lib/db/pool";
 import { randomUUID } from "node:crypto";
+import { DEFAULT_LOCALE, isLocale } from "@/lib/i18n/config";
 
 /**
  * Creem webhook — mark paid + send link-only email.
@@ -95,12 +96,18 @@ export const POST: RequestHandler = async ({ request }) => {
           ? data.customerId
           : undefined;
 
+  const rawLocale = (metadata.locale || metadata.lang || "").trim();
+  const locale = isLocale(rawLocale) ? rawLocale : DEFAULT_LOCALE;
+  const localePathPrefix = locale === DEFAULT_LOCALE ? "" : `/${locale}`;
+
   await fulfillPaidOrder({
     orderToken,
     alreadyPaid: order.status === "paid",
     creemCheckoutId: checkoutId || undefined,
     creemOrderId,
     creemCustomerId,
+    locale,
+    localePathPrefix,
   });
 
   return json({ ok: true });

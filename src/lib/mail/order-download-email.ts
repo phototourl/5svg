@@ -54,16 +54,19 @@ export async function trySendOrderDownloadEmailOnce(input: {
   }
 
   const product = getProductBySlug(order.productSlug);
-  const title = product?.title ?? order.productSlug;
-  const url = buildOrderDownloadUrl(
-    order.token,
-    order.productSlug,
-    input.localePathPrefix ?? "",
-  );
-
   const locale = resolveLocale(input.locale);
   const messages = await getMessagesForLocale(locale);
   const t = createTranslator(messages);
+  const title =
+    product?.offer === "whole-shop"
+      ? t("shop.wholeShopTitle")
+      : (product?.title ?? order.productSlug);
+  const url = buildOrderDownloadUrl(
+    order.token,
+    order.productSlug,
+    input.localePathPrefix ??
+      (locale === DEFAULT_LOCALE ? "" : `/${locale}`),
+  );
 
   const subject = t("Mail.orderDownloadLink.subject", { title });
   const heading = t("Mail.orderDownloadLink.title");
