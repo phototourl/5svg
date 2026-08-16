@@ -1,5 +1,6 @@
 import { json } from "@sveltejs/kit";
 import type { RequestHandler } from "@sveltejs/kit";
+import { accessSync, constants } from "node:fs";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import JSZip from "jszip";
@@ -10,6 +11,28 @@ import {
   isOrderDownloadExpired,
 } from "@/lib/shop/server";
 import { getSvgsByCategory } from "@/data";
+
+/**
+ * adapter-node serves `static/` from `build/client` in Docker.
+ * Local/dev still uses `static/`. Prefer whichever has shop assets.
+ */
+function resolveShopAssetRoot(): string {
+  const cwd = process.cwd();
+  const candidates = [
+    path.join(cwd, "build", "client"),
+    path.join(cwd, "client"),
+    path.join(cwd, "static"),
+  ];
+  for (const dir of candidates) {
+    try {
+      accessSync(path.join(dir, "shop", "files"), constants.R_OK);
+      return dir;
+    } catch {
+      /* try next */
+    }
+  }
+  return path.join(cwd, "static");
+}
 
 export const GET: RequestHandler = async ({ url }) => {
   const token = url.searchParams.get("order_token")?.trim();
@@ -40,7 +63,7 @@ export const GET: RequestHandler = async ({ url }) => {
   }
 
   const zip = new JSZip();
-  const root = path.join(process.cwd(), "static");
+  const root = resolveShopAssetRoot();
   const usedNames = new Set<string>();
 
   if (product.kind === "craft" && product.files?.length) {
@@ -97,12 +120,8 @@ export const GET: RequestHandler = async ({ url }) => {
 
   const bytes = await zip.generateAsync({ type: "uint8array" });
   const filename = `${product.slug}.zip`;
-  const body = bytes.buffer.slice(
-    bytes.byteOffset,
-    bytes.byteOffset + bytes.byteLength,
-  ) as ArrayBuffer;
 
-  return new Response(body, {
+  return new Response(bytes, {
     headers: {
       "Content-Type": "application/zip",
       "Content-Disposition": `attachment; filename="${filename}"`,
