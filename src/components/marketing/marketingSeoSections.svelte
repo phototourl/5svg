@@ -1,6 +1,7 @@
 <script lang="ts">
   import { brand } from "@/brand";
   import { cn } from "@/utils/cn";
+  import { getHomeFaq } from "@/lib/i18n/home-faq";
   import { getI18n } from "@/lib/i18n/context";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
 
@@ -51,16 +52,7 @@
     },
   ]);
 
-  const homeSeoFaq = $derived([
-    { question: i18n.t("home.faq.q1"), answer: i18n.t("home.faq.a1") },
-    { question: i18n.t("home.faq.q2"), answer: i18n.t("home.faq.a2") },
-    { question: i18n.t("home.faq.q3"), answer: i18n.t("home.faq.a3") },
-    { question: i18n.t("home.faq.q4"), answer: i18n.t("home.faq.a4") },
-    { question: i18n.t("home.faq.q5"), answer: i18n.t("home.faq.a5") },
-    { question: i18n.t("home.faq.q6"), answer: i18n.t("home.faq.a6") },
-    { question: i18n.t("home.faq.q7"), answer: i18n.t("home.faq.a7") },
-    { question: i18n.t("home.faq.q8"), answer: i18n.t("home.faq.a8") },
-  ]);
+  const homeSeoFaq = $derived(getHomeFaq(i18n.t));
 
   const linkClass =
     "font-medium text-brand hover:underline dark:text-brand";

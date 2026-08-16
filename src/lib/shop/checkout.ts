@@ -1,11 +1,11 @@
-import { SHOP_RULES } from "./rules";
 import {
   createPendingOrder,
   getOrderByToken,
-  markOrderPaid,
   setOrderStatus,
 } from "./orders";
 import { getProductBySlug } from "./catalog";
+import { SHOP_RULES } from "./rules";
+import { fulfillPaidOrder } from "./fulfill";
 import { env } from "$env/dynamic/private";
 import {
   createCreemCheckout,
@@ -13,7 +13,6 @@ import {
   isCreemReadyForCheckout,
   retrieveCreemCheckout,
 } from "@/lib/creem";
-import { trySendOrderDownloadEmailOnce } from "@/lib/mail/order-download-email";
 
 export type CreateShopCheckoutInput = {
   productSlug: string;
@@ -75,11 +74,18 @@ export async function createShopCheckout(
   }
 
   try {
-    // 一期：全站 Bundle 共用一个 Creem 单次产品（EditStamp SINGLE 同级）
+    const planKey =
+      product.offer === "whole-shop" ? ("whole" as const) : ("single" as const);
     const productId =
-      product.creemProductId || getCreemProductId("single") || "";
+      product.creemProductId || getCreemProductId(planKey) || "";
     if (!productId) {
-      return { ok: false, error: "CREEM_PRICE_ID_SINGLE is not set" };
+      return {
+        ok: false,
+        error:
+          planKey === "whole"
+            ? "CREEM_PRICE_ID_WHOLE is not set"
+            : "CREEM_PRICE_ID_SINGLE is not set",
+      };
     }
     const origin = env.PUBLIC_SITE_URL || brandSite();
     const absoluteSuccess = toAbsolute(origin, successPath);
@@ -90,8 +96,8 @@ export async function createShopCheckout(
       metadata: {
         orderToken: order.token,
         productSlug: product.slug,
-        scene: "single",
-        planId: "single",
+        scene: planKey,
+        planId: planKey,
       },
     });
     await setOrderStatus(order.token, "pending", {
@@ -126,8 +132,9 @@ export async function syncShopCheckout(
   if (!order) return { ok: false, error: "Order not found" };
 
   if (order.status === "paid") {
-    const emailSent = await trySendOrderDownloadEmailOnce({
+    const { emailSent } = await fulfillPaidOrder({
       orderToken,
+      alreadyPaid: true,
       localePathPrefix: opts?.localePathPrefix,
       locale: opts?.locale,
     });
@@ -135,12 +142,9 @@ export async function syncShopCheckout(
   }
 
   if (isCreemMockMode()) {
-    await markOrderPaid(
+    const { emailSent } = await fulfillPaidOrder({
       orderToken,
-      opts?.creemCheckoutId ?? `mock_${orderToken}`,
-    );
-    const emailSent = await trySendOrderDownloadEmailOnce({
-      orderToken,
+      creemCheckoutId: opts?.creemCheckoutId ?? `mock_${orderToken}`,
       localePathPrefix: opts?.localePathPrefix,
       locale: opts?.locale,
     });
@@ -163,19 +167,17 @@ export async function syncShopCheckout(
       };
     }
 
-    // Prefer metadata on checkout; fall back to our pending order token.
     const metaToken =
       checkout.metadata.orderToken || checkout.metadata.exportToken || "";
     if (metaToken && metaToken !== orderToken) {
       return { ok: false, error: "Checkout does not match this order" };
     }
 
-    await markOrderPaid(orderToken, checkout.id, {
+    const { emailSent } = await fulfillPaidOrder({
+      orderToken,
+      creemCheckoutId: checkout.id,
       creemOrderId: checkout.orderId,
       creemCustomerId: checkout.customerId,
-    });
-    const emailSent = await trySendOrderDownloadEmailOnce({
-      orderToken,
       localePathPrefix: opts?.localePathPrefix,
       locale: opts?.locale,
     });

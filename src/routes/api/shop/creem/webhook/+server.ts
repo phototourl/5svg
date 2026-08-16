@@ -1,15 +1,13 @@
 import { json, error } from "@sveltejs/kit";
 import type { RequestHandler } from "@sveltejs/kit";
 import { env } from "$env/dynamic/private";
-import { verifyCreemWebhook } from "@/lib/creem";
-import { markOrderPaid, getOrderByToken } from "@/lib/shop/server";
-import { trySendOrderDownloadEmailOnce } from "@/lib/mail/order-download-email";
+import { parseCreemWebhookBody, verifyCreemWebhook } from "@/lib/creem";
+import { fulfillPaidOrder, getOrderByToken } from "@/lib/shop/server";
 import { isDbConfigured, exec } from "@/lib/db/pool";
 import { randomUUID } from "node:crypto";
 
 /**
- * Creem webhook — mark paid + send link-only email (EditStamp pattern).
- * Requires CREEM_WEBHOOK_SECRET; verify stub throws until wired.
+ * Creem webhook — mark paid + send link-only email.
  */
 export const POST: RequestHandler = async ({ request }) => {
   const signature =
@@ -23,18 +21,9 @@ export const POST: RequestHandler = async ({ request }) => {
 
   try {
     if (!env.CREEM_WEBHOOK_SECRET) {
-      // Dev without secret — still prefer Creem `object` shape
-      const raw = JSON.parse(payload) as {
-        type?: string;
-        eventType?: string;
-        object?: Record<string, unknown>;
-        data?: Record<string, unknown>;
-      };
-      eventType = String(raw.eventType ?? raw.type ?? "");
-      data =
-        (raw.object && typeof raw.object === "object" ? raw.object : null) ??
-        (raw.data && typeof raw.data === "object" ? raw.data : null) ??
-        (raw as Record<string, unknown>);
+      const parsed = parseCreemWebhookBody(payload);
+      eventType = parsed.eventType;
+      data = parsed.data;
     } else {
       const verified = verifyCreemWebhook(payload, signature);
       eventType = verified.eventType;
@@ -74,7 +63,6 @@ export const POST: RequestHandler = async ({ request }) => {
     return json({ ok: true, skipped: "no_order_token" });
   }
 
-  // Only act on checkout completion.
   if (eventType && eventType !== "checkout.completed") {
     return json({ ok: true, skipped: "ignored_event", eventType });
   }
@@ -107,14 +95,13 @@ export const POST: RequestHandler = async ({ request }) => {
           ? data.customerId
           : undefined;
 
-  if (order.status !== "paid") {
-    await markOrderPaid(orderToken, checkoutId || undefined, {
-      creemOrderId,
-      creemCustomerId,
-    });
-  }
-
-  await trySendOrderDownloadEmailOnce({ orderToken });
+  await fulfillPaidOrder({
+    orderToken,
+    alreadyPaid: order.status === "paid",
+    creemCheckoutId: checkoutId || undefined,
+    creemOrderId,
+    creemCustomerId,
+  });
 
   return json({ ok: true });
 };

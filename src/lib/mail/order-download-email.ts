@@ -35,21 +35,13 @@ function resolveLocale(input?: string | null): AppLocale {
 /**
  * Send one backup download email per paid order (atomic email_sent claim).
  * Content + link only — never attach the ZIP (EditStamp pattern).
- *
- * Off by default until checkout UX is finalized. Set SHOP_DOWNLOAD_EMAIL=1 to enable.
+ * Skips automatically when RESEND_API_KEY is missing (see sendRawEmail).
  */
-export function isShopDownloadEmailEnabled(): boolean {
-  const v = env.SHOP_DOWNLOAD_EMAIL;
-  return v === "1" || v === "true";
-}
-
 export async function trySendOrderDownloadEmailOnce(input: {
   orderToken: string;
   localePathPrefix?: string;
   locale?: string | null;
 }): Promise<boolean> {
-  if (!isShopDownloadEmailEnabled()) return false;
-
   const claimed = await claimOrderEmailSend(input.orderToken);
   if (!claimed) return false;
 

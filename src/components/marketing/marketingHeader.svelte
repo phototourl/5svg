@@ -1,14 +1,11 @@
 <script lang="ts">
-  import { brand } from "@/brand";
   import { cn } from "@/utils/cn";
   import { page } from "$app/state";
   import { buttonVariants } from "@/components/ui/button";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import ModeToggle from "@/components/modeToggle.svelte";
   import LanguageSwitcher from "@/components/layout/languageSwitcher.svelte";
-  import logoStackLight from "@/components/logos/logo_stack_light.png";
-  import logoStackDark from "@/components/logos/logo_stack_dark.png";
-  import { siteLogoAlt } from "@/utils/svgAlt";
+  import BrandLogoLink from "@/components/marketing/BrandLogoLink.svelte";
   import { getI18n } from "@/lib/i18n/context";
   import { stripLocalePrefix } from "@/lib/i18n/paths";
   import { LOCALES } from "@/lib/i18n/config";
@@ -37,30 +34,7 @@
 
 <header class="bg-transparent">
   <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 md:py-4">
-    <InternalLink href="/" className="flex shrink-0 items-center gap-2">
-      <span class="inline-flex h-10 w-11 shrink-0 items-center justify-center overflow-visible">
-        <img
-          src={logoStackLight}
-          alt={siteLogoAlt}
-          width={80}
-          height={80}
-          class="h-10 w-10 origin-center scale-[1.75] object-contain dark:hidden"
-          decoding="async"
-        />
-        <img
-          src={logoStackDark}
-          alt={siteLogoAlt}
-          aria-hidden="true"
-          width={80}
-          height={80}
-          class="hidden h-10 w-10 origin-center scale-[1.75] object-contain dark:block"
-          decoding="async"
-        />
-      </span>
-      <span class="text-xl font-medium tracking-tight text-neutral-900 dark:text-neutral-50"
-        >{brand.displayName}</span
-      >
-    </InternalLink>
+    <BrandLogoLink variant="header" />
 
     <nav class="hidden items-center gap-0.5 lg:flex">
       {#each navLinks as link (link.href)}

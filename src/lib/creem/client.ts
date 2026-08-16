@@ -132,6 +132,29 @@ export async function retrieveCreemCheckout(
   };
 }
 
+/** Parse Creem webhook JSON shape (`eventType` + `object` preferred). */
+export function parseCreemWebhookBody(payload: string): {
+  eventType: string;
+  data: Record<string, unknown>;
+} {
+  const parsed = JSON.parse(payload) as {
+    type?: string;
+    eventType?: string;
+    data?: Record<string, unknown>;
+    object?: Record<string, unknown>;
+  };
+
+  const eventType = String(parsed.eventType ?? parsed.type ?? "");
+  const data =
+    (parsed.object && typeof parsed.object === "object"
+      ? parsed.object
+      : null) ??
+    (parsed.data && typeof parsed.data === "object" ? parsed.data : null) ??
+    (parsed as Record<string, unknown>);
+
+  return { eventType, data };
+}
+
 /**
  * Verify webhook signature (HMAC-SHA256, EditStamp-compatible).
  * Creem live payloads: `{ eventType, object, id?, ... }` (not Stripe-style `data`).
@@ -155,21 +178,7 @@ export function verifyCreemWebhook(
     throw new Error("Invalid Creem webhook signature");
   }
 
-  const parsed = JSON.parse(payload) as {
-    type?: string;
-    eventType?: string;
-    data?: Record<string, unknown>;
-    object?: Record<string, unknown>;
-  };
-
-  const eventType = String(parsed.eventType ?? parsed.type ?? "");
-  // Prefer Creem `object`; fall back to `data` / whole payload for older shapes.
-  const data =
-    (parsed.object && typeof parsed.object === "object"
-      ? parsed.object
-      : null) ??
-    (parsed.data && typeof parsed.data === "object" ? parsed.data : null) ??
-    (parsed as Record<string, unknown>);
+  const { eventType, data } = parseCreemWebhookBody(payload);
 
   return {
     ok: true,

@@ -1,70 +1,23 @@
 <script lang="ts">
   import { brand } from "@/brand";
   import { siteSeo } from "@/config/seo";
-  import { homeMarketingImage } from "@/config/home-seo";
-  import { svgsData, sampleSvgs, getCategoryStats } from "@/data";
-  import ThemeSvgImg from "@/components/svgs/theme-svg-img.svelte";
+  import { sampleSvgs } from "@/data";
   import MarketingLogoMarquee from "@/components/marketing/marketingLogoMarquee.svelte";
-  import MarketingHeroShowcase from "@/components/marketing/marketingHeroShowcase.svelte";
   import MarketingSeoSections from "@/components/marketing/marketingSeoSections.svelte";
   import MarketingHowItWorks from "@/components/marketing/marketingHowItWorks.svelte";
+  import HomeHero from "@/components/marketing/home/HomeHero.svelte";
+  import HomeValueProps from "@/components/marketing/home/HomeValueProps.svelte";
+  import HomeFeaturedBundles from "@/components/marketing/home/HomeFeaturedBundles.svelte";
+  import HomeCraftUses from "@/components/marketing/home/HomeCraftUses.svelte";
+  import HomeLibraryOverview from "@/components/marketing/home/HomeLibraryOverview.svelte";
+  import { getHomeFaq } from "@/lib/i18n/home-faq";
   import { getI18n } from "@/lib/i18n/context";
 
-  import Truck from "@lucide/svelte/icons/truck";
-  import BadgePercent from "@lucide/svelte/icons/badge-percent";
-  import Headphones from "@lucide/svelte/icons/headphones";
-  import FolderOpen from "@lucide/svelte/icons/folder-open";
-  import { getSvgAltText } from "@/utils/svgAlt";
-  import { getCategoryHref } from "@/utils/svgLinks";
-  import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import { buttonVariants } from "@/components/ui/button";
-  import { cn } from "@/utils/cn";
-  import { formatUsd, getLiveThemeProducts } from "@/lib/shop";
-
   const i18n = $derived(getI18n());
-  const featuredBundles = getLiveThemeProducts().slice(0, 3);
-
-  const valueProps = $derived([
-    {
-      icon: Truck,
-      title: i18n.t("home.value.freeTitle"),
-      description: i18n.t("home.value.freeDesc"),
-    },
-    {
-      icon: BadgePercent,
-      title: i18n.t("home.value.curatedTitle"),
-      description: i18n.t("home.value.curatedDesc"),
-    },
-    {
-      icon: Headphones,
-      title: i18n.t("home.value.easyTitle"),
-      description: i18n.t("home.value.easyDesc"),
-    },
-  ]);
-
-  const craftUses = $derived([
-    { icon: "/marketing/craft/scissors.svg", label: i18n.t("home.craft.cutting") },
-    { icon: "/marketing/craft/sparkles.svg", label: i18n.t("home.craft.stickers") },
-    { icon: "/marketing/craft/gift.svg", label: i18n.t("home.craft.gifts") },
-    { icon: "/marketing/craft/tag.svg", label: i18n.t("home.craft.labels") },
-    { icon: "/marketing/craft/photo.svg", label: i18n.t("home.craft.print") },
-    { icon: "/marketing/craft/heart.svg", label: i18n.t("home.craft.personal") },
-  ]);
-
-  const homeSeoFaq = $derived([
-    { question: i18n.t("home.faq.q1"), answer: i18n.t("home.faq.a1") },
-    { question: i18n.t("home.faq.q2"), answer: i18n.t("home.faq.a2") },
-    { question: i18n.t("home.faq.q3"), answer: i18n.t("home.faq.a3") },
-    { question: i18n.t("home.faq.q4"), answer: i18n.t("home.faq.a4") },
-    { question: i18n.t("home.faq.q5"), answer: i18n.t("home.faq.a5") },
-    { question: i18n.t("home.faq.q6"), answer: i18n.t("home.faq.a6") },
-    { question: i18n.t("home.faq.q7"), answer: i18n.t("home.faq.a7") },
-    { question: i18n.t("home.faq.q8"), answer: i18n.t("home.faq.a8") },
-  ]);
+  const homeSeoFaq = $derived(getHomeFaq(i18n.t));
 
   const marqueeRowA = sampleSvgs(20, 0);
   const marqueeRowB = sampleSvgs(20, 11);
-  const categoryStats = getCategoryStats(6);
 
   const scriptClose = "</" + "script>";
   const jsonLdGraph = $derived({
@@ -109,7 +62,7 @@
       {
         "@type": "FAQPage",
         "@id": `${brand.siteUrl}/#faq`,
-        mainEntity: homeSeoFaq.map((item: { question: string; answer: string }) => ({
+        mainEntity: homeSeoFaq.map((item) => ({
           "@type": "Question",
           name: item.question,
           acceptedAnswer: {
@@ -122,7 +75,9 @@
   });
 
   const websiteJsonLdHtml = $derived(
-    '<script type="application/ld+json">' + JSON.stringify(jsonLdGraph) + scriptClose,
+    '<script type="application/ld+json">' +
+      JSON.stringify(jsonLdGraph) +
+      scriptClose,
   );
 </script>
 
@@ -131,54 +86,8 @@
   {@html websiteJsonLdHtml}
 </svelte:head>
 
-<!-- Hero -->
-<section class="bg-white dark:bg-neutral-950">
-  <div
-    class="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-2 md:py-16"
-  >
-    <div>
-      <h1
-        class="text-3xl font-semibold leading-tight tracking-tight text-neutral-900 md:text-4xl lg:text-5xl dark:text-neutral-50"
-      >
-        {i18n.t("home.hero.title")}
-      </h1>
-      <p class="mt-4 text-base leading-relaxed text-neutral-600 dark:text-neutral-400">
-        {i18n.t("home.hero.subtitle")}
-      </p>
-      <div class="mt-8 flex flex-wrap gap-3">
-        <InternalLink
-          href="/shop"
-          className={cn(buttonVariants({ size: "lg" }), "no-underline")}
-        >
-          {i18n.t("home.hero.ctaShop")}
-        </InternalLink>
-        <InternalLink
-          href="/library"
-          className={cn(
-            buttonVariants({ variant: "outline", size: "lg" }),
-            "no-underline",
-          )}
-        >
-          {i18n.t("home.hero.ctaFree")}
-        </InternalLink>
-      </div>
-      <img
-        src={homeMarketingImage.bannerLogo}
-        alt={homeMarketingImage.bannerLogoAlt}
-        class="mt-8 w-full max-w-md object-contain"
-        width="1200"
-        height="630"
-        loading="eager"
-        fetchpriority="high"
-        decoding="async"
-      />
-    </div>
+<HomeHero />
 
-    <MarketingHeroShowcase />
-  </div>
-</section>
-
-<!-- Scrolling logo strip (8svg-style density) -->
 <section
   class="space-y-3 border-y border-neutral-200 bg-neutral-50 py-6 dark:border-neutral-800 dark:bg-neutral-900/50"
   aria-label={i18n.t("home.hero.marqueeAria")}
@@ -187,167 +96,9 @@
   <MarketingLogoMarquee items={marqueeRowB} reverse duration="55s" />
 </section>
 
-<!-- Value highlights -->
-<section class="border-b border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
-  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-3 md:py-14">
-    {#each valueProps as item (item.title)}
-      {@const Icon = item.icon}
-      <div class="text-center">
-        <div
-          class="mx-auto mb-4 flex size-12 items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-800"
-        >
-          <Icon size={22} strokeWidth={1.5} class="text-brand" />
-        </div>
-        <h2
-          class="text-base font-semibold uppercase tracking-wide text-neutral-900 dark:text-neutral-50"
-        >
-          {item.title}
-        </h2>
-        <p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
-          {item.description}
-        </p>
-      </div>
-    {/each}
-  </div>
-</section>
-
-<!-- Featured Bundles (merchant signal, 8svg-style shop presence) -->
-<section class="border-b border-neutral-200 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900/40">
-  <div class="mx-auto max-w-6xl px-4 py-12 md:py-14">
-    <div class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
-      <div>
-        <h2
-          class="text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
-        >
-          {i18n.t("home.shopStrip.title")}
-        </h2>
-        <p class="mt-2 max-w-xl text-sm text-neutral-600 dark:text-neutral-400">
-          {i18n.t("home.shopStrip.subtitle")}
-        </p>
-      </div>
-      <InternalLink
-        href="/shop"
-        className="text-sm font-medium text-brand-energy no-underline hover:underline dark:text-brand"
-      >
-        {i18n.t("home.shopStrip.viewAll")}
-      </InternalLink>
-    </div>
-    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {#each featuredBundles as product (product.slug)}
-        <InternalLink
-          href={`/shop/${product.slug}`}
-          className="group flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white no-underline transition-shadow hover:border-brand/40 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-950 dark:hover:border-brand/50"
-        >
-          <div class="flex h-40 items-center justify-center bg-neutral-100 p-6 dark:bg-neutral-100">
-            <img
-              src={product.previewPath}
-              alt={product.title}
-              class="max-h-full max-w-full object-contain transition-transform group-hover:scale-[1.02]"
-              loading="lazy"
-            />
-          </div>
-          <div class="flex flex-1 flex-col gap-1 px-4 py-4">
-            <p class="font-medium text-neutral-900 dark:text-neutral-50">
-              {product.title}
-            </p>
-            <p class="text-sm text-neutral-500 dark:text-neutral-400">
-              {i18n.t("shop.fileCount", { count: product.fileCount })}
-            </p>
-            <p class="mt-auto pt-2 text-base font-semibold text-brand-energy dark:text-brand">
-              {formatUsd(product.priceCents)}
-            </p>
-          </div>
-        </InternalLink>
-      {/each}
-    </div>
-  </div>
-</section>
-
+<HomeValueProps />
+<HomeFeaturedBundles />
 <MarketingSeoSections />
-
-<!-- Perfect for crafts -->
-<section class="mx-auto max-w-6xl px-4 py-12 md:py-14">
-  <h2
-    class="text-center text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
-  >
-    {i18n.t("home.craft.title")}
-  </h2>
-  <p class="mt-2 text-center text-sm text-neutral-600 dark:text-neutral-400">
-    {i18n.t("home.craft.subtitle")}
-  </p>
-  <div class="mt-10 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-    {#each craftUses as item (item.label)}
-      <div
-        class="flex flex-col items-center rounded-xl border border-neutral-200 bg-white px-4 py-6 text-center dark:border-neutral-800 dark:bg-neutral-900"
-      >
-        <img
-          src={item.icon}
-          alt={i18n.t("home.craft.iconAlt", { label: item.label })}
-          class="size-10 text-neutral-900 dark:invert"
-          loading="lazy"
-        />
-        <p class="mt-3 text-sm font-medium text-neutral-800 dark:text-neutral-200">
-          {item.label}
-        </p>
-      </div>
-    {/each}
-  </div>
-</section>
-
+<HomeCraftUses />
 <MarketingHowItWorks />
-
-<!-- Library overview (informational) -->
-<section class="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
-  <div class="mx-auto max-w-6xl px-4 py-12 md:py-14">
-    <h2
-      class="text-center text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
-    >
-      {i18n.t("home.library.title")}
-    </h2>
-    <p class="mt-2 text-center text-sm text-neutral-600 dark:text-neutral-400">
-      {i18n.t("home.library.subtitle", { count: svgsData.length })}
-    </p>
-    <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {#each categoryStats as cat (cat.name)}
-        <li>
-          <InternalLink
-            href={getCategoryHref(cat.name)}
-            title={i18n.t("home.library.browseTitle", { name: cat.name })}
-            className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3.5 transition-colors hover:border-brand/40 hover:bg-brand/5 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-brand/50"
-          >
-            <div
-              class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-neutral-200 bg-white p-1.5 dark:border-neutral-700 dark:bg-neutral-950"
-            >
-              {#if cat.preview?.route}
-                <ThemeSvgImg
-                  route={cat.preview.route}
-                  alt={getSvgAltText(cat.preview)}
-                  class="max-h-full max-w-full object-contain"
-                />
-              {:else}
-                <FolderOpen
-                  size={20}
-                  strokeWidth={1.75}
-                  class="text-neutral-400 dark:text-neutral-500"
-                  aria-hidden="true"
-                />
-              {/if}
-            </div>
-            <div class="flex min-w-0 flex-1 items-center justify-between gap-2">
-              <span
-                class="font-medium capitalize text-neutral-900 dark:text-neutral-50"
-              >
-                {cat.name}
-              </span>
-              <span class="shrink-0 text-sm tabular-nums text-neutral-500 dark:text-neutral-400">
-                {cat.count === 1
-                  ? i18n.t("home.library.svgCount", { count: cat.count })
-                  : i18n.t("home.library.svgCountPlural", { count: cat.count })}
-              </span>
-            </div>
-          </InternalLink>
-        </li>
-      {/each}
-    </ul>
-  </div>
-</section>
+<HomeLibraryOverview />

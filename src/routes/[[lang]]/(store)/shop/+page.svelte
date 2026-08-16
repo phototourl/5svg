@@ -1,7 +1,8 @@
 <script lang="ts">
   import Container from "@/components/container.svelte";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
-  import { formatUsd } from "@/lib/shop";
+  import ProductCard from "@/components/shop/ProductCard.svelte";
+  import WholeShopBanner from "@/components/shop/WholeShopBanner.svelte";
   import { getI18n } from "@/lib/i18n/context";
   import { page } from "$app/state";
 
@@ -46,51 +47,13 @@
   </header>
 
   {#if showWholeShop && data.wholeShop}
-    <section class="mt-10" aria-labelledby="shop-whole-heading">
-      <h2
-        id="shop-whole-heading"
-        class="text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
-      >
-        {i18n.t("shop.wholeShopTitle")}
-      </h2>
-      <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-        {i18n.t("shop.wholeShopLead", { count: data.wholeShop.fileCount })}
-      </p>
-      <InternalLink
-        href={`/shop/${data.wholeShop.slug}`}
-        className="mt-5 flex cursor-pointer items-stretch overflow-hidden rounded-2xl border border-brand/40 bg-white no-underline shadow-sm transition hover:border-brand hover:shadow-md dark:border-brand/50 dark:bg-neutral-950"
-      >
-        <div class="relative w-[40%] shrink-0 bg-white md:w-[36%] dark:bg-white">
-          <img
-            src={data.wholeShop.previewPath}
-            alt=""
-            class="h-full w-full object-cover object-center"
-          />
-        </div>
-        <div
-          class="flex min-w-0 flex-1 flex-col justify-center gap-2 border-l border-brand/20 bg-brand/5 px-4 py-4 sm:px-5 dark:border-brand/40 dark:bg-brand/10"
-        >
-          <p class="text-xs font-semibold uppercase tracking-wide text-brand-energy dark:text-brand">
-            {i18n.t("shop.wholeShopBadge")}
-          </p>
-          <div class="flex flex-wrap items-center gap-2 sm:gap-3">
-            <span class="text-xl font-semibold text-neutral-900 sm:text-2xl dark:text-neutral-50">
-              {formatUsd(data.wholeShop.priceCents)}
-            </span>
-            {#if data.wholeShop.compareAtCents && data.wholeShop.compareAtCents > data.wholeShop.priceCents}
-              <span class="text-sm text-neutral-400 line-through">
-                {formatUsd(data.wholeShop.compareAtCents)}
-              </span>
-            {/if}
-            <span
-              class="ml-auto rounded-md bg-brand px-3 py-2 text-sm font-medium text-brand-foreground sm:px-4"
-            >
-              {i18n.t("shop.wholeShopCta")}
-            </span>
-          </div>
-        </div>
-      </InternalLink>
-    </section>
+    <WholeShopBanner
+      slug={data.wholeShop.slug}
+      priceCents={data.wholeShop.priceCents}
+      compareAtCents={data.wholeShop.compareAtCents}
+      fileCount={data.wholeShop.fileCount}
+      previewPath={data.wholeShop.previewPath}
+    />
   {/if}
 
   <section
@@ -135,49 +98,16 @@
 
       <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {#each data.products as product (product.slug)}
-          <InternalLink
-            href={`/shop/${product.slug}`}
-            className="group flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white no-underline shadow-sm transition-shadow hover:border-brand/40 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-950 dark:hover:border-brand/50"
-          >
-            <div class="flex h-44 items-center justify-center bg-neutral-100 p-6 dark:bg-neutral-100">
-              <img
-                src={product.previewPath}
-                alt={product.title}
-                class="max-h-full max-w-full object-contain transition-transform group-hover:scale-[1.02]"
-              />
-            </div>
-            <div class="flex flex-1 flex-col gap-2 p-5">
-              <div class="text-xs font-semibold uppercase tracking-wide text-brand-energy dark:text-brand">
-                {product.category}
-              </div>
-              <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">
-                {product.title}
-              </h3>
-              <p class="line-clamp-2 flex-1 text-sm text-neutral-600 dark:text-neutral-400">
-                {product.description}
-              </p>
-              <div class="mt-3 flex items-end justify-between gap-2">
-                <div>
-                  <span class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">
-                    {formatUsd(product.priceCents)}
-                  </span>
-                  {#if product.compareAtCents && product.compareAtCents > product.priceCents}
-                    <span class="ml-2 text-sm text-neutral-400 line-through">
-                      {formatUsd(product.compareAtCents)}
-                    </span>
-                  {/if}
-                  <div class="text-xs text-neutral-500">
-                    {i18n.t("shop.fileCount", { count: product.fileCount })}
-                  </div>
-                </div>
-                <span
-                  class="rounded-md bg-brand px-3 py-2 text-sm font-medium text-brand-foreground group-hover:bg-brand-hover"
-                >
-                  {i18n.t("shop.viewPack")}
-                </span>
-              </div>
-            </div>
-          </InternalLink>
+          <ProductCard
+            slug={product.slug}
+            title={product.title}
+            description={product.description}
+            category={product.category}
+            priceCents={product.priceCents}
+            compareAtCents={product.compareAtCents}
+            fileCount={product.fileCount}
+            previewPath={product.previewPath}
+          />
         {:else}
           <p class="text-sm text-neutral-500 sm:col-span-2 lg:col-span-3">
             {i18n.t("shop.empty")}

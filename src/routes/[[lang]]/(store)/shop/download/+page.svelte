@@ -1,13 +1,17 @@
 <script lang="ts">
   /**
-   * Legacy `/shop/download` — redirects to the product page (EditStamp-style return).
-   * Old email links still work.
+   * Legacy `/shop/download` — redirects to the product page after sync.
    */
   import { onMount } from "svelte";
   import { page } from "$app/state";
   import { goto } from "$app/navigation";
   import Container from "@/components/container.svelte";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
+  import {
+    buildProductReturnUrl,
+    parseShopReturnQuery,
+    syncShopOrder,
+  } from "@/lib/shop/client-checkout";
   import { getI18n } from "@/lib/i18n/context";
   import { localizePath } from "@/lib/i18n/paths";
 
@@ -17,43 +21,39 @@
   let message = $state("");
 
   onMount(async () => {
-    const params = page.url.searchParams;
-    const token = params.get("order_token")?.trim() || "";
-    const checkoutId =
-      params.get("checkout_id")?.trim() ||
-      params.get("checkoutId")?.trim() ||
-      "";
+    const { orderToken, checkoutId, isCheckoutReturn } = parseShopReturnQuery(
+      page.url.searchParams,
+    );
 
-    if (!token) {
+    if (!orderToken) {
       status = "error";
       message = i18n.t("shop.downloadMissing");
       return;
     }
 
     try {
-      const res = await fetch("/api/shop/sync", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          orderToken: token,
-          locale: i18n.locale,
-          creemCheckoutId: checkoutId || undefined,
-        }),
+      const json = await syncShopOrder({
+        orderToken,
+        locale: i18n.locale,
+        creemCheckoutId: checkoutId || undefined,
       });
-      const json = await res.json();
-      if (!res.ok || !json.order?.productSlug) {
+      if (!json.ok || !json.order?.productSlug) {
         status = "error";
         message = json.error || i18n.t("shop.downloadFailed");
         return;
       }
 
-      const target = localizePath(`/shop/${json.order.productSlug}`, i18n.locale);
-      const q = new URLSearchParams({ order_token: token });
-      if (params.get("checkout") === "success" || checkoutId) {
-        q.set("checkout", "success");
-      }
-      if (checkoutId) q.set("checkout_id", checkoutId);
-      await goto(`${target}?${q.toString()}`, { replaceState: true });
+      const target = localizePath(
+        `/shop/${json.order.productSlug}`,
+        i18n.locale,
+      );
+      await goto(
+        buildProductReturnUrl(target, orderToken, {
+          isCheckoutReturn,
+          checkoutId,
+        }),
+        { replaceState: true },
+      );
     } catch {
       status = "error";
       message = i18n.t("shop.downloadFailed");

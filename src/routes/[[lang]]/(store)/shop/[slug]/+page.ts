@@ -1,6 +1,7 @@
 import { error } from "@sveltejs/kit";
 import type { Load } from "@sveltejs/kit";
-import { getProductBySlug, isWholeShopOffer, SHOP_RULES } from "@/lib/shop";
+import { getProductBySlug, isWholeShopOffer } from "@/lib/shop";
+import { isCreemMockMode } from "@/lib/shop/server";
 
 export const load: Load = ({ params }) => {
   const product = getProductBySlug(params.slug ?? "");
@@ -17,6 +18,6 @@ export const load: Load = ({ params }) => {
     categoryLabel: product.category,
     sampleTitles,
     isWholeShop,
-    mockCheckout: SHOP_RULES.checkout.mockUntilCreemWired,
+    mockCheckout: isCreemMockMode(),
   };
 };

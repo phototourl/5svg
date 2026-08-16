@@ -2,17 +2,19 @@
  * Creem env — aligned with EditStamp naming.
  *
  * Server checkout prefers `CREEM_PRICE_ID_*` (runtime).
- * Public fallback: `PUBLIC_CREEM_PRICE_ID_*` (SvelteKit) or `NEXT_PUBLIC_CREEM_PRICE_ID_*` (same name as EditStamp).
+ * Public fallback: `PUBLIC_CREEM_PRICE_ID_*` (SvelteKit) or `NEXT_PUBLIC_CREEM_PRICE_ID_*`.
  *
  * Test vs Live: same variable names; switch values + CREEM_SERVER_IDX (0=正式, 1=测试).
- * Do not use PRO_MONTHLY — 5SVG currently has one one-time Bundle download product only.
+ *
+ * Products (one-time only):
+ *   SINGLE — SVG Theme Pack ($4.50)
+ *   WHOLE  — All SVG Theme Packs ($9.90)
  */
 
 import { env } from "$env/dynamic/private";
 import { env as publicEnv } from "$env/dynamic/public";
 
-/** One-time craft Bundle ZIP download (EditStamp `single` 同级). */
-export type CreemPlanKey = "single";
+export type CreemPlanKey = "single" | "whole";
 
 const CREEM_PRODUCT_ENV: Record<
   CreemPlanKey,
@@ -22,6 +24,11 @@ const CREEM_PRODUCT_ENV: Record<
     server: "CREEM_PRICE_ID_SINGLE",
     publicKit: "PUBLIC_CREEM_PRICE_ID_SINGLE",
     nextPublic: "NEXT_PUBLIC_CREEM_PRICE_ID_SINGLE",
+  },
+  whole: {
+    server: "CREEM_PRICE_ID_WHOLE",
+    publicKit: "PUBLIC_CREEM_PRICE_ID_WHOLE",
+    nextPublic: "NEXT_PUBLIC_CREEM_PRICE_ID_WHOLE",
   },
 };
 
@@ -83,8 +90,12 @@ export function isCreemConfigured(): boolean {
   return getCreemApiKey().length > 0;
 }
 
+/** Ready when API key + at least one sellable Creem product id. */
 export function isCreemReadyForCheckout(): boolean {
-  return isCreemConfigured() && isCreemProductConfigured("single");
+  return (
+    isCreemConfigured() &&
+    (isCreemProductConfigured("single") || isCreemProductConfigured("whole"))
+  );
 }
 
 export { CREEM_PRODUCT_ENV };

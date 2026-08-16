@@ -3,7 +3,8 @@ export {
   createShopCheckout,
   syncShopCheckout,
   isCreemMockMode,
-} from "./creem";
+} from "./checkout";
+export { fulfillPaidOrder } from "./fulfill";
 export {
   createPendingOrder,
   getOrderByToken,
