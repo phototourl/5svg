@@ -60,14 +60,22 @@
     <p class="text-sm font-medium text-neutral-900 dark:text-neutral-50">
       {i18n.t("shop.downloadReady", { title: displayTitle })}
     </p>
+    <p class="text-sm text-neutral-600 dark:text-neutral-400">
+      {i18n.t("shop.downloadStarted")}
+    </p>
     {#if emailHint}
       <p class="text-sm text-neutral-600 dark:text-neutral-400">
         {i18n.t("shop.downloadEmailHint")}
       </p>
     {/if}
     {#if onRetry}
-      <Button type="button" variant="default" class="w-full" onclick={() => void onRetry()}>
-        {i18n.t("shop.downloadZip")}
+      <Button
+        type="button"
+        variant="outline"
+        class="w-full"
+        onclick={() => void onRetry()}
+      >
+        {i18n.t("shop.downloadAgain")}
       </Button>
     {/if}
   </div>

@@ -10,5 +10,7 @@ export {
   releaseOrderEmailClaim,
   bumpDownloadCount,
   isOrderDownloadExpired,
+  isOrderDownloadLimitReached,
   DOWNLOAD_TTL_DAYS,
+  MAX_DOWNLOADS_PER_ORDER,
 } from "@/lib/db/orders-repo";

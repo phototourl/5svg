@@ -12,5 +12,6 @@ export {
   setOrderStatus,
   bumpDownloadCount,
   isOrderDownloadExpired,
+  isOrderDownloadLimitReached,
   claimOrderEmailSend,
 } from "./orders";

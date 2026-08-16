@@ -9,6 +9,7 @@ import {
   getOrderByToken,
   bumpDownloadCount,
   isOrderDownloadExpired,
+  isOrderDownloadLimitReached,
 } from "@/lib/shop/server";
 import { getSvgsByCategory } from "@/data";
 
@@ -54,6 +55,15 @@ export const GET: RequestHandler = async ({ url }) => {
     return json(
       { error: "Download link expired. Contact support@5svg.com" },
       { status: 410 },
+    );
+  }
+  if (isOrderDownloadLimitReached(order)) {
+    return json(
+      {
+        error:
+          "Download limit reached for this order. Contact support@5svg.com",
+      },
+      { status: 429 },
     );
   }
 

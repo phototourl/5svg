@@ -7,6 +7,8 @@ import { getProductBySlug } from "@/lib/shop/catalog";
 import { exec, isDbConfigured, queryRows } from "./pool";
 
 const DOWNLOAD_TTL_DAYS = 30;
+/** Cap ZIP fetches per paid order (token can be shared). */
+const MAX_DOWNLOADS_PER_ORDER = 10;
 
 const DATA_DIR = path.join(process.cwd(), ".data");
 const DATA_FILE = path.join(DATA_DIR, "shop-orders.json");
@@ -293,4 +295,8 @@ export function isOrderDownloadExpired(order: ShopOrder): boolean {
   return Date.now() > order.expiresAt;
 }
 
-export { DOWNLOAD_TTL_DAYS };
+export function isOrderDownloadLimitReached(order: ShopOrder): boolean {
+  return (order.downloadCount ?? 0) >= MAX_DOWNLOADS_PER_ORDER;
+}
+
+export { DOWNLOAD_TTL_DAYS, MAX_DOWNLOADS_PER_ORDER };
