@@ -36,7 +36,11 @@ function getClient(): Creem {
   if (!apiKey) {
     throw new Error("CREEM_API_KEY is not set");
   }
-  return new Creem({ apiKey, serverIdx: getCreemServerIdx() });
+  // creem@1.6 uses `server: "prod" | "test"` (not legacy `serverIdx`)
+  const server = getCreemServerIdx() === 1 || apiKey.startsWith("creem_test_")
+    ? "test"
+    : "prod";
+  return new Creem({ apiKey, server });
 }
 
 export async function createCreemCheckout(
@@ -69,6 +73,7 @@ export type CreemRetrievedCheckout = {
   status: string;
   orderId?: string;
   customerId?: string;
+  customerEmail?: string;
   productId?: string;
   metadata: Record<string, string>;
 };
@@ -113,20 +118,28 @@ export async function retrieveCreemCheckout(
         ? order.id
         : undefined;
 
-  const customer = (checkout as { customer?: { id?: string } | string })
-    .customer;
+  const customer = (
+    checkout as {
+      customer?: { id?: string; email?: string } | string;
+    }
+  ).customer;
   const customerId =
     typeof customer === "string"
       ? customer
       : customer && typeof customer === "object"
         ? customer.id
         : undefined;
+  const customerEmail =
+    customer && typeof customer === "object" && customer.email
+      ? String(customer.email).trim().toLowerCase()
+      : undefined;
 
   return {
     id: checkout.id ?? id,
     status: String(checkout.status ?? ""),
     orderId,
     customerId,
+    customerEmail,
     productId,
     metadata,
   };
