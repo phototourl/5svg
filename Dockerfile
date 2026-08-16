@@ -1,30 +1,19 @@
-# ========== 阶段 1：安装依赖（对齐 phototourl 多阶段构建） ==========
+# ========== 阶段 1：安装依赖 ==========
 FROM node:22-alpine AS base
 RUN apk add --no-cache libc6-compat
 RUN corepack enable && corepack prepare pnpm@11.1.0 --activate
 WORKDIR /app
 
 FROM base AS deps
-# 安装前带上 Svelte 配置，避免 prepare 里 svelte-kit sync 报 Missing config
 COPY package.json pnpm-lock.yaml svelte.config.js tsconfig.json vite.config.ts content-collections.ts ./
 RUN pnpm install --frozen-lockfile --dangerously-allow-all-builds
 
 # ========== 阶段 2：构建 ==========
-# Dokploy Build-time Arguments（与 EditStamp 相同用法）:
-#   NEXT_PUBLIC_* 构建期可用；其余密钥在 runner 再 ARG→ENV 注入运行时
 FROM base AS builder
 ARG NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
 ARG PUBLIC_SITE_URL
-ARG PUBLIC_CREEM_PRICE_ID_SINGLE
-ARG PUBLIC_CREEM_PRICE_ID_WHOLE
-ARG NEXT_PUBLIC_CREEM_PRICE_ID_SINGLE
-ARG NEXT_PUBLIC_CREEM_PRICE_ID_WHOLE
 ENV NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=$NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
 ENV PUBLIC_SITE_URL=$PUBLIC_SITE_URL
-ENV PUBLIC_CREEM_PRICE_ID_SINGLE=$PUBLIC_CREEM_PRICE_ID_SINGLE
-ENV PUBLIC_CREEM_PRICE_ID_WHOLE=$PUBLIC_CREEM_PRICE_ID_WHOLE
-ENV NEXT_PUBLIC_CREEM_PRICE_ID_SINGLE=$NEXT_PUBLIC_CREEM_PRICE_ID_SINGLE
-ENV NEXT_PUBLIC_CREEM_PRICE_ID_WHOLE=$NEXT_PUBLIC_CREEM_PRICE_ID_WHOLE
 ENV NODE_OPTIONS=--max-old-space-size=6144
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
@@ -34,9 +23,8 @@ RUN pnpm build:og-icons \
   && pnpm build:registry
 RUN pnpm vite build
 
-# ========== 阶段 3：运行（SvelteKit adapter-node → node build） ==========
-# 与 EditStamp 一致：Build-time Arguments 经 ARG→ENV 进入进程，
-# 否则 $env/dynamic/private（RESEND / Creem / DB）在运行时为空，邮件会静默跳过。
+# ========== 阶段 3：运行 ==========
+# Dokploy Build-time Arguments → runner ENV（Creem / DB / Resend）.
 FROM node:22-alpine AS runner
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
@@ -52,13 +40,8 @@ ARG RESEND_FROM_EMAIL
 ARG CREEM_API_KEY
 ARG CREEM_WEBHOOK_SECRET
 ARG CREEM_SERVER_IDX
-ARG CREEM_MOCK
 ARG CREEM_PRICE_ID_SINGLE
 ARG CREEM_PRICE_ID_WHOLE
-ARG PUBLIC_CREEM_PRICE_ID_SINGLE
-ARG PUBLIC_CREEM_PRICE_ID_WHOLE
-ARG NEXT_PUBLIC_CREEM_PRICE_ID_SINGLE
-ARG NEXT_PUBLIC_CREEM_PRICE_ID_WHOLE
 
 ENV NODE_ENV=production
 ENV PORT=3000
@@ -74,13 +57,8 @@ ENV RESEND_FROM_EMAIL=$RESEND_FROM_EMAIL
 ENV CREEM_API_KEY=$CREEM_API_KEY
 ENV CREEM_WEBHOOK_SECRET=$CREEM_WEBHOOK_SECRET
 ENV CREEM_SERVER_IDX=$CREEM_SERVER_IDX
-ENV CREEM_MOCK=$CREEM_MOCK
 ENV CREEM_PRICE_ID_SINGLE=$CREEM_PRICE_ID_SINGLE
 ENV CREEM_PRICE_ID_WHOLE=$CREEM_PRICE_ID_WHOLE
-ENV PUBLIC_CREEM_PRICE_ID_SINGLE=$PUBLIC_CREEM_PRICE_ID_SINGLE
-ENV PUBLIC_CREEM_PRICE_ID_WHOLE=$PUBLIC_CREEM_PRICE_ID_WHOLE
-ENV NEXT_PUBLIC_CREEM_PRICE_ID_SINGLE=$NEXT_PUBLIC_CREEM_PRICE_ID_SINGLE
-ENV NEXT_PUBLIC_CREEM_PRICE_ID_WHOLE=$NEXT_PUBLIC_CREEM_PRICE_ID_WHOLE
 
 RUN addgroup --system --gid 1001 nodejs \
   && adduser --system --uid 1001 sveltekit

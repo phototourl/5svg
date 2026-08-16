@@ -4,7 +4,6 @@ import {
   setOrderStatus,
 } from "./orders";
 import { getProductBySlug } from "./catalog";
-import { SHOP_RULES } from "./rules";
 import { fulfillPaidOrder } from "./fulfill";
 import { env } from "$env/dynamic/private";
 import {
@@ -29,12 +28,9 @@ export type CreateShopCheckoutResult =
   | { ok: true; checkoutUrl: string; orderToken: string; mock: boolean }
   | { ok: false; error: string };
 
-/** True while Creem keys / product id missing or mock forced. */
+/** Missing Creem API key or price id → local mock checkout. */
 export function isCreemMockMode(): boolean {
-  if (SHOP_RULES.checkout.mockUntilCreemWired) return true;
-  if (env.CREEM_MOCK === "1" || env.CREEM_MOCK === "true") return true;
-  if (!isCreemReadyForCheckout()) return true;
-  return false;
+  return !isCreemReadyForCheckout();
 }
 
 /**

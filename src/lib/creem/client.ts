@@ -47,7 +47,7 @@ export async function createCreemCheckout(
   input: CreemCreateCheckoutInput,
 ): Promise<CreemCreateCheckoutResult> {
   if (!isCreemConfigured()) {
-    throw new Error("Creem is not configured (CREEM_API_KEY empty or CREEM_MOCK=1)");
+    throw new Error("Creem is not configured (CREEM_API_KEY or PRICE_ID missing)");
   }
 
   const creem = getClient();
@@ -85,7 +85,7 @@ export async function retrieveCreemCheckout(
   checkoutId: string,
 ): Promise<CreemRetrievedCheckout> {
   if (!isCreemConfigured()) {
-    throw new Error("Creem is not configured (CREEM_API_KEY empty or CREEM_MOCK=1)");
+    throw new Error("Creem is not configured (CREEM_API_KEY or PRICE_ID missing)");
   }
   const id = checkoutId.trim();
   if (!id) throw new Error("checkoutId required");

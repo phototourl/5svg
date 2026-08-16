@@ -1,14 +1,6 @@
 /**
- * Creem env — aligned with EditStamp naming.
- *
- * Server checkout prefers `CREEM_PRICE_ID_*` (runtime).
- * Public fallback: `PUBLIC_CREEM_PRICE_ID_*` (SvelteKit) or `NEXT_PUBLIC_CREEM_PRICE_ID_*`.
- *
- * Test vs Live: same variable names; switch values + CREEM_SERVER_IDX (0=正式, 1=测试).
- *
- * Products (one-time only):
- *   SINGLE — SVG Theme Pack ($4.50)
- *   WHOLE  — All SVG Theme Packs ($9.90)
+ * Creem env — EditStamp-style.
+ * Server uses CREEM_PRICE_ID_* only. CREEM_SERVER_IDX: 0=live, 1=test.
  */
 
 import { env } from "$env/dynamic/private";
@@ -56,7 +48,6 @@ export function getCreemWebhookSecret(): string {
   return readPrivate("CREEM_WEBHOOK_SECRET");
 }
 
-/** 0 = 正式 live API，1 = 测试 sandbox（与 EditStamp 一致）. */
 export function getCreemServerIdx(): 0 | 1 {
   return readPrivate("CREEM_SERVER_IDX") === "1" ? 1 : 0;
 }
@@ -82,15 +73,10 @@ export function isCreemProductConfigured(
   return getCreemProductId(planKey).length > 0;
 }
 
-/** True when API key present and mock not forced. */
 export function isCreemConfigured(): boolean {
-  if (readPrivate("CREEM_MOCK") === "1" || readPrivate("CREEM_MOCK") === "true") {
-    return false;
-  }
   return getCreemApiKey().length > 0;
 }
 
-/** Ready when API key + at least one sellable Creem product id. */
 export function isCreemReadyForCheckout(): boolean {
   return (
     isCreemConfigured() &&
