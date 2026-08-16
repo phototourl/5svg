@@ -96,7 +96,10 @@
     "downloadSyncing": "Confirmation du paiement…",
     "downloadReady": "Prêt : {title}",
     "downloadZip": "Télécharger le ZIP",
+    "downloadAgain": "Télécharger de nouveau",
+    "downloadStarted": "Votre ZIP devrait avoir commencé à se télécharger. Utilisez le bouton ci-dessous seulement s'il ne l'a pas fait.",
     "downloadEmailHint": "Un lien de téléchargement de secours a aussi été envoyé au courriel indiqué.",
+    "downloadLimitReached": "Limite de téléchargement atteinte pour cette commande. Communiquez avec le soutien si vous avez besoin d'aide.",
     "includesSample": "Contenu (échantillon)",
     "browseCategory": "Parcourir cette catégorie →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Télécharger le ZIP",
       "linkFallback": "Ou copiez ce lien de téléchargement de secours :",
       "note": "Si le fichier ne s’est pas téléchargé automatiquement après le paiement, rouvrez ce lien.",
+      "limitNote": "Ce lien permet jusqu’à {maxDownloads} téléchargements et expire {days} jours après le paiement. Ne le partagez pas publiquement.",
       "textIntro": "Merci pour votre achat de {title}.",
       "textDownload": "Téléchargez votre ZIP (lien de secours) :",
       "textSupport": "Soutien : {email}"

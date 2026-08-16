@@ -100,7 +100,10 @@
     "downloadSyncing": "Bekræfter betaling…",
     "downloadReady": "Klar: {title}",
     "downloadZip": "Download ZIP",
+    "downloadAgain": "Download igen",
+    "downloadStarted": "Din ZIP-download burde være startet. Brug knappen nedenfor kun, hvis den ikke gjorde det.",
     "downloadEmailHint": "Et backup-downloadlink er også sendt til den e-mail, du indtastede.",
+    "downloadLimitReached": "Downloadgrænsen er nået for denne ordre. Kontakt support, hvis du har brug for hjælp.",
     "includesSample": "Indeholder (eksempel)",
     "browseCategory": "Gennemse denne kategori →",
     "license": {
@@ -261,6 +264,7 @@
       "downloadButton": "Download ZIP",
       "linkFallback": "Eller kopiér dette backup-downloadlink:",
       "note": "Hvis filen ikke downloadede automatisk efter betaling, åbn linket igen.",
+      "limitNote": "Dette link tillader op til {maxDownloads} downloads og udløber {days} dage efter betaling. Del det ikke offentligt.",
       "textIntro": "Tak for dit køb af {title}.",
       "textDownload": "Download din ZIP (backup-link):",
       "textSupport": "Support: {email}"

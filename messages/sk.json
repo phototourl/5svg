@@ -96,7 +96,10 @@
     "downloadSyncing": "Potvrdzovanie platby…",
     "downloadReady": "Pripravené: {title}",
     "downloadZip": "Stiahnuť ZIP",
+    "downloadAgain": "Stiahnuť znova",
+    "downloadStarted": "Sťahovanie ZIP by malo začať. Tlačidlo nižšie použite iba vtedy, ak nezačalo.",
     "downloadEmailHint": "Záložný odkaz na stiahnutie bol odoslaný aj na zadaný e-mail.",
+    "downloadLimitReached": "Bol dosiahnutý limit sťahovaní pre túto objednávku. Kontaktujte podporu, ak potrebujete pomoc.",
     "includesSample": "Obsahuje (ukážka)",
     "browseCategory": "Prehliadať túto kategóriu →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Stiahnuť ZIP",
       "linkFallback": "Alebo skopírujte tento záložný odkaz na stiahnutie:",
       "note": "Ak sa súbor po platbe nestiahol automaticky, otvorte tento odkaz znova.",
+      "limitNote": "Tento odkaz umožňuje až {maxDownloads} stiahnutí a vyprší {days} dní po platbe. Nezdieľajte ho verejne.",
       "textIntro": "Ďakujeme za nákup {title}.",
       "textDownload": "Stiahnite ZIP (záložný odkaz):",
       "textSupport": "Podpora: {email}"

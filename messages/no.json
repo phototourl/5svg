@@ -100,7 +100,10 @@
     "downloadSyncing": "Bekrefter betaling…",
     "downloadReady": "Klar: {title}",
     "downloadZip": "Last ned ZIP",
+    "downloadAgain": "Last ned på nytt",
+    "downloadStarted": "ZIP-nedlastingen din skal ha startet. Bruk knappen nedenfor bare hvis den ikke gjorde det.",
     "downloadEmailHint": "En reservelenke for nedlasting er også sendt til e-posten du oppga.",
+    "downloadLimitReached": "Nedlastingsgrensen er nådd for denne bestillingen. Kontakt support hvis du trenger hjelp.",
     "includesSample": "Inneholder (eksempel)",
     "browseCategory": "Bla gjennom denne kategorien →",
     "license": {
@@ -261,6 +264,7 @@
       "downloadButton": "Last ned ZIP",
       "linkFallback": "Eller kopier denne reservelenken:",
       "note": "Hvis filen ikke lastet ned automatisk etter betaling, åpne lenken på nytt.",
+      "limitNote": "Denne lenken tillater opptil {maxDownloads} nedlastinger og utløper {days} dager etter betaling. Ikke del den offentlig.",
       "textIntro": "Takk for kjøpet av {title}.",
       "textDownload": "Last ned ZIP (reservelenke):",
       "textSupport": "Støtte: {email}"

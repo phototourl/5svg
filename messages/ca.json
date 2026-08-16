@@ -96,7 +96,10 @@
     "downloadSyncing": "Confirmant el pagament…",
     "downloadReady": "A punt: {title}",
     "downloadZip": "Descarrega el ZIP",
+    "downloadAgain": "Descarrega de nou",
+    "downloadStarted": "La descàrrega del ZIP hauria d’haver començat. Feu servir el botó de sota només si no ho ha fet.",
     "downloadEmailHint": "També s’ha enviat un enllaç de descàrrega de reserva al correu que heu introduït.",
+    "downloadLimitReached": "S’ha assolit el límit de descàrregues d’aquesta comanda. Contacteu amb el suport si necessiteu ajuda.",
     "includesSample": "Inclou (mostra)",
     "browseCategory": "Explora aquesta categoria →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Descarrega el ZIP",
       "linkFallback": "O copia aquest enllaç de descàrrega de reserva:",
       "note": "Si el fitxer no s’ha descarregat automàticament després del pagament, obre aquest enllaç una altra vegada per descarregar.",
+      "limitNote": "Aquest enllaç permet fins a {maxDownloads} descàrregues i caduca {days} dies després del pagament. No el compartiu públicament.",
       "textIntro": "Gràcies per la compra de {title}.",
       "textDownload": "Descarrega el teu ZIP (enllaç de reserva):",
       "textSupport": "Suport: {email}"

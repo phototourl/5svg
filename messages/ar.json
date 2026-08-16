@@ -219,7 +219,10 @@
     "downloadSyncing": "جارٍ تأكيد الدفع…",
     "downloadReady": "جاهز: {title}",
     "downloadZip": "تنزيل ZIP",
+    "downloadAgain": "التنزيل مرة أخرى",
+    "downloadStarted": "من المفترض أن يكون تنزيل ZIP قد بدأ. استخدم الزر أدناه فقط إذا لم يبدأ.",
     "downloadEmailHint": "تم أيضًا إرسال رابط تنزيل احتياطي إلى البريد الذي أدخلته.",
+    "downloadLimitReached": "تم بلوغ حد التنزيل لهذا الطلب. تواصل مع الدعم إذا احتجت مساعدة.",
     "includesSample": "يتضمن (عينة)",
     "browseCategory": "تصفح هذه الفئة →",
     "license": {
@@ -235,6 +238,7 @@
       "downloadButton": "تنزيل ZIP",
       "linkFallback": "أو انسخ رابط التنزيل الاحتياطي:",
       "note": "إذا لم يُنزَّل الملف تلقائيًا بعد الدفع، افتح هذا الرابط مرة أخرى.",
+      "limitNote": "يتيح هذا الرابط حتى {maxDownloads} تنزيلات وينتهي بعد {days} أيام من الدفع. لا تشاركه علنًا.",
       "textIntro": "شكرًا لشرائك {title}.",
       "textDownload": "نزّل ملف ZIP (رابط احتياطي):",
       "textSupport": "الدعم: {email}"

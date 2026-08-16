@@ -96,7 +96,10 @@
     "downloadSyncing": "Potvrda plaćanja…",
     "downloadReady": "Spremno: {title}",
     "downloadZip": "Preuzmi ZIP",
+    "downloadAgain": "Preuzmi ponovno",
+    "downloadStarted": "Preuzimanje ZIP-a trebalo bi biti započeto. Koristite gumb ispod samo ako nije započelo.",
     "downloadEmailHint": "Rezervna poveznica za preuzimanje također je poslana na unesenu e-poštu.",
+    "downloadLimitReached": "Dosegnuto je ograničenje preuzimanja za ovu narudžbu. Kontaktirajte podršku ako trebate pomoć.",
     "includesSample": "Uključuje (uzorak)",
     "browseCategory": "Pregledaj ovu kategoriju →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Preuzmi ZIP",
       "linkFallback": "Ili kopirajte ovu rezervnu poveznicu za preuzimanje:",
       "note": "Ako se datoteka nije automatski preuzela nakon plaćanja, ponovno otvorite ovu poveznicu.",
+      "limitNote": "Ova poveznica omogućuje do {maxDownloads} preuzimanja i istječe {days} dana nakon plaćanja. Ne dijelite je javno.",
       "textIntro": "Hvala na kupnji {title}.",
       "textDownload": "Preuzmite ZIP (rezervna poveznica):",
       "textSupport": "Podrška: {email}"

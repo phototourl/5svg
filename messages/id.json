@@ -96,7 +96,10 @@
     "downloadSyncing": "Mengonfirmasi pembayaran…",
     "downloadReady": "Siap: {title}",
     "downloadZip": "Unduh ZIP",
+    "downloadAgain": "Unduh lagi",
+    "downloadStarted": "Unduhan ZIP Anda seharusnya sudah dimulai. Gunakan tombol di bawah hanya jika belum dimulai.",
     "downloadEmailHint": "Tautan cadangan unduhan juga telah dikirim ke email yang Anda masukkan.",
+    "downloadLimitReached": "Batas unduhan untuk pesanan ini telah tercapai. Hubungi dukungan jika Anda membutuhkan bantuan.",
     "includesSample": "Termasuk (contoh)",
     "browseCategory": "Jelajahi kategori ini →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Unduh ZIP",
       "linkFallback": "Atau salin tautan cadangan unduhan ini:",
       "note": "Jika file tidak terunduh otomatis setelah pembayaran, buka tautan ini lagi untuk mengunduh.",
+      "limitNote": "Tautan ini mengizinkan hingga {maxDownloads} unduhan dan kedaluwarsa {days} hari setelah pembayaran. Jangan bagikan secara publik.",
       "textIntro": "Terima kasih atas pembelian {title}.",
       "textDownload": "Unduh ZIP Anda (tautan cadangan):",
       "textSupport": "Dukungan: {email}"

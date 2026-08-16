@@ -100,7 +100,10 @@
     "downloadSyncing": "Potvrzování platby…",
     "downloadReady": "Připraveno: {title}",
     "downloadZip": "Stáhnout ZIP",
+    "downloadAgain": "Stáhnout znovu",
+    "downloadStarted": "Stahování ZIP by mělo začít. Tlačítko níže použijte pouze, pokud nezačalo.",
     "downloadEmailHint": "Záložní odkaz ke stažení byl také odeslán na zadaný e-mail.",
+    "downloadLimitReached": "Byl dosažen limit stažení pro tuto objednávku. Kontaktujte podporu, pokud potřebujete pomoc.",
     "includesSample": "Obsahuje (ukázka)",
     "browseCategory": "Procházet tuto kategorii →",
     "license": {
@@ -261,6 +264,7 @@
       "downloadButton": "Stáhnout ZIP",
       "linkFallback": "Nebo zkopírujte tento záložní odkaz:",
       "note": "Pokud se soubor po platbě nestáhl automaticky, otevřete tento odkaz znovu.",
+      "limitNote": "Tento odkaz umožňuje až {maxDownloads} stažení a vyprší {days} dní po platbě. Nesdílejte jej veřejně.",
       "textIntro": "Děkujeme za nákup {title}.",
       "textDownload": "Stáhněte ZIP (záložní odkaz):",
       "textSupport": "Podpora: {email}"

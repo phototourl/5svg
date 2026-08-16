@@ -96,7 +96,10 @@
     "downloadSyncing": "Kinukumpirma ang bayad…",
     "downloadReady": "Handa: {title}",
     "downloadZip": "I-download ang ZIP",
+    "downloadAgain": "I-download ulit",
+    "downloadStarted": "Dapat ay nagsimula na ang pag-download ng ZIP. Gamitin ang button sa ibaba kung hindi ito nagsimula.",
     "downloadEmailHint": "May backup download link din na naipadala sa email na inilagay mo.",
+    "downloadLimitReached": "Naabot na ang limitasyon sa pag-download para sa order na ito. Makipag-ugnayan sa support kung kailangan mo ng tulong.",
     "includesSample": "Kasama (sample)",
     "browseCategory": "I-browse ang kategoryang ito →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "I-download ang ZIP",
       "linkFallback": "O kopyahin ang backup download link na ito:",
       "note": "Kung hindi awtomatikong na-download ang file pagkatapos magbayad, buksan ulit ang link na ito para mag-download.",
+      "limitNote": "Pinapayagan ng link na ito ang hanggang {maxDownloads} na download at mag-e-expire {days} araw pagkatapos magbayad. Huwag itong ibahagi nang pampubliko.",
       "textIntro": "Salamat sa iyong pagbili ng {title}.",
       "textDownload": "I-download ang iyong ZIP (backup link):",
       "textSupport": "Support: {email}"

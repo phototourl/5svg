@@ -96,7 +96,10 @@
     "downloadSyncing": "Confirming payment…",
     "downloadReady": "Ready: {title}",
     "downloadZip": "Download ZIP",
+    "downloadAgain": "Download again",
+    "downloadStarted": "Your ZIP should have started downloading. Use the button below only if it did not.",
     "downloadEmailHint": "A backup download link has also been sent to the email you entered.",
+    "downloadLimitReached": "Download limit reached for this order. Contact support if you need help.",
     "includesSample": "Includes (sample)",
     "browseCategory": "Browse this category →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Download ZIP",
       "linkFallback": "Or copy this backup download link:",
       "note": "If the file did not download automatically after payment, open this link again to download.",
+      "limitNote": "This link allows up to {maxDownloads} downloads and expires {days} days after payment. Do not share it publicly.",
       "textIntro": "Thanks for your purchase of {title}.",
       "textDownload": "Download your ZIP (backup link):",
       "textSupport": "Support: {email}"

@@ -100,7 +100,10 @@
     "downloadSyncing": "Conferma del pagamento…",
     "downloadReady": "Pronto: {title}",
     "downloadZip": "Scarica ZIP",
+    "downloadAgain": "Scarica di nuovo",
+    "downloadStarted": "Il download del ZIP dovrebbe essere iniziato. Usa il pulsante qui sotto solo se non è partito.",
     "downloadEmailHint": "Un link di backup per il download è stato inviato anche all’email indicata.",
+    "downloadLimitReached": "Limite di download raggiunto per questo ordine. Contatta l’assistenza se ti serve aiuto.",
     "includesSample": "Include (anteprima)",
     "browseCategory": "Sfoglia questa categoria →",
     "license": {
@@ -261,6 +264,7 @@
       "downloadButton": "Scarica ZIP",
       "linkFallback": "Oppure copia questo link di backup:",
       "note": "Se il file non si è scaricato automaticamente dopo il pagamento, apri di nuovo questo link.",
+      "limitNote": "Questo link consente fino a {maxDownloads} download e scade {days} giorni dopo il pagamento. Non condividerlo pubblicamente.",
       "textIntro": "Grazie per l’acquisto di {title}.",
       "textDownload": "Scarica lo ZIP (link di backup):",
       "textSupport": "Supporto: {email}"

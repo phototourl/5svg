@@ -219,7 +219,10 @@
     "downloadSyncing": "결제 확인 중…",
     "downloadReady": "준비됨: {title}",
     "downloadZip": "ZIP 다운로드",
+    "downloadAgain": "다시 다운로드",
+    "downloadStarted": "ZIP 다운로드가 시작되었을 것입니다. 시작되지 않았을 때만 아래 버튼을 사용하세요.",
     "downloadEmailHint": "입력하신 이메일로 백업 다운로드 링크도 발송되었습니다.",
+    "downloadLimitReached": "이 주문의 다운로드 한도에 도달했습니다. 도움이 필요하면 지원팀에 문의하세요.",
     "includesSample": "포함 (샘플)",
     "browseCategory": "이 카테고리 보기 →",
     "license": {
@@ -235,6 +238,7 @@
       "downloadButton": "ZIP 다운로드",
       "linkFallback": "또는 이 백업 다운로드 링크를 복사하세요:",
       "note": "결제 후 자동 다운로드되지 않았다면 이 링크를 다시 열어 주세요.",
+      "limitNote": "이 링크는 최대 {maxDownloads}회 다운로드할 수 있으며, 결제 후 {days}일이 지나면 만료됩니다. 공개적으로 공유하지 마세요.",
       "textIntro": "{title} 구매해 주셔서 감사합니다.",
       "textDownload": "ZIP 다운로드(백업 링크):",
       "textSupport": "지원: {email}"

@@ -100,7 +100,10 @@
     "downloadSyncing": "Potwierdzanie płatności…",
     "downloadReady": "Gotowe: {title}",
     "downloadZip": "Pobierz ZIP",
+    "downloadAgain": "Pobierz ponownie",
+    "downloadStarted": "Pobieranie ZIP powinno się rozpocząć. Użyj przycisku poniżej tylko, jeśli się nie rozpoczęło.",
     "downloadEmailHint": "Zapasowy link do pobrania wysłaliśmy też na podany e-mail.",
+    "downloadLimitReached": "Osiągnięto limit pobrań dla tego zamówienia. Skontaktuj się z pomocą, jeśli potrzebujesz wsparcia.",
     "includesSample": "Zawiera (przykład)",
     "browseCategory": "Przeglądaj tę kategorię →",
     "license": {
@@ -261,6 +264,7 @@
       "downloadButton": "Pobierz ZIP",
       "linkFallback": "Albo skopiuj ten zapasowy link:",
       "note": "Jeśli plik nie pobrał się automatycznie po płatności, otwórz ten link ponownie.",
+      "limitNote": "Ten link pozwala na maksymalnie {maxDownloads} pobrań i wygasa {days} dni po płatności. Nie udostępniaj go publicznie.",
       "textIntro": "Dziękujemy za zakup {title}.",
       "textDownload": "Pobierz ZIP (link zapasowy):",
       "textSupport": "Wsparcie: {email}"

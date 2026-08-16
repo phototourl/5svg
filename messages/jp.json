@@ -219,7 +219,10 @@
     "downloadSyncing": "支払いを確認しています…",
     "downloadReady": "準備完了：{title}",
     "downloadZip": "ZIP をダウンロード",
+    "downloadAgain": "もう一度ダウンロード",
+    "downloadStarted": "ZIP のダウンロードが開始されているはずです。開始されていない場合のみ下のボタンを使用してください。",
     "downloadEmailHint": "ご入力のメールアドレスにもバックアップ用ダウンロードリンクを送信しました。",
+    "downloadLimitReached": "この注文のダウンロード上限に達しました。サポートが必要な場合はお問い合わせください。",
     "includesSample": "内容（サンプル）",
     "browseCategory": "このカテゴリを見る →",
     "license": {
@@ -235,6 +238,7 @@
       "downloadButton": "ZIP をダウンロード",
       "linkFallback": "または、このバックアップ用リンクをコピーしてください：",
       "note": "お支払い後に自動ダウンロードされなかった場合は、このリンクを再度開いてください。",
+      "limitNote": "このリンクは最大 {maxDownloads} 回までダウンロードでき、お支払いから {days} 日後に期限切れになります。公開で共有しないでください。",
       "textIntro": "{title} のご購入ありがとうございます。",
       "textDownload": "ZIP をダウンロード（バックアップリンク）：",
       "textSupport": "サポート：{email}"

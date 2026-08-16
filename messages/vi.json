@@ -96,7 +96,10 @@
     "downloadSyncing": "Đang xác nhận thanh toán…",
     "downloadReady": "Sẵn sàng: {title}",
     "downloadZip": "Tải ZIP",
+    "downloadAgain": "Tải lại",
+    "downloadStarted": "ZIP của bạn lẽ ra đã bắt đầu tải. Chỉ dùng nút bên dưới nếu chưa tải.",
     "downloadEmailHint": "Liên kết tải dự phòng cũng đã được gửi tới email bạn nhập.",
+    "downloadLimitReached": "Đã đạt giới hạn tải cho đơn hàng này. Liên hệ hỗ trợ nếu bạn cần giúp đỡ.",
     "includesSample": "Bao gồm (mẫu)",
     "browseCategory": "Duyệt danh mục này →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Tải ZIP",
       "linkFallback": "Hoặc sao chép liên kết tải dự phòng này:",
       "note": "Nếu tệp không tự tải sau thanh toán, mở lại liên kết này để tải.",
+      "limitNote": "Liên kết này cho phép tối đa {maxDownloads} lần tải và hết hạn {days} ngày sau thanh toán. Không chia sẻ công khai.",
       "textIntro": "Cảm ơn bạn đã mua {title}.",
       "textDownload": "Tải ZIP của bạn (liên kết dự phòng):",
       "textSupport": "Hỗ trợ: {email}"

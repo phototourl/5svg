@@ -100,7 +100,10 @@
     "downloadSyncing": "Betaling bevestigen…",
     "downloadReady": "Klaar: {title}",
     "downloadZip": "ZIP downloaden",
+    "downloadAgain": "Opnieuw downloaden",
+    "downloadStarted": "Je ZIP-download zou moeten zijn gestart. Gebruik de knop hieronder alleen als dat niet zo is.",
     "downloadEmailHint": "Er is ook een back-updownloadlink naar het opgegeven e-mailadres gestuurd.",
+    "downloadLimitReached": "Downloadlimiet bereikt voor deze bestelling. Neem contact op met support als je hulp nodig hebt.",
     "includesSample": "Inbegrepen (voorbeeld)",
     "browseCategory": "Deze categorie bekijken →",
     "license": {
@@ -261,6 +264,7 @@
       "downloadButton": "ZIP downloaden",
       "linkFallback": "Of kopieer deze back-updownloadlink:",
       "note": "Als het bestand na betaling niet automatisch downloadde, open deze link opnieuw.",
+      "limitNote": "Deze link staat tot {maxDownloads} downloads toe en verloopt {days} dagen na betaling. Deel hem niet openbaar.",
       "textIntro": "Bedankt voor je aankoop van {title}.",
       "textDownload": "Download je ZIP (back-uplink):",
       "textSupport": "Support: {email}"

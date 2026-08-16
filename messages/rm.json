@@ -96,7 +96,10 @@
     "downloadSyncing": "Confirmand il pajament…",
     "downloadReady": "Pront: {title}",
     "downloadZip": "Telechargiar ZIP",
+    "downloadAgain": "Telechargiar anc ina giada",
+    "downloadStarted": "Voss telechargiament ZIP duess esser cumenzà. Utilisai il buttun sutvart mo sche betg.",
     "downloadEmailHint": "In link da telechargiament da reserva è era vegnì tramess a l’e-mail che Vus avais inditgà.",
+    "downloadLimitReached": "Limita da telechargiament cuntanschida per questa cumonda. Contactai il support sche Vus basegnas agid.",
     "includesSample": "Cuntegna (exempel)",
     "browseCategory": "Sfegliar questa categoria →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "Telechargiar ZIP",
       "linkFallback": "U copiar quest link da telechargiament da reserva:",
       "note": "Sche la datoteca n’è betg vegnida telechargiada automaticamain suenter il pajament, avrir anc ina giada quest link.",
+      "limitNote": "Quest link permetta enfin {maxDownloads} telechargiaments e scada {days} dis suenter il pajament. Betg cundivider el publicamain.",
       "textIntro": "Grazia per Vossa cumpranza da {title}.",
       "textDownload": "Telechargiar Voss ZIP (link da reserva):",
       "textSupport": "Support: {email}"

@@ -100,7 +100,10 @@
     "downloadSyncing": "Vahvistetaan maksua…",
     "downloadReady": "Valmis: {title}",
     "downloadZip": "Lataa ZIP",
+    "downloadAgain": "Lataa uudelleen",
+    "downloadStarted": "ZIP-latauksesi pitäisi olla alkanut. Käytä alla olevaa painiketta vain, jos lataus ei alkanut.",
     "downloadEmailHint": "Varmuuskopiolatauslinkki on lähetetty myös antamaasi sähköpostiin.",
+    "downloadLimitReached": "Tämän tilauksen latausraja on täynnä. Ota yhteyttä tukeen, jos tarvitset apua.",
     "includesSample": "Sisältää (esimerkki)",
     "browseCategory": "Selaa tätä kategoriaa →",
     "license": {
@@ -261,6 +264,7 @@
       "downloadButton": "Lataa ZIP",
       "linkFallback": "Tai kopioi tämä varmuuskopiolatauslinkki:",
       "note": "Jos tiedosto ei latautunut automaattisesti maksun jälkeen, avaa tämä linkki uudelleen.",
+      "limitNote": "Tämä linkki sallii enintään {maxDownloads} latausta ja vanhenee {days} päivää maksun jälkeen. Älä jaa sitä julkisesti.",
       "textIntro": "Kiitos {title}-ostoksestasi.",
       "textDownload": "Lataa ZIP (varmuuskopiolinkki):",
       "textSupport": "Tuki: {email}"

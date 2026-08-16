@@ -96,7 +96,10 @@
     "downloadSyncing": "Fizetés megerősítése…",
     "downloadReady": "Kész: {title}",
     "downloadZip": "ZIP letöltése",
+    "downloadAgain": "Letöltés újra",
+    "downloadStarted": "A ZIP letöltésének el kellett kezdődnie. Csak akkor használja az alábbi gombot, ha nem indult el.",
     "downloadEmailHint": "Biztonsági letöltési linket is küldtünk a megadott e-mail-címre.",
+    "downloadLimitReached": "Elérte a rendelés letöltési korlátját. Ha segítségre van szüksége, lépjen kapcsolatba az ügyfélszolgálattal.",
     "includesSample": "Tartalom (minta)",
     "browseCategory": "Kategória böngészése →",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "ZIP letöltése",
       "linkFallback": "Vagy másolja ezt a biztonsági letöltési linket:",
       "note": "Ha a fájl nem töltődött le automatikusan a fizetés után, nyissa meg újra ezt a linket.",
+      "limitNote": "Ez a link legfeljebb {maxDownloads} letöltést engedélyez, és a fizetés után {days} nappal lejár. Ne ossza meg nyilvánosan.",
       "textIntro": "Köszönjük a(z) {title} megvásárlását.",
       "textDownload": "Töltse le a ZIP-et (biztonsági link):",
       "textSupport": "Támogatás: {email}"

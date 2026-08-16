@@ -96,7 +96,10 @@
     "downloadSyncing": "מאשרים תשלום…",
     "downloadReady": "מוכן: {title}",
     "downloadZip": "הורדת ZIP",
+    "downloadAgain": "הורדה מחדש",
+    "downloadStarted": "הורדת ה-ZIP אמורה להתחיל. השתמשו בכפתור למטה רק אם היא לא התחילה.",
     "downloadEmailHint": "קישור גיבוי להורדה נשלח גם לאימייל שהזנתם.",
+    "downloadLimitReached": "הגעתם למגבלת ההורדות להזמנה זו. פנו לתמיכה אם אתם צריכים עזרה.",
     "includesSample": "כולל (דוגמה)",
     "browseCategory": "עיון בקטגוריה זו ←",
     "license": {
@@ -257,6 +260,7 @@
       "downloadButton": "הורדת ZIP",
       "linkFallback": "או העתיקו את קישור הגיבוי להורדה:",
       "note": "אם הקובץ לא ירד אוטומטית אחרי התשלום, פתחו שוב את הקישור להורדה.",
+      "limitNote": "קישור זה מאפשר עד {maxDownloads} הורדות ותוקפו פג {days} ימים לאחר התשלום. אל תשתפו אותו בפומבי.",
       "textIntro": "תודה על רכישת {title}.",
       "textDownload": "הורידו את ה־ZIP (קישור גיבוי):",
       "textSupport": "תמיכה: {email}"

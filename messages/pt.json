@@ -219,7 +219,10 @@
     "downloadSyncing": "A confirmar o pagamento…",
     "downloadReady": "Pronto: {title}",
     "downloadZip": "Descarregar ZIP",
+    "downloadAgain": "Descarregar novamente",
+    "downloadStarted": "O download do ZIP deverá ter começado. Use o botão abaixo apenas se não tiver começado.",
     "downloadEmailHint": "Também foi enviado um link de descarga de reserva para o e-mail que indicou.",
+    "downloadLimitReached": "Limite de descargas atingido para esta encomenda. Contacte o suporte se precisar de ajuda.",
     "includesSample": "Inclui (amostra)",
     "browseCategory": "Explorar esta categoria →",
     "license": {
@@ -235,6 +238,7 @@
       "downloadButton": "Descarregar ZIP",
       "linkFallback": "Ou copie este link de descarga de reserva:",
       "note": "Se o ficheiro não descarregou automaticamente após o pagamento, abra este link novamente.",
+      "limitNote": "Esta ligação permite até {maxDownloads} descargas e expira {days} dias após o pagamento. Não a partilhe publicamente.",
       "textIntro": "Obrigado pela compra de {title}.",
       "textDownload": "Descarregue o ZIP (link de reserva):",
       "textSupport": "Suporte: {email}"
