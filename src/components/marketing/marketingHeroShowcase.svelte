@@ -13,8 +13,10 @@
   import { getSvgLibraryHref } from "@/utils/svgLinks";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import * as Tabs from "@/components/ui/tabs";
-  const TAB_ROTATE_MS = 4500;
+  import { getI18n } from "@/lib/i18n/context";
 
+  const i18n = $derived(getI18n());
+  const TAB_ROTATE_MS = 4500;
   const GRID_COUNT = 12;
 
   type HeroTab = {
@@ -32,49 +34,55 @@
     return [...primary, ...extra].slice(0, GRID_COUNT);
   };
 
-  const heroTabs: HeroTab[] = [
+  const heroTabs = $derived<HeroTab[]>([
     {
       id: "brands",
-      label: "Brands",
+      label: i18n.t("HeroTabs.brands"),
       items: fillToTwelve(getFamousBrandPreviewSvgs(GRID_COUNT), 1),
     },
     {
       id: "browse",
-      label: "Browse",
+      label: i18n.t("HeroTabs.browse"),
       items: getHeroPreviewSvgs(GRID_COUNT),
     },
     {
       id: "ai",
-      label: "AI",
+      label: i18n.t("HeroTabs.ai"),
       items: fillToTwelve(getCategoryPreviewSvgs("AI" as Category, GRID_COUNT), 2),
     },
     {
       id: "design",
-      label: "Design",
-      items: fillToTwelve(getCategoryPreviewSvgs("Design" as Category, GRID_COUNT), 4),
+      label: i18n.t("HeroTabs.design"),
+      items: fillToTwelve(
+        getCategoryPreviewSvgs("Design" as Category, GRID_COUNT),
+        4,
+      ),
     },
     {
       id: "social",
-      label: "Social",
-      items: fillToTwelve(getCategoryPreviewSvgs("Social" as Category, GRID_COUNT), 6),
+      label: i18n.t("HeroTabs.social"),
+      items: fillToTwelve(
+        getCategoryPreviewSvgs("Social" as Category, GRID_COUNT),
+        6,
+      ),
     },
-  ];
+  ]);
 
-  let activeTab = $state(heroTabs[0]!.id);
+  let activeTab = $state("brands");
   let paused = $state(false);
 
   const advanceTab = () => {
-    const index = heroTabs.findIndex((tab) => tab.id === activeTab);
-    const next = heroTabs[(index + 1) % heroTabs.length]!;
+    const tabs = heroTabs;
+    const index = tabs.findIndex((tab) => tab.id === activeTab);
+    const next = tabs[(index + 1) % tabs.length]!;
     activeTab = next.id;
   };
 
   $effect(() => {
     if (!browser || paused) return;
-
-    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)")
+      .matches;
     if (reducedMotion) return;
-
     const timer = window.setInterval(advanceTab, TAB_ROTATE_MS);
     return () => window.clearInterval(timer);
   });
@@ -83,12 +91,16 @@
 <div
   class="w-full md:justify-self-end"
   role="region"
-  aria-label="Logo previews"
+  aria-label={i18n.t("HeroTabs.aria")}
   onmouseenter={() => (paused = true)}
   onmouseleave={() => (paused = false)}
   onfocusin={() => (paused = true)}
   onfocusout={(event) => {
-    if (!(event.currentTarget as HTMLElement).contains(event.relatedTarget as Node)) {
+    if (
+      !(event.currentTarget as HTMLElement).contains(
+        event.relatedTarget as Node,
+      )
+    ) {
       paused = false;
     }
   }}

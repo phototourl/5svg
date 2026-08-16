@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Đổi ngôn ngữ",
+    "languageSelect": {
+      "title": "Chọn ngôn ngữ của bạn",
+      "subtitle": "Chọn ngôn ngữ cho giao diện trang web.",
+      "close": "Đóng"
+    },
+    "nav": {
+      "home": "Trang chủ",
+      "freeSvg": "SVG miễn phí",
+      "svgBundles": "Gói SVG",
+      "shopNow": "Cửa hàng",
+      "allFreeSvg": "Tất cả SVG miễn phí",
+      "allBundles": "Tất cả gói",
+      "licensing": "Chính sách cấp phép",
+      "contact": "Liên hệ",
+      "bundles": "Gói",
+      "browse": "Duyệt",
+      "favorites": "Yêu thích",
+      "extensions": "Tiện ích",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Tìm trong thư viện",
+      "openMenu": "Mở menu"
+    },
+    "sidebar": {
+      "categories": "Danh mục",
+      "allLogosAz": "Tất cả logo A–Z",
+      "submitSvg": "Gửi SVG",
+      "githubRepo": "Kho GitHub"
+    },
+    "footer": {
+      "tagline": "Thư viện SVG miễn phí và gói craft dành cho người làm thủ công",
+      "product": "Sản phẩm",
+      "explore": "Khám phá",
+      "categories": "Danh mục",
+      "company": "Công ty",
+      "legal": "Pháp lý",
+      "supportTitle": "Hỗ trợ khách hàng",
+      "supportBody": "Câu hỏi về SVG miễn phí hoặc gói trả phí? Email cho chúng tôi — chúng tôi cố gắng trả lời trong 1–2 ngày làm việc.",
+      "exploreLibrary": "Khám phá thư viện",
+      "browseIndex": "Mục lục A–Z",
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "license": "Chính sách cấp phép",
+      "licensingPolicy": "Chính sách cấp phép",
+      "privacy": "Chính sách quyền riêng tư",
+      "privacyPolicy": "Chính sách quyền riêng tư",
+      "terms": "Điều khoản dịch vụ",
+      "termsOfService": "Điều khoản dịch vụ",
+      "design": "Thiết kế",
+      "social": "Mạng xã hội",
+      "software": "Phần mềm"
+    },
+    "announcement": {
+      "library": "{count}+ tệp SVG miễn phí — duyệt thư viện miễn phí",
+      "favorites": "Tải xuống · lưu yêu thích · miễn phí dùng cá nhân",
+      "shop": "Gói SVG từ $4.50 — thanh toán một lần, tải ZIP ngay"
+    }
+  },
+  "shop": {
+    "seoTitle": "Gói SVG — Giá & gói craft | 5SVG",
+    "seoDescription": "Mua gói craft SVG gốc với giá $4.50 USD mỗi gói — mua một lần, tải ZIP ngay. Logo thương hiệu vẫn miễn phí trong thư viện.",
+    "promo": "Gói theo chủ đề $4.50 · Bộ sưu tập đầy đủ $9.90. Thanh toán một lần, ZIP ngay.",
+    "title": "Gói SVG",
+    "subtitle": "Mua một gói theo chủ đề, hoặc mở khóa tất cả gói trong một lần mua. Logo thương hiệu vẫn miễn phí trong thư viện.",
+    "allCategories": "Tất cả",
+    "viewPack": "Xem",
+    "wholeShopBadge": "Đáng giá nhất",
+    "wholeShopSection": "Bộ sưu tập đầy đủ",
+    "wholeShopTitle": "Bộ sưu tập đầy đủ",
+    "wholeShopLead": "{count} file SVG thủ công mọi chủ đề. Một lần mua để mở khóa tất cả các gói.",
+    "wholeShopCta": "Mua ngay",
+    "themePacksHeading": "Gói theo chủ đề",
+    "themePacksLead": "Mỗi gói là giao dịch số một lần với giá $4.50, gồm khoảng 20–24 tệp cắt craft gốc (ZIP). Logo thương hiệu vẫn miễn phí trong thư viện.",
+    "empty": "Chưa có gói trong danh mục này.",
+    "fileCount": "{count} tệp",
+    "moreFiles": "+{count} nữa",
+    "freeHint": "Cần logo thương hiệu miễn phí?",
+    "freeLibraryLink": "Mở thư viện miễn phí →",
+    "backToShop": "Tất cả gói",
+    "emailLabel": "Email nhận biên lai & tải xuống",
+    "mockNotice": "Thanh toán giả (Creem chưa kết nối).",
+    "buyDownload": "Mua & tải xuống",
+    "processing": "Đang chuyển hướng…",
+    "checkoutError": "Thanh toán thất bại. Thử lại.",
+    "flowHint": "Thanh toán một lần để tải ZIP ngay. Biên lai được gửi tới email của bạn.",
+    "payOverlayTitle": "Đang xác nhận thanh toán…",
+    "payOverlayBody": "Vui lòng chờ trong khi chúng tôi xác minh đơn hàng.",
+    "prepareOverlayTitle": "Đang chuẩn bị tải xuống…",
+    "prepareOverlayBody": "ZIP sẽ bắt đầu ngay.",
+    "downloadTitle": "Tải xuống của bạn",
+    "downloadMissing": "Thiếu thông tin quay lại thanh toán. Bắt đầu lại từ Gói.",
+    "downloadFailed": "Không xác nhận được thanh toán.",
+    "downloadSyncing": "Đang xác nhận thanh toán…",
+    "downloadReady": "Sẵn sàng: {title}",
+    "downloadZip": "Tải ZIP",
+    "downloadEmailHint": "Liên kết tải dự phòng cũng đã được gửi tới email bạn nhập.",
+    "includesSample": "Bao gồm (mẫu)",
+    "browseCategory": "Duyệt danh mục này →",
+    "license": {
+      "personal": "Dùng cá nhân",
+      "commercial": "Giấy phép craft thương mại"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Tệp SVG miễn phí & gói craft SVG",
+    "description": "Thư viện logo SVG miễn phí cùng gói craft SVG trả phí cho người làm thủ công. Duyệt thư viện miễn phí bất cứ lúc nào, hoặc mua gói ZIP gốc từ $4.50 cho Cricut, Silhouette, vinyl và thủ công.",
+    "keywords": "gói svg, craft svg, tệp svg miễn phí, tải svg, cricut svg, silhouette svg, gói svg trả phí, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Tệp SVG miễn phí & gói craft",
+      "subtitle": "Duyệt thư viện miễn phí của chúng tôi, hoặc mua gói craft SVG gốc — gói ZIP kỹ thuật số từ $4.50, thanh toán một lần, tải ngay. Dành cho Cricut, Silhouette, vinyl và người làm thủ công.",
+      "ctaShop": "Mua gói",
+      "ctaFree": "Thư viện miễn phí",
+      "marqueeAria": "Duyệt tệp SVG trong thư viện"
+    },
+    "value": {
+      "freeTitle": "Giao hàng kỹ thuật số tức thì",
+      "freeDesc": "Mua gói và tải ZIP ngay sau thanh toán — không vận chuyển, không chờ đợi. Thư viện miễn phí vẫn miễn phí.",
+      "curatedTitle": "Gói craft từ $4.50",
+      "curatedDesc": "Gói tệp cắt gốc với giá USD rõ ràng trên mọi sản phẩm. Mua một lần — giữ tệp để dùng craft cá nhân.",
+      "easyTitle": "Hỗ trợ khách hàng",
+      "easyDesc": "Câu hỏi về thư viện miễn phí, gói hoặc cấp phép? Email support@5svg.com hoặc dùng Liên hệ — chúng tôi cố gắng trả lời trong 1–2 ngày làm việc."
+    },
+    "shopStrip": {
+      "title": "Gói SVG đang bán",
+      "subtitle": "Gói craft SVG gốc — $4.50 mỗi gói, thanh toán một lần, tải ZIP ngay.",
+      "viewAll": "Xem tất cả gói →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Dành cho người làm thủ công hàng ngày",
+      "subtitle": "Dùng logo thư viện miễn phí hoặc tệp cắt từ gói trong Cricut, Silhouette, Canva, áo, sticker và nhiều hơn nữa.",
+      "cutting": "Thủ công cắt",
+      "stickers": "Sticker & decal",
+      "gifts": "Quà & tiệc",
+      "labels": "Nhãn & thẻ",
+      "print": "In & ảnh",
+      "personal": "Dự án cá nhân",
+      "iconAlt": "Biểu tượng craft {label}"
+    },
+    "library": {
+      "title": "Trong thư viện có gì",
+      "subtitle": "{count}+ tệp SVG nhóm theo chủ đề — dùng menu đầu trang khi sẵn sàng duyệt hoặc tải.",
+      "browseTitle": "Duyệt SVG {name}",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Cách hoạt động",
+      "title": "Thư viện miễn phí hoặc mua gói",
+      "subtitle": "Duyệt thư viện miễn phí bất cứ lúc nào — hoặc mở cửa hàng để mua gói craft và tải ZIP sau thanh toán.",
+      "searchTitle": "Duyệt thư viện miễn phí",
+      "searchDesc": "Mở thư viện miễn phí, chọn danh mục hoặc tìm theo tên — tải logo không cần tài khoản.",
+      "downloadTitle": "Mua một gói",
+      "downloadDesc": "Chọn gói craft trong cửa hàng, thanh toán một lần theo giá USD niêm yết, rồi tải ZIP.",
+      "favoritesTitle": "Lưu & dùng lại",
+      "favoritesDesc": "Thả tim yêu thích từ thư viện miễn phí trên thiết bị này, hoặc giữ tệp gói đã mua cho dự án craft của bạn."
+    },
+    "seoIntro": {
+      "tag": "Cửa hàng & thư viện SVG",
+      "title": "Tệp SVG miễn phí và gói craft trả phí cho người làm thủ công",
+      "description": "5SVG bán gói craft SVG gốc dưới dạng tải ZIP kỹ thuật số (thường $4.50 mỗi gói) và lưu trữ thư viện logo thương hiệu miễn phí. Duyệt thư viện miễn phí bất cứ lúc nào, hoặc mua gói cho Cricut, Silhouette, vinyl và thủ công hàng ngày."
+    },
+    "seoBlocks": {
+      "whatTag": "Cơ bản",
+      "whatTitle": "Tệp SVG là gì?",
+      "whatBody": "SVG (Scalable Vector Graphics) lưu hình dạng và đường dẫn dưới dạng toán học thay vì pixel. Nghĩa là logo và biểu tượng vẫn sắc nét dù thu nhỏ thành sticker hay phóng to thành poster.",
+      "whatB1": "Phóng to mọi kích thước mà không bị mờ",
+      "whatB2": "Định dạng phổ biến cho logo, biểu tượng và minh họa đơn giản",
+      "whatB3": "Được trình duyệt, phần mềm thiết kế và máy cắt vinyl hỗ trợ",
+      "whatAlt": "5SVG — hàng triệu vector SVG chất lượng cao và danh mục",
+      "usesTag": "Công dụng",
+      "usesTitle": "Bạn có thể làm gì với tệp SVG?",
+      "usesBody": "SVG là điểm khởi đầu thực tế cho dự án cá nhân — mockup, học thiết kế, thủ công tiệc và quy trình maker khi bạn cần vector sạch có thể đổi kích thước.",
+      "usesB1": "Cắt decal vinyl bằng Cricut hoặc Silhouette",
+      "usesB2": "Thêm biểu tượng vào Canva, Figma hoặc PowerPoint",
+      "usesB3": "In áo, thẻ và trang trí tiệc tại nhà",
+      "usesB4": "Tạo mood board và dự án trường với logo thương hiệu thật",
+      "usesAlt": "5SVG — thiết kế, dựng và trình bày với bộ UI và biểu tượng ứng dụng",
+      "getTag": "Nhận tệp",
+      "getTitle": "Cách lấy tệp SVG từ 5SVG",
+      "getBody": "Duyệt thư viện miễn phí bất cứ lúc nào — tìm hoặc chọn danh mục, rồi sao chép hoặc tải. Để mua gói craft, mở Gói, chọn sản phẩm theo giá USD niêm yết và tải ZIP sau thanh toán.",
+      "getB1": "Duyệt thư viện miễn phí — không cần đăng ký",
+      "getB2": "Hoặc mua gói ZIP craft gốc",
+      "getB3": "Thanh toán một lần, rồi tải ZIP",
+      "getB4": "Kiểm tra Giấy phép & Điều khoản trước khi dùng craft thương mại",
+      "getAlt": "5SVG — tìm vector nhanh nhất trên mọi thiết bị"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Chúng tôi bán gì, giá, giao hàng, hoàn tiền và hỗ trợ.",
+      "lead": "5SVG bán gói craft SVG kỹ thuật số (tải ZIP) với giá USD rõ ràng trên trang Gói. Thư viện logo thư viện miễn phí vẫn miễn phí. Thanh toán được xử lý bởi Creem.",
+      "q1": "Bạn bán gì?",
+      "a1": "Chúng tôi bán gói craft SVG gốc — gói ZIP kỹ thuật số gồm tệp cắt cho người làm thủ công (Cricut, Silhouette, vinyl, áo). Chúng tôi không bán hàng vật lý. Logo thương hiệu trong thư viện miễn phí miễn phí và không bán như sản phẩm trả phí.",
+      "q2": "Một gói giá bao nhiêu?",
+      "a2": "Mỗi gói craft thường là $4.50 USD mua một lần. Giá chính xác hiển thị tại https://5svg.com/shop và trên mọi trang sản phẩm trước khi bạn thanh toán.",
+      "q3": "Sản phẩm được giao như thế nào?",
+      "a3": "Giao hàng 100% kỹ thuật số và tức thì sau thanh toán thành công. Không vận chuyển. Dùng email hợp lệ lúc thanh toán để nhận biên lai.",
+      "q4": "Tôi có cần tài khoản hoặc cài phần mềm không?",
+      "a4": "Không cần tài khoản để duyệt thư viện miễn phí hoặc mua gói. Yêu thích lưu trong trình duyệt. Nhập SVG vào Cricut Design Space, Silhouette Studio, Canva hoặc bất kỳ ứng dụng hỗ trợ vector nào — không có gì phải cài từ chúng tôi.",
+      "q5": "Tôi nhận giấy phép nào?",
+      "a5": "Gói bao gồm giấy phép craft cá nhân. Bạn không được bán lại hoặc phân phối lại ZIP hay từng tệp. Logo thư viện miễn phí vẫn là nhãn hiệu của chủ sở hữu — kiểm tra hướng dẫn thương hiệu trước khi dùng thương mại. Xem trang Giấy phép và Điều khoản dịch vụ của chúng tôi.",
+      "q6": "Tôi có thể được hoàn tiền không?",
+      "a6": "Vì gói là tải kỹ thuật số, chúng tôi thường không hoàn tiền khi ZIP đã được giao và vẫn dùng được bình thường. Nếu tải thất bại do lỗi phía chúng tôi, email support@5svg.com và chúng tôi sẽ xem xét sau khi xác minh.",
+      "q7": "Chính sách quyền riêng tư và Điều khoản dịch vụ ở đâu?",
+      "a7": "Chính sách quyền riêng tư: https://5svg.com/privacy — Điều khoản dịch vụ: https://5svg.com/terms — Giấy phép: https://5svg.com/license. Liên kết cũng có ở chân trang.",
+      "q8": "Làm sao liên hệ hỗ trợ?",
+      "a8": "Email support@5svg.com hoặc dùng trang Liên hệ. Chúng tôi cố gắng trả lời trong 1–2 ngày làm việc (trong 3 ngày làm việc với vấn đề thanh toán).",
+      "contactBefore": "Với các câu hỏi trên và khác, vui lòng dùng trang ",
+      "contactLink": "Liên hệ",
+      "contactMiddle": " trên trang này hoặc email ",
+      "contactAfter": ". Chúng tôi cố gắng trả lời trong 1–2 ngày làm việc."
+    },
+    "about": {
+      "title": "Giới thiệu 5SVG",
+      "p1": "5SVG là thư viện logo và biểu tượng SVG miễn phí cùng cửa hàng gói craft SVG gốc. Sản phẩm trả phí chỉ là tải ZIP kỹ thuật số — thường $4.50 USD mỗi gói, mua một lần, giá liệt kê trên trang Gói.",
+      "p2": "Duyệt thư viện miễn phí bất cứ lúc nào, hoặc mở Gói cho các gói tệp cắt theo mùa và hàng ngày dành cho Cricut, Silhouette, vinyl và người làm thủ công. Hỗ trợ: support@5svg.com. Pháp lý: Chính sách quyền riêng tư, Điều khoản dịch vụ và trang Giấy phép ở chân trang.",
+      "logoAlt": "Logo thư viện SVG miễn phí và gói craft 5SVG"
+    },
+    "bannerAlt": "5SVG — Tệp SVG miễn phí & gói craft SVG"
+  },
+  "ContactPage": {
+    "title": "Liên hệ",
+    "description": "Liên hệ 5SVG về thư viện miễn phí, gói, cấp phép hoặc phản hồi. Chúng tôi cố gắng trả lời trong 1–2 ngày làm việc.",
+    "subtitle": "Chúng tôi sẵn sàng giúp về thư viện miễn phí, gói craft và câu hỏi cấp phép.",
+    "introShort": "Có câu hỏi hoặc phản hồi? Điền form bên dưới, chúng tôi sẽ sớm phản hồi.",
+    "whyTitle": "Bạn có thể liên hệ về",
+    "why1": "Thư viện miễn phí: duyệt, tải hoặc câu hỏi nhãn hiệu",
+    "why2": "Gói SVG: mua hàng, tải xuống hoặc nội dung gói",
+    "why3": "Câu hỏi cấp phép và dùng thương mại",
+    "why4": "Phản hồi, hợp tác hoặc báo cáo lạm dụng",
+    "expectTitle": "Điều cần kỳ vọng",
+    "expectContent": "Chúng tôi đọc mọi tin nhắn và cố gắng trả lời trong 1–2 ngày làm việc. Với vấn đề khẩn, hãy ghi chủ đề rõ và càng nhiều chi tiết càng tốt.",
+    "orEmail": "Hoặc email chúng tôi tại",
+    "form": {
+      "title": "Gửi tin nhắn",
+      "description": "Câu hỏi về thư viện miễn phí, gói hoặc phản hồi? Điền form, chúng tôi sẽ trả lời sớm nhất có thể.",
+      "name": "Tên",
+      "email": "Email",
+      "message": "Tin nhắn",
+      "namePlaceholder": "Tên của bạn",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Tin nhắn hoặc câu hỏi của bạn...",
+      "submit": "Gửi tin nhắn",
+      "mailtoHint": "Ứng dụng email của bạn sẽ mở với tin nhắn sẵn sàng gửi tới support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Tải xuống 5SVG của bạn — {title}",
+      "title": "Tải xuống đã sẵn sàng",
+      "body": "Cảm ơn bạn đã mua {title} trên 5SVG.",
+      "downloadButton": "Tải ZIP",
+      "linkFallback": "Hoặc sao chép liên kết tải dự phòng này:",
+      "note": "Nếu tệp không tự tải sau thanh toán, mở lại liên kết này để tải.",
+      "textIntro": "Cảm ơn bạn đã mua {title}.",
+      "textDownload": "Tải ZIP của bạn (liên kết dự phòng):",
+      "textSupport": "Hỗ trợ: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Giới thiệu 5SVG — Thư viện SVG miễn phí & gói craft",
+      "description": "5SVG là thư viện logo SVG miễn phí độc lập và cửa hàng gói craft SVG gốc. Chỉ tải kỹ thuật số — giá rõ trên trang Gói.",
+      "h1": "Giới thiệu 5SVG",
+      "sections": [
+        {
+          "h2": "Chúng tôi cung cấp gì",
+          "body": "5SVG lưu trữ thư viện miễn phí logo và biểu tượng SVG thương hiệu, cùng gói craft SVG trả phí bán dưới dạng tải ZIP kỹ thuật số một lần. thư viện miễn phí vẫn miễn phí. Gói là bộ tệp cắt gốc cho người làm thủ công (Cricut, Silhouette, vinyl, áo)."
+        },
+        {
+          "h2": "Chúng tôi bán gì",
+          "body": "Qua Gói chúng tôi chỉ bán gói craft SVG kỹ thuật số — thường $4.50 USD mỗi gói, thanh toán một lần, tải ZIP ngay sau thanh toán. Chúng tôi không bán hàng vật lý. Gói và giá hiện tại liệt kê trên trang Gói (/shop)."
+        },
+        {
+          "h2": "Chúng tôi là ai",
+          "body": "5SVG là dự án độc lập. Chúng tôi không liên kết, được chứng thực hay tài trợ bởi các thương hiệu có logo trong thư viện miễn phí. Gói trả phí là thiết kế craft gốc do chúng tôi lắp ráp hoặc tạo cho dùng craft cá nhân."
+        },
+        {
+          "h2": "Hỗ trợ",
+          "body": "Email hỗ trợ khách hàng: support@5svg.com. Chúng tôi cố gắng trả lời trong 1–2 ngày làm việc. Bạn cũng có thể dùng trang Liên hệ trên trang này."
+        }
+      ]
+    },
+    "license": {
+      "title": "Chính sách cấp phép — 5SVG",
+      "description": "Cách bạn được dùng tệp thư viện miễn phí và gói craft trả phí trên 5SVG, gồm nhãn hiệu và dùng craft cá nhân.",
+      "h1": "Chính sách cấp phép",
+      "sections": [
+        {
+          "h2": "Giới thiệu",
+          "body": "Chính sách cấp phép này giải thích cách bạn được dùng tài liệu từ 5SVG. Khi tải tệp thư viện miễn phí hoặc mua gói, bạn đồng ý với chính sách này, Điều khoản dịch vụ và Chính sách quyền riêng tư của chúng tôi."
+        },
+        {
+          "h2": "Thư viện thư viện miễn phí",
+          "body": "Logo và biểu tượng thương hiệu trong thư viện miễn phí miễn phí để duyệt, sao chép và tải cho dự án cá nhân, học tập và mockup. Dùng thương mại dấu hiệu thương hiệu vẫn có thể cần sự cho phép của chủ nhãn hiệu. Tệp thư viện miễn phí không bán như sản phẩm trả phí."
+        },
+        {
+          "h2": "Gói trả phí (gói craft)",
+          "body": "Gói SVG craft bán dưới Gói được cấp phép cho dự án craft cá nhân (ví dụ cắt, vinyl, áo, sticker và dùng maker tương tự). Bạn không được bán lại, phân phối lại, chia sẻ hoặc tải lại ZIP kỹ thuật số hay từng tệp SVG như sản phẩm số độc lập."
+        },
+        {
+          "h2": "Sở hữu trí tuệ",
+          "body": "Thiết kế craft gốc trong gói trả phí thuộc 5SVG hoặc được cấp phép cho chúng tôi để bán. Logo và wordmark thương hiệu thư viện miễn phí vẫn thuộc chủ sở hữu tương ứng. 5SVG không tuyên bố sở hữu nhãn hiệu bên thứ ba hiển thị trong thư viện miễn phí."
+        },
+        {
+          "h2": "Nhãn hiệu",
+          "body": "Logo và wordmark vẫn là nhãn hiệu của chủ sở hữu tương ứng. 5SVG không liên kết hay được chứng thực bởi các thương hiệu đó. Chúng tôi không bán logo thương hiệu có nhãn hiệu như sản phẩm trả phí."
+        },
+        {
+          "h2": "Không bảo đảm",
+          "body": "Tệp được cung cấp nguyên trạng. Chúng tôi không bảo đảm tính đầy đủ, sự chấp thuận pháp lý cho trường hợp dùng cụ thể của bạn, hay tài sản khớp phiên bản thương hiệu chính thức mới nhất."
+        },
+        {
+          "h2": "Liên hệ",
+          "body": "Câu hỏi về Chính sách cấp phép này: email support@5svg.com hoặc dùng trang Liên hệ trên trang này."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Chính sách quyền riêng tư — 5SVG",
+      "description": "Cách chúng tôi bảo vệ dữ liệu của bạn khi dùng 5SVG",
+      "h1": "Chính sách quyền riêng tư",
+      "sections": [
+        {
+          "h2": "Giới thiệu",
+          "body": "Chào mừng đến Chính sách quyền riêng tư 5SVG. Tài liệu này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn khi dùng trang web 5SVG, thư viện thư viện miễn phí và cửa hàng gói craft."
+        },
+        {
+          "h2": "Thông tin chúng tôi thu thập",
+          "body": "Chúng tôi có thể thu thập các loại thông tin sau: (1) Chi tiết liên hệ bạn cung cấp — như email lúc thanh toán gói để nhận biên lai và tải xuống, hoặc tin nhắn qua Liên hệ. (2) Dữ liệu sử dụng — cách bạn tương tác với trang (ví dụ trang đã xem), khi bật phân tích. (3) Thông tin thiết bị — như loại trình duyệt hoặc dữ liệu kỹ thuật gần đúng dùng để vận hành và bảo mật dịch vụ. Yêu thích bạn lưu được lưu cục bộ trong trình duyệt; chúng tôi không nhận danh sách đã lưu trên máy chủ."
+        },
+        {
+          "h2": "Cách chúng tôi dùng thông tin của bạn",
+          "body": "Chúng tôi dùng thông tin của bạn để cung cấp và duy trì thư viện thư viện miễn phí cùng cửa hàng gói; giao tải ZIP trả phí và biên lai liên quan; hỗ trợ khách hàng; cải thiện trang; giám sát sử dụng; và phát hiện, ngăn chặn cũng như xử lý vấn đề kỹ thuật hoặc lạm dụng."
+        },
+        {
+          "h2": "Thanh toán",
+          "body": "Thanh toán gói được xử lý bởi nhà cung cấp thanh toán của chúng tôi (Creem). Chi tiết thẻ do nhà cung cấp xử lý — chúng tôi không lưu số thẻ thanh toán đầy đủ trên máy chủ 5SVG."
+        },
+        {
+          "h2": "Cookie & lưu trữ",
+          "body": "Trang có thể dùng cookie hoặc lưu trữ cục bộ cho tùy chọn giao diện, ngôn ngữ, yêu thích và phân tích. Bạn có thể xóa dữ liệu trang trong cài đặt trình duyệt bất cứ lúc nào. Chặn một số cookie có thể hạn chế một số tính năng."
+        },
+        {
+          "h2": "Bảo mật dữ liệu",
+          "body": "Chúng tôi áp dụng biện pháp bảo mật phù hợp để bảo vệ thông tin cá nhân khỏi truy cập, thay đổi, tiết lộ hoặc phá hủy trái phép. Không có phương thức truyền qua Internet nào an toàn 100%."
+        },
+        {
+          "h2": "Dịch vụ bên thứ ba",
+          "body": "Chúng tôi có thể dùng công ty bên thứ ba để hỗ trợ thanh toán, gửi email, phân tích hoặc lưu trữ. Liên kết đi và huy hiệu nhúng tuân theo chính sách của các trang đó."
+        },
+        {
+          "h2": "Thay đổi Chính sách quyền riêng tư này",
+          "body": "Chúng tôi có thể cập nhật Chính sách quyền riêng tư này theo thời gian. Chúng tôi sẽ thông báo thay đổi bằng cách đăng chính sách cập nhật trên trang này."
+        },
+        {
+          "h2": "Liên hệ",
+          "body": "Nếu bạn có câu hỏi về Chính sách quyền riêng tư này, vui lòng email support@5svg.com hoặc dùng trang Liên hệ trên trang này."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Điều khoản dịch vụ — 5SVG",
+      "description": "Điều khoản sử dụng trang web 5SVG và mua gói craft SVG",
+      "h1": "Điều khoản dịch vụ",
+      "sections": [
+        {
+          "h2": "Giới thiệu",
+          "body": "Các Điều khoản dịch vụ này (“Điều khoản”) điều chỉnh việc bạn dùng trang web 5SVG, thư viện thư viện miễn phí và cửa hàng gói. Khi truy cập 5SVG.com hoặc mua gói, bạn đồng ý với các Điều khoản này, Chính sách quyền riêng tư và Chính sách cấp phép của chúng tôi. Nếu không đồng ý, đừng dùng trang hoặc mua gói."
+        },
+        {
+          "h2": "Sử dụng dịch vụ",
+          "body": "Dịch vụ của chúng tôi được cung cấp “nguyên trạng” và “như hiện có” không có bảo đảm nào, dù rõ ràng hay ngụ ý. Chúng tôi không bảo đảm trang sẽ liên tục, an toàn hoặc không lỗi. Bạn có thể duyệt thư viện miễn phí không cần tài khoản. Mua gói cần email hợp lệ lúc thanh toán."
+        },
+        {
+          "h2": "Sản phẩm chúng tôi bán",
+          "body": "5SVG bán gói craft SVG kỹ thuật số (tải ZIP tệp cắt gốc) dưới dạng mua một lần. Giá hiển thị bằng USD trên mỗi trang gói (thường $4.50 mỗi gói). Thư viện logo SVG miễn phí không phải sản phẩm trả phí. Chúng tôi không bán hàng vật lý hoặc gói logo thương hiệu bên thứ ba như sản phẩm trả phí."
+        },
+        {
+          "h2": "Giá và thanh toán",
+          "body": "Giá gói hiển thị tại https://5svg.com/shop và trên mỗi trang sản phẩm trước thanh toán. Thanh toán được xử lý bởi Creem (Merchant of Record). Bạn có trách nhiệm cung cấp email hợp lệ lúc thanh toán để chúng tôi giao tải xuống và biên lai."
+        },
+        {
+          "h2": "Giao hàng",
+          "body": "Gói chỉ giao kỹ thuật số. Sau thanh toán thành công bạn nhận tải ZIP, và liên kết tải dự phòng có thể được gửi email. Không vận chuyển hàng vật lý."
+        },
+        {
+          "h2": "Sở hữu trí tuệ",
+          "body": "Gói đã mua được cấp phép dùng craft cá nhân theo Chính sách cấp phép. Bạn không được bán lại, phân phối lại hoặc chia sẻ ZIP hay từng tệp như sản phẩm số độc lập. Logo thương hiệu thư viện miễn phí vẫn thuộc quyền chủ nhãn hiệu. Nội dung trang, thương hiệu và thiết kế craft gốc được bảo vệ bởi luật sở hữu trí tuệ áp dụng."
+        },
+        {
+          "h2": "Hoạt động bị cấm",
+          "body": "Bạn đồng ý không: dùng trang theo cách vi phạm luật áp dụng; cố truy cập trái phép hệ thống của chúng tôi; thu thập dữ liệu hoặc làm quá tải dịch vụ gây hại khả dụng; phát tán phần mềm độc hại; hoặc dùng tệp đã tải vi phạm các Điều khoản này hay Chính sách cấp phép của chúng tôi."
+        },
+        {
+          "h2": "Hoàn tiền",
+          "body": "Vì gói là tải kỹ thuật số, chúng tôi thường không hoàn tiền khi ZIP đã được giao và vẫn dùng được bình thường. Nếu bạn không tải được do lỗi phía chúng tôi, email support@5svg.com trong thời gian hợp lý; chúng tôi sẽ xem xét sau xác minh và, khi phù hợp, cung cấp tải lại hoặc biện pháp khắc phục khác."
+        },
+        {
+          "h2": "Giới hạn trách nhiệm",
+          "body": "Trong mọi trường hợp 5SVG không chịu trách nhiệm về thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hệ quả hoặc mang tính trừng phạt phát sinh từ việc bạn dùng hoặc không thể dùng trang hay tệp đã tải."
+        },
+        {
+          "h2": "Thay đổi Điều khoản",
+          "body": "Chúng tôi bảo lưu quyền sửa đổi các Điều khoản này bất cứ lúc nào. Nếu có thay đổi, chúng tôi sẽ thông báo bằng cách đăng Điều khoản cập nhật trên trang này."
+        },
+        {
+          "h2": "Liên hệ",
+          "body": "Nếu bạn có câu hỏi về các Điều khoản này, vui lòng email support@5svg.com hoặc dùng trang Liên hệ. Chúng tôi cố gắng trả lời trong 1–2 ngày làm việc (và trong 3 ngày làm việc với vấn đề thanh toán)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Tìm kiếm...",
+    "sortAz": "Sắp xếp A–Z",
+    "sortLatest": "Sắp xếp mới nhất",
+    "accept": "Chấp nhận",
+    "logos": "logo",
+    "azIndex": "Mục lục A–Z",
+    "clearSearch": "Xóa tìm kiếm",
+    "searchResults": "kết quả tìm kiếm",
+    "svgs": "SVG",
+    "showAll": "Hiện tất cả",
+    "showLess": "Hiện ít hơn",
+    "showMore": "Hiện thêm",
+    "copySvg": "Sao chép SVG",
+    "copyDisclaimer": "Vui lòng đảm bảo bạn đã có sự cho phép từ người sáng tạo trước khi sử dụng SVG. Không được phép chỉnh sửa."
+  },
+  "HeroTabs": {
+    "brands": "Thương hiệu",
+    "browse": "Duyệt",
+    "ai": "AI",
+    "design": "Thiết kế",
+    "social": "Mạng xã hội",
+    "aria": "Xem trước logo"
+  },
+  "WarningBanner": {
+    "body": "Tài sản SVG được cung cấp để tham khảo. Bạn chịu trách nhiệm xác minh nhãn hiệu và quyền sử dụng trước khi dùng trong dự án.",
+    "accept": "Chấp nhận"
+  },
+  "NotFound": {
+    "title": "Không tìm thấy SVG",
+    "inCategory": "Không tìm thấy \"{title}\" trong danh mục \"{category}\"",
+    "plain": "Không tìm thấy \"{title}\"",
+    "searchGlobally": "Tìm toàn cục",
+    "requestSvg": "Yêu cầu SVG",
+    "submitSvg": "Gửi SVG"
+  },
+  "LibraryPage": {
+    "title": "Thư viện SVG miễn phí — Duyệt biểu tượng & logo thương hiệu | 5SVG",
+    "description": "Duyệt và tải biểu tượng cùng logo SVG miễn phí. Tìm theo tên, lọc theo danh mục, sắp xếp A–Z, và sao chép hoặc tải tệp — không cần đăng ký.",
+    "h1": "Thư viện biểu tượng & logo SVG miễn phí",
+    "lead": "Tìm biểu tượng SVG miễn phí theo tên hoặc danh mục, rồi tải tệp SVG vector cho thiết kế, craft, Cricut và web.",
+    "sections": {
+      "search": {
+        "h2": "Tìm biểu tượng và logo SVG miễn phí",
+        "body": "Dùng thanh tìm kiếm để tìm tệp SVG theo thương hiệu hoặc tiêu đề. Sắp xếp A–Z hoặc duyệt logo vector mới nhất trong thư viện.",
+        "h3": "Tìm SVG miễn phí theo tên, thương hiệu hoặc danh mục"
+      },
+      "download": {
+        "h2": "Tải và dùng tệp vector SVG",
+        "body": "Mở bất kỳ thẻ nào để sao chép mã SVG hoặc tải tệp đã tối ưu. Lưu biểu tượng SVG vào bộ sưu tập để truy cập nhanh.",
+        "h3": "Sao chép, tải hoặc đánh dấu biểu tượng SVG"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Duyệt tất cả logo SVG A–Z — Mục lục biểu tượng miễn phí | 5SVG",
+    "description": "Mục lục chữ cái của mọi logo và biểu tượng SVG miễn phí trên 5SVG. Nhảy tới trang chi tiết logo bất kỳ để sao chép hoặc tải tệp vector.",
+    "h1": "Duyệt tất cả logo SVG",
+    "lead": "Mục lục A–Z đầy đủ logo thương hiệu SVG miễn phí trong thư viện chính. Mỗi liên kết mở trang chi tiết với sao chép, tải và ghi chú giấy phép.",
+    "logosCount": "({count} logo)",
+    "backLibrary": "← Thư viện tương tác",
+    "popularBrands": "Thương hiệu phổ biến",
+    "categories": "Danh mục"
+  },
+  "FavoritesPage": {
+    "title": "Yêu thích",
+    "clearAll": "Xóa tất cả",
+    "emptyTitle": "Chưa có yêu thích",
+    "emptyBody": "Bắt đầu thêm SVG vào yêu thích bằng cách nhấp biểu tượng trái tim trên bất kỳ SVG nào.",
+    "browseSvgs": "Duyệt SVG"
+  }
+}

@@ -3,7 +3,7 @@
   import { browser } from "$app/environment";
 
   import { cn } from "@/utils/cn";
-  import { svgsData } from "@/data";
+  import { svgsData, getPopularCategories } from "@/data";
   import { deleteParam } from "@/utils/searchParams";
   import { searchSvgsWithFuse } from "@/utils/searchWithFuse";
 
@@ -23,9 +23,16 @@
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import Files from "@lucide/svelte/icons/files";
   import SearchXIcon from "@lucide/svelte/icons/search-x";
+  import { getI18n } from "@/lib/i18n/context";
 
   // SSR Data:
   let { data }: PageProps = $props();
+  const i18n = $derived(getI18n());
+  const libraryTitle = $derived(i18n.t("LibraryPage.h1") || librarySeo.h1);
+  const libraryLead = $derived(i18n.t("LibraryPage.lead") || librarySeo.lead);
+  const libraryDescription = $derived(
+    i18n.t("LibraryPage.description") || librarySeo.description,
+  );
 
   // States:
   const INITIAL_DISPLAY = 30;
@@ -102,8 +109,8 @@
     JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      name: librarySeo.h1,
-      description: librarySeo.description,
+      name: libraryTitle,
+      description: libraryDescription,
       url: `${brand.siteUrl}/library`,
       numberOfItems: svgsData.length,
     }) +
@@ -116,25 +123,36 @@
 
 <div class="space-y-1 px-0.5">
   <h1 class="text-lg font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
-    {librarySeo.h1}
+    {libraryTitle}
   </h1>
   <p class="text-sm text-neutral-500 dark:text-neutral-400">
-    {librarySeo.lead}
+    {libraryLead}
     <InternalLink href="/browse" className="ml-1 text-brand-energy dark:text-brand">
-      A–Z index
+      {i18n.t("Ui.azIndex")}
     </InternalLink>
   </p>
+</div>
+
+<!-- Category shortcuts (replaces old sidebar) -->
+<div class="mt-3 flex flex-wrap gap-2">
+  {#each getPopularCategories(12) as cat (cat)}
+    <InternalLink
+      href={`/directory/${encodeURIComponent(cat.toLowerCase())}`}
+      className="rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700 hover:border-brand hover:text-brand dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300"
+    >
+      {cat}
+    </InternalLink>
+  {/each}
 </div>
 
 <Search
   searchValue={searchTerm}
   onSearch={handleSearch}
-  placeholder="Search..."
 />
 
 <PageCard
   containerClass="mt-2"
-  contentCardClass="max-h-[calc(100vh-7.6rem)] min-h-[calc(100vh-7.6rem)]"
+  contentCardClass="min-h-[60vh]"
 >
   <PageHeader>
     <div
@@ -144,11 +162,11 @@
         <Files size={18} strokeWidth={1.5} />
         <p>
           <span class="font-mono">{svgsData.length}</span>
-          <span>logos</span>
+          <span>{i18n.t("Ui.logos")}</span>
         </p>
       {:else}
         <Button
-          title="Clear Search"
+          title={i18n.t("Ui.clearSearch")}
           onclick={handleClearSearch}
           variant="ghost"
           size="icon"
@@ -157,7 +175,7 @@
         </Button>
         <p>
           <span class="font-mono">{filteredSvgs.length}</span>
-          <span>logos</span>
+          <span>{i18n.t("Ui.logos")}</span>
         </p>
       {/if}
     </div>
@@ -178,14 +196,14 @@
   <Container className="my-6">
     <div class="sr-only">
       <section>
-        <h2>{librarySeo.sections.search.h2}</h2>
-        <p>{librarySeo.sections.search.body}</p>
-        <h3>{librarySeo.sections.search.h3}</h3>
+        <h2>{i18n.t("LibraryPage.sections.search.h2")}</h2>
+        <p>{i18n.t("LibraryPage.sections.search.body")}</p>
+        <h3>{i18n.t("LibraryPage.sections.search.h3")}</h3>
       </section>
       <section>
-        <h2>{librarySeo.sections.download.h2}</h2>
-        <p>{librarySeo.sections.download.body}</p>
-        <h3>{librarySeo.sections.download.h3}</h3>
+        <h2>{i18n.t("LibraryPage.sections.download.h2")}</h2>
+        <p>{i18n.t("LibraryPage.sections.download.body")}</p>
+        <h3>{i18n.t("LibraryPage.sections.download.h3")}</h3>
       </section>
     </div>
     <Grid>

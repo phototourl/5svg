@@ -3,15 +3,18 @@
 
   import { toast } from "svelte-sonner";
   import DownloadIcon from "@lucide/svelte/icons/download";
+  import LockIcon from "@lucide/svelte/icons/lock";
 
   // Utils:
   import { cn } from "@/utils/cn";
   import { getSvgAltText } from "@/utils/svgAlt";
   import { downloadAllVariants, downloadSvg } from "@/utils/downloadSvg";
+  import { isLibrarySvgFree, getPackSlugForSvg } from "@/lib/shop";
 
   // Components:
   import * as Dialog from "@/components/ui/dialog";
   import { Button, buttonVariants } from "@/components/ui/button";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
 
   // Props:
   interface Props {
@@ -19,6 +22,9 @@
     isDarkTheme: () => boolean;
   }
   let { svgInfo, isDarkTheme }: Props = $props();
+
+  const isFree = $derived(isLibrarySvgFree(svgInfo));
+  const packSlug = $derived(getPackSlugForSvg(svgInfo));
 
   // Shared:
   let iconSize = 16;
@@ -31,6 +37,7 @@
 
   // Functions:
   const handleDownloadSvg = async (url?: string) => {
+    if (!isFree) return;
     const result = await downloadSvg({
       url: url!,
     });
@@ -59,6 +66,7 @@
     darkRoute: string;
     isWordmark?: boolean;
   }) => {
+    if (!isFree) return;
     const result = await downloadAllVariants({
       svgInfo,
       lightRoute,
@@ -84,7 +92,21 @@
   };
 </script>
 
-{#if typeof svgInfo.route === "string" && svgInfo.wordmark === undefined}
+{#if !isFree}
+  <InternalLink
+    href={packSlug ? `/shop/${packSlug}` : "/shop"}
+    className={cn(
+      buttonVariants({
+        size: "icon",
+        variant: "ghost",
+        class: "hover:bg-neutral-200",
+      }),
+    )}
+    title="Unlock category pack"
+  >
+    <LockIcon size={iconSize} strokeWidth={iconStroke} />
+  </InternalLink>
+{:else if typeof svgInfo.route === "string" && svgInfo.wordmark === undefined}
   <Button
     title="Download Light & Dark variants"
     variant="ghost"

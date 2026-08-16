@@ -1,12 +1,8 @@
 import type { RequestEvent } from "@sveltejs/kit";
-import { json, redirect } from "@sveltejs/kit";
+import { json } from "@sveltejs/kit";
 
 import { optimizeSvg } from "@/utils/optimizeSvg";
 import { parseReactSvgContent } from "@/utils/parseReactSvgContent";
-
-export const GET = async () => {
-  return redirect(301, "https://5svg.com/api");
-};
 
 export const POST = async ({ request }: RequestEvent) => {
   try {

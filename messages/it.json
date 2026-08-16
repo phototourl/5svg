@@ -1,0 +1,494 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Cambia lingua",
+    "languageSelect": {
+      "title": "Seleziona la lingua",
+      "subtitle": "Scegli la lingua dell’interfaccia del sito.",
+      "close": "Chiudi"
+    },
+    "nav": {
+      "home": "Inizio",
+      "freeSvg": "SVG gratis",
+      "svgBundles": "Pack SVG",
+      "shopNow": "Acquista",
+      "allFreeSvg": "Tutti gli SVG gratis",
+      "allBundles": "Tutti i pacchetti",
+      "licensing": "Politica di licenza",
+      "contact": "Contattaci",
+      "bundles": "Pacchetti",
+      "browse": "Sfoglia",
+      "favorites": "Preferiti",
+      "extensions": "Estensioni",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Cerca nella libreria",
+      "openMenu": "Apri menu"
+    },
+    "sidebar": {
+      "categories": "Categorie",
+      "allLogosAz": "Tutti i logo A–Z",
+      "submitSvg": "Invia SVG",
+      "githubRepo": "Repository GitHub"
+    },
+    "footer": {
+      "tagline": "Libreria SVG gratis e Bundles craft per maker",
+      "product": "Prodotto",
+      "explore": "Esplora",
+      "categories": "Categorie",
+      "company": "Azienda",
+      "legal": "Legale",
+      "supportTitle": "Assistenza clienti",
+      "supportBody": "Domande su SVG gratis o Bundles a pagamento? Scrivici — rispondiamo entro 1–2 giorni lavorativi.",
+      "exploreLibrary": "Esplora la libreria",
+      "browseIndex": "Indice A–Z",
+      "home": "Home",
+      "about": "Chi siamo",
+      "license": "Politica di licenza",
+      "licensingPolicy": "Politica di licenza",
+      "privacy": "Informativa sulla privacy",
+      "privacyPolicy": "Informativa sulla privacy",
+      "terms": "Termini di servizio",
+      "termsOfService": "Termini di servizio",
+      "design": "Design",
+      "social": "Social",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ file SVG gratis — sfoglia Free SVG",
+      "favorites": "Scarica · salva i preferiti · gratis per uso personale",
+      "shop": "SVG Bundles da $4.50 — pagamento unico, download ZIP immediato"
+    },
+    "showAll": "Mostra tutto",
+    "showLess": "Mostra meno",
+    "showMore": "Mostra di più",
+    "copySvg": "Copia SVG"
+  },
+  "shop": {
+    "seoTitle": "SVG Bundles — Prezzi e pack craft | 5SVG",
+    "seoDescription": "Acquista Bundles SVG craft originali a $4.50 USD ciascuno — acquisto unico, download ZIP immediato. I logo di marca gratis restano gratis in libreria.",
+    "promo": "Pack per tema $4.50 · Collezione completa $9.90. Un pagamento, ZIP immediato.",
+    "title": "Pack SVG",
+    "subtitle": "Compra un pack per tema, oppure sblocca tutti i pack con un acquisto. I logo di marca restano gratis nella libreria.",
+    "allCategories": "Tutte",
+    "viewPack": "Vedi",
+    "wholeShopBadge": "Offerta migliore",
+    "wholeShopSection": "Collezione completa",
+    "wholeShopTitle": "Collezione completa",
+    "wholeShopLead": "{count} SVG craft da ogni tema. Un acquisto sblocca tutti i pack.",
+    "wholeShopCta": "Acquista ora",
+    "themePacksHeading": "Pack per tema",
+    "themePacksLead": "Ogni pack è un acquisto digitale una tantum a $4.50, con circa 20–24 file di taglio craft originali (ZIP). I logo di marca restano gratis nella libreria.",
+    "empty": "Nessun pack in questa categoria per ora.",
+    "fileCount": "{count} file",
+    "moreFiles": "+{count} altri",
+    "freeHint": "Ti servono logo di marca gratis?",
+    "freeLibraryLink": "Apri la libreria gratuita →",
+    "backToShop": "Tutti i pacchetti",
+    "emailLabel": "Email per ricevuta e download",
+    "mockNotice": "Checkout di prova (Creem non ancora collegato).",
+    "buyDownload": "Acquista e scarica",
+    "processing": "Reindirizzamento…",
+    "checkoutError": "Checkout non riuscito. Riprova.",
+    "flowHint": "Paga una volta e scarica subito lo ZIP. La ricevuta arriva via email.",
+    "payOverlayTitle": "Conferma del pagamento…",
+    "payOverlayBody": "Attendi mentre verifichiamo l'acquisto.",
+    "prepareOverlayTitle": "Preparazione del download…",
+    "prepareOverlayBody": "Lo ZIP partirà a breve.",
+    "downloadTitle": "Il tuo download",
+    "downloadMissing": "Mancano i dati di ritorno del pagamento. Riparti da Bundles.",
+    "downloadFailed": "Impossibile confermare il pagamento.",
+    "downloadSyncing": "Conferma del pagamento…",
+    "downloadReady": "Pronto: {title}",
+    "downloadZip": "Scarica ZIP",
+    "downloadEmailHint": "Un link di backup per il download è stato inviato anche all’email indicata.",
+    "includesSample": "Include (anteprima)",
+    "browseCategory": "Sfoglia questa categoria →",
+    "license": {
+      "personal": "Uso personale",
+      "commercial": "Licenza craft commerciale"
+    }
+  },
+  "seo": {
+    "title": "5SVG — File SVG gratis e SVG Bundles craft",
+    "description": "Libreria di logo SVG gratis e Bundles SVG craft a pagamento per maker. Sfoglia Free SVG quando vuoi, oppure acquista pack ZIP originali da $4.50 per Cricut, Silhouette, vinile e craft.",
+    "keywords": "svg bundles, craft svg, file svg gratis, download svg, cricut svg, silhouette svg, pack svg a pagamento, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "File SVG gratis e pack craft",
+      "subtitle": "Sfoglia la nostra libreria gratuita oppure acquista pack craft originali — pack ZIP digitali da $4.50, un pagamento, download immediato. Per Cricut, Silhouette, vinile e creatori.",
+      "ctaShop": "Acquista pack",
+      "ctaFree": "Libreria gratuita",
+      "marqueeAria": "Sfoglia i file SVG in libreria"
+    },
+    "value": {
+      "freeTitle": "Consegna digitale immediata",
+      "freeDesc": "Acquista un pack e scarica lo ZIP subito dopo il pagamento — senza spedizione né attese. La libreria gratuita resta gratis.",
+      "curatedTitle": "Pack craft da $4.50",
+      "curatedDesc": "Pack di file di taglio originali con prezzo in USD chiaro su ogni prodotto. Acquisto unico — tieni i file per i tuoi craft personali.",
+      "easyTitle": "Assistenza clienti",
+      "easyDesc": "Domande sulla libreria gratuita, sui pack o sulle licenze? Scrivi a support@5svg.com o usa Contattaci — rispondiamo entro 1–2 giorni lavorativi."
+    },
+    "shopStrip": {
+      "title": "Pack SVG in vendita",
+      "subtitle": "Pack SVG craft originali — $4.50 ciascuno, pagamento unico, download ZIP immediato.",
+      "viewAll": "Vedi tutti i pack →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Pensati per i maker di tutti i giorni",
+      "subtitle": "Usa logo Free SVG o file di taglio dei Bundle in Cricut, Silhouette, Canva, magliette, sticker e altro.",
+      "cutting": "Taglio craft",
+      "stickers": "Sticker e adesivi",
+      "gifts": "Regali e feste",
+      "labels": "Etichette e cartellini",
+      "print": "Stampa e foto",
+      "personal": "Progetti personali",
+      "iconAlt": "Icona craft {label}"
+    },
+    "library": {
+      "title": "Cosa c’è in libreria",
+      "subtitle": "{count}+ file SVG raggruppati per tema — usa il menu in alto quando sei pronto a sfogliare o scaricare.",
+      "browseTitle": "Sfoglia SVG di {name}",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Come funziona",
+      "title": "Libreria gratuita o acquista pack",
+      "subtitle": "Sfoglia la libreria gratuita quando vuoi — oppure apri Pack per acquistare un pack craft e scaricare lo ZIP dopo il pagamento.",
+      "searchTitle": "Sfoglia la libreria gratuita",
+      "searchDesc": "Apri la libreria gratuita, scegli una categoria o cerca per nome — scarica i logo senza account.",
+      "downloadTitle": "Acquista un pack",
+      "downloadDesc": "Scegli un pack craft su Pack, paga una volta al prezzo USD indicato, poi scarica lo ZIP.",
+      "favoritesTitle": "Salva e riusa",
+      "favoritesDesc": "Metti il cuore ai preferiti della libreria gratuita su questo dispositivo, oppure conserva i file pack acquistati per i tuoi progetti."
+    },
+    "seoIntro": {
+      "tag": "Shop SVG e libreria",
+      "title": "File SVG gratis e Bundles craft a pagamento per maker",
+      "description": "5SVG vende Bundles SVG craft originali come download ZIP digitali (in genere $4.50 ciascuno) e ospita una libreria gratuita di logo di marca. Sfoglia Free SVG quando vuoi, oppure acquista Bundles per Cricut, Silhouette, vinile e craft quotidiani."
+    },
+    "seoBlocks": {
+      "whatTag": "Basi",
+      "whatTitle": "Cos’è un file SVG?",
+      "whatBody": "SVG (Scalable Vector Graphics) memorizza forme e tracciati come matematica, non come pixel. Logo e icone restano nitidi sia se li riduci per uno sticker sia se li ingrandisci per un poster.",
+      "whatB1": "Si ridimensiona senza sgranarsi",
+      "whatB2": "Formato comune per logo, icone e illustrazioni semplici",
+      "whatB3": "Supportato da browser, software di design e plotter da taglio",
+      "whatAlt": "5SVG — milioni di vettori SVG di qualità e categorie",
+      "usesTag": "Usi",
+      "usesTitle": "Cosa puoi fare con i file SVG?",
+      "usesBody": "Gli SVG sono un punto di partenza pratico per progetti personali — mockup, studio del design, feste e workflow maker in cui serve un vettore pulito e ridimensionabile.",
+      "usesB1": "Taglia adesivi in vinile con Cricut o Silhouette",
+      "usesB2": "Inserisci icone in Canva, Figma o PowerPoint",
+      "usesB3": "Stampa magliette, cartellini e decorazioni per feste a casa",
+      "usesB4": "Crea mood board e progetti scolastici con logo di marca reali",
+      "usesAlt": "5SVG — progetta, crea e presenta con kit UI e icone app",
+      "getTag": "Ottieni i file",
+      "getTitle": "Come ottenere file SVG da 5SVG",
+      "getBody": "Sfoglia Free SVG quando vuoi — cerca o scegli una categoria, poi copia o scarica. Per i pack craft, apri Bundles, scegli un prodotto al prezzo USD indicato e scarica lo ZIP dopo il pagamento.",
+      "getB1": "Sfoglia Free SVG — nessuna registrazione",
+      "getB2": "Oppure acquista Bundles con pack ZIP craft originali",
+      "getB3": "Paga una volta, poi scarica lo ZIP",
+      "getB4": "Consulta License e Terms prima dell’uso craft commerciale",
+      "getAlt": "5SVG — ricerca vettoriale veloce su ogni dispositivo"
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "subtitle": "Cosa vendiamo, prezzi, consegna, rimborsi e assistenza.",
+      "lead": "5SVG vende Bundles SVG craft digitali (download ZIP) a prezzi USD chiari sulla pagina Bundles. La libreria Free SVG resta gratis. I pagamenti sono elaborati da Creem.",
+      "q1": "Cosa vendete?",
+      "a1": "Vendiamo Bundles SVG craft originali — pack ZIP digitali di file di taglio per maker (Cricut, Silhouette, vinile, magliette). Non vendiamo prodotti fisici. I logo di marca in Free SVG sono gratis e non sono prodotti a pagamento.",
+      "q2": "Quanto costa un Bundle?",
+      "a2": "Ogni Bundle craft costa in genere $4.50 USD come acquisto unico. I prezzi esatti sono su https://5svg.com/shop e su ogni pagina prodotto prima del pagamento.",
+      "q3": "Come viene consegnato il prodotto?",
+      "a3": "La consegna è 100% digitale e immediata dopo il pagamento riuscito. Nessuna spedizione. Usa un’email valida al checkout per la ricevuta.",
+      "q4": "Serve un account o un software da installare?",
+      "a4": "Non serve un account per sfogliare Free SVG o acquistare Bundles. I preferiti restano nel browser. Importa gli SVG in Cricut Design Space, Silhouette Studio, Canva o qualsiasi app vettoriale — niente da installare da noi.",
+      "q5": "Quale licenza ottengo?",
+      "a5": "I Bundles includono una licenza craft personale. Non puoi rivendere né ridistribuire lo ZIP o i singoli file. I logo Free SVG restano marchi dei rispettivi titolari — verifica le linee guida del brand prima dell’uso commerciale. Vedi le pagine License e Terms of Service.",
+      "q6": "Posso ottenere un rimborso?",
+      "a6": "Poiché i Bundles sono download digitali, in genere non offriamo rimborsi una volta consegnato lo ZIP e restando disponibile per l’uso normale. Se il download fallisce per un problema nostro, scrivi a support@5svg.com e valuteremo dopo verifica.",
+      "q7": "Dove trovo Privacy Policy e Terms of Service?",
+      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. I link sono anche nel footer del sito.",
+      "q8": "Come contatto l’assistenza?",
+      "a8": "Scrivi a support@5svg.com o usa la pagina Contattaci. Rispondiamo entro 1–2 giorni lavorativi (entro 3 giorni lavorativi per questioni di fatturazione).",
+      "contactBefore": "Per queste e altre domande, usa la pagina ",
+      "contactLink": "Contattaci",
+      "contactMiddle": " su questo sito oppure scrivi a ",
+      "contactAfter": ". Rispondiamo entro 1–2 giorni lavorativi."
+    },
+    "about": {
+      "title": "Chi è 5SVG",
+      "p1": "5SVG è una libreria gratuita di logo e icone SVG più uno shop di Bundles SVG craft originali. I prodotti a pagamento sono solo download ZIP digitali — in genere $4.50 USD ciascuno, acquisto unico, con prezzi elencati sulla pagina Bundles.",
+      "p2": "Sfoglia Free SVG quando vuoi, oppure apri Bundles per pack di file di taglio stagionali e quotidiani per Cricut, Silhouette, vinile e maker. Supporto: support@5svg.com. Legale: Privacy Policy, Terms of Service e License nel footer.",
+      "logoAlt": "Logo 5SVG — libreria SVG gratis e Bundles craft"
+    },
+    "bannerAlt": "5SVG — File SVG gratis e SVG Bundles craft"
+  },
+  "ContactPage": {
+    "title": "Contattaci",
+    "description": "Contatta 5SVG per Free SVG, Bundles, licenze o feedback. Rispondiamo entro 1–2 giorni lavorativi.",
+    "subtitle": "Siamo qui per aiutarti con Free SVG, Bundles craft e domande sulle licenze.",
+    "introShort": "Hai una domanda o un feedback? Compila il modulo qui sotto e ti risponderemo presto.",
+    "whyTitle": "Di cosa puoi scriverci",
+    "why1": "Libreria Free SVG: navigazione, download o domande sui marchi",
+    "why2": "SVG Bundles: acquisti, download o contenuti dei pack",
+    "why3": "Licenze e uso commerciale",
+    "why4": "Feedback, partnership o segnalazione di abusi",
+    "expectTitle": "Cosa aspettarti",
+    "expectContent": "Leggiamo ogni messaggio e puntiamo a rispondere entro 1–2 giorni lavorativi. Per urgenze, indica un oggetto chiaro e più dettagli possibili.",
+    "orEmail": "Oppure scrivici a",
+    "form": {
+      "title": "Invia un messaggio",
+      "description": "Domande su Free SVG, Bundles o feedback? Compila il modulo e ti risponderemo al più presto.",
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "namePlaceholder": "Il tuo nome",
+      "emailPlaceholder": "tua@email.com",
+      "messagePlaceholder": "Il tuo messaggio o domanda...",
+      "submit": "Invia messaggio",
+      "mailtoHint": "Dovrebbe aprirsi l’app email con il messaggio pronto per support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Il tuo download 5SVG — {title}",
+      "title": "Il download è pronto",
+      "body": "Grazie per aver acquistato {title} su 5SVG.",
+      "downloadButton": "Scarica ZIP",
+      "linkFallback": "Oppure copia questo link di backup:",
+      "note": "Se il file non si è scaricato automaticamente dopo il pagamento, apri di nuovo questo link.",
+      "textIntro": "Grazie per l’acquisto di {title}.",
+      "textDownload": "Scarica lo ZIP (link di backup):",
+      "textSupport": "Supporto: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Chi è 5SVG — Libreria SVG gratis e Bundles craft",
+      "description": "5SVG è una libreria indipendente di logo SVG gratis e uno shop di Bundles SVG craft originali. Solo download digitali — prezzi chiari sulla pagina Bundles.",
+      "h1": "Chi è 5SVG",
+      "sections": [
+        {
+          "h2": "Cosa offriamo",
+          "body": "5SVG ospita una libreria gratuita di logo e icone SVG di marca, più Bundles SVG craft a pagamento venduti come download ZIP digitali una tantum. Free SVG resta gratis. I Bundles sono pack di file di taglio originali per maker (Cricut, Silhouette, vinile, magliette)."
+        },
+        {
+          "h2": "Cosa vendiamo",
+          "body": "Tramite Bundles vendiamo solo pack SVG craft digitali — in genere $4.50 USD ciascuno, pagamento unico, download ZIP immediato dopo il pagamento. Non vendiamo beni fisici. Pack e prezzi attuali sono elencati sulla pagina Bundles (/shop)."
+        },
+        {
+          "h2": "Chi siamo",
+          "body": "5SVG è un progetto indipendente. Non siamo affiliati, patrocinati o sponsorizzati dai brand i cui logo compaiono nella libreria gratis. I Bundles a pagamento sono design craft originali che assembliamo o creiamo per uso craft personale."
+        },
+        {
+          "h2": "Supporto",
+          "body": "Email assistenza: support@5svg.com. Rispondiamo entro 1–2 giorni lavorativi. Puoi anche usare la pagina Contattaci su questo sito."
+        }
+      ]
+    },
+    "license": {
+      "title": "Politica di licenza — 5SVG",
+      "description": "Come puoi usare i file Free SVG e i Bundles craft a pagamento su 5SVG, inclusi marchi e uso craft personale.",
+      "h1": "Politica di licenza",
+      "sections": [
+        {
+          "h2": "Introduzione",
+          "body": "Questa Politica di licenza spiega come puoi usare i materiali di 5SVG. Scaricando file Free SVG o acquistando Bundles, accetti questa politica, i Terms of Service e la Privacy Policy."
+        },
+        {
+          "h2": "Libreria Free SVG",
+          "body": "Logo e icone di marca in Free SVG sono gratis da sfogliare, copiare e scaricare per progetti personali, istruzione e mockup. L’uso commerciale dei marchi può comunque richiedere l’autorizzazione del titolare. I file Free SVG non sono venduti come prodotti a pagamento."
+        },
+        {
+          "h2": "Bundles a pagamento (pack craft)",
+          "body": "I pack SVG craft venduti come Bundles sono concessi in licenza per progetti craft personali (ad esempio taglio, vinile, magliette, sticker e usi maker simili). Non puoi rivendere, ridistribuire, condividere o ricaricare lo ZIP digitale o i singoli file SVG come prodotti digitali autonomi."
+        },
+        {
+          "h2": "Proprietà intellettuale",
+          "body": "I design craft originali nei Bundles a pagamento sono di proprietà di 5SVG o concessi in licenza a noi per la vendita. Logo e wordmark Free SVG restano proprietà dei rispettivi titolari. 5SVG non rivendica la proprietà dei marchi di terzi mostrati nella libreria gratis."
+        },
+        {
+          "h2": "Marchi",
+          "body": "Logo e wordmark restano marchi dei rispettivi titolari. 5SVG non è affiliata né patrocinata da quei brand. Non vendiamo logo di marca registrati come prodotti a pagamento."
+        },
+        {
+          "h2": "Nessuna garanzia",
+          "body": "I file sono forniti così come sono. Non garantiamo completezza, liberatoria legale per il tuo caso d’uso specifico, né che gli asset corrispondano alle ultime versioni ufficiali del brand."
+        },
+        {
+          "h2": "Contattaci",
+          "body": "Domande su questa Politica di licenza: scrivi a support@5svg.com o usa la pagina Contattaci su questo sito."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Informativa sulla privacy — 5SVG",
+      "description": "Come proteggiamo i tuoi dati quando usi 5SVG",
+      "h1": "Informativa sulla privacy",
+      "sections": [
+        {
+          "h2": "Introduzione",
+          "body": "Benvenuto nell’Informativa sulla privacy di 5SVG. Questo documento spiega come raccogliamo, usiamo e proteggiamo le tue informazioni personali quando usi il sito 5SVG, la libreria Free SVG e lo shop di Bundle craft."
+        },
+        {
+          "h2": "Informazioni che raccogliamo",
+          "body": "Possiamo raccogliere i seguenti tipi di informazioni: (1) Dati di contatto che fornisci — come l’email inserita al checkout Bundle per ricevuta e download, o i messaggi inviati via Contattaci. (2) Dati di utilizzo — come interagisci con il sito (ad esempio pagine visitate), quando l’analytics è attiva. (3) Informazioni sul dispositivo — come tipo di browser o dati tecnici approssimativi usati per operare e proteggere il servizio. I preferiti salvati restano in locale nel browser; non riceviamo l’elenco sui nostri server."
+        },
+        {
+          "h2": "Come usiamo le informazioni",
+          "body": "Usiamo le tue informazioni per fornire e mantenere la libreria Free SVG e lo shop Bundle; per consegnare download ZIP a pagamento e relative ricevute; per l’assistenza clienti; per migliorare il sito; per monitorare l’uso; e per rilevare, prevenire e affrontare problemi tecnici o di abuso."
+        },
+        {
+          "h2": "Pagamenti",
+          "body": "I pagamenti per i Bundles sono elaborati dal nostro provider (Creem). I dati della carta sono gestiti dal provider — non memorizziamo i numeri completi delle carte sui server 5SVG."
+        },
+        {
+          "h2": "Cookie e archiviazione",
+          "body": "Il sito può usare cookie o archiviazione locale per tema, lingua, preferiti e analytics. Puoi cancellare i dati del sito nelle impostazioni del browser in qualsiasi momento. Bloccare alcuni cookie può limitare alcune funzioni."
+        },
+        {
+          "h2": "Sicurezza dei dati",
+          "body": "Adottiamo misure di sicurezza adeguate per proteggere le informazioni personali da accesso, modifica, divulgazione o distruzione non autorizzati. Nessun metodo di trasmissione su Internet è sicuro al 100%."
+        },
+        {
+          "h2": "Servizi di terzi",
+          "body": "Possiamo usare aziende terze per pagamenti, email, analytics o hosting. Link in uscita e badge incorporati sono regolati dalle policy di quei siti."
+        },
+        {
+          "h2": "Modifiche a questa Informativa",
+          "body": "Possiamo aggiornare questa Informativa sulla privacy di tanto in tanto. Ti informeremo delle modifiche pubblicando la policy aggiornata su questa pagina."
+        },
+        {
+          "h2": "Contattaci",
+          "body": "Per domande su questa Informativa sulla privacy, scrivi a support@5svg.com o usa la pagina Contattaci su questo sito."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termini di servizio — 5SVG",
+      "description": "Termini per l’uso del sito 5SVG e l’acquisto di Bundles SVG craft",
+      "h1": "Termini di servizio",
+      "sections": [
+        {
+          "h2": "Introduzione",
+          "body": "Questi Termini di servizio (“Termini”) regolano l’uso del sito 5SVG, della libreria Free SVG e dello shop Bundle. Accedendo a 5SVG.com o acquistando un Bundle, accetti questi Termini, la Privacy Policy e la Licensing Policy. Se non sei d’accordo, non usare il sito né acquistare Bundles."
+        },
+        {
+          "h2": "Uso dei servizi",
+          "body": "I servizi sono forniti “così come sono” e “come disponibili”, senza garanzie di alcun tipo, espresse o implicite. Non garantiamo che il sito sia ininterrotto, sicuro o privo di errori. Puoi sfogliare Free SVG senza account. Per acquistare Bundles serve un’email valida al checkout."
+        },
+        {
+          "h2": "Prodotti che vendiamo",
+          "body": "5SVG vende Bundles SVG craft digitali (download ZIP di file di taglio originali) come acquisti una tantum. I prezzi sono in USD su ogni pagina Bundle (in genere $4.50 per pack). La libreria di logo SVG gratis non è un prodotto a pagamento. Non vendiamo beni fisici né pack di logo di marca di terzi come prodotti a pagamento."
+        },
+        {
+          "h2": "Prezzi e pagamento",
+          "body": "I prezzi dei Bundle sono mostrati su https://5svg.com/shop e su ogni pagina prodotto prima del checkout. Il pagamento è elaborato da Creem (Merchant of Record). Sei responsabile di fornire un’email valida al checkout così possiamo consegnare download e ricevuta."
+        },
+        {
+          "h2": "Consegna",
+          "body": "I Bundles sono consegnati solo in digitale. Dopo il pagamento andato a buon fine ricevi il download ZIP e può esserti inviato un link di backup via email. Non avviene alcuna spedizione di articoli fisici."
+        },
+        {
+          "h2": "Proprietà intellettuale",
+          "body": "I Bundles acquistati sono concessi in licenza per uso craft personale come descritto nella Licensing Policy. Non puoi rivendere, ridistribuire o condividere lo ZIP o i singoli file come prodotti digitali autonomi. I logo Free SVG restano soggetti ai diritti dei titolari dei marchi. Contenuti del sito, branding e design craft originali sono protetti dalle leggi applicabili sulla proprietà intellettuale."
+        },
+        {
+          "h2": "Attività vietate",
+          "body": "Accetti di non: usare il sito in modo contrario alla legge applicabile; tentare accessi non autorizzati ai nostri sistemi; fare scraping o sovraccaricare il servizio in modo da danneggiarne la disponibilità; distribuire malware; oppure usare i file scaricati in violazione di questi Termini o della Licensing Policy."
+        },
+        {
+          "h2": "Rimborsi",
+          "body": "Poiché i Bundles sono download digitali, in genere non offriamo rimborsi una volta consegnato lo ZIP e restando disponibile per l’uso normale. Se non riesci a scaricare per un guasto nostro, scrivi a support@5svg.com entro un tempo ragionevole; valuteremo dopo verifica e, se opportuno, forniremo un nuovo download o altro rimedio."
+        },
+        {
+          "h2": "Limitazione di responsabilità",
+          "body": "In nessun caso 5SVG sarà responsabile di danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dall’uso o dall’impossibilità di usare il sito o i file scaricati."
+        },
+        {
+          "h2": "Modifiche ai Termini",
+          "body": "Ci riserviamo il diritto di modificare questi Termini in qualsiasi momento. In caso di modifiche, daremo avviso pubblicando i Termini aggiornati su questa pagina."
+        },
+        {
+          "h2": "Contattaci",
+          "body": "Per domande su questi Termini, scrivi a support@5svg.com o usa la pagina Contattaci. Rispondiamo entro 1–2 giorni lavorativi (e entro 3 giorni lavorativi per questioni di fatturazione)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Cerca...",
+    "sortAz": "Ordina A–Z",
+    "sortLatest": "Ordina per più recenti",
+    "accept": "Accetta",
+    "logos": "logo",
+    "azIndex": "Indice A–Z",
+    "clearSearch": "Cancella ricerca",
+    "searchResults": "risultati di ricerca",
+    "svgs": "SVG",
+    "showAll": "Mostra tutto",
+    "showLess": "Mostra meno",
+    "showMore": "Mostra di più",
+    "copySvg": "Copia SVG",
+    "copyDisclaimer": "Assicurati di avere l'autorizzazione dei creatori prima di utilizzare l'SVG. Non sono consentite modifiche."
+  },
+  "HeroTabs": {
+    "brands": "Brand",
+    "browse": "Sfoglia",
+    "ai": "AI",
+    "design": "Design",
+    "social": "Social",
+    "aria": "Anteprima logo"
+  },
+  "WarningBanner": {
+    "body": "Gli asset SVG sono forniti come riferimento. Sei responsabile di verificare marchi e diritti d’uso prima di usarli nei tuoi progetti.",
+    "accept": "Accetta"
+  },
+  "NotFound": {
+    "title": "SVG non trovato",
+    "inCategory": "\"{title}\" non trovato nella categoria \"{category}\"",
+    "plain": "\"{title}\" non trovato",
+    "searchGlobally": "Cerca globalmente",
+    "requestSvg": "Richiedi SVG",
+    "submitSvg": "Invia SVG"
+  },
+  "LibraryPage": {
+    "title": "Libreria SVG gratis — Icone e logo di marca | 5SVG",
+    "description": "Sfoglia e scarica icone e logo SVG gratis. Cerca per nome, filtra per categoria, ordina A–Z e copia o scarica i file — senza registrazione.",
+    "h1": "Libreria di icone e logo SVG gratis",
+    "lead": "Cerca icone SVG gratis per nome o categoria, poi scarica file vettoriali per design, craft, Cricut e web.",
+    "sections": {
+      "search": {
+        "h2": "Cerca icone e logo SVG gratis",
+        "body": "Usa la barra di ricerca per trovare SVG per brand o titolo. Ordina A–Z o sfoglia i logo vettoriali più recenti.",
+        "h3": "Trova SVG gratis per nome, brand o categoria"
+      },
+      "download": {
+        "h2": "Scarica e usa file SVG vettoriali",
+        "body": "Apri qualsiasi scheda per copiare il codice SVG o scaricare il file ottimizzato. Salva le icone nella collezione per un accesso rapido.",
+        "h3": "Copia, scarica o salva nei preferiti le icone SVG"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Sfoglia tutti i logo SVG A–Z — Indice icone gratis | 5SVG",
+    "description": "Indice alfabetico di ogni logo e icona SVG gratis su 5SVG. Vai alla pagina dettaglio per copiare o scaricare i vettori.",
+    "h1": "Sfoglia tutti i logo SVG",
+    "lead": "Indice A–Z completo dei logo SVG di marca gratis nella libreria principale. Ogni link apre una pagina dettaglio con copia, download e note sulla licenza.",
+    "logosCount": "({count} logo)",
+    "backLibrary": "← Libreria interattiva",
+    "popularBrands": "Brand popolari",
+    "categories": "Categorie"
+  },
+  "FavoritesPage": {
+    "title": "Preferiti",
+    "clearAll": "Cancella tutto",
+    "emptyTitle": "Nessun preferito ancora",
+    "emptyBody": "Aggiungi SVG ai preferiti cliccando l’icona a cuore su qualsiasi SVG.",
+    "browseSvgs": "Sfoglia SVG"
+  }
+}

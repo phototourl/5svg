@@ -5,6 +5,7 @@
   import { addParams } from "@/utils/searchParams";
   import SearchIcon from "@lucide/svelte/icons/search";
   import CommandIcon from "@lucide/svelte/icons/command";
+  import { getI18n } from "@/lib/i18n/context";
 
   interface Props {
     searchValue: string;
@@ -17,6 +18,10 @@
   let { searchValue, onSearch, placeholder, iconSize, inputClass }: Props =
     $props();
   let inputElement: HTMLInputElement;
+  const i18n = $derived(getI18n());
+  const resolvedPlaceholder = $derived(
+    placeholder || i18n.t("Ui.searchPlaceholder"),
+  );
 
   const onInput = (event: Event) => {
     const value = (event.target as HTMLInputElement).value;
@@ -58,7 +63,7 @@
     bind:this={inputElement}
     type="search"
     autocomplete="off"
-    placeholder={placeholder || "Search..."}
+    placeholder={resolvedPlaceholder}
     oninput={onInput}
     name="search"
     value={searchValue}

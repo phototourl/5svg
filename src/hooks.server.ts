@@ -4,6 +4,7 @@ import {
   LOCALE_COOKIE,
   LOCALES,
   isLocale,
+  localeMeta,
   type AppLocale,
 } from "@/lib/i18n/config";
 import { stripLocalePrefix } from "@/lib/i18n/paths";
@@ -28,9 +29,11 @@ export const handle: Handle = async ({ event, resolve }) => {
     LOCALES,
   );
 
+  const dir = localeMeta[locale].dir ?? "ltr";
+
   const response = await resolve(event, {
     transformPageChunk: ({ html }) =>
-      html.replace("%lang%", locale).replace("%dir%", locale === "ar" ? "rtl" : "ltr"),
+      html.replace("%lang%", locale).replace("%dir%", dir),
   });
 
   return response;

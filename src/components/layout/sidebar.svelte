@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { Snippet } from "svelte";
   import { cn } from "@/utils/cn";
 
   import { Separator } from "@/components/ui/separator";
@@ -6,6 +7,12 @@
   import ShowSidebarLinks from "@/components/layout/showSidebarLinks.svelte";
   import ScrollArea from "@/components/ui/scroll-area/scroll-area.svelte";
   import ScrollAreaScrollbar from "@/components/ui/scroll-area/scroll-area-scrollbar.svelte";
+
+  interface Props {
+    children: Snippet;
+  }
+
+  let { children }: Props = $props();
 </script>
 
 <section>
@@ -35,6 +42,6 @@
     </nav>
   </aside>
   <main class={cn("px-2 md:mr-4 md:ml-56 md:px-0", "overflow-hidden")}>
-    <slot />
+    {@render children()}
   </main>
 </section>

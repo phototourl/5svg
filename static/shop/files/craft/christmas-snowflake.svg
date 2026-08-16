@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" data-source="5svg-original" fill="none">
+
+  <g stroke="#111" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M100 30v140M40 65l120 70M40 135l120-70"/>
+    <path d="M100 55l12-18M100 55l-12-18M100 145l12 18M100 145l-12 18"/>
+    <path d="M58 75l-20 2M58 75l-8-18M142 125l20-2M142 125l8 18"/>
+    <path d="M58 125l-20-2M58 125l-8 18M142 75l20 2M142 75l8-18"/>
+  </g>
+
+</svg>

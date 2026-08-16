@@ -16,7 +16,6 @@
   import Box from "@lucide/svelte/icons/box";
   import House from "@lucide/svelte/icons/house";
   import Heart from "@lucide/svelte/icons/heart";
-  import Cloud from "@lucide/svelte/icons/cloud";
   import Submit from "@lucide/svelte/icons/send";
   import LayoutGrid from "@lucide/svelte/icons/layout-grid";
   import Github from "@/components/logos/github.svelte";
@@ -37,8 +36,6 @@
         return LayoutGrid;
       case "/favorites":
         return Heart;
-      case "/docs/api":
-        return Cloud;
       case "/extensions":
         return Box;
       default:

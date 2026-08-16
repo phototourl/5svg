@@ -28,6 +28,12 @@ Thumbs.db
 !.env.example
 !.env.test
 
+# Local mock shop orders (Creem not wired yet)
+.data/
+
+# Local SVG source dumps (not sold assets; use static/shop/files/craft)
+/svg/
+
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*

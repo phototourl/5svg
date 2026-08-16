@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Nyelv váltása",
+    "languageSelect": {
+      "title": "Válassza ki a nyelvet",
+      "subtitle": "Válassza ki a webhely felületének nyelvét.",
+      "close": "Bezárás"
+    },
+    "nav": {
+      "home": "Kezdőlap",
+      "freeSvg": "Ingyenes SVG",
+      "svgBundles": "SVG csomagok",
+      "shopNow": "Bolt",
+      "allFreeSvg": "Összes ingyenes SVG",
+      "allBundles": "Összes csomag",
+      "licensing": "Licencpolitika",
+      "contact": "Kapcsolat",
+      "bundles": "Csomagok",
+      "browse": "Böngészés",
+      "favorites": "Kedvencek",
+      "extensions": "Bővítmények",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Keresés a könyvtárban",
+      "openMenu": "Menü megnyitása"
+    },
+    "sidebar": {
+      "categories": "Kategóriák",
+      "allLogosAz": "Összes logó A–Z",
+      "submitSvg": "SVG beküldése",
+      "githubRepo": "GitHub tároló"
+    },
+    "footer": {
+      "tagline": "Ingyenes SVG könyvtár és craft csomagok alkotóknak",
+      "product": "Termék",
+      "explore": "Felfedezés",
+      "categories": "Kategóriák",
+      "company": "Cég",
+      "legal": "Jogi információk",
+      "supportTitle": "Ügyfélszolgálat",
+      "supportBody": "Kérdése van az ingyenes SVG-ről vagy a fizetős csomagokról? Írjon nekünk — 1–2 munkanapon belül válaszolunk.",
+      "exploreLibrary": "Könyvtár felfedezése",
+      "browseIndex": "A–Z index",
+      "home": "Kezdőlap",
+      "about": "Rólunk",
+      "license": "Licencpolitika",
+      "licensingPolicy": "Licencpolitika",
+      "privacy": "Adatvédelmi irányelvek",
+      "privacyPolicy": "Adatvédelmi irányelvek",
+      "terms": "Általános szerződési feltételek",
+      "termsOfService": "Általános szerződési feltételek",
+      "design": "Design",
+      "social": "Közösségi",
+      "software": "Szoftver"
+    },
+    "announcement": {
+      "library": "{count}+ ingyenes SVG fájl — böngéssze a Free SVG-t",
+      "favorites": "Letöltés · kedvencek mentése · ingyenes személyes használatra",
+      "shop": "SVG csomagok $4.50-tól — egyszer fizet, azonnali ZIP letöltés"
+    }
+  },
+  "shop": {
+    "seoTitle": "SVG csomagok — Árak és craft csomagok | 5SVG",
+    "seoDescription": "Vásároljon eredeti craft SVG csomagokat $4.50 USD-ért — egyszeri vásárlás, azonnali ZIP letöltés. A márkalogók ingyenesek maradnak a könyvtárban.",
+    "promo": "Témacsomagok $4.50 · Teljes kollekció $9.90. Egy fizetés, azonnali ZIP.",
+    "title": "SVG csomagok",
+    "subtitle": "Vegyél egy témacsomagot, vagy egy vásárlással oldd fel az összeset. A márkalogók ingyen maradnak a könyvtárban.",
+    "allCategories": "Összes",
+    "viewPack": "Megtekintés",
+    "wholeShopBadge": "Legjobb ajánlat",
+    "wholeShopSection": "Teljes kollekció",
+    "wholeShopTitle": "Teljes kollekció",
+    "wholeShopLead": "{count} craft SVG minden témából. Egy vásárlással az összes csomag elérhető.",
+    "wholeShopCta": "Vásárlás",
+    "themePacksHeading": "Témacsomagok",
+    "themePacksLead": "Minden csomag egyszeri digitális vásárlás $4.50-ért, kb. 20–24 eredeti craft vágófájllal (ZIP). A márkalogók ingyen maradnak a könyvtárban.",
+    "empty": "Ebben a kategóriában még nincsenek csomagok.",
+    "fileCount": "{count} fájl",
+    "moreFiles": "+{count} további",
+    "freeHint": "Ingyenes márkalogókra van szüksége?",
+    "freeLibraryLink": "Ingyenes könyvtár megnyitása →",
+    "backToShop": "Összes csomag",
+    "emailLabel": "E-mail a nyugtához és letöltéshez",
+    "mockNotice": "Teszt checkout (Creem még nincs bekötve).",
+    "buyDownload": "Vásárlás és letöltés",
+    "processing": "Átirányítás…",
+    "checkoutError": "A fizetés sikertelen. Próbálja újra.",
+    "flowHint": "Fizessen egyszer az azonnali ZIP-letöltésért. A nyugtát e-mailben küldjük.",
+    "payOverlayTitle": "Fizetés megerősítése…",
+    "payOverlayBody": "Kérjük, várjon, amíg ellenőrizzük a vásárlást.",
+    "prepareOverlayTitle": "Letöltés előkészítése…",
+    "prepareOverlayBody": "A ZIP hamarosan elindul.",
+    "downloadTitle": "Az Ön letöltése",
+    "downloadMissing": "Hiányzik a fizetés visszatérési információja. Kezdje újra a Csomagoknál.",
+    "downloadFailed": "A fizetés nem erősíthető meg.",
+    "downloadSyncing": "Fizetés megerősítése…",
+    "downloadReady": "Kész: {title}",
+    "downloadZip": "ZIP letöltése",
+    "downloadEmailHint": "Biztonsági letöltési linket is küldtünk a megadott e-mail-címre.",
+    "includesSample": "Tartalom (minta)",
+    "browseCategory": "Kategória böngészése →",
+    "license": {
+      "personal": "Személyes használat",
+      "commercial": "Kereskedelmi craft licenc"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Ingyenes SVG fájlok és craft SVG csomagok",
+    "description": "Ingyenes SVG logókönyvtár és fizetős craft SVG csomagok alkotóknak. Böngéssze a Free SVG-t bármikor, vagy vásároljon eredeti ZIP csomagokat $4.50-tól Cricut, Silhouette, vinyl és crafts projektekhez.",
+    "keywords": "svg csomagok, craft svg, ingyenes svg, svg letöltés, cricut svg, silhouette svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Ingyenes SVG fájlok és craft csomagok",
+      "subtitle": "Böngéssze ingyenes könyvtárunkat, vagy vásároljon eredeti craft csomagokat — digitális ZIP csomagok $4.50-tól, egyszer fizet, azonnal letölt. Cricut, Silhouette, vinyl és alkotók számára.",
+      "ctaShop": "Csomagok vásárlása",
+      "ctaFree": "Ingyenes könyvtár",
+      "marqueeAria": "SVG fájlok böngészése a könyvtárban"
+    },
+    "value": {
+      "freeTitle": "Azonnali digitális kézbesítés",
+      "freeDesc": "Vásároljon csomagot, és töltse le a ZIP-et közvetlenül a fizetés után — nincs szállítás, nincs várakozás. Az ingyenes könyvtár ingyenes marad.",
+      "curatedTitle": "Craft csomagok $4.50-tól",
+      "curatedDesc": "Eredeti vágófájl-csomagok egyértelmű USD árral. Egyszeri vásárlás — tartsa meg a fájlokat személyes craft használatra.",
+      "easyTitle": "Ügyfélszolgálat",
+      "easyDesc": "Kérdések az ingyenes könyvtárról, csomagokról vagy licencről? support@5svg.com vagy Kapcsolat — 1–2 munkanapon belül válaszolunk."
+    },
+    "shopStrip": {
+      "title": "SVG csomagok eladó",
+      "subtitle": "Eredeti craft SVG csomagok — $4.50 darabonként, egyszer fizet, azonnali ZIP.",
+      "viewAll": "Összes csomag megtekintése →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Mindennapi alkotóknak",
+      "subtitle": "Használjon Free SVG logókat vagy csomagfájlokat Cricut, Silhouette, Canva, pólók, matricák és más projektekhez.",
+      "cutting": "Vágás és crafts",
+      "stickers": "Matricák és matricák",
+      "gifts": "Ajándékok és buli",
+      "labels": "Címkék",
+      "print": "Nyomtatás és fotó",
+      "personal": "Személyes projektek",
+      "iconAlt": "{label} craft ikon"
+    },
+    "library": {
+      "title": "Mi van a könyvtárban",
+      "subtitle": "{count}+ SVG fájl témák szerint csoportosítva — használja a felső menüt, ha böngészni vagy letölteni szeretne.",
+      "browseTitle": "{name} SVG böngészése",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Hogyan működik",
+      "title": "Ingyenes könyvtár vagy csomagvásárlás",
+      "subtitle": "Böngéssze az ingyenes könyvtárat bármikor — vagy nyissa meg a Csomagokat, vásároljon craft csomagot, és töltse le a ZIP-et fizetés után.",
+      "searchTitle": "Ingyenes könyvtár böngészése",
+      "searchDesc": "Nyissa meg az ingyenes könyvtárat, válasszon kategóriát vagy keressen név szerint — letöltés fiók nélkül.",
+      "downloadTitle": "Csomag vásárlása",
+      "downloadDesc": "Válasszon craft csomagot a Csomagoknál, fizessen egyszer a megadott USD áron, majd töltse le a ZIP-et.",
+      "favoritesTitle": "Mentés és újrafelhasználás",
+      "favoritesDesc": "Jelölje meg Free SVG kedvenceit ezen az eszközön, vagy tartsa meg a megvásárolt csomagfájlokat craft projektjeihez."
+    },
+    "seoIntro": {
+      "tag": "SVG bolt és könyvtár",
+      "title": "Ingyenes SVG fájlok és fizetős craft csomagok",
+      "description": "A 5SVG eredeti craft SVG csomagokat értékesít digitális ZIP letöltésként (jellemzően $4.50 darabonként), és ingyenes márkalogó-könyvtárat üzemeltet. Böngéssze a Free SVG-t, vagy vásároljon csomagokat Cricut, Silhouette, vinyl és mindennapi crafts projektekhez."
+    },
+    "seoBlocks": {
+      "whatTag": "Alapok",
+      "whatTitle": "Mi az az SVG fájl?",
+      "whatBody": "Az SVG (Scalable Vector Graphics) alakzatokat és útvonalakat matematikaként tárolja, nem pixelekként. A logók és ikonok élesek maradnak — akár matricához kicsinyíti, akár poszterhez nagyítja őket.",
+      "whatB1": "Bármilyen méretre skálázható elmosódás nélkül",
+      "whatB2": "Gyakori formátum logókhoz, ikonokhoz és egyszerű illusztrációkhoz",
+      "whatB3": "Böngészők, tervezőszoftverek és vinylvágók támogatják",
+      "whatAlt": "5SVG — több millió kiváló minőségű SVG vektor és kategória",
+      "usesTag": "Használat",
+      "usesTitle": "Mire használhatók az SVG fájlok?",
+      "usesBody": "Az SVG-k praktikus kiindulópontok személyes projektekhez — mockupok, tervezéstanulás, buli crafts és maker munkafolyamatok, ahol tiszta, átméretezhető vektorra van szükség.",
+      "usesB1": "Vinyl matricák vágása Cricut vagy Silhouette géppel",
+      "usesB2": "Ikonok beszúrása Canva, Figma vagy PowerPoint alkalmazásba",
+      "usesB3": "Pólók, címkék és bulidekorációk nyomtatása otthon",
+      "usesB4": "Mood boardok és iskolai projektek valódi márkalogókkal",
+      "usesAlt": "5SVG — tervezés és bemutatás UI készletekkel és alkalmazásikonokkal",
+      "getTag": "Fájlok beszerzése",
+      "getTitle": "Hogyan szerezhet SVG fájlokat a 5SVG-től",
+      "getBody": "Böngéssze a Free SVG-t bármikor — keressen vagy válasszon kategóriát, majd másolja vagy töltse le. Craft csomagokhoz nyissa meg a Csomagokat, válasszon terméket a megadott USD áron, és töltse le a ZIP-et fizetés után.",
+      "getB1": "Free SVG böngészése — regisztráció nélkül",
+      "getB2": "Vagy vásároljon csomagokat eredeti craft ZIP csomagokhoz",
+      "getB3": "Fizessen egyszer, majd töltse le a ZIP-et",
+      "getB4": "Ellenőrizze a Licencet és a Feltételeket kereskedelmi craft használat előtt",
+      "getAlt": "5SVG — a leggyorsabb vektorkeresés eszközökön"
+    },
+    "faq": {
+      "title": "GYIK",
+      "subtitle": "Mit árulunk, árak, szállítás, visszatérítések és támogatás.",
+      "lead": "A 5SVG digitális craft SVG csomagokat (ZIP letöltések) értékesít egyértelmű USD árakon a Csomagok oldalon. A Free SVG logókönyvtár ingyenes marad. A fizetéseket a Creem dolgozza fel.",
+      "q1": "Mit árulnak?",
+      "a1": "Eredeti craft SVG csomagokat — digitális ZIP csomagokat vágófájlokkal alkotóknak (Cricut, Silhouette, vinyl, pólók). Nem árulunk fizikai árut. A Free SVG márkalogói ingyenesek, és nem kerülnek értékesítésre.",
+      "q2": "Mennyibe kerül egy csomag?",
+      "a2": "Minden craft csomag jellemzően $4.50 USD egyszeri vásárlásként. A pontos árak a https://5svg.com/shop oldalon és minden termékoldalon láthatók fizetés előtt.",
+      "q3": "Hogyan történik a kézbesítés?",
+      "a3": "A kézbesítés 100%-ban digitális és azonnali sikeres fizetés után. Nincs szállítás. Adjon meg érvényes e-mailt a checkoutnál a nyugtához.",
+      "q4": "Szükségem van fiókra vagy szoftvertelepítésre?",
+      "a4": "Nem kell fiók a Free SVG böngészéséhez vagy csomagvásárláshoz. A kedvencek a böngészőben maradnak. Importálja az SVG-ket a Cricut Design Space, Silhouette Studio, Canva vagy más vektorképes alkalmazásba — tőlünk nincs mit telepíteni.",
+      "q5": "Milyen licencet kapok?",
+      "a5": "A csomagok személyes craft licencet tartalmaznak. A ZIP-et vagy az egyes fájlokat nem értékesítheti tovább és nem terjesztheti. A Free SVG logók a tulajdonosok védjegyei maradnak — ellenőrizze a márka irányelveit kereskedelmi használat előtt. Lásd a Licenc és Feltételek oldalakat.",
+      "q6": "Kaphatok visszatérítést?",
+      "a6": "Mivel a csomagok digitális letöltések, általában nem kínálunk visszatérítést, miután a ZIP kézbesítésre került és normál használatra elérhető. Ha a letöltés a mi hibánkból sikertelen, írjon a support@5svg.com címre, és ellenőrzés után felülvizsgáljuk.",
+      "q7": "Hol vannak az Adatvédelem és a Feltételek?",
+      "a7": "Adatvédelem: https://5svg.com/privacy — Feltételek: https://5svg.com/terms — Licenc: https://5svg.com/license. A linkek a láblécben is megtalálhatók.",
+      "q8": "Hogyan érhetem el az ügyfélszolgálatot?",
+      "a8": "E-mail: support@5svg.com vagy a Kapcsolat oldal. 1–2 munkanapon belül válaszolunk (számlázási ügyekben 3 munkanapon belül).",
+      "contactBefore": "A fenti és egyéb kérdésekhez használja a ",
+      "contactLink": "Kapcsolat",
+      "contactMiddle": " oldalt ezen a webhelyen, vagy írjon a következő címre: ",
+      "contactAfter": ". 1–2 munkanapon belül válaszolunk."
+    },
+    "about": {
+      "title": "A 5SVG-ről",
+      "p1": "A 5SVG ingyenes SVG logó- és ikonkönyvtár, valamint eredeti craft SVG csomagok boltja. A fizetős termékek csak digitális ZIP-ek — jellemzően $4.50 USD darabonként, egyszeri vásárlás, az árak a Csomagok oldalon.",
+      "p2": "Böngéssze a Free SVG-t bármikor, vagy nyissa meg a Csomagokat szezonális és mindennapi vágófájl-csomagokért Cricut, Silhouette, vinyl és alkotók számára. Támogatás: support@5svg.com. Jogi információk a láblécben.",
+      "logoAlt": "5SVG logó — ingyenes SVG könyvtár és craft csomagok"
+    },
+    "bannerAlt": "5SVG — Ingyenes SVG fájlok és craft SVG csomagok"
+  },
+  "ContactPage": {
+    "title": "Kapcsolat",
+    "description": "Lépjen kapcsolatba a 5SVG-vel Free SVG, csomagok, licenc vagy visszajelzés ügyében. 1–2 munkanapon belül válaszolunk.",
+    "subtitle": "Segítünk Free SVG, craft csomagok és licenckérdések esetén.",
+    "introShort": "Kérdése vagy visszajelzése van? Töltse ki az alábbi űrlapot, és hamarosan válaszolunk.",
+    "whyTitle": "Miről írhat nekünk",
+    "why1": "Free SVG könyvtár: böngészés, letöltés vagy védjegykérdések",
+    "why2": "SVG csomagok: vásárlások, letöltések vagy csomagtartalom",
+    "why3": "Licenc és kereskedelmi használat",
+    "why4": "Visszajelzés, partnerségek vagy visszaélés bejelentése",
+    "expectTitle": "Mire számíthat",
+    "expectContent": "Minden üzenetet elolvasunk, és 1–2 munkanapon belül válaszolunk. Sürgős esetben adjon meg egyértelmű tárgyat és minél több részletet.",
+    "orEmail": "Vagy írjon nekünk:",
+    "form": {
+      "title": "Üzenet küldése",
+      "description": "Kérdések a Free SVG-ről, csomagokról vagy visszajelzés? Töltse ki az űrlapot — amint tudunk, válaszolunk.",
+      "name": "Név",
+      "email": "E-mail",
+      "message": "Üzenet",
+      "namePlaceholder": "Az Ön neve",
+      "emailPlaceholder": "on@email.com",
+      "messagePlaceholder": "Üzenete vagy kérdése…",
+      "submit": "Üzenet küldése",
+      "mailtoHint": "Az e-mail alkalmazásának a support@5svg.com címre kész üzenettel kell megnyílnia."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Az Ön 5SVG letöltése — {title}",
+      "title": "A letöltése kész",
+      "body": "Köszönjük, hogy megvásárolta a következőt a 5SVG-n: {title}.",
+      "downloadButton": "ZIP letöltése",
+      "linkFallback": "Vagy másolja ezt a biztonsági letöltési linket:",
+      "note": "Ha a fájl nem töltődött le automatikusan a fizetés után, nyissa meg újra ezt a linket.",
+      "textIntro": "Köszönjük a(z) {title} megvásárlását.",
+      "textDownload": "Töltse le a ZIP-et (biztonsági link):",
+      "textSupport": "Támogatás: {email}"
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Keresés...",
+    "sortAz": "Rendezés A–Z",
+    "sortLatest": "Legújabbak",
+    "accept": "Elfogadás",
+    "logos": "logó",
+    "azIndex": "A–Z index",
+    "clearSearch": "Keresés törlése",
+    "searchResults": "keresési találat",
+    "svgs": "SVG",
+    "showAll": "Összes megjelenítése",
+    "showLess": "Kevesebb megjelenítése",
+    "showMore": "Több megjelenítése",
+    "copySvg": "SVG másolása",
+    "copyDisclaimer": "Kérjük, győződjön meg arról, hogy a készítők engedélyével rendelkezik az SVG használata előtt. Módosítás nem megengedett."
+  },
+  "HeroTabs": {
+    "brands": "Márkák",
+    "browse": "Böngészés",
+    "ai": "MI",
+    "design": "Design",
+    "social": "Közösségi",
+    "aria": "Logóelőnézetek"
+  },
+  "WarningBanner": {
+    "body": "Az SVG anyagok tájékoztató jellegűek. Ön felelős a védjegyek és a használati jogok ellenőrzéséért, mielőtt projektekben használná őket.",
+    "accept": "Elfogadás"
+  },
+  "NotFound": {
+    "title": "SVG nem található",
+    "inCategory": "„{title}” nem található a(z) „{category}” kategóriában",
+    "plain": "„{title}” nem található",
+    "searchGlobally": "Globális keresés",
+    "requestSvg": "SVG kérése",
+    "submitSvg": "SVG beküldése"
+  },
+  "LibraryPage": {
+    "title": "Ingyenes SVG könyvtár — Ikonok és márkalogók | 5SVG",
+    "description": "Böngésszen és töltsön le ingyenes SVG ikonokat és márkalogókat. Keresés, szűrés, A–Z rendezés — regisztráció nélkül.",
+    "h1": "Ingyenes SVG ikon- és logókönyvtár",
+    "lead": "Keressen ingyenes SVG ikonokat név vagy kategória szerint, majd töltsön le vektorfájlokat tervezéshez, crafts-hoz, Cricuthoz és webre.",
+    "sections": {
+      "search": {
+        "h2": "Ingyenes SVG ikonok és logók keresése",
+        "body": "Használja a keresősávot márka vagy cím szerint. Rendezzen A–Z szerint, vagy böngéssze a legújabb vektorlogókat.",
+        "h3": "Találjon ingyenes SVG-ket név, márka vagy kategória szerint"
+      },
+      "download": {
+        "h2": "SVG vektorfájlok letöltése és használata",
+        "body": "Nyisson meg bármely kártyát az SVG-kód másolásához vagy az optimalizált fájl letöltéséhez. Mentse az ikonokat a gyűjteményébe a gyors hozzáféréshez.",
+        "h3": "Másolja, töltse le vagy mentse az SVG ikonokat"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Összes SVG logó A–Z — Ingyenes index | 5SVG",
+    "description": "Az összes ingyenes SVG logó és márkaikon betűrendes indexe a 5SVG-n.",
+    "h1": "Összes SVG logó böngészése",
+    "lead": "Teljes A–Z index az ingyenes márka-SVG logókról a fő könyvtárban. Minden link részletes oldalt nyit másolással, letöltéssel és licencmegjegyzésekkel.",
+    "logosCount": "({count} logó)",
+    "backLibrary": "← Interaktív könyvtár",
+    "popularBrands": "Népszerű márkák",
+    "categories": "Kategóriák"
+  },
+  "FavoritesPage": {
+    "title": "Kedvencek",
+    "clearAll": "Összes törlése",
+    "emptyTitle": "Még nincsenek kedvencek",
+    "emptyBody": "Kezdje el SVG-ket hozzáadni a kedvencekhez a szív ikonra kattintva bármely SVG-n.",
+    "browseSvgs": "SVG-k böngészése"
+  },
+  "LegalPages": {
+    "about": {
+      "title": "A 5SVG-ről — Ingyenes SVG könyvtár és craft csomagok",
+      "description": "A 5SVG független ingyenes SVG logókönyvtár és eredeti craft SVG csomagok boltja. Csak digitális letöltések — egyértelmű árak a Csomagok oldalon.",
+      "h1": "A 5SVG-ről",
+      "sections": [
+        {
+          "h2": "Amit kínálunk",
+          "body": "A 5SVG ingyenes könyvtárat üzemeltet SVG márkalogókból és ikonokból, valamint fizetős craft SVG csomagokat értékesít egyszeri digitális ZIP letöltésként. A Free SVG ingyenes marad. A csomagok eredeti vágófájl-csomagok alkotóknak (Cricut, Silhouette, vinyl, pólók)."
+        },
+        {
+          "h2": "Amit értékesítünk",
+          "body": "A Csomagokon keresztül kizárólag digitális craft SVG csomagokat értékesítünk — jellemzően $4.50 USD darabonként, egyszer fizet, azonnali ZIP a fizetés után. Nem árulunk fizikai árut. Az aktuális csomagok és árak a Csomagok oldalon (/shop) találhatók."
+        },
+        {
+          "h2": "Kik vagyunk",
+          "body": "A 5SVG független projekt. Nem vagyunk kapcsolatban, nem támogatjuk és nem szponzoráljuk azokat a márkákat, amelyek logói az ingyenes könyvtárban megjelennek. A fizetős csomagok eredeti craft tervek, amelyeket személyes craft használatra állítunk össze vagy készítünk."
+        },
+        {
+          "h2": "Támogatás",
+          "body": "Ügyfélszolgálati e-mail: support@5svg.com. 1–2 munkanapon belül válaszolni kívánunk. Használhatja a Kapcsolat oldalt is."
+        }
+      ]
+    },
+    "license": {
+      "title": "Licencpolitika — 5SVG",
+      "description": "Hogyan használhatja a Free SVG fájlokat és a fizetős craft csomagokat a 5SVG-n, beleértve a védjegyeket és a személyes craft használatot.",
+      "h1": "Licencpolitika",
+      "sections": [
+        {
+          "h2": "Bevezetés",
+          "body": "Ez a Licencpolitika elmagyarázza, hogyan használhatja a 5SVG anyagait. Free SVG fájlok letöltésével vagy csomagok megvásárlásával elfogadja ezt a politikát, az Általános szerződési feltételeket és az Adatvédelmi irányelveket."
+        },
+        {
+          "h2": "Free SVG könyvtár",
+          "body": "A Free SVG márkalogói és ikonjai ingyenesen böngészhetők, másolhatók és letölthetők személyes projektekhez, oktatáshoz és mockupokhoz. A márkajelzések kereskedelmi használata továbbra is igényelheti a védjegytulajdonos engedélyét. A Free SVG fájlok nem kerülnek értékesítésre fizetős termékként."
+        },
+        {
+          "h2": "Fizetős csomagok (craft csomagok)",
+          "body": "A Csomagok alatt értékesített craft SVG csomagok személyes craft projektekre vannak licencelve (pl. vágás, vinyl, pólók, matricák és hasonló maker használat). A digitális ZIP-et vagy az egyes SVG fájlokat nem értékesítheti tovább, nem terjesztheti, nem oszthatja meg és nem töltheti fel újra önálló digitális termékként."
+        },
+        {
+          "h2": "Szellemi tulajdon",
+          "body": "A fizetős csomagok eredeti craft tervei a 5SVG tulajdonát képezik, vagy értékesítésre vannak nekünk licencelve. A Free SVG márkalogók és szóvédjegyek a megfelelő tulajdonosok tulajdonában maradnak. A 5SVG nem igényel tulajdonjogot a harmadik felek védjegyeire az ingyenes könyvtárban."
+        },
+        {
+          "h2": "Védjegyek",
+          "body": "A logók és szóvédjegyek a megfelelő tulajdonosok védjegyei maradnak. A 5SVG nem áll kapcsolatban ezekkel a márkákkal, és nem támogatják. Nem értékesítünk védett márkalogókat fizetős termékként."
+        },
+        {
+          "h2": "Nincs garancia",
+          "body": "A fájlok „ahogy vannak” állapotban kerülnek átadásra. Nem garantáljuk a teljességet, a jogi megfelelést az Ön konkrét használati esetére, sem azt, hogy az anyagok megegyeznek a legújabb hivatalos márkaverziókkal."
+        },
+        {
+          "h2": "Kapcsolat",
+          "body": "Kérdések ehhez a Licencpolitikához: e-mail support@5svg.com vagy a Kapcsolat oldal."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Adatvédelmi irányelvek — 5SVG",
+      "description": "Hogyan védjük adatait, amikor a 5SVG-t használja",
+      "h1": "Adatvédelmi irányelvek",
+      "sections": [
+        {
+          "h2": "Bevezetés",
+          "body": "Üdvözöljük a 5SVG Adatvédelmi irányelveiben. Ez a dokumentum elmagyarázza, hogyan gyűjtjük, használjuk és védjük személyes adatait, amikor a 5SVG webhelyet, a Free SVG könyvtárat és a craft csomagboltot használja."
+        },
+        {
+          "h2": "Milyen adatokat gyűjtünk",
+          "body": "Gyűjthetünk: (1) Ön által megadott kapcsolattartási adatokat — például a csomag checkoutnál megadott e-mailt nyugtához és letöltéskézbesítéshez, vagy Kapcsolat üzeneteket. (2) Használati adatokat — hogyan lép kapcsolatba az oldallal (pl. meglátogatott oldalak), ha az analitika be van kapcsolva. (3) Eszközadatokat — böngészőtípus vagy hozzávetőleges technikai adatok a szolgáltatás működéséhez és védelméhez. A kedvenceket helyben tárolja a böngésző; a listát nem kapjuk meg a szervereinken."
+        },
+        {
+          "h2": "Hogyan használjuk az adatokat",
+          "body": "Adatait a Free SVG könyvtár és a csomagbolt biztosítására és fenntartására; fizetős ZIP letöltések és nyugták kézbesítésére; ügyfélszolgálatra; az oldal fejlesztésére; a használat figyelésére; valamint technikai vagy visszaélés jellegű problémák észlelésére, megelőzésére és kezelésére használjuk."
+        },
+        {
+          "h2": "Fizetések",
+          "body": "A csomagok fizetéseit a fizetési szolgáltató (Creem) dolgozza fel. A kártyaadatokat a szolgáltató kezeli — teljes kártyaszámokat nem tárolunk a 5SVG szerverein."
+        },
+        {
+          "h2": "Sütik és tárolás",
+          "body": "Az oldal sütiket vagy helyi tárolást használhat a témához, nyelvhez, kedvencekhez és analitikához. Az oldal adatait bármikor törölheti a böngésző beállításaiban. Egyes sütik blokkolása korlátozhat bizonyos funkciókat."
+        },
+        {
+          "h2": "Adatbiztonság",
+          "body": "Megfelelő biztonsági intézkedéseket alkalmazunk a személyes adatok jogosulatlan hozzáférés, módosítás, nyilvánosságra hozatal vagy megsemmisítés elleni védelmére. Az interneten történő továbbítás egyik módszere sem 100%-ban biztonságos."
+        },
+        {
+          "h2": "Harmadik felek szolgáltatásai",
+          "body": "Harmadik feleket vehetünk igénybe fizetésekhez, e-mail kézbesítéshez, analitikához vagy hostinghoz. A kimenő linkek és beágyazott jelvények e webhelyek irányelvei alá tartoznak."
+        },
+        {
+          "h2": "Az irányelvek módosítása",
+          "body": "Időről időre frissíthetjük ezeket az Adatvédelmi irányelveket. A változásokról a frissített irányelvek ezen az oldalon történő közzétételével értesítjük."
+        },
+        {
+          "h2": "Kapcsolat",
+          "body": "Ha kérdése van ezekkel az Adatvédelmi irányelvekkel kapcsolatban, írjon a support@5svg.com címre, vagy használja a Kapcsolat oldalt."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Általános szerződési feltételek — 5SVG",
+      "description": "A 5SVG webhely használatának és craft SVG csomagok vásárlásának feltételei",
+      "h1": "Általános szerződési feltételek",
+      "sections": [
+        {
+          "h2": "Bevezetés",
+          "body": "Ezek az Általános szerződési feltételek („Feltételek”) szabályozzák a 5SVG webhely, a Free SVG könyvtár és a csomagbolt használatát. A 5SVG.com elérésével vagy csomag vásárlásával elfogadja ezeket a Feltételeket, az Adatvédelmi irányelveket és a Licencpolitikát. Ha nem ért egyet, ne használja az oldalt, és ne vásároljon csomagokat."
+        },
+        {
+          "h2": "A szolgáltatások használata",
+          "body": "Szolgáltatásainkat „ahogy vannak” és „ahogy elérhetők” állapotban nyújtjuk, bármilyen kifejezett vagy hallgatólagos garancia nélkül. Nem garantáljuk, hogy az oldal megszakítás nélküli, biztonságos vagy hibamentes lesz. A Free SVG fiók nélkül böngészhető. Csomagvásárláshoz érvényes e-mail szükséges a checkoutnál."
+        },
+        {
+          "h2": "Értékesített termékek",
+          "body": "A 5SVG digitális craft SVG csomagokat (eredeti vágófájlok ZIP letöltéseit) értékesít egyszeri vásárlásként. Az árak USD-ben jelennek meg minden csomagoldalon (jellemzően $4.50 csomagonként). Az ingyenes SVG logókönyvtár nem fizetős termék. Nem értékesítünk fizikai árut vagy harmadik felek márkalogó-csomagjait fizetős termékként."
+        },
+        {
+          "h2": "Árak és fizetés",
+          "body": "A csomagárak a https://5svg.com/shop oldalon és minden termékoldalon láthatók a checkout előtt. A fizetést a Creem (Merchant of Record) dolgozza fel. Ön felelős érvényes e-mail megadásáért a checkoutnál, hogy kézbesíthessük a letöltést és a nyugtát."
+        },
+        {
+          "h2": "Kézbesítés",
+          "body": "A csomagok kizárólag digitálisan kerülnek kézbesítésre. Sikeres fizetés után megkapja a ZIP-letöltést; biztonsági letöltési linket e-mailben is küldhetünk. Fizikai szállítás nincs."
+        },
+        {
+          "h2": "Szellemi tulajdon",
+          "body": "A megvásárolt csomagok személyes craft használatra vannak licencelve a Licencpolitika szerint. A ZIP-et vagy az egyes fájlokat nem értékesítheti tovább, nem terjesztheti és nem oszthatja meg önálló digitális termékként. A Free SVG márkalogók a védjegytulajdonosok jogai alá tartoznak. Az oldal tartalma, a márkaépítés és az eredeti craft tervek a vonatkozó szellemi tulajdonjogi törvények védelme alatt állnak."
+        },
+        {
+          "h2": "Tiltott tevékenységek",
+          "body": "Ön vállalja, hogy nem: használja az oldalt a vonatkozó jogszabályokat sértő módon; kísérel meg jogosulatlan hozzáférést rendszereinkhez; scrapeli vagy túlterheli a szolgáltatást a rendelkezésre állást sértő módon; terjeszt kártevőket; vagy a letöltött fájlokat e Feltételek vagy a Licencpolitika megsértésével használja."
+        },
+        {
+          "h2": "Visszatérítések",
+          "body": "Mivel a csomagok digitális letöltések, általában nem kínálunk visszatérítést, miután a ZIP kézbesítésre került és normál használatra elérhető. Ha a mi hibánkból nem tud letölteni, írjon a support@5svg.com címre ésszerű időn belül; ellenőrzés után felülvizsgáljuk, és adott esetben új letöltést vagy más megoldást biztosítunk."
+        },
+        {
+          "h2": "Felelősségkorlátozás",
+          "body": "Semmilyen esetben sem felel a 5SVG közvetett, véletlen, különleges, következményes vagy büntető jellegű károkért, amelyek az oldal vagy a letöltött fájlok használatából vagy használhatatlanságából erednek."
+        },
+        {
+          "h2": "A Feltételek módosítása",
+          "body": "Fenntartjuk a jogot e Feltételek bármikori módosítására. Változás esetén a frissített Feltételek ezen az oldalon történő közzétételével értesítjük."
+        },
+        {
+          "h2": "Kapcsolat",
+          "body": "Ha kérdése van ezekkel a Feltételekkel kapcsolatban, írjon a support@5svg.com címre, vagy használja a Kapcsolat oldalt. 1–2 munkanapon belül válaszolni kívánunk (számlázási ügyekben 3 munkanapon belül)."
+        }
+      ]
+    }
+  }
+}

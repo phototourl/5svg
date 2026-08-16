@@ -30,6 +30,7 @@ export const brand = {
   tagline:
     "For crafts, design, and everyday projects — browse, download, and save your favorites.",
   siteUrl: "https://5svg.com",
+  supportEmail: "support@5svg.com",
   githubUrl: "https://github.com/phototourl/5svg",
   githubRepoGit: "https://github.com/phototourl/5svg.git",
   showApiNav: false,

@@ -3,14 +3,25 @@
     "switchLanguage": "言語を切り替え",
     "languageSelect": {
       "title": "言語を選択",
-      "subtitle": "サイトの表示言語を選んでください。"
+      "subtitle": "サイトの表示言語を選んでください。",
+      "close": "閉じる"
     },
     "nav": {
+      "home": "ホーム",
       "freeSvg": "無料 SVG",
+      "svgBundles": "SVG パック",
+      "allFreeSvg": "すべての無料 SVG",
+      "allBundles": "すべてのパック",
+      "licensing": "ライセンスポリシー",
+      "contact": "お問い合わせ",
+      "bundles": "パック",
       "browse": "一覧",
       "favorites": "お気に入り",
+      "extensions": "拡張機能",
+      "shadcn": "shadcn/ui",
       "searchLibrary": "ライブラリを検索",
-      "openMenu": "メニューを開く"
+      "openMenu": "メニューを開く",
+      "shopNow": "ショップ"
     },
     "sidebar": {
       "categories": "カテゴリー",
@@ -19,48 +30,63 @@
       "githubRepo": "GitHub リポジトリ"
     },
     "footer": {
+      "tagline": "無料 SVG ライブラリとクラフト パック",
+      "product": "製品",
       "explore": "探索",
       "categories": "カテゴリ",
       "legal": "法的情報",
-      "supportTitle": "いつでもサポート",
-      "supportBody": "クラフト、ステッカー、Tシャツ、日常デザイン向けの無料 SVG を閲覧。ライブラリを検索してダウンロードし、お気に入りを保存できます。",
+      "supportTitle": "カスタマーサポート",
+      "supportBody": "無料 SVG や有料 パック についてご質問はメールでどうぞ。1〜2 営業日以内に返信します。",
       "exploreLibrary": "ライブラリを見る",
       "browseIndex": "A–Z インデックス",
       "home": "ホーム",
       "about": "概要",
-      "license": "ライセンス",
-      "privacy": "プライバシー",
+      "license": "ライセンスポリシー",
+      "privacy": "プライバシーポリシー",
       "design": "デザイン",
       "social": "ソーシャル",
-      "software": "ソフトウェア"
+      "software": "ソフトウェア",
+      "terms": "利用規約",
+      "company": "会社情報",
+      "licensingPolicy": "ライセンスポリシー",
+      "privacyPolicy": "プライバシーポリシー",
+      "termsOfService": "利用規約"
     },
     "announcement": {
-      "library": "無料 SVG ロゴ {count}+ 件 — ライブラリを見る",
-      "favorites": "ダウンロード · お気に入り · 個人利用無料"
-    }
+      "library": "{count}+ 無料 SVG — 無料ライブラリ を見る",
+      "favorites": "ダウンロード · お気に入り · 個人利用無料",
+      "shop": "SVG パック $4.50 から — 買い切り、即 ZIP ダウンロード"
+    },
+    "siteName": "5SVG",
+    "showAll": "すべて表示",
+    "showLess": "表示を減らす",
+    "showMore": "もっと見る",
+    "copySvg": "SVG をコピー"
   },
   "seo": {
-    "title": "5SVG — 無料 SVG ロゴ＆アイコンライブラリ",
-    "description": "無料の SVG リソースライブラリ：クラフトとデザイン向けのロゴ・アイコン。カテゴリ別に閲覧・ダウンロード・お気に入り保存。",
-    "keywords": "無料 svg, svg ダウンロード, svg ライブラリ, ロゴ svg, cricut svg, silhouette svg, canva"
+    "title": "5SVG — 無料 SVG とクラフト パック",
+    "description": "無料 SVG ライブラリと有料クラフト SVG パック。無料ライブラリ を閲覧するか、$4.50 からの ZIP パックを購入。Cricut、Silhouette、ビニール向け。",
+    "keywords": "svg bundles, craft svg, free svg, svg ダウンロード, cricut svg, silhouette svg"
   },
   "home": {
     "hero": {
-      "title": "無料 SVG ファイル・ロゴ・アイコン",
-      "subtitle": "クラフト、デザイン、日常の制作向け SVG リソースを閲覧・ダウンロード・お気に入り保存。登録不要。",
-      "marqueeAria": "ライブラリの SVG ファイルを表示"
+      "title": "無料 SVG とクラフトパック",
+      "subtitle": "無料ライブラリを見るか、オリジナルのクラフトパックを購入。デジタル ZIP は $4.50 から、買い切りですぐダウンロード。Cricut、Silhouette、ビニール、クリエイター向け。",
+      "marqueeAria": "ライブラリの SVG ファイルを表示",
+      "ctaShop": "パックを購入",
+      "ctaFree": "無料ライブラリを見る"
     },
     "value": {
-      "freeTitle": "無料で閲覧",
-      "freeDesc": "いつでもライブラリを開き、検索・カテゴリ絞り込み・SVG ダウンロードが可能。登録不要。",
-      "curatedTitle": "厳選コレクション",
-      "curatedDesc": "数百のブランドロゴとアイコンを一箇所に。クラフト、デザイン、印刷にすぐ使えます。",
-      "easyTitle": "かんたん操作",
-      "easyDesc": "ワンクリックでダウンロード、お気に入り保存。Cricut、Silhouette、Canva などに対応。"
+      "freeTitle": "即時デジタル配信",
+      "freeDesc": "パック購入後すぐに ZIP をダウンロード — 配送なし。無料ライブラリは無料のまま。",
+      "curatedTitle": "クラフトパック $4.50 から",
+      "curatedDesc": "オリジナルカットファイル。各商品に USD 価格。買い切りで個人クラフト向け。",
+      "easyTitle": "カスタマーサポート",
+      "easyDesc": "無料ライブラリ・パック・ライセンスは support@5svg.com またはお問い合わせ — 通常 1～2 営業日で返信。"
     },
     "craft": {
       "title": "日常のクリエイター向け",
-      "subtitle": "Cricut、Silhouette、Canva、Tシャツ、ステッカーなどに使えるロゴとアイコン。",
+      "subtitle": "無料ライブラリ ロゴや パック ファイルを Cricut、Silhouette、Canva、Tシャツ、ステッカーなどに。",
       "cutting": "カッティング",
       "stickers": "ステッカー",
       "gifts": "ギフト・パーティ",
@@ -78,19 +104,19 @@
     },
     "how": {
       "tag": "使い方",
-      "title": "閲覧・ダウンロード・保存",
-      "subtitle": "3 ステップでダウンロード — アカウント不要。",
-      "searchTitle": "検索または閲覧",
-      "searchDesc": "ライブラリを開き、カテゴリを選ぶか名前で検索。フィルターで素早く絞り込み。",
-      "downloadTitle": "SVG をダウンロード",
-      "downloadDesc": "SVG コードをコピーまたはファイルを保存し、デザインアプリやカッティングマシンに取り込み。",
-      "favoritesTitle": "お気に入り保存",
-      "favoritesDesc": "よく使うものにハートを付けて、いつでも再訪 — 一覧はこの端末に保存されます。"
+      "title": "無料ライブラリかパック購入",
+      "subtitle": "無料ライブラリはいつでも — またはショップでパックを購入し ZIP をダウンロード。",
+      "searchTitle": "無料ライブラリを見る",
+      "searchDesc": "無料ライブラリを開き、カテゴリ選択または検索 — アカウント不要でダウンロード。",
+      "downloadTitle": "パックを購入",
+      "downloadDesc": "ショップでパックを選び、USD 価格を支払い ZIP を取得。",
+      "favoritesTitle": "保存して再利用",
+      "favoritesDesc": "無料ライブラリをお気に入り保存、または購入パックを保管。"
     },
     "seoIntro": {
-      "tag": "SVG について",
-      "title": "クラフト・デザイン・日常プロジェクト向けの無料 SVG・ロゴ・アイコン",
-      "description": "5SVG は SVG アイコンとブランドロゴの無料オンラインライブラリです。SVG の基礎、活用例、閲覧・ダウンロード方法を紹介 — アカウント不要。"
+      "tag": "SVG ショップ＆ライブラリ",
+      "title": "無料 SVG と有料クラフト パック",
+      "description": "5SVG はオリジナルクラフト SVG パック（ZIP、通常 $4.50）を販売し、無料ライブラリ を提供。Cricut、Silhouette、ビニール向け。"
     },
     "seoBlocks": {
       "whatTag": "基礎",
@@ -113,23 +139,202 @@
       "getBody": "ライブラリはすべて無料で閲覧可能。メニューから開き、名前またはカテゴリで検索し、SVG をコピーまたはダウンロード。",
       "getB1": "閲覧・検索 — 登録不要",
       "getB2": "ロゴをクリックして SVG をコピーまたはダウンロード",
-      "getB3": "ハートでこの端末にお気に入り保存",
+      "getB3": "一度お支払い後、ZIP をダウンロード",
       "getB4": "商用利用前に各ブランドの公式ガイドを確認",
       "getAlt": "5SVG — 全デバイスで最速のベクター検索"
     },
+    "bannerAlt": "5SVG — 無料 SVG とクラフト パック",
     "faq": {
       "title": "よくある質問",
-      "subtitle": "SVG の基礎、ダウンロード、ライブラリの使い方。",
-      "lead": "5SVG は素早い閲覧のためのサイト：数千のロゴを検索し、ファイルを開いてワンクリックで SVG をダウンロードまたはコピー。すべて無料 — アカウント・ペイウォールなし。",
-      "q1": "5SVG の SVG は無料ですか？",
-      "a1": "はい。閲覧・検索・ダウンロードは無料です。ロゴと商標は権利者に帰属 — 個人・教育・モックアップ用途で責任を持ってご利用ください。",
-      "q2": "SVG と PNG の違いは？",
-      "a2": "PNG はピクセルベースで拡大するとぼやけます。SVG はベクターで任意サイズでも鮮明 — ロゴ・アイコン・カッティングマシンに最適。",
-      "q3": "Cricut や Silhouette で使えますか？",
-      "a3": "はい。SVG をダウンロードし、Cricut Design Space、Silhouette Studio などベクター対応アプリに取り込めます。",
-      "q4": "アカウントは必要ですか？",
-      "a4": "いいえ。登録なしで閲覧・ダウンロード可能。お気に入りはこのブラウザにローカル保存されます。"
+      "subtitle": "販売内容、価格、配信、返金、サポートについて。",
+      "lead": "5SVG はデジタル クラフト SVG パック（ZIP）を パック ページで USD 価格表示して販売します。無料ライブラリ は無料のままです。決済は Creem が処理します。",
+      "q1": "何を販売していますか？",
+      "a1": "オリジナルのクラフト SVG パック — メーカー向けカットファイルの ZIP です。実物商品は扱いません。無料ライブラリ のブランドロゴは無料で、有料販売しません。",
+      "q2": "パック の価格は？",
+      "a2": "通常 $4.50 USD の一回購入です。正確な価格は https://5svg.com/shop と各商品ページに表示されます。",
+      "q3": "どのように届きますか？",
+      "a3": "完全デジタル、支払い成功後すぐに利用可能。配送はありません。レシート用に有効なメールを入力してください。",
+      "q4": "アカウントやソフトのインストールは必要ですか？",
+      "a4": "不要です。登録なしで 無料ライブラリ と パック を利用できます。お気に入りはブラウザに保存。Cricut / Silhouette / Canva などに読み込んでください。",
+      "q5": "ライセンスは？",
+      "a5": "個人クラフトライセンスです。ZIP や個別ファイルの再販・再配布は不可。無料ライブラリ ロゴは各権利者の商標です。ライセンスと利用規約をご確認ください。",
+      "q6": "返金できますか？",
+      "a6": "デジタル配信のため、ZIP 提供後の通常利用では原則返金しません。当方都合でダウンロードできない場合は support@5svg.com へ。",
+      "q7": "プライバシーと利用規約はどこ？",
+      "a7": "プライバシー：https://5svg.com/privacy — 利用規約：https://5svg.com/terms — ライセンス：https://5svg.com/license。フッターにもあります。",
+      "q8": "サポートへの連絡は？",
+      "a8": "support@5svg.com またはお問い合わせページ。1〜2 営業日以内（請求関連は 3 営業日以内）に返信します。",
+      "contactBefore": "上記やその他のご質問は、本サイトの ",
+      "contactLink": "お問い合わせ",
+      "contactMiddle": " ページ、または ",
+      "contactAfter": " まで。1〜2 営業日以内に返信します。"
     },
-    "bannerAlt": "5SVG — 無料 SVG ファイル・ロゴ・アイコン"
+    "about": {
+      "title": "5SVG について",
+      "p1": "5SVG は無料 SVG ロゴライブラリと、オリジナル クラフト SVG パック のショップです。有料商品はデジタル ZIP のみ — 通常 $4.50 USD の一回購入です。",
+      "p2": "無料ライブラリ をいつでも閲覧するか、パック でカットパックを購入できます。サポート：support@5svg.com。法的ページはフッターにあります。",
+      "logoAlt": "5SVG ロゴ — 無料 SVG ライブラリとクラフト パック"
+    },
+    "shopStrip": {
+      "title": "販売中の SVG パック",
+      "subtitle": "オリジナルクラフトパック — 各 $4.50、買い切り、即 ZIP。",
+      "viewAll": "すべてのパック →",
+      "fromPrice": "{price}"
+    }
+  },
+  "shop": {
+    "seoTitle": "SVG パック — 料金とクラフトパック | 5SVG",
+    "seoDescription": "オリジナルのクラフト SVG パック を各 $4.50 USD — 一回払い、即時 ZIP。ブランドロゴはライブラリで無料のままです。",
+    "promo": "テーマパック各 $4.50 · コンプリートセット $9.90。一度の支払いですぐにZIP。",
+    "title": "SVG パック",
+    "subtitle": "テーマごとに1パック買うか、一度の購入ですべてのパックを利用。ブランドロゴは無料ライブラリのまま。",
+    "allCategories": "すべて",
+    "viewPack": "見る",
+    "wholeShopBadge": "お得",
+    "wholeShopSection": "コンプリートセット",
+    "wholeShopTitle": "コンプリートセット",
+    "wholeShopLead": "全テーマのクラフトSVG {count}点。一度の購入ですべてのパックを利用できます。",
+    "wholeShopCta": "購入する",
+    "themePacksHeading": "テーマパック",
+    "themePacksLead": "各パックは $4.50 の買い切りデジタル商品で、約20–24点のオリジナルクラフトカットファイル（ZIP）を含みます。ブランドロゴは無料ライブラリのままです。",
+    "empty": "このカテゴリにパックはまだありません。",
+    "fileCount": "{count} ファイル",
+    "moreFiles": "ほか {count} 件",
+    "freeHint": "無料のブランドロゴが必要ですか？",
+    "freeLibraryLink": "無料ライブラリ を開く →",
+    "backToShop": "すべての パック",
+    "emailLabel": "領収書とダウンロード用メール",
+    "mockNotice": "テスト決済（Creem 未接続）。",
+    "buyDownload": "購入してダウンロード",
+    "processing": "リダイレクト中…",
+    "checkoutError": "決済に失敗しました。もう一度お試しください。",
+    "flowHint": "一度のお支払いで ZIP をすぐダウンロード。領収書はメールで届きます。",
+    "payOverlayTitle": "お支払いを確認中…",
+    "payOverlayBody": "購入内容を確認しています。しばらくお待ちください。",
+    "prepareOverlayTitle": "ダウンロードを準備中…",
+    "prepareOverlayBody": "ZIP はまもなく開始します。",
+    "downloadTitle": "ダウンロード",
+    "downloadMissing": "決済の戻り情報が不足しています。パック からやり直してください。",
+    "downloadFailed": "支払いを確認できませんでした。",
+    "downloadSyncing": "支払いを確認しています…",
+    "downloadReady": "準備完了：{title}",
+    "downloadZip": "ZIP をダウンロード",
+    "downloadEmailHint": "ご入力のメールアドレスにもバックアップ用ダウンロードリンクを送信しました。",
+    "includesSample": "内容（サンプル）",
+    "browseCategory": "このカテゴリを見る →",
+    "license": {
+      "personal": "個人利用",
+      "commercial": "商用クラフトライセンス"
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "5SVG ダウンロード — {title}",
+      "title": "ダウンロードの準備ができました",
+      "body": "5SVG で {title} をご購入いただきありがとうございます。",
+      "downloadButton": "ZIP をダウンロード",
+      "linkFallback": "または、このバックアップ用リンクをコピーしてください：",
+      "note": "お支払い後に自動ダウンロードされなかった場合は、このリンクを再度開いてください。",
+      "textIntro": "{title} のご購入ありがとうございます。",
+      "textDownload": "ZIP をダウンロード（バックアップリンク）：",
+      "textSupport": "サポート：{email}"
+    }
+  },
+  "ContactPage": {
+    "title": "お問い合わせ",
+    "description": "無料ライブラリ、パック、ライセンス、フィードバックについて 5SVG へご連絡ください。通常 1～2 営業日で返信します。",
+    "subtitle": "無料ライブラリ、クラフトパック、ライセンスのご質問に対応します。",
+    "introShort": "ご質問やご意見は、下のフォームからお送りください。できるだけ早く返信します。",
+    "whyTitle": "お問い合わせ内容の例",
+    "why1": "無料ライブラリ：閲覧・ダウンロード・商標関連",
+    "why2": "SVG パック：購入・ダウンロード・パック内容",
+    "why3": "ライセンスと商用利用",
+    "why4": "フィードバック、提携、不正利用の報告",
+    "expectTitle": "返信について",
+    "expectContent": "すべてのメッセージを確認し、通常 1～2 営業日で返信します。緊急の場合は件名を明確にし、できるだけ詳しくご記入ください。",
+    "orEmail": "またはメールで",
+    "form": {
+      "title": "メッセージを送信",
+      "description": "無料ライブラリ、パック、フィードバックについてフォームにご記入ください。できるだけ早く返信します。",
+      "name": "お名前",
+      "email": "メール",
+      "message": "メッセージ",
+      "namePlaceholder": "お名前",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "ご質問やご意見を入力…",
+      "submit": "メッセージを送信",
+      "mailtoHint": "メールアプリが開き、support@5svg.com 宛の下書きが表示されます。"
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "検索...",
+    "sortAz": "A–Z で並べ替え",
+    "sortLatest": "新しい順",
+    "accept": "同意する",
+    "logos": "件のロゴ",
+    "azIndex": "A–Z 索引",
+    "clearSearch": "検索をクリア",
+    "searchResults": "件の結果",
+    "svgs": "件の SVG",
+    "showAll": "すべて表示",
+    "showLess": "表示を減らす",
+    "showMore": "もっと見る",
+    "copySvg": "SVG をコピー",
+    "copyDisclaimer": "SVGを使用する前に、制作者の許可を得ていることを確認してください。改変は許可されていません。"
+  },
+  "HeroTabs": {
+    "brands": "ブランド",
+    "browse": "閲覧",
+    "ai": "AI",
+    "design": "デザイン",
+    "social": "ソーシャル",
+    "aria": "ロゴプレビュー"
+  },
+  "WarningBanner": {
+    "body": "SVG は参考用です。プロジェクトで使う前に商標と利用権限を確認してください。",
+    "accept": "同意する"
+  },
+  "NotFound": {
+    "title": "SVG が見つかりません",
+    "inCategory": "「{category}」に「{title}」はありません",
+    "plain": "「{title}」が見つかりません",
+    "searchGlobally": "全体を検索",
+    "requestSvg": "SVG をリクエスト",
+    "submitSvg": "SVG を投稿"
+  },
+  "LibraryPage": {
+    "title": "無料 SVG ライブラリ — アイコン＆ロゴ | 5SVG",
+    "description": "無料の SVG アイコンとブランドロゴを閲覧・ダウンロード。名前検索、カテゴリ、A–Z — 登録不要。",
+    "h1": "無料 SVG アイコン＆ロゴライブラリ",
+    "lead": "名前やカテゴリで無料 SVG を検索し、デザイン・クラフト・Cricut・Web 用のベクターをダウンロード。",
+    "sections": {
+      "search": {
+        "h2": "無料 SVG アイコンとロゴを検索",
+        "body": "ブランド名やタイトルで検索。A–Z 並べ替えや新着ロゴの閲覧も可能。",
+        "h3": "名前・ブランド・カテゴリで無料 SVG を見つける"
+      },
+      "download": {
+        "h2": "SVG ファイルをダウンロードして使う",
+        "body": "カードを開いて SVG をコピーまたはダウンロード。お気に入りに保存できます。",
+        "h3": "SVG アイコンをコピー、ダウンロード、保存"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "すべての SVG ロゴを A–Z で閲覧 | 5SVG",
+    "description": "5SVG の無料 SVG ロゴ／アイコンの五十音・アルファベット索引。",
+    "h1": "すべての SVG ロゴを閲覧",
+    "lead": "無料ブランドロゴ SVG の完全 A–Z 索引。各リンクは詳細ページを開きます。",
+    "logosCount": "（{count} 件）",
+    "backLibrary": "← インタラクティブライブラリ",
+    "popularBrands": "人気ブランド",
+    "categories": "カテゴリ"
+  },
+  "FavoritesPage": {
+    "title": "お気に入り",
+    "clearAll": "すべて削除",
+    "emptyTitle": "まだお気に入りがありません",
+    "emptyBody": "ハートアイコンをクリックして SVG をお気に入りに追加できます。",
+    "browseSvgs": "SVG を見る"
   }
 }

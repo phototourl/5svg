@@ -22,6 +22,10 @@
   import * as Tabs from "@/components/ui/tabs";
   import { Button, buttonVariants } from "@/components/ui/button";
   import * as Popover from "@/components/ui/popover";
+  import InternalLink from "@/components/ui/links/internal-link.svelte";
+  import { isLibrarySvgFree, getPackSlugForSvg } from "@/lib/shop";
+  import LockIcon from "@lucide/svelte/icons/lock";
+  import { getI18n } from "@/lib/i18n/context";
 
   // CLIs:
   import CopyShadcnCommand from "@/components/svgs/copyShadcnCommand.svelte";
@@ -60,6 +64,11 @@
     isWordmarkSvg = false,
     svgInfo,
   }: Props = $props();
+
+  const i18n = $derived(getI18n());
+
+  const isFree = $derived(isLibrarySvgFree(svgInfo));
+  const packSlug = $derived(getPackSlugForSvg(svgInfo));
 
   // States:
   let optionsOpen = $state<boolean>(false);
@@ -379,6 +388,21 @@
   };
 </script>
 
+{#if !isFree}
+  <InternalLink
+    href={packSlug ? `/shop/${packSlug}` : "/shop"}
+    className={cn(
+      buttonVariants({
+        variant: "ghost",
+        size: "icon",
+        class: "hover:bg-neutral-200",
+      }),
+    )}
+    title="Unlock category pack"
+  >
+    <LockIcon {size} strokeWidth={iconStroke} />
+  </InternalLink>
+{:else}
 <Popover.Root bind:open={optionsOpen}>
   <Popover.Trigger
     title="Copy SVG element as svg file, React TSX code, or React JSX code"
@@ -446,7 +470,7 @@
             onclick={() => copyToClipboard()}
           >
             <ClipboardIcon size={16} strokeWidth={2} />
-            <span>Copy SVG</span>
+            <span>{i18n.t("Ui.copySvg")}</span>
           </Button>
         </section>
       </Tabs.Content>
@@ -588,16 +612,16 @@
         onclick={() => copyToClipboard()}
       >
         <ClipboardIcon size={16} strokeWidth={2} />
-        <span>Copy SVG</span>
+        <span>{i18n.t("Ui.copySvg")}</span>
       </Button>
     {/if}
     <div
       class="mt-1 flex w-full items-center text-center text-[12px] text-neutral-600 dark:text-neutral-400"
     >
       <p>
-        Please ensure you have permission from the creators before using the
-        SVG. Modifications are not permitted.
+        {i18n.t("Ui.copyDisclaimer")}
       </p>
     </div>
   </Popover.Content>
 </Popover.Root>
+{/if}

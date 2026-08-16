@@ -1,0 +1,494 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Taal wijzigen",
+    "languageSelect": {
+      "title": "Selecteer je taal",
+      "subtitle": "Kies een taal voor de site-interface.",
+      "close": "Sluiten"
+    },
+    "nav": {
+      "home": "Home",
+      "freeSvg": "Gratis SVG",
+      "svgBundles": "SVG-packs",
+      "shopNow": "Shop",
+      "allFreeSvg": "Alle gratis SVG’s",
+      "allBundles": "Alle packs",
+      "licensing": "Licentiebeleid",
+      "contact": "Contact",
+      "bundles": "Packs",
+      "browse": "Bladeren",
+      "favorites": "Favorieten",
+      "extensions": "Extensies",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Bibliotheek doorzoeken",
+      "openMenu": "Menu openen"
+    },
+    "sidebar": {
+      "categories": "Categorieën",
+      "allLogosAz": "Alle logo’s A–Z",
+      "submitSvg": "SVG indienen",
+      "githubRepo": "GitHub-repository"
+    },
+    "footer": {
+      "tagline": "Gratis SVG-bibliotheek en craft Bundles voor makers",
+      "product": "Product",
+      "explore": "Ontdekken",
+      "categories": "Categorieën",
+      "company": "Bedrijf",
+      "legal": "Juridisch",
+      "supportTitle": "Klantenservice",
+      "supportBody": "Vragen over gratis SVG of betaalde Bundles? Mail ons — we reageren binnen 1–2 werkdagen.",
+      "exploreLibrary": "Bibliotheek verkennen",
+      "browseIndex": "A–Z-index",
+      "home": "Home",
+      "about": "Over ons",
+      "license": "Licentiebeleid",
+      "licensingPolicy": "Licentiebeleid",
+      "privacy": "Privacybeleid",
+      "privacyPolicy": "Privacybeleid",
+      "terms": "Servicevoorwaarden",
+      "termsOfService": "Servicevoorwaarden",
+      "design": "Design",
+      "social": "Social",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ gratis SVG-bestanden — blader door Free SVG",
+      "favorites": "Download · favorieten opslaan · gratis voor persoonlijk gebruik",
+      "shop": "SVG Bundles vanaf $4.50 — eenmalig betalen, direct ZIP-download"
+    },
+    "showAll": "Alles tonen",
+    "showLess": "Minder tonen",
+    "showMore": "Meer tonen",
+    "copySvg": "SVG kopiëren"
+  },
+  "shop": {
+    "seoTitle": "SVG Bundles — Prijzen & craft packs | 5SVG",
+    "seoDescription": "Koop originele craft SVG Bundles voor $4.50 USD per stuk — eenmalige aankoop, directe ZIP-download. Gratis merklogo’s blijven gratis in de bibliotheek.",
+    "promo": "Themapacks $4.50 · Complete collectie $9.90. Eenmaal betalen, ZIP meteen.",
+    "title": "SVG-packs",
+    "subtitle": "Koop een themapack, of ontgrendel alle packs in één aankoop. Merklogo’s blijven gratis in de bibliotheek.",
+    "allCategories": "Alles",
+    "viewPack": "Bekijken",
+    "wholeShopBadge": "Beste deal",
+    "wholeShopSection": "Complete collectie",
+    "wholeShopTitle": "Complete collectie",
+    "wholeShopLead": "{count} craft-SVGs uit elk thema. Eén aankoop ontgrendelt alle packs.",
+    "wholeShopCta": "Nu kopen",
+    "themePacksHeading": "Themapacks",
+    "themePacksLead": "Elk pack is een eenmalige digitale aankoop voor $4.50, met ongeveer 20–24 originele craft-snijbestanden (ZIP). Merklogo’s blijven gratis in de bibliotheek.",
+    "empty": "Nog geen packs in deze categorie.",
+    "fileCount": "{count} bestanden",
+    "moreFiles": "+{count} meer",
+    "freeHint": "Gratis merklogo’s nodig?",
+    "freeLibraryLink": "Gratis bibliotheek openen →",
+    "backToShop": "Alle bundels",
+    "emailLabel": "E-mail voor bon & download",
+    "mockNotice": "Mock-checkout (Creem nog niet gekoppeld).",
+    "buyDownload": "Kopen & downloaden",
+    "processing": "Doorsturen…",
+    "checkoutError": "Checkout mislukt. Probeer opnieuw.",
+    "flowHint": "Betaal eenmaal voor directe ZIP-download. Bon per e-mail.",
+    "payOverlayTitle": "Betaling bevestigen…",
+    "payOverlayBody": "Even geduld terwijl we je aankoop verifiëren.",
+    "prepareOverlayTitle": "Download voorbereiden…",
+    "prepareOverlayBody": "Je ZIP start zo.",
+    "downloadTitle": "Jouw download",
+    "downloadMissing": "Ontbrekende betaalretourinfo. Begin opnieuw via Bundles.",
+    "downloadFailed": "Betaling kon niet worden bevestigd.",
+    "downloadSyncing": "Betaling bevestigen…",
+    "downloadReady": "Klaar: {title}",
+    "downloadZip": "ZIP downloaden",
+    "downloadEmailHint": "Er is ook een back-updownloadlink naar het opgegeven e-mailadres gestuurd.",
+    "includesSample": "Inbegrepen (voorbeeld)",
+    "browseCategory": "Deze categorie bekijken →",
+    "license": {
+      "personal": "Persoonlijk gebruik",
+      "commercial": "Commerciële craft-licentie"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Gratis SVG-bestanden & craft SVG Bundles",
+    "description": "Gratis SVG-logobibliotheek plus betaalde craft SVG Bundles voor makers. Blader wanneer je wilt door Free SVG, of koop originele ZIP-packs vanaf $4.50 voor Cricut, Silhouette, vinyl en crafts.",
+    "keywords": "svg bundles, craft svg, gratis svg bestanden, svg download, cricut svg, silhouette svg, betaalde svg packs, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Gratis SVG-bestanden & craft packs",
+      "subtitle": "Blader door onze gratis bibliotheek, of koop originele craft packs — digitale ZIP-packs vanaf $4.50, eenmalig betalen, direct downloaden. Voor Cricut, Silhouette, vinyl en makers.",
+      "ctaShop": "Packs kopen",
+      "ctaFree": "Gratis bibliotheek",
+      "marqueeAria": "SVG-bestanden in de bibliotheek bekijken"
+    },
+    "value": {
+      "freeTitle": "Directe digitale levering",
+      "freeDesc": "Koop een pack en download je ZIP meteen na betaling — geen verzending, geen wachten. De gratis bibliotheek blijft gratis.",
+      "curatedTitle": "Craft packs vanaf $4.50",
+      "curatedDesc": "Originele snijbestandpacks met duidelijke USD-prijs op elk product. Eenmalige aankoop — bewaar de bestanden voor persoonlijk craftgebruik.",
+      "easyTitle": "Klantenservice",
+      "easyDesc": "Vragen over de gratis bibliotheek, packs of licenties? Mail support@5svg.com of gebruik Contact — we reageren binnen 1–2 werkdagen."
+    },
+    "shopStrip": {
+      "title": "SVG-packs te koop",
+      "subtitle": "Originele craft SVG-packs — $4.50 per stuk, eenmalig betalen, directe ZIP-download.",
+      "viewAll": "Alle packs bekijken →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Gemaakt voor alledaagse makers",
+      "subtitle": "Gebruik Free SVG-logo’s of Bundle-snijbestanden in Cricut, Silhouette, Canva, shirts, stickers en meer.",
+      "cutting": "Snijcrafts",
+      "stickers": "Stickers & decals",
+      "gifts": "Cadeaus & feest",
+      "labels": "Labels & tags",
+      "print": "Print & foto",
+      "personal": "Persoonlijke projecten",
+      "iconAlt": "{label} craft-pictogram"
+    },
+    "library": {
+      "title": "Wat zit er in de bibliotheek",
+      "subtitle": "{count}+ SVG-bestanden gegroepeerd per thema — gebruik het headermenu wanneer je wilt bladeren of downloaden.",
+      "browseTitle": "Blader door {name}-SVG’s",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG’s"
+    },
+    "how": {
+      "tag": "Hoe het werkt",
+      "title": "Gratis bibliotheek of packs kopen",
+      "subtitle": "Blader wanneer je wilt door de gratis bibliotheek — of open Packs om een craft pack te kopen en na betaling je ZIP te downloaden.",
+      "searchTitle": "Gratis bibliotheek bekijken",
+      "searchDesc": "Open de gratis bibliotheek, kies een categorie of zoek op naam — download logo’s zonder account.",
+      "downloadTitle": "Een pack kopen",
+      "downloadDesc": "Kies een craft pack op Packs, betaal eenmaal tegen de vermelde USD-prijs en download je ZIP.",
+      "favoritesTitle": "Opslaan & hergebruiken",
+      "favoritesDesc": "Hart favorieten uit de gratis bibliotheek op dit apparaat, of bewaar gekochte pack-bestanden voor je craftprojecten."
+    },
+    "seoIntro": {
+      "tag": "SVG-shop & bibliotheek",
+      "title": "Gratis SVG-bestanden en betaalde craft Bundles voor makers",
+      "description": "5SVG verkoopt originele craft SVG Bundles als digitale ZIP-downloads (meestal $4.50 per stuk) en host een gratis merklogo-bibliotheek. Blader wanneer je wilt door Free SVG, of shop Bundles voor Cricut, Silhouette, vinyl en alledaagse crafts."
+    },
+    "seoBlocks": {
+      "whatTag": "Basis",
+      "whatTitle": "Wat is een SVG-bestand?",
+      "whatBody": "SVG (Scalable Vector Graphics) slaat vormen en paden op als wiskunde in plaats van pixels. Logo’s en iconen blijven scherp of je ze nu verkleint voor een sticker of vergroot voor een poster.",
+      "whatB1": "Schaalbaar naar elke grootte zonder wazig te worden",
+      "whatB2": "Gangbaar formaat voor logo’s, iconen en eenvoudige illustraties",
+      "whatB3": "Ondersteund door browsers, ontwerpsoftware en vinylsnijders",
+      "whatAlt": "5SVG — miljoenen hoogwaardige SVG-vectoren en categorieën",
+      "usesTag": "Toepassingen",
+      "usesTitle": "Wat kun je met SVG-bestanden doen?",
+      "usesBody": "SVG’s zijn een praktisch startpunt voor persoonlijke projecten — mockups, design leren, feestcrafts en makerworkflows waar je een schone, schaalbare vector nodig hebt.",
+      "usesB1": "Snijd vinyldecals met Cricut of Silhouette",
+      "usesB2": "Zet iconen in Canva, Figma of PowerPoint",
+      "usesB3": "Print thuis shirts, tags en feestversiering",
+      "usesB4": "Maak moodboards en schoolprojecten met echte merklogo’s",
+      "usesAlt": "5SVG — ontwerp, bouw en presenteer met UI-kits en app-iconen",
+      "getTag": "Bestanden ophalen",
+      "getTitle": "Zo krijg je SVG-bestanden van 5SVG",
+      "getBody": "Blader wanneer je wilt door Free SVG — zoek of kies een categorie, kopieer of download daarna. Voor craft packs open je Bundles, kies je een product tegen de vermelde USD-prijs en download je na betaling je ZIP.",
+      "getB1": "Blader door Free SVG — geen account nodig",
+      "getB2": "Of shop Bundles voor originele craft ZIP-packs",
+      "getB3": "Betaal eenmaal, download daarna je ZIP",
+      "getB4": "Check License & Terms vóór commercieel craftgebruik",
+      "getAlt": "5SVG — snelste vectorzoeken op elk apparaat"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Wat we verkopen, prijzen, levering, restituties en support.",
+      "lead": "5SVG verkoopt digitale craft SVG Bundles (ZIP-downloads) tegen duidelijke USD-prijzen op onze Bundles-pagina. De Free SVG-logobibliotheek blijft gratis. Betalingen worden verwerkt door Creem.",
+      "q1": "Wat verkopen jullie?",
+      "a1": "We verkopen originele craft SVG Bundles — digitale ZIP-packs met snijbestanden voor makers (Cricut, Silhouette, vinyl, shirts). We verkopen geen fysieke goederen. Gratis merklogo’s in Free SVG zijn gratis en worden niet als betaalde producten verkocht.",
+      "q2": "Wat kost een Bundle?",
+      "a2": "Elke craft Bundle kost meestal $4.50 USD als eenmalige aankoop. Exacte prijzen staan op https://5svg.com/shop en op elke productpagina vóór betaling.",
+      "q3": "Hoe wordt het product geleverd?",
+      "a3": "Levering is 100% digitaal en direct na geslaagde betaling. Geen verzending. Gebruik een geldig e-mailadres bij checkout voor je bon.",
+      "q4": "Heb ik een account of software-installatie nodig?",
+      "a4": "Geen account nodig om Free SVG te bekijken of Bundles te kopen. Favorieten blijven in je browser. Importeer SVG’s in Cricut Design Space, Silhouette Studio, Canva of elke vector-app — niets van ons te installeren.",
+      "q5": "Welke licentie krijg ik?",
+      "a5": "Bundles bevatten een persoonlijke craft-licentie. Je mag de ZIP of losse bestanden niet doorverkopen of herverdelen. Free SVG-logo’s blijven merken van hun eigenaren — check merkinrichtlijnen vóór commercieel gebruik. Zie onze License- en Terms of Service-pagina’s.",
+      "q6": "Kan ik restitutie krijgen?",
+      "a6": "Omdat Bundles digitale downloads zijn, bieden we doorgaans geen restitutie zodra de ZIP is geleverd en normaal beschikbaar blijft. Faalt de download door een probleem aan onze kant, mail dan support@5svg.com; we beoordelen na verificatie.",
+      "q7": "Waar vind ik Privacy Policy en Terms of Service?",
+      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Links staan ook in de sitefooter.",
+      "q8": "Hoe bereik ik support?",
+      "a8": "Mail support@5svg.com of gebruik de Contact-pagina. We reageren binnen 1–2 werkdagen (binnen 3 werkdagen bij factureringsvragen).",
+      "contactBefore": "Voor bovenstaande en andere vragen gebruik je de ",
+      "contactLink": "Contact",
+      "contactMiddle": "-pagina op deze site of mail ",
+      "contactAfter": ". We reageren binnen 1–2 werkdagen."
+    },
+    "about": {
+      "title": "Over 5SVG",
+      "p1": "5SVG is een gratis SVG-logo- en icoonbibliotheek plus een shop voor originele craft SVG Bundles. Betaalde producten zijn alleen digitale ZIP-downloads — meestal $4.50 USD per stuk, eenmalige aankoop, met prijzen op de Bundles-pagina.",
+      "p2": "Blader wanneer je wilt door Free SVG, of open Bundles voor seizoens- en alledaagse snijbestandpacks voor Cricut, Silhouette, vinyl en makers. Support: support@5svg.com. Juridisch: Privacy Policy, Terms of Service en License in de footer.",
+      "logoAlt": "5SVG gratis SVG-logobibliotheek en craft Bundles-logo"
+    },
+    "bannerAlt": "5SVG — Gratis SVG-bestanden & craft SVG Bundles"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Neem contact op met 5SVG over Free SVG, Bundles, licenties of feedback. We reageren binnen 1–2 werkdagen.",
+    "subtitle": "We helpen graag met Free SVG, craft Bundles en licentievragen.",
+    "introShort": "Vraag of feedback? Vul het formulier hieronder in en we reageren snel.",
+    "whyTitle": "Waarover je ons kunt mailen",
+    "why1": "Free SVG-bibliotheek: bladeren, downloaden of merkvragen",
+    "why2": "SVG Bundles: aankopen, downloads of packinhoud",
+    "why3": "Licenties en commercieel gebruik",
+    "why4": "Feedback, partnerships of misbruik melden",
+    "expectTitle": "Wat je kunt verwachten",
+    "expectContent": "We lezen elk bericht en reageren binnen 1–2 werkdagen. Bij spoed: duidelijke onderwerpregel en zoveel mogelijk detail.",
+    "orEmail": "Of mail ons op",
+    "form": {
+      "title": "Stuur een bericht",
+      "description": "Vragen over Free SVG, Bundles of feedback? Vul het formulier in en we antwoorden zo snel mogelijk.",
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "namePlaceholder": "Jouw naam",
+      "emailPlaceholder": "jouw@email.com",
+      "messagePlaceholder": "Jouw bericht of vraag...",
+      "submit": "Bericht versturen",
+      "mailtoHint": "Je e-mailapp zou moeten openen met het bericht klaar voor support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Jouw 5SVG-download — {title}",
+      "title": "Je download is klaar",
+      "body": "Bedankt voor je aankoop van {title} op 5SVG.",
+      "downloadButton": "ZIP downloaden",
+      "linkFallback": "Of kopieer deze back-updownloadlink:",
+      "note": "Als het bestand na betaling niet automatisch downloadde, open deze link opnieuw.",
+      "textIntro": "Bedankt voor je aankoop van {title}.",
+      "textDownload": "Download je ZIP (back-uplink):",
+      "textSupport": "Support: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Over 5SVG — Gratis SVG-bibliotheek & craft Bundles",
+      "description": "5SVG is een onafhankelijke gratis SVG-logobibliotheek en een shop voor originele craft SVG Bundles. Alleen digitale downloads — duidelijke prijzen op onze Bundles-pagina.",
+      "h1": "Over 5SVG",
+      "sections": [
+        {
+          "h2": "Wat we bieden",
+          "body": "5SVG host een gratis bibliotheek van SVG-merklogo’s en -iconen, plus betaalde craft SVG Bundles als eenmalige digitale ZIP-downloads. Free SVG blijft gratis. Bundles zijn originele snijbestandpacks voor makers (Cricut, Silhouette, vinyl, shirts)."
+        },
+        {
+          "h2": "Wat we verkopen",
+          "body": "Via Bundles verkopen we alleen digitale craft SVG-packs — meestal $4.50 USD per stuk, eenmalig betalen, directe ZIP-download na betaling. We verkopen geen fysieke goederen. Actuele packs en prijzen staan op de Bundles-pagina (/shop)."
+        },
+        {
+          "h2": "Wie we zijn",
+          "body": "5SVG is een onafhankelijk project. We zijn niet gelieerd aan, goedgekeurd of gesponsord door de merken waarvan logo’s in de gratis bibliotheek staan. Betaalde Bundles zijn originele craftontwerpen die we samenstellen of maken voor persoonlijk craftgebruik."
+        },
+        {
+          "h2": "Support",
+          "body": "Klantenservice-e-mail: support@5svg.com. We reageren binnen 1–2 werkdagen. Je kunt ook de Contact-pagina op deze site gebruiken."
+        }
+      ]
+    },
+    "license": {
+      "title": "Licentiebeleid — 5SVG",
+      "description": "Hoe je Free SVG-bestanden en betaalde craft Bundles op 5SVG mag gebruiken, inclusief merken en persoonlijk craftgebruik.",
+      "h1": "Licentiebeleid",
+      "sections": [
+        {
+          "h2": "Inleiding",
+          "body": "Dit Licentiebeleid legt uit hoe je materialen van 5SVG mag gebruiken. Door Free SVG-bestanden te downloaden of Bundles te kopen, ga je akkoord met dit beleid, onze Terms of Service en onze Privacy Policy."
+        },
+        {
+          "h2": "Free SVG-bibliotheek",
+          "body": "Merklogo’s en iconen in Free SVG zijn gratis te bekijken, kopiëren en downloaden voor persoonlijke projecten, onderwijs en mockups. Commercieel gebruik van merkteken kan nog steeds toestemming van de merkhouder vereisen. Free SVG-bestanden worden niet als betaalde producten verkocht."
+        },
+        {
+          "h2": "Betaalde Bundles (craft packs)",
+          "body": "Craft SVG-packs onder Bundles zijn gelicentieerd voor persoonlijke craftprojecten (bijvoorbeeld snijden, vinyl, shirts, stickers en vergelijkbaar makergebruik). Je mag de digitale ZIP of losse SVG-bestanden niet doorverkopen, herverdelen, delen of opnieuw uploaden als zelfstandige digitale producten."
+        },
+        {
+          "h2": "Intellectueel eigendom",
+          "body": "Originele craftontwerpen in betaalde Bundles zijn eigendom van 5SVG of aan ons gelicentieerd voor verkoop. Free SVG-merklogo’s en woordmerken blijven eigendom van hun respectieve eigenaren. 5SVG claimt geen eigendom van merken van derden in de gratis bibliotheek."
+        },
+        {
+          "h2": "Merken",
+          "body": "Logo’s en woordmerken blijven merken van hun respectieve eigenaren. 5SVG is niet gelieerd aan of goedgekeurd door die merken. We verkopen geen merkbeschermde logo’s als betaalde producten."
+        },
+        {
+          "h2": "Geen garantie",
+          "body": "Bestanden worden geleverd zoals ze zijn. We garanderen geen volledigheid, juridische vrijgave voor jouw specifieke gebruik of dat assets overeenkomen met de nieuwste officiële merkversies."
+        },
+        {
+          "h2": "Contact",
+          "body": "Vragen over dit Licentiebeleid: mail support@5svg.com of gebruik de Contact-pagina op deze site."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacybeleid — 5SVG",
+      "description": "Hoe we je gegevens beschermen wanneer je 5SVG gebruikt",
+      "h1": "Privacybeleid",
+      "sections": [
+        {
+          "h2": "Inleiding",
+          "body": "Welkom bij het Privacybeleid van 5SVG. Dit document legt uit hoe we je persoonsgegevens verzamelen, gebruiken en beschermen wanneer je de 5SVG-website, Free SVG-bibliotheek en craft Bundle-shop gebruikt."
+        },
+        {
+          "h2": "Welke informatie we verzamelen",
+          "body": "We kunnen de volgende soorten informatie verzamelen: (1) Contactgegevens die je verstrekt — zoals het e-mailadres bij Bundle-checkout voor bon en download, of berichten via Contact. (2) Gebruiksgegevens — hoe je met de site omgaat (bijvoorbeeld bezochte pagina’s), wanneer analytics is ingeschakeld. (3) Apparaatinformatie — zoals browsertype of technische gegevens om de dienst te laten werken en te beveiligen. Favorieten die je opslaat, blijven lokaal in je browser; we ontvangen je opgeslagen lijst niet op onze servers."
+        },
+        {
+          "h2": "Hoe we je informatie gebruiken",
+          "body": "We gebruiken je informatie om de Free SVG-bibliotheek en Bundle-shop te leveren en te onderhouden; om betaalde ZIP-downloads en bonnen te leveren; voor klantenservice; om de site te verbeteren; om gebruik te monitoren; en om technische of misbruikgerelateerde problemen te detecteren, te voorkomen en aan te pakken."
+        },
+        {
+          "h2": "Betalingen",
+          "body": "Betalingen voor Bundles worden verwerkt door onze betaalprovider (Creem). Kaartgegevens worden door de provider afgehandeld — we slaan geen volledige kaartnummers op op 5SVG-servers."
+        },
+        {
+          "h2": "Cookies & opslag",
+          "body": "De site kan cookies of lokale opslag gebruiken voor themavoorkeur, taal, favorieten en analytics. Je kunt sitegegevens altijd wissen in je browserinstellingen. Sommige cookies blokkeren kan functies beperken."
+        },
+        {
+          "h2": "Gegevensbeveiliging",
+          "body": "We nemen passende beveiligingsmaatregelen om persoonsgegevens te beschermen tegen ongeautoriseerde toegang, wijziging, openbaarmaking of vernietiging. Geen transmissiemethode over het internet is 100% veilig."
+        },
+        {
+          "h2": "Diensten van derden",
+          "body": "We kunnen derden inschakelen voor betalingen, e-mail, analytics of hosting. Uitgaande links en ingesloten badges vallen onder het beleid van die sites."
+        },
+        {
+          "h2": "Wijzigingen in dit Privacybeleid",
+          "body": "We kunnen dit Privacybeleid van tijd tot tijd bijwerken. We informeren je door het bijgewerkte beleid op deze pagina te plaatsen."
+        },
+        {
+          "h2": "Contact",
+          "body": "Vragen over dit Privacybeleid? Mail support@5svg.com of gebruik de Contact-pagina op deze site."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Servicevoorwaarden — 5SVG",
+      "description": "Voorwaarden voor het gebruik van de 5SVG-website en aankoop van craft SVG Bundles",
+      "h1": "Servicevoorwaarden",
+      "sections": [
+        {
+          "h2": "Inleiding",
+          "body": "Deze Servicevoorwaarden (“Voorwaarden”) regelen je gebruik van de 5SVG-website, Free SVG-bibliotheek en Bundle-shop. Door 5SVG.com te bezoeken of een Bundle te kopen, ga je akkoord met deze Voorwaarden, onze Privacy Policy en ons Licentiebeleid. Ben je het niet eens, gebruik de site dan niet en koop geen Bundles."
+        },
+        {
+          "h2": "Gebruik van diensten",
+          "body": "Onze diensten worden geleverd “zoals ze zijn” en “zoals beschikbaar”, zonder garanties van welke aard dan ook, uitdrukkelijk of stilzwijgend. We garanderen niet dat de site ononderbroken, veilig of foutloos is. Je mag Free SVG zonder account bekijken. Voor Bundles is een geldig e-mailadres bij checkout vereist."
+        },
+        {
+          "h2": "Producten die we verkopen",
+          "body": "5SVG verkoopt digitale craft SVG Bundles (ZIP-downloads van originele snijbestanden) als eenmalige aankopen. Prijzen staan in USD op elke Bundle-pagina (meestal $4.50 per pack). De gratis SVG-logobibliotheek is geen betaald product. We verkopen geen fysieke goederen of logo-packs van derden als betaalde producten."
+        },
+        {
+          "h2": "Prijzen en betaling",
+          "body": "Bundle-prijzen staan op https://5svg.com/shop en op elke productpagina vóór checkout. Betaling wordt verwerkt door Creem (Merchant of Record). Jij bent verantwoordelijk voor een geldig e-mailadres bij checkout zodat we download en bon kunnen leveren."
+        },
+        {
+          "h2": "Levering",
+          "body": "Bundles worden alleen digitaal geleverd. Na geslaagde betaling ontvang je je ZIP-download, en kan er een back-updownloadlink per e-mail worden gestuurd. Er is geen verzending van fysieke artikelen."
+        },
+        {
+          "h2": "Intellectueel eigendom",
+          "body": "Gekochte Bundles zijn gelicentieerd voor persoonlijk craftgebruik zoals beschreven in ons Licentiebeleid. Je mag de ZIP of losse bestanden niet doorverkopen, herverdelen of delen als zelfstandige digitale producten. Free SVG-merklogo’s blijven onderworpen aan rechten van merkhouders. Sitecontent, branding en originele craftontwerpen zijn beschermd door toepasselijke intellectuele-eigendomswetten."
+        },
+        {
+          "h2": "Verboden activiteiten",
+          "body": "Je stemt ermee in om niet: de site te gebruiken in strijd met toepasselijk recht; ongeautoriseerde toegang tot onze systemen te proberen; de dienst te scrapen of te overbelasten zodat beschikbaarheid schade lijdt; malware te verspreiden; of gedownloade bestanden te gebruiken in strijd met deze Voorwaarden of ons Licentiebeleid."
+        },
+        {
+          "h2": "Restituties",
+          "body": "Omdat Bundles digitale downloads zijn, bieden we doorgaans geen restitutie zodra de ZIP is geleverd en normaal beschikbaar blijft. Kun je niet downloaden door een fout aan onze kant, mail dan support@5svg.com binnen een redelijke termijn; we beoordelen na verificatie en bieden waar passend een herdownload of andere oplossing."
+        },
+        {
+          "h2": "Aansprakelijkheidsbeperking",
+          "body": "In geen geval is 5SVG aansprakelijk voor indirecte, incidentele, speciale, gevolg- of punitieve schade voortvloeiend uit je gebruik van of onvermogen om de site of gedownloade bestanden te gebruiken."
+        },
+        {
+          "h2": "Wijzigingen in de Voorwaarden",
+          "body": "We behouden ons het recht voor deze Voorwaarden te wijzigen. Bij wijzigingen plaatsen we de bijgewerkte Voorwaarden op deze pagina."
+        },
+        {
+          "h2": "Contact",
+          "body": "Vragen over deze Voorwaarden? Mail support@5svg.com of gebruik de Contact-pagina. We reageren binnen 1–2 werkdagen (en binnen 3 werkdagen bij factureringsvragen)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Zoeken...",
+    "sortAz": "Sorteren A–Z",
+    "sortLatest": "Sorteren op nieuwste",
+    "accept": "Accepteren",
+    "logos": "logo’s",
+    "azIndex": "A–Z-index",
+    "clearSearch": "Zoekopdracht wissen",
+    "searchResults": "zoekresultaten",
+    "svgs": "SVG’s",
+    "showAll": "Alles tonen",
+    "showLess": "Minder tonen",
+    "showMore": "Meer tonen",
+    "copySvg": "SVG kopiëren",
+    "copyDisclaimer": "Zorg ervoor dat u toestemming van de makers heeft voordat u de SVG gebruikt. Aanpassingen zijn niet toegestaan."
+  },
+  "HeroTabs": {
+    "brands": "Merken",
+    "browse": "Bladeren",
+    "ai": "AI",
+    "design": "Design",
+    "social": "Social",
+    "aria": "Logo-voorbeelden"
+  },
+  "WarningBanner": {
+    "body": "SVG-assets worden als referentie aangeboden. Jij bent verantwoordelijk voor het controleren van merken en gebruiksrechten vóór gebruik in je projecten.",
+    "accept": "Accepteren"
+  },
+  "NotFound": {
+    "title": "SVG niet gevonden",
+    "inCategory": "\"{title}\" niet gevonden in categorie \"{category}\"",
+    "plain": "\"{title}\" niet gevonden",
+    "searchGlobally": "Globaal zoeken",
+    "requestSvg": "SVG aanvragen",
+    "submitSvg": "SVG indienen"
+  },
+  "LibraryPage": {
+    "title": "Gratis SVG-bibliotheek — Iconen & merklogo’s | 5SVG",
+    "description": "Blader en download gratis SVG-iconen en merklogo’s. Zoek op naam, filter op categorie, sorteer A–Z en kopieer of download — zonder registratie.",
+    "h1": "Gratis SVG-icoon- & logobibliotheek",
+    "lead": "Zoek gratis SVG-iconen op naam of categorie en download vector-SVG’s voor design, crafts, Cricut en het web.",
+    "sections": {
+      "search": {
+        "h2": "Zoek gratis SVG-iconen en logo’s",
+        "body": "Gebruik de zoekbalk om SVG’s op merk of titel te vinden. Sorteer A–Z of bekijk de nieuwste vectorlogo’s.",
+        "h3": "Vind gratis SVG’s op naam, merk of categorie"
+      },
+      "download": {
+        "h2": "Download en gebruik SVG-vectorbestanden",
+        "body": "Open een kaart om SVG-code te kopiëren of het geoptimaliseerde bestand te downloaden. Bewaar SVG-iconen in je collectie voor snelle toegang.",
+        "h3": "Kopieer, download of bookmark SVG-iconen"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Alle SVG-logo’s A–Z — Gratis icoonindex | 5SVG",
+    "description": "Alfabetische index van elk gratis SVG-logo en merkicoon op 5SVG. Ga naar een detailpagina om vectoren te kopiëren of downloaden.",
+    "h1": "Alle SVG-logo’s bekijken",
+    "lead": "Volledige A–Z-index van gratis merklogo-SVG’s in de hoofdbibliotheek. Elke link opent een detailpagina met kopiëren, downloaden en licentienotities.",
+    "logosCount": "({count} logo’s)",
+    "backLibrary": "← Interactieve bibliotheek",
+    "popularBrands": "Populaire merken",
+    "categories": "Categorieën"
+  },
+  "FavoritesPage": {
+    "title": "Favorieten",
+    "clearAll": "Alles wissen",
+    "emptyTitle": "Nog geen favorieten",
+    "emptyBody": "Voeg SVG’s toe aan favorieten door op het hartpictogram bij een SVG te klikken.",
+    "browseSvgs": "SVG’s bekijken"
+  }
+}

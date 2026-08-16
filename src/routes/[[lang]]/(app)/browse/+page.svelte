@@ -8,8 +8,15 @@
   import Container from "@/components/container.svelte";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import { cn } from "@/utils/cn";
+  import { getI18n } from "@/lib/i18n/context";
 
   let { data }: PageProps = $props();
+  const i18n = $derived(getI18n());
+  const browseH1 = $derived(i18n.t("BrowsePage.h1") || browseSeo.h1);
+  const browseLead = $derived(i18n.t("BrowsePage.lead") || browseSeo.lead);
+  const browseDescription = $derived(
+    i18n.t("BrowsePage.description") || browseSeo.description,
+  );
 
   const scriptClose = "</" + "script>";
   const itemListJsonLdHtml = $derived.by(() => {
@@ -19,8 +26,8 @@
       JSON.stringify({
         "@context": "https://schema.org",
         "@type": "ItemList",
-        name: browseSeo.h1,
-        description: browseSeo.description,
+        name: browseH1,
+        description: browseDescription,
         url: `${brand.siteUrl}/browse`,
         numberOfItems: data.total,
         itemListElement: icons.map((icon, index) => ({
@@ -42,22 +49,24 @@
 <Container className="my-8 max-w-5xl">
   <header class="mb-8">
     <h1 class="text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
-      {browseSeo.h1}
+      {browseH1}
     </h1>
     <p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
-      {browseSeo.lead}
-      <span class="font-mono text-neutral-500"> ({data.total} logos)</span>
+      {browseLead}
+      <span class="font-mono text-neutral-500">
+        {i18n.t("BrowsePage.logosCount", { count: data.total })}
+      </span>
     </p>
     <p class="mt-4 text-sm">
       <InternalLink href="/library" className="font-medium text-brand-energy dark:text-brand">
-        ← Interactive library
+        {i18n.t("BrowsePage.backLibrary")}
       </InternalLink>
     </p>
   </header>
 
   <section class="mb-10">
     <h2 class="text-sm font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
-      Popular brands
+      {i18n.t("BrowsePage.popularBrands")}
     </h2>
     <ul class="mt-3 flex flex-wrap gap-2">
       {#each data.popular as svg (svg.id)}
@@ -78,7 +87,7 @@
 
   <section class="mb-10">
     <h2 class="text-sm font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
-      Categories
+      {i18n.t("BrowsePage.categories")}
     </h2>
     <ul class="mt-3 flex flex-wrap gap-2">
       {#each data.categories as cat (cat.name)}

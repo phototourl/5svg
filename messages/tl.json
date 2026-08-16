@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Palitan ang wika",
+    "languageSelect": {
+      "title": "Piliin ang iyong wika",
+      "subtitle": "Pumili ng wika para sa interface ng site.",
+      "close": "Isara"
+    },
+    "nav": {
+      "home": "Home",
+      "freeSvg": "Libreng SVG",
+      "svgBundles": "Mga SVG Bundle",
+      "shopNow": "Shop",
+      "allFreeSvg": "Lahat ng libreng SVG",
+      "allBundles": "Lahat ng bundle",
+      "licensing": "Patakaran sa lisensya",
+      "contact": "Makipag-ugnayan",
+      "bundles": "Mga Bundle",
+      "browse": "Browse",
+      "favorites": "Mga Paborito",
+      "extensions": "Mga Extension",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Hanapin sa library",
+      "openMenu": "Buksan ang menu"
+    },
+    "sidebar": {
+      "categories": "Mga Kategorya",
+      "allLogosAz": "Lahat ng logo A–Z",
+      "submitSvg": "Magsumite ng SVG",
+      "githubRepo": "GitHub Repository"
+    },
+    "footer": {
+      "tagline": "Libreng SVG library at craft Bundles para sa mga maker",
+      "product": "Produkto",
+      "explore": "Tuklasin",
+      "categories": "Mga Kategorya",
+      "company": "Kumpanya",
+      "legal": "Legal",
+      "supportTitle": "Suporta sa customer",
+      "supportBody": "May tanong tungkol sa Libreng SVG o bayad na Bundles? Mag-email sa amin — layunin naming tumugon sa loob ng 1–2 araw ng trabaho.",
+      "exploreLibrary": "Tuklasin ang library",
+      "browseIndex": "A–Z index",
+      "home": "Home",
+      "about": "Tungkol",
+      "license": "Patakaran sa Lisensya",
+      "licensingPolicy": "Patakaran sa Lisensya",
+      "privacy": "Patakaran sa Privacy",
+      "privacyPolicy": "Patakaran sa Privacy",
+      "terms": "Mga Tuntunin ng Serbisyo",
+      "termsOfService": "Mga Tuntunin ng Serbisyo",
+      "design": "Disenyo",
+      "social": "Social",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ libreng SVG file — i-browse ang libreng koleksyon",
+      "favorites": "I-download · i-save ang paborito · libre para sa personal na gamit",
+      "shop": "Mga SVG Bundle mula $4.50 — magbayad nang isang beses, agad na ZIP download"
+    }
+  },
+  "shop": {
+    "seoTitle": "Mga SVG Bundle — Presyo at Craft Pack | 5SVG",
+    "seoDescription": "Bumili ng orihinal na craft SVG Bundles sa $4.50 USD bawat isa — one-time purchase, agad na ZIP download. Mananatiling libre ang brand logo sa library.",
+    "promo": "Theme packs $4.50 · Kumpletong koleksyon $9.90. Isang bayad, agad na ZIP.",
+    "title": "Mga SVG pack",
+    "subtitle": "Bumili ng isang theme pack, o i-unlock ang lahat ng pack sa isang bili. Mananatiling libre ang brand logos sa library.",
+    "allCategories": "Lahat",
+    "viewPack": "Tingnan",
+    "wholeShopBadge": "Pinakamayaman sa halaga",
+    "wholeShopSection": "Kumpletong koleksyon",
+    "wholeShopTitle": "Kumpletong koleksyon",
+    "wholeShopLead": "{count} craft SVG mula sa bawat tema. Isang bili, mabubuksan ang lahat ng pack.",
+    "wholeShopCta": "Bilhin ngayon",
+    "themePacksHeading": "Theme packs",
+    "themePacksLead": "Bawat pack ay one-time digital purchase sa $4.50, na may humigit-kumulang 20–24 orihinal na craft cut files (ZIP). Mananatiling libre ang brand logos sa library.",
+    "empty": "Wala pang pack sa kategoryang ito.",
+    "fileCount": "{count} file",
+    "moreFiles": "+{count} pa",
+    "freeHint": "Kailangan ng libreng brand logo?",
+    "freeLibraryLink": "Buksan ang libreng koleksyon →",
+    "backToShop": "Lahat ng pack",
+    "emailLabel": "Email para sa resibo at download",
+    "mockNotice": "Mock checkout (hindi pa naka-wire ang Creem).",
+    "buyDownload": "Bumili at i-download",
+    "processing": "Nire-redirect…",
+    "checkoutError": "Nabigo ang checkout. Subukan ulit.",
+    "flowHint": "Magbayad nang isang beses para sa instant na ZIP download. Ipapadala ang resibo sa iyong email.",
+    "payOverlayTitle": "Kinukumpirma ang bayad…",
+    "payOverlayBody": "Maghintay habang sine-verify namin ang iyong pagbili.",
+    "prepareOverlayTitle": "Inihahanda ang download…",
+    "prepareOverlayBody": "Magsisimula ang ZIP sa ilang sandali.",
+    "downloadTitle": "Ang iyong download",
+    "downloadMissing": "Nawawala ang payment return info. Magsimula ulit mula sa Bundles.",
+    "downloadFailed": "Hindi makumpirma ang bayad.",
+    "downloadSyncing": "Kinukumpirma ang bayad…",
+    "downloadReady": "Handa: {title}",
+    "downloadZip": "I-download ang ZIP",
+    "downloadEmailHint": "May backup download link din na naipadala sa email na inilagay mo.",
+    "includesSample": "Kasama (sample)",
+    "browseCategory": "I-browse ang kategoryang ito →",
+    "license": {
+      "personal": "Personal na gamit",
+      "commercial": "Commercial craft license"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Libreng SVG Files at Craft SVG Bundles",
+    "description": "Libreng SVG logo library kasama ang bayad na craft SVG Bundles para sa mga maker. I-browse ang libreng koleksyon anumang oras, o bumili ng orihinal na ZIP packs mula $4.50 para sa Cricut, Silhouette, vinyl, at crafts.",
+    "keywords": "svg bundles, craft svg, libreng svg files, svg download, cricut svg, silhouette svg, bayad na svg packs, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Libreng SVG at craft packs",
+      "subtitle": "I-browse ang aming libreng koleksyon, o bumili ng orihinal na craft packs — digital ZIP packs mula $4.50, magbayad nang isang beses, i-download agad. Ginawa para sa Cricut, Silhouette, vinyl, at mga maker.",
+      "ctaShop": "Bumili ng mga pack",
+      "ctaFree": "Libreng koleksyon",
+      "marqueeAria": "I-browse ang SVG files sa library"
+    },
+    "value": {
+      "freeTitle": "Agad na digital delivery",
+      "freeDesc": "Bumili ng pack at i-download ang ZIP pagkatapos magbayad — walang shipping, walang hintay. Mananatiling libre ang libreng koleksyon.",
+      "curatedTitle": "Craft packs mula $4.50",
+      "curatedDesc": "Orihinal na cut-file packs na may malinaw na USD pricing sa bawat produkto. One-time purchase — panatilihin ang files para sa personal craft use.",
+      "easyTitle": "Suporta sa customer",
+      "easyDesc": "May tanong tungkol sa libreng koleksyon, mga pack, o lisensya? Mag-email sa support@5svg.com o gamitin ang Makipag-ugnayan — layunin naming tumugon sa loob ng 1–2 araw ng trabaho."
+    },
+    "shopStrip": {
+      "title": "Mga SVG pack na ibinebenta",
+      "subtitle": "Orihinal na craft SVG packs — $4.50 bawat isa, magbayad nang isang beses, agad na ZIP download.",
+      "viewAll": "Tingnan ang lahat ng packs →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Para sa pang-araw-araw na mga maker",
+      "subtitle": "Gamitin ang libreng koleksyon logos o Bundle cut files sa Cricut, Silhouette, Canva, shirts, stickers, at iba pa.",
+      "cutting": "Cutting crafts",
+      "stickers": "Stickers at decals",
+      "gifts": "Regalo at party",
+      "labels": "Labels at tags",
+      "print": "Print at larawan",
+      "personal": "Personal na proyekto",
+      "iconAlt": "{label} craft icon"
+    },
+    "library": {
+      "title": "Ano ang nasa library",
+      "subtitle": "{count}+ SVG files na naka-grupo ayon sa paksa — gamitin ang header menu kapag handa nang mag-browse o mag-download.",
+      "browseTitle": "I-browse ang {name} SVGs",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVGs"
+    },
+    "how": {
+      "tag": "Paano ito gumagana",
+      "title": "Libreng koleksyon o bumili ng mga pack",
+      "subtitle": "I-browse ang libreng koleksyon anumang oras — o buksan ang shop para bumili ng craft pack at i-download ang ZIP pagkatapos magbayad.",
+      "searchTitle": "I-browse ang libreng koleksyon",
+      "searchDesc": "Buksan ang libreng koleksyon, pumili ng kategorya, o maghanap ayon sa pangalan — mag-download ng logos nang walang account.",
+      "downloadTitle": "Bumili ng pack",
+      "downloadDesc": "Pumili ng craft pack sa shop, magbayad nang isang beses sa nakalistang USD price, pagkatapos i-download ang ZIP.",
+      "favoritesTitle": "I-save at muling gamitin",
+      "favoritesDesc": "I-heart ang favorites mula sa libreng koleksyon sa device na ito, o panatilihin ang biniling pack files para sa iyong craft projects."
+    },
+    "seoIntro": {
+      "tag": "SVG shop at library",
+      "title": "Libreng SVG files at bayad na craft Bundles para sa mga maker",
+      "description": "Nagbebenta ang 5SVG ng orihinal na craft SVG Bundles bilang digital ZIP downloads (karaniwang $4.50 bawat isa) at nagho-host ng libreng brand-logo library. I-browse ang libreng koleksyon anumang oras, o bumili ng Bundles para sa Cricut, Silhouette, vinyl, at pang-araw-araw na crafts."
+    },
+    "seoBlocks": {
+      "whatTag": "Mga Batayan",
+      "whatTitle": "Ano ang SVG file?",
+      "whatBody": "Iniimbak ng SVG (Scalable Vector Graphics) ang mga hugis at path bilang math sa halip na pixels. Nangangahulugan iyon na nananatiling malinaw ang logos at icons kahit paliitin para sa sticker o palakihin para sa poster.",
+      "whatB1": "Nag-scale sa anumang laki nang hindi malabo",
+      "whatB2": "Karaniwang format para sa logos, icons, at simpleng illustrations",
+      "whatB3": "Sinusuportahan ng browsers, design software, at vinyl cutters",
+      "whatAlt": "5SVG — milyun-milyong high-quality SVG vectors at kategorya",
+      "usesTag": "Mga Gamit",
+      "usesTitle": "Ano ang magagawa mo sa SVG files?",
+      "usesBody": "Praktikal na panimula ang SVGs para sa personal projects — mockups, pag-aaral ng design, party crafts, at maker workflows kung saan kailangan mo ng malinis na vector na pwedeng i-resize.",
+      "usesB1": "Mag-cut ng vinyl decals gamit ang Cricut o Silhouette",
+      "usesB2": "Ilagay ang icons sa Canva, Figma, o PowerPoint",
+      "usesB3": "Mag-print ng shirts, tags, at party decorations sa bahay",
+      "usesB4": "Gumawa ng mood boards at school projects gamit ang totoong brand logos",
+      "usesAlt": "5SVG — mag-design, magtayo, at mag-present gamit ang UI kits at app icons",
+      "getTag": "Kumuha ng files",
+      "getTitle": "Paano kumuha ng SVG files mula sa 5SVG",
+      "getBody": "I-browse ang libreng koleksyon anumang oras — maghanap o pumili ng kategorya, pagkatapos kopyahin o i-download. Para bumili ng craft packs, buksan ang Bundles, pumili ng produkto sa nakalistang USD price, at i-download ang ZIP pagkatapos magbayad.",
+      "getB1": "I-browse ang libreng koleksyon — walang signup",
+      "getB2": "O bumili ng Bundles para sa orihinal na craft ZIP packs",
+      "getB3": "Magbayad nang isang beses, pagkatapos i-download ang ZIP",
+      "getB4": "Suriin ang License at Terms bago ang commercial craft use",
+      "getAlt": "5SVG — pinakamabilis na vector search sa lahat ng devices"
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "subtitle": "Ano ang ibinebenta namin, presyo, delivery, refunds, at support.",
+      "lead": "Nagbebenta ang 5SVG ng digital craft SVG Bundles (ZIP downloads) sa malinaw na USD prices sa aming Bundles page. Mananatiling libre ang libreng koleksyon logo library. Pinoproseso ang bayad ng Creem.",
+      "q1": "Ano ang ibinebenta ninyo?",
+      "a1": "Nagbebenta kami ng orihinal na craft SVG Bundles — digital ZIP packs ng cut files para sa mga maker (Cricut, Silhouette, vinyl, shirts). Hindi kami nagbebenta ng physical goods. Libre ang brand logos sa libreng koleksyon at hindi ibinebenta bilang bayad na produkto.",
+      "q2": "Magkano ang isang Bundle?",
+      "a2": "Karaniwang $4.50 USD ang bawat craft Bundle bilang one-time purchase. Ipinapakita ang eksaktong presyo sa https://5svg.com/shop at sa bawat product page bago ka magbayad.",
+      "q3": "Paano dine-deliver ang produkto?",
+      "a3": "100% digital at agad ang delivery pagkatapos ng matagumpay na bayad. Walang shipping. Gumamit ng valid email sa checkout para sa iyong resibo.",
+      "q4": "Kailangan ba ng account o software install?",
+      "a4": "Hindi kailangan ng account para mag-browse ng libreng koleksyon o bumili ng Bundles. Nananatili ang favorites sa browser mo. Mag-import ng SVGs sa Cricut Design Space, Silhouette Studio, Canva, o anumang vector-capable app — walang i-install mula sa amin.",
+      "q5": "Anong lisensya ang makukuha ko?",
+      "a5": "Kasama sa Bundles ang personal craft license. Hindi mo maaaring i-resell o i-redistribute ang ZIP o indibidwal na files. Mananatiling trademarks ng mga may-ari ang libreng koleksyon logos — suriin ang brand guidelines bago ang commercial use. Tingnan ang aming License at Terms of Service pages.",
+      "q6": "Pwede ba akong makakuha ng refund?",
+      "a6": "Dahil digital downloads ang Bundles, karaniwan naming hindi nag-aalok ng refund kapag na-deliver na ang ZIP at available pa para sa normal na gamit. Kung nabigo ang download dahil sa isyu sa aming panig, mag-email sa support@5svg.com at ire-review namin pagkatapos ng beripikasyon.",
+      "q7": "Nasaan ang Privacy Policy at Terms of Service?",
+      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Nasa footer din ng site ang mga link.",
+      "q8": "Paano makipag-ugnayan sa support?",
+      "a8": "Mag-email sa support@5svg.com o gamitin ang Makipag-ugnayan page. Layunin naming tumugon sa loob ng 1–2 araw ng trabaho (sa loob ng 3 araw ng trabaho para sa billing issues).",
+      "contactBefore": "Para sa mga tanong sa itaas at iba pa, pakigamit ang ",
+      "contactLink": "Makipag-ugnayan",
+      "contactMiddle": " page sa site na ito o mag-email sa ",
+      "contactAfter": ". Layunin naming tumugon sa loob ng 1–2 araw ng trabaho."
+    },
+    "about": {
+      "title": "Tungkol sa 5SVG",
+      "p1": "Ang 5SVG ay libreng SVG logo at icon library kasama ang shop para sa orihinal na craft SVG Bundles. Ang bayad na produkto ay digital ZIP downloads lang — karaniwang $4.50 USD bawat isa, one-time purchase, na may mga presyong nakalista sa Bundles page.",
+      "p2": "I-browse ang libreng koleksyon anumang oras, o buksan ang Bundles para sa seasonal at pang-araw-araw na cut-file packs para sa Cricut, Silhouette, vinyl, at mga maker. Support: support@5svg.com. Legal: Privacy Policy, Terms of Service, at License pages sa footer.",
+      "logoAlt": "5SVG libreng SVG logo library at craft Bundles logo"
+    },
+    "bannerAlt": "5SVG — Libreng SVG Files at Craft SVG Bundles"
+  },
+  "ContactPage": {
+    "title": "Makipag-ugnayan",
+    "description": "Makipag-ugnayan sa 5SVG para sa libreng koleksyon, Bundles, lisensya, o feedback. Layunin naming tumugon sa loob ng 1–2 araw ng trabaho.",
+    "subtitle": "Nandito kami para tumulong sa libreng koleksyon, craft packs, at mga tanong sa lisensya.",
+    "introShort": "May tanong o feedback? Punan ang form sa ibaba at babalikan ka namin sa lalong madaling panahon.",
+    "whyTitle": "Ano ang maaari mong itanong sa amin",
+    "why1": "Libreng koleksyon: browse, download, o trademark questions",
+    "why2": "Mga SVG pack: pagbili, downloads, o nilalaman ng pack",
+    "why3": "Mga tanong sa lisensya at commercial use",
+    "why4": "Feedback, partnerships, o pag-uulat ng abuse",
+    "expectTitle": "Ano ang aasahan",
+    "expectContent": "Binabasa namin ang bawat mensahe at layunin naming tumugon sa loob ng 1–2 araw ng trabaho. Para sa urgent issues, maglagay ng malinaw na subject at sapat na detalye.",
+    "orEmail": "O mag-email sa amin sa",
+    "form": {
+      "title": "Magpadala ng mensahe",
+      "description": "May tanong tungkol sa libreng koleksyon, Bundles, o feedback? Punan ang form at tutugon kami sa lalong madaling panahon.",
+      "name": "Pangalan",
+      "email": "Email",
+      "message": "Mensahe",
+      "namePlaceholder": "Ang iyong pangalan",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Ang iyong mensahe o tanong...",
+      "submit": "Ipadala ang mensahe",
+      "mailtoHint": "Dapat magbukas ang email app mo na may mensaheng handang ipadala sa support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Ang iyong 5SVG download — {title}",
+      "title": "Handa na ang iyong download",
+      "body": "Salamat sa pagbili ng {title} sa 5SVG.",
+      "downloadButton": "I-download ang ZIP",
+      "linkFallback": "O kopyahin ang backup download link na ito:",
+      "note": "Kung hindi awtomatikong na-download ang file pagkatapos magbayad, buksan ulit ang link na ito para mag-download.",
+      "textIntro": "Salamat sa iyong pagbili ng {title}.",
+      "textDownload": "I-download ang iyong ZIP (backup link):",
+      "textSupport": "Support: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Tungkol sa 5SVG — Libreng SVG Library at Craft Bundles",
+      "description": "Ang 5SVG ay independenteng libreng SVG logo library at shop para sa orihinal na craft SVG Bundles. Digital downloads lang — malinaw na pricing sa aming Bundles page.",
+      "h1": "Tungkol sa 5SVG",
+      "sections": [
+        {
+          "h2": "Ano ang inaalok namin",
+          "body": "Nagho-host ang 5SVG ng libreng library ng SVG brand logos at icons, kasama ang bayad na craft SVG Bundles na ibinebenta bilang one-time digital ZIP downloads. Mananatiling libre ang libreng koleksyon. Ang Bundles ay orihinal na cut-file packs para sa mga maker (Cricut, Silhouette, vinyl, shirts)."
+        },
+        {
+          "h2": "Ano ang ibinebenta namin",
+          "body": "Sa pamamagitan ng Bundles, digital craft SVG packs lang ang ibinebenta namin — karaniwang $4.50 USD bawat isa, magbayad nang isang beses, agad na ZIP download pagkatapos magbayad. Hindi kami nagbebenta ng physical goods. Nakalista ang kasalukuyang packs at prices sa Bundles page (/shop)."
+        },
+        {
+          "h2": "Sino kami",
+          "body": "Ang 5SVG ay independenteng proyekto. Hindi kami affiliated, endorsed, o sponsored ng mga brand na may logos sa free library. Ang bayad na Bundles ay orihinal na craft designs na aming inaayos o nililikha para sa personal craft use."
+        },
+        {
+          "h2": "Suporta",
+          "body": "Customer support email: support@5svg.com. Layunin naming tumugon sa loob ng 1–2 araw ng trabaho. Maaari mo ring gamitin ang Makipag-ugnayan page sa site na ito."
+        }
+      ]
+    },
+    "license": {
+      "title": "Patakaran sa Lisensya — 5SVG",
+      "description": "Paano mo maaaring gamitin ang libreng koleksyon files at bayad na craft Bundles sa 5SVG, kasama ang trademarks at personal craft use.",
+      "h1": "Patakaran sa Lisensya",
+      "sections": [
+        {
+          "h2": "Introduksyon",
+          "body": "Ipinapaliwanag ng Patakaran sa Lisensyang ito kung paano mo maaaring gamitin ang materials mula sa 5SVG. Sa pag-download ng libreng koleksyon files o pagbili ng Bundles, sumasang-ayon ka sa patakarang ito, sa aming Terms of Service, at sa aming Privacy Policy."
+        },
+        {
+          "h2": "libreng koleksyon library",
+          "body": "Libre ang brand logos at icons sa libreng koleksyon na i-browse, kopyahin, at i-download para sa personal projects, edukasyon, at mockups. Maaaring kailangan pa rin ng pahintulot mula sa trademark owner ang commercial use ng brand marks. Hindi ibinebenta ang libreng koleksyon files bilang bayad na produkto."
+        },
+        {
+          "h2": "Bayad na Bundles (craft packs)",
+          "body": "Ang craft SVG packs na ibinebenta sa ilalim ng Bundles ay lisensyado para sa personal craft projects (halimbawa cutting, vinyl, shirts, stickers, at katulad na maker use). Hindi mo maaaring i-resell, i-redistribute, i-share, o i-re-upload ang digital ZIP o indibidwal na SVG files bilang standalone digital products."
+        },
+        {
+          "h2": "Intellectual property",
+          "body": "Pagmamay-ari ng 5SVG ang orihinal na craft designs sa bayad na Bundles o lisensyado sa amin para ibenta. Mananatiling pag-aari ng kani-kanilang may-ari ang libreng koleksyon brand logos at wordmarks. Hindi inaangkin ng 5SVG ang ownership ng third-party trademarks na ipinapakita sa free library."
+        },
+        {
+          "h2": "Trademarks",
+          "body": "Mananatiling trademarks ng kani-kanilang may-ari ang logos at wordmarks. Hindi affiliated o endorsed ang 5SVG ng mga brand na iyon. Hindi namin ibinebenta ang trademarked brand logos bilang bayad na produkto."
+        },
+        {
+          "h2": "Walang warranty",
+          "body": "Ibinibigay ang files as-is. Hindi namin ginagarantiya ang pagkakumpleto, legal clearance para sa iyong specific use case, o na tumutugma ang assets sa pinakabagong opisyal na brand versions."
+        },
+        {
+          "h2": "Makipag-ugnayan",
+          "body": "Mga tanong tungkol sa Patakaran sa Lisensyang ito: mag-email sa support@5svg.com o gamitin ang Makipag-ugnayan page sa site na ito."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Patakaran sa Privacy — 5SVG",
+      "description": "Paano namin pinoprotektahan ang iyong data kapag ginagamit mo ang 5SVG",
+      "h1": "Patakaran sa Privacy",
+      "sections": [
+        {
+          "h2": "Introduksyon",
+          "body": "Maligayang pagdating sa 5SVG Privacy Policy. Ipinapaliwanag ng dokumentong ito kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang iyong personal information kapag ginagamit mo ang 5SVG website, libreng koleksyon library, at craft Bundle shop."
+        },
+        {
+          "h2": "Impormasyong Kinokolekta Namin",
+          "body": "Maaari naming kolektahin ang mga sumusunod na uri ng impormasyon: (1) Contact details na ibinibigay mo — tulad ng email address sa Bundle checkout para sa resibo at download delivery, o mga mensahe sa pamamagitan ng Makipag-ugnayan. (2) Usage data — kung paano ka nakikipag-interact sa site (halimbawa pages na binisita), kapag naka-enable ang analytics. (3) Device information — tulad ng browser type o tinatayang technical data na ginagamit para patakbuhin at i-secure ang serbisyo. Ang favorites na sine-save mo ay naka-store nang lokal sa browser mo; hindi namin natatanggap ang saved list sa aming servers."
+        },
+        {
+          "h2": "Paano Namin Ginagamit ang Iyong Impormasyon",
+          "body": "Ginagamit namin ang iyong impormasyon upang ibigay at panatilihin ang libreng koleksyon library at Bundle shop; i-deliver ang bayad na ZIP downloads at kaugnay na resibo; magbigay ng customer support; pagbutihin ang site; subaybayan ang usage; at tumukoy, pigilan, at tugunan ang technical o abuse-related issues."
+        },
+        {
+          "h2": "Mga Bayad",
+          "body": "Pinoproseso ang bayad para sa Bundles ng aming payment provider (Creem). Hinahawakan ng provider ang card details — hindi namin sine-store ang full payment card numbers sa 5SVG servers."
+        },
+        {
+          "h2": "Cookies at Storage",
+          "body": "Maaaring gumamit ang site ng cookies o local storage para sa theme preference, language preference, favorites, at analytics. Maaari mong i-clear ang site data sa browser settings anumang oras. Maaaring limitahan ng pag-block ng ilang cookies ang ilang features."
+        },
+        {
+          "h2": "Seguridad ng Data",
+          "body": "Nagpapatupad kami ng angkop na security measures upang protektahan ang personal information mula sa unauthorized access, alteration, disclosure, o destruction. Walang method of transmission sa Internet na 100% secure."
+        },
+        {
+          "h2": "Third-Party Services",
+          "body": "Maaari kaming gumamit ng third-party companies upang mapadali ang payments, email delivery, analytics, o hosting. Ang outbound links at embedded badges ay pinamamahalaan ng policies ng mga site na iyon."
+        },
+        {
+          "h2": "Mga Pagbabago sa Privacy Policy na Ito",
+          "body": "Maaari naming i-update ang Privacy Policy na ito paminsan-minsan. Aabisuhan ka namin ng mga pagbabago sa pamamagitan ng pag-post ng updated policy sa page na ito."
+        },
+        {
+          "h2": "Makipag-ugnayan",
+          "body": "Kung may tanong ka tungkol sa Privacy Policy na ito, mag-email sa support@5svg.com o gamitin ang Makipag-ugnayan page sa site na ito."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Mga Tuntunin ng Serbisyo — 5SVG",
+      "description": "Mga tuntunin para sa paggamit ng 5SVG website at pagbili ng craft SVG Bundles",
+      "h1": "Mga Tuntunin ng Serbisyo",
+      "sections": [
+        {
+          "h2": "Introduksyon",
+          "body": "Ang Mga Tuntunin ng Serbisyo na ito (“Terms”) ang namamahala sa iyong paggamit ng 5SVG website, libreng koleksyon library, at Bundle shop. Sa pag-access sa 5SVG.com o pagbili ng Bundle, sumasang-ayon ka sa mga Terms na ito, sa aming Privacy Policy, at sa aming Licensing Policy. Kung hindi ka sumasang-ayon, huwag gamitin ang site o bumili ng Bundles."
+        },
+        {
+          "h2": "Paggamit ng Mga Serbisyo",
+          "body": "Ibinibigay ang aming services “as is” at “as available” nang walang warranties ng anumang uri, express man o implied. Hindi namin ginagarantiya na ang site ay magiging uninterrupted, secure, o error-free. Maaari mong i-browse ang libreng koleksyon nang walang account. Ang pagbili ng Bundles ay nangangailangan ng valid email sa checkout."
+        },
+        {
+          "h2": "Mga produktong ibinebenta namin",
+          "body": "Nagbebenta ang 5SVG ng digital craft SVG Bundles (ZIP downloads ng orihinal na cut files) bilang one-time purchases. Ipinapakita ang prices sa USD sa bawat Bundle page (karaniwang $4.50 bawat pack). Hindi bayad na produkto ang free SVG logo library. Hindi kami nagbebenta ng physical goods o third-party brand logo packs bilang bayad na produkto."
+        },
+        {
+          "h2": "Presyo at bayad",
+          "body": "Ipinapakita ang Bundle prices sa https://5svg.com/shop at sa bawat product page bago ang checkout. Pinoproseso ang bayad ng Creem (Merchant of Record). Responsibilidad mong magbigay ng valid email sa checkout upang ma-deliver namin ang iyong download at resibo."
+        },
+        {
+          "h2": "Delivery",
+          "body": "Digitally only ang delivery ng Bundles. Pagkatapos ng matagumpay na bayad, matatanggap mo ang ZIP download, at maaaring i-email sa iyo ang backup download link. Walang shipping ng physical items."
+        },
+        {
+          "h2": "Intellectual Property",
+          "body": "Ang biniling Bundles ay lisensyado para sa personal craft use ayon sa aming Licensing Policy. Hindi mo maaaring i-resell, i-redistribute, o i-share ang ZIP o indibidwal na files bilang standalone digital products. Nananatiling subject sa rights ng trademark owners ang libreng koleksyon brand logos. Protektado ng applicable intellectual property laws ang site content, branding, at orihinal na craft designs."
+        },
+        {
+          "h2": "Mga Ipinagbabawal na Aktibidad",
+          "body": "Sumasang-ayon kang hindi: gamitin ang site sa anumang paraang lumalabag sa applicable law; subukang unauthorized access sa aming systems; mag-scrape o mag-overload ng service sa paraang nakakasama sa availability; mag-distribute ng malware; o gumamit ng downloaded files na lumalabag sa mga Terms na ito o sa aming Licensing Policy."
+        },
+        {
+          "h2": "Mga Refund",
+          "body": "Dahil digital downloads ang Bundles, karaniwan naming hindi nag-aalok ng refund kapag na-deliver na ang ZIP at available pa para sa normal na gamit. Kung hindi ka makapag-download dahil sa fault sa aming panig, mag-email sa support@5svg.com sa loob ng makatwirang oras; ire-review namin pagkatapos ng beripikasyon at, kung naaangkop, magbibigay ng re-download o ibang remedy."
+        },
+        {
+          "h2": "Limitasyon ng Pananagutan",
+          "body": "Sa anumang pagkakataon, hindi mananagot ang 5SVG para sa anumang indirect, incidental, special, consequential, o punitive damages na nagreresulta mula sa iyong paggamit o kawalan ng kakayahang gamitin ang site o downloaded files."
+        },
+        {
+          "h2": "Mga Pagbabago sa Terms",
+          "body": "Inilalaan namin ang karapatang baguhin ang mga Terms na ito anumang oras. Kung may mga pagbabago, magbibigay kami ng notice sa pamamagitan ng pag-post ng updated Terms sa page na ito."
+        },
+        {
+          "h2": "Makipag-ugnayan",
+          "body": "Kung may tanong ka tungkol sa mga Terms na ito, mag-email sa support@5svg.com o gamitin ang Makipag-ugnayan page. Layunin naming tumugon sa loob ng 1–2 araw ng trabaho (at sa loob ng 3 araw ng trabaho para sa billing issues)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Maghanap...",
+    "sortAz": "I-sort A–Z",
+    "sortLatest": "I-sort ayon sa pinakabago",
+    "accept": "Tanggapin",
+    "logos": "mga logo",
+    "azIndex": "A–Z index",
+    "clearSearch": "I-clear ang search",
+    "searchResults": "mga resulta ng search",
+    "svgs": "mga SVG",
+    "showAll": "Ipakita lahat",
+    "showLess": "Magpakita ng mas kaunti",
+    "showMore": "Magpakita pa",
+    "copySvg": "Kopyahin ang SVG",
+    "copyDisclaimer": "Pakiusap na tiyaking may pahintulot mula sa mga tagalikha bago gamitin ang SVG. Hindi pinapayagan ang mga pagbabago."
+  },
+  "HeroTabs": {
+    "brands": "Mga Brand",
+    "browse": "Browse",
+    "ai": "AI",
+    "design": "Disenyo",
+    "social": "Social",
+    "aria": "Mga preview ng logo"
+  },
+  "WarningBanner": {
+    "body": "Ang SVG assets ay ibinibigay para sa reference. Responsibilidad mong beripikahin ang trademark at usage rights bago gamitin sa iyong projects.",
+    "accept": "Tanggapin"
+  },
+  "NotFound": {
+    "title": "Hindi nahanap ang SVG",
+    "inCategory": "Hindi nahanap ang \"{title}\" sa kategoryang \"{category}\"",
+    "plain": "Hindi nahanap ang \"{title}\"",
+    "searchGlobally": "Maghanap nang global",
+    "requestSvg": "Humiling ng SVG",
+    "submitSvg": "Magsumite ng SVG"
+  },
+  "LibraryPage": {
+    "title": "Libreng SVG Library — Mag-browse ng Icons at Brand Logos | 5SVG",
+    "description": "Mag-browse at mag-download ng libreng SVG icons at brand logos. Maghanap ayon sa pangalan, i-filter ayon sa kategorya, i-sort A–Z, at kopyahin o i-download ang files — walang signup.",
+    "h1": "Libreng SVG Icon at Logo Library",
+    "lead": "Maghanap ng libreng SVG icons ayon sa pangalan o kategorya, pagkatapos i-download ang vector SVG files para sa design, crafts, Cricut, at web.",
+    "sections": {
+      "search": {
+        "h2": "Maghanap ng libreng SVG icons at logos",
+        "body": "Gamitin ang search bar para maghanap ng SVG files ayon sa brand o title. I-sort A–Z o i-browse ang pinakabagong vector logos sa library.",
+        "h3": "Maghanap ng libreng SVGs ayon sa pangalan, brand, o kategorya"
+      },
+      "download": {
+        "h2": "I-download at gamitin ang SVG vector files",
+        "body": "Buksan ang anumang card para kopyahin ang SVG code o i-download ang optimized file. I-save ang SVG icons sa iyong collection para sa mabilis na access.",
+        "h3": "Kopyahin, i-download, o i-bookmark ang SVG icons"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "I-browse ang Lahat ng SVG Logos A–Z — Libreng Icon Index | 5SVG",
+    "description": "Alpabetikong index ng bawat libreng SVG logo at brand icon sa 5SVG. Pumunta sa anumang logo detail page para kopyahin o i-download ang vector files.",
+    "h1": "I-browse ang lahat ng SVG logos",
+    "lead": "Kumpletong A–Z index ng libreng brand logo SVGs sa main library. Binubuksan ng bawat link ang detail page na may copy, download, at license notes.",
+    "logosCount": "({count} logos)",
+    "backLibrary": "← Interactive library",
+    "popularBrands": "Mga popular na brand",
+    "categories": "Mga Kategorya"
+  },
+  "FavoritesPage": {
+    "title": "Mga Paborito",
+    "clearAll": "I-clear lahat",
+    "emptyTitle": "Wala pang paborito",
+    "emptyBody": "Magsimulang magdagdag ng SVGs sa iyong favorites sa pamamagitan ng pag-click sa heart icon sa anumang SVG.",
+    "browseSvgs": "Mag-browse ng SVGs"
+  }
+}

@@ -5,6 +5,9 @@
   import AlertTriangleIcon from "@lucide/svelte/icons/alert-triangle";
 
   import { warningStore, acceptWarning } from "@/stores/warning.store";
+  import { getI18n } from "@/lib/i18n/context";
+
+  const i18n = $derived(getI18n());
 </script>
 
 {#if !$warningStore}
@@ -22,13 +25,12 @@
         class="shrink-0 animate-pulse text-yellow-600 dark:text-yellow-500"
       />
       <p>
-        SVG assets are provided for reference. You are responsible for
-        verifying trademark and usage rights before using them in your projects.
+        {i18n.t("WarningBanner.body")}
       </p>
     </div>
     <Button size="sm" onclick={acceptWarning}>
       <CheckIcon size={14} strokeWidth={2} />
-      <span>Accept</span>
+      <span>{i18n.t("WarningBanner.accept")}</span>
     </Button>
   </div>
 {/if}

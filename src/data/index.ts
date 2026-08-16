@@ -44,33 +44,10 @@ const hasRenderableRoute = (svg: iSVG) => Boolean(svg.route);
 export const getHeroPreviewSvgs = (count = 12): iSVG[] =>
   svgsData.filter(hasRenderableRoute).slice(0, count);
 
+import { FAMOUS_BRAND_TITLES } from "@/lib/shop/free-titles";
+
 /** Well-known brands for homepage hero — order reflects recognition. */
-const FAMOUS_BRAND_TITLES = [
-  "Apple",
-  "Google",
-  "Microsoft",
-  "NVIDIA",
-  "Meta",
-  "Amazon Web Services",
-  "Netflix",
-  "Spotify",
-  "YouTube",
-  "GitHub",
-  "OpenAI",
-  "Stripe",
-  "Facebook",
-  "Instagram",
-  "TikTok",
-  "LinkedIn",
-  "Twitter",
-  "Discord",
-  "Adobe",
-  "Figma",
-  "Notion",
-  "Slack",
-  "PayPal",
-  "Anthropic",
-] as const;
+export { FAMOUS_BRAND_TITLES };
 
 /** Resolve library entries by exact title (skips missing). */
 export const getSvgsByTitles = (titles: readonly string[]): iSVG[] => {

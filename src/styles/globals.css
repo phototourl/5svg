@@ -24,6 +24,10 @@
 }
 
 @theme {
+  /* EditStamp-aligned page chrome (nav frost samples these) */
+  --color-background: var(--background);
+  --color-muted: var(--muted);
+
   /* 5SVG Green + Brown — src/brand.ts */
   --color-brand: #15803d;
   --color-brand-hover: #166534;
@@ -44,8 +48,15 @@
     "Liberation Mono", "Courier New", monospace, "Apple Color Emoji";
 }
 
-/* Promo/CTA colors stay vivid; page content uses neutral + dark: */
+:root {
+  --background: oklch(1 0 0);
+  --muted: oklch(0.9702 0 0);
+}
+
+/* Promo/CTA colors stay vivid; page chrome matches EditStamp dark bg/muted */
 .dark {
+  --background: oklch(0.1591 0 0);
+  --muted: oklch(0.2686 0 0);
   --color-brand: #22c55e;
   --color-brand-hover: #16a34a;
   --color-brand-energy: #6b5344;

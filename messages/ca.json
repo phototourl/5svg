@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Canvia l’idioma",
+    "languageSelect": {
+      "title": "Tria el teu idioma",
+      "subtitle": "Tria l’idioma de la interfície del lloc.",
+      "close": "Tanca"
+    },
+    "nav": {
+      "home": "Inici",
+      "freeSvg": "SVG gratuït",
+      "svgBundles": "Packs SVG",
+      "shopNow": "Botiga",
+      "allFreeSvg": "Tots els SVG gratuïts",
+      "allBundles": "Tots els packs",
+      "licensing": "Política de llicències",
+      "contact": "Contacteu-nos",
+      "bundles": "Packs",
+      "browse": "Explora",
+      "favorites": "Preferits",
+      "extensions": "Extensions",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Cerca a la biblioteca",
+      "openMenu": "Obre el menú"
+    },
+    "sidebar": {
+      "categories": "Categories",
+      "allLogosAz": "Tots els logos A–Z",
+      "submitSvg": "Envia un SVG",
+      "githubRepo": "Repositori de GitHub"
+    },
+    "footer": {
+      "tagline": "Biblioteca SVG gratuïta i paquets craft per a creadors",
+      "product": "Producte",
+      "explore": "Explora",
+      "categories": "Categories",
+      "company": "Empresa",
+      "legal": "Legal",
+      "supportTitle": "Atenció al client",
+      "supportBody": "Preguntes sobre SVG gratuït o paquets de pagament? Envieu-nos un correu — intentem respondre en 1–2 dies laborables.",
+      "exploreLibrary": "Explora la biblioteca",
+      "browseIndex": "Índex A–Z",
+      "home": "Inici",
+      "about": "Sobre",
+      "license": "Política de llicències",
+      "licensingPolicy": "Política de llicències",
+      "privacy": "Política de privadesa",
+      "privacyPolicy": "Política de privadesa",
+      "terms": "Condicions del servei",
+      "termsOfService": "Condicions del servei",
+      "design": "Disseny",
+      "social": "Social",
+      "software": "Programari"
+    },
+    "announcement": {
+      "library": "{count}+ fitxers SVG gratuïts — explora Free SVG",
+      "favorites": "Descarrega · desa preferits · gratuït per a ús personal",
+      "shop": "Paquets SVG des de $4.50 — paga un cop, descarrega el ZIP a l’instant"
+    }
+  },
+  "shop": {
+    "seoTitle": "Paquets SVG — Preus i packs craft | 5SVG",
+    "seoDescription": "Compra paquets craft SVG originals per $4.50 USD cadascun — compra única, descàrrega ZIP instantània. Els logos de marca continuen gratuïts a la biblioteca.",
+    "promo": "Packs per tema $4.50 · Col·lecció completa $9.90. Un pagament, ZIP a l'instant.",
+    "title": "Packs SVG",
+    "subtitle": "Compra un pack per tema, o desbloqueja tots els packs amb una sola compra. Els logos de marca segueixen gratis a la biblioteca.",
+    "allCategories": "Tots",
+    "viewPack": "Veure",
+    "wholeShopBadge": "Millor oferta",
+    "wholeShopSection": "Col·lecció completa",
+    "wholeShopTitle": "Col·lecció completa",
+    "wholeShopLead": "{count} fitxers SVG craft de tots els temes. Una compra desbloqueja tots els packs.",
+    "wholeShopCta": "Compra ara",
+    "themePacksHeading": "Packs per tema",
+    "themePacksLead": "Cada pack és una compra digital única a $4.50, amb uns 20–24 fitxers de tall craft originals (ZIP). Els logos de marca segueixen gratis a la biblioteca.",
+    "empty": "Encara no hi ha packs en aquesta categoria.",
+    "fileCount": "{count} fitxers",
+    "moreFiles": "+{count} més",
+    "freeHint": "Necessites logos de marca gratuïts?",
+    "freeLibraryLink": "Obre la biblioteca gratuïta →",
+    "backToShop": "Tots els paquets",
+    "emailLabel": "Correu per al rebut i la descàrrega",
+    "mockNotice": "Pagament de prova (Creem encara no connectat).",
+    "buyDownload": "Compra i descarrega",
+    "processing": "Redirigint…",
+    "checkoutError": "El pagament ha fallat. Torneu-ho a provar.",
+    "flowHint": "Paga un cop per descarregar el ZIP a l’instant. El rebut s’envia al vostre correu.",
+    "payOverlayTitle": "Confirmant el pagament…",
+    "payOverlayBody": "Espereu mentre verifiquem la vostra compra.",
+    "prepareOverlayTitle": "Preparant la descàrrega…",
+    "prepareOverlayBody": "El ZIP començarà aviat.",
+    "downloadTitle": "La vostra descàrrega",
+    "downloadMissing": "Falta la informació de retorn del pagament. Comenceu de nou des de Paquets.",
+    "downloadFailed": "No s’ha pogut confirmar el pagament.",
+    "downloadSyncing": "Confirmant el pagament…",
+    "downloadReady": "A punt: {title}",
+    "downloadZip": "Descarrega el ZIP",
+    "downloadEmailHint": "També s’ha enviat un enllaç de descàrrega de reserva al correu que heu introduït.",
+    "includesSample": "Inclou (mostra)",
+    "browseCategory": "Explora aquesta categoria →",
+    "license": {
+      "personal": "Ús personal",
+      "commercial": "Llicència craft comercial"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Fitxers SVG gratuïts i paquets craft SVG",
+    "description": "Biblioteca de logos SVG gratuïta més paquets craft SVG de pagament per a creadors. Explora Free SVG en qualsevol moment, o compra packs ZIP originals des de $4.50 per a Cricut, Silhouette, vinil i manualitats.",
+    "keywords": "paquets svg, craft svg, fitxers svg gratuïts, descàrrega svg, cricut svg, silhouette svg, packs svg de pagament, vinil svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Fitxers SVG gratuïts i packs craft",
+      "subtitle": "Explora la nostra biblioteca gratuïta, o compra packs craft originals — packs ZIP digitals des de $4.50, paga un cop, descarrega a l’instant. Pensat per a Cricut, Silhouette, vinil i creadors.",
+      "ctaShop": "Compra packs",
+      "ctaFree": "Biblioteca gratuïta",
+      "marqueeAria": "Explora fitxers SVG a la biblioteca"
+    },
+    "value": {
+      "freeTitle": "Entrega digital instantània",
+      "freeDesc": "Compra un pack i descarrega el ZIP just després del pagament — sense enviament, sense esperes. La biblioteca gratuïta continua gratuïta.",
+      "curatedTitle": "Packs craft des de $4.50",
+      "curatedDesc": "Packs de fitxers de tall originals amb preu USD clar a cada producte. Compra única — conserva els fitxers per a ús craft personal.",
+      "easyTitle": "Atenció al client",
+      "easyDesc": "Preguntes sobre la biblioteca gratuïta, packs o llicències? Envieu un correu a support@5svg.com o feu servir Contacteu-nos — intentem respondre en 1–2 dies laborables."
+    },
+    "shopStrip": {
+      "title": "Packs SVG a la venda",
+      "subtitle": "Packs craft SVG originals — $4.50 cadascun, paga un cop, descarrega el ZIP a l’instant.",
+      "viewAll": "Veure tots els packs →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Fet per a creadors quotidians",
+      "subtitle": "Fes servir logos Free SVG o fitxers de tall dels paquets a Cricut, Silhouette, Canva, samarretes, adhesius i més.",
+      "cutting": "Manualitats de tall",
+      "stickers": "Adhesius i calcomanies",
+      "gifts": "Regals i festa",
+      "labels": "Etiquetes i tags",
+      "print": "Impressió i foto",
+      "personal": "Projectes personals",
+      "iconAlt": "Icona craft de {label}"
+    },
+    "library": {
+      "title": "Què hi ha a la biblioteca",
+      "subtitle": "{count}+ fitxers SVG agrupats per tema — fes servir el menú superior quan vulguis explorar o descarregar.",
+      "browseTitle": "Explora SVG de {name}",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Com funciona",
+      "title": "Biblioteca gratuïta o compra packs",
+      "subtitle": "Explora la biblioteca gratuïta en qualsevol moment — o obre Packs per comprar un pack craft i descarregar el ZIP després del pagament.",
+      "searchTitle": "Explora la biblioteca gratuïta",
+      "searchDesc": "Obre la biblioteca gratuïta, tria una categoria o cerca pel nom — descarrega logos sense compte.",
+      "downloadTitle": "Compra un paquet",
+      "downloadDesc": "Tria un pack craft a Paquets, paga un cop al preu USD indicat i descarrega el ZIP.",
+      "favoritesTitle": "Desa i reutilitza",
+      "favoritesDesc": "Marca preferits Free SVG en aquest dispositiu, o conserva els fitxers de paquets comprats per als teus projectes craft."
+    },
+    "seoIntro": {
+      "tag": "Botiga i biblioteca SVG",
+      "title": "Fitxers SVG gratuïts i paquets craft de pagament per a creadors",
+      "description": "5SVG ven paquets craft SVG originals com a descàrregues ZIP digitals (normalment $4.50 cadascun) i allotja una biblioteca gratuïta de logos de marca. Explora Free SVG en qualsevol moment, o compra paquets per a Cricut, Silhouette, vinil i manualitats del dia a dia."
+    },
+    "seoBlocks": {
+      "whatTag": "Bàsics",
+      "whatTitle": "Què és un fitxer SVG?",
+      "whatBody": "SVG (Scalable Vector Graphics) desa formes i camins com a matemàtiques en lloc de píxels. Això vol dir que logos i icones es mantenen nítids tant si els redueixes per a un adhesiu com si els amplies per a un pòster.",
+      "whatB1": "Escala a qualsevol mida sense borrositat",
+      "whatB2": "Format habitual per a logos, icones i il·lustracions senzilles",
+      "whatB3": "Compatible amb navegadors, programari de disseny i talladores de vinil",
+      "whatAlt": "5SVG — milions de vectors SVG d’alta qualitat i categories",
+      "usesTag": "Usos",
+      "usesTitle": "Què pots fer amb fitxers SVG?",
+      "usesBody": "Els SVG són un punt de partida pràctic per a projectes personals — mockups, aprendre disseny, manualitats de festa i fluxos de creadors on cal un vector net que es pugui redimensionar.",
+      "usesB1": "Talla calcomanies de vinil amb Cricut o Silhouette",
+      "usesB2": "Afegeix icones a Canva, Figma o PowerPoint",
+      "usesB3": "Imprimeix samarretes, etiquetes i decoració de festa a casa",
+      "usesB4": "Crea mood boards i projectes escolars amb logos de marca reals",
+      "usesAlt": "5SVG — dissenya, construeix i presenta amb kits d’UI i icones d’app",
+      "getTag": "Obtén fitxers",
+      "getTitle": "Com obtenir fitxers SVG de 5SVG",
+      "getBody": "Explora Free SVG en qualsevol moment — cerca o tria una categoria, després copia o descarrega. Per comprar packs craft, obre Paquets, tria un producte al preu USD indicat i descarrega el ZIP després del pagament.",
+      "getB1": "Explora Free SVG — sense registre",
+      "getB2": "O compra packs ZIP craft originals",
+      "getB3": "Paga un cop i descarrega el ZIP",
+      "getB4": "Consulta Llicència i Condicions abans d’ús craft comercial",
+      "getAlt": "5SVG — la cerca de vectors més ràpida a tots els dispositius"
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "subtitle": "Què venem, preus, entrega, reemborsaments i suport.",
+      "lead": "5SVG ven paquets craft SVG digitals (descàrregues ZIP) a preus USD clars a la pàgina de Paquets. La biblioteca de logos Free SVG continua gratuïta. Els pagaments els processa Creem.",
+      "q1": "Què veneu?",
+      "a1": "Venem paquets craft SVG originals — packs ZIP digitals de fitxers de tall per a creadors (Cricut, Silhouette, vinil, samarretes). No venem béns físics. Els logos de marca a Free SVG són gratuïts i no es venen com a productes de pagament.",
+      "q2": "Quant costa un paquet?",
+      "a2": "Cada paquet craft sol ser $4.50 USD com a compra única. Els preus exactes es mostren a https://5svg.com/shop i a cada pàgina de producte abans de pagar.",
+      "q3": "Com s’entrega el producte?",
+      "a3": "L’entrega és 100% digital i instantània després d’un pagament correcte. Sense enviament. Feu servir un correu vàlid al pagament per al rebut.",
+      "q4": "Cal un compte o instal·lar programari?",
+      "a4": "No cal compte per explorar Free SVG o comprar paquets. Els preferits es queden al navegador. Importa SVG a Cricut Design Space, Silhouette Studio, Canva o qualsevol app amb vectors — no cal instal·lar res nostre.",
+      "q5": "Quina llicència rebo?",
+      "a5": "Els paquets inclouen una llicència craft personal. No podeu revendre ni redistribuir el ZIP ni fitxers individuals. Els logos Free SVG continuen sent marques dels seus titulars — consulteu les guies de marca abans d’ús comercial. Vegeu les pàgines de Llicència i Condicions del servei.",
+      "q6": "Puc obtenir un reemborsament?",
+      "a6": "Com que els paquets són descàrregues digitals, generalment no oferim reemborsaments un cop el ZIP s’ha entregat i continua disponible per a ús normal. Si la descàrrega falla per un problema nostre, envieu un correu a support@5svg.com i ho revisarem després de verificar-ho.",
+      "q7": "On són la Política de privadesa i les Condicions del servei?",
+      "a7": "Política de privadesa: https://5svg.com/privacy — Condicions del servei: https://5svg.com/terms — Llicència: https://5svg.com/license. Els enllaços també són al peu del lloc.",
+      "q8": "Com contacto amb el suport?",
+      "a8": "Envieu un correu a support@5svg.com o feu servir la pàgina Contacteu-nos. Intentem respondre en 1–2 dies laborables (en 3 dies laborables per a temes de facturació).",
+      "contactBefore": "Per a les preguntes anteriors i altres, feu servir la pàgina ",
+      "contactLink": "Contacteu-nos",
+      "contactMiddle": " d’aquest lloc o envieu un correu a ",
+      "contactAfter": ". Intentem respondre en 1–2 dies laborables."
+    },
+    "about": {
+      "title": "Sobre 5SVG",
+      "p1": "5SVG és una biblioteca gratuïta de logos i icones SVG més una botiga de paquets craft SVG originals. Els productes de pagament són només descàrregues ZIP digitals — normalment $4.50 USD cadascun, compra única, amb preus a la pàgina de Paquets.",
+      "p2": "Explora Free SVG en qualsevol moment, o obre Paquets per a packs de tall estacionals i quotidians per a Cricut, Silhouette, vinil i creadors. Suport: support@5svg.com. Legal: Política de privadesa, Condicions del servei i pàgines de Llicència al peu.",
+      "logoAlt": "Logo de la biblioteca SVG gratuïta i paquets craft de 5SVG"
+    },
+    "bannerAlt": "5SVG — Fitxers SVG gratuïts i paquets craft SVG"
+  },
+  "ContactPage": {
+    "title": "Contacteu-nos",
+    "description": "Contacteu 5SVG per a Free SVG, paquets, llicències o comentaris. Intentem respondre en 1–2 dies laborables.",
+    "subtitle": "Som aquí per ajudar amb Free SVG, paquets craft i preguntes de llicència.",
+    "introShort": "Tens una pregunta o un comentari? Omple el formulari i et respondrem aviat.",
+    "whyTitle": "De què ens pots contactar",
+    "why1": "Biblioteca Free SVG: exploració, descàrrega o preguntes de marques",
+    "why2": "Paquets SVG: compres, descàrregues o contingut del pack",
+    "why3": "Preguntes de llicència i ús comercial",
+    "why4": "Comentaris, col·laboracions o denúncia d’abusos",
+    "expectTitle": "Què esperar",
+    "expectContent": "Llegim cada missatge i intentem respondre en 1–2 dies laborables. Per a temes urgents, incloeu un assumpte clar i el màxim de detalls possible.",
+    "orEmail": "O envieu-nos un correu a",
+    "form": {
+      "title": "Envia un missatge",
+      "description": "Preguntes sobre Free SVG, paquets o comentaris? Omple el formulari i respondrem tan aviat com puguem.",
+      "name": "Nom",
+      "email": "Correu",
+      "message": "Missatge",
+      "namePlaceholder": "El teu nom",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "El teu missatge o pregunta...",
+      "submit": "Envia el missatge",
+      "mailtoHint": "L’app de correu s’hauria d’obrir amb el missatge a punt per enviar a support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "La teva descàrrega de 5SVG — {title}",
+      "title": "La teva descàrrega és a punt",
+      "body": "Gràcies per comprar {title} a 5SVG.",
+      "downloadButton": "Descarrega el ZIP",
+      "linkFallback": "O copia aquest enllaç de descàrrega de reserva:",
+      "note": "Si el fitxer no s’ha descarregat automàticament després del pagament, obre aquest enllaç una altra vegada per descarregar.",
+      "textIntro": "Gràcies per la compra de {title}.",
+      "textDownload": "Descarrega el teu ZIP (enllaç de reserva):",
+      "textSupport": "Suport: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Sobre 5SVG — Biblioteca SVG gratuïta i paquets craft",
+      "description": "5SVG és una biblioteca independent de logos SVG gratuïts i una botiga de paquets craft SVG originals. Només descàrregues digitals — preus clars a la pàgina de Paquets.",
+      "h1": "Sobre 5SVG",
+      "sections": [
+        {
+          "h2": "Què oferim",
+          "body": "5SVG allotja una biblioteca gratuïta de logos i icones SVG de marca, més paquets craft SVG de pagament venuts com a descàrregues ZIP digitals úniques. Free SVG continua gratuït. Els paquets són packs de fitxers de tall originals per a creadors (Cricut, Silhouette, vinil, samarretes)."
+        },
+        {
+          "h2": "Què venem",
+          "body": "A través de Paquets només venem packs craft SVG digitals — normalment $4.50 USD cadascun, paga un cop, descàrrega ZIP instantània després del pagament. No venem béns físics. Els packs i preus actuals són a la pàgina de Paquets (/shop)."
+        },
+        {
+          "h2": "Qui som",
+          "body": "5SVG és un projecte independent. No estem afiliats, avalats ni patrocinats per les marques els logos de les quals apareixen a la biblioteca gratuïta. Els paquets de pagament són dissenys craft originals que muntem o creem per a ús craft personal."
+        },
+        {
+          "h2": "Suport",
+          "body": "Correu d’atenció al client: support@5svg.com. Intentem respondre en 1–2 dies laborables. També podeu fer servir la pàgina Contacteu-nos d’aquest lloc."
+        }
+      ]
+    },
+    "license": {
+      "title": "Política de llicències — 5SVG",
+      "description": "Com podeu fer servir els fitxers Free SVG i els paquets craft de pagament a 5SVG, incloses les marques i l’ús craft personal.",
+      "h1": "Política de llicències",
+      "sections": [
+        {
+          "h2": "Introducció",
+          "body": "Aquesta Política de llicències explica com podeu fer servir materials de 5SVG. En descarregar fitxers Free SVG o comprar paquets, accepteu aquesta política, les Condicions del servei i la Política de privadesa."
+        },
+        {
+          "h2": "Biblioteca Free SVG",
+          "body": "Els logos i icones de marca a Free SVG són gratuïts per explorar, copiar i descarregar per a projectes personals, educació i mockups. L’ús comercial de marques pot requerir encara el permís del titular. Els fitxers Free SVG no es venen com a productes de pagament."
+        },
+        {
+          "h2": "Paquets de pagament (packs craft)",
+          "body": "Els packs SVG craft venuts sota Paquets es llicenciïn per a projectes craft personals (per exemple tall, vinil, samarretes, adhesius i ús similar de creadors). No podeu revendre, redistribuir, compartir ni tornar a pujar el ZIP digital ni fitxers SVG individuals com a productes digitals independents."
+        },
+        {
+          "h2": "Propietat intel·lectual",
+          "body": "Els dissenys craft originals dels paquets de pagament són propietat de 5SVG o estan llicenciats per a la venda. Els logos i wordmarks de marca Free SVG continuen sent propietat dels seus titulars. 5SVG no reclama la propietat de marques de tercers mostrades a la biblioteca gratuïta."
+        },
+        {
+          "h2": "Marques",
+          "body": "Els logos i wordmarks continuen sent marques dels seus titulars. 5SVG no està afiliat ni avalat per aquestes marques. No venem logos de marca amb marca registrada com a productes de pagament."
+        },
+        {
+          "h2": "Sense garantia",
+          "body": "Els fitxers es proporcionen tal qual. No garantim la completesa, l’autorització legal per al vostre cas d’ús específic, ni que els actius coincideixin amb les versions oficials més recents de la marca."
+        },
+        {
+          "h2": "Contacteu-nos",
+          "body": "Preguntes sobre aquesta Política de llicències: envieu un correu a support@5svg.com o feu servir la pàgina Contacteu-nos d’aquest lloc."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de privadesa — 5SVG",
+      "description": "Com protegim les vostres dades quan feu servir 5SVG",
+      "h1": "Política de privadesa",
+      "sections": [
+        {
+          "h2": "Introducció",
+          "body": "Benvinguts a la Política de privadesa de 5SVG. Aquest document explica com recopilem, fem servir i protegim la vostra informació personal quan utilitzeu el lloc web 5SVG, la biblioteca Free SVG i la botiga de paquets craft."
+        },
+        {
+          "h2": "Informació que recopilem",
+          "body": "Podem recopilar aquests tipus d’informació: (1) Dades de contacte que proporcioneu — com el correu al pagament d’un paquet per al rebut i la descàrrega, o missatges enviats via Contacteu-nos. (2) Dades d’ús — com interactueu amb el lloc (per exemple pàgines visitades), quan l’analítica està activa. (3) Informació del dispositiu — com el tipus de navegador o dades tècniques aproximades per operar i assegurar el servei. Els preferits que deseu es guarden localment al navegador; no rebem la llista desada als nostres servidors."
+        },
+        {
+          "h2": "Com fem servir la vostra informació",
+          "body": "Fem servir la vostra informació per proporcionar i mantenir la biblioteca Free SVG i la botiga de paquets; entregar descàrregues ZIP de pagament i rebuts relacionats; oferir atenció al client; millorar el lloc; monitorar l’ús; i detectar, prevenir i abordar problemes tècnics o d’abús."
+        },
+        {
+          "h2": "Pagaments",
+          "body": "Els pagaments dels paquets els processa el nostre proveïdor de pagaments (Creem). Les dades de targeta les gestiona el proveïdor — no desem números complets de targeta als servidors de 5SVG."
+        },
+        {
+          "h2": "Galetes i emmagatzematge",
+          "body": "El lloc pot fer servir galetes o emmagatzematge local per a la preferència de tema, idioma, preferits i analítica. Podeu esborrar les dades del lloc a la configuració del navegador en qualsevol moment. Bloquejar algunes galetes pot limitar certes funcions."
+        },
+        {
+          "h2": "Seguretat de les dades",
+          "body": "Implementem mesures de seguretat adequades per protegir la informació personal d’accés, alteració, divulgació o destrucció no autoritzats. Cap mètode de transmissió per Internet és 100% segur."
+        },
+        {
+          "h2": "Serveis de tercers",
+          "body": "Podem fer servir empreses de tercers per facilitar pagaments, enviament de correu, analítica o allotjament. Els enllaços sortints i les insígnies incrustades es regeixen per les polítiques d’aquells llocs."
+        },
+        {
+          "h2": "Canvis a aquesta Política de privadesa",
+          "body": "Podem actualitzar aquesta Política de privadesa de tant en tant. Notificarem els canvis publicant la política actualitzada en aquesta pàgina."
+        },
+        {
+          "h2": "Contacteu-nos",
+          "body": "Si teniu preguntes sobre aquesta Política de privadesa, envieu un correu a support@5svg.com o feu servir la pàgina Contacteu-nos d’aquest lloc."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Condicions del servei — 5SVG",
+      "description": "Condicions per fer servir el lloc web 5SVG i comprar paquets craft SVG",
+      "h1": "Condicions del servei",
+      "sections": [
+        {
+          "h2": "Introducció",
+          "body": "Aquestes Condicions del servei («Condicions») regulen l’ús del lloc web 5SVG, la biblioteca Free SVG i la botiga de paquets. En accedir a 5SVG.com o comprar un paquet, accepteu aquestes Condicions, la Política de privadesa i la Política de llicències. Si no hi esteu d’acord, no feu servir el lloc ni compreu paquets."
+        },
+        {
+          "h2": "Ús dels serveis",
+          "body": "Els nostres serveis es proporcionen «tal qual» i «segons disponibilitat» sense garanties de cap mena, explícites o implícites. No garantim que el lloc sigui ininterromput, segur o sense errors. Podeu explorar Free SVG sense compte. Comprar paquets requereix un correu vàlid al pagament."
+        },
+        {
+          "h2": "Productes que venem",
+          "body": "5SVG ven paquets craft SVG digitals (descàrregues ZIP de fitxers de tall originals) com a compres úniques. Els preus es mostren en USD a cada pàgina de paquet (normalment $4.50 per pack). La biblioteca de logos SVG gratuïta no és un producte de pagament. No venem béns físics ni packs de logos de marca de tercers com a productes de pagament."
+        },
+        {
+          "h2": "Preus i pagament",
+          "body": "Els preus dels paquets es mostren a https://5svg.com/shop i a cada pàgina de producte abans del pagament. El pagament el processa Creem (Merchant of Record). Sou responsables de proporcionar un correu vàlid al pagament perquè puguem entregar la descàrrega i el rebut."
+        },
+        {
+          "h2": "Entrega",
+          "body": "Els paquets s’entreguen només digitalment. Després d’un pagament correcte rebeu la descàrrega del ZIP, i se us pot enviar un enllaç de reserva per correu. No hi ha enviament d’articles físics."
+        },
+        {
+          "h2": "Propietat intel·lectual",
+          "body": "Els paquets comprats es llicenciïn per a ús craft personal segons la Política de llicències. No podeu revendre, redistribuir ni compartir el ZIP o fitxers individuals com a productes digitals independents. Els logos de marca Free SVG continuen subjectes als drets dels titulars de marques. El contingut del lloc, la marca i els dissenys craft originals estan protegits per les lleis de propietat intel·lectual aplicables."
+        },
+        {
+          "h2": "Activitats prohibides",
+          "body": "Accepteu no: fer servir el lloc de manera que vulneri la llei aplicable; intentar accés no autoritzat als nostres sistemes; fer scraping o sobrecarregar el servei de manera que en perjudiqui la disponibilitat; distribuir programari maliciós; o fer servir fitxers descarregats vulnerant aquestes Condicions o la Política de llicències."
+        },
+        {
+          "h2": "Reemborsaments",
+          "body": "Com que els paquets són descàrregues digitals, generalment no oferim reemborsaments un cop el ZIP s’ha entregat i continua disponible per a ús normal. Si no podeu descarregar per un error nostre, envieu un correu a support@5svg.com en un termini raonable; ho revisarem després de verificar-ho i, si escau, oferirem una nova descàrrega o un altre remei."
+        },
+        {
+          "h2": "Limitació de responsabilitat",
+          "body": "En cap cas 5SVG no serà responsable de danys indirectes, incidentals, especials, conseqüents o punitius derivats del vostre ús o de la impossibilitat d’usar el lloc o els fitxers descarregats."
+        },
+        {
+          "h2": "Canvis a les Condicions",
+          "body": "Ens reservem el dret de modificar aquestes Condicions en qualsevol moment. Si fem canvis, ho notificarem publicant les Condicions actualitzades en aquesta pàgina."
+        },
+        {
+          "h2": "Contacteu-nos",
+          "body": "Si teniu preguntes sobre aquestes Condicions, envieu un correu a support@5svg.com o feu servir la pàgina Contacteu-nos. Intentem respondre en 1–2 dies laborables (i en 3 dies laborables per a temes de facturació)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Cerca...",
+    "sortAz": "Ordena A–Z",
+    "sortLatest": "Ordena per més recents",
+    "accept": "Accepta",
+    "logos": "logos",
+    "azIndex": "Índex A–Z",
+    "clearSearch": "Esborra la cerca",
+    "searchResults": "resultats de cerca",
+    "svgs": "SVG",
+    "showAll": "Mostra-ho tot",
+    "showLess": "Mostra’n menys",
+    "showMore": "Mostra’n més",
+    "copySvg": "Copia l’SVG",
+    "copyDisclaimer": "Assegureu-vos que teniu el permís dels creadors abans d'utilitzar l'SVG. No es permeten modificacions."
+  },
+  "HeroTabs": {
+    "brands": "Marques",
+    "browse": "Explora",
+    "ai": "IA",
+    "design": "Disseny",
+    "social": "Social",
+    "aria": "Previsualitzacions de logos"
+  },
+  "WarningBanner": {
+    "body": "Els actius SVG es proporcionen com a referència. Sou responsables de verificar marques i drets d’ús abans de fer-los servir als vostres projectes.",
+    "accept": "Accepta"
+  },
+  "NotFound": {
+    "title": "SVG no trobat",
+    "inCategory": "\"{title}\" no trobat a la categoria \"{category}\"",
+    "plain": "\"{title}\" no trobat",
+    "searchGlobally": "Cerca global",
+    "requestSvg": "Sol·licita un SVG",
+    "submitSvg": "Envia un SVG"
+  },
+  "LibraryPage": {
+    "title": "Biblioteca SVG gratuïta — Explora icones i logos de marca | 5SVG",
+    "description": "Explora i descarrega icones i logos SVG gratuïts. Cerca pel nom, filtra per categoria, ordena A–Z i copia o descarrega fitxers — sense registre.",
+    "h1": "Biblioteca d’icones i logos SVG gratuïts",
+    "lead": "Cerca icones SVG gratuïtes pel nom o la categoria, després descarrega fitxers SVG vectorials per a disseny, craft, Cricut i la web.",
+    "sections": {
+      "search": {
+        "h2": "Cerca icones i logos SVG gratuïts",
+        "body": "Fes servir la barra de cerca per trobar fitxers SVG per marca o títol. Ordena A–Z o explora els logos vectorials més nous de la biblioteca.",
+        "h3": "Troba SVG gratuïts pel nom, la marca o la categoria"
+      },
+      "download": {
+        "h2": "Descarrega i fes servir fitxers SVG vectorials",
+        "body": "Obre qualsevol targeta per copiar el codi SVG o descarregar el fitxer optimitzat. Desa icones SVG a la teva col·lecció per a un accés ràpid.",
+        "h3": "Copia, descarrega o marca icones SVG"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Explora tots els logos SVG A–Z — Índex d’icones gratuït | 5SVG",
+    "description": "Índex alfabètic de cada logo i icona SVG gratuïts a 5SVG. Salta a qualsevol pàgina de detall per copiar o descarregar fitxers vectorials.",
+    "h1": "Explora tots els logos SVG",
+    "lead": "Índex A–Z complet de logos de marca SVG gratuïts a la biblioteca principal. Cada enllaç obre una pàgina de detall amb còpia, descàrrega i notes de llicència.",
+    "logosCount": "({count} logos)",
+    "backLibrary": "← Biblioteca interactiva",
+    "popularBrands": "Marques populars",
+    "categories": "Categories"
+  },
+  "FavoritesPage": {
+    "title": "Preferits",
+    "clearAll": "Esborra-ho tot",
+    "emptyTitle": "Encara no hi ha preferits",
+    "emptyBody": "Comença a afegir SVG als preferits fent clic a la icona del cor de qualsevol SVG.",
+    "browseSvgs": "Explora SVG"
+  }
+}

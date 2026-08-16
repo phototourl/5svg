@@ -1,0 +1,494 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Skift sprog",
+    "languageSelect": {
+      "title": "Vælg sprog",
+      "subtitle": "Vælg sprog til webstedets brugerflade.",
+      "close": "Luk"
+    },
+    "nav": {
+      "home": "Hjem",
+      "freeSvg": "Gratis SVG",
+      "svgBundles": "SVG-pakker",
+      "shopNow": "Butik",
+      "allFreeSvg": "Alle gratis SVG",
+      "allBundles": "Alle pakker",
+      "licensing": "Licenspolitik",
+      "contact": "Kontakt os",
+      "bundles": "Pakker",
+      "browse": "Gennemse",
+      "favorites": "Favoritter",
+      "extensions": "Udvidelser",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Søg i biblioteket",
+      "openMenu": "Åbn menu"
+    },
+    "sidebar": {
+      "categories": "Kategorier",
+      "allLogosAz": "Alle logoer A–Å",
+      "submitSvg": "Indsend SVG",
+      "githubRepo": "GitHub-arkiv"
+    },
+    "footer": {
+      "tagline": "Gratis SVG-bibliotek og craft Bundles til makers",
+      "product": "Produkt",
+      "explore": "Udforsk",
+      "categories": "Kategorier",
+      "company": "Virksomhed",
+      "legal": "Juridisk",
+      "supportTitle": "Kundesupport",
+      "supportBody": "Spørgsmål om gratis SVG eller betalte Bundles? Skriv til os — vi svarer inden for 1–2 hverdage.",
+      "exploreLibrary": "Udforsk biblioteket",
+      "browseIndex": "A–Å-indeks",
+      "home": "Hjem",
+      "about": "Om os",
+      "license": "Licenspolitik",
+      "licensingPolicy": "Licenspolitik",
+      "privacy": "Privatlivspolitik",
+      "privacyPolicy": "Privatlivspolitik",
+      "terms": "Servicevilkår",
+      "termsOfService": "Servicevilkår",
+      "design": "Design",
+      "social": "Social",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ gratis SVG-filer — gennemse Free SVG",
+      "favorites": "Download · gem favoritter · gratis til personlig brug",
+      "shop": "SVG Bundles fra $4.50 — betal én gang, øjeblikkelig ZIP-download"
+    },
+    "showAll": "Vis alle",
+    "showLess": "Vis mindre",
+    "showMore": "Vis mere",
+    "copySvg": "Kopiér SVG"
+  },
+  "shop": {
+    "seoTitle": "SVG Bundles — Priser og craft-pakker | 5SVG",
+    "seoDescription": "Køb originale craft SVG Bundles for $4.50 USD stykket — engangskøb, øjeblikkelig ZIP-download. Gratis brandlogoer forbliver gratis i biblioteket.",
+    "promo": "Temapakker $4.50 · Komplet samling $9.90. Én betaling, ZIP med det samme.",
+    "title": "SVG-pakker",
+    "subtitle": "Køb en temapakke, eller lås alle pakker op med ét køb. Brandlogoer forbliver gratis i biblioteket.",
+    "allCategories": "Alle",
+    "viewPack": "Se",
+    "wholeShopBadge": "Bedste værdi",
+    "wholeShopSection": "Komplet samling",
+    "wholeShopTitle": "Komplet samling",
+    "wholeShopLead": "{count} craft-SVG fra hvert tema. Et køb låser alle pakker op.",
+    "wholeShopCta": "Køb nu",
+    "themePacksHeading": "Temapakker",
+    "themePacksLead": "Hver pakke er et engangskøb digitalt til $4.50 med ca. 20–24 originale craft-skærefiler (ZIP). Brandlogoer forbliver gratis i biblioteket.",
+    "empty": "Ingen pakker i denne kategori endnu.",
+    "fileCount": "{count} filer",
+    "moreFiles": "+{count} mere",
+    "freeHint": "Har du brug for gratis brandlogoer?",
+    "freeLibraryLink": "Åbn gratis bibliotek →",
+    "backToShop": "Alle pakker",
+    "emailLabel": "E-mail til kvittering og download",
+    "mockNotice": "Mock-checkout (Creem er endnu ikke tilsluttet).",
+    "buyDownload": "Køb og download",
+    "processing": "Omdirigerer…",
+    "checkoutError": "Checkout mislykkedes. Prøv igen.",
+    "flowHint": "Betal én gang for øjeblikkelig ZIP-download. Kvittering sendes til din e-mail.",
+    "payOverlayTitle": "Bekræfter betaling…",
+    "payOverlayBody": "Vent mens vi verificerer dit køb.",
+    "prepareOverlayTitle": "Forbereder din download…",
+    "prepareOverlayBody": "Din ZIP starter snart.",
+    "downloadTitle": "Din download",
+    "downloadMissing": "Manglende returinfo fra betaling. Start forfra fra Bundles.",
+    "downloadFailed": "Kunne ikke bekræfte betaling.",
+    "downloadSyncing": "Bekræfter betaling…",
+    "downloadReady": "Klar: {title}",
+    "downloadZip": "Download ZIP",
+    "downloadEmailHint": "Et backup-downloadlink er også sendt til den e-mail, du indtastede.",
+    "includesSample": "Indeholder (eksempel)",
+    "browseCategory": "Gennemse denne kategori →",
+    "license": {
+      "personal": "Personlig brug",
+      "commercial": "Kommerciel craft-licens"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Gratis SVG-filer og craft SVG Bundles",
+    "description": "Gratis SVG-logobibliotek plus betalte craft SVG Bundles til makers. Gennemse Free SVG når som helst, eller køb originale ZIP-pakker fra $4.50 til Cricut, Silhouette, vinyl og craft.",
+    "keywords": "svg bundles, craft svg, gratis svg-filer, svg-download, cricut svg, silhouette svg, betalte svg-pakker, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Gratis SVG-filer og craft-pakker",
+      "subtitle": "Gennemse vores gratis bibliotek, eller køb originale craft-pakker — digitale ZIP-pakker fra $4.50, betal én gang, download med det samme. Til Cricut, Silhouette, vinyl og skabere.",
+      "ctaShop": "Køb pakker",
+      "ctaFree": "Gratis bibliotek",
+      "marqueeAria": "Gennemse SVG-filer i biblioteket"
+    },
+    "value": {
+      "freeTitle": "Øjeblikkelig digital levering",
+      "freeDesc": "Køb en pakke og download din ZIP lige efter betaling — ingen forsendelse, ingen ventetid. Det gratis bibliotek forbliver gratis.",
+      "curatedTitle": "Craft-pakker fra $4.50",
+      "curatedDesc": "Originale skærefilpakker med klar USD-pris på hvert produkt. Engangskøb — behold filerne til personlig craft-brug.",
+      "easyTitle": "Kundesupport",
+      "easyDesc": "Spørgsmål om det gratis bibliotek, pakker eller licenser? Skriv til support@5svg.com eller brug Kontakt os — vi svarer inden for 1–2 hverdage."
+    },
+    "shopStrip": {
+      "title": "SVG-pakker til salg",
+      "subtitle": "Originale craft SVG-pakker — $4.50 stykket, betal én gang, øjeblikkelig ZIP.",
+      "viewAll": "Se alle pakker →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Lavet til hverdagens makers",
+      "subtitle": "Brug Free SVG-logoer eller Bundle-skærefiler i Cricut, Silhouette, Canva, T-shirts, stickers og mere.",
+      "cutting": "Skærehåndværk",
+      "stickers": "Stickers og decals",
+      "gifts": "Gaver og fest",
+      "labels": "Etiketter og tags",
+      "print": "Print og foto",
+      "personal": "Personlige projekter",
+      "iconAlt": "{label} craft-ikon"
+    },
+    "library": {
+      "title": "Hvad er i biblioteket",
+      "subtitle": "{count}+ SVG-filer grupperet efter emne — brug headermenuen, når du er klar til at gennemse eller downloade.",
+      "browseTitle": "Gennemse {name}-SVG",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Sådan virker det",
+      "title": "Gratis bibliotek eller køb pakker",
+      "subtitle": "Gennemse det gratis bibliotek når som helst — eller åbn Pakker for at købe en craft-pakke og downloade ZIP efter betaling.",
+      "searchTitle": "Gennemse gratis bibliotek",
+      "searchDesc": "Åbn det gratis bibliotek, vælg kategori eller søg på navn — download logoer uden konto.",
+      "downloadTitle": "Køb en pakke",
+      "downloadDesc": "Vælg en craft-pakke under Pakker, betal én gang til den angivne USD-pris, og download din ZIP.",
+      "favoritesTitle": "Gem og genbrug",
+      "favoritesDesc": "Hjerte favoritter fra det gratis bibliotek på denne enhed, eller behold købte pakkefiler til dine craft-projekter."
+    },
+    "seoIntro": {
+      "tag": "SVG-butik og bibliotek",
+      "title": "Gratis SVG-filer og betalte craft Bundles til makers",
+      "description": "5SVG sælger originale craft SVG Bundles som digitale ZIP-downloads (typisk $4.50 stykket) og hoster et gratis brandlogo-bibliotek. Gennemse Free SVG når som helst, eller shop Bundles til Cricut, Silhouette, vinyl og hverdags-craft."
+    },
+    "seoBlocks": {
+      "whatTag": "Grundlag",
+      "whatTitle": "Hvad er en SVG-fil?",
+      "whatBody": "SVG (Scalable Vector Graphics) gemmer former og stier som matematik i stedet for pixels. Logoer og ikoner forbliver skarpe, uanset om du formindsker dem til en sticker eller forstørrer dem til en plakat.",
+      "whatB1": "Skaleres til enhver størrelse uden at blive sløret",
+      "whatB2": "Almindeligt format til logoer, ikoner og simple illustrationer",
+      "whatB3": "Understøttet af browsere, designsoftware og vinylskærere",
+      "whatAlt": "5SVG — millioner af SVG-vektorer i høj kvalitet og kategorier",
+      "usesTag": "Anvendelser",
+      "usesTitle": "Hvad kan du gøre med SVG-filer?",
+      "usesBody": "SVG er et praktisk udgangspunkt for personlige projekter — mockups, designlæring, fest-craft og maker-workflows, hvor du har brug for en ren vektor, der kan ændre størrelse.",
+      "usesB1": "Skær vinyldecals med Cricut eller Silhouette",
+      "usesB2": "Læg ikoner ind i Canva, Figma eller PowerPoint",
+      "usesB3": "Print T-shirts, tags og festpynt derhjemme",
+      "usesB4": "Byg moodboards og skoleprojekter med rigtige brandlogoer",
+      "usesAlt": "5SVG — design, byg og præsenter med UI-kits og app-ikoner",
+      "getTag": "Hent filer",
+      "getTitle": "Sådan får du SVG-filer fra 5SVG",
+      "getBody": "Gennemse Free SVG når som helst — søg eller vælg kategori, kopiér eller download derefter. Til craft-pakker åbner du Bundles, vælger et produkt til den angivne USD-pris og downloader ZIP efter betaling.",
+      "getB1": "Gennemse Free SVG — ingen tilmelding",
+      "getB2": "Eller shop Bundles med originale craft ZIP-pakker",
+      "getB3": "Betal én gang, download derefter din ZIP",
+      "getB4": "Tjek License og Terms før kommerciel craft-brug",
+      "getAlt": "5SVG — hurtigste vektorsøgning på alle enheder"
+    },
+    "faq": {
+      "title": "Ofte stillede spørgsmål",
+      "subtitle": "Hvad vi sælger, priser, levering, refusioner og support.",
+      "lead": "5SVG sælger digitale craft SVG Bundles (ZIP-downloads) til klare USD-priser på Bundles-siden. Free SVG-logobiblioteket forbliver gratis. Betalinger behandles af Creem.",
+      "q1": "Hvad sælger I?",
+      "a1": "Vi sælger originale craft SVG Bundles — digitale ZIP-pakker med skærefiler til makers (Cricut, Silhouette, vinyl, T-shirts). Vi sælger ikke fysiske varer. Gratis brandlogoer i Free SVG er gratis og sælges ikke som betalte produkter.",
+      "q2": "Hvad koster en Bundle?",
+      "a2": "Hver craft Bundle koster typisk $4.50 USD som engangskøb. Præcise priser vises på https://5svg.com/shop og på hver produktside før betaling.",
+      "q3": "Hvordan leveres produktet?",
+      "a3": "Levering er 100 % digital og øjeblikkelig efter vellykket betaling. Ingen forsendelse. Brug en gyldig e-mail ved checkout til din kvittering.",
+      "q4": "Skal jeg have en konto eller installere software?",
+      "a4": "Ingen konto kræves for at gennemse Free SVG eller købe Bundles. Favoritter forbliver i din browser. Importér SVG til Cricut Design Space, Silhouette Studio, Canva eller enhver vektorklar app — intet at installere fra os.",
+      "q5": "Hvilken licens får jeg?",
+      "a5": "Bundles inkluderer en personlig craft-licens. Du må ikke videresælge eller redistribuere ZIP eller enkelte filer. Free SVG-logoer forbliver varemærker hos deres ejere — tjek brandretningslinjer før kommerciel brug. Se vores sider License og Terms of Service.",
+      "q6": "Kan jeg få refusion?",
+      "a6": "Fordi Bundles er digitale downloads, tilbyder vi generelt ikke refusion, når ZIP er leveret og forbliver tilgængelig til normal brug. Hvis download fejler på grund af et problem hos os, skriv til support@5svg.com — vi vurderer efter verifikation.",
+      "q7": "Hvor er Privacy Policy og Terms of Service?",
+      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Links findes også i sidefoden.",
+      "q8": "Hvordan kontakter jeg support?",
+      "a8": "Skriv til support@5svg.com eller brug siden Kontakt os. Vi svarer inden for 1–2 hverdage (inden for 3 hverdage ved faktureringsspørgsmål).",
+      "contactBefore": "For ovenstående og andre spørgsmål, brug ",
+      "contactLink": "Kontakt os",
+      "contactMiddle": "-siden på dette websted eller skriv til ",
+      "contactAfter": ". Vi svarer inden for 1–2 hverdage."
+    },
+    "about": {
+      "title": "Om 5SVG",
+      "p1": "5SVG er et gratis SVG-logo- og ikonbibliotek plus en butik for originale craft SVG Bundles. Betalte produkter er kun digitale ZIP-downloads — typisk $4.50 USD stykket, engangskøb, med priser på Bundles-siden.",
+      "p2": "Gennemse Free SVG når som helst, eller åbn Bundles for sæson- og hverdagspakker til Cricut, Silhouette, vinyl og makers. Support: support@5svg.com. Juridisk: Privacy Policy, Terms of Service og License i sidefoden.",
+      "logoAlt": "5SVG gratis SVG-logobibliotek og craft Bundles-logo"
+    },
+    "bannerAlt": "5SVG — Gratis SVG-filer og craft SVG Bundles"
+  },
+  "ContactPage": {
+    "title": "Kontakt os",
+    "description": "Kontakt 5SVG om Free SVG, Bundles, licenser eller feedback. Vi svarer inden for 1–2 hverdage.",
+    "subtitle": "Vi hjælper med Free SVG, craft Bundles og licensspørgsmål.",
+    "introShort": "Har du et spørgsmål eller feedback? Udfyld formularen nedenfor, så vender vi tilbage snart.",
+    "whyTitle": "Hvad du kan kontakte os om",
+    "why1": "Free SVG-bibliotek: gennemsyn, download eller varemærkespørgsmål",
+    "why2": "SVG Bundles: køb, downloads eller pakkeindhold",
+    "why3": "Licens og kommerciel brug",
+    "why4": "Feedback, partnerskaber eller anmeldelse af misbrug",
+    "expectTitle": "Hvad du kan forvente",
+    "expectContent": "Vi læser hver besked og sigter efter svar inden for 1–2 hverdage. Ved akutte sager: klart emne og så mange detaljer som muligt.",
+    "orEmail": "Eller skriv til os på",
+    "form": {
+      "title": "Send en besked",
+      "description": "Spørgsmål om Free SVG, Bundles eller feedback? Udfyld formularen, så svarer vi hurtigst muligt.",
+      "name": "Navn",
+      "email": "E-mail",
+      "message": "Besked",
+      "namePlaceholder": "Dit navn",
+      "emailPlaceholder": "din@email.com",
+      "messagePlaceholder": "Din besked eller dit spørgsmål...",
+      "submit": "Send besked",
+      "mailtoHint": "Din e-mailapp bør åbne med beskeden klar til support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Din 5SVG-download — {title}",
+      "title": "Din download er klar",
+      "body": "Tak fordi du købte {title} på 5SVG.",
+      "downloadButton": "Download ZIP",
+      "linkFallback": "Eller kopiér dette backup-downloadlink:",
+      "note": "Hvis filen ikke downloadede automatisk efter betaling, åbn linket igen.",
+      "textIntro": "Tak for dit køb af {title}.",
+      "textDownload": "Download din ZIP (backup-link):",
+      "textSupport": "Support: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Om 5SVG — Gratis SVG-bibliotek og craft Bundles",
+      "description": "5SVG er et uafhængigt gratis SVG-logobibliotek og en butik for originale craft SVG Bundles. Kun digitale downloads — klare priser på Bundles-siden.",
+      "h1": "Om 5SVG",
+      "sections": [
+        {
+          "h2": "Hvad vi tilbyder",
+          "body": "5SVG hoster et gratis bibliotek af SVG-brandlogoer og ikoner samt betalte craft SVG Bundles solgt som engangs digitale ZIP-downloads. Free SVG forbliver gratis. Bundles er originale skærefilpakker til makers (Cricut, Silhouette, vinyl, T-shirts)."
+        },
+        {
+          "h2": "Hvad vi sælger",
+          "body": "Via Bundles sælger vi kun digitale craft SVG-pakker — typisk $4.50 USD stykket, betal én gang, øjeblikkelig ZIP efter betaling. Vi sælger ikke fysiske varer. Aktuelle pakker og priser er på Bundles-siden (/shop)."
+        },
+        {
+          "h2": "Hvem vi er",
+          "body": "5SVG er et uafhængigt projekt. Vi er ikke tilknyttet, godkendt eller sponsoreret af de brands, hvis logoer findes i det gratis bibliotek. Betalte Bundles er originale craft-designs, vi samler eller skaber til personlig craft-brug."
+        },
+        {
+          "h2": "Support",
+          "body": "Kundesupport-e-mail: support@5svg.com. Vi svarer inden for 1–2 hverdage. Du kan også bruge siden Kontakt os på dette websted."
+        }
+      ]
+    },
+    "license": {
+      "title": "Licenspolitik — 5SVG",
+      "description": "Hvordan du må bruge Free SVG-filer og betalte craft Bundles på 5SVG, herunder varemærker og personlig craft-brug.",
+      "h1": "Licenspolitik",
+      "sections": [
+        {
+          "h2": "Introduktion",
+          "body": "Denne Licenspolitik forklarer, hvordan du må bruge materialer fra 5SVG. Ved at downloade Free SVG-filer eller købe Bundles accepterer du denne politik, vores Terms of Service og vores Privacy Policy."
+        },
+        {
+          "h2": "Free SVG-bibliotek",
+          "body": "Brandlogoer og ikoner i Free SVG er gratis at gennemse, kopiere og downloade til personlige projekter, undervisning og mockups. Kommerciel brug af varemærker kan stadig kræve tilladelse fra varemærkeejeren. Free SVG-filer sælges ikke som betalte produkter."
+        },
+        {
+          "h2": "Betalte Bundles (craft-pakker)",
+          "body": "Craft SVG-pakker solgt under Bundles er licenseret til personlige craft-projekter (f.eks. skæring, vinyl, T-shirts, stickers og lignende). Du må ikke videresælge, redistribuere, dele eller genuploade den digitale ZIP eller enkelte SVG-filer som selvstændige digitale produkter."
+        },
+        {
+          "h2": "Immaterielle rettigheder",
+          "body": "Originale craft-designs i betalte Bundles ejes af 5SVG eller er licenseret til os til salg. Free SVG-brandlogoer og ordmærker forbliver deres respektive ejeres ejendom. 5SVG gør ikke krav på ejerskab af tredjeparts-varemærker i det gratis bibliotek."
+        },
+        {
+          "h2": "Varemærker",
+          "body": "Logoer og ordmærker forbliver deres respektive ejeres varemærker. 5SVG er ikke tilknyttet eller godkendt af disse brands. Vi sælger ikke beskyttede brandlogoer som betalte produkter."
+        },
+        {
+          "h2": "Ingen garanti",
+          "body": "Filer leveres som de er. Vi garanterer ikke fuldstændighed, juridisk klarering til din specifikke brug eller at assets matcher de nyeste officielle brandversioner."
+        },
+        {
+          "h2": "Kontakt os",
+          "body": "Spørgsmål om denne Licenspolitik: skriv til support@5svg.com eller brug siden Kontakt os på dette websted."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privatlivspolitik — 5SVG",
+      "description": "Hvordan vi beskytter dine data, når du bruger 5SVG",
+      "h1": "Privatlivspolitik",
+      "sections": [
+        {
+          "h2": "Introduktion",
+          "body": "Velkommen til 5SVG’s Privatlivspolitik. Dette dokument forklarer, hvordan vi indsamler, bruger og beskytter dine personoplysninger, når du bruger 5SVG-webstedet, Free SVG-biblioteket og craft Bundle-butikken."
+        },
+        {
+          "h2": "Oplysninger vi indsamler",
+          "body": "Vi kan indsamle følgende typer oplysninger: (1) Kontaktoplysninger, du angiver — f.eks. e-mail ved Bundle-checkout til kvittering og download, eller beskeder via Kontakt os. (2) Brugsdata — hvordan du interagerer med webstedet (f.eks. besøgte sider), når analytics er aktiveret. (3) Enhedsoplysninger — f.eks. browsertype eller tekniske data til at drive og sikre tjenesten. Favoritter, du gemmer, lagres lokalt i din browser; vi modtager ikke din gemte liste på vores servere."
+        },
+        {
+          "h2": "Hvordan vi bruger oplysningerne",
+          "body": "Vi bruger dine oplysninger til at levere og vedligeholde Free SVG-biblioteket og Bundle-butikken; levere betalte ZIP-downloads og kvitteringer; yde kundesupport; forbedre webstedet; overvåge brug; og opdage, forebygge og håndtere tekniske problemer eller misbrug."
+        },
+        {
+          "h2": "Betalinger",
+          "body": "Betalinger for Bundles behandles af vores betalingsudbyder (Creem). Kortoplysninger håndteres af udbyderen — vi gemmer ikke fulde kortnumre på 5SVG-servere."
+        },
+        {
+          "h2": "Cookies og lagring",
+          "body": "Webstedet kan bruge cookies eller lokal lagring til temapræference, sprog, favoritter og analytics. Du kan til enhver tid rydde webstedsdata i dine browserindstillinger. Blokering af nogle cookies kan begrænse funktioner."
+        },
+        {
+          "h2": "Datasikkerhed",
+          "body": "Vi implementerer passende sikkerhedsforanstaltninger for at beskytte personoplysninger mod uautoriseret adgang, ændring, videregivelse eller ødelæggelse. Ingen overførselsmetode over internettet er 100 % sikker."
+        },
+        {
+          "h2": "Tredjepartstjenester",
+          "body": "Vi kan bruge tredjeparter til betalinger, e-mail, analytics eller hosting. Udgående links og indlejrede badges er underlagt disse websteders politikker."
+        },
+        {
+          "h2": "Ændringer af denne Privatlivspolitik",
+          "body": "Vi kan opdatere denne Privatlivspolitik fra tid til anden. Vi underretter dig om ændringer ved at offentliggøre den opdaterede politik på denne side."
+        },
+        {
+          "h2": "Kontakt os",
+          "body": "Spørgsmål om denne Privatlivspolitik: skriv til support@5svg.com eller brug siden Kontakt os på dette websted."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Servicevilkår — 5SVG",
+      "description": "Vilkår for brug af 5SVG-webstedet og køb af craft SVG Bundles",
+      "h1": "Servicevilkår",
+      "sections": [
+        {
+          "h2": "Introduktion",
+          "body": "Disse Servicevilkår (“Vilkår”) regulerer din brug af 5SVG-webstedet, Free SVG-biblioteket og Bundle-butikken. Ved at tilgå 5SVG.com eller købe en Bundle accepterer du disse Vilkår, vores Privacy Policy og vores Licensing Policy. Hvis du ikke er enig, må du ikke bruge webstedet eller købe Bundles."
+        },
+        {
+          "h2": "Brug af tjenester",
+          "body": "Vores tjenester leveres “som de er” og “efter tilgængelighed” uden garantier af nogen art, udtrykkelige eller underforståede. Vi garanterer ikke, at webstedet er uafbrudt, sikkert eller fejlfrit. Du kan gennemse Free SVG uden konto. Køb af Bundles kræver gyldig e-mail ved checkout."
+        },
+        {
+          "h2": "Produkter vi sælger",
+          "body": "5SVG sælger digitale craft SVG Bundles (ZIP-downloads af originale skærefiler) som engangskøb. Priser vises i USD på hver Bundle-side (typisk $4.50 pr. pakke). Det gratis SVG-logobibliotek er ikke et betalt produkt. Vi sælger ikke fysiske varer eller tredjeparts brandlogo-pakker som betalte produkter."
+        },
+        {
+          "h2": "Priser og betaling",
+          "body": "Bundle-priser vises på https://5svg.com/shop og på hver produktside før checkout. Betaling behandles af Creem (Merchant of Record). Du er ansvarlig for at angive en gyldig e-mail ved checkout, så vi kan levere download og kvittering."
+        },
+        {
+          "h2": "Levering",
+          "body": "Bundles leveres kun digitalt. Efter vellykket betaling modtager du din ZIP-download, og et backup-downloadlink kan sendes pr. e-mail. Der sker ingen fysisk forsendelse."
+        },
+        {
+          "h2": "Immaterielle rettigheder",
+          "body": "Købte Bundles er licenseret til personlig craft-brug som beskrevet i vores Licensing Policy. Du må ikke videresælge, redistribuere eller dele ZIP eller enkelte filer som selvstændige digitale produkter. Free SVG-brandlogoer er underlagt varemærkeejernes rettigheder. Webstedsindhold, branding og originale craft-designs er beskyttet af gældende immaterialret."
+        },
+        {
+          "h2": "Forbudte aktiviteter",
+          "body": "Du accepterer ikke at: bruge webstedet i strid med gældende lov; forsøge uautoriseret adgang til vores systemer; scrape eller overbelaste tjenesten på en måde, der skader tilgængelighed; distribuere malware; eller bruge downloadede filer i strid med disse Vilkår eller vores Licensing Policy."
+        },
+        {
+          "h2": "Refusioner",
+          "body": "Fordi Bundles er digitale downloads, tilbyder vi generelt ikke refusion, når ZIP er leveret og forbliver tilgængelig til normal brug. Hvis du ikke kan downloade på grund af en fejl hos os, skriv til support@5svg.com inden for rimelig tid; vi vurderer efter verifikation og tilbyder om muligt gen-download eller anden løsning."
+        },
+        {
+          "h2": "Ansvarsbegrænsning",
+          "body": "Under ingen omstændigheder er 5SVG ansvarlig for indirekte, tilfældige, særlige, følgeskader eller straffeskader som følge af din brug af eller manglende evne til at bruge webstedet eller downloadede filer."
+        },
+        {
+          "h2": "Ændringer af Vilkår",
+          "body": "Vi forbeholder os retten til at ændre disse Vilkår når som helst. Ved ændringer giver vi besked ved at offentliggøre de opdaterede Vilkår på denne side."
+        },
+        {
+          "h2": "Kontakt os",
+          "body": "Spørgsmål om disse Vilkår: skriv til support@5svg.com eller brug siden Kontakt os. Vi svarer inden for 1–2 hverdage (og inden for 3 hverdage ved faktureringsspørgsmål)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Søg...",
+    "sortAz": "Sortér A–Å",
+    "sortLatest": "Sortér efter nyeste",
+    "accept": "Acceptér",
+    "logos": "logoer",
+    "azIndex": "A–Å-indeks",
+    "clearSearch": "Ryd søgning",
+    "searchResults": "søgeresultater",
+    "svgs": "SVG",
+    "showAll": "Vis alle",
+    "showLess": "Vis mindre",
+    "showMore": "Vis mere",
+    "copySvg": "Kopiér SVG",
+    "copyDisclaimer": "Sørg for, at du har tilladelse fra ophavspersonerne, før du bruger SVG-filen. Ændringer er ikke tilladt."
+  },
+  "HeroTabs": {
+    "brands": "Brands",
+    "browse": "Gennemse",
+    "ai": "AI",
+    "design": "Design",
+    "social": "Social",
+    "aria": "Logo-forhåndsvisninger"
+  },
+  "WarningBanner": {
+    "body": "SVG-assets leveres som reference. Du er ansvarlig for at verificere varemærker og brugsrettigheder, før du bruger dem i dine projekter.",
+    "accept": "Acceptér"
+  },
+  "NotFound": {
+    "title": "SVG ikke fundet",
+    "inCategory": "\"{title}\" ikke fundet i kategorien \"{category}\"",
+    "plain": "\"{title}\" ikke fundet",
+    "searchGlobally": "Søg globalt",
+    "requestSvg": "Anmod om SVG",
+    "submitSvg": "Indsend SVG"
+  },
+  "LibraryPage": {
+    "title": "Gratis SVG-bibliotek — Ikoner og brandlogoer | 5SVG",
+    "description": "Gennemse og download gratis SVG-ikoner og brandlogoer. Søg på navn, filtrér efter kategori, sortér A–Å, og kopiér eller download — uden tilmelding.",
+    "h1": "Gratis SVG-ikon- og logobibliotek",
+    "lead": "Søg gratis SVG-ikoner efter navn eller kategori, og download vektorfiler til design, craft, Cricut og web.",
+    "sections": {
+      "search": {
+        "h2": "Søg gratis SVG-ikoner og logoer",
+        "body": "Brug søgefeltet til at finde SVG efter brand eller titel. Sortér A–Å eller gennemse de nyeste vektorlogoer.",
+        "h3": "Find gratis SVG efter navn, brand eller kategori"
+      },
+      "download": {
+        "h2": "Download og brug SVG-vektorfiler",
+        "body": "Åbn et hvilket som helst kort for at kopiere SVG-kode eller downloade den optimerede fil. Gem SVG-ikoner i din samling til hurtig adgang.",
+        "h3": "Kopiér, download eller bogmærk SVG-ikoner"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Alle SVG-logoer A–Å — Gratis ikonindeks | 5SVG",
+    "description": "Alfabetisk indeks over hvert gratis SVG-logo og brandikon på 5SVG. Gå til detaljesiden for at kopiere eller downloade vektorer.",
+    "h1": "Gennemse alle SVG-logoer",
+    "lead": "Komplet A–Å-indeks over gratis brandlogo-SVG i hovedbiblioteket. Hvert link åbner en detaljeside med kopi, download og licensnoter.",
+    "logosCount": "({count} logoer)",
+    "backLibrary": "← Interaktivt bibliotek",
+    "popularBrands": "Populære brands",
+    "categories": "Kategorier"
+  },
+  "FavoritesPage": {
+    "title": "Favoritter",
+    "clearAll": "Ryd alle",
+    "emptyTitle": "Ingen favoritter endnu",
+    "emptyBody": "Tilføj SVG til favoritter ved at klikke på hjerteikonet på en hvilken som helst SVG.",
+    "browseSvgs": "Gennemse SVG"
+  }
+}

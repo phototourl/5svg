@@ -1,6 +1,7 @@
 <script lang="ts">
   import { brand } from "@/brand";
   import { cn } from "@/utils/cn";
+  import { page } from "$app/state";
   import { buttonVariants } from "@/components/ui/button";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import ModeToggle from "@/components/modeToggle.svelte";
@@ -9,32 +10,34 @@
   import logoStackDark from "@/components/logos/logo_stack_dark.png";
   import { siteLogoAlt } from "@/utils/svgAlt";
   import { getI18n } from "@/lib/i18n/context";
+  import { stripLocalePrefix } from "@/lib/i18n/paths";
+  import { LOCALES } from "@/lib/i18n/config";
+  import { isAppNavActive } from "@/lib/app-nav";
 
   import Search from "@lucide/svelte/icons/search";
   import Menu from "@lucide/svelte/icons/menu";
 
   const i18n = $derived(getI18n());
+  const pathname = $derived(stripLocalePrefix(page.url.pathname, LOCALES));
+
+  const navLinks = $derived([
+    { href: "/", label: i18n.t("common.nav.home") },
+    { href: "/library", label: i18n.t("common.nav.freeSvg") },
+    { href: "/shop", label: i18n.t("common.nav.svgBundles") },
+    { href: "/contact", label: i18n.t("common.nav.contact") },
+  ]);
 
   let mobileOpen = $state(false);
 
-  const navLinks = $derived([
-    { href: "/library", label: i18n.t("common.nav.freeSvg") },
-    { href: "/favorites", label: i18n.t("common.nav.favorites") },
-    ...(brand.showApiNav ? ([{ href: "/docs/api", label: i18n.t("common.nav.api") }] as const) : []),
-    ...(brand.showDeveloperTools
-      ? ([
-          { href: "/extensions", label: i18n.t("common.nav.extensions") },
-          { href: "/docs/shadcn-ui", label: i18n.t("common.nav.shadcn") },
-        ] as const)
-      : []),
-  ]);
+  const linkBase =
+    "inline-flex items-center rounded-md px-3 py-1.5 text-sm font-medium text-neutral-600 no-underline transition-colors hover:bg-neutral-200/80 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100";
+  const linkActive =
+    "bg-brand-energy/15 text-brand-energy no-underline dark:bg-brand-energy/25 dark:text-brand";
 </script>
 
-<header
-  class="sticky top-0 z-50 border-b border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950"
->
-  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
-    <InternalLink href="/" className="flex shrink-0 items-center gap-2.5">
+<header class="bg-transparent">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 md:py-4">
+    <InternalLink href="/" className="flex shrink-0 items-center gap-2">
       <span class="inline-flex h-10 w-11 shrink-0 items-center justify-center overflow-visible">
         <img
           src={logoStackLight}
@@ -42,6 +45,7 @@
           width={80}
           height={80}
           class="h-10 w-10 origin-center scale-[1.75] object-contain dark:hidden"
+          decoding="async"
         />
         <img
           src={logoStackDark}
@@ -50,22 +54,19 @@
           width={80}
           height={80}
           class="hidden h-10 w-10 origin-center scale-[1.75] object-contain dark:block"
+          decoding="async"
         />
       </span>
-      <span
-        class="text-xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
+      <span class="text-xl font-medium tracking-tight text-neutral-900 dark:text-neutral-50"
         >{brand.displayName}</span
       >
     </InternalLink>
 
-    <nav class="hidden items-center gap-1 lg:flex">
+    <nav class="hidden items-center gap-0.5 lg:flex">
       {#each navLinks as link (link.href)}
         <InternalLink
           href={link.href}
-          className={cn(
-            "px-3 py-2 text-sm font-medium text-neutral-600 transition-colors hover:text-brand",
-            "dark:text-neutral-400 dark:hover:text-brand",
-          )}
+          className={cn(linkBase, isAppNavActive(link.href, pathname) && linkActive)}
         >
           {link.label}
         </InternalLink>
@@ -74,6 +75,15 @@
 
     <div class="flex items-center gap-1">
       <LanguageSwitcher />
+      <InternalLink
+        href="/shop"
+        className={cn(
+          buttonVariants({ size: "sm" }),
+          "hidden no-underline sm:inline-flex",
+        )}
+      >
+        {i18n.t("common.nav.shopNow")}
+      </InternalLink>
       <InternalLink
         href="/library"
         className={cn(
@@ -102,15 +112,16 @@
   </div>
 
   {#if mobileOpen}
-    <nav
-      class="border-t border-neutral-200 px-4 py-3 lg:hidden dark:border-neutral-800"
-    >
-      <ul class="flex flex-col gap-1">
+    <nav class="border-t border-neutral-200 px-4 py-3 lg:hidden dark:border-neutral-800">
+      <ul class="flex flex-col gap-1 text-sm">
         {#each navLinks as link (link.href)}
           <li>
             <InternalLink
               href={link.href}
-              className="block rounded-md px-3 py-2 text-sm font-medium uppercase tracking-wide text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800"
+              className={cn(
+                "block rounded-md px-3 py-2 text-sm font-medium",
+                isAppNavActive(link.href, pathname) && "bg-neutral-200/80 dark:bg-neutral-800",
+              )}
             >
               {link.label}
             </InternalLink>

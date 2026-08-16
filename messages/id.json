@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Ganti bahasa",
+    "languageSelect": {
+      "title": "Pilih bahasa Anda",
+      "subtitle": "Pilih bahasa untuk antarmuka situs.",
+      "close": "Tutup"
+    },
+    "nav": {
+      "home": "Beranda",
+      "freeSvg": "SVG Gratis",
+      "svgBundles": "Paket SVG",
+      "shopNow": "Toko",
+      "allFreeSvg": "Semua SVG gratis",
+      "allBundles": "Semua paket",
+      "licensing": "Kebijakan lisensi",
+      "contact": "Hubungi kami",
+      "bundles": "Paket",
+      "browse": "Jelajahi",
+      "favorites": "Favorit",
+      "extensions": "Ekstensi",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Cari pustaka",
+      "openMenu": "Buka menu"
+    },
+    "sidebar": {
+      "categories": "Kategori",
+      "allLogosAz": "Semua logo A–Z",
+      "submitSvg": "Kirim SVG",
+      "githubRepo": "Repositori GitHub"
+    },
+    "footer": {
+      "tagline": "Pustaka SVG gratis dan paket craft untuk pembuat",
+      "product": "Produk",
+      "explore": "Jelajahi",
+      "categories": "Kategori",
+      "company": "Perusahaan",
+      "legal": "Legal",
+      "supportTitle": "Dukungan pelanggan",
+      "supportBody": "Pertanyaan tentang SVG Gratis atau paket berbayar? Email kami — kami berusaha membalas dalam 1–2 hari kerja.",
+      "exploreLibrary": "Jelajahi pustaka",
+      "browseIndex": "Indeks A–Z",
+      "home": "Beranda",
+      "about": "Tentang",
+      "license": "Kebijakan Lisensi",
+      "licensingPolicy": "Kebijakan Lisensi",
+      "privacy": "Kebijakan Privasi",
+      "privacyPolicy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan",
+      "termsOfService": "Ketentuan Layanan",
+      "design": "Desain",
+      "social": "Sosial",
+      "software": "Perangkat lunak"
+    },
+    "announcement": {
+      "library": "{count}+ file SVG gratis — jelajahi pustaka gratis",
+      "favorites": "Unduh · simpan favorit · gratis untuk penggunaan pribadi",
+      "shop": "Paket SVG mulai $4.50 — bayar sekali, unduh ZIP instan"
+    }
+  },
+  "shop": {
+    "seoTitle": "Paket SVG — Harga & Paket Craft | 5SVG",
+    "seoDescription": "Beli paket craft SVG asli seharga $4.50 USD per paket — pembelian sekali, unduh ZIP instan. Logo merek tetap gratis di pustaka.",
+    "promo": "Paket tema $4.50 · Koleksi lengkap $9.90. Bayar sekali, ZIP langsung.",
+    "title": "Paket SVG",
+    "subtitle": "Beli satu paket tema, atau buka semua paket dalam satu pembelian. Logo merek tetap gratis di perpustakaan.",
+    "allCategories": "Semua",
+    "viewPack": "Lihat",
+    "wholeShopBadge": "Nilai terbaik",
+    "wholeShopSection": "Koleksi lengkap",
+    "wholeShopTitle": "Koleksi lengkap",
+    "wholeShopLead": "{count} file SVG craft dari setiap tema. Satu pembelian membuka semua paket.",
+    "wholeShopCta": "Beli sekarang",
+    "themePacksHeading": "Paket tema",
+    "themePacksLead": "Setiap paket adalah pembelian digital sekali bayar seharga $4.50, berisi sekitar 20–24 file potong craft orisinal (ZIP). Logo merek tetap gratis di perpustakaan.",
+    "empty": "Belum ada paket di kategori ini.",
+    "fileCount": "{count} file",
+    "moreFiles": "+{count} lagi",
+    "freeHint": "Butuh logo merek gratis?",
+    "freeLibraryLink": "Buka pustaka gratis →",
+    "backToShop": "Semua paket",
+    "emailLabel": "Email untuk struk & unduhan",
+    "mockNotice": "Checkout tiruan (Creem belum terhubung).",
+    "buyDownload": "Beli & unduh",
+    "processing": "Mengalihkan…",
+    "checkoutError": "Checkout gagal. Coba lagi.",
+    "flowHint": "Bayar sekali untuk unduhan ZIP instan. Struk dikirim ke email Anda.",
+    "payOverlayTitle": "Mengonfirmasi pembayaran…",
+    "payOverlayBody": "Mohon tunggu sementara kami memverifikasi pembelian Anda.",
+    "prepareOverlayTitle": "Menyiapkan unduhan…",
+    "prepareOverlayBody": "ZIP Anda akan segera dimulai.",
+    "downloadTitle": "Unduhan Anda",
+    "downloadMissing": "Info kembali pembayaran hilang. Mulai lagi dari Paket.",
+    "downloadFailed": "Tidak dapat mengonfirmasi pembayaran.",
+    "downloadSyncing": "Mengonfirmasi pembayaran…",
+    "downloadReady": "Siap: {title}",
+    "downloadZip": "Unduh ZIP",
+    "downloadEmailHint": "Tautan cadangan unduhan juga telah dikirim ke email yang Anda masukkan.",
+    "includesSample": "Termasuk (contoh)",
+    "browseCategory": "Jelajahi kategori ini →",
+    "license": {
+      "personal": "Penggunaan pribadi",
+      "commercial": "Lisensi craft komersial"
+    }
+  },
+  "seo": {
+    "title": "5SVG — File SVG Gratis & Paket Craft SVG",
+    "description": "Pustaka logo SVG gratis plus paket craft SVG berbayar untuk pembuat. Jelajahi pustaka gratis kapan saja, atau beli paket ZIP asli mulai $4.50 untuk Cricut, Silhouette, vinyl, dan kerajinan.",
+    "keywords": "paket svg, craft svg, file svg gratis, unduh svg, cricut svg, silhouette svg, paket svg berbayar, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "File SVG gratis & paket craft",
+      "subtitle": "Jelajahi pustaka gratis kami, atau beli paket craft SVG asli — paket ZIP digital mulai $4.50, bayar sekali, unduh instan. Dibuat untuk Cricut, Silhouette, vinyl, dan pembuat.",
+      "ctaShop": "Beli paket",
+      "ctaFree": "Pustaka gratis",
+      "marqueeAria": "Jelajahi file SVG di pustaka"
+    },
+    "value": {
+      "freeTitle": "Pengiriman digital instan",
+      "freeDesc": "Beli paket dan unduh ZIP langsung setelah pembayaran — tanpa pengiriman, tanpa menunggu. Pustaka gratis tetap gratis.",
+      "curatedTitle": "Paket craft mulai $4.50",
+      "curatedDesc": "Paket file potong asli dengan harga USD jelas di setiap produk. Pembelian sekali — simpan file untuk penggunaan craft pribadi.",
+      "easyTitle": "Dukungan pelanggan",
+      "easyDesc": "Pertanyaan tentang pustaka gratis, paket, atau lisensi? Email support@5svg.com atau gunakan Hubungi kami — kami berusaha membalas dalam 1–2 hari kerja."
+    },
+    "shopStrip": {
+      "title": "Paket SVG dijual",
+      "subtitle": "Paket craft SVG asli — $4.50 per paket, bayar sekali, unduh ZIP instan.",
+      "viewAll": "Lihat semua paket →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Untuk pembuat sehari-hari",
+      "subtitle": "Gunakan logo pustaka gratis atau file potong paket di Cricut, Silhouette, Canva, kaos, stiker, dan lainnya.",
+      "cutting": "Kerajinan potong",
+      "stickers": "Stiker & dekal",
+      "gifts": "Hadiah & pesta",
+      "labels": "Label & tag",
+      "print": "Cetak & foto",
+      "personal": "Proyek pribadi",
+      "iconAlt": "Ikon craft {label}"
+    },
+    "library": {
+      "title": "Isi pustaka",
+      "subtitle": "{count}+ file SVG dikelompokkan menurut topik — gunakan menu header saat siap menjelajah atau mengunduh.",
+      "browseTitle": "Jelajahi SVG {name}",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Cara kerja",
+      "title": "Pustaka gratis atau beli paket",
+      "subtitle": "Jelajahi pustaka gratis kapan saja — atau buka toko untuk membeli paket craft dan unduh ZIP setelah pembayaran.",
+      "searchTitle": "Jelajahi pustaka gratis",
+      "searchDesc": "Buka pustaka gratis, pilih kategori, atau cari berdasarkan nama — unduh logo tanpa akun.",
+      "downloadTitle": "Beli paket",
+      "downloadDesc": "Pilih paket craft di toko, bayar sekali sesuai harga USD yang tertera, lalu unduh ZIP.",
+      "favoritesTitle": "Simpan & gunakan lagi",
+      "favoritesDesc": "Tandai favorit dari pustaka gratis di perangkat ini, atau simpan file paket yang dibeli untuk proyek craft Anda."
+    },
+    "seoIntro": {
+      "tag": "Toko & pustaka SVG",
+      "title": "File SVG gratis dan paket craft berbayar untuk pembuat",
+      "description": "5SVG menjual paket craft SVG asli sebagai unduhan ZIP digital (biasanya $4.50 per paket) dan menghosting pustaka logo merek gratis. Jelajahi pustaka gratis kapan saja, atau belanja paket untuk Cricut, Silhouette, vinyl, dan kerajinan sehari-hari."
+    },
+    "seoBlocks": {
+      "whatTag": "Dasar",
+      "whatTitle": "Apa itu file SVG?",
+      "whatBody": "SVG (Scalable Vector Graphics) menyimpan bentuk dan jalur sebagai matematika, bukan piksel. Artinya logo dan ikon tetap tajam baik diperkecil untuk stiker maupun diperbesar untuk poster.",
+      "whatB1": "Dapat diskalakan ke ukuran apa pun tanpa buram",
+      "whatB2": "Format umum untuk logo, ikon, dan ilustrasi sederhana",
+      "whatB3": "Didukung browser, perangkat lunak desain, dan pemotong vinyl",
+      "whatAlt": "5SVG — jutaan vektor SVG berkualitas tinggi dan kategori",
+      "usesTag": "Penggunaan",
+      "usesTitle": "Apa yang bisa Anda lakukan dengan file SVG?",
+      "usesBody": "SVG adalah titik awal praktis untuk proyek pribadi — mockup, belajar desain, kerajinan pesta, dan alur kerja pembuat yang butuh vektor bersih yang bisa diubah ukurannya.",
+      "usesB1": "Potong dekal vinyl dengan Cricut atau Silhouette",
+      "usesB2": "Masukkan ikon ke Canva, Figma, atau PowerPoint",
+      "usesB3": "Cetak kaos, tag, dan dekorasi pesta di rumah",
+      "usesB4": "Buat mood board dan proyek sekolah dengan logo merek nyata",
+      "usesAlt": "5SVG — desain, bangun, dan presentasikan dengan kit UI dan ikon aplikasi",
+      "getTag": "Dapatkan file",
+      "getTitle": "Cara mendapatkan file SVG dari 5SVG",
+      "getBody": "Jelajahi pustaka gratis kapan saja — cari atau pilih kategori, lalu salin atau unduh. Untuk membeli paket craft, buka Paket, pilih produk sesuai harga USD yang tertera, dan unduh ZIP setelah pembayaran.",
+      "getB1": "Jelajahi pustaka gratis — tanpa daftar akun",
+      "getB2": "Atau belanja paket ZIP craft asli",
+      "getB3": "Bayar sekali, lalu unduh ZIP Anda",
+      "getB4": "Periksa Lisensi & Ketentuan sebelum penggunaan craft komersial",
+      "getAlt": "5SVG — pencarian vektor tercepat di semua perangkat"
+    },
+    "faq": {
+      "title": "FAQ",
+      "subtitle": "Apa yang kami jual, harga, pengiriman, pengembalian dana, dan dukungan.",
+      "lead": "5SVG menjual paket craft SVG digital (unduh ZIP) dengan harga USD yang jelas di halaman Paket. Pustaka logo pustaka gratis tetap gratis. Pembayaran diproses oleh Creem.",
+      "q1": "Apa yang Anda jual?",
+      "a1": "Kami menjual paket craft SVG asli — paket ZIP digital berisi file potong untuk pembuat (Cricut, Silhouette, vinyl, kaos). Kami tidak menjual barang fisik. Logo merek di pustaka gratis gratis dan tidak dijual sebagai produk berbayar.",
+      "q2": "Berapa harga satu paket?",
+      "a2": "Setiap paket craft biasanya $4.50 USD sebagai pembelian sekali. Harga pasti ditampilkan di https://5svg.com/shop dan di setiap halaman produk sebelum Anda membayar.",
+      "q3": "Bagaimana produk dikirim?",
+      "a3": "Pengiriman 100% digital dan instan setelah pembayaran berhasil. Tanpa pengiriman fisik. Gunakan email yang valid di checkout untuk struk.",
+      "q4": "Apakah saya perlu akun atau instal perangkat lunak?",
+      "a4": "Tidak perlu akun untuk menjelajah pustaka gratis atau membeli paket. Favorit tersimpan di browser Anda. Impor SVG ke Cricut Design Space, Silhouette Studio, Canva, atau aplikasi yang mendukung vektor — tidak ada yang perlu diinstal dari kami.",
+      "q5": "Lisensi apa yang saya dapatkan?",
+      "a5": "Paket mencakup lisensi craft pribadi. Anda tidak boleh menjual ulang atau mendistribusikan ulang ZIP atau file individual. Logo pustaka gratis tetap merek dagang pemiliknya — periksa pedoman merek sebelum penggunaan komersial. Lihat halaman Lisensi dan Ketentuan Layanan kami.",
+      "q6": "Bisakah saya mendapat pengembalian dana?",
+      "a6": "Karena paket adalah unduhan digital, kami umumnya tidak menawarkan pengembalian dana setelah ZIP dikirim dan tetap tersedia untuk penggunaan normal. Jika unduhan gagal karena masalah di pihak kami, email support@5svg.com dan kami akan meninjau setelah verifikasi.",
+      "q7": "Di mana Kebijakan Privasi dan Ketentuan Layanan?",
+      "a7": "Kebijakan Privasi: https://5svg.com/privacy — Ketentuan Layanan: https://5svg.com/terms — Lisensi: https://5svg.com/license. Tautan juga ada di footer situs.",
+      "q8": "Bagaimana cara menghubungi dukungan?",
+      "a8": "Email support@5svg.com atau gunakan halaman Hubungi kami. Kami berusaha membalas dalam 1–2 hari kerja (dalam 3 hari kerja untuk masalah penagihan).",
+      "contactBefore": "Untuk pertanyaan di atas dan lainnya, silakan gunakan halaman ",
+      "contactLink": "Hubungi kami",
+      "contactMiddle": " di situs ini atau email ",
+      "contactAfter": ". Kami berusaha membalas dalam 1–2 hari kerja."
+    },
+    "about": {
+      "title": "Tentang 5SVG",
+      "p1": "5SVG adalah pustaka logo dan ikon SVG gratis plus toko paket craft SVG asli. Produk berbayar hanya unduhan ZIP digital — biasanya $4.50 USD per paket, pembelian sekali, dengan harga tercantum di halaman Paket.",
+      "p2": "Jelajahi pustaka gratis kapan saja, atau buka Paket untuk paket file potong musiman dan sehari-hari untuk Cricut, Silhouette, vinyl, dan pembuat. Dukungan: support@5svg.com. Legal: Kebijakan Privasi, Ketentuan Layanan, dan halaman Lisensi di footer.",
+      "logoAlt": "Logo pustaka SVG gratis dan paket craft 5SVG"
+    },
+    "bannerAlt": "5SVG — File SVG Gratis & Paket Craft SVG"
+  },
+  "ContactPage": {
+    "title": "Hubungi Kami",
+    "description": "Hubungi 5SVG untuk pustaka gratis, paket, lisensi, atau masukan. Kami berusaha membalas dalam 1–2 hari kerja.",
+    "subtitle": "Kami siap membantu pertanyaan pustaka gratis, paket craft, dan lisensi.",
+    "introShort": "Punya pertanyaan atau masukan? Isi formulir di bawah dan kami akan segera menghubungi Anda.",
+    "whyTitle": "Hal yang bisa Anda tanyakan",
+    "why1": "Pustaka gratis: jelajah, unduh, atau pertanyaan merek dagang",
+    "why2": "Paket SVG: pembelian, unduhan, atau isi paket",
+    "why3": "Pertanyaan lisensi dan penggunaan komersial",
+    "why4": "Masukan, kemitraan, atau melaporkan penyalahgunaan",
+    "expectTitle": "Yang bisa diharapkan",
+    "expectContent": "Kami membaca setiap pesan dan berusaha membalas dalam 1–2 hari kerja. Untuk masalah mendesak, sertakan subjek yang jelas dan detail sebanyak mungkin.",
+    "orEmail": "Atau email kami di",
+    "form": {
+      "title": "Kirim pesan",
+      "description": "Pertanyaan tentang pustaka gratis, paket, atau masukan? Isi formulir dan kami akan membalas secepatnya.",
+      "name": "Nama",
+      "email": "Email",
+      "message": "Pesan",
+      "namePlaceholder": "Nama Anda",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Pesan atau pertanyaan Anda...",
+      "submit": "Kirim pesan",
+      "mailtoHint": "Aplikasi email Anda akan terbuka dengan pesan siap dikirim ke support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Unduhan 5SVG Anda — {title}",
+      "title": "Unduhan Anda siap",
+      "body": "Terima kasih telah membeli {title} di 5SVG.",
+      "downloadButton": "Unduh ZIP",
+      "linkFallback": "Atau salin tautan cadangan unduhan ini:",
+      "note": "Jika file tidak terunduh otomatis setelah pembayaran, buka tautan ini lagi untuk mengunduh.",
+      "textIntro": "Terima kasih atas pembelian {title}.",
+      "textDownload": "Unduh ZIP Anda (tautan cadangan):",
+      "textSupport": "Dukungan: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Tentang 5SVG — Pustaka SVG Gratis & Paket Craft",
+      "description": "5SVG adalah pustaka logo SVG gratis independen dan toko paket craft SVG asli. Hanya unduhan digital — harga jelas di halaman Paket.",
+      "h1": "Tentang 5SVG",
+      "sections": [
+        {
+          "h2": "Yang kami tawarkan",
+          "body": "5SVG menghosting pustaka gratis logo dan ikon SVG merek, plus paket craft SVG berbayar yang dijual sebagai unduhan ZIP digital sekali. pustaka gratis tetap gratis. Paket adalah paket file potong asli untuk pembuat (Cricut, Silhouette, vinyl, kaos)."
+        },
+        {
+          "h2": "Yang kami jual",
+          "body": "Melalui Paket kami hanya menjual paket craft SVG digital — biasanya $4.50 USD per paket, bayar sekali, unduh ZIP instan setelah pembayaran. Kami tidak menjual barang fisik. Paket dan harga terkini tercantum di halaman Paket (/shop)."
+        },
+        {
+          "h2": "Siapa kami",
+          "body": "5SVG adalah proyek independen. Kami tidak berafiliasi, didukung, atau disponsori oleh merek yang logonya muncul di pustaka gratis. Paket berbayar adalah desain craft asli yang kami rakit atau buat untuk penggunaan craft pribadi."
+        },
+        {
+          "h2": "Dukungan",
+          "body": "Email dukungan pelanggan: support@5svg.com. Kami berusaha membalas dalam 1–2 hari kerja. Anda juga dapat menggunakan halaman Hubungi kami di situs ini."
+        }
+      ]
+    },
+    "license": {
+      "title": "Kebijakan Lisensi — 5SVG",
+      "description": "Cara Anda boleh menggunakan file pustaka gratis dan paket craft berbayar di 5SVG, termasuk merek dagang dan penggunaan craft pribadi.",
+      "h1": "Kebijakan Lisensi",
+      "sections": [
+        {
+          "h2": "Pendahuluan",
+          "body": "Kebijakan Lisensi ini menjelaskan cara Anda boleh menggunakan materi dari 5SVG. Dengan mengunduh file pustaka gratis atau membeli paket, Anda menyetujui kebijakan ini, Ketentuan Layanan, dan Kebijakan Privasi kami."
+        },
+        {
+          "h2": "Pustaka pustaka gratis",
+          "body": "Logo dan ikon merek di pustaka gratis gratis untuk dijelajahi, disalin, dan diunduh untuk proyek pribadi, pendidikan, dan mockup. Penggunaan komersial tanda merek mungkin tetap memerlukan izin dari pemilik merek dagang. File pustaka gratis tidak dijual sebagai produk berbayar."
+        },
+        {
+          "h2": "Paket berbayar (paket craft)",
+          "body": "Paket SVG craft yang dijual di bawah Paket dilisensikan untuk proyek craft pribadi (misalnya potong, vinyl, kaos, stiker, dan penggunaan pembuat serupa). Anda tidak boleh menjual ulang, mendistribusikan ulang, membagikan, atau mengunggah ulang ZIP digital atau file SVG individual sebagai produk digital mandiri."
+        },
+        {
+          "h2": "Kekayaan intelektual",
+          "body": "Desain craft asli dalam paket berbayar dimiliki oleh 5SVG atau dilisensikan kepada kami untuk dijual. Logo dan wordmark merek pustaka gratis tetap milik pemiliknya. 5SVG tidak mengklaim kepemilikan merek dagang pihak ketiga yang ditampilkan di pustaka gratis."
+        },
+        {
+          "h2": "Merek dagang",
+          "body": "Logo dan wordmark tetap merek dagang pemiliknya. 5SVG tidak berafiliasi atau didukung oleh merek tersebut. Kami tidak menjual logo merek ber-merek dagang sebagai produk berbayar."
+        },
+        {
+          "h2": "Tanpa jaminan",
+          "body": "File disediakan apa adanya. Kami tidak menjamin kelengkapan, izin hukum untuk kasus penggunaan spesifik Anda, atau bahwa aset sesuai versi resmi merek terbaru."
+        },
+        {
+          "h2": "Hubungi Kami",
+          "body": "Pertanyaan tentang Kebijakan Lisensi ini: email support@5svg.com atau gunakan halaman Hubungi kami di situs ini."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi — 5SVG",
+      "description": "Bagaimana kami melindungi data Anda saat menggunakan 5SVG",
+      "h1": "Kebijakan Privasi",
+      "sections": [
+        {
+          "h2": "Pendahuluan",
+          "body": "Selamat datang di Kebijakan Privasi 5SVG. Dokumen ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat menggunakan situs web 5SVG, pustaka pustaka gratis, dan toko paket craft."
+        },
+        {
+          "h2": "Informasi yang Kami Kumpulkan",
+          "body": "Kami dapat mengumpulkan jenis informasi berikut: (1) Detail kontak yang Anda berikan — seperti alamat email di checkout paket untuk struk dan unduhan, atau pesan melalui Hubungi kami. (2) Data penggunaan — bagaimana Anda berinteraksi dengan situs (misalnya halaman yang dikunjungi), saat analitik diaktifkan. (3) Informasi perangkat — seperti jenis browser atau data teknis perkiraan untuk mengoperasikan dan mengamankan layanan. Favorit yang Anda simpan disimpan secara lokal di browser; kami tidak menerima daftar tersimpan di server kami."
+        },
+        {
+          "h2": "Bagaimana Kami Menggunakan Informasi Anda",
+          "body": "Kami menggunakan informasi Anda untuk menyediakan dan memelihara pustaka pustaka gratis dan toko paket; mengirim unduhan ZIP berbayar dan struk terkait; memberikan dukungan pelanggan; meningkatkan situs; memantau penggunaan; serta mendeteksi, mencegah, dan menangani masalah teknis atau penyalahgunaan."
+        },
+        {
+          "h2": "Pembayaran",
+          "body": "Pembayaran paket diproses oleh penyedia pembayaran kami (Creem). Detail kartu ditangani oleh penyedia — kami tidak menyimpan nomor kartu pembayaran lengkap di server 5SVG."
+        },
+        {
+          "h2": "Cookie & Penyimpanan",
+          "body": "Situs dapat menggunakan cookie atau penyimpanan lokal untuk preferensi tema, bahasa, favorit, dan analitik. Anda dapat menghapus data situs di pengaturan browser kapan saja. Memblokir beberapa cookie dapat membatasi fitur tertentu."
+        },
+        {
+          "h2": "Keamanan Data",
+          "body": "Kami menerapkan langkah keamanan yang sesuai untuk melindungi informasi pribadi dari akses, perubahan, pengungkapan, atau penghancuran yang tidak sah. Tidak ada metode transmisi di Internet yang 100% aman."
+        },
+        {
+          "h2": "Layanan Pihak Ketiga",
+          "body": "Kami dapat menggunakan perusahaan pihak ketiga untuk memfasilitasi pembayaran, pengiriman email, analitik, atau hosting. Tautan keluar dan lencana tertanam diatur oleh kebijakan situs tersebut."
+        },
+        {
+          "h2": "Perubahan Kebijakan Privasi Ini",
+          "body": "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu perubahan dengan memposting kebijakan yang diperbarui di halaman ini."
+        },
+        {
+          "h2": "Hubungi Kami",
+          "body": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan email support@5svg.com atau gunakan halaman Hubungi kami di situs ini."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Ketentuan Layanan — 5SVG",
+      "description": "Ketentuan penggunaan situs web 5SVG dan pembelian paket craft SVG",
+      "h1": "Ketentuan Layanan",
+      "sections": [
+        {
+          "h2": "Pendahuluan",
+          "body": "Ketentuan Layanan ini (“Ketentuan”) mengatur penggunaan Anda atas situs web 5SVG, pustaka pustaka gratis, dan toko paket. Dengan mengakses 5SVG.com atau membeli paket, Anda menyetujui Ketentuan ini, Kebijakan Privasi, dan Kebijakan Lisensi kami. Jika Anda tidak setuju, jangan gunakan situs atau beli paket."
+        },
+        {
+          "h2": "Penggunaan Layanan",
+          "body": "Layanan kami disediakan “apa adanya” dan “sebagaimana tersedia” tanpa jaminan apa pun, tersurat maupun tersirat. Kami tidak menjamin situs akan tanpa gangguan, aman, atau bebas kesalahan. Anda dapat menjelajah pustaka gratis tanpa akun. Membeli paket memerlukan email yang valid di checkout."
+        },
+        {
+          "h2": "Produk yang kami jual",
+          "body": "5SVG menjual paket craft SVG digital (unduh ZIP file potong asli) sebagai pembelian sekali. Harga ditampilkan dalam USD di setiap halaman paket (biasanya $4.50 per paket). Pustaka logo SVG gratis bukan produk berbayar. Kami tidak menjual barang fisik atau paket logo merek pihak ketiga sebagai produk berbayar."
+        },
+        {
+          "h2": "Harga dan pembayaran",
+          "body": "Harga paket ditampilkan di https://5svg.com/shop dan di setiap halaman produk sebelum checkout. Pembayaran diproses oleh Creem (Merchant of Record). Anda bertanggung jawab memberikan email yang valid di checkout agar kami dapat mengirim unduhan dan struk."
+        },
+        {
+          "h2": "Pengiriman",
+          "body": "Paket dikirim hanya secara digital. Setelah pembayaran berhasil Anda menerima unduhan ZIP, dan tautan cadangan unduhan dapat dikirim email. Tidak ada pengiriman barang fisik."
+        },
+        {
+          "h2": "Kekayaan Intelektual",
+          "body": "Paket yang dibeli dilisensikan untuk penggunaan craft pribadi sebagaimana dijelaskan dalam Kebijakan Lisensi. Anda tidak boleh menjual ulang, mendistribusikan ulang, atau membagikan ZIP atau file individual sebagai produk digital mandiri. Logo merek pustaka gratis tetap tunduk pada hak pemilik merek dagang. Konten situs, branding, dan desain craft asli dilindungi hukum kekayaan intelektual yang berlaku."
+        },
+        {
+          "h2": "Aktivitas yang Dilarang",
+          "body": "Anda setuju untuk tidak: menggunakan situs dengan cara yang melanggar hukum yang berlaku; mencoba akses tidak sah ke sistem kami; melakukan scraping atau membebani layanan hingga merusak ketersediaan; mendistribusikan malware; atau menggunakan file yang diunduh melanggar Ketentuan ini atau Kebijakan Lisensi kami."
+        },
+        {
+          "h2": "Pengembalian Dana",
+          "body": "Karena paket adalah unduhan digital, kami umumnya tidak menawarkan pengembalian dana setelah ZIP dikirim dan tetap tersedia untuk penggunaan normal. Jika Anda tidak dapat mengunduh karena kesalahan di pihak kami, email support@5svg.com dalam waktu yang wajar; kami akan meninjau setelah verifikasi dan, jika sesuai, memberikan unduhan ulang atau remediasi lain."
+        },
+        {
+          "h2": "Batasan Tanggung Jawab",
+          "body": "Dalam keadaan apa pun 5SVG tidak bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang timbul dari penggunaan atau ketidakmampuan Anda menggunakan situs atau file yang diunduh."
+        },
+        {
+          "h2": "Perubahan Ketentuan",
+          "body": "Kami berhak mengubah Ketentuan ini kapan saja. Jika kami membuat perubahan, kami akan memberikan pemberitahuan dengan memposting Ketentuan yang diperbarui di halaman ini."
+        },
+        {
+          "h2": "Hubungi Kami",
+          "body": "Jika Anda memiliki pertanyaan tentang Ketentuan ini, silakan email support@5svg.com atau gunakan halaman Hubungi kami. Kami berusaha membalas dalam 1–2 hari kerja (dan dalam 3 hari kerja untuk masalah penagihan)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Cari...",
+    "sortAz": "Urutkan A–Z",
+    "sortLatest": "Urutkan terbaru",
+    "accept": "Terima",
+    "logos": "logo",
+    "azIndex": "Indeks A–Z",
+    "clearSearch": "Hapus pencarian",
+    "searchResults": "hasil pencarian",
+    "svgs": "SVG",
+    "showAll": "Tampilkan semua",
+    "showLess": "Tampilkan lebih sedikit",
+    "showMore": "Tampilkan lebih banyak",
+    "copySvg": "Salin SVG",
+    "copyDisclaimer": "Pastikan Anda memiliki izin dari pembuat sebelum menggunakan SVG. Modifikasi tidak diizinkan."
+  },
+  "HeroTabs": {
+    "brands": "Merek",
+    "browse": "Jelajahi",
+    "ai": "AI",
+    "design": "Desain",
+    "social": "Sosial",
+    "aria": "Pratinjau logo"
+  },
+  "WarningBanner": {
+    "body": "Aset SVG disediakan sebagai referensi. Anda bertanggung jawab memverifikasi merek dagang dan hak penggunaan sebelum memakai di proyek Anda.",
+    "accept": "Terima"
+  },
+  "NotFound": {
+    "title": "SVG tidak ditemukan",
+    "inCategory": "\"{title}\" tidak ditemukan di kategori \"{category}\"",
+    "plain": "\"{title}\" tidak ditemukan",
+    "searchGlobally": "Cari global",
+    "requestSvg": "Minta SVG",
+    "submitSvg": "Kirim SVG"
+  },
+  "LibraryPage": {
+    "title": "Pustaka SVG Gratis — Jelajahi Ikon & Logo Merek | 5SVG",
+    "description": "Jelajahi dan unduh ikon serta logo SVG gratis. Cari berdasarkan nama, filter kategori, urutkan A–Z, dan salin atau unduh file — tanpa daftar.",
+    "h1": "Pustaka Ikon & Logo SVG Gratis",
+    "lead": "Cari ikon SVG gratis berdasarkan nama atau kategori, lalu unduh file SVG vektor untuk desain, craft, Cricut, dan web.",
+    "sections": {
+      "search": {
+        "h2": "Cari ikon dan logo SVG gratis",
+        "body": "Gunakan bilah pencarian untuk menemukan file SVG berdasarkan merek atau judul. Urutkan A–Z atau jelajahi logo vektor terbaru di pustaka.",
+        "h3": "Temukan SVG gratis berdasarkan nama, merek, atau kategori"
+      },
+      "download": {
+        "h2": "Unduh dan gunakan file vektor SVG",
+        "body": "Buka kartu mana pun untuk menyalin kode SVG atau mengunduh file yang dioptimalkan. Simpan ikon SVG ke koleksi untuk akses cepat.",
+        "h3": "Salin, unduh, atau tandai ikon SVG"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Jelajahi Semua Logo SVG A–Z — Indeks Ikon Gratis | 5SVG",
+    "description": "Indeks alfabetis setiap logo dan ikon SVG gratis di 5SVG. Loncat ke halaman detail logo mana pun untuk menyalin atau mengunduh file vektor.",
+    "h1": "Jelajahi semua logo SVG",
+    "lead": "Indeks A–Z lengkap logo merek SVG gratis di pustaka utama. Setiap tautan membuka halaman detail dengan salin, unduh, dan catatan lisensi.",
+    "logosCount": "({count} logo)",
+    "backLibrary": "← Pustaka interaktif",
+    "popularBrands": "Merek populer",
+    "categories": "Kategori"
+  },
+  "FavoritesPage": {
+    "title": "Favorit",
+    "clearAll": "Hapus semua",
+    "emptyTitle": "Belum ada favorit",
+    "emptyBody": "Mulai menambahkan SVG ke favorit dengan mengklik ikon hati di SVG mana pun.",
+    "browseSvgs": "Jelajahi SVG"
+  }
+}

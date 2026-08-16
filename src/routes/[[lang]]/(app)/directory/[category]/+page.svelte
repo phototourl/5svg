@@ -24,9 +24,12 @@
 
   import { brand } from "@/brand";
   import { getDirectorySeo } from "@/config/directory-seo";
+  import { getI18n } from "@/lib/i18n/context";
 
   // SSR Data:
   let { data }: PageProps = $props();
+
+  const i18n = $derived(getI18n());
 
   const directorySeo = $derived(
     getDirectorySeo(data.category, data.initialSvgs.length),
@@ -126,10 +129,7 @@
   placeholder={`Search free ${data.category} SVG icons...`}
 />
 
-<PageCard
-  containerClass="mt-2"
-  contentCardClass="max-h-[calc(100vh-7.6rem)] min-h-[calc(100vh-7.6rem)]"
->
+<PageCard containerClass="mt-2">
   <PageHeader>
     <div
       class="flex items-center space-x-2 font-medium text-neutral-950 dark:text-neutral-50"
@@ -177,12 +177,12 @@
       />
       {#if filteredSvgs.length > maxDisplay}
         <Button variant="ghost" class="px-2.5" onclick={handleShowAll}>
-          <span>Show All</span>
+          <span>{i18n.t("Ui.showAll")}</span>
         </Button>
       {/if}
       {#if maxDisplay > INITIAL_DISPLAY && filteredSvgs.length > INITIAL_DISPLAY}
         <Button variant="ghost" class="px-2.5" onclick={handleShowLess}>
-          <span>Show Less</span>
+          <span>{i18n.t("Ui.showLess")}</span>
           <ChevronUpIcon size={16} strokeWidth={2} />
         </Button>
       {/if}
@@ -209,9 +209,10 @@
           class="px-2.5"
           onclick={handleShowMore}
         >
-          <span>Show More</span>
+          <span>{i18n.t("Ui.showMore")}</span>
           <span class="text-neutral-600 dark:text-neutral-400">
-            (+ {Math.min(INCREMENT, filteredSvgs.length - maxDisplay)} SVGs)
+            (+ {Math.min(INCREMENT, filteredSvgs.length - maxDisplay)}
+            {i18n.t("Ui.svgs")})
           </span>
           <ChevronDownIcon size={16} strokeWidth={2} />
         </Button>

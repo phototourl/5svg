@@ -17,8 +17,12 @@
   import { getSvgAltText } from "@/utils/svgAlt";
   import { getCategoryHref } from "@/utils/svgLinks";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
+  import { buttonVariants } from "@/components/ui/button";
+  import { cn } from "@/utils/cn";
+  import { formatUsd, getLiveThemeProducts } from "@/lib/shop";
 
   const i18n = $derived(getI18n());
+  const featuredBundles = getLiveThemeProducts().slice(0, 3);
 
   const valueProps = $derived([
     {
@@ -52,6 +56,10 @@
     { question: i18n.t("home.faq.q2"), answer: i18n.t("home.faq.a2") },
     { question: i18n.t("home.faq.q3"), answer: i18n.t("home.faq.a3") },
     { question: i18n.t("home.faq.q4"), answer: i18n.t("home.faq.a4") },
+    { question: i18n.t("home.faq.q5"), answer: i18n.t("home.faq.a5") },
+    { question: i18n.t("home.faq.q6"), answer: i18n.t("home.faq.a6") },
+    { question: i18n.t("home.faq.q7"), answer: i18n.t("home.faq.a7") },
+    { question: i18n.t("home.faq.q8"), answer: i18n.t("home.faq.a8") },
   ]);
 
   const marqueeRowA = sampleSvgs(20, 0);
@@ -68,6 +76,12 @@
         name: siteSeo.siteName,
         url: siteSeo.url,
         logo: `${brand.siteUrl}/favicon.png`,
+        email: brand.supportEmail,
+        contactPoint: {
+          "@type": "ContactPoint",
+          email: brand.supportEmail,
+          contactType: "customer support",
+        },
         sameAs: [brand.githubUrl],
       },
       {
@@ -82,6 +96,15 @@
           target: `${brand.siteUrl}/library?search={search_term_string}`,
           "query-input": "required name=search_term_string",
         },
+      },
+      {
+        "@type": "Store",
+        "@id": `${brand.siteUrl}/#store`,
+        name: "5SVG Bundles",
+        url: `${brand.siteUrl}/shop`,
+        description:
+          "Digital craft SVG Bundles — one-time purchase ZIP downloads for makers.",
+        parentOrganization: { "@id": `${brand.siteUrl}/#organization` },
       },
       {
         "@type": "FAQPage",
@@ -122,6 +145,23 @@
       <p class="mt-4 text-base leading-relaxed text-neutral-600 dark:text-neutral-400">
         {i18n.t("home.hero.subtitle")}
       </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <InternalLink
+          href="/shop"
+          className={cn(buttonVariants({ size: "lg" }), "no-underline")}
+        >
+          {i18n.t("home.hero.ctaShop")}
+        </InternalLink>
+        <InternalLink
+          href="/library"
+          className={cn(
+            buttonVariants({ variant: "outline", size: "lg" }),
+            "no-underline",
+          )}
+        >
+          {i18n.t("home.hero.ctaFree")}
+        </InternalLink>
+      </div>
       <img
         src={homeMarketingImage.bannerLogo}
         alt={homeMarketingImage.bannerLogoAlt}
@@ -168,6 +208,58 @@
         </p>
       </div>
     {/each}
+  </div>
+</section>
+
+<!-- Featured Bundles (merchant signal, 8svg-style shop presence) -->
+<section class="border-b border-neutral-200 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900/40">
+  <div class="mx-auto max-w-6xl px-4 py-12 md:py-14">
+    <div class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+      <div>
+        <h2
+          class="text-2xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50"
+        >
+          {i18n.t("home.shopStrip.title")}
+        </h2>
+        <p class="mt-2 max-w-xl text-sm text-neutral-600 dark:text-neutral-400">
+          {i18n.t("home.shopStrip.subtitle")}
+        </p>
+      </div>
+      <InternalLink
+        href="/shop"
+        className="text-sm font-medium text-brand-energy no-underline hover:underline dark:text-brand"
+      >
+        {i18n.t("home.shopStrip.viewAll")}
+      </InternalLink>
+    </div>
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {#each featuredBundles as product (product.slug)}
+        <InternalLink
+          href={`/shop/${product.slug}`}
+          className="group flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white no-underline transition-shadow hover:border-brand/40 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-950 dark:hover:border-brand/50"
+        >
+          <div class="flex h-40 items-center justify-center bg-neutral-100 p-6 dark:bg-neutral-100">
+            <img
+              src={product.previewPath}
+              alt={product.title}
+              class="max-h-full max-w-full object-contain transition-transform group-hover:scale-[1.02]"
+              loading="lazy"
+            />
+          </div>
+          <div class="flex flex-1 flex-col gap-1 px-4 py-4">
+            <p class="font-medium text-neutral-900 dark:text-neutral-50">
+              {product.title}
+            </p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-400">
+              {i18n.t("shop.fileCount", { count: product.fileCount })}
+            </p>
+            <p class="mt-auto pt-2 text-base font-semibold text-brand-energy dark:text-brand">
+              {formatUsd(product.priceCents)}
+            </p>
+          </div>
+        </InternalLink>
+      {/each}
+    </div>
   </div>
 </section>
 

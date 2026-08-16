@@ -1,0 +1,494 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Změnit jazyk",
+    "languageSelect": {
+      "title": "Vyberte jazyk",
+      "subtitle": "Zvolte jazyk rozhraní webu.",
+      "close": "Zavřít"
+    },
+    "nav": {
+      "home": "Domů",
+      "freeSvg": "Bezplatné SVG",
+      "svgBundles": "Balíčky SVG",
+      "shopNow": "Obchod",
+      "allFreeSvg": "Všechna bezplatná SVG",
+      "allBundles": "Všechny balíčky",
+      "licensing": "Licenční politika",
+      "contact": "Kontaktujte nás",
+      "bundles": "Balíčky",
+      "browse": "Procházet",
+      "favorites": "Oblíbené",
+      "extensions": "Rozšíření",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Hledat v knihovně",
+      "openMenu": "Otevřít menu"
+    },
+    "sidebar": {
+      "categories": "Kategorie",
+      "allLogosAz": "Všechna loga A–Z",
+      "submitSvg": "Odeslat SVG",
+      "githubRepo": "Repozitář GitHub"
+    },
+    "footer": {
+      "tagline": "Bezplatná knihovna SVG a craft Bundles pro makery",
+      "product": "Produkt",
+      "explore": "Prozkoumat",
+      "categories": "Kategorie",
+      "company": "Společnost",
+      "legal": "Právní informace",
+      "supportTitle": "Zákaznická podpora",
+      "supportBody": "Dotazy k bezplatným SVG nebo placeným Bundles? Napište nám — odpovídáme do 1–2 pracovních dnů.",
+      "exploreLibrary": "Prozkoumat knihovnu",
+      "browseIndex": "Rejstřík A–Z",
+      "home": "Domů",
+      "about": "O nás",
+      "license": "Licenční politika",
+      "licensingPolicy": "Licenční politika",
+      "privacy": "Zásady ochrany osobních údajů",
+      "privacyPolicy": "Zásady ochrany osobních údajů",
+      "terms": "Obchodní podmínky",
+      "termsOfService": "Obchodní podmínky",
+      "design": "Design",
+      "social": "Sociální sítě",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ bezplatných SVG souborů — procházejte Free SVG",
+      "favorites": "Stáhnout · uložit oblíbené · zdarma pro osobní použití",
+      "shop": "SVG Bundles od $4.50 — jednorázová platba, okamžité ZIP stažení"
+    },
+    "showAll": "Zobrazit vše",
+    "showLess": "Zobrazit méně",
+    "showMore": "Zobrazit více",
+    "copySvg": "Kopírovat SVG"
+  },
+  "shop": {
+    "seoTitle": "SVG Bundles — Ceny a craft balíčky | 5SVG",
+    "seoDescription": "Kupte originální craft SVG Bundles za $4.50 USD kus — jednorázový nákup, okamžité ZIP stažení. Bezplatná loga značek zůstávají zdarma v knihovně.",
+    "promo": "Tematické balíčky $4.50 · Kompletní kolekce $9.90. Jedna platba, ZIP hned.",
+    "title": "SVG balíčky",
+    "subtitle": "Kupte balíček jednoho tématu, nebo odemkněte všechny balíčky jedním nákupem. Logo značek zůstávají zdarma v knihovně.",
+    "allCategories": "Vše",
+    "viewPack": "Zobrazit",
+    "wholeShopBadge": "Nejvýhodnější",
+    "wholeShopSection": "Kompletní kolekce",
+    "wholeShopTitle": "Kompletní kolekce",
+    "wholeShopLead": "{count} craft SVG ze všech témat. Jeden nákup odemkne všechny balíčky.",
+    "wholeShopCta": "Koupit",
+    "themePacksHeading": "Tematické balíčky",
+    "themePacksLead": "Každý balíček je jednorázový digitální nákup za $4.50 s cca 20–24 originálními craft soubory k řezání (ZIP). Logo značek zůstávají zdarma v knihovně.",
+    "empty": "V této kategorii zatím nejsou žádné balíčky.",
+    "fileCount": "{count} souborů",
+    "moreFiles": "+{count} dalších",
+    "freeHint": "Potřebujete bezplatná loga značek?",
+    "freeLibraryLink": "Otevřít bezplatnou knihovnu →",
+    "backToShop": "Všechny balíčky",
+    "emailLabel": "E-mail pro potvrzení a stažení",
+    "mockNotice": "Zkušební platba (Creem ještě není napojen).",
+    "buyDownload": "Koupit a stáhnout",
+    "processing": "Přesměrování…",
+    "checkoutError": "Platba se nezdařila. Zkuste to znovu.",
+    "flowHint": "Zaplaťte jednou a okamžitě stáhněte ZIP. Potvrzení přijde na e-mail.",
+    "payOverlayTitle": "Potvrzování platby…",
+    "payOverlayBody": "Počkejte prosím, ověřujeme váš nákup.",
+    "prepareOverlayTitle": "Příprava stahování…",
+    "prepareOverlayBody": "Váš ZIP brzy začne.",
+    "downloadTitle": "Vaše stažení",
+    "downloadMissing": "Chybí údaje o návratu z platby. Začněte znovu od Bundles.",
+    "downloadFailed": "Platbu se nepodařilo potvrdit.",
+    "downloadSyncing": "Potvrzování platby…",
+    "downloadReady": "Připraveno: {title}",
+    "downloadZip": "Stáhnout ZIP",
+    "downloadEmailHint": "Záložní odkaz ke stažení byl také odeslán na zadaný e-mail.",
+    "includesSample": "Obsahuje (ukázka)",
+    "browseCategory": "Procházet tuto kategorii →",
+    "license": {
+      "personal": "Osobní použití",
+      "commercial": "Komerční craft licence"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Bezplatné SVG soubory a craft SVG Bundles",
+    "description": "Bezplatná knihovna SVG log a placené craft SVG Bundles pro makery. Procházejte Free SVG kdykoli, nebo kupte originální ZIP balíčky od $4.50 pro Cricut, Silhouette, vinyl a craft.",
+    "keywords": "svg bundles, craft svg, bezplatné svg soubory, stažení svg, cricut svg, silhouette svg, placené svg balíčky, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Bezplatné SVG soubory a craft balíčky",
+      "subtitle": "Procházejte naši bezplatnou knihovnu, nebo nakupujte originální craft balíčky — digitální ZIP balíčky od $4.50, jednorázová platba, okamžité stažení. Pro Cricut, Silhouette, vinyl a tvůrce.",
+      "ctaShop": "Koupit balíčky",
+      "ctaFree": "Bezplatná knihovna",
+      "marqueeAria": "Procházet SVG soubory v knihovně"
+    },
+    "value": {
+      "freeTitle": "Okamžité digitální doručení",
+      "freeDesc": "Kupte balíček a stáhněte ZIP hned po platbě — bez dopravy a čekání. Bezplatná knihovna zůstává zdarma.",
+      "curatedTitle": "Craft balíčky od $4.50",
+      "curatedDesc": "Originální balíčky řezných souborů s jasnou cenou v USD u každého produktu. Jednorázový nákup — soubory si ponechte pro osobní craft.",
+      "easyTitle": "Zákaznická podpora",
+      "easyDesc": "Dotazy k bezplatné knihovně, balíčkům nebo licencím? Pište na support@5svg.com nebo použijte Kontaktujte nás — odpovídáme do 1–2 pracovních dnů."
+    },
+    "shopStrip": {
+      "title": "SVG balíčky k prodeji",
+      "subtitle": "Originální craft SVG balíčky — $4.50 kus, jednorázová platba, okamžité ZIP.",
+      "viewAll": "Zobrazit všechny balíčky →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Pro každodenní makery",
+      "subtitle": "Používejte loga Free SVG nebo řezné soubory z Bundle v Cricut, Silhouette, Canva, na trička, samolepky a další.",
+      "cutting": "Řezání",
+      "stickers": "Samolepky a obtisky",
+      "gifts": "Dárky a oslavy",
+      "labels": "Štítky a cedulky",
+      "print": "Tisk a foto",
+      "personal": "Osobní projekty",
+      "iconAlt": "Ikona craft {label}"
+    },
+    "library": {
+      "title": "Co je v knihovně",
+      "subtitle": "{count}+ SVG souborů podle témat — použijte menu v záhlaví, až budete chtít procházet nebo stahovat.",
+      "browseTitle": "Procházet SVG: {name}",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Jak to funguje",
+      "title": "Bezplatná knihovna nebo nákup balíčků",
+      "subtitle": "Procházejte bezplatnou knihovnu kdykoli — nebo otevřete Balíčky, kupte craft balíček a po platbě stáhněte ZIP.",
+      "searchTitle": "Procházet bezplatnou knihovnu",
+      "searchDesc": "Otevřete bezplatnou knihovnu, vyberte kategorii nebo hledejte podle názvu — stahujte loga bez účtu.",
+      "downloadTitle": "Koupit balíček",
+      "downloadDesc": "Vyberte craft balíček v Balíčcích, zaplaťte jednou za uvedenou cenu USD a stáhněte ZIP.",
+      "favoritesTitle": "Uložit a znovu použít",
+      "favoritesDesc": "Dejte srdíčko oblíbeným z bezplatné knihovny na tomto zařízení, nebo si ponechte koupené soubory balíčků pro craft projekty."
+    },
+    "seoIntro": {
+      "tag": "SVG obchod a knihovna",
+      "title": "Bezplatné SVG soubory a placené craft Bundles pro makery",
+      "description": "5SVG prodává originální craft SVG Bundles jako digitální ZIP stažení (obvykle $4.50 kus) a hostuje bezplatnou knihovnu log značek. Procházejte Free SVG kdykoli, nebo kupte Bundles pro Cricut, Silhouette, vinyl a každodenní craft."
+    },
+    "seoBlocks": {
+      "whatTag": "Základy",
+      "whatTitle": "Co je soubor SVG?",
+      "whatBody": "SVG (Scalable Vector Graphics) ukládá tvary a cesty jako matematiku, ne jako pixely. Loga a ikony zůstanou ostré, ať je zmenšíte na samolepku, nebo zvětšíte na plakát.",
+      "whatB1": "Škáluje se na libovolnou velikost bez rozmazání",
+      "whatB2": "Běžný formát pro loga, ikony a jednoduché ilustrace",
+      "whatB3": "Podporováno prohlížeči, designovým softwarem a vinylovými řezačkami",
+      "whatAlt": "5SVG — miliony kvalitních SVG vektorů a kategorií",
+      "usesTag": "Použití",
+      "usesTitle": "Co můžete dělat se soubory SVG?",
+      "usesBody": "SVG jsou praktický start pro osobní projekty — mockupy, učení designu, party craft a maker workflow, kde potřebujete čistý vektor ke změně velikosti.",
+      "usesB1": "Řežte vinylové obtisky na Cricut nebo Silhouette",
+      "usesB2": "Vložte ikony do Canva, Figma nebo PowerPoint",
+      "usesB3": "Tiskněte trička, cedulky a party dekorace doma",
+      "usesB4": "Tvořte moodboardy a školní projekty se skutečnými logy značek",
+      "usesAlt": "5SVG — navrhujte, tvořte a prezentujte s UI kity a ikonami aplikací",
+      "getTag": "Získat soubory",
+      "getTitle": "Jak získat SVG soubory z 5SVG",
+      "getBody": "Procházejte Free SVG kdykoli — hledejte nebo vyberte kategorii, pak kopírujte nebo stahujte. Pro craft balíčky otevřete Bundles, vyberte produkt za uvedenou cenu USD a po platbě stáhněte ZIP.",
+      "getB1": "Procházejte Free SVG — bez registrace",
+      "getB2": "Nebo kupte Bundles s originálními craft ZIP balíčky",
+      "getB3": "Zaplaťte jednou a stáhněte ZIP",
+      "getB4": "Před komerčním craft použitím zkontrolujte License a Terms",
+      "getAlt": "5SVG — rychlé vyhledávání vektorů na všech zařízeních"
+    },
+    "faq": {
+      "title": "Časté dotazy",
+      "subtitle": "Co prodáváme, ceny, doručení, refundace a podpora.",
+      "lead": "5SVG prodává digitální craft SVG Bundles (ZIP stažení) za jasné ceny USD na stránce Bundles. Knihovna Free SVG zůstává zdarma. Platby zpracovává Creem.",
+      "q1": "Co prodáváte?",
+      "a1": "Prodáváme originální craft SVG Bundles — digitální ZIP balíčky řezných souborů pro makery (Cricut, Silhouette, vinyl, trička). Nefyzické zboží. Bezplatná loga značek ve Free SVG jsou zdarma a nejsou placenými produkty.",
+      "q2": "Kolik stojí Bundle?",
+      "a2": "Každý craft Bundle obvykle stojí $4.50 USD jako jednorázový nákup. Přesné ceny jsou na https://5svg.com/shop a na každé produktové stránce před platbou.",
+      "q3": "Jak je produkt doručen?",
+      "a3": "Doručení je 100% digitální a okamžité po úspěšné platbě. Bez dopravy. U pokladny zadejte platný e-mail pro potvrzení.",
+      "q4": "Potřebuji účet nebo instalaci softwaru?",
+      "a4": "Účet není potřeba k prohlížení Free SVG ani nákupu Bundles. Oblíbené zůstávají v prohlížeči. Importujte SVG do Cricut Design Space, Silhouette Studio, Canva nebo libovolné vektorové aplikace — od nás nic neinstalujete.",
+      "q5": "Jakou licenci získám?",
+      "a5": "Bundles zahrnují osobní craft licenci. ZIP ani jednotlivé soubory nesmíte přeprodávat ani šířit. Loga Free SVG zůstávají ochrannými známkami vlastníků — před komerčním použitím zkontrolujte pokyny značky. Viz stránky License a Terms of Service.",
+      "q6": "Mohu získat refundaci?",
+      "a6": "Protože Bundles jsou digitální stažení, obvykle nenabízíme refundaci poté, co byl ZIP doručen a zůstává dostupný k běžnému použití. Pokud stažení selže kvůli chybě na naší straně, napište na support@5svg.com — po ověření to posoudíme.",
+      "q7": "Kde jsou Privacy Policy a Terms of Service?",
+      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Odkazy jsou také v patičce webu.",
+      "q8": "Jak kontaktovat podporu?",
+      "a8": "Pište na support@5svg.com nebo použijte stránku Kontaktujte nás. Odpovídáme do 1–2 pracovních dnů (do 3 pracovních dnů u fakturačních otázek).",
+      "contactBefore": "Pro výše uvedené a další dotazy použijte stránku ",
+      "contactLink": "Kontaktujte nás",
+      "contactMiddle": " na tomto webu nebo napište na ",
+      "contactAfter": ". Odpovídáme do 1–2 pracovních dnů."
+    },
+    "about": {
+      "title": "O 5SVG",
+      "p1": "5SVG je bezplatná knihovna SVG log a ikon plus obchod s originálními craft SVG Bundles. Placené produkty jsou pouze digitální ZIP stažení — obvykle $4.50 USD kus, jednorázový nákup, ceny na stránce Bundles.",
+      "p2": "Procházejte Free SVG kdykoli, nebo otevřete Bundles pro sezónní a každodenní balíčky řezných souborů pro Cricut, Silhouette, vinyl a makery. Podpora: support@5svg.com. Právní: Privacy Policy, Terms of Service a License v patičce.",
+      "logoAlt": "Logo 5SVG — bezplatná knihovna SVG a craft Bundles"
+    },
+    "bannerAlt": "5SVG — Bezplatné SVG soubory a craft SVG Bundles"
+  },
+  "ContactPage": {
+    "title": "Kontaktujte nás",
+    "description": "Kontaktujte 5SVG ohledně Free SVG, Bundles, licencí nebo zpětné vazby. Odpovídáme do 1–2 pracovních dnů.",
+    "subtitle": "Rádi pomůžeme s Free SVG, craft Bundles a licenčními otázkami.",
+    "introShort": "Máte dotaz nebo zpětnou vazbu? Vyplňte formulář níže a brzy se ozveme.",
+    "whyTitle": "S čím nás můžete kontaktovat",
+    "why1": "Knihovna Free SVG: prohlížení, stahování nebo ochranné známky",
+    "why2": "SVG Bundles: nákupy, stahování nebo obsah balíčků",
+    "why3": "Licence a komerční použití",
+    "why4": "Zpětná vazba, partnerství nebo nahlášení zneužití",
+    "expectTitle": "Co očekávat",
+    "expectContent": "Čteme každou zprávu a snažíme se odpovědět do 1–2 pracovních dnů. U naléhavých věcí uveďte jasný předmět a co nejvíce detailů.",
+    "orEmail": "Nebo nám napište na",
+    "form": {
+      "title": "Odeslat zprávu",
+      "description": "Dotazy k Free SVG, Bundles nebo zpětná vazba? Vyplňte formulář a odpovíme co nejdříve.",
+      "name": "Jméno",
+      "email": "E-mail",
+      "message": "Zpráva",
+      "namePlaceholder": "Vaše jméno",
+      "emailPlaceholder": "vas@email.com",
+      "messagePlaceholder": "Vaše zpráva nebo dotaz...",
+      "submit": "Odeslat zprávu",
+      "mailtoHint": "Měl by se otevřít e-mailový klient se zprávou připravenou pro support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Vaše stažení 5SVG — {title}",
+      "title": "Stažení je připraveno",
+      "body": "Děkujeme za nákup {title} na 5SVG.",
+      "downloadButton": "Stáhnout ZIP",
+      "linkFallback": "Nebo zkopírujte tento záložní odkaz:",
+      "note": "Pokud se soubor po platbě nestáhl automaticky, otevřete tento odkaz znovu.",
+      "textIntro": "Děkujeme za nákup {title}.",
+      "textDownload": "Stáhněte ZIP (záložní odkaz):",
+      "textSupport": "Podpora: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "O 5SVG — Bezplatná knihovna SVG a craft Bundles",
+      "description": "5SVG je nezávislá bezplatná knihovna SVG log a obchod s originálními craft SVG Bundles. Pouze digitální stažení — jasné ceny na stránce Bundles.",
+      "h1": "O 5SVG",
+      "sections": [
+        {
+          "h2": "Co nabízíme",
+          "body": "5SVG hostuje bezplatnou knihovnu SVG log a ikon značek a placené craft SVG Bundles prodávané jako jednorázová digitální ZIP stažení. Free SVG zůstává zdarma. Bundles jsou originální balíčky řezných souborů pro makery (Cricut, Silhouette, vinyl, trička)."
+        },
+        {
+          "h2": "Co prodáváme",
+          "body": "Přes Bundles prodáváme pouze digitální craft SVG balíčky — obvykle $4.50 USD kus, jednorázová platba, okamžité ZIP po platbě. Nefyzické zboží. Aktuální balíčky a ceny jsou na stránce Bundles (/shop)."
+        },
+        {
+          "h2": "Kdo jsme",
+          "body": "5SVG je nezávislý projekt. Nejsme spřízněni, schváleni ani sponzorováni značkami, jejichž loga jsou v bezplatné knihovně. Placené Bundles jsou originální craft návrhy, které skládáme nebo vytváříme pro osobní craft použití."
+        },
+        {
+          "h2": "Podpora",
+          "body": "E-mail zákaznické podpory: support@5svg.com. Odpovídáme do 1–2 pracovních dnů. Můžete také použít stránku Kontaktujte nás na tomto webu."
+        }
+      ]
+    },
+    "license": {
+      "title": "Licenční politika — 5SVG",
+      "description": "Jak smíte používat soubory Free SVG a placené craft Bundles na 5SVG, včetně ochranných známek a osobního craftu.",
+      "h1": "Licenční politika",
+      "sections": [
+        {
+          "h2": "Úvod",
+          "body": "Tato Licenční politika vysvětluje, jak smíte používat materiály z 5SVG. Stažením souborů Free SVG nebo nákupem Bundles souhlasíte s touto politikou, Terms of Service a Privacy Policy."
+        },
+        {
+          "h2": "Knihovna Free SVG",
+          "body": "Loga a ikony značek ve Free SVG smíte zdarma prohlížet, kopírovat a stahovat pro osobní projekty, vzdělávání a mockupy. Komerční použití ochranných známek může stále vyžadovat souhlas vlastníka. Soubory Free SVG se neprodávají jako placené produkty."
+        },
+        {
+          "h2": "Placené Bundles (craft balíčky)",
+          "body": "Craft SVG balíčky prodávané jako Bundles jsou licencovány pro osobní craft projekty (např. řezání, vinyl, trička, samolepky a podobné). Digitální ZIP ani jednotlivé SVG nesmíte přeprodávat, šířit, sdílet ani znovu nahrávat jako samostatné digitální produkty."
+        },
+        {
+          "h2": "Duševní vlastnictví",
+          "body": "Originální craft návrhy v placených Bundles patří 5SVG nebo jsou nám licencovány k prodeji. Loga a wordmarky Free SVG zůstávají majetkem příslušných vlastníků. 5SVG si nenárokuje vlastnictví ochranných známek třetích stran v bezplatné knihovně."
+        },
+        {
+          "h2": "Ochranné známky",
+          "body": "Loga a wordmarky zůstávají ochrannými známkami svých vlastníků. 5SVG není spřízněn ani schválen těmito značkami. Neprodáváme chráněná loga značek jako placené produkty."
+        },
+        {
+          "h2": "Bez záruky",
+          "body": "Soubory jsou poskytovány tak, jak jsou. Negarantujeme úplnost, právní povolení pro váš konkrétní případ ani shodu assetů s nejnovějšími oficiálními verzemi značek."
+        },
+        {
+          "h2": "Kontaktujte nás",
+          "body": "Dotazy k této Licenční politice: pište na support@5svg.com nebo použijte stránku Kontaktujte nás na tomto webu."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Zásady ochrany osobních údajů — 5SVG",
+      "description": "Jak chráníme vaše data při používání 5SVG",
+      "h1": "Zásady ochrany osobních údajů",
+      "sections": [
+        {
+          "h2": "Úvod",
+          "body": "Vítejte v Zásadách ochrany osobních údajů 5SVG. Tento dokument vysvětluje, jak shromažďujeme, používáme a chráníme osobní údaje při používání webu 5SVG, knihovny Free SVG a obchodu craft Bundle."
+        },
+        {
+          "h2": "Jaké informace shromažďujeme",
+          "body": "Můžeme shromažďovat tyto typy informací: (1) Kontaktní údaje, které poskytnete — např. e-mail u pokladny Bundle pro potvrzení a stažení, nebo zprávy přes Kontaktujte nás. (2) Údaje o používání — jak se serverem interagujete (např. navštívené stránky), když je zapnutá analytika. (3) Informace o zařízení — např. typ prohlížeče nebo technická data pro provoz a zabezpečení. Oblíbené ukládáte lokálně v prohlížeči; seznam na naše servery neposíláme."
+        },
+        {
+          "h2": "Jak informace používáme",
+          "body": "Vaše údaje používáme k poskytování a údržbě knihovny Free SVG a obchodu Bundle; k doručení placených ZIP a potvrzení; k zákaznické podpoře; ke zlepšování webu; ke sledování používání; a k detekci, prevenci a řešení technických problémů či zneužití."
+        },
+        {
+          "h2": "Platby",
+          "body": "Platby za Bundles zpracovává náš platební poskytovatel (Creem). Údaje o kartě zpracovává poskytovatel — plná čísla karet na serverech 5SVG neukládáme."
+        },
+        {
+          "h2": "Soubory cookie a úložiště",
+          "body": "Web může používat cookies nebo místní úložiště pro motiv, jazyk, oblíbené a analytiku. Data webu můžete kdykoli vymazat v nastavení prohlížeče. Blokování některých cookies může omezit funkce."
+        },
+        {
+          "h2": "Zabezpečení dat",
+          "body": "Provádíme vhodná bezpečnostní opatření na ochranu osobních údajů před neoprávněným přístupem, změnou, zveřejněním nebo zničením. Žádný způsob přenosu po internetu není 100% bezpečný."
+        },
+        {
+          "h2": "Služby třetích stran",
+          "body": "Můžeme využívat třetí strany pro platby, e-mail, analytiku nebo hosting. Odchozí odkazy a vložené odznaky se řídí politikami těchto webů."
+        },
+        {
+          "h2": "Změny těchto Zásad",
+          "body": "Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. O změnách informujeme zveřejněním aktualizované politiky na této stránce."
+        },
+        {
+          "h2": "Kontaktujte nás",
+          "body": "Dotazy k těmto Zásadám: pište na support@5svg.com nebo použijte stránku Kontaktujte nás na tomto webu."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Obchodní podmínky — 5SVG",
+      "description": "Podmínky používání webu 5SVG a nákupu craft SVG Bundles",
+      "h1": "Obchodní podmínky",
+      "sections": [
+        {
+          "h2": "Úvod",
+          "body": "Tyto Obchodní podmínky („Podmínky“) upravují používání webu 5SVG, knihovny Free SVG a obchodu Bundle. Přístupem na 5SVG.com nebo nákupem Bundle souhlasíte s těmito Podmínkami, Privacy Policy a Licensing Policy. Pokud nesouhlasíte, web nepoužívejte a Bundles nekupujte."
+        },
+        {
+          "h2": "Používání služeb",
+          "body": "Služby poskytujeme „tak, jak jsou“ a „dle dostupnosti“ bez záruk jakéhokoli druhu, výslovných či předpokládaných. Negarantujeme nepřerušovaný, bezpečný nebo bezchybný provoz webu. Free SVG můžete prohlížet bez účtu. Nákup Bundles vyžaduje platný e-mail u pokladny."
+        },
+        {
+          "h2": "Produkty, které prodáváme",
+          "body": "5SVG prodává digitální craft SVG Bundles (ZIP stažení originálních řezných souborů) jako jednorázové nákupy. Ceny jsou v USD na každé stránce Bundle (obvykle $4.50 za balíček). Bezplatná knihovna SVG log není placený produkt. Nefyzické zboží ani balíčky log třetích stran jako placené produkty neprodáváme."
+        },
+        {
+          "h2": "Ceny a platba",
+          "body": "Ceny Bundles jsou na https://5svg.com/shop a na každé produktové stránce před pokladnou. Platbu zpracovává Creem (Merchant of Record). Jste odpovědní za zadání platného e-mailu u pokladny, abychom mohli doručit stažení a potvrzení."
+        },
+        {
+          "h2": "Doručení",
+          "body": "Bundles se doručují pouze digitálně. Po úspěšné platbě obdržíte stažení ZIP; může být také odeslán záložní odkaz e-mailem. Fyzická doprava neprobíhá."
+        },
+        {
+          "h2": "Duševní vlastnictví",
+          "body": "Zakoupené Bundles jsou licencovány pro osobní craft, jak popisuje Licensing Policy. ZIP ani jednotlivé soubory nesmíte přeprodávat, šířit ani sdílet jako samostatné digitální produkty. Loga Free SVG podléhají právům vlastníků ochranných známek. Obsah webu, branding a originální craft návrhy jsou chráněny příslušnými zákony o duševním vlastnictví."
+        },
+        {
+          "h2": "Zakázané činnosti",
+          "body": "Souhlasíte, že nebudete: používat web v rozporu s právem; pokoušet se o neoprávněný přístup k našim systémům; scrapovat nebo přetěžovat službu tak, aby to poškodilo dostupnost; šířit malware; ani používat stažené soubory v rozporu s těmito Podmínkami nebo Licensing Policy."
+        },
+        {
+          "h2": "Refundace",
+          "body": "Protože Bundles jsou digitální stažení, obvykle nenabízíme refundaci poté, co byl ZIP doručen a zůstává dostupný k běžnému použití. Pokud nemůžete stáhnout kvůli chybě na naší straně, napište na support@5svg.com v přiměřené lhůtě; po ověření posoudíme a případně poskytneme opětovné stažení nebo jiné řešení."
+        },
+        {
+          "h2": "Omezení odpovědnosti",
+          "body": "5SVG v žádném případě nenese odpovědnost za nepřímé, nahodilé, zvláštní, následné nebo sankční škody vyplývající z používání nebo nemožnosti používat web či stažené soubory."
+        },
+        {
+          "h2": "Změny Podmínek",
+          "body": "Vyhrazujeme si právo tyto Podmínky kdykoli změnit. O změnách informujeme zveřejněním aktualizovaných Podmínek na této stránce."
+        },
+        {
+          "h2": "Kontaktujte nás",
+          "body": "Dotazy k těmto Podmínkám: pište na support@5svg.com nebo použijte stránku Kontaktujte nás. Odpovídáme do 1–2 pracovních dnů (a do 3 pracovních dnů u fakturačních otázek)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Hledat...",
+    "sortAz": "Řadit A–Z",
+    "sortLatest": "Řadit podle nejnovějších",
+    "accept": "Přijmout",
+    "logos": "log",
+    "azIndex": "Rejstřík A–Z",
+    "clearSearch": "Vymazat hledání",
+    "searchResults": "výsledků hledání",
+    "svgs": "SVG",
+    "showAll": "Zobrazit vše",
+    "showLess": "Zobrazit méně",
+    "showMore": "Zobrazit více",
+    "copySvg": "Kopírovat SVG",
+    "copyDisclaimer": "Před použitím SVG se ujistěte, že máte souhlas autorů. Úpravy nejsou povoleny."
+  },
+  "HeroTabs": {
+    "brands": "Značky",
+    "browse": "Procházet",
+    "ai": "AI",
+    "design": "Design",
+    "social": "Sociální sítě",
+    "aria": "Náhledy log"
+  },
+  "WarningBanner": {
+    "body": "SVG assety jsou poskytnuty jako reference. Před použitím v projektech jste zodpovědní za ověření ochranných známek a práv k užití.",
+    "accept": "Přijmout"
+  },
+  "NotFound": {
+    "title": "SVG nenalezeno",
+    "inCategory": "\"{title}\" nenalezeno v kategorii \"{category}\"",
+    "plain": "\"{title}\" nenalezeno",
+    "searchGlobally": "Hledat globálně",
+    "requestSvg": "Požádat o SVG",
+    "submitSvg": "Odeslat SVG"
+  },
+  "LibraryPage": {
+    "title": "Bezplatná knihovna SVG — Ikony a loga značek | 5SVG",
+    "description": "Procházejte a stahujte bezplatné SVG ikony a loga značek. Hledejte podle názvu, filtrujte kategorií, řaďte A–Z a kopírujte nebo stahujte — bez registrace.",
+    "h1": "Bezplatná knihovna SVG ikon a log",
+    "lead": "Hledejte bezplatné SVG ikony podle názvu nebo kategorie a stahujte vektorové soubory pro design, craft, Cricut a web.",
+    "sections": {
+      "search": {
+        "h2": "Hledejte bezplatné SVG ikony a loga",
+        "body": "Použijte vyhledávací lištu k nalezení SVG podle značky nebo názvu. Řaďte A–Z nebo prohlížejte nejnovější vektorová loga.",
+        "h3": "Najděte bezplatná SVG podle názvu, značky nebo kategorie"
+      },
+      "download": {
+        "h2": "Stahujte a používejte vektorové SVG soubory",
+        "body": "Otevřete libovolnou kartu a zkopírujte kód SVG nebo stáhněte optimalizovaný soubor. Uložte ikony do kolekce pro rychlý přístup.",
+        "h3": "Kopírujte, stahujte nebo přidávejte SVG ikony do oblíbených"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Všechna SVG loga A–Z — Bezplatný rejstřík | 5SVG",
+    "description": "Abecední rejstřík každého bezplatného SVG loga a ikony značky na 5SVG. Přejděte na detail a kopírujte nebo stahujte vektory.",
+    "h1": "Procházet všechna SVG loga",
+    "lead": "Kompletní rejstřík A–Z bezplatných SVG log značek v hlavní knihovně. Každý odkaz otevře detail s kopírováním, stažením a poznámkami k licenci.",
+    "logosCount": "({count} log)",
+    "backLibrary": "← Interaktivní knihovna",
+    "popularBrands": "Populární značky",
+    "categories": "Kategorie"
+  },
+  "FavoritesPage": {
+    "title": "Oblíbené",
+    "clearAll": "Vymazat vše",
+    "emptyTitle": "Zatím žádné oblíbené",
+    "emptyBody": "Přidejte SVG do oblíbených kliknutím na ikonu srdce u libovolného SVG.",
+    "browseSvgs": "Procházet SVG"
+  }
+}

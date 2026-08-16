@@ -12,7 +12,7 @@
 - Browse and search SVG icons and vectors by category
 - Light / dark theme previews where assets support it
 - Copy SVG source, download assets, and optional shadcn/ui registry
-- Documentation and API routes included in the monorepo
+- Documentation included in the monorepo
 
 ## Tech stack
 
@@ -20,7 +20,6 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/) 4
 - [Content Collections](https://www.content-collections.dev/) for docs
-- [Hono](https://hono.dev/) + Cloudflare Workers (`api-routes/`, optional)
 
 ## Getting started
 
@@ -59,19 +58,6 @@ pnpm preview
 Categories are defined in [`src/types/categories.ts`](./src/types/categories.ts).
 
 > Only upload assets you have the right to distribute. See the in-app warning banner for takedown requests.
-
-## API (optional)
-
-Public API docs (when deployed): [5svg.com/docs/api](https://5svg.com/docs/api)
-
-Local development:
-
-```bash
-cd api-routes
-pnpm install
-# Create .dev.vars with UPSTASH_REDIS_URL / UPSTASH_REDIS_TOKEN if using rate limits
-pnpm dev
-```
 
 ## Analytics (Google)
 

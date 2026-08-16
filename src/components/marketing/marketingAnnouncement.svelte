@@ -16,9 +16,9 @@
     {i18n.t("common.announcement.library", { count: svgsData.length })}
   </InternalLink>
   <InternalLink
-    href="/favorites"
+    href="/shop"
     className="flex-1 bg-brand px-4 py-2.5 text-brand-foreground transition-colors hover:bg-brand-hover"
   >
-    {i18n.t("common.announcement.favorites")}
+    {i18n.t("common.announcement.shop")}
   </InternalLink>
 </div>

@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Promijeni jezik",
+    "languageSelect": {
+      "title": "Odaberite jezik",
+      "subtitle": "Odaberite jezik sučelja stranice.",
+      "close": "Zatvori"
+    },
+    "nav": {
+      "home": "Početna",
+      "freeSvg": "Besplatni SVG",
+      "svgBundles": "SVG paketi",
+      "shopNow": "Trgovina",
+      "allFreeSvg": "Svi besplatni SVG",
+      "allBundles": "Svi paketi",
+      "licensing": "Licencna politika",
+      "contact": "Kontaktirajte nas",
+      "bundles": "Paketi",
+      "browse": "Pregledaj",
+      "favorites": "Favoriti",
+      "extensions": "Proširenja",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Pretraži knjižnicu",
+      "openMenu": "Otvori izbornik"
+    },
+    "sidebar": {
+      "categories": "Kategorije",
+      "allLogosAz": "Svi logotipi A–Z",
+      "submitSvg": "Pošalji SVG",
+      "githubRepo": "GitHub spremište"
+    },
+    "footer": {
+      "tagline": "Besplatna SVG knjižnica i craft paketi za kreatore",
+      "product": "Proizvod",
+      "explore": "Istraži",
+      "categories": "Kategorije",
+      "company": "Tvrtka",
+      "legal": "Pravno",
+      "supportTitle": "Korisnička podrška",
+      "supportBody": "Pitanja o besplatnim SVG-ovima ili plaćenim paketima? Pišite nam — odgovaramo u roku od 1–2 radna dana.",
+      "exploreLibrary": "Istraži knjižnicu",
+      "browseIndex": "Abecedni indeks A–Z",
+      "home": "Početna",
+      "about": "O nama",
+      "license": "Licencna politika",
+      "licensingPolicy": "Licencna politika",
+      "privacy": "Politika privatnosti",
+      "privacyPolicy": "Politika privatnosti",
+      "terms": "Uvjeti korištenja",
+      "termsOfService": "Uvjeti korištenja",
+      "design": "Dizajn",
+      "social": "Društvene mreže",
+      "software": "Softver"
+    },
+    "announcement": {
+      "library": "{count}+ besplatnih SVG datoteka — pregledajte Free SVG",
+      "favorites": "Preuzimanje · spremite favorite · besplatno za osobnu uporabu",
+      "shop": "SVG paketi od $4.50 — platite jednom, trenutačno ZIP preuzimanje"
+    }
+  },
+  "shop": {
+    "seoTitle": "SVG paketi — Cijene i craft paketi | 5SVG",
+    "seoDescription": "Kupite originalne craft SVG pakete za $4.50 USD — jednokratna kupnja, trenutačno ZIP preuzimanje. Besplatni brend logotipi ostaju besplatni u knjižnici.",
+    "promo": "Tematski paketi $4.50 · Kompletna kolekcija $9.90. Jedna uplata, ZIP odmah.",
+    "title": "SVG paketi",
+    "subtitle": "Kupite paket jedne teme ili otključajte sve pakete jednom kupnjom. Logotipi brendova ostaju besplatni u knjižnici.",
+    "allCategories": "Sve",
+    "viewPack": "Pogledaj",
+    "wholeShopBadge": "Najbolja vrijednost",
+    "wholeShopSection": "Kompletna kolekcija",
+    "wholeShopTitle": "Kompletna kolekcija",
+    "wholeShopLead": "{count} craft SVG datoteka iz svih tema. Jedna kupnja otključava sve pakete.",
+    "wholeShopCta": "Kupi sada",
+    "themePacksHeading": "Tematski paketi",
+    "themePacksLead": "Svaki paket je jednokratna digitalna kupnja za $4.50, s oko 20–24 originalne craft datoteke za rezanje (ZIP). Logotipi brendova ostaju besplatni u knjižnici.",
+    "empty": "Još nema paketa u ovoj kategoriji.",
+    "fileCount": "{count} datoteka",
+    "moreFiles": "+{count} više",
+    "freeHint": "Trebate besplatne brend logotipe?",
+    "freeLibraryLink": "Otvori besplatnu knjižnicu →",
+    "backToShop": "Svi paketi",
+    "emailLabel": "E-pošta za račun i preuzimanje",
+    "mockNotice": "Probni checkout (Creem još nije povezan).",
+    "buyDownload": "Kupi i preuzmi",
+    "processing": "Preusmjeravanje…",
+    "checkoutError": "Plaćanje nije uspjelo. Pokušajte ponovno.",
+    "flowHint": "Platite jednom za trenutačno preuzimanje ZIP-a. Račun se šalje na vašu e-poštu.",
+    "payOverlayTitle": "Potvrda plaćanja…",
+    "payOverlayBody": "Pričekajte dok potvrđujemo vašu kupnju.",
+    "prepareOverlayTitle": "Priprema preuzimanja…",
+    "prepareOverlayBody": "ZIP će uskoro započeti.",
+    "downloadTitle": "Vaše preuzimanje",
+    "downloadMissing": "Nedostaju podaci o povratku plaćanja. Počnite ponovno od Paketa.",
+    "downloadFailed": "Plaćanje nije potvrđeno.",
+    "downloadSyncing": "Potvrda plaćanja…",
+    "downloadReady": "Spremno: {title}",
+    "downloadZip": "Preuzmi ZIP",
+    "downloadEmailHint": "Rezervna poveznica za preuzimanje također je poslana na unesenu e-poštu.",
+    "includesSample": "Uključuje (uzorak)",
+    "browseCategory": "Pregledaj ovu kategoriju →",
+    "license": {
+      "personal": "Osobna uporaba",
+      "commercial": "Komercijalna craft licenca"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Besplatne SVG datoteke i craft SVG paketi",
+    "description": "Besplatna knjižnica SVG logotipa plus plaćeni craft SVG paketi. Pregledajte Free SVG bilo kada ili kupite originalne ZIP pakete od $4.50 za Cricut, Silhouette, vinil i crafts.",
+    "keywords": "svg paketi, craft svg, besplatni svg, svg preuzimanje, cricut svg, silhouette svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Besplatne SVG datoteke i craft paketi",
+      "subtitle": "Pregledajte našu besplatnu knjižnicu ili kupite originalne craft pakete — digitalni ZIP paketi od $4.50, platite jednom, preuzmite odmah. Za Cricut, Silhouette, vinil i kreatore.",
+      "ctaShop": "Kupi pakete",
+      "ctaFree": "Besplatna knjižnica",
+      "marqueeAria": "Pregled SVG datoteka u knjižnici"
+    },
+    "value": {
+      "freeTitle": "Trenutačna digitalna dostava",
+      "freeDesc": "Kupite paket i preuzmite ZIP odmah nakon plaćanja — bez dostave, bez čekanja. Besplatna knjižnica ostaje besplatna.",
+      "curatedTitle": "Craft paketi od $4.50",
+      "curatedDesc": "Originalni paketi datoteka za rezanje s jasnom USD cijenom. Jednokratna kupnja — zadržite datoteke za osobnu craft uporabu.",
+      "easyTitle": "Korisnička podrška",
+      "easyDesc": "Pitanja o besplatnoj knjižnici, paketima ili licenci? E-pošta support@5svg.com ili Kontakt — odgovaramo u 1–2 radna dana."
+    },
+    "shopStrip": {
+      "title": "SVG paketi u prodaji",
+      "subtitle": "Originalni craft SVG paketi — $4.50 po komadu, platite jednom, trenutačni ZIP.",
+      "viewAll": "Pogledaj sve pakete →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Za svakodnevne kreatore",
+      "subtitle": "Koristite Free SVG logotipe ili datoteke paketa u Cricut, Silhouette, Canva, majicama, naljepnicama i više.",
+      "cutting": "Rezanje i crafts",
+      "stickers": "Naljepnice i dekal",
+      "gifts": "Pokloni i zabave",
+      "labels": "Etikete",
+      "print": "Ispis i fotografija",
+      "personal": "Osobni projekti",
+      "iconAlt": "Craft ikona {label}"
+    },
+    "library": {
+      "title": "Što ima u knjižnici",
+      "subtitle": "{count}+ SVG datoteka grupiranih po temi — koristite gornji izbornik kad ste spremni pregledavati ili preuzimati.",
+      "browseTitle": "Pregledaj {name} SVG",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG-ova"
+    },
+    "how": {
+      "tag": "Kako funkcionira",
+      "title": "Besplatna knjižnica ili kupnja paketa",
+      "subtitle": "Pregledajte besplatnu knjižnicu bilo kada — ili otvorite Pakete, kupite craft paket i preuzmite ZIP nakon plaćanja.",
+      "searchTitle": "Pregledaj besplatnu knjižnicu",
+      "searchDesc": "Otvorite besplatnu knjižnicu, odaberite kategoriju ili pretražite po imenu — preuzimanje bez računa.",
+      "downloadTitle": "Kupi paket",
+      "downloadDesc": "Odaberite craft paket na Paketima, platite jednom navedenu USD cijenu, zatim preuzmite ZIP.",
+      "favoritesTitle": "Spremite i ponovno koristite",
+      "favoritesDesc": "Označite Free SVG favorite na ovom uređaju ili zadržite kupljene datoteke paketa za craft projekte."
+    },
+    "seoIntro": {
+      "tag": "SVG trgovina i knjižnica",
+      "title": "Besplatne SVG datoteke i plaćeni craft paketi",
+      "description": "5SVG prodaje originalne craft SVG pakete kao digitalna ZIP preuzimanja (obično $4.50 po komadu) i hostira besplatnu knjižnicu brend logotipa. Pregledajte Free SVG ili kupite pakete za Cricut, Silhouette, vinil i svakodnevne crafts."
+    },
+    "seoBlocks": {
+      "whatTag": "Osnove",
+      "whatTitle": "Što je SVG datoteka?",
+      "whatBody": "SVG (Scalable Vector Graphics) pohranjuje oblike i putanje kao matematiku umjesto piksela. Logotipi i ikone ostaju oštri — smanjite ih za naljepnicu ili povećajte za poster.",
+      "whatB1": "Skalira se na bilo koju veličinu bez zamućenja",
+      "whatB2": "Uobičajeni format za logotipe, ikone i jednostavne ilustracije",
+      "whatB3": "Podržano u preglednicima, dizajnerskom softveru i vinilnim rezačima",
+      "whatAlt": "5SVG — milijuni kvalitetnih SVG vektora i kategorija",
+      "usesTag": "Upotrebe",
+      "usesTitle": "Što možete raditi sa SVG datotekama?",
+      "usesBody": "SVG-ovi su praktična polazišna točka za osobne projekte — makete, učenje dizajna, party crafts i maker tijekove rada gdje trebate čist vektor za promjenu veličine.",
+      "usesB1": "Režite vinilne dekale s Cricut ili Silhouette",
+      "usesB2": "Ubaciite ikone u Canva, Figma ili PowerPoint",
+      "usesB3": "Ispisujte majice, etikete i ukrase za zabave kod kuće",
+      "usesB4": "Izradite mood boardove i školske projekte s pravim brend logotipima",
+      "usesAlt": "5SVG — dizajnirajte i predstavljajte s UI kitovima i ikonama aplikacija",
+      "getTag": "Nabavite datoteke",
+      "getTitle": "Kako nabaviti SVG datoteke s 5SVG",
+      "getBody": "Pregledajte Free SVG bilo kada — pretražite ili odaberite kategoriju, zatim kopirajte ili preuzmite. Za craft pakete otvorite Pakete, odaberite proizvod po navedenoj USD cijeni i preuzmite ZIP nakon plaćanja.",
+      "getB1": "Pregledajte Free SVG — bez prijave",
+      "getB2": "Ili kupite pakete za originalne craft ZIP pakete",
+      "getB3": "Platite jednom, zatim preuzmite ZIP",
+      "getB4": "Provjerite Licencu i Uvjete prije komercijalne craft uporabe",
+      "getAlt": "5SVG — najbrža vektorska pretraga na uređajima"
+    },
+    "faq": {
+      "title": "Česta pitanja",
+      "subtitle": "Što prodajemo, cijene, dostava, povrati i podrška.",
+      "lead": "5SVG prodaje digitalne craft SVG pakete (ZIP preuzimanja) po jasnim USD cijenama na stranici Paketi. Knjižnica Free SVG ostaje besplatna. Plaćanja obrađuje Creem.",
+      "q1": "Što prodajete?",
+      "a1": "Prodajemo originalne craft SVG pakete — digitalne ZIP pakete datoteka za rezanje za kreatore (Cricut, Silhouette, vinil, majice). Ne prodajemo fizičku robu. Brend logotipi u Free SVG besplatni su i ne prodaju se.",
+      "q2": "Koliko košta paket?",
+      "a2": "Svaki craft paket tipično košta $4.50 USD kao jednokratna kupnja. Točne cijene su na https://5svg.com/shop i na svakoj stranici proizvoda prije plaćanja.",
+      "q3": "Kako se proizvod isporučuje?",
+      "a3": "Isporuka je 100 % digitalna i trenutačna nakon uspješnog plaćanja. Bez fizičke dostave. Koristite važeću e-poštu na checkoutu za račun.",
+      "q4": "Treba li mi račun ili instalacija softvera?",
+      "a4": "Račun nije potreban za Free SVG ili kupnju paketa. Favoriti ostaju u pregledniku. Uvezite SVG u Cricut Design Space, Silhouette Studio, Canva ili drugu vektorsku aplikaciju — ništa za instalirati od nas.",
+      "q5": "Koju licencu dobivam?",
+      "a5": "Paketi uključuju osobnu craft licencu. Ne smijete preprodavati ili redistribuirati ZIP ili pojedinačne datoteke. Free SVG logotipi ostaju žigovi vlasnika — provjerite smjernice brenda prije komercijalne uporabe. Pogledajte stranice Licenca i Uvjeti.",
+      "q6": "Mogu li dobiti povrat?",
+      "a6": "Budući da su paketi digitalna preuzimanja, općenito ne nudimo povrate nakon što je ZIP isporučen i dostupan za normalnu uporabu. Ako preuzimanje ne uspije zbog naše greške, pišite na support@5svg.com i pregledat ćemo nakon provjere.",
+      "q7": "Gdje su Privatnost i Uvjeti?",
+      "a7": "Privatnost: https://5svg.com/privacy — Uvjeti: https://5svg.com/terms — Licenca: https://5svg.com/license. Poveznice su i u podnožju.",
+      "q8": "Kako kontaktirati podršku?",
+      "a8": "E-pošta support@5svg.com ili stranica Kontakt. Odgovaramo u 1–2 radna dana (do 3 za naplatu).",
+      "contactBefore": "Za gornja i druga pitanja koristite stranicu ",
+      "contactLink": "Kontaktirajte nas",
+      "contactMiddle": " na ovoj stranici ili pišite na ",
+      "contactAfter": ". Odgovaramo u roku od 1–2 radna dana."
+    },
+    "about": {
+      "title": "O 5SVG",
+      "p1": "5SVG je besplatna knjižnica SVG logotipa i ikona plus trgovina originalnih craft SVG paketa. Plaćeni proizvodi su samo digitalni ZIP — tipično $4.50 USD, jednokratna kupnja, s cijenama na stranici Paketi.",
+      "p2": "Pregledajte Free SVG bilo kada ili otvorite Pakete za sezonske i svakodnevne pakete za rezanje za Cricut, Silhouette, vinil i kreatore. Podrška: support@5svg.com. Pravno u podnožju.",
+      "logoAlt": "5SVG logo — besplatna SVG knjižnica i craft paketi"
+    },
+    "bannerAlt": "5SVG — Besplatne SVG datoteke i craft SVG paketi"
+  },
+  "ContactPage": {
+    "title": "Kontaktirajte nas",
+    "description": "Kontaktirajte 5SVG zbog Free SVG, paketa, licence ili povratnih informacija. Odgovaramo u 1–2 radna dana.",
+    "subtitle": "Tu smo da pomognemo s Free SVG, craft paketima i pitanjima o licenci.",
+    "introShort": "Imate pitanje ili povratnu informaciju? Ispunite obrazac ispod i javit ćemo se uskoro.",
+    "whyTitle": "O čemu nas možete kontaktirati",
+    "why1": "Knjižnica Free SVG: pregled, preuzimanje ili pitanja o žigovima",
+    "why2": "SVG paketi: kupnje, preuzimanja ili sadržaj paketa",
+    "why3": "Licenca i komercijalna uporaba",
+    "why4": "Povratne informacije, partnerstva ili prijava zlouporabe",
+    "expectTitle": "Što očekivati",
+    "expectContent": "Čitamo svaku poruku i odgovaramo u 1–2 radna dana. Za hitne slučajeve navedite jasan predmet i što više detalja.",
+    "orEmail": "Ili nam pišite na",
+    "form": {
+      "title": "Pošaljite poruku",
+      "description": "Pitanja o Free SVG, paketima ili povratnim informacijama? Ispunite obrazac — odgovorit ćemo što prije.",
+      "name": "Ime",
+      "email": "E-pošta",
+      "message": "Poruka",
+      "namePlaceholder": "Vaše ime",
+      "emailPlaceholder": "vas@email.com",
+      "messagePlaceholder": "Vaša poruka ili pitanje…",
+      "submit": "Pošalji poruku",
+      "mailtoHint": "Vaša aplikacija za e-poštu trebala bi se otvoriti s porukom spremnom za support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Vaše 5SVG preuzimanje — {title}",
+      "title": "Vaše preuzimanje je spremno",
+      "body": "Hvala što ste kupili {title} na 5SVG.",
+      "downloadButton": "Preuzmi ZIP",
+      "linkFallback": "Ili kopirajte ovu rezervnu poveznicu za preuzimanje:",
+      "note": "Ako se datoteka nije automatski preuzela nakon plaćanja, ponovno otvorite ovu poveznicu.",
+      "textIntro": "Hvala na kupnji {title}.",
+      "textDownload": "Preuzmite ZIP (rezervna poveznica):",
+      "textSupport": "Podrška: {email}"
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Pretraži...",
+    "sortAz": "Sortiraj A–Z",
+    "sortLatest": "Najnovije",
+    "accept": "Prihvati",
+    "logos": "logotipi",
+    "azIndex": "Indeks A–Z",
+    "clearSearch": "Očisti pretragu",
+    "searchResults": "rezultati pretrage",
+    "svgs": "SVG-ovi",
+    "showAll": "Prikaži sve",
+    "showLess": "Prikaži manje",
+    "showMore": "Prikaži više",
+    "copySvg": "Kopiraj SVG",
+    "copyDisclaimer": "Provjerite imate li dopuštenje autora prije korištenja SVG-a. Izmjene nisu dopuštene."
+  },
+  "HeroTabs": {
+    "brands": "Brendovi",
+    "browse": "Pregledaj",
+    "ai": "AI",
+    "design": "Dizajn",
+    "social": "Društvene",
+    "aria": "Pregled logotipa"
+  },
+  "WarningBanner": {
+    "body": "SVG resursi dani su kao referenca. Odgovorni ste za provjeru žigova i prava uporabe prije korištenja u projektima.",
+    "accept": "Prihvati"
+  },
+  "NotFound": {
+    "title": "SVG nije pronađen",
+    "inCategory": "„{title}“ nije pronađen u kategoriji „{category}“",
+    "plain": "„{title}“ nije pronađen",
+    "searchGlobally": "Pretraži globalno",
+    "requestSvg": "Zatraži SVG",
+    "submitSvg": "Pošalji SVG"
+  },
+  "LibraryPage": {
+    "title": "Besplatna SVG knjižnica — Ikone i brend logotipi | 5SVG",
+    "description": "Pregledajte i preuzmite besplatne SVG ikone i brend logotipe. Pretraživanje, filtri, sortiranje A–Z — bez prijave.",
+    "h1": "Knjižnica besplatnih SVG ikona i logotipa",
+    "lead": "Pretražite besplatne SVG ikone po imenu ili kategoriji, zatim preuzmite vektorske datoteke za dizajn, crafts, Cricut i web.",
+    "sections": {
+      "search": {
+        "h2": "Pretraži besplatne SVG ikone i logotipe",
+        "body": "Koristite traku za pretraživanje po brendu ili naslovu. Sortirajte A–Z ili pregledajte najnovije vektorske logotipe.",
+        "h3": "Pronađite besplatne SVG-ove po imenu, brendu ili kategoriji"
+      },
+      "download": {
+        "h2": "Preuzmite i koristite SVG vektorske datoteke",
+        "body": "Otvorite bilo koju karticu za kopiranje SVG koda ili preuzimanje optimizirane datoteke. Spremite ikone u kolekciju za brzi pristup.",
+        "h3": "Kopirajte, preuzmite ili spremite SVG ikone"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Pregled svih SVG logotipa A–Z — Besplatni indeks | 5SVG",
+    "description": "Abecedni indeks svih besplatnih SVG logotipa i brend ikona na 5SVG.",
+    "h1": "Pregledaj sve SVG logotipe",
+    "lead": "Potpuni A–Z indeks besplatnih brend SVG logotipa u glavnoj knjižnici. Svaka poveznica otvara stranicu s detaljima, kopiranjem, preuzimanjem i napomenama o licenci.",
+    "logosCount": "({count} logotipa)",
+    "backLibrary": "← Interaktivna knjižnica",
+    "popularBrands": "Popularni brendovi",
+    "categories": "Kategorije"
+  },
+  "FavoritesPage": {
+    "title": "Favoriti",
+    "clearAll": "Obriši sve",
+    "emptyTitle": "Još nema favorita",
+    "emptyBody": "Počnite dodavati SVG-ove u favorite klikom na ikonu srca na bilo kojem SVG-u.",
+    "browseSvgs": "Pregledaj SVG-ove"
+  },
+  "LegalPages": {
+    "about": {
+      "title": "O 5SVG — Besplatna SVG knjižnica i craft paketi",
+      "description": "5SVG je neovisna besplatna knjižnica SVG logotipa i trgovina originalnih craft SVG paketa. Samo digitalna preuzimanja — jasne cijene na stranici Paketi.",
+      "h1": "O 5SVG",
+      "sections": [
+        {
+          "h2": "Što nudimo",
+          "body": "5SVG hostira besplatnu knjižnicu SVG brend logotipa i ikona te plaćene craft SVG pakete kao jednokratna digitalna ZIP preuzimanja. Free SVG ostaje besplatan. Paketi su originalni paketi datoteka za rezanje za kreatore (Cricut, Silhouette, vinil, majice)."
+        },
+        {
+          "h2": "Što prodajemo",
+          "body": "Putem Paketa prodajemo samo digitalne craft SVG pakete — tipično $4.50 USD po komadu, platite jednom, trenutačni ZIP nakon plaćanja. Ne prodajemo fizičku robu. Trenutačni paketi i cijene su na stranici Paketi (/shop)."
+        },
+        {
+          "h2": "Tko smo",
+          "body": "5SVG je neovisni projekt. Nismo povezani, podržani ni sponzorirani od brendova čiji se logotipi pojavljuju u besplatnoj knjižnici. Plaćeni paketi su originalni craft dizajni koje sastavljamo ili stvaramo za osobnu craft uporabu."
+        },
+        {
+          "h2": "Podrška",
+          "body": "E-pošta korisničke podrške: support@5svg.com. Odgovaramo u roku od 1–2 radna dana. Možete koristiti i stranicu Kontakt."
+        }
+      ]
+    },
+    "license": {
+      "title": "Licencna politika — 5SVG",
+      "description": "Kako smijete koristiti Free SVG datoteke i plaćene craft pakete na 5SVG, uključujući žigove i osobnu craft uporabu.",
+      "h1": "Licencna politika",
+      "sections": [
+        {
+          "h2": "Uvod",
+          "body": "Ova Licencna politika objašnjava kako smijete koristiti materijale s 5SVG. Preuzimanjem Free SVG datoteka ili kupnjom paketa prihvaćate ovu politiku, Uvjete korištenja i Politiku privatnosti."
+        },
+        {
+          "h2": "Knjižnica Free SVG",
+          "body": "Brend logotipi i ikone u Free SVG besplatni su za pregled, kopiranje i preuzimanje za osobne projekte, obrazovanje i makete. Komercijalna uporaba žigova i dalje može zahtijevati dopuštenje vlasnika. Free SVG datoteke ne prodaju se kao plaćeni proizvodi."
+        },
+        {
+          "h2": "Plaćeni paketi (craft paketi)",
+          "body": "Craft SVG paketi pod Paketima licencirani su za osobne craft projekte (npr. rezanje, vinil, majice, naljepnice i slična maker uporaba). Ne smijete preprodavati, redistribuirati, dijeliti ni ponovno učitavati digitalni ZIP ili pojedinačne SVG datoteke kao samostalne digitalne proizvode."
+        },
+        {
+          "h2": "Intelektualno vlasništvo",
+          "body": "Originalni craft dizajni u plaćenim paketima pripadaju 5SVG ili su nam licencirani za prodaju. Free SVG brend logotipi i verbalni žigovi ostaju vlasništvo svojih vlasnika. 5SVG ne polaže pravo na tuđe žigove u besplatnoj knjižnici."
+        },
+        {
+          "h2": "Žigovi",
+          "body": "Logotipi i verbalni žigovi ostaju žigovi svojih vlasnika. 5SVG nije povezan ni podržan od tih brendova. Ne prodajemo zaštićene brend logotipe kao plaćene proizvode."
+        },
+        {
+          "h2": "Bez jamstva",
+          "body": "Datoteke se pružaju kakve jesu. Ne jamčimo potpunost, pravnu podobnost za vaš konkretan slučaj ni da resursi odgovaraju najnovijim službenim verzijama brenda."
+        },
+        {
+          "h2": "Kontaktirajte nas",
+          "body": "Pitanja o ovoj Licencnoj politici: e-pošta support@5svg.com ili stranica Kontakt."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politika privatnosti — 5SVG",
+      "description": "Kako štitimo vaše podatke kad koristite 5SVG",
+      "h1": "Politika privatnosti",
+      "sections": [
+        {
+          "h2": "Uvod",
+          "body": "Dobrodošli u Politiku privatnosti 5SVG. Ovaj dokument objašnjava kako prikupljamo, koristimo i štitimo vaše osobne podatke kad koristite web-stranicu 5SVG, knjižnicu Free SVG i trgovinu craft paketa."
+        },
+        {
+          "h2": "Podaci koje prikupljamo",
+          "body": "Možemo prikupljati: (1) Kontaktne podatke koje date — npr. e-poštu na checkoutu paketa za račun i dostavu preuzimanja ili poruke putem Kontakta. (2) Podatke o korištenju — kako komunicirate sa stranicom (npr. posjećene stranice), kad je analitika uključena. (3) Podatke o uređaju — tip preglednika ili približne tehničke podatke za rad i sigurnost usluge. Favoriti se spremaju lokalno u pregledniku; ne primamo vaš popis na naše poslužitelje."
+        },
+        {
+          "h2": "Kako koristimo podatke",
+          "body": "Podatke koristimo za pružanje i održavanje knjižnice Free SVG i trgovine paketa; dostavu plaćenih ZIP preuzimanja i računa; korisničku podršku; poboljšanje stranice; praćenje korištenja; te otkrivanje, sprječavanje i rješavanje tehničkih ili zlouporabnih problema."
+        },
+        {
+          "h2": "Plaćanja",
+          "body": "Plaćanja paketa obrađuje naš pružatelj plaćanja (Creem). Podatke o karticama obrađuje pružatelj — ne pohranjujemo potpune brojeve kartica na poslužiteljima 5SVG."
+        },
+        {
+          "h2": "Kolačići i pohrana",
+          "body": "Stranica može koristiti kolačiće ili lokalnu pohranu za temu, jezik, favorite i analitiku. Podatke stranice možete obrisati u postavkama preglednika u bilo kojem trenutku. Blokiranje nekih kolačića može ograničiti značajke."
+        },
+        {
+          "h2": "Sigurnost podataka",
+          "body": "Primjenjujemo odgovarajuće sigurnosne mjere za zaštitu osobnih podataka od neovlaštenog pristupa, izmjene, otkrivanja ili uništenja. Nijedna metoda prijenosa preko interneta nije 100 % sigurna."
+        },
+        {
+          "h2": "Usluge trećih strana",
+          "body": "Možemo koristiti treće strane za plaćanja, dostavu e-pošte, analitiku ili hosting. Vanjske poveznice i ugrađene značke podliježu politikama tih stranica."
+        },
+        {
+          "h2": "Izmjene ove politike",
+          "body": "Ovu Politiku privatnosti možemo povremeno ažurirati. O izmjenama ćemo obavijestiti objavom ažurirane politike na ovoj stranici."
+        },
+        {
+          "h2": "Kontaktirajte nas",
+          "body": "Ako imate pitanja o ovoj Politici privatnosti, pišite na support@5svg.com ili koristite stranicu Kontakt."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Uvjeti korištenja — 5SVG",
+      "description": "Uvjeti korištenja web-stranice 5SVG i kupnje craft SVG paketa",
+      "h1": "Uvjeti korištenja",
+      "sections": [
+        {
+          "h2": "Uvod",
+          "body": "Ovi Uvjeti korištenja („Uvjeti“) uređuju vaše korištenje web-stranice 5SVG, knjižnice Free SVG i trgovine paketa. Pristupom 5SVG.com ili kupnjom paketa prihvaćate ove Uvjete, Politiku privatnosti i Licencnu politiku. Ako se ne slažete, ne koristite stranicu i ne kupujte pakete."
+        },
+        {
+          "h2": "Korištenje usluga",
+          "body": "Naše usluge pružaju se „kakve jesu“ i „kako su dostupne“ bez jamstava bilo koje vrste, izričitih ili podrazumijevanih. Ne jamčimo da će stranica biti neprekinuta, sigurna ili bez grešaka. Free SVG možete pregledavati bez računa. Kupnja paketa zahtijeva važeću e-poštu na checkoutu."
+        },
+        {
+          "h2": "Proizvodi koje prodajemo",
+          "body": "5SVG prodaje digitalne craft SVG pakete (ZIP preuzimanja originalnih datoteka za rezanje) kao jednokratne kupnje. Cijene su u USD na svakoj stranici paketa (tipično $4.50 po paketu). Besplatna knjižnica SVG logotipa nije plaćeni proizvod. Ne prodajemo fizičku robu ni pakete tuđih brend logotipa kao plaćene proizvode."
+        },
+        {
+          "h2": "Cijene i plaćanje",
+          "body": "Cijene paketa prikazane su na https://5svg.com/shop i na svakoj stranici proizvoda prije checkouta. Plaćanje obrađuje Creem (Merchant of Record). Odgovorni ste dati važeću e-poštu na checkoutu kako bismo isporučili preuzimanje i račun."
+        },
+        {
+          "h2": "Dostava",
+          "body": "Paketi se isporučuju samo digitalno. Nakon uspješnog plaćanja primate ZIP preuzimanje; rezervna poveznica može biti poslana e-poštom. Nema fizičke dostave."
+        },
+        {
+          "h2": "Intelektualno vlasništvo",
+          "body": "Kupljeni paketi licencirani su za osobnu craft uporabu prema Licencnoj politici. Ne smijete preprodavati, redistribuirati ni dijeliti ZIP ili pojedinačne datoteke kao samostalne digitalne proizvode. Free SVG brend logotipi podliježu pravima vlasnika žigova. Sadržaj stranice, branding i originalni craft dizajni zaštićeni su primjenjivim zakonima."
+        },
+        {
+          "h2": "Zabranjene aktivnosti",
+          "body": "Slažete se da nećete: koristiti stranicu na način koji krši primjenjivi zakon; pokušavati neovlašteni pristup našim sustavima; scrapati ili preopterećivati uslugu na način koji šteti dostupnosti; distribuirati zlonamjerni softver; ili koristiti preuzete datoteke kršeći ove Uvjete ili Licencnu politiku."
+        },
+        {
+          "h2": "Povrati",
+          "body": "Budući da su paketi digitalna preuzimanja, općenito ne nudimo povrate nakon što je ZIP isporučen i dostupan za normalnu uporabu. Ako ne možete preuzeti zbog naše greške, pišite na support@5svg.com u razumnom roku; pregledat ćemo nakon provjere i, gdje je prikladno, osigurati ponovno preuzimanje ili drugi lijek."
+        },
+        {
+          "h2": "Ograničenje odgovornosti",
+          "body": "Ni u kojem slučaju 5SVG neće biti odgovoran za neizravne, slučajne, posebne, posljedične ili kaznene štete koje proizlaze iz vašeg korištenja ili nemogućnosti korištenja stranice ili preuzetih datoteka."
+        },
+        {
+          "h2": "Izmjene Uvjeta",
+          "body": "Zadržavamo pravo izmijeniti ove Uvjete u bilo kojem trenutku. O izmjenama ćemo obavijestiti objavom ažuriranih Uvjeta na ovoj stranici."
+        },
+        {
+          "h2": "Kontaktirajte nas",
+          "body": "Ako imate pitanja o ovim Uvjetima, pišite na support@5svg.com ili koristite stranicu Kontakt. Odgovaramo u roku od 1–2 radna dana (i u roku od 3 radna dana za naplatu)."
+        }
+      ]
+    }
+  }
+}

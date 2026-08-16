@@ -1,0 +1,494 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Dili değiştir",
+    "languageSelect": {
+      "title": "Dilini seç",
+      "subtitle": "Site arayüzü için bir dil seçin.",
+      "close": "Kapat"
+    },
+    "nav": {
+      "home": "Ana sayfa",
+      "freeSvg": "Ücretsiz SVG",
+      "svgBundles": "SVG Paketleri",
+      "shopNow": "Mağaza",
+      "allFreeSvg": "Tüm ücretsiz SVG’ler",
+      "allBundles": "Tüm paketler",
+      "licensing": "Lisans politikası",
+      "contact": "Bize ulaşın",
+      "bundles": "Paketler",
+      "browse": "Göz at",
+      "favorites": "Favoriler",
+      "extensions": "Uzantılar",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Kütüphanede ara",
+      "openMenu": "Menüyü aç"
+    },
+    "sidebar": {
+      "categories": "Kategoriler",
+      "allLogosAz": "Tüm logolar A–Z",
+      "submitSvg": "SVG gönder",
+      "githubRepo": "GitHub deposu"
+    },
+    "footer": {
+      "tagline": "Maker’lar için ücretsiz SVG kütüphanesi ve craft Bundles",
+      "product": "Ürün",
+      "explore": "Keşfet",
+      "categories": "Kategoriler",
+      "company": "Şirket",
+      "legal": "Yasal",
+      "supportTitle": "Müşteri desteği",
+      "supportBody": "Ücretsiz SVG veya ücretli Bundles hakkında sorularınız mı var? Yazın — 1–2 iş günü içinde yanıtlarız.",
+      "exploreLibrary": "Kütüphaneyi keşfet",
+      "browseIndex": "A–Z dizini",
+      "home": "Ana sayfa",
+      "about": "Hakkımızda",
+      "license": "Lisans politikası",
+      "licensingPolicy": "Lisans politikası",
+      "privacy": "Gizlilik politikası",
+      "privacyPolicy": "Gizlilik politikası",
+      "terms": "Hizmet şartları",
+      "termsOfService": "Hizmet şartları",
+      "design": "Tasarım",
+      "social": "Sosyal",
+      "software": "Yazılım"
+    },
+    "announcement": {
+      "library": "{count}+ ücretsiz SVG dosyası — ücretsiz kütüphane’ye göz atın",
+      "favorites": "İndir · favorilere kaydet · kişisel kullanım ücretsiz",
+      "shop": "SVG Bundles $4.50’den — bir kez ödeyin, anında ZIP indirin"
+    },
+    "showAll": "Tümünü göster",
+    "showLess": "Daha az göster",
+    "showMore": "Daha fazla göster",
+    "copySvg": "SVG kopyala"
+  },
+  "shop": {
+    "seoTitle": "SVG Bundles — Fiyatlar ve craft paketleri | 5SVG",
+    "seoDescription": "Orijinal craft SVG Bundles’ı her biri $4.50 USD’ye satın alın — tek seferlik ödeme, anında ZIP indirme. Ücretsiz marka logoları kütüphanede ücretsiz kalır.",
+    "promo": "Tema paketleri $4.50 · Tam koleksiyon $9.90. Tek ödeme, anında ZIP.",
+    "title": "SVG paketleri",
+    "subtitle": "Tek bir tema paketi alın veya tek satın alımla tüm paketleri açın. Marka logoları kütüphanede ücretsiz kalır.",
+    "allCategories": "Tümü",
+    "viewPack": "Görüntüle",
+    "wholeShopBadge": "En avantajlı",
+    "wholeShopSection": "Tam koleksiyon",
+    "wholeShopTitle": "Tam koleksiyon",
+    "wholeShopLead": "Her temadan {count} craft SVG. Tek satın alımla tüm paketler açılır.",
+    "wholeShopCta": "Satın al",
+    "themePacksHeading": "Tema paketleri",
+    "themePacksLead": "Her paket $4.50’lık tek seferlik dijital satın alımdır; yaklaşık 20–24 orijinal craft kesim dosyası (ZIP) içerir. Marka logoları kütüphanede ücretsiz kalır.",
+    "empty": "Bu kategoride henüz paket yok.",
+    "fileCount": "{count} dosya",
+    "moreFiles": "+{count} daha",
+    "freeHint": "Ücretsiz marka logolarına mı ihtiyacınız var?",
+    "freeLibraryLink": "ücretsiz kütüphane’yi aç →",
+    "backToShop": "Tüm paketler",
+    "emailLabel": "Makbuz ve indirme için e-posta",
+    "mockNotice": "Sahte ödeme (Creem henüz bağlı değil).",
+    "buyDownload": "Satın al ve indir",
+    "processing": "Yönlendiriliyor…",
+    "checkoutError": "Ödeme başarısız. Tekrar deneyin.",
+    "flowHint": "Bir kez ödeyin, ZIP’i anında indirin. Makbuz e-postayla gelir.",
+    "payOverlayTitle": "Ödeme onaylanıyor…",
+    "payOverlayBody": "Satın alımınız doğrulanırken lütfen bekleyin.",
+    "prepareOverlayTitle": "İndirme hazırlanıyor…",
+    "prepareOverlayBody": "ZIP kısa süre içinde başlayacak.",
+    "downloadTitle": "İndirmeniz",
+    "downloadMissing": "Ödeme dönüş bilgisi eksik. Bundles’tan yeniden başlayın.",
+    "downloadFailed": "Ödeme doğrulanamadı.",
+    "downloadSyncing": "Ödeme doğrulanıyor…",
+    "downloadReady": "Hazır: {title}",
+    "downloadZip": "ZIP indir",
+    "downloadEmailHint": "Yedek indirme bağlantısı girdiğiniz e-postaya da gönderildi.",
+    "includesSample": "İçerik (örnek)",
+    "browseCategory": "Bu kategoriye göz at →",
+    "license": {
+      "personal": "Kişisel kullanım",
+      "commercial": "Ticari craft lisansı"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Ücretsiz SVG dosyaları ve craft SVG Bundles",
+    "description": "Maker’lar için ücretsiz SVG logo kütüphanesi ve ücretli craft SVG Bundles. İstediğiniz zaman ücretsiz kütüphane’ye göz atın veya Cricut, Silhouette, vinil ve craft için $4.50’den orijinal ZIP paketleri alın.",
+    "keywords": "svg bundles, craft svg, ücretsiz svg dosyaları, svg indirme, cricut svg, silhouette svg, ücretli svg paketleri, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Ücretsiz SVG ve craft paketleri",
+      "subtitle": "Ücretsiz kütüphaneye göz atın veya orijinal craft paketleri alın — $4.50’den dijital ZIP paketleri, bir kez ödeyin, anında indirin. Cricut, Silhouette, vinil ve maker’lar için.",
+      "ctaShop": "Paketleri satın al",
+      "ctaFree": "Ücretsiz kütüphane",
+      "marqueeAria": "Kütüphanedeki SVG dosyalarına göz atın"
+    },
+    "value": {
+      "freeTitle": "Anında dijital teslimat",
+      "freeDesc": "Bir paket alın ve ödemeden hemen sonra ZIP’inizi indirin — kargo yok, bekleme yok. Ücretsiz kütüphane ücretsiz kalır.",
+      "curatedTitle": "$4.50’den craft paketleri",
+      "curatedDesc": "Her üründe net USD fiyatlı orijinal kesim dosyası paketleri. Tek seferlik satın alma — dosyaları kişisel craft için saklayın.",
+      "easyTitle": "Müşteri desteği",
+      "easyDesc": "Ücretsiz kütüphane, paketler veya lisans soruları mı? support@5svg.com’a yazın veya Bize ulaşın’ı kullanın — 1–2 iş günü içinde yanıtlarız."
+    },
+    "shopStrip": {
+      "title": "Satılık SVG paketleri",
+      "subtitle": "Orijinal craft SVG paketleri — her biri $4.50, bir kez ödeyin, anında ZIP.",
+      "viewAll": "Tüm paketler →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Günlük maker’lar için",
+      "subtitle": "ücretsiz kütüphane logolarını veya Bundle kesim dosyalarını Cricut, Silhouette, Canva, tişört, sticker ve daha fazlasında kullanın.",
+      "cutting": "Kesim craft",
+      "stickers": "Sticker ve dekaller",
+      "gifts": "Hediyeler ve parti",
+      "labels": "Etiketler",
+      "print": "Baskı ve foto",
+      "personal": "Kişisel projeler",
+      "iconAlt": "{label} craft simgesi"
+    },
+    "library": {
+      "title": "Kütüphanede neler var",
+      "subtitle": "Konuya göre gruplanmış {count}+ SVG dosyası — göz atmaya veya indirmeye hazır olduğunuzda üst menüyü kullanın.",
+      "browseTitle": "{name} SVG’lerine göz at",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG"
+    },
+    "how": {
+      "tag": "Nasıl çalışır",
+      "title": "Ücretsiz kütüphane veya paket satın alın",
+      "subtitle": "İstediğiniz zaman ücretsiz kütüphaneye göz atın — veya mağazadan craft paketi alıp ödemeden sonra ZIP’inizi indirin.",
+      "searchTitle": "Ücretsiz kütüphaneye göz at",
+      "searchDesc": "Ücretsiz kütüphaneyi açın, kategori seçin veya ada göre arayın — hesap olmadan logo indirin.",
+      "downloadTitle": "Paket satın alın",
+      "downloadDesc": "Mağazada bir craft paketi seçin, listelenen USD fiyattan bir kez ödeyin, ardından ZIP’inizi indirin.",
+      "favoritesTitle": "Kaydet ve yeniden kullan",
+      "favoritesDesc": "Bu cihazda ücretsiz kütüphane favorilerine kalp ekleyin veya satın aldığınız paket dosyalarını craft projeleriniz için saklayın."
+    },
+    "seoIntro": {
+      "tag": "SVG mağazası ve kütüphane",
+      "title": "Maker’lar için ücretsiz SVG dosyaları ve ücretli craft Bundles",
+      "description": "5SVG, orijinal craft SVG Bundles’ı dijital ZIP indirme olarak satar (genellikle her biri $4.50) ve ücretsiz marka logo kütüphanesi barındırır. İstediğiniz zaman ücretsiz kütüphane’ye göz atın veya Cricut, Silhouette, vinil ve günlük craft için Bundles alın."
+    },
+    "seoBlocks": {
+      "whatTag": "Temeller",
+      "whatTitle": "SVG dosyası nedir?",
+      "whatBody": "SVG (Scalable Vector Graphics), şekilleri ve yolları piksel yerine matematik olarak saklar. Logo ve ikonlar sticker için küçültseniz de poster için büyüttseniz de net kalır.",
+      "whatB1": "Bulanıklaşmadan her boyuta ölçeklenir",
+      "whatB2": "Logo, ikon ve basit illüstrasyonlar için yaygın format",
+      "whatB3": "Tarayıcılar, tasarım yazılımları ve vinil kesiciler tarafından desteklenir",
+      "whatAlt": "5SVG — milyonlarca kaliteli SVG vektör ve kategoriler",
+      "usesTag": "Kullanımlar",
+      "usesTitle": "SVG dosyalarıyla neler yapabilirsiniz?",
+      "usesBody": "SVG’ler kişisel projeler için pratik bir başlangıçtır — mockup, tasarım öğrenme, parti craft’ları ve yeniden boyutlandırılabilir temiz bir vektöre ihtiyaç duyduğunuz maker iş akışları.",
+      "usesB1": "Cricut veya Silhouette ile vinil dekaller kesin",
+      "usesB2": "İkonları Canva, Figma veya PowerPoint’e ekleyin",
+      "usesB3": "Evde tişört, etiket ve parti süslemeleri yazdırın",
+      "usesB4": "Gerçek marka logolarıyla mood board ve okul projeleri oluşturun",
+      "usesAlt": "5SVG — UI kitleri ve uygulama ikonlarıyla tasarlayın, üretin, sunun",
+      "getTag": "Dosyaları alın",
+      "getTitle": "5SVG’den SVG dosyaları nasıl alınır",
+      "getBody": "İstediğiniz zaman ücretsiz kütüphane’ye göz atın — arayın veya kategori seçin, sonra kopyalayın veya indirin. Craft paketleri için Bundles’ı açın, listelenen USD fiyattan ürün seçin ve ödemeden sonra ZIP’inizi indirin.",
+      "getB1": "ücretsiz kütüphane’ye göz atın — kayıt gerekmez",
+      "getB2": "Veya orijinal craft ZIP paketleri için Bundles alın",
+      "getB3": "Bir kez ödeyin, ardından ZIP’i indirin",
+      "getB4": "Ticari craft kullanımından önce License ve Terms’e bakın",
+      "getAlt": "5SVG — her cihazda hızlı vektör arama"
+    },
+    "faq": {
+      "title": "SSS",
+      "subtitle": "Ne satıyoruz, fiyatlar, teslimat, iadeler ve destek.",
+      "lead": "5SVG, Bundles sayfasında net USD fiyatlarla dijital craft SVG Bundles (ZIP indirme) satar. ücretsiz kütüphane logo kütüphanesi ücretsiz kalır. Ödemeler Creem tarafından işlenir.",
+      "q1": "Ne satıyorsunuz?",
+      "a1": "Orijinal craft SVG Bundles satıyoruz — maker’lar için kesim dosyalarının dijital ZIP paketleri (Cricut, Silhouette, vinil, tişört). Fiziksel ürün satmıyoruz. ücretsiz kütüphane’deki ücretsiz marka logoları ücretsizdir ve ücretli ürün olarak satılmaz.",
+      "q2": "Bir Bundle ne kadar?",
+      "a2": "Her craft Bundle genellikle tek seferlik satın alma olarak $4.50 USD’dir. Kesin fiyatlar https://5svg.com/shop ve her ürün sayfasında ödemeden önce gösterilir.",
+      "q3": "Ürün nasıl teslim edilir?",
+      "a3": "Teslimat başarılı ödemeden sonra %100 dijital ve anlıktır. Kargo yok. Makbuz için ödeme sırasında geçerli e-posta kullanın.",
+      "q4": "Hesap veya yazılım kurulumu gerekir mi?",
+      "a4": "ücretsiz kütüphane’ye göz atmak veya Bundles almak için hesap gerekmez. Favoriler tarayıcınızda kalır. SVG’leri Cricut Design Space, Silhouette Studio, Canva veya vektör destekli herhangi bir uygulamaya aktarın — bizden kurulacak bir şey yok.",
+      "q5": "Hangi lisansı alırım?",
+      "a5": "Bundles kişisel craft lisansı içerir. ZIP’i veya tek tek dosyaları yeniden satamaz veya dağıtamazsınız. ücretsiz kütüphane logoları sahiplerinin ticari markalarıdır — ticari kullanımdan önce marka yönergelerini kontrol edin. License ve Terms of Service sayfalarımıza bakın.",
+      "q6": "İade alabilir miyim?",
+      "a6": "Bundles dijital indirme olduğundan, ZIP teslim edildikten ve normal kullanım için kullanılabilir kaldıktan sonra genellikle iade sunmayız. İndirme bizden kaynaklanan bir sorun nedeniyle başarısız olursa support@5svg.com’a yazın; doğrulamadan sonra inceleriz.",
+      "q7": "Privacy Policy ve Terms of Service nerede?",
+      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Bağlantılar site altbilgisinde de vardır.",
+      "q8": "Destekle nasıl iletişime geçerim?",
+      "a8": "support@5svg.com’a yazın veya Bize ulaşın sayfasını kullanın. 1–2 iş günü içinde yanıtlarız (faturalama için 3 iş günü içinde).",
+      "contactBefore": "Yukarıdakiler ve diğer sorular için lütfen bu sitedeki ",
+      "contactLink": "Bize ulaşın",
+      "contactMiddle": " sayfasını kullanın veya şu adrese yazın: ",
+      "contactAfter": ". 1–2 iş günü içinde yanıtlarız."
+    },
+    "about": {
+      "title": "5SVG hakkında",
+      "p1": "5SVG, ücretsiz SVG logo ve ikon kütüphanesi ile orijinal craft SVG Bundles mağazasıdır. Ücretli ürünler yalnızca dijital ZIP indirmedir — genellikle her biri $4.50 USD, tek seferlik, fiyatlar Bundles sayfasında listelenir.",
+      "p2": "İstediğiniz zaman ücretsiz kütüphane’ye göz atın veya Cricut, Silhouette, vinil ve maker’lar için mevsimlik ve günlük kesim dosyası paketleri için Bundles’ı açın. Destek: support@5svg.com. Yasal: altbilgide Privacy Policy, Terms of Service ve License.",
+      "logoAlt": "5SVG ücretsiz SVG logo kütüphanesi ve craft Bundles logosu"
+    },
+    "bannerAlt": "5SVG — Ücretsiz SVG dosyaları ve craft SVG Bundles"
+  },
+  "ContactPage": {
+    "title": "Bize ulaşın",
+    "description": "ücretsiz kütüphane, Bundles, lisans veya geri bildirim için 5SVG ile iletişime geçin. 1–2 iş günü içinde yanıtlarız.",
+    "subtitle": "Ücretsiz kütüphane, craft paketleri ve lisans sorularında yardımcı olmak için buradayız.",
+    "introShort": "Sorunuz veya geri bildiriminiz mi var? Aşağıdaki formu doldurun, kısa sürede dönüş yapalım.",
+    "whyTitle": "Bize ne hakkında yazabilirsiniz",
+    "why1": "Ücretsiz kütüphane: göz atma, indirme veya ticari marka soruları",
+    "why2": "SVG paketleri: satın alma, indirme veya paket içeriği",
+    "why3": "Lisans ve ticari kullanım soruları",
+    "why4": "Geri bildirim, iş ortaklığı veya kötüye kullanım bildirimi",
+    "expectTitle": "Ne beklemelisiniz",
+    "expectContent": "Her mesajı okuruz ve 1–2 iş günü içinde yanıtlamayı hedefleriz. Acil durumlarda net bir konu ve mümkün olduğunca ayrıntı ekleyin.",
+    "orEmail": "Veya bize şu adresten yazın:",
+    "form": {
+      "title": "Mesaj gönder",
+      "description": "ücretsiz kütüphane, Bundles veya geri bildirim soruları? Formu doldurun, en kısa sürede yanıtlarız.",
+      "name": "Ad",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "namePlaceholder": "Adınız",
+      "emailPlaceholder": "siz@email.com",
+      "messagePlaceholder": "Mesajınız veya sorunuz...",
+      "submit": "Mesajı gönder",
+      "mailtoHint": "E-posta uygulamanız support@5svg.com’a hazır mesajla açılmalıdır."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "5SVG indirme dosyanız — {title}",
+      "title": "İndirmeniz hazır",
+      "body": "5SVG’de {title} satın aldığınız için teşekkürler.",
+      "downloadButton": "ZIP indir",
+      "linkFallback": "Veya bu yedek indirme bağlantısını kopyalayın:",
+      "note": "Dosya ödemeden sonra otomatik inmediyse bu bağlantıyı yeniden açın.",
+      "textIntro": "{title} satın alımınız için teşekkürler.",
+      "textDownload": "ZIP’inizi indirin (yedek bağlantı):",
+      "textSupport": "Destek: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "5SVG hakkında — Ücretsiz SVG kütüphanesi ve craft Bundles",
+      "description": "5SVG, bağımsız bir ücretsiz SVG logo kütüphanesi ve orijinal craft SVG Bundles mağazasıdır. Yalnızca dijital indirme — Bundles sayfasında net fiyatlar.",
+      "h1": "5SVG hakkında",
+      "sections": [
+        {
+          "h2": "Neler sunuyoruz",
+          "body": "5SVG, SVG marka logo ve ikonlarından oluşan ücretsiz bir kütüphane ile tek seferlik dijital ZIP indirme olarak satılan ücretli craft SVG Bundles barındırır. ücretsiz kütüphane ücretsiz kalır. Bundles, maker’lar için orijinal kesim dosyası paketleridir (Cricut, Silhouette, vinil, tişört)."
+        },
+        {
+          "h2": "Ne satıyoruz",
+          "body": "Bundles üzerinden yalnızca dijital craft SVG paketleri satıyoruz — genellikle her biri $4.50 USD, bir kez ödeme, ödemeden sonra anında ZIP. Fiziksel ürün satmıyoruz. Güncel paketler ve fiyatlar Bundles sayfasında (/shop) listelenir."
+        },
+        {
+          "h2": "Kimiz",
+          "body": "5SVG bağımsız bir projedir. Ücretsiz kütüphanede logoları görünen markalarla bağlı, onaylı veya sponsorlu değiliz. Ücretli Bundles, kişisel craft kullanımı için bir araya getirdiğimiz veya oluşturduğumuz orijinal craft tasarımlardır."
+        },
+        {
+          "h2": "Destek",
+          "body": "Müşteri destek e-postası: support@5svg.com. 1–2 iş günü içinde yanıtlarız. Bu sitedeki Bize ulaşın sayfasını da kullanabilirsiniz."
+        }
+      ]
+    },
+    "license": {
+      "title": "Lisans politikası — 5SVG",
+      "description": "5SVG’de ücretsiz kütüphane dosyalarını ve ücretli craft Bundles’ı nasıl kullanabileceğiniz; ticari markalar ve kişisel craft kullanımı dahil.",
+      "h1": "Lisans politikası",
+      "sections": [
+        {
+          "h2": "Giriş",
+          "body": "Bu Lisans politikası, 5SVG materyallerini nasıl kullanabileceğinizi açıklar. ücretsiz kütüphane dosyalarını indirerek veya Bundles satın alarak bu politikayı, Terms of Service’i ve Privacy Policy’yi kabul etmiş olursunuz."
+        },
+        {
+          "h2": "ücretsiz kütüphane kütüphanesi",
+          "body": "ücretsiz kütüphane’deki marka logo ve ikonları kişisel projeler, eğitim ve mockup için ücretsiz görüntülenebilir, kopyalanabilir ve indirilebilir. Marka işaretlerinin ticari kullanımı hâlâ marka sahibinden izin gerektirebilir. ücretsiz kütüphane dosyaları ücretli ürün olarak satılmaz."
+        },
+        {
+          "h2": "Ücretli Bundles (craft paketleri)",
+          "body": "Bundles altında satılan craft SVG paketleri kişisel craft projeleri için lisanslanır (örneğin kesim, vinil, tişört, sticker ve benzeri maker kullanımı). Dijital ZIP’i veya tek tek SVG dosyalarını bağımsız dijital ürün olarak yeniden satamaz, dağıtamaz, paylaşamaz veya yeniden yükleyemezsiniz."
+        },
+        {
+          "h2": "Fikri mülkiyet",
+          "body": "Ücretli Bundles’taki orijinal craft tasarımlar 5SVG’ye aittir veya satış için bize lisanslanmıştır. ücretsiz kütüphane marka logo ve sözcük markaları ilgili sahiplerinin mülkiyetinde kalır. 5SVG, ücretsiz kütüphanedeki üçüncü taraf ticari markalara sahiplik iddia etmez."
+        },
+        {
+          "h2": "Ticari markalar",
+          "body": "Logo ve sözcük markaları ilgili sahiplerinin ticari markalarıdır. 5SVG bu markalarla bağlı veya onlar tarafından onaylanmış değildir. Tescilli marka logolarını ücretli ürün olarak satmayız."
+        },
+        {
+          "h2": "Garanti yok",
+          "body": "Dosyalar olduğu gibi sunulur. Eksiksizlik, özel kullanım durumunuz için yasal izin veya varlıkların en güncel resmi marka sürümleriyle eşleşmesini garanti etmeyiz."
+        },
+        {
+          "h2": "Bize ulaşın",
+          "body": "Bu Lisans politikası hakkında sorular: support@5svg.com’a yazın veya bu sitedeki Bize ulaşın sayfasını kullanın."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Gizlilik politikası — 5SVG",
+      "description": "5SVG’yi kullanırken verilerinizi nasıl koruruz",
+      "h1": "Gizlilik politikası",
+      "sections": [
+        {
+          "h2": "Giriş",
+          "body": "5SVG Gizlilik politikasına hoş geldiniz. Bu belge, 5SVG web sitesini, ücretsiz kütüphane kütüphanesini ve craft Bundle mağazasını kullanırken kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar."
+        },
+        {
+          "h2": "Topladığımız bilgiler",
+          "body": "Şu tür bilgileri toplayabiliriz: (1) Sağladığınız iletişim bilgileri — Bundle ödemesinde makbuz ve indirme için girilen e-posta veya Bize ulaşın yoluyla gönderilen mesajlar. (2) Kullanım verileri — analytics açıksa siteyle nasıl etkileşim kurduğunuz (ör. ziyaret edilen sayfalar). (3) Cihaz bilgileri — hizmeti işletmek ve güvence altına almak için tarayıcı türü veya yaklaşık teknik veriler. Kaydettiğiniz favoriler tarayıcınızda yerel tutulur; kaydedilen listenizi sunucularımızda almayız."
+        },
+        {
+          "h2": "Bilgilerinizi nasıl kullanırız",
+          "body": "Bilgilerinizi ücretsiz kütüphane kütüphanesi ve Bundle mağazasını sağlamak ve sürdürmek; ücretli ZIP indirmeleri ve ilgili makbuzları teslim etmek; müşteri desteği sağlamak; siteyi iyileştirmek; kullanımı izlemek; teknik veya kötüye kullanım sorunlarını tespit etmek, önlemek ve ele almak için kullanırız."
+        },
+        {
+          "h2": "Ödemeler",
+          "body": "Bundles ödemeleri ödeme sağlayıcımız (Creem) tarafından işlenir. Kart bilgileri sağlayıcı tarafından yönetilir — 5SVG sunucularında tam ödeme kartı numaralarını saklamayız."
+        },
+        {
+          "h2": "Çerezler ve depolama",
+          "body": "Site tema tercihi, dil, favoriler ve analytics için çerez veya yerel depolama kullanabilir. Tarayıcı ayarlarınızdan site verilerini istediğiniz zaman silebilirsiniz. Bazı çerezleri engellemek belirli özellikleri sınırlayabilir."
+        },
+        {
+          "h2": "Veri güvenliği",
+          "body": "Kişisel bilgileri yetkisiz erişim, değiştirme, ifşa veya imhaya karşı korumak için uygun güvenlik önlemleri uygularız. İnternet üzerinden hiçbir iletim yöntemi %100 güvenli değildir."
+        },
+        {
+          "h2": "Üçüncü taraf hizmetler",
+          "body": "Ödemeler, e-posta, analytics veya barındırma için üçüncü taraf şirketler kullanabiliriz. Dış bağlantılar ve gömülü rozetler o sitelerin politikalarına tabidir."
+        },
+        {
+          "h2": "Bu Gizlilik politikasındaki değişiklikler",
+          "body": "Bu Gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikleri bu sayfada güncellenmiş politikayı yayınlayarak bildiririz."
+        },
+        {
+          "h2": "Bize ulaşın",
+          "body": "Bu Gizlilik politikası hakkında sorularınız için support@5svg.com’a yazın veya bu sitedeki Bize ulaşın sayfasını kullanın."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Hizmet şartları — 5SVG",
+      "description": "5SVG web sitesini kullanma ve craft SVG Bundles satın alma şartları",
+      "h1": "Hizmet şartları",
+      "sections": [
+        {
+          "h2": "Giriş",
+          "body": "Bu Hizmet şartları (“Şartlar”), 5SVG web sitesi, ücretsiz kütüphane kütüphanesi ve Bundle mağazasının kullanımını yönetir. 5SVG.com’a erişerek veya Bundle satın alarak bu Şartları, Privacy Policy’yi ve Licensing Policy’yi kabul etmiş olursunuz. Kabul etmiyorsanız siteyi kullanmayın ve Bundles satın almayın."
+        },
+        {
+          "h2": "Hizmetlerin kullanımı",
+          "body": "Hizmetlerimiz herhangi bir açık veya zımni garanti olmaksızın “olduğu gibi” ve “mevcut olduğu şekilde” sunulur. Sitenin kesintisiz, güvenli veya hatasız olacağını garanti etmeyiz. ücretsiz kütüphane’ye hesap olmadan göz atabilirsiniz. Bundles almak için ödeme sırasında geçerli e-posta gerekir."
+        },
+        {
+          "h2": "Sattığımız ürünler",
+          "body": "5SVG, orijinal kesim dosyalarının ZIP indirmeleri olan dijital craft SVG Bundles’ı tek seferlik satın alma olarak satar. Fiyatlar her Bundle sayfasında USD olarak gösterilir (genellikle paket başına $4.50). Ücretsiz SVG logo kütüphanesi ücretli ürün değildir. Fiziksel ürün veya üçüncü taraf marka logo paketlerini ücretli ürün olarak satmayız."
+        },
+        {
+          "h2": "Fiyatlandırma ve ödeme",
+          "body": "Bundle fiyatları https://5svg.com/shop ve her ürün sayfasında ödemeden önce gösterilir. Ödeme Creem (Merchant of Record) tarafından işlenir. İndirme ve makbuzu teslim edebilmemiz için ödeme sırasında geçerli e-posta vermek sizin sorumluluğunuzdadır."
+        },
+        {
+          "h2": "Teslimat",
+          "body": "Bundles yalnızca dijital olarak teslim edilir. Başarılı ödemeden sonra ZIP indirme dosyanızı alırsınız; yedek indirme bağlantısı e-posta ile de gönderilebilir. Fiziksel ürün kargosu yoktur."
+        },
+        {
+          "h2": "Fikri mülkiyet",
+          "body": "Satın alınan Bundles, Licensing Policy’de açıklandığı gibi kişisel craft kullanımı için lisanslanır. ZIP’i veya tek tek dosyaları bağımsız dijital ürün olarak yeniden satamaz, dağıtamaz veya paylaşamazsınız. ücretsiz kütüphane marka logoları marka sahiplerinin haklarına tabidir. Site içeriği, markalaşma ve orijinal craft tasarımlar geçerli fikri mülkiyet yasalarıyla korunur."
+        },
+        {
+          "h2": "Yasak faaliyetler",
+          "body": "Şunları yapmamayı kabul edersiniz: siteyi yürürlükteki yasaya aykırı kullanmak; sistemlerimize yetkisiz erişim denemek; kullanılabilirliğe zarar verecek şekilde kazıma veya aşırı yükleme; kötü amaçlı yazılım dağıtmak; veya indirilen dosyaları bu Şartlar ya da Licensing Policy’ye aykırı kullanmak."
+        },
+        {
+          "h2": "İadeler",
+          "body": "Bundles dijital indirme olduğundan, ZIP teslim edildikten ve normal kullanım için kullanılabilir kaldıktan sonra genellikle iade sunmayız. Bizden kaynaklanan bir arıza nedeniyle indiremezseniz makul süre içinde support@5svg.com’a yazın; doğrulamadan sonra inceler ve uygun olduğunda yeniden indirme veya başka bir çözüm sunarız."
+        },
+        {
+          "h2": "Sorumluluk sınırlaması",
+          "body": "Hiçbir durumda 5SVG, siteyi veya indirilen dosyaları kullanmanızdan veya kullanamamanızdan kaynaklanan dolaylı, arızi, özel, sonuçsal veya cezai zararlardan sorumlu olmaz."
+        },
+        {
+          "h2": "Şartlarda değişiklikler",
+          "body": "Bu Şartları istediğimiz zaman değiştirme hakkını saklı tutarız. Değişiklik yaparsak güncellenmiş Şartları bu sayfada yayınlayarak bildirim sağlarız."
+        },
+        {
+          "h2": "Bize ulaşın",
+          "body": "Bu Şartlar hakkında sorularınız için support@5svg.com’a yazın veya Bize ulaşın sayfasını kullanın. 1–2 iş günü içinde yanıtlarız (faturalama için 3 iş günü içinde)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Ara...",
+    "sortAz": "A–Z sırala",
+    "sortLatest": "En yenilere göre sırala",
+    "accept": "Kabul et",
+    "logos": "logo",
+    "azIndex": "A–Z dizini",
+    "clearSearch": "Aramayı temizle",
+    "searchResults": "arama sonucu",
+    "svgs": "SVG",
+    "showAll": "Tümünü göster",
+    "showLess": "Daha az göster",
+    "showMore": "Daha fazla göster",
+    "copySvg": "SVG kopyala",
+    "copyDisclaimer": "SVG'yi kullanmadan önce oluşturuculardan izin aldığınızdan emin olun. Değişikliklere izin verilmez."
+  },
+  "HeroTabs": {
+    "brands": "Markalar",
+    "browse": "Göz at",
+    "ai": "AI",
+    "design": "Tasarım",
+    "social": "Sosyal",
+    "aria": "Logo önizlemeleri"
+  },
+  "WarningBanner": {
+    "body": "SVG varlıkları referans amaçlıdır. Projelerinizde kullanmadan önce ticari marka ve kullanım haklarını doğrulamak sizin sorumluluğunuzdadır.",
+    "accept": "Kabul et"
+  },
+  "NotFound": {
+    "title": "SVG bulunamadı",
+    "inCategory": "\"{title}\" \"{category}\" kategorisinde bulunamadı",
+    "plain": "\"{title}\" bulunamadı",
+    "searchGlobally": "Genel ara",
+    "requestSvg": "SVG iste",
+    "submitSvg": "SVG gönder"
+  },
+  "LibraryPage": {
+    "title": "Ücretsiz SVG kütüphanesi — İkonlar ve marka logoları | 5SVG",
+    "description": "Ücretsiz SVG ikon ve marka logolarına göz atın ve indirin. Ada göre arayın, kategoriye göre filtreleyin, A–Z sıralayın, kopyalayın veya indirin — kayıt yok.",
+    "h1": "Ücretsiz SVG ikon ve logo kütüphanesi",
+    "lead": "Ücretsiz SVG ikonları ada veya kategoriye göre arayın; tasarım, craft, Cricut ve web için vektör SVG indirin.",
+    "sections": {
+      "search": {
+        "h2": "Ücretsiz SVG ikon ve logoları arayın",
+        "body": "Marka veya başlığa göre SVG bulmak için arama çubuğunu kullanın. A–Z sıralayın veya en yeni vektör logolara göz atın.",
+        "h3": "Ada, markaya veya kategoriye göre ücretsiz SVG bulun"
+      },
+      "download": {
+        "h2": "SVG vektör dosyalarını indirin ve kullanın",
+        "body": "Herhangi bir kartı açıp SVG kodunu kopyalayın veya optimize dosyayı indirin. Hızlı erişim için SVG ikonlarını koleksiyonunuza kaydedin.",
+        "h3": "SVG ikonlarını kopyalayın, indirin veya yer imlerine ekleyin"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Tüm SVG logolar A–Z — Ücretsiz ikon dizini | 5SVG",
+    "description": "5SVG’deki her ücretsiz SVG logo ve marka ikonunun alfabetik dizini. Vektörleri kopyalamak veya indirmek için detay sayfasına gidin.",
+    "h1": "Tüm SVG logolara göz at",
+    "lead": "Ana kütüphanedeki ücretsiz marka logo SVG’lerinin eksiksiz A–Z dizini. Her bağlantı kopyalama, indirme ve lisans notları olan detay sayfasını açar.",
+    "logosCount": "({count} logo)",
+    "backLibrary": "← Etkileşimli kütüphane",
+    "popularBrands": "Popüler markalar",
+    "categories": "Kategoriler"
+  },
+  "FavoritesPage": {
+    "title": "Favoriler",
+    "clearAll": "Tümünü temizle",
+    "emptyTitle": "Henüz favori yok",
+    "emptyBody": "Herhangi bir SVG’deki kalp simgesine tıklayarak favorilere ekleyin.",
+    "browseSvgs": "SVG’lere göz at"
+  }
+}

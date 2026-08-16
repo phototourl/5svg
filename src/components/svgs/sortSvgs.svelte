@@ -7,6 +7,7 @@
   import { buttonVariants } from "@/components/ui/button";
   import ArrowUpDownIcon from "@lucide/svelte/icons/arrow-up-down";
   import ArrowDownUpIcon from "@lucide/svelte/icons/arrow-down-up";
+  import { getI18n } from "@/lib/i18n/context";
 
   interface Props {
     className?: string;
@@ -16,6 +17,7 @@
 
   let { className, isSorted, onSortedChange }: Props = $props();
   let sorted = $derived(isSorted);
+  const i18n = $derived(getI18n());
 
   const sort = () => {
     const newSorted = !sorted;
@@ -47,5 +49,5 @@
   {:else}
     <ArrowUpDownIcon size={16} strokeWidth={2} />
   {/if}
-  <span>{sorted ? "Sort by latest" : "Sort A-Z"}</span>
+  <span>{sorted ? i18n.t("Ui.sortLatest") : i18n.t("Ui.sortAz")}</span>
 </button>

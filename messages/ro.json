@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Schimbați limba",
+    "languageSelect": {
+      "title": "Selectați limba",
+      "subtitle": "Alegeți limba pentru interfața site-ului.",
+      "close": "Închide"
+    },
+    "nav": {
+      "home": "Acasă",
+      "freeSvg": "SVG gratuite",
+      "svgBundles": "Pachete SVG",
+      "shopNow": "Magazin",
+      "allFreeSvg": "Toate SVG-urile gratuite",
+      "allBundles": "Toate pachetele",
+      "licensing": "Politica de licențiere",
+      "contact": "Contactați-ne",
+      "bundles": "Pachete",
+      "browse": "Răsfoire",
+      "favorites": "Favorite",
+      "extensions": "Extensii",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Căutare în bibliotecă",
+      "openMenu": "Deschide meniul"
+    },
+    "sidebar": {
+      "categories": "Categorii",
+      "allLogosAz": "Toate logo-urile A–Z",
+      "submitSvg": "Trimite SVG",
+      "githubRepo": "Depozit GitHub"
+    },
+    "footer": {
+      "tagline": "Bibliotecă SVG gratuită și pachete craft pentru creatori",
+      "product": "Produs",
+      "explore": "Explorați",
+      "categories": "Categorii",
+      "company": "Companie",
+      "legal": "Legal",
+      "supportTitle": "Asistență clienți",
+      "supportBody": "Întrebări despre SVG gratuite sau pachete plătite? Scrieți-ne — răspundem în 1–2 zile lucrătoare.",
+      "exploreLibrary": "Explorați biblioteca",
+      "browseIndex": "Index A–Z",
+      "home": "Acasă",
+      "about": "Despre noi",
+      "license": "Politica de licențiere",
+      "licensingPolicy": "Politica de licențiere",
+      "privacy": "Politica de confidențialitate",
+      "privacyPolicy": "Politica de confidențialitate",
+      "terms": "Termeni și condiții",
+      "termsOfService": "Termeni și condiții",
+      "design": "Design",
+      "social": "Social",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ fișiere SVG gratuite — răsfoiți Free SVG",
+      "favorites": "Descărcare · salvați favorite · gratuit pentru uz personal",
+      "shop": "Pachete SVG de la $4.50 — plătiți o dată, descărcare ZIP imediată"
+    }
+  },
+  "shop": {
+    "seoTitle": "Pachete SVG — Prețuri și pachete craft | 5SVG",
+    "seoDescription": "Cumpărați pachete SVG craft originale la $4.50 USD — achiziție unică, descărcare ZIP imediată. Logo-urile de brand rămân gratuite în bibliotecă.",
+    "promo": "Pachete pe temă $4.50 · Colecție completă $9.90. O plată, ZIP imediat.",
+    "title": "Pachete SVG",
+    "subtitle": "Cumpără un pachet pe temă sau deblochează toate pachetele într-o singură achiziție. Logo-urile de brand rămân gratuite în bibliotecă.",
+    "allCategories": "Toate",
+    "viewPack": "Vezi",
+    "wholeShopBadge": "Cea mai bună ofertă",
+    "wholeShopSection": "Colecție completă",
+    "wholeShopTitle": "Colecție completă",
+    "wholeShopLead": "{count} fișiere SVG craft din fiecare temă. O achiziție deblochează toate pachetele.",
+    "wholeShopCta": "Cumpără",
+    "themePacksHeading": "Pachete pe temă",
+    "themePacksLead": "Fiecare pachet este o achiziție digitală unică la $4.50, cu aproximativ 20–24 fișiere de tăiere craft originale (ZIP). Logo-urile de brand rămân gratuite în bibliotecă.",
+    "empty": "Niciun pachet în această categorie deocamdată.",
+    "fileCount": "{count} fișiere",
+    "moreFiles": "+{count} în plus",
+    "freeHint": "Aveți nevoie de logo-uri de brand gratuite?",
+    "freeLibraryLink": "Deschideți biblioteca gratuită →",
+    "backToShop": "Toate pachetele",
+    "emailLabel": "E-mail pentru chitanță și descărcare",
+    "mockNotice": "Checkout de test (Creem nu este încă conectat).",
+    "buyDownload": "Cumpără și descarcă",
+    "processing": "Redirecționare…",
+    "checkoutError": "Plata a eșuat. Încercați din nou.",
+    "flowHint": "Plătiți o dată pentru descărcare ZIP instantanee. Chitanța este trimisă pe e-mail.",
+    "payOverlayTitle": "Se confirmă plata…",
+    "payOverlayBody": "Vă rugăm așteptați în timp ce verificăm achiziția.",
+    "prepareOverlayTitle": "Se pregătește descărcarea…",
+    "prepareOverlayBody": "ZIP-ul va începe în curând.",
+    "downloadTitle": "Descărcarea dvs.",
+    "downloadMissing": "Lipsesc informațiile de retur ale plății. Reîncepeți din Pachete.",
+    "downloadFailed": "Plata nu a putut fi confirmată.",
+    "downloadSyncing": "Confirmarea plății…",
+    "downloadReady": "Gata: {title}",
+    "downloadZip": "Descarcă ZIP",
+    "downloadEmailHint": "Un link de rezervă pentru descărcare a fost trimis și la e-mailul introdus.",
+    "includesSample": "Include (eșantion)",
+    "browseCategory": "Răsfoiți această categorie →",
+    "license": {
+      "personal": "Uz personal",
+      "commercial": "Licență craft comercială"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Fișiere SVG gratuite și pachete SVG craft",
+    "description": "Bibliotecă gratuită de logo-uri SVG plus pachete craft SVG plătite. Răsfoiți Free SVG oricând sau cumpărați pachete ZIP originale de la $4.50 pentru Cricut, Silhouette, vinil și crafts.",
+    "keywords": "pachete svg, craft svg, svg gratuit, descărcare svg, cricut svg, silhouette svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Fișiere SVG gratuite și pachete craft",
+      "subtitle": "Răsfoiți biblioteca noastră gratuită sau cumpărați pachete craft originale — pachete ZIP digitale de la $4.50, plătiți o dată, descărcați imediat. Pentru Cricut, Silhouette, vinil și creatori.",
+      "ctaShop": "Cumpărați pachete",
+      "ctaFree": "Bibliotecă gratuită",
+      "marqueeAria": "Răsfoiți fișierele SVG din bibliotecă"
+    },
+    "value": {
+      "freeTitle": "Livrare digitală imediată",
+      "freeDesc": "Cumpărați un pachet și descărcați ZIP-ul imediat după plată — fără livrare fizică, fără așteptare. Biblioteca gratuită rămâne gratuită.",
+      "curatedTitle": "Pachete craft de la $4.50",
+      "curatedDesc": "Pachete originale cu fișiere de tăiere, cu preț USD clar. Achiziție unică — păstrați fișierele pentru uz craft personal.",
+      "easyTitle": "Asistență clienți",
+      "easyDesc": "Întrebări despre biblioteca gratuită, pachete sau licență? E-mail support@5svg.com sau Contact — răspundem în 1–2 zile lucrătoare."
+    },
+    "shopStrip": {
+      "title": "Pachete SVG de vânzare",
+      "subtitle": "Pachete SVG craft originale — $4.50 fiecare, plătiți o dată, ZIP imediat.",
+      "viewAll": "Vezi toate pachetele →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Pentru creatorii de zi cu zi",
+      "subtitle": "Folosiți logo-uri Free SVG sau fișiere din pachete în Cricut, Silhouette, Canva, tricouri, stickere și altele.",
+      "cutting": "Tăiere și crafts",
+      "stickers": "Stickere și decaluri",
+      "gifts": "Cadouri și petreceri",
+      "labels": "Etichete",
+      "print": "Print și foto",
+      "personal": "Proiecte personale",
+      "iconAlt": "Pictogramă craft {label}"
+    },
+    "library": {
+      "title": "Ce conține biblioteca",
+      "subtitle": "{count}+ fișiere SVG grupate pe teme — folosiți meniul de sus când sunteți gata să răsfoiți sau să descărcați.",
+      "browseTitle": "Răsfoiți SVG {name}",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG-uri"
+    },
+    "how": {
+      "tag": "Cum funcționează",
+      "title": "Bibliotecă gratuită sau cumpărați pachete",
+      "subtitle": "Răsfoiți biblioteca gratuită oricând — sau deschideți Pachete, cumpărați un pachet craft și descărcați ZIP-ul după plată.",
+      "searchTitle": "Răsfoiți biblioteca gratuită",
+      "searchDesc": "Deschideți biblioteca gratuită, alegeți o categorie sau căutați după nume — descărcare fără cont.",
+      "downloadTitle": "Cumpărați un pachet",
+      "downloadDesc": "Alegeți un pachet craft în Pachete, plătiți o dată prețul USD afișat, apoi descărcați ZIP-ul.",
+      "favoritesTitle": "Salvați și reutilizați",
+      "favoritesDesc": "Marcați favorite Free SVG pe acest dispozitiv sau păstrați fișierele din pachetele cumpărate pentru proiectele craft."
+    },
+    "seoIntro": {
+      "tag": "Magazin și bibliotecă SVG",
+      "title": "Fișiere SVG gratuite și pachete craft plătite",
+      "description": "5SVG vinde pachete SVG craft originale ca descărcări ZIP digitale (de obicei $4.50 fiecare) și găzduiește o bibliotecă gratuită de logo-uri de brand. Răsfoiți Free SVG sau cumpărați pachete pentru Cricut, Silhouette, vinil și crafts de zi cu zi."
+    },
+    "seoBlocks": {
+      "whatTag": "Noțiuni de bază",
+      "whatTitle": "Ce este un fișier SVG?",
+      "whatBody": "SVG (Scalable Vector Graphics) stochează forme și trasee ca matematică, nu ca pixeli. Logo-urile și pictogramele rămân clare — fie că le micșorați pentru un sticker, fie că le măriți pentru un poster.",
+      "whatB1": "Se scalează la orice dimensiune fără a deveni neclare",
+      "whatB2": "Format comun pentru logo-uri, pictograme și ilustrații simple",
+      "whatB3": "Acceptat de browsere, software de design și plottere de vinil",
+      "whatAlt": "5SVG — milioane de vectori SVG de înaltă calitate și categorii",
+      "usesTag": "Utilizări",
+      "usesTitle": "Ce puteți face cu fișierele SVG?",
+      "usesBody": "Fișierele SVG sunt un punct de plecare practic pentru proiecte personale — mockup-uri, învățarea designului, crafts pentru petreceri și fluxuri de lucru maker unde aveți nevoie de un vector curat pe care îl puteți redimensiona.",
+      "usesB1": "Tăiați decaluri din vinil cu Cricut sau Silhouette",
+      "usesB2": "Inserați pictograme în Canva, Figma sau PowerPoint",
+      "usesB3": "Imprimați tricouri, etichete și decorațiuni acasă",
+      "usesB4": "Creați mood board-uri și proiecte școlare cu logo-uri de brand reale",
+      "usesAlt": "5SVG — proiectați și prezentați cu kituri UI și pictograme de aplicații",
+      "getTag": "Obțineți fișiere",
+      "getTitle": "Cum obțineți fișiere SVG de pe 5SVG",
+      "getBody": "Răsfoiți Free SVG oricând — căutați sau alegeți o categorie, apoi copiați sau descărcați. Pentru pachete craft, deschideți Pachete, alegeți un produs la prețul USD afișat și descărcați ZIP-ul după plată.",
+      "getB1": "Răsfoiți Free SVG — fără înregistrare",
+      "getB2": "Sau cumpărați pachete pentru ZIP-uri craft originale",
+      "getB3": "Plătiți o dată, apoi descărcați ZIP-ul",
+      "getB4": "Verificați Licența și Termenii înainte de uz craft comercial",
+      "getAlt": "5SVG — cea mai rapidă căutare vectorială pe dispozitive"
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "subtitle": "Ce vindem, prețuri, livrare, rambursări și asistență.",
+      "lead": "5SVG vinde pachete SVG craft digitale (descărcări ZIP) la prețuri USD clare pe pagina Pachete. Biblioteca Free SVG rămâne gratuită. Plățile sunt procesate de Creem.",
+      "q1": "Ce vindeți?",
+      "a1": "Vindem pachete SVG craft originale — pachete ZIP digitale cu fișiere de tăiere pentru creatori (Cricut, Silhouette, vinil, tricouri). Nu vindem bunuri fizice. Logo-urile de brand din Free SVG sunt gratuite și nu sunt vândute.",
+      "q2": "Cât costă un pachet?",
+      "a2": "Fiecare pachet craft costă de obicei $4.50 USD ca achiziție unică. Prețurile exacte apar pe https://5svg.com/shop și pe fiecare pagină de produs înainte de plată.",
+      "q3": "Cum este livrat produsul?",
+      "a3": "Livrarea este 100% digitală și imediată după plata reușită. Fără expediere. Folosiți un e-mail valid la checkout pentru chitanță.",
+      "q4": "Am nevoie de cont sau de instalare software?",
+      "a4": "Nu este necesar un cont pentru Free SVG sau pentru a cumpăra pachete. Favoritele rămân în browser. Importați SVG-urile în Cricut Design Space, Silhouette Studio, Canva sau orice aplicație vectorială — nimic de instalat de la noi.",
+      "q5": "Ce licență primesc?",
+      "a5": "Pachetele includ o licență craft personală. Nu puteți revinde sau redistribui ZIP-ul sau fișierele individuale. Logo-urile Free SVG rămân mărci ale proprietarilor — verificați ghidurile de brand înainte de uz comercial. Consultați paginile Licență și Termeni.",
+      "q6": "Pot primi o rambursare?",
+      "a6": "Deoarece pachetele sunt descărcări digitale, în general nu oferim rambursări odată ce ZIP-ul a fost livrat și rămâne disponibil pentru uz normal. Dacă descărcarea eșuează din cauza noastră, scrieți la support@5svg.com și vom analiza după verificare.",
+      "q7": "Unde sunt Confidențialitatea și Termenii?",
+      "a7": "Confidențialitate: https://5svg.com/privacy — Termeni: https://5svg.com/terms — Licență: https://5svg.com/license. Linkurile apar și în subsol.",
+      "q8": "Cum contactez asistența?",
+      "a8": "E-mail support@5svg.com sau pagina Contact. Răspundem în 1–2 zile lucrătoare (în 3 pentru facturare).",
+      "contactBefore": "Pentru întrebările de mai sus și altele, folosiți pagina ",
+      "contactLink": "Contactați-ne",
+      "contactMiddle": " de pe acest site sau scrieți la ",
+      "contactAfter": ". Răspundem în 1–2 zile lucrătoare."
+    },
+    "about": {
+      "title": "Despre 5SVG",
+      "p1": "5SVG este o bibliotecă gratuită de logo-uri și pictograme SVG plus un magazin de pachete SVG craft originale. Produsele plătite sunt doar descărcări ZIP digitale — de obicei $4.50 USD fiecare, achiziție unică, cu prețuri pe pagina Pachete.",
+      "p2": "Răsfoiți Free SVG oricând sau deschideți Pachete pentru pachete de tăiere sezoniere și de zi cu zi pentru Cricut, Silhouette, vinil și creatori. Asistență: support@5svg.com. Legal: în subsol.",
+      "logoAlt": "Logo 5SVG — bibliotecă SVG gratuită și pachete craft"
+    },
+    "bannerAlt": "5SVG — Fișiere SVG gratuite și pachete SVG craft"
+  },
+  "ContactPage": {
+    "title": "Contactați-ne",
+    "description": "Contactați 5SVG pentru Free SVG, pachete, licență sau feedback. Răspundem în 1–2 zile lucrătoare.",
+    "subtitle": "Suntem aici pentru Free SVG, pachete craft și întrebări de licență.",
+    "introShort": "Aveți o întrebare sau feedback? Completați formularul de mai jos și vă răspundem curând.",
+    "whyTitle": "Despre ce ne puteți contacta",
+    "why1": "Biblioteca Free SVG: răsfoire, descărcare sau întrebări despre mărci",
+    "why2": "Pachete SVG: achiziții, descărcări sau conținutul pachetului",
+    "why3": "Licență și uz comercial",
+    "why4": "Feedback, parteneriate sau raportarea abuzurilor",
+    "expectTitle": "La ce să vă așteptați",
+    "expectContent": "Citim fiecare mesaj și răspundem în 1–2 zile lucrătoare. Pentru urgențe, includeți un subiect clar și cât mai multe detalii.",
+    "orEmail": "Sau scrieți-ne la",
+    "form": {
+      "title": "Trimiteți un mesaj",
+      "description": "Întrebări despre Free SVG, pachete sau feedback? Completați formularul — răspundem cât de curând putem.",
+      "name": "Nume",
+      "email": "E-mail",
+      "message": "Mesaj",
+      "namePlaceholder": "Numele dvs.",
+      "emailPlaceholder": "dvs@email.com",
+      "messagePlaceholder": "Mesajul sau întrebarea dvs.…",
+      "submit": "Trimite mesajul",
+      "mailtoHint": "Aplicația de e-mail ar trebui să se deschidă cu mesajul gata de trimis la support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Descărcarea dvs. 5SVG — {title}",
+      "title": "Descărcarea dvs. este gata",
+      "body": "Vă mulțumim că ați cumpărat {title} pe 5SVG.",
+      "downloadButton": "Descarcă ZIP",
+      "linkFallback": "Sau copiați acest link de rezervă pentru descărcare:",
+      "note": "Dacă fișierul nu s-a descărcat automat după plată, redeschideți acest link.",
+      "textIntro": "Vă mulțumim pentru achiziția {title}.",
+      "textDownload": "Descărcați ZIP-ul (link de rezervă):",
+      "textSupport": "Asistență: {email}"
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Căutare...",
+    "sortAz": "Sortare A–Z",
+    "sortLatest": "Cele mai recente",
+    "accept": "Accept",
+    "logos": "logo-uri",
+    "azIndex": "Index A–Z",
+    "clearSearch": "Șterge căutarea",
+    "searchResults": "rezultate",
+    "svgs": "SVG-uri",
+    "showAll": "Afișează tot",
+    "showLess": "Afișează mai puțin",
+    "showMore": "Afișează mai mult",
+    "copySvg": "Copiază SVG",
+    "copyDisclaimer": "Asigurați-vă că aveți permisiunea creatorilor înainte de a utiliza SVG-ul. Modificările nu sunt permise."
+  },
+  "HeroTabs": {
+    "brands": "Branduri",
+    "browse": "Răsfoire",
+    "ai": "IA",
+    "design": "Design",
+    "social": "Social",
+    "aria": "Previzualizări logo"
+  },
+  "WarningBanner": {
+    "body": "Resursele SVG sunt oferite ca referință. Sunteți responsabil să verificați mărcile și drepturile de utilizare înainte de a le folosi în proiecte.",
+    "accept": "Accept"
+  },
+  "NotFound": {
+    "title": "SVG negăsit",
+    "inCategory": "„{title}” nu a fost găsit în categoria „{category}”",
+    "plain": "„{title}” nu a fost găsit",
+    "searchGlobally": "Căutare globală",
+    "requestSvg": "Solicită SVG",
+    "submitSvg": "Trimite SVG"
+  },
+  "LibraryPage": {
+    "title": "Bibliotecă SVG gratuită — Pictograme și logo-uri | 5SVG",
+    "description": "Răsfoiți și descărcați pictograme și logo-uri SVG gratuite. Căutare, filtre, sortare A–Z — fără înregistrare.",
+    "h1": "Bibliotecă de pictograme și logo-uri SVG gratuite",
+    "lead": "Căutați pictograme SVG gratuite după nume sau categorie, apoi descărcați fișiere vectoriale pentru design, crafts, Cricut și web.",
+    "sections": {
+      "search": {
+        "h2": "Căutați pictograme și logo-uri SVG gratuite",
+        "body": "Folosiți bara de căutare după brand sau titlu. Sortați A–Z sau răsfoiți cele mai noi logo-uri vectoriale.",
+        "h3": "Găsiți SVG-uri gratuite după nume, brand sau categorie"
+      },
+      "download": {
+        "h2": "Descărcați și folosiți fișiere SVG vectoriale",
+        "body": "Deschideți orice card pentru a copia codul SVG sau a descărca fișierul optimizat. Salvați pictogramele în colecție pentru acces rapid.",
+        "h3": "Copiați, descărcați sau salvați pictograme SVG"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Răsfoiți toate logo-urile SVG A–Z — Index gratuit | 5SVG",
+    "description": "Index alfabetic al tuturor logo-urilor și pictogramelor SVG gratuite pe 5SVG.",
+    "h1": "Răsfoiți toate logo-urile SVG",
+    "lead": "Index A–Z complet al logo-urilor SVG de brand gratuite din biblioteca principală. Fiecare link deschide o pagină cu detalii, copiere, descărcare și note de licență.",
+    "logosCount": "({count} logo-uri)",
+    "backLibrary": "← Bibliotecă interactivă",
+    "popularBrands": "Branduri populare",
+    "categories": "Categorii"
+  },
+  "FavoritesPage": {
+    "title": "Favorite",
+    "clearAll": "Șterge tot",
+    "emptyTitle": "Nicio favorită încă",
+    "emptyBody": "Începeți să adăugați SVG-uri la favorite făcând clic pe pictograma inimă de pe orice SVG.",
+    "browseSvgs": "Răsfoiți SVG-uri"
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Despre 5SVG — Bibliotecă SVG gratuită și pachete craft",
+      "description": "5SVG este o bibliotecă independentă de logo-uri SVG gratuite și un magazin de pachete SVG craft originale. Doar descărcări digitale — prețuri clare pe pagina Pachete.",
+      "h1": "Despre 5SVG",
+      "sections": [
+        {
+          "h2": "Ce oferim",
+          "body": "5SVG găzduiește o bibliotecă gratuită de logo-uri și pictograme SVG de brand, plus pachete SVG craft plătite vândute ca descărcări ZIP digitale unice. Free SVG rămâne gratuit. Pachetele sunt seturi originale de fișiere de tăiere pentru creatori (Cricut, Silhouette, vinil, tricouri)."
+        },
+        {
+          "h2": "Ce vindem",
+          "body": "Prin Pachete vindem doar pachete SVG craft digitale — de obicei $4.50 USD fiecare, plătiți o dată, ZIP imediat după plată. Nu vindem bunuri fizice. Pachetele și prețurile actuale sunt pe pagina Pachete (/shop)."
+        },
+        {
+          "h2": "Cine suntem",
+          "body": "5SVG este un proiect independent. Nu suntem afiliați, susținuți sau sponsorizați de brandurile ale căror logo-uri apar în biblioteca gratuită. Pachetele plătite sunt designuri craft originale pe care le asamblăm sau le creăm pentru uz craft personal."
+        },
+        {
+          "h2": "Asistență",
+          "body": "E-mail asistență clienți: support@5svg.com. Ne propunem să răspundem în 1–2 zile lucrătoare. Puteți folosi și pagina Contactați-ne."
+        }
+      ]
+    },
+    "license": {
+      "title": "Politica de licențiere — 5SVG",
+      "description": "Cum puteți folosi fișierele Free SVG și pachetele craft plătite pe 5SVG, inclusiv mărci și uz craft personal.",
+      "h1": "Politica de licențiere",
+      "sections": [
+        {
+          "h2": "Introducere",
+          "body": "Această Politică de licențiere explică modul în care puteți folosi materialele 5SVG. Prin descărcarea fișierelor Free SVG sau cumpărarea pachetelor, acceptați această politică, Termenii și condițiile și Politica de confidențialitate."
+        },
+        {
+          "h2": "Biblioteca Free SVG",
+          "body": "Logo-urile și pictogramele de brand din Free SVG sunt gratuite pentru răsfoire, copiere și descărcare pentru proiecte personale, educație și mockup-uri. Uzul comercial al mărcilor poate necesita totuși permisiunea proprietarului. Fișierele Free SVG nu sunt vândute ca produse plătite."
+        },
+        {
+          "h2": "Pachete plătite (pachete craft)",
+          "body": "Pachetele SVG craft vândute sub Pachete sunt licențiate pentru proiecte craft personale (de exemplu tăiere, vinil, tricouri, stickere și uz maker similar). Nu puteți revinde, redistribui, partaja sau reîncărca ZIP-ul digital sau fișierele SVG individuale ca produse digitale de sine stătătoare."
+        },
+        {
+          "h2": "Proprietate intelectuală",
+          "body": "Designurile craft originale din pachetele plătite aparțin 5SVG sau ne sunt licențiate pentru vânzare. Logo-urile și mărcile verbale Free SVG rămân proprietatea titularilor respectivi. 5SVG nu revendică proprietatea asupra mărcilor terților din biblioteca gratuită."
+        },
+        {
+          "h2": "Mărci",
+          "body": "Logo-urile și mărcile verbale rămân mărci ale titularilor respectivi. 5SVG nu este afiliat sau susținut de acele branduri. Nu vindem logo-uri de brand protejate ca produse plătite."
+        },
+        {
+          "h2": "Fără garanție",
+          "body": "Fișierele sunt furnizate ca atare. Nu garantăm exhaustivitatea, claritatea legală pentru cazul dvs. specific sau că resursele corespund celor mai recente versiuni oficiale ale brandului."
+        },
+        {
+          "h2": "Contactați-ne",
+          "body": "Întrebări despre această Politică de licențiere: e-mail support@5svg.com sau pagina Contactați-ne."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politica de confidențialitate — 5SVG",
+      "description": "Cum vă protejăm datele când folosiți 5SVG",
+      "h1": "Politica de confidențialitate",
+      "sections": [
+        {
+          "h2": "Introducere",
+          "body": "Bine ați venit la Politica de confidențialitate 5SVG. Acest document explică cum colectăm, folosim și protejăm datele personale când folosiți site-ul 5SVG, biblioteca Free SVG și magazinul de pachete craft."
+        },
+        {
+          "h2": "Informațiile pe care le colectăm",
+          "body": "Putem colecta: (1) Date de contact pe care le furnizați — cum ar fi e-mailul introdus la checkout-ul unui pachet pentru chitanță și livrarea descărcării, sau mesaje prin Contactați-ne. (2) Date de utilizare — cum interacționați cu site-ul (de exemplu pagini vizitate), când analytics este activat. (3) Informații despre dispozitiv — tipul de browser sau date tehnice aproximative pentru operarea și securizarea serviciului. Favoritele sunt stocate local în browser; nu primim lista pe serverele noastre."
+        },
+        {
+          "h2": "Cum folosim informațiile",
+          "body": "Folosim informațiile pentru a furniza și menține biblioteca Free SVG și magazinul de pachete; a livra descărcări ZIP plătite și chitanțe; a oferi asistență; a îmbunătăți site-ul; a monitoriza utilizarea; și a detecta, preveni și aborda probleme tehnice sau de abuz."
+        },
+        {
+          "h2": "Plăți",
+          "body": "Plățile pentru pachete sunt procesate de furnizorul nostru de plăți (Creem). Detaliile cardului sunt gestionate de furnizor — nu stocăm numere complete de card pe serverele 5SVG."
+        },
+        {
+          "h2": "Cookie-uri și stocare",
+          "body": "Site-ul poate folosi cookie-uri sau stocare locală pentru temă, limbă, favorite și analytics. Puteți șterge datele site-ului din setările browserului oricând. Blocarea unor cookie-uri poate limita anumite funcții."
+        },
+        {
+          "h2": "Securitatea datelor",
+          "body": "Implementăm măsuri de securitate adecvate pentru a proteja informațiile personale împotriva accesului neautorizat, modificării, divulgării sau distrugerii. Nicio metodă de transmisie pe internet nu este 100% sigură."
+        },
+        {
+          "h2": "Servicii terțe",
+          "body": "Putem folosi companii terțe pentru plăți, livrare de e-mail, analytics sau hosting. Linkurile de ieșire și badge-urile încorporate sunt reglementate de politicile acelor site-uri."
+        },
+        {
+          "h2": "Modificări ale acestei politici",
+          "body": "Putem actualiza această Politică de confidențialitate din când în când. Vom anunța modificările publicând politica actualizată pe această pagină."
+        },
+        {
+          "h2": "Contactați-ne",
+          "body": "Dacă aveți întrebări despre această Politică de confidențialitate, scrieți la support@5svg.com sau folosiți pagina Contactați-ne."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termeni și condiții — 5SVG",
+      "description": "Termeni pentru utilizarea site-ului 5SVG și achiziționarea pachetelor SVG craft",
+      "h1": "Termeni și condiții",
+      "sections": [
+        {
+          "h2": "Introducere",
+          "body": "Acești Termeni și condiții („Termeni”) reglementează utilizarea site-ului 5SVG, a bibliotecii Free SVG și a magazinului de pachete. Accesând 5SVG.com sau cumpărând un pachet, acceptați acești Termeni, Politica de confidențialitate și Politica de licențiere. Dacă nu sunteți de acord, nu folosiți site-ul și nu cumpărați pachete."
+        },
+        {
+          "h2": "Utilizarea serviciilor",
+          "body": "Serviciile noastre sunt furnizate „ca atare” și „conform disponibilității”, fără garanții de niciun fel, exprese sau implicite. Nu garantăm că site-ul va fi neîntrerupt, securizat sau fără erori. Puteți răsfoi Free SVG fără cont. Cumpărarea pachetelor necesită un e-mail valid la checkout."
+        },
+        {
+          "h2": "Produsele pe care le vindem",
+          "body": "5SVG vinde pachete SVG craft digitale (descărcări ZIP de fișiere de tăiere originale) ca achiziții unice. Prețurile apar în USD pe fiecare pagină de pachet (de obicei $4.50 pe pachet). Biblioteca gratuită de logo-uri SVG nu este un produs plătit. Nu vindem bunuri fizice sau pachete de logo-uri de brand terțe ca produse plătite."
+        },
+        {
+          "h2": "Prețuri și plată",
+          "body": "Prețurile pachetelor sunt afișate pe https://5svg.com/shop și pe fiecare pagină de produs înainte de checkout. Plata este procesată de Creem (Merchant of Record). Sunteți responsabil să furnizați un e-mail valid la checkout pentru a putea livra descărcarea și chitanța."
+        },
+        {
+          "h2": "Livrare",
+          "body": "Pachetele sunt livrate doar digital. După plata reușită primiți descărcarea ZIP, iar un link de rezervă poate fi trimis pe e-mail. Nu există expediere fizică."
+        },
+        {
+          "h2": "Proprietate intelectuală",
+          "body": "Pachetele cumpărate sunt licențiate pentru uz craft personal conform Politicii de licențiere. Nu puteți revinde, redistribui sau partaja ZIP-ul sau fișierele individuale ca produse digitale de sine stătătoare. Logo-urile Free SVG rămân supuse drepturilor titularilor de mărci. Conținutul site-ului, brandingul și designurile craft originale sunt protejate de legile aplicabile."
+        },
+        {
+          "h2": "Activități interzise",
+          "body": "Sunteți de acord să nu: folosiți site-ul în moduri care încalcă legea aplicabilă; încercați acces neautorizat la sistemele noastre; extrageți sau supraîncărcați serviciul afectând disponibilitatea; distribuiți malware; sau folosiți fișierele descărcate încălcând acești Termeni sau Politica de licențiere."
+        },
+        {
+          "h2": "Rambursări",
+          "body": "Deoarece pachetele sunt descărcări digitale, în general nu oferim rambursări odată ce ZIP-ul a fost livrat și rămâne disponibil pentru uz normal. Dacă nu puteți descărca din cauza unei erori de partea noastră, scrieți la support@5svg.com într-un termen rezonabil; vom analiza după verificare și, unde este cazul, vom oferi o redescărcare sau alt remediu."
+        },
+        {
+          "h2": "Limitarea răspunderii",
+          "body": "În niciun caz 5SVG nu va fi răspunzător pentru daune indirecte, incidentale, speciale, consecutive sau punitive rezultate din utilizarea sau imposibilitatea de a utiliza site-ul sau fișierele descărcate."
+        },
+        {
+          "h2": "Modificări ale Termenilor",
+          "body": "Ne rezervăm dreptul de a modifica acești Termeni oricând. Dacă facem modificări, vom anunța publicând Termenii actualizați pe această pagină."
+        },
+        {
+          "h2": "Contactați-ne",
+          "body": "Dacă aveți întrebări despre acești Termeni, scrieți la support@5svg.com sau folosiți pagina Contactați-ne. Ne propunem să răspundem în 1–2 zile lucrătoare (și în 3 zile lucrătoare pentru facturare)."
+        }
+      ]
+    }
+  }
+}

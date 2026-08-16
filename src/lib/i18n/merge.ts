@@ -1,6 +1,7 @@
 export function merge<T>(target: T, source: T): T {
+  // Locale arrays must replace defaults (e.g. LegalPages.sections) — never concatenate.
   if (Array.isArray(target) && Array.isArray(source)) {
-    return [...target, ...source] as T;
+    return source as T;
   }
   if (isObject(target) && isObject(source)) {
     const result: Record<string, unknown> = { ...target };

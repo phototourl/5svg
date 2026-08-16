@@ -1,0 +1,490 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Midar lingua",
+    "languageSelect": {
+      "title": "Tscherni vossa lingua",
+      "subtitle": "Tscherni la lingua per l’interfatscha dal website.",
+      "close": "Serrar"
+    },
+    "nav": {
+      "home": "Cumenzament",
+      "freeSvg": "SVG gratuits",
+      "svgBundles": "Pachets SVG",
+      "shopNow": "Butia",
+      "allFreeSvg": "Tut ils SVG gratuits",
+      "allBundles": "Tut ils pachets",
+      "licensing": "Politica da licenza",
+      "contact": "Contactar nus",
+      "bundles": "Pachets",
+      "browse": "Sfegliar",
+      "favorites": "Favurits",
+      "extensions": "Extensiuns",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Tschertgar en la biblioteca",
+      "openMenu": "Avrir il menu"
+    },
+    "sidebar": {
+      "categories": "Categorias",
+      "allLogosAz": "Tut ils logos A–Z",
+      "submitSvg": "Trametter in SVG",
+      "githubRepo": "Repositori GitHub"
+    },
+    "footer": {
+      "tagline": "Biblioteca SVG gratuita e pachets craft per makers",
+      "product": "Product",
+      "explore": "Explorar",
+      "categories": "Categorias",
+      "company": "Interpresa",
+      "legal": "Legal",
+      "supportTitle": "Support clients",
+      "supportBody": "Dumondas davart SVG gratuits u pachets pagads? Scrivai a nus — nus spitgains da responder entaifer 1–2 dis da lavur.",
+      "exploreLibrary": "Explorar la biblioteca",
+      "browseIndex": "Index A–Z",
+      "home": "Cumenzament",
+      "about": "Davart nus",
+      "license": "Politica da licenza",
+      "licensingPolicy": "Politica da licenza",
+      "privacy": "Politica da protecziun da datas",
+      "privacyPolicy": "Politica da protecziun da datas",
+      "terms": "Cundiziuns d’utilisaziun",
+      "termsOfService": "Cundiziuns d’utilisaziun",
+      "design": "Design",
+      "social": "Social",
+      "software": "Software"
+    },
+    "announcement": {
+      "library": "{count}+ datotecas SVG gratuitas — sfegliar Free SVG",
+      "favorites": "Telechargiar · memorisar favurits · gratuit per diever persunal",
+      "shop": "Pachets SVG a partir da $4.50 — pagar ina giada, ZIP immediat"
+    }
+  },
+  "shop": {
+    "seoTitle": "Pachets SVG — Pretschs & packs craft | 5SVG",
+    "seoDescription": "Cumprar pachets SVG craft originals per $4.50 USD mintgin — cumpranza unica, telechargiament ZIP immediat. Logos da marca restan gratuits en la biblioteca.",
+    "promo": "Packs da tema $4.50 · Collecziun cumpletta $9.90. In pajament, ZIP immediat.",
+    "title": "Pachets SVG",
+    "subtitle": "Cumprar in pack da tema u deblochetschar tut ils packs cun in cumprè. Logos da marca restan gratuits en la bibliotheca.",
+    "allCategories": "Tut",
+    "viewPack": "Vesair",
+    "wholeShopBadge": "Meglier pretsch",
+    "wholeShopSection": "Collecziun cumpletta",
+    "wholeShopTitle": "Collecziun cumpletta",
+    "wholeShopLead": "{count} SVG craft da mintga tema. In cumprè deblochescha tut ils packs.",
+    "wholeShopCta": "Cumprar ussa",
+    "themePacksHeading": "Packs da tema",
+    "themePacksLead": "Mintga pack è ina cumprà digitala unica da $4.50, cun circa 20–24 datotecas da tagl craft originalas (ZIP). Logos da marca restan gratuits en la bibliotheca.",
+    "empty": "Anc nagins packs en questa categoria.",
+    "fileCount": "{count} datotecas",
+    "moreFiles": "+{count} dapli",
+    "freeHint": "Basegn da logos da marca gratuits?",
+    "freeLibraryLink": "Avrir la biblioteca gratuita →",
+    "backToShop": "Tut ils pachets",
+    "emailLabel": "E-mail per quittanza & telechargiament",
+    "mockNotice": "Checkout da test (Creem anc betg collià).",
+    "buyDownload": "Cumprar & telechargiar",
+    "processing": "Redirecziun…",
+    "checkoutError": "Checkout betg reussì. Empruvai anc ina giada.",
+    "flowHint": "Pajar ina giada per telechargiar immediatamain il ZIP. La quittanza vegn tramessa a Voss e-mail.",
+    "payOverlayTitle": "Confermar il pajament…",
+    "payOverlayBody": "Spetgai per plaschair durant che nus verifitgain Vossa cumprada.",
+    "prepareOverlayTitle": "Preparar il telechargiament…",
+    "prepareOverlayBody": "Voss ZIP cumenza encurt.",
+    "downloadTitle": "Voss telechargiament",
+    "downloadMissing": "Infurmaziuns da return dal pajament mancan. Cumenzai danovamain da Pachets.",
+    "downloadFailed": "Betg pudì confirmar il pajament.",
+    "downloadSyncing": "Confirmand il pajament…",
+    "downloadReady": "Pront: {title}",
+    "downloadZip": "Telechargiar ZIP",
+    "downloadEmailHint": "In link da telechargiament da reserva è era vegnì tramess a l’e-mail che Vus avais inditgà.",
+    "includesSample": "Cuntegna (exempel)",
+    "browseCategory": "Sfegliar questa categoria →",
+    "license": {
+      "personal": "Diever persunal",
+      "commercial": "Licenza craft commerciala"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Datotecas SVG gratuitas & pachets craft",
+    "description": "Biblioteca da logos SVG gratuits plus pachets craft SVG pagads per makers. Sfegliar Free SVG dabot temp, u cumprar packs ZIP a partir da $4.50 per Cricut, Silhouette, vinyl e crafts.",
+    "keywords": "pachets svg, craft svg, svg gratuits, telechargiament svg, cricut svg, silhouette svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Datotecas SVG gratuitas & pachets craft",
+      "subtitle": "Sfegliar nossa biblioteca gratuita, u cumprar pachets craft originals — packs ZIP digitals a partir da $4.50, pagar ina giada, telechargiar immediatamain. Per Cricut, Silhouette, vinyl e creaturs.",
+      "ctaShop": "Cumprar pachets",
+      "ctaFree": "Biblioteca gratuita",
+      "marqueeAria": "Sfegliar datotecas SVG en la biblioteca"
+    },
+    "value": {
+      "freeTitle": "Consegna digitala immediata",
+      "freeDesc": "Cumprar in pachet e telechargiar Voss ZIP directamain suenter il pajament — nagina spediziun. La biblioteca gratuita resta gratuita.",
+      "curatedTitle": "Pachets craft a partir da $4.50",
+      "curatedDesc": "Packs da tagl originals cun pretsch USD cler sin mintga product. Cumpranza unica — tegnair las datotecas per diever craft persunal.",
+      "easyTitle": "Support clients",
+      "easyDesc": "Dumondas davart la biblioteca gratuita, pachets u licenza? E-mail support@5svg.com u Contactar nus — nus spitgains da responder entaifer 1–2 dis da lavur."
+    },
+    "shopStrip": {
+      "title": "Pachets SVG en vendita",
+      "subtitle": "Packs craft originals — $4.50 mintgin, pagar ina giada, ZIP immediat.",
+      "viewAll": "Vesair tut ils pachets →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Per creators da mintgadi",
+      "subtitle": "Utilisar logos Free SVG u datotecas da pachet en Cricut, Silhouette, Canva, t-shirts, stickers e dapli.",
+      "cutting": "Crafts da tagl",
+      "stickers": "Stickers & decals",
+      "gifts": "Regals & festa",
+      "labels": "Etichettas",
+      "print": "Stamp & foto",
+      "personal": "Projects persunals",
+      "iconAlt": "Icona craft {label}"
+    },
+    "library": {
+      "title": "Tge ch’i ha en la biblioteca",
+      "subtitle": "{count}+ datotecas SVG grupadas tenor tema — utilisai il menu sura cura che Vus esas pronts da sfegliar u telechargiar.",
+      "browseTitle": "Sfegliar SVGs {name}",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVGs"
+    },
+    "how": {
+      "tag": "Sco ch’i funcziuna",
+      "title": "Biblioteca gratuita u cumprar pachets",
+      "subtitle": "Sfegliar la biblioteca gratuita dabot temp — u avrir Pachets per cumprar in pack craft e telechargiar Voss ZIP suenter il pajament.",
+      "searchTitle": "Sfegliar la biblioteca gratuita",
+      "searchDesc": "Avrir la biblioteca gratuita, tscherner ina categoria u tschertgar tenor num — telechargiar logos senza conto.",
+      "downloadTitle": "Cumprar in pachet",
+      "downloadDesc": "Tscherni in pack craft sin Pachets, pajar ina giada al pretsch USD inditgà, lura telechargiar Voss ZIP.",
+      "favoritesTitle": "Memorisar & reutilisar",
+      "favoritesDesc": "Marcar favurits Free SVG sin quest apparat, u tegnair datotecas da pachets cumprads per Voss projects craft."
+    },
+    "seoIntro": {
+      "tag": "Butia & biblioteca SVG",
+      "title": "Datotecas SVG gratuitas e pachets craft pagads per makers",
+      "description": "5SVG venda pachets craft SVG originals sco telechargiaments ZIP digitals (tipicamain $4.50 mintgin) ed ha ina biblioteca gratuita da logos da marca. Sfegliar Free SVG dabot temp, u cumprar Pachets per Cricut, Silhouette, vinyl e crafts da mintgadi."
+    },
+    "seoBlocks": {
+      "whatTag": "Bassas",
+      "whatTitle": "Tge è ina datoteca SVG?",
+      "whatBody": "SVG (Scalable Vector Graphics) memorisescha furmas e vias sco matematica enstagl da pixels. Quai munta che logos ed iconas restan nitids sche Vus ils reducis per in sticker u ils ingrandis per in poster.",
+      "whatB1": "Scala a mintga grondezza senza daventar blurs",
+      "whatB2": "Format usità per logos, iconas ed illustraziuns simplas",
+      "whatB3": "Supportà da navigaturs, software da design e tagliaturs da vinyl",
+      "whatAlt": "5SVG — milliuns da vectors SVG d’auta qualitad e categorias",
+      "usesTag": "Dievers",
+      "usesTitle": "Tge pudais Vus far cun datotecas SVG?",
+      "usesBody": "SVGs èn in punct da partenza pratic per projects persunals — mockups, emprender design, crafts da festa e workflows da maker nua che Vus basegnais in vector net ch’i sa rescalar.",
+      "usesB1": "Tagliar decals da vinyl cun Cricut u Silhouette",
+      "usesB2": "Metter iconas en Canva, Figma u PowerPoint",
+      "usesB3": "Stampiar t-shirts, etichettas e decors da festa a chasa",
+      "usesB4": "Construir mood boards e projects da scola cun logos da marca reals",
+      "usesAlt": "5SVG — designar, construir e presentar cun kits UI ed iconas d’apps",
+      "getTag": "Surpigliar datotecas",
+      "getTitle": "Sco surpigliar datotecas SVG da 5SVG",
+      "getBody": "Sfegliar Free SVG dabot temp — tschertgar u tscherner ina categoria, lura copiar u telechargiar. Per cumprar packs craft, avrir Pachets, tscherner in product al pretsch USD inditgà, e telechargiar Voss ZIP suenter il pajament.",
+      "getB1": "Sfegliar Free SVG — senza inscriziun",
+      "getB2": "U cumprar Pachets per packs ZIP craft originals",
+      "getB3": "Pajar ina giada, lura telechargiar Voss ZIP",
+      "getB4": "Controllar Licenza & Cundiziuns avant diever craft commercial",
+      "getAlt": "5SVG — tschertga da vectors la pli svelta sin apparats"
+    },
+    "faq": {
+      "title": "Dumondas frequentas",
+      "subtitle": "Tge nus vendain, pretschs, consegna, refusiuns e support.",
+      "lead": "5SVG venda pachets craft SVG digitals (telechargiaments ZIP) a pretschs USD clers sin nossa pagina Pachets. La biblioteca da logos Free SVG resta gratuita. Pajaments vegnan elavurads da Creem.",
+      "q1": "Tge vendais Vus?",
+      "a1": "Nus vendain pachets craft SVG originals — packs ZIP digitals da datotecas da tagl per makers (Cricut, Silhouette, vinyl, t-shirts). Nus na vendain betg bains fisics. Logos da marca en Free SVG èn gratuits e na vegnan betg vendids sco products pagads.",
+      "q2": "Quant custa in pachet?",
+      "a2": "Mintga pachet craft custa tipicamain $4.50 USD sco cumpranza unica. Pretschs exacts stattan sin https://5svg.com/shop e sin mintga pagina da product avant che Vus pajais.",
+      "q3": "Sco vegn il product consignà?",
+      "a3": "La consegna è 100% digitala ed immediata suenter pajament reussì. Nagina spediziun. Utilisar in e-mail valid al checkout per la quittanza.",
+      "q4": "Basegnai jau in conto u installaziun da software?",
+      "a4": "Nagina inscriziun per sfegliar Free SVG u cumprar pachets. Favurits restan en Voss navigatur. Importar SVGs en Cricut Design Space, Silhouette Studio, Canva u mintga app cun vectors — nagut da installar da nus.",
+      "q5": "Tge licenza haja jau?",
+      "a5": "Ils pachets includan ina licenza craft persunala. Vus na dastgais betg revendrar u redistribuir il ZIP u datotecas individualas. Logos Free SVG restan marcas dals possessurs — controllar las directivas da marca avant diever commercial. Vesair nossas paginas Licenza e Cundiziuns d’utilisaziun.",
+      "q6": "Poss jau survegnir ina refusiun?",
+      "a6": "Perquai che pachets èn telechargiaments digitals, nus na offrin en general naginas refusiuns uschespert che il ZIP è consignà e resta disponibel per diever normal. Sche il telechargiament na reussescha betg per ina problematica da nossa vart, scrivai a support@5svg.com e nus controllain suenter verificaziun.",
+      "q7": "Nua èn Protecziun da datas e Cundiziuns d’utilisaziun?",
+      "a7": "Protecziun da datas: https://5svg.com/privacy — Cundiziuns: https://5svg.com/terms — Licenza: https://5svg.com/license. Links èn era en il pe da pagina.",
+      "q8": "Sco contactar il support?",
+      "a8": "E-mail support@5svg.com u la pagina Contactar nus. Nus spitgains da responder entaifer 1–2 dis da lavur (entaifer 3 dis da lavur per dumondas da facturaziun).",
+      "contactBefore": "Per las dumondas survart e per autras, utilisai per plaschair la pagina ",
+      "contactLink": "Contactar nus",
+      "contactMiddle": " sin quest website u scrivai a ",
+      "contactAfter": ". Nus spitgains da responder entaifer 1–2 dis da lavur."
+    },
+    "about": {
+      "title": "Davart 5SVG",
+      "p1": "5SVG è ina biblioteca gratuita da logos ed iconas SVG plus ina butia per pachets craft SVG originals. Products pagads èn be telechargiaments ZIP digitals — tipicamain $4.50 USD mintgin, cumpranza unica, cun pretschs sin la pagina Pachets.",
+      "p2": "Sfegliar Free SVG dabot temp, u avrir Pachets per packs da tagl stagiunals e da mintgadi per Cricut, Silhouette, vinyl e makers. Support: support@5svg.com. Legal: Protecziun da datas, Cundiziuns e Licenza en il pe da pagina.",
+      "logoAlt": "Logo 5SVG — biblioteca SVG gratuita e pachets craft"
+    },
+    "bannerAlt": "5SVG — Datotecas SVG gratuitas & pachets craft"
+  },
+  "ContactPage": {
+    "title": "Contactar nus",
+    "description": "Contactar 5SVG per Free SVG, pachets, licenza u feedback. Nus spitgains da responder entaifer 1–2 dis da lavur.",
+    "subtitle": "Nus essan qua per gidar cun Free SVG, pachets craft e dumondas da licenza.",
+    "introShort": "Avais ina dumonda u feedback? Emplenir il formular sutvart e nus ans annunziain prest.",
+    "whyTitle": "Davart tge Vus pudais contactar nus",
+    "why1": "Biblioteca Free SVG: sfegliar, telechargiar u dumondas da marcas",
+    "why2": "Pachets SVG: cumpranzas, telechargiaments u cuntegn dal pack",
+    "why3": "Licenza e dumondas d’utilisaziun commerciala",
+    "why4": "Feedback, partenariats u rapportar abus",
+    "expectTitle": "Tge spitgar",
+    "expectContent": "Nus legin mintga messadi e spitgain da responder entaifer 1–2 dis da lavur. Per fatgs urgents, includai in object cler e tant detagls sco pussaivel.",
+    "orEmail": "U scrivai a nus a",
+    "form": {
+      "title": "Trametter in messadi",
+      "description": "Dumondas davart Free SVG, pachets u feedback? Emplenir il formular e nus respondain uschespert sco pussaivel.",
+      "name": "Num",
+      "email": "E-mail",
+      "message": "Messadi",
+      "namePlaceholder": "Voss num",
+      "emailPlaceholder": "voss@email.com",
+      "messagePlaceholder": "Voss messadi u dumonda…",
+      "submit": "Trametter il messadi",
+      "mailtoHint": "Vossa app d’e-mail duess s’avrir cun il messadi pront da trametter a support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "Voss telechargiament 5SVG — {title}",
+      "title": "Voss telechargiament è pront",
+      "body": "Grazia per avair cumprà {title} sin 5SVG.",
+      "downloadButton": "Telechargiar ZIP",
+      "linkFallback": "U copiar quest link da telechargiament da reserva:",
+      "note": "Sche la datoteca n’è betg vegnida telechargiada automaticamain suenter il pajament, avrir anc ina giada quest link.",
+      "textIntro": "Grazia per Vossa cumpranza da {title}.",
+      "textDownload": "Telechargiar Voss ZIP (link da reserva):",
+      "textSupport": "Support: {email}"
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Tschertgar...",
+    "sortAz": "Ordinaziun A–Z",
+    "sortLatest": "Ils pli novs",
+    "accept": "Acceptar",
+    "logos": "logos",
+    "azIndex": "Index A–Z",
+    "clearSearch": "Stizzar la tschertga",
+    "searchResults": "resultats da tschertga",
+    "svgs": "SVGs",
+    "showAll": "Mussar tut",
+    "showLess": "Mussar damain",
+    "showMore": "Mussar dapli",
+    "copySvg": "Copiar SVG",
+    "copyDisclaimer": "Assegurai che Vus haias il consentiment dals creaturs avant l'utilisaziun dal SVG. Modificaziuns n'èn betg lubidas."
+  },
+  "HeroTabs": {
+    "brands": "Marcas",
+    "browse": "Sfegliar",
+    "ai": "IA",
+    "design": "Design",
+    "social": "Social",
+    "aria": "Previstas da logos"
+  },
+  "WarningBanner": {
+    "body": "Assets SVG vegnan purschids sco referenza. Vus essas responsabels da verificar marcas e dretgs d’utilisaziun avant da duvrar els en Voss projects.",
+    "accept": "Acceptar"
+  },
+  "NotFound": {
+    "title": "SVG betg chattà",
+    "inCategory": "„{title}“ betg chattà en la categoria „{category}“",
+    "plain": "„{title}“ betg chattà",
+    "searchGlobally": "Tschertgar globalmain",
+    "requestSvg": "Dumandar SVG",
+    "submitSvg": "Trametter SVG"
+  },
+  "LibraryPage": {
+    "title": "Biblioteca SVG gratuita — Iconas & logos da marca | 5SVG",
+    "description": "Sfegliar e telechargiar iconas e logos SVG gratuits. Tschertgar tenor num, filtrar tenor categoria, ordinaziun A–Z, e copiar u telechargiar — senza inscriziun.",
+    "h1": "Biblioteca d’iconas e logos SVG gratuits",
+    "lead": "Tschertgar iconas SVG gratuitas tenor num u categoria, lura telechargiar datotecas vectorialas per design, crafts, Cricut e il web.",
+    "sections": {
+      "search": {
+        "h2": "Tschertgar iconas e logos SVG gratuits",
+        "body": "Utilisar la barra da tschertga per chattar datotecas SVG tenor marca u titel. Ordinaziun A–Z u sfegliar ils logos vectors ils pli novs.",
+        "h3": "Chattar SVGs gratuits tenor num, marca u categoria"
+      },
+      "download": {
+        "h2": "Telechargiar e duvrar datotecas SVG vectorialas",
+        "body": "Avrir mintga carta per copiar il code SVG u telechargiar la datoteca optimisada. Memorisar iconas SVG en Vossa collecziun per access svelt.",
+        "h3": "Copiar, telechargiar u memorisar iconas SVG"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Sfegliar tut ils logos SVG A–Z — Index d’iconas gratuit | 5SVG",
+    "description": "Index alfabetica da mintga logo ed icona SVG gratuita sin 5SVG. Saltar a mintga pagina da detagl per copiar u telechargiar datotecas vectorialas.",
+    "h1": "Sfegliar tut ils logos SVG",
+    "lead": "Index A–Z cumplain da logos SVG da marca gratuits en la biblioteca principala. Mintga link avra ina pagina da detagl cun copiar, telechargiar e notas da licenza.",
+    "logosCount": "({count} logos)",
+    "backLibrary": "← Biblioteca interactiva",
+    "popularBrands": "Marcas popularas",
+    "categories": "Categorias"
+  },
+  "FavoritesPage": {
+    "title": "Favurits",
+    "clearAll": "Stizzar tut",
+    "emptyTitle": "Anc nagins favurits",
+    "emptyBody": "Cumenzai ad agiuntar SVGs a Voss favurits cun cliccar sin l’icona da cor sin mintga SVG.",
+    "browseSvgs": "Sfegliar SVGs"
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Davart 5SVG — Biblioteca SVG gratuita & pachets craft",
+      "description": "5SVG è ina biblioteca independenta da logos SVG gratuits ed ina butia per pachets craft SVG originals. Be telechargiaments digitals — pretschs clers sin nossa pagina Pachets.",
+      "h1": "Davart 5SVG",
+      "sections": [
+        {
+          "h2": "Tge nus purschain",
+          "body": "5SVG hostescha ina biblioteca gratuita da logos ed iconas SVG da marca, plus pachets craft SVG pagads vendids sco telechargiaments ZIP digitals unics. Free SVG resta gratuit. Ils pachets èn packs da tagl originals per makers (Cricut, Silhouette, vinyl, t-shirts)."
+        },
+        {
+          "h2": "Tge nus vendain",
+          "body": "Tras Pachets vendain nus be packs SVG craft digitals — tipicamain $4.50 USD mintgin, pagar ina giada, ZIP immediat suenter pajament. Nus na vendain betg bains fisics. Packs e pretschs actuals stattan sin la pagina Pachets (/shop)."
+        },
+        {
+          "h2": "Chi nus essan",
+          "body": "5SVG è in project independent. Nus n’essan betg affiliads, betg endorseads e betg sponsurads da las marcas dals quals logos cumparan en la biblioteca gratuita. Ils pachets pagads èn designs craft originals che nus assemblain u creain per diever craft persunal."
+        },
+        {
+          "h2": "Support",
+          "body": "E-mail dal support clients: support@5svg.com. Nus spitgains da responder entaifer 1–2 dis da lavur. Vus pudais era utilisar la pagina Contactar nus."
+        }
+      ]
+    },
+    "license": {
+      "title": "Politica da licenza — 5SVG",
+      "description": "Sco Vus dastgais duvrar datotecas Free SVG e pachets craft pagads sin 5SVG, inclusiv marcas e diever craft persunal.",
+      "h1": "Politica da licenza",
+      "sections": [
+        {
+          "h2": "Introducziun",
+          "body": "Questa Politica da licenza declera sco Vus dastgais duvrar materials da 5SVG. Cun telechargiar datotecas Free SVG u cumprar pachets, acceptais Vus questa politica, nossas Cundiziuns d’utilisaziun e nossa Politica da protecziun da datas."
+        },
+        {
+          "h2": "Biblioteca Free SVG",
+          "body": "Logos ed iconas da marca en Free SVG èn gratuits da sfegliar, copiar e telechargiar per projects persunals, educaziun e mockups. Il diever commercial da marcas po anc basegnar l’autorisaziun dal possessur da la marca. Datotecas Free SVG na vegnan betg vendidas sco products pagads."
+        },
+        {
+          "h2": "Pachets pagads (packs craft)",
+          "body": "Packs SVG craft vendids sut Pachets èn licenziads per projects craft persunals (per exempel tagl, vinyl, t-shirts, stickers e diever maker sumegliant). Vus na dastgais betg revendrar, redistribuir, cundivider u rechargiar il ZIP digital u datotecas SVG individualas sco products digitals independents."
+        },
+        {
+          "h2": "Proprietad intellectuala",
+          "body": "Designs craft originals en pachets pagads appartegnan a 5SVG u èn licenziads a nus per la vendita. Logos e wordmarks Free SVG restan proprietad dals possessurs respectivs. 5SVG na pretendia betg la proprietad da marcas da terzs mussadas en la biblioteca gratuita."
+        },
+        {
+          "h2": "Marcas",
+          "body": "Logos e wordmarks restan marcas dals possessurs respectivs. 5SVG n’è betg affilià ni endorseà da questas marcas. Nus na vendain betg logos da marca protegids sco products pagads."
+        },
+        {
+          "h2": "Nagina garantia",
+          "body": "Las datotecas vegnan purschidas sco ch’ellas èn. Nus na garantin betg cumplettezza, clerezza juridica per Voss cas d’utilisaziun specific, ni che assets correspundan a las versiuns ufficialas las pli novas."
+        },
+        {
+          "h2": "Contactar nus",
+          "body": "Dumondas davart questa Politica da licenza: e-mail support@5svg.com u la pagina Contactar nus."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politica da protecziun da datas — 5SVG",
+      "description": "Sco nus protegìn Vossas datas cura che Vus utilisais 5SVG",
+      "h1": "Politica da protecziun da datas",
+      "sections": [
+        {
+          "h2": "Introducziun",
+          "body": "Bainvegni a la Politica da protecziun da datas da 5SVG. Quest document declera sco nus collectain, utilisain e protegìn Vossas datas persunalas cura che Vus utilisais il website 5SVG, la biblioteca Free SVG e la butia da pachets craft."
+        },
+        {
+          "h2": "Datas che nus collectain",
+          "body": "Nus pudain collectar: (1) Detagls da contact che Vus purschai — sco l’adressa d’e-mail inditgada al checkout d’in pachet per quittanza e consegna dal telechargiament, u messadis via Contactar nus. (2) Datas d’utilisaziun — sco Vus interagis cun il site (per exempel paginas visitadas), cura che analytics è activà. (3) Infurmaziuns da l’apparat — sco tip da navigatur u datas tecnicas approximativas per operar e segirar il servetsch. Favurits che Vus memorisais vegnan memorisads localmain en Voss navigatur; nus na survegnin betg Vossa glista sin noss servers."
+        },
+        {
+          "h2": "Sco nus utilisain Vossas datas",
+          "body": "Nus utilisain Vossas datas per purscher e mantegnair la biblioteca Free SVG e la butia da pachets; per consignar telechargiaments ZIP pagads e quittanzas; per purscher support clients; per meglierar il site; per survegliar l’utilisaziun; e per detectar, prevenir e tractar problematics tecnicas u d’abus."
+        },
+        {
+          "h2": "Pajaments",
+          "body": "Pajaments per pachets vegnan elavurads da noss purschider da pajament (Creem). Detagls da cartas vegnan tractads dal purschider — nus na memorisain betg numers cumplets da cartas sin servers 5SVG."
+        },
+        {
+          "h2": "Cookies & memorisaziun",
+          "body": "Il site po utilisar cookies u memorisaziun locala per preferenza da tema, lingua, favurits ed analytics. Vus pudais stizzar datas dal site en las preferenzas dal navigatur dabot temp. Bloccar tscherts cookies po limitar tschertas funcziuns."
+        },
+        {
+          "h2": "Segirezza da datas",
+          "body": "Nus implementain mesiras da segirezza adattadas per proteger datas persunalas cunter access nunautorisà, midament, divulgaziun u destrucziun. Nagina metoda da transmissiun sur l’Internet n’è 100% segira."
+        },
+        {
+          "h2": "Servetschs da terzs",
+          "body": "Nus pudain utilisar interpresas da terzs per facilitar pajaments, consegna d’e-mail, analytics u hosting. Links sortents e badges incorporads èn regids da las politicas da quels sites."
+        },
+        {
+          "h2": "Midadas da questa politica",
+          "body": "Nus pudain actualisar questa Politica da protecziun da datas da temp en temp. Nus Vus infurmain da midadas cun publicar la politica actualisada sin questa pagina."
+        },
+        {
+          "h2": "Contactar nus",
+          "body": "Sche Vus avais dumondas davart questa Politica da protecziun da datas, scrivai per plaschair a support@5svg.com u utilisai la pagina Contactar nus."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Cundiziuns d’utilisaziun — 5SVG",
+      "description": "Cundiziuns per utilisar il website 5SVG e cumprar pachets craft SVG",
+      "h1": "Cundiziuns d’utilisaziun",
+      "sections": [
+        {
+          "h2": "Introducziun",
+          "body": "Questas Cundiziuns d’utilisaziun («Cundiziuns») reglan Vossa utilisaziun dal website 5SVG, da la biblioteca Free SVG e da la butia da pachets. Cun acceder a 5SVG.com u cumprar in pachet, acceptais Vus questas Cundiziuns, nossa Politica da protecziun da datas e nossa Politica da licenza. Sche Vus na acceptais betg, na utilisai betg il site e na cumprai betg pachets."
+        },
+        {
+          "h2": "Utilisaziun dals servetschs",
+          "body": "Noss servetschs vegnan purschids «sco ch’els èn» e «sco disponibels» senza garantias da nagina sort, ni expressas ni implicidas. Nus na garantin betg che il site saja nuninterrupì, segir u senza sbagls. Vus pudais sfegliar Free SVG senza conto. Cumprar pachets basegna in e-mail valid al checkout."
+        },
+        {
+          "h2": "Products che nus vendain",
+          "body": "5SVG venda pachets craft SVG digitals (telechargiaments ZIP da datotecas da tagl originals) sco cumpranzas unicas. Ils pretschs stattan en USD sin mintga pagina da pachet (tipicamain $4.50 per pack). La biblioteca gratuita da logos SVG n’è betg in product pagà. Nus na vendain betg bains fisics ni packs da logos da marca da terzs sco products pagads."
+        },
+        {
+          "h2": "Pretschs e pajament",
+          "body": "Ils pretschs dals pachets vegnan mussads sin https://5svg.com/shop e sin mintga pagina da product avant il checkout. Il pajament vegn elavurà da Creem (Merchant of Record). Vus essas responsabels da purscher in e-mail valid al checkout per che nus possian consignar Voss telechargiament e la quittanza."
+        },
+        {
+          "h2": "Consegna",
+          "body": "Ils pachets vegnan consignads be digitalmain. Suenter pajament reussì retschaivais Vus Voss telechargiament ZIP, ed in link da telechargiament da reserva po vegnir tramess per e-mail. Nagina spediziun d’articles fisics."
+        },
+        {
+          "h2": "Proprietad intellectuala",
+          "body": "Pachets cumprads èn licenziads per diever craft persunal sco descrit en nossa Politica da licenza. Vus na dastgais betg revendrar, redistribuir u cundivider il ZIP u datotecas individualas sco products digitals independents. Logos Free SVG restan suttamess als dretgs dals possessurs da marcas. Cuntegn dal site, branding e designs craft originals èn protegids da las leschas da proprietad intellectuala applicablas."
+        },
+        {
+          "h2": "Activitads scumandadas",
+          "body": "Vus acceptais da betg: utilisar il site en ina moda che viola la lescha applicabla; empruvar access nunautorisà a noss sistems; scarpar u surchargiar il servetsch en ina moda che donnegia la disponibilitad; distribuir malware; u utilisar datotecas telechargiadas en violaziun da questas Cundiziuns u da nossa Politica da licenza."
+        },
+        {
+          "h2": "Refusiuns",
+          "body": "Perquai che pachets èn telechargiaments digitals, nus na offrin en general naginas refusiuns uschespert che il ZIP è consignà e resta disponibel per diever normal. Sche Vus na pudais betg telechargiar per ina falta da nossa vart, scrivai a support@5svg.com entaifer in temp raschunaivel; nus controllain suenter verificaziun e, sche adattà, purschain in telechargiament nov u in auter remedium."
+        },
+        {
+          "h2": "Limitaziun da responsabladad",
+          "body": "En nagin cas 5SVG na vegn betg responsabel per donns indirects, incidentals, spezials, consequents u punitivs che resultan da Vossa utilisaziun u da l’incapacitad d’utilisar il site u datotecas telechargiadas."
+        },
+        {
+          "h2": "Midadas da las Cundiziuns",
+          "body": "Nus ans reservain il dretg da midar questas Cundiziuns dabot temp. Sche nus faschain midadas, infurmain nus cun publicar las Cundiziuns actualisadas sin questa pagina."
+        },
+        {
+          "h2": "Contactar nus",
+          "body": "Sche Vus avais dumondas davart questas Cundiziuns, scrivai per plaschair a support@5svg.com u utilisai la pagina Contactar nus. Nus spitgains da responder entaifer 1–2 dis da lavur (ed entaifer 3 dis da lavur per dumondas da facturaziun)."
+        }
+      ]
+    }
+  }
+}

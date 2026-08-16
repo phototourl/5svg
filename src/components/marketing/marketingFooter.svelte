@@ -3,108 +3,106 @@
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import LanguageSwitcher from "@/components/layout/languageSwitcher.svelte";
   import { getI18n } from "@/lib/i18n/context";
+  import logoStackLight from "@/components/logos/logo_stack_light.png";
+  import logoStackDark from "@/components/logos/logo_stack_dark.png";
+  import { siteLogoAlt } from "@/utils/svgAlt";
 
   const i18n = $derived(getI18n());
 
-  const infoLinks = $derived([
-    { href: "/library", label: i18n.t("common.footer.exploreLibrary") },
-    { href: "/browse", label: i18n.t("common.footer.browseIndex") },
-    { href: "/favorites", label: i18n.t("common.nav.favorites") },
-    { href: "/", label: i18n.t("common.footer.home") },
+  /** EditStamp-style: equal link columns only (no long support blurb). */
+  const productLinks = $derived([
+    { href: "/", label: i18n.t("common.nav.home") },
+    { href: "/library", label: i18n.t("common.nav.freeSvg") },
+    { href: "/shop", label: i18n.t("common.nav.svgBundles") },
   ]);
 
-  const resourceLinks = $derived([
-    { href: "/directory/design", label: i18n.t("common.footer.design") },
-    { href: "/directory/social", label: i18n.t("common.footer.social") },
-    { href: "/directory/software", label: i18n.t("common.footer.software") },
+  const companyLinks = $derived([
+    { href: "/about", label: i18n.t("common.footer.about") },
+    { href: "/contact", label: i18n.t("common.nav.contact") },
   ]);
 
   const legalLinks = $derived([
-    { href: "/about", label: i18n.t("common.footer.about") },
-    { href: "/license", label: i18n.t("common.footer.license") },
-    { href: "/privacy", label: i18n.t("common.footer.privacy") },
+    { href: "/license", label: i18n.t("common.footer.licensingPolicy") },
+    { href: "/privacy", label: i18n.t("common.footer.privacyPolicy") },
+    { href: "/terms", label: i18n.t("common.footer.termsOfService") },
+  ]);
+
+  const linkSections = $derived([
+    { title: i18n.t("common.footer.product"), links: productLinks },
+    { title: i18n.t("common.footer.company"), links: companyLinks },
+    { title: i18n.t("common.footer.legal"), links: legalLinks },
   ]);
 </script>
 
 <footer class="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
-  <div class="mx-auto flex max-w-6xl justify-end px-4 pt-8">
-    <LanguageSwitcher />
-  </div>
-  <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-2 md:grid-cols-4">
-    <div>
-      <h3
-        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
-      >
-        {i18n.t("common.footer.explore")}
-      </h3>
-      <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
-        {#each infoLinks as link (link.href)}
-          <li>
-            <InternalLink
-              href={link.href}
-              className="transition-colors hover:text-brand-energy dark:hover:text-brand"
-            >
-              {link.label}
-            </InternalLink>
-          </li>
-        {/each}
-      </ul>
-    </div>
+  <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+    <div class="grid grid-cols-2 gap-8 md:grid-cols-5">
+      <!-- Brand + tagline (EditStamp left column) -->
+      <div class="col-span-2 flex flex-col items-start">
+        <InternalLink href="/" className="flex items-center gap-2 no-underline">
+          <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center overflow-visible">
+            <img
+              src={logoStackLight}
+              alt={siteLogoAlt}
+              width={40}
+              height={40}
+              class="h-10 w-10 object-contain dark:hidden"
+              decoding="async"
+            />
+            <img
+              src={logoStackDark}
+              alt=""
+              aria-hidden="true"
+              width={40}
+              height={40}
+              class="hidden h-10 w-10 object-contain dark:block"
+              decoding="async"
+            />
+          </span>
+          <span class="text-xl font-medium tracking-tight text-neutral-900 dark:text-neutral-50">
+            {brand.displayName}
+          </span>
+        </InternalLink>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed text-neutral-500 dark:text-neutral-400">
+          {i18n.t("common.footer.tagline")}
+        </p>
+        <a
+          href={`mailto:${brand.supportEmail}`}
+          class="mt-4 text-sm text-neutral-500 transition-colors hover:text-brand-energy dark:text-neutral-400 dark:hover:text-brand"
+        >
+          {brand.supportEmail}
+        </a>
+        <div class="mt-5">
+          <LanguageSwitcher />
+        </div>
+      </div>
 
-    <div>
-      <h3
-        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
-      >
-        {i18n.t("common.footer.categories")}
-      </h3>
-      <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
-        {#each resourceLinks as link (link.href)}
-          <li>
-            <InternalLink
-              href={link.href}
-              className="transition-colors hover:text-brand-energy dark:hover:text-brand"
-            >
-              {link.label}
-            </InternalLink>
-          </li>
-        {/each}
-      </ul>
-    </div>
-
-    <div>
-      <h3
-        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
-      >
-        {i18n.t("common.footer.legal")}
-      </h3>
-      <ul class="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
-        {#each legalLinks as link (link.href)}
-          <li>
-            <InternalLink
-              href={link.href}
-              className="transition-colors hover:text-brand-energy dark:hover:text-brand"
-            >
-              {link.label}
-            </InternalLink>
-          </li>
-        {/each}
-      </ul>
-    </div>
-
-    <div>
-      <h3
-        class="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-energy dark:text-brand"
-      >
-        {i18n.t("common.footer.supportTitle")}
-      </h3>
-      <p class="text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
-        {i18n.t("common.footer.supportBody")}
-      </p>
+      {#each linkSections as section (section.title)}
+        <div class="col-span-1">
+          <span
+            class="text-sm font-semibold uppercase tracking-wide text-neutral-900 dark:text-neutral-50"
+          >
+            {section.title}
+          </span>
+          <ul class="mt-4 space-y-3">
+            {#each section.links as link (link.href)}
+              <li>
+                <InternalLink
+                  href={link.href}
+                  className="text-sm text-neutral-500 transition-colors hover:text-brand-energy dark:text-neutral-400 dark:hover:text-brand"
+                >
+                  {link.label}
+                </InternalLink>
+              </li>
+            {/each}
+          </ul>
+        </div>
+      {/each}
     </div>
   </div>
 
   <div
-    class="flex flex-wrap items-center justify-center gap-3 border-t border-neutral-200 px-4 py-4 dark:border-neutral-800"
+    class="flex flex-wrap items-center justify-center gap-3 border-t border-neutral-200 px-4 py-6 dark:border-neutral-800"
   >
     <a
       href="https://www.producthunt.com/products/5svg?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-5svg"
@@ -361,15 +359,15 @@
     </a>
   </div>
 
-  <div
-    class="bg-brand-energy px-4 py-8 text-center text-brand-energy-foreground dark:bg-brand-energy"
-  >
-    <p class="text-sm font-semibold">
-      © {new Date().getFullYear()}
-      {brand.displayName}. {brand.copyrightRights}
-    </p>
-    <p class="mt-2 overflow-x-auto text-xs whitespace-nowrap text-brand-energy-foreground/90">
-      {brand.copyrightDisclaimer}
-    </p>
+  <div class="border-t border-neutral-200 py-4 dark:border-neutral-800">
+    <div class="mx-auto max-w-6xl px-4 text-center">
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+        © {new Date().getFullYear()}
+        {brand.displayName}. {brand.copyrightRights}
+      </p>
+      <p class="mt-1 text-xs text-neutral-400 dark:text-neutral-500">
+        {brand.copyrightDisclaimer}
+      </p>
+    </div>
   </div>
 </footer>

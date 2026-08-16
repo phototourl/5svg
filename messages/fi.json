@@ -1,0 +1,494 @@
+{
+  "common": {
+    "siteName": "5SVG",
+    "switchLanguage": "Vaihda kieli",
+    "languageSelect": {
+      "title": "Valitse kieli",
+      "subtitle": "Valitse sivuston käyttöliittymän kieli.",
+      "close": "Sulje"
+    },
+    "nav": {
+      "home": "Etusivu",
+      "freeSvg": "Ilmaiset SVG:t",
+      "svgBundles": "SVG-paketit",
+      "shopNow": "Kauppa",
+      "allFreeSvg": "Kaikki ilmaiset SVG:t",
+      "allBundles": "Kaikki paketit",
+      "licensing": "Lisenssikäytäntö",
+      "contact": "Ota yhteyttä",
+      "bundles": "Paketit",
+      "browse": "Selaa",
+      "favorites": "Suosikit",
+      "extensions": "Laajennukset",
+      "shadcn": "shadcn/ui",
+      "searchLibrary": "Hae kirjastosta",
+      "openMenu": "Avaa valikko"
+    },
+    "sidebar": {
+      "categories": "Kategoriat",
+      "allLogosAz": "Kaikki logot A–Ö",
+      "submitSvg": "Lähetä SVG",
+      "githubRepo": "GitHub-repositorio"
+    },
+    "footer": {
+      "tagline": "Ilmainen SVG-kirjasto ja craft Bundles tekijöille",
+      "product": "Tuote",
+      "explore": "Tutustu",
+      "categories": "Kategoriat",
+      "company": "Yritys",
+      "legal": "Juridinen",
+      "supportTitle": "Asiakastuki",
+      "supportBody": "Kysymyksiä ilmaisista SVG:istä tai maksullisista Bundleista? Lähetä sähköpostia — vastaamme 1–2 arkipäivässä.",
+      "exploreLibrary": "Tutustu kirjastoon",
+      "browseIndex": "A–Ö-hakemisto",
+      "home": "Etusivu",
+      "about": "Tietoa meistä",
+      "license": "Lisenssikäytäntö",
+      "licensingPolicy": "Lisenssikäytäntö",
+      "privacy": "Tietosuojakäytäntö",
+      "privacyPolicy": "Tietosuojakäytäntö",
+      "terms": "Käyttöehdot",
+      "termsOfService": "Käyttöehdot",
+      "design": "Design",
+      "social": "Some",
+      "software": "Ohjelmisto"
+    },
+    "announcement": {
+      "library": "{count}+ ilmaista SVG-tiedostoa — selaa Free SVG:tä",
+      "favorites": "Lataa · tallenna suosikit · ilmaiseksi henkilökohtaiseen käyttöön",
+      "shop": "SVG Bundles alkaen $4.50 — maksa kerran, lataa ZIP heti"
+    },
+    "showAll": "Näytä kaikki",
+    "showLess": "Näytä vähemmän",
+    "showMore": "Näytä lisää",
+    "copySvg": "Kopioi SVG"
+  },
+  "shop": {
+    "seoTitle": "SVG Bundles — Hinnat ja craft-paketit | 5SVG",
+    "seoDescription": "Osta alkuperäisiä craft SVG Bundleja $4.50 USD kappale — kertamaksu, välitön ZIP-lataus. Ilmaiset brändilogot pysyvät ilmaisineina kirjastossa.",
+    "promo": "Teemapaketit $4.50 · Koko kokoelma $9.90. Yksi maksu, ZIP heti.",
+    "title": "SVG-paketit",
+    "subtitle": "Osta yksi teemapaketti tai avaa kaikki paketit yhdellä ostolla. Brändilogot pysyvät ilmaiseksi kirjastossa.",
+    "allCategories": "Kaikki",
+    "viewPack": "Näytä",
+    "wholeShopBadge": "Paras hinta-laatu",
+    "wholeShopSection": "Koko kokoelma",
+    "wholeShopTitle": "Koko kokoelma",
+    "wholeShopLead": "{count} craft-SVG:tä jokaisesta teemasta. Yksi osto avaa kaikki paketit.",
+    "wholeShopCta": "Osta nyt",
+    "themePacksHeading": "Teemapaketit",
+    "themePacksLead": "Jokainen paketti on kertaluonteinen digitaalinen osto hintaan $4.50, noin 20–24 alkuperäistä craft-leikkuutiedostoa (ZIP). Brändilogot pysyvät ilmaiseksi kirjastossa.",
+    "empty": "Tässä kategoriassa ei ole vielä paketteja.",
+    "fileCount": "{count} tiedostoa",
+    "moreFiles": "+{count} lisää",
+    "freeHint": "Tarvitsetko ilmaisia brändilogoja?",
+    "freeLibraryLink": "Avaa ilmainen kirjasto →",
+    "backToShop": "Kaikki paketit",
+    "emailLabel": "Sähköposti kuittia ja latausta varten",
+    "mockNotice": "Testikassa (Creem ei ole vielä kytketty).",
+    "buyDownload": "Osta ja lataa",
+    "processing": "Ohjataan…",
+    "checkoutError": "Kassa epäonnistui. Yritä uudelleen.",
+    "flowHint": "Maksa kerran ja lataa ZIP heti. Kuitti lähetetään sähköpostiisi.",
+    "payOverlayTitle": "Vahvistetaan maksua…",
+    "payOverlayBody": "Odota, kunnes vahvistamme ostoksesi.",
+    "prepareOverlayTitle": "Valmistellaan latausta…",
+    "prepareOverlayBody": "ZIP käynnistyy pian.",
+    "downloadTitle": "Latauksesi",
+    "downloadMissing": "Maksun paluutiedot puuttuvat. Aloita uudelleen Bundleista.",
+    "downloadFailed": "Maksua ei voitu vahvistaa.",
+    "downloadSyncing": "Vahvistetaan maksua…",
+    "downloadReady": "Valmis: {title}",
+    "downloadZip": "Lataa ZIP",
+    "downloadEmailHint": "Varmuuskopiolatauslinkki on lähetetty myös antamaasi sähköpostiin.",
+    "includesSample": "Sisältää (esimerkki)",
+    "browseCategory": "Selaa tätä kategoriaa →",
+    "license": {
+      "personal": "Henkilökohtainen käyttö",
+      "commercial": "Kaupallinen craft-lisenssi"
+    }
+  },
+  "seo": {
+    "title": "5SVG — Ilmaiset SVG-tiedostot ja craft SVG Bundles",
+    "description": "Ilmainen SVG-logokirjasto sekä maksulliset craft SVG Bundles tekijöille. Selaa Free SVG:tä milloin tahansa tai osta alkuperäisiä ZIP-paketteja alkaen $4.50 Cricutille, Silhouettelle, vinyylille ja craftille.",
+    "keywords": "svg bundles, craft svg, ilmaiset svg-tiedostot, svg-lataus, cricut svg, silhouette svg, maksulliset svg-paketit, vinyl svg"
+  },
+  "home": {
+    "hero": {
+      "title": "Ilmaiset SVG-tiedostot ja craft-paketit",
+      "subtitle": "Selaa ilmaista kirjastoamme tai osta alkuperäisiä craft-paketteja — digitaalisia ZIP-paketteja alkaen $4.50, maksa kerran, lataa heti. Cricutille, Silhouettelle, vinyylille ja tekijöille.",
+      "ctaShop": "Osta paketteja",
+      "ctaFree": "Ilmainen kirjasto",
+      "marqueeAria": "Selaa SVG-tiedostoja kirjastossa"
+    },
+    "value": {
+      "freeTitle": "Välitön digitaalinen toimitus",
+      "freeDesc": "Osta paketti ja lataa ZIP heti maksun jälkeen — ei toimitusta, ei odottelua. Ilmainen kirjasto pysyy ilmaisena.",
+      "curatedTitle": "Craft-paketit alkaen $4.50",
+      "curatedDesc": "Alkuperäisiä leikkuutiedostopaketteja, joissa selkeä USD-hinta jokaisessa tuotteessa. Kertaostos — säilytä tiedostot henkilökohtaiseen craft-käyttöön.",
+      "easyTitle": "Asiakastuki",
+      "easyDesc": "Kysymyksiä ilmaisesta kirjastosta, paketeista tai lisensseistä? Lähetä sähköpostia support@5svg.com tai käytä Ota yhteyttä — vastaamme 1–2 arkipäivässä."
+    },
+    "shopStrip": {
+      "title": "SVG-paketit myynnissä",
+      "subtitle": "Alkuperäisiä craft SVG-paketteja — $4.50 kappale, maksa kerran, lataa ZIP heti.",
+      "viewAll": "Näytä kaikki paketit →",
+      "fromPrice": "{price}"
+    },
+    "craft": {
+      "title": "Arjen tekijöille",
+      "subtitle": "Käytä Free SVG -logoja tai Bundle-leikkuutiedostoja Cricutissa, Silhouettessa, Canvassa, paidoissa, tarroissa ja muualla.",
+      "cutting": "Leikkuukäsityöt",
+      "stickers": "Tarrat ja decalit",
+      "gifts": "Lahjat ja juhlat",
+      "labels": "Tarrat ja lipukkeet",
+      "print": "Tulostus ja kuva",
+      "personal": "Henkilökohtaiset projektit",
+      "iconAlt": "{label} craft-kuvake"
+    },
+    "library": {
+      "title": "Mitä kirjastossa on",
+      "subtitle": "{count}+ SVG-tiedostoa aiheittain — käytä ylävalikkoa, kun olet valmis selaamaan tai lataamaan.",
+      "browseTitle": "Selaa {name}-SVG:itä",
+      "svgCount": "{count} SVG",
+      "svgCountPlural": "{count} SVG:tä"
+    },
+    "how": {
+      "tag": "Näin se toimii",
+      "title": "Ilmainen kirjasto tai osta paketteja",
+      "subtitle": "Selaa ilmaista kirjastoa milloin tahansa — tai avaa Paketit, osta craft-paketti ja lataa ZIP maksun jälkeen.",
+      "searchTitle": "Selaa ilmaista kirjastoa",
+      "searchDesc": "Avaa ilmainen kirjasto, valitse kategoria tai hae nimellä — lataa logoja ilman tiliä.",
+      "downloadTitle": "Osta paketti",
+      "downloadDesc": "Valitse craft-paketti Paketeista, maksa kerran ilmoitetulla USD-hinnalla ja lataa ZIP.",
+      "favoritesTitle": "Tallenna ja käytä uudelleen",
+      "favoritesDesc": "Lisää ilmaisen kirjaston suosikkeja sydämellä tällä laitteella tai säilytä ostetut pakettitiedostot craft-projekteihisi."
+    },
+    "seoIntro": {
+      "tag": "SVG-kauppa ja kirjasto",
+      "title": "Ilmaiset SVG-tiedostot ja maksulliset craft Bundles tekijöille",
+      "description": "5SVG myy alkuperäisiä craft SVG Bundleja digitaalisina ZIP-latauksina (tyypillisesti $4.50 kappale) ja ylläpitää ilmaista brändilogokirjastoa. Selaa Free SVG:tä milloin tahansa tai osta Bundleja Cricutille, Silhouettelle, vinyylille ja arjen craftille."
+    },
+    "seoBlocks": {
+      "whatTag": "Perusteet",
+      "whatTitle": "Mikä on SVG-tiedosto?",
+      "whatBody": "SVG (Scalable Vector Graphics) tallentaa muodot ja polut matematiikkana pikseleiden sijaan. Logot ja kuvakkeet pysyvät terävinä, kutistatpa ne tarraksi tai suurenat julisteeksi.",
+      "whatB1": "Skaalautuu mihin tahansa kokoon ilman sumentumista",
+      "whatB2": "Yleinen muoto logoille, kuvakkeille ja yksinkertaisille kuvituksille",
+      "whatB3": "Tuettu selaimissa, suunnitteluohjelmissa ja vinyylileikkureissa",
+      "whatAlt": "5SVG — miljoonia laadukkaita SVG-vektoreita ja kategorioita",
+      "usesTag": "Käyttötavat",
+      "usesTitle": "Mitä SVG-tiedostoilla voi tehdä?",
+      "usesBody": "SVG:t ovat käytännöllinen lähtökohta henkilökohtaisiin projekteihin — mockupeihin, suunnittelun opetteluun, juhlacraftiin ja maker-työnkulkuihin, joissa tarvitaan puhdas, skaalautuva vektori.",
+      "usesB1": "Leikkaa vinyylidekaleja Cricutilla tai Silhouettella",
+      "usesB2": "Lisää kuvakkeita Canvaan, Figmaan tai PowerPointiin",
+      "usesB3": "Tulosta paitoja, lipukkeita ja juhlakoristeita kotona",
+      "usesB4": "Rakenna moodboardeja ja kouluprojekteja oikeilla brändilogoilla",
+      "usesAlt": "5SVG — suunnittele, rakenna ja esittele UI-kiteillä ja sovelluskuvakkeilla",
+      "getTag": "Hanki tiedostot",
+      "getTitle": "Näin saat SVG-tiedostoja 5SVG:stä",
+      "getBody": "Selaa Free SVG:tä milloin tahansa — hae tai valitse kategoria, sitten kopioi tai lataa. Craft-paketteja varten avaa Bundles, valitse tuote ilmoitetulla USD-hinnalla ja lataa ZIP maksun jälkeen.",
+      "getB1": "Selaa Free SVG:tä — ei rekisteröitymistä",
+      "getB2": "Tai osta Bundleja alkuperäisillä craft ZIP-paketeilla",
+      "getB3": "Maksa kerran, lataa sitten ZIP",
+      "getB4": "Tarkista License ja Terms ennen kaupallista craft-käyttöä",
+      "getAlt": "5SVG — nopein vektorihaku kaikilla laitteilla"
+    },
+    "faq": {
+      "title": "Usein kysytyt",
+      "subtitle": "Mitä myymme, hinnat, toimitus, hyvitykset ja tuki.",
+      "lead": "5SVG myy digitaalisia craft SVG Bundleja (ZIP-latauksia) selkeillä USD-hinnoilla Bundles-sivulla. Free SVG -logokirjasto pysyy ilmaisena. Maksut käsittelee Creem.",
+      "q1": "Mitä myytte?",
+      "a1": "Myymme alkuperäisiä craft SVG Bundleja — digitaalisia ZIP-paketteja leikkuutiedostoilla tekijöille (Cricut, Silhouette, vinyyli, paidat). Emme myy fyysisiä tuotteita. Ilmaiset brändilogot Free SVG:ssä ovat ilmaisia, eikä niitä myydä maksullisina tuotteina.",
+      "q2": "Paljonko Bundle maksaa?",
+      "a2": "Jokainen craft Bundle maksaa tyypillisesti $4.50 USD kertamaksuna. Tarkat hinnat näkyvät osoitteessa https://5svg.com/shop ja jokaisella tuotesivulla ennen maksua.",
+      "q3": "Miten tuote toimitetaan?",
+      "a3": "Toimitus on 100 % digitaalinen ja välitön onnistuneen maksun jälkeen. Ei postitusta. Käytä voimassa olevaa sähköpostia kassalla kuittia varten.",
+      "q4": "Tarvitsenko tilin tai ohjelmistoasennuksen?",
+      "a4": "Tiliä ei tarvita Free SVG:n selaamiseen tai Bundlejen ostoon. Suosikit pysyvät selaimessa. Tuo SVG:t Cricut Design Spaceen, Silhouette Studioon, Canvaan tai mihin tahansa vektorisovellukseen — meiltä ei asenneta mitään.",
+      "q5": "Minkä lisenssin saan?",
+      "a5": "Bundles sisältävät henkilökohtaisen craft-lisenssin. Et saa jälleenmyydä tai jakaa ZIP:iä tai yksittäisiä tiedostoja. Free SVG -logot pysyvät omistajiensa tavaramerkkeinä — tarkista brändiohjeet ennen kaupallista käyttöä. Katso License- ja Terms of Service -sivut.",
+      "q6": "Voinko saada hyvityksen?",
+      "a6": "Koska Bundles ovat digitaalisia latauksia, emme yleensä tarjoa hyvitystä, kun ZIP on toimitettu ja pysyy normaalisti saatavilla. Jos lataus epäonnistuu meidän virheemme vuoksi, lähetä sähköpostia support@5svg.com — tarkistamme asian vahvistuksen jälkeen.",
+      "q7": "Missä ovat Privacy Policy ja Terms of Service?",
+      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Linkit ovat myös sivuston alatunnisteessa.",
+      "q8": "Miten otan yhteyttä tukeen?",
+      "a8": "Lähetä sähköpostia support@5svg.com tai käytä Ota yhteyttä -sivua. Vastaamme 1–2 arkipäivässä (laskutusasioissa 3 arkipäivän kuluessa).",
+      "contactBefore": "Yllä oleviin ja muihin kysymyksiin käytä sivuston ",
+      "contactLink": "Ota yhteyttä",
+      "contactMiddle": " -sivua tai lähetä sähköpostia osoitteeseen ",
+      "contactAfter": ". Vastaamme 1–2 arkipäivässä."
+    },
+    "about": {
+      "title": "Tietoa 5SVG:stä",
+      "p1": "5SVG on ilmainen SVG-logo- ja kuvakekirjasto sekä kauppa alkuperäisille craft SVG Bundleille. Maksulliset tuotteet ovat vain digitaalisia ZIP-latauksia — tyypillisesti $4.50 USD kappale, kertamaksu, hinnat Bundles-sivulla.",
+      "p2": "Selaa Free SVG:tä milloin tahansa tai avaa Bundles kausi- ja arjen leikkuutiedostopaketteihin Cricutille, Silhouettelle, vinyylille ja tekijöille. Tuki: support@5svg.com. Juridinen: Privacy Policy, Terms of Service ja License alatunnisteessa.",
+      "logoAlt": "5SVG:n ilmainen SVG-logokirjasto ja craft Bundles -logo"
+    },
+    "bannerAlt": "5SVG — Ilmaiset SVG-tiedostot ja craft SVG Bundles"
+  },
+  "ContactPage": {
+    "title": "Ota yhteyttä",
+    "description": "Ota yhteyttä 5SVG:hen Free SVG:stä, Bundleista, lisensseistä tai palautteesta. Vastaamme 1–2 arkipäivässä.",
+    "subtitle": "Autamme Free SVG:ssä, craft Bundleissa ja lisenssikysymyksissä.",
+    "introShort": "Onko sinulla kysymys tai palautetta? Täytä alla oleva lomake, palaamme asiaan pian.",
+    "whyTitle": "Mistä voit ottaa yhteyttä",
+    "why1": "Free SVG -kirjasto: selaus, lataus tai tavaramerkkikysymykset",
+    "why2": "SVG Bundles: ostot, lataukset tai paketin sisältö",
+    "why3": "Lisenssit ja kaupallinen käyttö",
+    "why4": "Palaute, kumppanuudet tai väärinkäytön ilmoittaminen",
+    "expectTitle": "Mitä odottaa",
+    "expectContent": "Luemme jokaisen viestin ja pyrimme vastaamaan 1–2 arkipäivässä. Kiireellisissä asioissa: selkeä aihe ja mahdollisimman paljon yksityiskohtia.",
+    "orEmail": "Tai lähetä sähköpostia osoitteeseen",
+    "form": {
+      "title": "Lähetä viesti",
+      "description": "Kysymyksiä Free SVG:stä, Bundleista tai palautetta? Täytä lomake, vastaamme mahdollisimman pian.",
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "message": "Viesti",
+      "namePlaceholder": "Nimesi",
+      "emailPlaceholder": "sinun@email.com",
+      "messagePlaceholder": "Viestisi tai kysymyksesi...",
+      "submit": "Lähetä viesti",
+      "mailtoHint": "Sähköpostisovelluksesi pitäisi avautua viestillä valmiina osoitteeseen support@5svg.com."
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "5SVG-latauksesi — {title}",
+      "title": "Latauksesi on valmis",
+      "body": "Kiitos {title}-ostoksestasi 5SVG:ssä.",
+      "downloadButton": "Lataa ZIP",
+      "linkFallback": "Tai kopioi tämä varmuuskopiolatauslinkki:",
+      "note": "Jos tiedosto ei latautunut automaattisesti maksun jälkeen, avaa tämä linkki uudelleen.",
+      "textIntro": "Kiitos {title}-ostoksestasi.",
+      "textDownload": "Lataa ZIP (varmuuskopiolinkki):",
+      "textSupport": "Tuki: {email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "Tietoa 5SVG:stä — Ilmainen SVG-kirjasto ja craft Bundles",
+      "description": "5SVG on itsenäinen ilmainen SVG-logokirjasto ja kauppa alkuperäisille craft SVG Bundleille. Vain digitaalisia latauksia — selkeät hinnat Bundles-sivulla.",
+      "h1": "Tietoa 5SVG:stä",
+      "sections": [
+        {
+          "h2": "Mitä tarjoamme",
+          "body": "5SVG ylläpitää ilmaista SVG-brändilogojen ja kuvakkeiden kirjastoa sekä maksullisia craft SVG Bundleja, joita myydään kertaluonteisina digitaalisina ZIP-latauksina. Free SVG pysyy ilmaisena. Bundles ovat alkuperäisiä leikkuutiedostopaketteja tekijöille (Cricut, Silhouette, vinyyli, paidat)."
+        },
+        {
+          "h2": "Mitä myymme",
+          "body": "Bundlejen kautta myymme vain digitaalisia craft SVG-paketteja — tyypillisesti $4.50 USD kappale, maksa kerran, lataa ZIP heti maksun jälkeen. Emme myy fyysisiä tuotteita. Nykyiset paketit ja hinnat ovat Bundles-sivulla (/shop)."
+        },
+        {
+          "h2": "Keitä olemme",
+          "body": "5SVG on itsenäinen projekti. Emme ole sidoksissa, hyväksymiä tai sponsoroimia brändeihin, joiden logot ovat ilmaisessa kirjastossa. Maksulliset Bundles ovat alkuperäisiä craft-suunnitteluja, joita kokoamme tai luomme henkilökohtaiseen craft-käyttöön."
+        },
+        {
+          "h2": "Tuki",
+          "body": "Asiakastuen sähköposti: support@5svg.com. Vastaamme 1–2 arkipäivässä. Voit myös käyttää sivuston Ota yhteyttä -sivua."
+        }
+      ]
+    },
+    "license": {
+      "title": "Lisenssikäytäntö — 5SVG",
+      "description": "Miten voit käyttää Free SVG -tiedostoja ja maksullisia craft Bundleja 5SVG:ssä, mukaan lukien tavaramerkit ja henkilökohtainen craft-käyttö.",
+      "h1": "Lisenssikäytäntö",
+      "sections": [
+        {
+          "h2": "Johdanto",
+          "body": "Tämä Lisenssikäytäntö selittää, miten voit käyttää 5SVG:n materiaaleja. Lataamalla Free SVG -tiedostoja tai ostamalla Bundleja hyväksyt tämän käytännön, Terms of Service -ehdot ja Privacy Policy -käytännön."
+        },
+        {
+          "h2": "Free SVG -kirjasto",
+          "body": "Free SVG:n brändilogot ja kuvakkeet ovat ilmaisia selattavaksi, kopioitavaksi ja ladattavaksi henkilökohtaisiin projekteihin, koulutukseen ja mockupeihin. Tavaramerkkien kaupallinen käyttö voi silti vaatia omistajan luvan. Free SVG -tiedostoja ei myydä maksullisina tuotteina."
+        },
+        {
+          "h2": "Maksulliset Bundles (craft-paketit)",
+          "body": "Bundlesina myytävät craft SVG-paketit on lisensoitu henkilökohtaisiin craft-projekteihin (esim. leikkuu, vinyyli, paidat, tarrat ja vastaava). Et saa jälleenmyydä, jakaa, jakaa uudelleen tai ladata digitaalista ZIP:iä tai yksittäisiä SVG-tiedostoja itsenäisinä digitaalisina tuotteina."
+        },
+        {
+          "h2": "Immateriaalioikeudet",
+          "body": "Maksullisten Bundlejen alkuperäiset craft-suunnittelut omistaa 5SVG tai ne on lisensoitu meille myyntiin. Free SVG -brändilogot ja sanamerkit pysyvät omistajiensa omaisuutena. 5SVG ei väitä omistavansa kolmansien osapuolten tavaramerkkejä ilmaisessa kirjastossa."
+        },
+        {
+          "h2": "Tavaramerkit",
+          "body": "Logot ja sanamerkit pysyvät omistajiensa tavaramerkkeinä. 5SVG ei ole sidoksissa näihin brändeihin eikä niiden hyväksymä. Emme myy suojattuja brändilogoja maksullisina tuotteina."
+        },
+        {
+          "h2": "Ei takuuta",
+          "body": "Tiedostot toimitetaan sellaisenaan. Emme takaa täydellisyyttä, oikeudellista lupaa juuri sinun käyttöösi emmekä sitä, että aineistot vastaavat uusimpia virallisia brändiversioita."
+        },
+        {
+          "h2": "Ota yhteyttä",
+          "body": "Kysymyksiä tästä Lisenssikäytännöstä: lähetä sähköpostia support@5svg.com tai käytä sivuston Ota yhteyttä -sivua."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Tietosuojakäytäntö — 5SVG",
+      "description": "Miten suojaamme tietosi, kun käytät 5SVG:tä",
+      "h1": "Tietosuojakäytäntö",
+      "sections": [
+        {
+          "h2": "Johdanto",
+          "body": "Tervetuloa 5SVG:n Tietosuojakäytäntöön. Tämä asiakirja selittää, miten keräämme, käytämme ja suojaamme henkilötietojasi, kun käytät 5SVG-sivustoa, Free SVG -kirjastoa ja craft Bundle -kauppaa."
+        },
+        {
+          "h2": "Keräämämme tiedot",
+          "body": "Voimme kerätä seuraavan tyyppisiä tietoja: (1) Antamasi yhteystiedot — kuten Bundle-kassalla kuittia ja latausta varten annettu sähköposti tai Ota yhteyttä -viestit. (2) Käyttötiedot — miten käytät sivustoa (esim. vieraillut sivut), kun analytiikka on käytössä. (3) Laitetiedot — kuten selaintyyppi tai tekniset tiedot palvelun ylläpitoon ja suojaukseen. Tallentamasi suosikit säilyvät paikallisesti selaimessa; emme vastaanota tallennettua listaa palvelimillemme."
+        },
+        {
+          "h2": "Miten käytämme tietoja",
+          "body": "Käytämme tietojasi Free SVG -kirjaston ja Bundle-kaupan tarjoamiseen ja ylläpitoon; maksullisten ZIP-latausten ja kuittien toimittamiseen; asiakastukeen; sivuston parantamiseen; käytön seurantaan; sekä teknisten tai väärinkäyttöongelmien havaitsemiseen, ehkäisyyn ja korjaamiseen."
+        },
+        {
+          "h2": "Maksut",
+          "body": "Bundlejen maksut käsittelee maksupalveluntarjoajamme (Creem). Korttitiedot käsittelee tarjoaja — emme tallenna täydellisiä korttinumeroita 5SVG-palvelimille."
+        },
+        {
+          "h2": "Evästeet ja tallennus",
+          "body": "Sivusto voi käyttää evästeitä tai paikallista tallennusta teemaan, kieleen, suosikkeihin ja analytiikkaan. Voit tyhjentää sivuston tiedot milloin tahansa selainasetuksista. Joidenkin evästeiden esto voi rajoittaa ominaisuuksia."
+        },
+        {
+          "h2": "Tietoturva",
+          "body": "Toteutamme asianmukaisia turvatoimia henkilötietojen suojaamiseksi luvattomalta pääsyltä, muuttamiselta, paljastamiselta tai tuhoamiselta. Mikään internetin siirtotapa ei ole 100 % turvallinen."
+        },
+        {
+          "h2": "Kolmannen osapuolen palvelut",
+          "body": "Voimme käyttää kolmansia osapuolia maksuihin, sähköpostiin, analytiikkaan tai hostingiin. Ulospäin suuntautuvat linkit ja upotetut merkit kuuluvat kyseisten sivustojen käytäntöjen piiriin."
+        },
+        {
+          "h2": "Muutokset tähän Tietosuojakäytäntöön",
+          "body": "Voimme päivittää tätä Tietosuojakäytäntöä aika ajoin. Ilmoitamme muutoksista julkaisemalla päivitetyn käytännön tällä sivulla."
+        },
+        {
+          "h2": "Ota yhteyttä",
+          "body": "Kysymyksiä tästä Tietosuojakäytännöstä: lähetä sähköpostia support@5svg.com tai käytä sivuston Ota yhteyttä -sivua."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Käyttöehdot — 5SVG",
+      "description": "Ehdot 5SVG-sivuston käytölle ja craft SVG Bundlejen ostolle",
+      "h1": "Käyttöehdot",
+      "sections": [
+        {
+          "h2": "Johdanto",
+          "body": "Nämä Käyttöehdot (”Ehdot”) säätelevät 5SVG-sivuston, Free SVG -kirjaston ja Bundle-kaupan käyttöä. Käyttämällä 5SVG.comia tai ostamalla Bundlen hyväksyt nämä Ehdot, Privacy Policy -käytännön ja Licensing Policy -käytännön. Jos et hyväksy, älä käytä sivustoa äläkä osta Bundleja."
+        },
+        {
+          "h2": "Palveluiden käyttö",
+          "body": "Palvelumme tarjotaan ”sellaisenaan” ja ”saatavuuden mukaan” ilman minkäänlaisia takuita, nimenomaisia tai implisiittisiä. Emme takaa, että sivusto on keskeytymätön, turvallinen tai virheetön. Voit selata Free SVG:tä ilman tiliä. Bundlejen osto edellyttää voimassa olevaa sähköpostia kassalla."
+        },
+        {
+          "h2": "Myymämme tuotteet",
+          "body": "5SVG myy digitaalisia craft SVG Bundleja (alkuperäisten leikkuutiedostojen ZIP-latauksia) kertamaksuina. Hinnat näkyvät USD:na jokaisella Bundle-sivulla (tyypillisesti $4.50 paketti). Ilmainen SVG-logokirjasto ei ole maksullinen tuote. Emme myy fyysisiä tuotteita emmekä kolmansien osapuolten brändilogopaketteja maksullisina tuotteina."
+        },
+        {
+          "h2": "Hinnoittelu ja maksu",
+          "body": "Bundlejen hinnat näkyvät osoitteessa https://5svg.com/shop ja jokaisella tuotesivulla ennen kassaa. Maksun käsittelee Creem (Merchant of Record). Olet vastuussa voimassa olevan sähköpostin antamisesta kassalla, jotta voimme toimittaa latauksen ja kuitin."
+        },
+        {
+          "h2": "Toimitus",
+          "body": "Bundles toimitetaan vain digitaalisesti. Onnistuneen maksun jälkeen saat ZIP-latauksen, ja varmuuskopiolatauslinkki voidaan lähettää sähköpostitse. Fyysistä postitusta ei tapahdu."
+        },
+        {
+          "h2": "Immateriaalioikeudet",
+          "body": "Ostetut Bundles on lisensoitu henkilökohtaiseen craft-käyttöön Licensing Policy -käytännön mukaisesti. Et saa jälleenmyydä, jakaa tai jakaa ZIP:iä tai yksittäisiä tiedostoja itsenäisinä digitaalisina tuotteina. Free SVG -brändilogot kuuluvat tavaramerkkien omistajien oikeuksien piiriin. Sivuston sisältö, brändäys ja alkuperäiset craft-suunnittelut on suojattu sovellettavalla immateriaalioikeudella."
+        },
+        {
+          "h2": "Kielletyt toimet",
+          "body": "Sitoudut olemaan: käyttämättä sivustoa lainvastaisesti; yrittämättä luvatonta pääsyä järjestelmiimme; kaavimasta tai ylikuormittamasta palvelua saatavuutta vahingoittavalla tavalla; levittämättä haittaohjelmia; tai käyttämättä ladattuja tiedostoja näiden Ehtojen tai Licensing Policy -käytännön vastaisesti."
+        },
+        {
+          "h2": "Hyvitykset",
+          "body": "Koska Bundles ovat digitaalisia latauksia, emme yleensä tarjoa hyvitystä, kun ZIP on toimitettu ja pysyy normaalisti saatavilla. Jos et voi ladata meidän virheemme vuoksi, lähetä sähköpostia support@5svg.com kohtuullisessa ajassa; tarkistamme asian vahvistuksen jälkeen ja tarjoamme tarvittaessa uudelleenlatauksen tai muun korjauksen."
+        },
+        {
+          "h2": "Vastuunrajoitus",
+          "body": "Missään tapauksessa 5SVG ei ole vastuussa epäsuorista, satunnaisista, erityisistä, seurannais- tai rangaistusvahingoista, jotka johtuvat sivuston tai ladattujen tiedostojen käytöstä tai kyvyttömyydestä käyttää niitä."
+        },
+        {
+          "h2": "Ehtojen muutokset",
+          "body": "Pidätämme oikeuden muuttaa näitä Ehtoja milloin tahansa. Muutoksista ilmoitamme julkaisemalla päivitetyt Ehdot tällä sivulla."
+        },
+        {
+          "h2": "Ota yhteyttä",
+          "body": "Kysymyksiä näistä Ehdoista: lähetä sähköpostia support@5svg.com tai käytä Ota yhteyttä -sivua. Vastaamme 1–2 arkipäivässä (ja laskutusasioissa 3 arkipäivän kuluessa)."
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "Haku...",
+    "sortAz": "Lajittele A–Ö",
+    "sortLatest": "Lajittele uusimmat",
+    "accept": "Hyväksy",
+    "logos": "logoa",
+    "azIndex": "A–Ö-hakemisto",
+    "clearSearch": "Tyhjennä haku",
+    "searchResults": "hakutulosta",
+    "svgs": "SVG:tä",
+    "showAll": "Näytä kaikki",
+    "showLess": "Näytä vähemmän",
+    "showMore": "Näytä lisää",
+    "copySvg": "Kopioi SVG",
+    "copyDisclaimer": "Varmista, että sinulla on tekijöiden lupa ennen SVG:n käyttöä. Muokkaukset eivät ole sallittuja."
+  },
+  "HeroTabs": {
+    "brands": "Brändit",
+    "browse": "Selaa",
+    "ai": "AI",
+    "design": "Design",
+    "social": "Some",
+    "aria": "Logojen esikatselut"
+  },
+  "WarningBanner": {
+    "body": "SVG-aineistot on annettu viitteeksi. Olet vastuussa tavaramerkkien ja käyttöoikeuksien tarkistamisesta ennen käyttöä projekteissasi.",
+    "accept": "Hyväksy"
+  },
+  "NotFound": {
+    "title": "SVG:tä ei löytynyt",
+    "inCategory": "\"{title}\" ei löytynyt kategoriasta \"{category}\"",
+    "plain": "\"{title}\" ei löytynyt",
+    "searchGlobally": "Hae kaikkialta",
+    "requestSvg": "Pyydä SVG",
+    "submitSvg": "Lähetä SVG"
+  },
+  "LibraryPage": {
+    "title": "Ilmainen SVG-kirjasto — Kuvakkeet ja brändilogot | 5SVG",
+    "description": "Selaa ja lataa ilmaisia SVG-kuvakkeita ja brändilogoja. Hae nimellä, suodata kategorialla, lajittele A–Ö ja kopioi tai lataa — ilman rekisteröitymistä.",
+    "h1": "Ilmainen SVG-kuvake- ja logokirjasto",
+    "lead": "Hae ilmaisia SVG-kuvakkeita nimellä tai kategorialla ja lataa vektoritiedostoja suunnitteluun, craftiin, Cricutiin ja verkkoon.",
+    "sections": {
+      "search": {
+        "h2": "Hae ilmaisia SVG-kuvakkeita ja logoja",
+        "body": "Käytä hakupalkkia löytääksesi SVG:itä brändin tai otsikon mukaan. Lajittele A–Ö tai selaa uusimpia vektorilogoja.",
+        "h3": "Löydä ilmaisia SVG:itä nimellä, brändillä tai kategorialla"
+      },
+      "download": {
+        "h2": "Lataa ja käytä SVG-vektoritiedostoja",
+        "body": "Avaa mikä tahansa kortti kopioidaksesi SVG-koodin tai ladataksesi optimoidun tiedoston. Tallenna SVG-kuvakkeet kokoelmaasi nopeaa käyttöä varten.",
+        "h3": "Kopioi, lataa tai kirjanmerkitse SVG-kuvakkeita"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "Kaikki SVG-logot A–Ö — Ilmainen kuvakehakemisto | 5SVG",
+    "description": "Aakkosellinen hakemisto jokaisesta ilmaisesta SVG-logosta ja brändikuvakkeesta 5SVG:ssä. Siirry tietosivulle kopioidaksesi tai ladataksesi vektoreita.",
+    "h1": "Selaa kaikkia SVG-logoja",
+    "lead": "Täydellinen A–Ö-hakemisto ilmaisia brändilogo-SVG:itä pääkirjastossa. Jokainen linkki avaa tietosivun kopioinnilla, latauksella ja lisenssimuistiinpanoilla.",
+    "logosCount": "({count} logoa)",
+    "backLibrary": "← Interaktiivinen kirjasto",
+    "popularBrands": "Suositut brändit",
+    "categories": "Kategoriat"
+  },
+  "FavoritesPage": {
+    "title": "Suosikit",
+    "clearAll": "Tyhjennä kaikki",
+    "emptyTitle": "Ei vielä suosikkeja",
+    "emptyBody": "Lisää SVG:itä suosikkeihin klikkaamalla sydänkuvaketta millä tahansa SVG:llä.",
+    "browseSvgs": "Selaa SVG:itä"
+  }
+}

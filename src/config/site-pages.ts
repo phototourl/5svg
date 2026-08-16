@@ -7,16 +7,16 @@ import { getDocsPaths } from "@/utils/docs-paths";
 /** Marketing home */
 export const marketingPaths = ["/"] as const;
 
-export const trustPaths = ["/about", "/license", "/privacy"] as const;
+export const trustPaths = ["/about", "/license", "/privacy", "/terms", "/contact"] as const;
 
 export const browsePaths = ["/browse"] as const;
 
 export const tagIndexPaths = ["/tags", ...getTagPaths()] as const;
 
-/** App routes with a +page.svelte (excludes redirects like /directory, /docs, /api) */
+/** App routes with a +page.svelte (excludes redirects like /directory, /docs) */
 export const appStaticPaths = brand.showDeveloperTools
-  ? (["/library", "/favorites", "/extensions"] as const)
-  : (["/library", "/favorites"] as const);
+  ? (["/library", "/shop", "/favorites", "/extensions"] as const)
+  : (["/library", "/shop", "/favorites"] as const);
 
 export function getDirectoryPaths(): string[] {
   return getCategories()

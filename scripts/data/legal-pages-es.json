@@ -1,0 +1,154 @@
+{
+  "about": {
+    "title": "Acerca de 5SVG — Biblioteca SVG gratis y Bundles craft",
+    "description": "5SVG es una biblioteca independiente de logos SVG gratis y una tienda de Bundles craft SVG originales. Solo descargas digitales — precios claros en nuestra página de Bundles.",
+    "h1": "Acerca de 5SVG",
+    "sections": [
+      {
+        "h2": "Qué ofrecemos",
+        "body": "5SVG aloja una biblioteca gratuita de logos e iconos SVG de marcas, además de Bundles craft SVG de pago vendidos como descargas ZIP digitales de un solo pago. Free SVG sigue siendo gratis. Los Bundles son packs de archivos de corte originales para makers (Cricut, Silhouette, vinilo, camisetas)."
+      },
+      {
+        "h2": "Qué vendemos",
+        "body": "En Bundles vendemos solo packs SVG craft digitales — normalmente $4.50 USD cada uno, pago único, descarga ZIP instantánea tras el pago. No vendemos productos físicos. Los packs y precios actuales se listan en la página de Bundles (/shop)."
+      },
+      {
+        "h2": "Quiénes somos",
+        "body": "5SVG es un proyecto independiente. No estamos afiliados, respaldados ni patrocinados por las marcas cuyos logos aparecen en la biblioteca gratuita. Los Bundles de pago son diseños craft originales que reunimos o creamos para uso craft personal."
+      },
+      {
+        "h2": "Soporte",
+        "body": "Email de atención al cliente: support@5svg.com. Procuramos responder en 1–2 días hábiles. También puedes usar la página Contáctanos de este sitio."
+      }
+    ]
+  },
+  "license": {
+    "title": "Política de licencias — 5SVG",
+    "description": "Cómo puedes usar los archivos Free SVG y los Bundles craft de pago en 5SVG, incluidas marcas comerciales y uso craft personal.",
+    "h1": "Política de licencias",
+    "sections": [
+      {
+        "h2": "Introducción",
+        "body": "Esta Política de licencias explica cómo puedes usar materiales de 5SVG. Al descargar archivos Free SVG o comprar Bundles, aceptas esta política, nuestros Términos del servicio y nuestra Política de privacidad."
+      },
+      {
+        "h2": "Biblioteca Free SVG",
+        "body": "Los logos e iconos de marca en Free SVG son gratis para explorar, copiar y descargar en proyectos personales, educación y mockups. El uso comercial de marcas puede requerir permiso del titular de la marca. Los archivos Free SVG no se venden como productos de pago."
+      },
+      {
+        "h2": "Bundles de pago (packs craft)",
+        "body": "Los packs SVG craft vendidos en Bundles están licenciados para proyectos craft personales (por ejemplo corte, vinilo, camisetas, pegatinas y usos similares de makers). No puedes revender, redistribuir, compartir ni volver a subir el ZIP digital ni los archivos SVG individuales como productos digitales independientes."
+      },
+      {
+        "h2": "Propiedad intelectual",
+        "body": "Los diseños craft originales de los Bundles de pago pertenecen a 5SVG o están licenciados para nosotros para la venta. Los logos e iconos de marca en Free SVG siguen siendo propiedad de sus respectivos titulares. 5SVG no reclama la propiedad de marcas comerciales de terceros mostradas en la biblioteca gratuita."
+      },
+      {
+        "h2": "Marcas comerciales",
+        "body": "Los logos y denominaciones siguen siendo marcas comerciales de sus respectivos titulares. 5SVG no está afiliado ni respaldado por esas marcas. No vendemos logos de marca registrada como productos de pago."
+      },
+      {
+        "h2": "Sin garantía",
+        "body": "Los archivos se proporcionan tal cual. No garantizamos integridad, autorización legal para tu caso de uso concreto ni que los recursos coincidan con las versiones oficiales más recientes de las marcas."
+      },
+      {
+        "h2": "Contacto",
+        "body": "Preguntas sobre esta Política de licencias: escribe a support@5svg.com o usa la página Contáctanos de este sitio."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de privacidad — 5SVG",
+    "description": "Cómo protegemos tus datos cuando usas 5SVG",
+    "h1": "Política de privacidad",
+    "sections": [
+      {
+        "h2": "Introducción",
+        "body": "Bienvenido a la Política de privacidad de 5SVG. Este documento explica cómo recopilamos, usamos y protegemos tu información personal cuando usas el sitio web de 5SVG, la biblioteca Free SVG y la tienda de Bundles craft."
+      },
+      {
+        "h2": "Información que recopilamos",
+        "body": "Podemos recopilar los siguientes tipos de información: (1) Datos de contacto que facilitas — como la dirección de email introducida en el checkout de Bundles para el recibo y la entrega de la descarga, o mensajes enviados mediante Contáctanos. (2) Datos de uso — cómo interactúas con el sitio (por ejemplo páginas visitadas), cuando la analítica está activada. (3) Información del dispositivo — como el tipo de navegador o datos técnicos aproximados usados para operar y proteger el servicio. Los favoritos que guardas se almacenan localmente en tu navegador; no recibimos tu lista guardada en nuestros servidores."
+      },
+      {
+        "h2": "Cómo usamos tu información",
+        "body": "Usamos tu información para proporcionar y mantener la biblioteca Free SVG y la tienda de Bundles; entregar descargas ZIP de pago y recibos relacionados; ofrecer atención al cliente; mejorar el sitio; supervisar el uso; y detectar, prevenir y abordar problemas técnicos o de abuso."
+      },
+      {
+        "h2": "Pagos",
+        "body": "Los pagos de Bundles los procesa nuestro proveedor de pagos (Creem). Los datos de la tarjeta los gestiona el proveedor — no almacenamos números completos de tarjeta de pago en los servidores de 5SVG."
+      },
+      {
+        "h2": "Cookies y almacenamiento",
+        "body": "El sitio puede usar cookies o almacenamiento local para la preferencia de tema, idioma, favoritos y analítica. Puedes borrar los datos del sitio en la configuración de tu navegador en cualquier momento. Bloquear algunas cookies puede limitar ciertas funciones."
+      },
+      {
+        "h2": "Seguridad de los datos",
+        "body": "Aplicamos medidas de seguridad adecuadas para proteger la información personal contra acceso, alteración, divulgación o destrucción no autorizados. Ningún método de transmisión por Internet es 100% seguro."
+      },
+      {
+        "h2": "Servicios de terceros",
+        "body": "Podemos usar empresas de terceros para facilitar pagos, entrega de email, analítica u hosting. Los enlaces externos y las insignias incrustadas se rigen por las políticas de esos sitios."
+      },
+      {
+        "h2": "Cambios en esta Política de privacidad",
+        "body": "Podemos actualizar esta Política de privacidad periódicamente. Te informaremos de los cambios publicando la política actualizada en esta página."
+      },
+      {
+        "h2": "Contacto",
+        "body": "Si tienes preguntas sobre esta Política de privacidad, escribe a support@5svg.com o usa la página Contáctanos de este sitio."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos del servicio — 5SVG",
+    "description": "Términos para usar el sitio web de 5SVG y comprar Bundles craft SVG",
+    "h1": "Términos del servicio",
+    "sections": [
+      {
+        "h2": "Introducción",
+        "body": "Estos Términos del servicio («Términos») rigen tu uso del sitio web de 5SVG, la biblioteca Free SVG y la tienda de Bundles. Al acceder a 5SVG.com o comprar un Bundle, aceptas estos Términos, nuestra Política de privacidad y nuestra Política de licencias. Si no estás de acuerdo, no uses el sitio ni compres Bundles."
+      },
+      {
+        "h2": "Uso del servicio",
+        "body": "Nuestros servicios se proporcionan «tal cual» y «según disponibilidad» sin garantías de ningún tipo, expresas o implícitas. No garantizamos que el sitio sea ininterrumpido, seguro o libre de errores. Puedes explorar Free SVG sin cuenta. Comprar Bundles requiere un email válido en el checkout."
+      },
+      {
+        "h2": "Productos que vendemos",
+        "body": "5SVG vende Bundles craft SVG digitales (descargas ZIP de archivos de corte originales) como compras únicas. Los precios se muestran en USD en cada página de Bundle (normalmente $4.50 por pack). La biblioteca gratuita de logos SVG no es un producto de pago. No vendemos bienes físicos ni packs de logos de marcas de terceros como productos de pago."
+      },
+      {
+        "h2": "Precio y pago",
+        "body": "Los precios de Bundles se muestran en https://5svg.com/shop y en cada página de producto antes del checkout. El pago lo procesa Creem (Merchant of Record). Eres responsable de facilitar un email válido en el checkout para que podamos entregar tu descarga y recibo."
+      },
+      {
+        "h2": "Entrega",
+        "body": "Los Bundles se entregan solo de forma digital. Tras un pago correcto se te redirige a una página de descarga para obtener tu ZIP, y puede enviarse por email un enlace de descarga de respaldo. No hay envío de artículos físicos."
+      },
+      {
+        "h2": "Propiedad intelectual",
+        "body": "Los Bundles comprados están licenciados para uso craft personal según se describe en nuestra Política de licencias. No puedes revender, redistribuir ni compartir el ZIP ni los archivos individuales como productos digitales independientes. Los logos de marca en Free SVG siguen sujetos a los derechos de los titulares de marcas. El contenido del sitio, la marca y los diseños craft originales están protegidos por las leyes de propiedad intelectual aplicables."
+      },
+      {
+        "h2": "Actividades prohibidas",
+        "body": "Aceptas no: usar el sitio de forma que infrinja la ley aplicable; intentar acceso no autorizado a nuestros sistemas; hacer scraping o sobrecargar el servicio de forma que perjudique la disponibilidad; distribuir malware; o usar archivos descargados incumpliendo estos Términos o nuestra Política de licencias."
+      },
+      {
+        "h2": "Reembolsos",
+        "body": "Como los Bundles son descargas digitales, generalmente no ofrecemos reembolsos una vez entregado el ZIP y disponible para uso normal. Si no puedes descargar por un fallo nuestro, escribe a support@5svg.com en un plazo razonable; revisaremos tras verificación y, cuando corresponda, proporcionaremos una nueva descarga u otra solución."
+      },
+      {
+        "h2": "Limitación de responsabilidad",
+        "body": "En ningún caso 5SVG será responsable de daños indirectos, incidentales, especiales, consecuentes o punitivos derivados de tu uso o imposibilidad de usar el sitio o los archivos descargados."
+      },
+      {
+        "h2": "Cambios en los Términos",
+        "body": "Nos reservamos el derecho de modificar estos Términos en cualquier momento. Si realizamos cambios, lo comunicaremos publicando los Términos actualizados en esta página."
+      },
+      {
+        "h2": "Contacto",
+        "body": "Si tienes preguntas sobre estos Términos, escribe a support@5svg.com o usa la página Contáctanos. Procuramos responder en 1–2 días hábiles (y en 3 días hábiles para cuestiones de facturación)."
+      }
+    ]
+  }
+}

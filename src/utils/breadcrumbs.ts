@@ -2,6 +2,7 @@ import { browseSeo } from "@/config/browse-seo";
 import { librarySeo } from "@/config/library-seo";
 import { LOCALES } from "@/lib/i18n/config";
 import { stripLocalePrefix } from "@/lib/i18n/paths";
+import type { Translator } from "@/lib/i18n/translator";
 import { tagPageBySlug, isTagSlug } from "@/config/tag-pages";
 import { getDirectorySeo } from "@/config/directory-seo";
 import { getSvgBySlug } from "@/data";
@@ -14,16 +15,34 @@ export type BreadcrumbItem = {
 export function getAppBreadcrumbs(
   pathname: string,
   pageData?: Record<string, unknown>,
+  t?: Translator,
 ): BreadcrumbItem[] {
   const path = stripLocalePrefix(pathname, LOCALES);
-  const home: BreadcrumbItem = { label: "Home", href: "/" };
+  const home: BreadcrumbItem = {
+    label: t?.("common.nav.home") ?? "Home",
+    href: "/",
+  };
 
   if (path === "/library") {
-    return [home, { label: librarySeo.h1 }];
+    return [home, { label: t?.("LibraryPage.h1") ?? librarySeo.h1 }];
+  }
+
+  if (path === "/shop" || path.startsWith("/shop/")) {
+    const crumbs: BreadcrumbItem[] = [
+      home,
+      { label: t?.("common.nav.svgBundles") ?? "Bundles", href: "/shop" },
+    ];
+    if (path === "/shop/download") {
+      crumbs.push({ label: t?.("shop.downloadTitle") ?? "Download" });
+    } else if (path !== "/shop") {
+      const slug = path.replace(/^\/shop\//, "");
+      crumbs.push({ label: slug });
+    }
+    return crumbs;
   }
 
   if (path === "/browse") {
-    return [home, { label: browseSeo.h1 }];
+    return [home, { label: t?.("BrowsePage.h1") ?? browseSeo.h1 }];
   }
 
   const directoryMatch = path.match(/^\/directory\/([^/]+)\/?$/);
@@ -32,7 +51,7 @@ export function getAppBreadcrumbs(
     const formatted = slug.charAt(0).toUpperCase() + slug.slice(1);
     return [
       home,
-      { label: "Library", href: "/library" },
+      { label: t?.("common.nav.freeSvg") ?? "Library", href: "/library" },
       { label: getDirectorySeo(formatted, 0).headerH1 },
     ];
   }
@@ -55,8 +74,13 @@ export function getAppBreadcrumbs(
   if (iconMatch) {
     const svg = getSvgBySlug(iconMatch[1]);
     if (svg) {
-      const categories = Array.isArray(svg.category) ? svg.category : [svg.category];
-      const crumbs: BreadcrumbItem[] = [home, { label: "Library", href: "/library" }];
+      const categories = Array.isArray(svg.category)
+        ? svg.category
+        : [svg.category];
+      const crumbs: BreadcrumbItem[] = [
+        home,
+        { label: t?.("common.nav.freeSvg") ?? "Library", href: "/library" },
+      ];
       if (categories[0]) {
         crumbs.push({
           label: categories[0],
@@ -72,14 +96,20 @@ export function getAppBreadcrumbs(
     const doc = pageData?.document as { title?: string } | undefined;
     return [
       home,
-      { label: "Docs", href: "/docs/api" },
+      { label: "Docs", href: "/docs/shadcn-ui" },
       ...(doc?.title ? [{ label: doc.title }] : []),
     ];
   }
 
-  if (["/about", "/license", "/privacy"].includes(path)) {
+  if (["/about", "/license", "/privacy", "/terms"].includes(path)) {
     const label =
-      path === "/about" ? "About" : path === "/license" ? "License" : "Privacy";
+      path === "/about"
+        ? (t?.("common.footer.about") ?? "About")
+        : path === "/license"
+          ? (t?.("common.footer.licensingPolicy") ?? "Licensing Policy")
+          : path === "/terms"
+            ? (t?.("common.footer.termsOfService") ?? "Terms of Service")
+            : (t?.("common.footer.privacyPolicy") ?? "Privacy Policy");
     return [home, { label }];
   }
 

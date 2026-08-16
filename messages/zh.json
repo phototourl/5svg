@@ -4,17 +4,25 @@
     "switchLanguage": "切换语言",
     "languageSelect": {
       "title": "选择语言",
-      "subtitle": "选择网站界面显示的语言。"
+      "subtitle": "选择网站界面显示的语言。",
+      "close": "关闭"
     },
     "nav": {
+      "home": "首页",
       "freeSvg": "免费 SVG",
+      "svgBundles": "资源包",
+      "allFreeSvg": "全部免费 SVG",
+      "allBundles": "全部资源包",
+      "licensing": "许可政策",
+      "contact": "联系我们",
+      "bundles": "资源包",
       "browse": "浏览",
       "favorites": "收藏",
-      "api": "API",
       "extensions": "扩展",
       "shadcn": "shadcn/ui",
       "searchLibrary": "搜索图库",
-      "openMenu": "打开菜单"
+      "openMenu": "打开菜单",
+      "shopNow": "商店"
     },
     "sidebar": {
       "categories": "分类",
@@ -23,48 +31,107 @@
       "githubRepo": "GitHub 仓库"
     },
     "footer": {
+      "tagline": "免费 SVG 图库与手工资源包",
+      "product": "产品",
       "explore": "探索",
       "categories": "分类",
+      "company": "公司",
       "legal": "法律信息",
-      "supportTitle": "我们随时为你服务",
-      "supportBody": "浏览免费 SVG，用于手工、贴纸、T 恤和日常设计。搜索图库、下载所需文件，并保存收藏以便下次使用。",
+      "supportTitle": "客户支持",
+      "supportBody": "关于免费 SVG 或付费资源包的问题，请发邮件联系我们——我们尽量在 1～2 个工作日内回复。",
       "exploreLibrary": "浏览图库",
       "browseIndex": "A–Z 索引",
       "home": "首页",
       "about": "关于",
-      "license": "许可",
-      "privacy": "隐私",
+      "license": "许可政策",
+      "licensingPolicy": "许可政策",
+      "privacy": "隐私政策",
+      "privacyPolicy": "隐私政策",
+      "terms": "用户协议",
+      "termsOfService": "用户协议",
       "design": "设计",
       "social": "社交",
       "software": "软件"
     },
     "announcement": {
-      "library": "{count}+ 免费 SVG 标志 — 浏览图库",
-      "favorites": "下载 · 收藏 · 个人使用免费"
+      "library": "{count}+ 个免费 SVG — 打开免费图库",
+      "favorites": "下载 · 收藏 · 个人使用免费",
+      "shop": "手工资源包起价 $4.50 — 一次付费，即时下载"
+    },
+    "showAll": "显示全部",
+    "showLess": "显示更少",
+    "showMore": "显示更多",
+    "copySvg": "复制 SVG"
+  },
+  "shop": {
+    "seoTitle": "资源包 — 价格与手工 SVG | 5SVG",
+    "seoDescription": "购买原创手工资源包，每个 $4.50——一次付费，即时下载压缩包。品牌标志图库仍免费。",
+    "promo": "单主题每个 $4.50 · 全店合集 $9.90。一次付费，即时 ZIP 下载。",
+    "title": "资源包",
+    "subtitle": "可按主题购买单个资源包，也可一次解锁全部主题。品牌 Logo 仍在免费图库。",
+    "allCategories": "全部",
+    "viewPack": "查看",
+    "wholeShopBadge": "全店特惠",
+    "wholeShopSection": "全店合集",
+    "wholeShopTitle": "全店资源包",
+    "wholeShopLead": "涵盖全部主题，共 {count} 个手工 SVG。一次购买，解锁全店所有资源包。",
+    "wholeShopCta": "立即购买",
+    "themePacksHeading": "单主题资源包",
+    "themePacksLead": "每个资源包为一次数字购买，价格 $4.50，约含 20–24 个原创手工切割文件（ZIP）。品牌标志仍在免费图库。",
+    "empty": "该分类暂无资源包。",
+    "fileCount": "{count} 个文件",
+    "moreFiles": "另有 {count} 个",
+    "freeHint": "需要免费品牌标志？",
+    "freeLibraryLink": "打开免费 SVG →",
+    "backToShop": "返回资源包",
+    "emailLabel": "邮箱（收据与下载）",
+    "mockNotice": "当前为模拟结账（Creem 尚未对接）。",
+    "buyDownload": "购买并下载",
+    "processing": "跳转中…",
+    "checkoutError": "结账失败，请重试。",
+    "flowHint": "一次付费即可下载 ZIP，收据会发到你的邮箱。",
+    "payOverlayTitle": "正在确认支付…",
+    "payOverlayBody": "请稍候，正在核实你的订单。",
+    "prepareOverlayTitle": "正在准备下载…",
+    "prepareOverlayBody": "ZIP 即将开始下载。",
+    "downloadTitle": "下载你的文件",
+    "downloadMissing": "缺少支付回跳信息，请从资源包页重新购买。",
+    "downloadFailed": "无法确认支付。",
+    "downloadSyncing": "正在确认支付…",
+    "downloadReady": "可下载：{title}",
+    "downloadZip": "下载 ZIP",
+    "downloadEmailHint": "备用下载链接也已发送到您填写的邮箱。",
+    "includesSample": "包含（示例）",
+    "browseCategory": "浏览该分类 →",
+    "license": {
+      "personal": "个人使用",
+      "commercial": "商用手工艺许可"
     }
   },
   "seo": {
-    "title": "5SVG — 免费 SVG 标志与图标库",
-    "description": "免费 SVG 资源库：品牌标志与图标，适用于手工与设计。按分类浏览、下载文件、保存收藏，可用于 Cricut、Silhouette、Canva 等。",
-    "keywords": "免费 svg, svg 下载, svg 图库, 品牌 logo svg, cricut svg, silhouette svg, canva"
+    "title": "5SVG — 免费 SVG 与手工资源包",
+    "description": "免费 SVG 标志图库，以及面向创作者的付费手工资源包。随时浏览免费图库，或以 $4.50 起购买原创压缩包，适用于 Cricut、Silhouette、刻字膜与手工。",
+    "keywords": "svg bundles, 手工 svg, 免费 svg, svg 下载, cricut svg, silhouette svg, 付费 svg 资源包"
   },
   "home": {
     "hero": {
-      "title": "免费 SVG 文件、标志与图标",
-      "subtitle": "面向手工制作、平面设计与日常创作，提供可浏览、可下载的 SVG 资源，并支持本地收藏，无需注册。",
-      "marqueeAria": "浏览图库中的 SVG"
+      "title": "免费 SVG 与手工资源包",
+      "subtitle": "浏览免费图库，或选购原创手工资源包。数字压缩包起价 $4.50，一次付费，即时下载。适用于 Cricut、Silhouette、刻字膜与创作者。",
+      "marqueeAria": "浏览图库中的 SVG",
+      "ctaShop": "选购资源包",
+      "ctaFree": "浏览免费图库"
     },
     "value": {
-      "freeTitle": "免费浏览",
-      "freeDesc": "随时打开图库——按分类搜索、筛选并下载 SVG，无需注册。",
-      "curatedTitle": "精选合集",
-      "curatedDesc": "数百个品牌标志与图标集中一处——适用于手工、设计与印刷。",
-      "easyTitle": "简单易用",
-      "easyDesc": "一键下载、保存收藏，可用于 Cricut、Silhouette、Canva 或任何设计软件。"
+      "freeTitle": "即时数字交付",
+      "freeDesc": "购买资源包后即可下载压缩包——无物流、无需等待。免费图库中的 SVG 仍可免费使用。",
+      "curatedTitle": "手工资源包起价 $4.50",
+      "curatedDesc": "原创切割文件包，商品页标清美元价格。一次付费，文件可用于个人手工项目。",
+      "easyTitle": "客户支持",
+      "easyDesc": "关于免费图库、资源包或许可？发送邮件至 support@5svg.com，或使用「联系我们」——我们尽量在 1～2 个工作日内回复。"
     },
     "craft": {
       "title": "为日常创作者而生",
-      "subtitle": "可用于 Cricut、Silhouette、Canva、T 恤、贴纸等场景的标志与图标。",
+      "subtitle": "将免费图库标志或资源包切割文件用于 Cricut、Silhouette、Canva、T 恤、贴纸等。",
       "cutting": "切割手工",
       "stickers": "贴纸与贴花",
       "gifts": "礼物与派对",
@@ -82,19 +149,19 @@
     },
     "how": {
       "tag": "使用方式",
-      "title": "浏览、下载、收藏",
-      "subtitle": "三步完成下载——无需账户。",
-      "searchTitle": "搜索或浏览",
-      "searchDesc": "打开图库、选择分类或按名称搜索——筛选可快速缩小范围。",
-      "downloadTitle": "下载 SVG",
-      "downloadDesc": "复制 SVG 代码或下载文件，然后导入设计软件或切割机。",
-      "favoritesTitle": "保存收藏",
-      "favoritesDesc": "收藏常用文件，随时回来——列表保存在本设备。"
+      "title": "免费图库或购买资源包",
+      "subtitle": "随时浏览免费图库——或打开资源包商店，选购后付款即可下载压缩包。",
+      "searchTitle": "浏览免费图库",
+      "searchDesc": "打开免费图库，选择分类或按名称搜索——无需账户即可下载标志。",
+      "downloadTitle": "选购资源包",
+      "downloadDesc": "在资源包商店选择手工资源包，按标价一次付费，然后下载压缩包。",
+      "favoritesTitle": "保存与复用",
+      "favoritesDesc": "在本设备收藏免费图库文件，或保留已购资源包文件用于手工项目。"
     },
     "seoIntro": {
-      "tag": "SVG 资源",
-      "title": "面向手工、设计与日常项目的免费 SVG 资源库",
-      "description": "5SVG 是免费 SVG 资源站：提供可浏览、可下载的标志与图标文件。按名称或分类搜索，获取所需 SVG，并保存收藏——无需注册。"
+      "tag": "SVG 商店与图库",
+      "title": "免费 SVG 与付费手工资源包",
+      "description": "5SVG 销售原创手工资源包（数字压缩包，通常每个 $4.50），并提供免费品牌标志图库。随时浏览免费图库，或选购资源包，适用于 Cricut、Silhouette、刻字膜与日常手工。"
     },
     "seoBlocks": {
       "whatTag": "基础",
@@ -114,26 +181,314 @@
       "usesAlt": "5SVG — 用 UI 套件与应用图标设计、构建与展示",
       "getTag": "获取文件",
       "getTitle": "如何从 5SVG 获取 SVG",
-      "getBody": "图库内容均可免费浏览。从菜单打开图库，按名称搜索或选择分类，然后复制或下载 SVG 到设备。",
-      "getB1": "浏览或搜索——无需注册",
-      "getB2": "点击标志复制 SVG 或下载文件",
-      "getB3": "使用心形图标在本设备保存收藏",
-      "getB4": "商业使用前请查阅各品牌官方指南",
+      "getBody": "随时浏览免费图库——搜索或选择分类后复制或下载。购买手工资源包请打开商店，按标价选购，付款后下载压缩包。",
+      "getB1": "浏览免费图库——无需注册",
+      "getB2": "或在商店购买原创手工资源包",
+      "getB3": "一次付费，即可下载 ZIP",
+      "getB4": "商用手工艺使用前请查阅许可与服务条款",
       "getAlt": "5SVG — 跨设备最快矢量搜索"
     },
     "faq": {
       "title": "常见问题",
-      "subtitle": "SVG 基础、下载与图库使用说明。",
-      "lead": "5SVG 为快速浏览而设计：搜索数千标志、打开文件、一键下载或复制 SVG。以下全部免费——无账户、无付费墙。",
-      "q1": "5SVG 上的 SVG 免费吗？",
-      "a1": "是的。浏览、搜索与下载均免费。标志与商标归原权利人所有——请负责任地用于个人、教育与样机用途。",
-      "q2": "SVG 和 PNG 有什么区别？",
-      "a2": "PNG 基于像素，放大可能模糊。SVG 是矢量，任意尺寸都清晰——更适合标志、图标与切割机。",
-      "q3": "能否用于 Cricut 或 Silhouette？",
-      "a3": "可以。下载 SVG 后导入 Cricut Design Space、Silhouette Studio 或任何支持矢量的应用。",
-      "q4": "需要账户吗？",
-      "a4": "不需要。无需注册即可浏览与下载。收藏保存在本浏览器中。"
+      "subtitle": "售卖内容、价格、交付、退款与客服。",
+      "lead": "5SVG 销售数字手工资源包（压缩包下载），价格以美元标在商店页面。免费图库中的品牌标志保持免费。付款由 Creem 处理。",
+      "q1": "你们卖什么？",
+      "a1": "我们销售原创手工资源包——面向创作者的数字切割文件压缩包（Cricut、Silhouette、刻字膜、T 恤等）。不销售实体商品。免费图库中的品牌标志免费，且不作为付费商品出售。",
+      "q2": "资源包多少钱？",
+      "a2": "每个手工资源包通常为 $4.50，一次付费。准确价格见 https://5svg.com/shop 及每个商品页，结账前均可查看。",
+      "q3": "如何交付？",
+      "a3": "100% 数字交付，付款成功后即可获取；无物流。结账时请填写有效邮箱以接收收据。",
+      "q4": "需要账户或安装软件吗？",
+      "a4": "浏览免费图库或购买资源包均无需账户。收藏保存在浏览器。将 SVG 导入 Cricut Design Space、Silhouette Studio、Canva 等即可——我们无需安装任何软件。",
+      "q5": "获得什么许可？",
+      "a5": "资源包含个人手工许可，不得转售或再分发压缩包及单个文件。免费图库标志商标归原权利人——商用前请查阅品牌指南。详见许可与服务条款页面。",
+      "q6": "可以退款吗？",
+      "a6": "资源包为数字下载，压缩包已交付且可正常使用时，一般不支持退款。若因我方原因无法下载，请发邮件至 support@5svg.com，核实后处理。",
+      "q7": "隐私政策与服务条款在哪里？",
+      "a7": "隐私政策：https://5svg.com/privacy — 服务条款：https://5svg.com/terms — 许可：https://5svg.com/license。页脚也有链接。",
+      "q8": "如何联系客服？",
+      "a8": "发送邮件至 support@5svg.com，或使用「联系我们」页面。我们尽量在 1～2 个工作日内回复（账单问题 3 个工作日内）。",
+      "contactBefore": "以上及其他问题，请使用本站 ",
+      "contactLink": "联系我们",
+      "contactMiddle": " 页面，或发送邮件至 ",
+      "contactAfter": "。我们尽量在 1～2 个工作日内回复。"
     },
-    "bannerAlt": "5SVG — 免费 SVG 文件、标志与图标"
+    "about": {
+      "title": "关于 5SVG",
+      "p1": "5SVG 是免费 SVG 标志与图标图库，并提供原创手工资源包商店。付费产品仅为数字压缩包下载——通常每个 $4.50、一次付费，价格标在商店页面。",
+      "p2": "可随时浏览免费图库，或打开商店购买季节性与日常切割文件包，适用于 Cricut、Silhouette、刻字膜与创作者。客服：support@5svg.com。法律信息见页脚隐私政策、服务条款与许可页面。",
+      "logoAlt": "5SVG 免费 SVG 图库与手工资源包标志"
+    },
+    "bannerAlt": "5SVG — 免费 SVG 与手工资源包",
+    "shopStrip": {
+      "title": "在售资源包",
+      "subtitle": "原创手工 SVG 资源包 — 每个 $4.50，一次付费，即时下载压缩包。",
+      "viewAll": "查看全部资源包 →",
+      "fromPrice": "{price}"
+    }
+  },
+  "ContactPage": {
+    "title": "联系我们",
+    "description": "联系 5SVG：免费图库、资源包、许可或反馈。我们尽量在 1～2 个工作日内回复。",
+    "subtitle": "我们可协助免费图库、手工资源包与许可相关问题。",
+    "introShort": "有问题或反馈？填写下方表单，我们会尽快回复。",
+    "whyTitle": "你可以联系我们关于",
+    "why1": "免费 SVG 图库：浏览、下载或商标相关问题",
+    "why2": "资源包：购买、下载或资源包内容",
+    "why3": "许可与商业使用问题",
+    "why4": "反馈、合作或举报滥用",
+    "expectTitle": "回复说明",
+    "expectContent": "我们会阅读每条消息，并尽量在 1～2 个工作日内回复。紧急问题请写清主题并提供尽量多的细节。",
+    "orEmail": "或发送邮件至",
+    "form": {
+      "title": "发送消息",
+      "description": "关于免费图库、资源包或反馈？填写表单，我们会尽快回复。",
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "留言",
+      "namePlaceholder": "你的姓名",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "你的留言或问题…",
+      "submit": "发送消息",
+      "mailtoHint": "将打开邮件应用，收件人为 support@5svg.com。"
+    }
+  },
+  "Mail": {
+    "orderDownloadLink": {
+      "subject": "您的 5SVG 下载 — {title}",
+      "title": "您的下载已就绪",
+      "body": "感谢您在 5SVG 购买 {title}。",
+      "downloadButton": "下载 ZIP",
+      "linkFallback": "或复制此备用下载链接：",
+      "note": "若支付后未自动下载，请再次打开此链接下载。",
+      "textIntro": "感谢您购买 {title}。",
+      "textDownload": "下载 ZIP（备用链接）：",
+      "textSupport": "支持：{email}"
+    }
+  },
+  "LegalPages": {
+    "about": {
+      "title": "关于 5SVG — 免费 SVG 图库与手工资源包",
+      "description": "5SVG 是独立的免费 SVG 标志图库，并售卖原创手工 SVG 资源包。仅数字下载——价格见资源包页面。",
+      "h1": "关于 5SVG",
+      "sections": [
+        {
+          "h2": "我们提供什么",
+          "body": "5SVG 提供免费品牌标志与图标 SVG 图库，以及一次付费的数字 ZIP 手工资源包。免费图库保持免费。资源包为面向创作者的原创切割文件（Cricut、Silhouette、刻字膜、T 恤等）。"
+        },
+        {
+          "h2": "我们卖什么",
+          "body": "通过资源包，我们仅销售数字手工 SVG 包——通常每个 $4.50 美元，一次付费，付款后即时下载 ZIP。不销售实体商品。当前商品与价格见资源包页面（/shop）。"
+        },
+        {
+          "h2": "我们是谁",
+          "body": "5SVG 为独立项目。我们与免费图库中出现的品牌无隶属、背书或赞助关系。付费资源包为原创或我们整理的手工设计，供个人手工使用。"
+        },
+        {
+          "h2": "客服支持",
+          "body": "客服邮箱：support@5svg.com。我们尽量在 1～2 个工作日内回复。也可使用本站「联系我们」页面。"
+        }
+      ]
+    },
+    "license": {
+      "title": "许可政策 — 5SVG",
+      "description": "说明如何使用 5SVG 的免费 SVG 与付费手工资源包，包括商标与个人手工用途。",
+      "h1": "许可政策",
+      "sections": [
+        {
+          "h2": "引言",
+          "body": "本许可政策说明你可如何使用 5SVG 上的材料。下载免费 SVG 或购买资源包，即表示你同意本政策、用户协议与隐私政策。"
+        },
+        {
+          "h2": "免费 SVG 图库",
+          "body": "免费图库中的品牌标志与图标可免费浏览、复制与下载，用于个人项目、教育与样机。品牌商标的商业使用可能仍需权利人许可。免费 SVG 不作为付费商品出售。"
+        },
+        {
+          "h2": "付费资源包（手工包）",
+          "body": "资源包中的手工 SVG 许可用于个人手工项目（如切割、刻字膜、T 恤、贴纸等）。不得将 ZIP 或单个 SVG 作为独立数字商品转售、再分发、分享或重新上传。"
+        },
+        {
+          "h2": "知识产权",
+          "body": "付费资源包中的原创手工设计归 5SVG 所有或经授权销售。免费图库中的品牌标志与文字标识仍归各自权利人所有。5SVG 不主张第三方商标的所有权。"
+        },
+        {
+          "h2": "商标",
+          "body": "标志与文字标识仍为各自权利人的商标。5SVG 与这些品牌无隶属或背书关系。我们不将商标品牌标志作为付费商品出售。"
+        },
+        {
+          "h2": "无担保",
+          "body": "文件按「现状」提供。我们不保证完整性、适用于你的具体场景的法律合规，或资产与最新官方品牌版本一致。"
+        },
+        {
+          "h2": "联系我们",
+          "body": "关于本许可政策：请发送邮件至 support@5svg.com，或使用本站「联系我们」页面。"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "隐私政策 — 5SVG",
+      "description": "我们如何保护你在使用 5SVG 时的数据",
+      "h1": "隐私政策",
+      "sections": [
+        {
+          "h2": "引言",
+          "body": "欢迎阅读 5SVG 隐私政策。本文说明我们在你使用 5SVG 网站、免费 SVG 图库与手工资源包商店时，如何收集、使用与保护你的个人信息。"
+        },
+        {
+          "h2": "我们收集的信息",
+          "body": "我们可能收集以下信息：（1）你提供的联系方式——如购买资源包结账时填写的邮箱（用于收据与下载），或通过「联系我们」发送的留言；（2）使用数据——在启用分析时，你与网站的互动（如访问页面）；（3）设备信息——如浏览器类型等用于运营与安全的技术数据。你保存的收藏仅存于本机浏览器，我们不会在服务器接收你的收藏列表。"
+        },
+        {
+          "h2": "我们如何使用信息",
+          "body": "我们使用这些信息以提供并维护免费图库与资源包商店；交付付费 ZIP 下载及相关收据；提供客服支持；改进网站；监控使用情况；以及发现、预防并处理技术或滥用问题。"
+        },
+        {
+          "h2": "付款",
+          "body": "资源包付款由支付服务商 Creem 处理。银行卡信息由服务商处理——我们不会在 5SVG 服务器存储完整卡号。"
+        },
+        {
+          "h2": "Cookie 与本地存储",
+          "body": "网站可能使用 Cookie 或本地存储以记住主题、语言偏好、收藏与分析。你可以随时在浏览器设置中清除网站数据。阻止部分 Cookie 可能影响部分功能。"
+        },
+        {
+          "h2": "数据安全",
+          "body": "我们采取适当安全措施，保护个人信息免遭未经授权的访问、篡改、披露或毁损。任何互联网传输方式都无法做到百分之百安全。"
+        },
+        {
+          "h2": "第三方服务",
+          "body": "我们可能使用第三方协助付款、邮件发送、分析或托管。外链与页脚徽章受对应网站政策约束。"
+        },
+        {
+          "h2": "隐私政策的变更",
+          "body": "我们可能不时更新本隐私政策。变更将通过在本页发布更新后的政策通知你。"
+        },
+        {
+          "h2": "联系我们",
+          "body": "如对本隐私政策有疑问，请发送邮件至 support@5svg.com，或使用本站「联系我们」页面。"
+        }
+      ]
+    },
+    "terms": {
+      "title": "用户协议 — 5SVG",
+      "description": "使用 5SVG 网站及购买手工 SVG 资源包的条款",
+      "h1": "用户协议",
+      "sections": [
+        {
+          "h2": "引言",
+          "body": "本用户协议（「本协议」）约束你对 5SVG 网站、免费 SVG 图库与资源包商店的使用。访问 5SVG.com 或购买资源包，即表示你同意本协议、隐私政策与许可政策。如不同意，请勿使用本站或购买资源包。"
+        },
+        {
+          "h2": "服务使用",
+          "body": "我们的服务按「现状」与「可用」提供，不作任何明示或默示担保。我们不保证网站不间断、安全或无错误。浏览免费图库无需账户；购买资源包须在结账时提供有效邮箱。"
+        },
+        {
+          "h2": "售卖产品",
+          "body": "5SVG 销售数字手工 SVG 资源包（原创切割文件的 ZIP 下载），为一次付费购买。价格以美元标在每个资源包页面（通常每包 $4.50）。免费标志图库不是付费商品。我们不销售实体商品，也不将第三方品牌标志包作为付费商品出售。"
+        },
+        {
+          "h2": "价格与付款",
+          "body": "资源包价格见 https://5svg.com/shop 及各商品页，结账前均可查看。付款由 Creem（商户记录方）处理。你须在结账时提供有效邮箱，以便我们交付下载与收据。"
+        },
+        {
+          "h2": "交付",
+          "body": "资源包仅数字交付。付款成功后你将获得 ZIP 下载，并可能收到备用下载链接邮件。不涉及实体物流。"
+        },
+        {
+          "h2": "知识产权",
+          "body": "已购资源包按许可政策用于个人手工用途。不得将 ZIP 或单个文件作为独立数字商品转售、再分发或分享。免费图库中的品牌标志仍受商标权利人约束。网站内容、品牌标识与原创手工设计受适用知识产权法保护。"
+        },
+        {
+          "h2": "禁止行为",
+          "body": "你同意不得：以任何违反适用法律的方式使用本站；试图未经授权访问我们的系统；以损害可用性的方式抓取或过载服务；传播恶意软件；或以违反本协议或许可政策的方式使用已下载文件。"
+        },
+        {
+          "h2": "退款",
+          "body": "资源包为数字下载，在 ZIP 已交付且可正常使用时，一般不支持退款。若因我方原因无法下载，请在合理时间内发送邮件至 support@5svg.com；核实后我们将酌情提供重新下载或其他补救。"
+        },
+        {
+          "h2": "责任限制",
+          "body": "在任何情况下，5SVG 均不对因使用或无法使用本站或已下载文件而产生的任何间接、附带、特殊、后果性或惩罚性损害承担责任。"
+        },
+        {
+          "h2": "协议变更",
+          "body": "我们保留随时修改本协议的权利。如有变更，将通过在本页发布更新后的协议进行通知。"
+        },
+        {
+          "h2": "联系我们",
+          "body": "对本协议有疑问：请发送邮件至 support@5svg.com，或使用「联系我们」页面。我们尽量在 1～2 个工作日内回复（账单问题 3 个工作日内）。"
+        }
+      ]
+    }
+  },
+  "Ui": {
+    "searchPlaceholder": "搜索…",
+    "sortAz": "按 A–Z 排序",
+    "sortLatest": "按最新排序",
+    "accept": "知道了",
+    "logos": "个标志",
+    "azIndex": "A–Z 索引",
+    "clearSearch": "清除搜索",
+    "searchResults": "条搜索结果",
+    "svgs": "个 SVG",
+    "showAll": "显示全部",
+    "showLess": "显示更少",
+    "showMore": "显示更多",
+    "copySvg": "复制 SVG",
+    "copyDisclaimer": "使用前请确认已获得创作者授权。不允许修改。"
+  },
+  "HeroTabs": {
+    "brands": "品牌",
+    "browse": "浏览",
+    "ai": "AI",
+    "design": "设计",
+    "social": "社交",
+    "aria": "标志预览"
+  },
+  "WarningBanner": {
+    "body": "SVG 资源仅供参考。你须自行核实商标与使用权限后再用于项目。",
+    "accept": "知道了"
+  },
+  "NotFound": {
+    "title": "未找到 SVG",
+    "inCategory": "在「{category}」分类中未找到「{title}」",
+    "plain": "未找到「{title}」",
+    "searchGlobally": "全局搜索",
+    "requestSvg": "申请 SVG",
+    "submitSvg": "提交 SVG"
+  },
+  "LibraryPage": {
+    "title": "免费 SVG 图库 — 浏览图标与品牌标志 | 5SVG",
+    "description": "浏览并下载免费 SVG 图标与品牌标志。按名称搜索、按分类筛选、A–Z 排序，复制或下载文件——无需注册。",
+    "h1": "免费 SVG 图标与标志图库",
+    "lead": "按名称或分类搜索免费 SVG，然后下载矢量文件，用于设计、手工、Cricut 与网页。",
+    "sections": {
+      "search": {
+        "h2": "搜索免费 SVG 图标与标志",
+        "body": "用搜索栏按品牌或标题查找 SVG。可按 A–Z 排序或浏览最新矢量标志。",
+        "h3": "按名称、品牌或分类查找免费 SVG"
+      },
+      "download": {
+        "h2": "下载并使用 SVG 矢量文件",
+        "body": "打开任意卡片即可复制 SVG 代码或下载优化文件。可将图标加入收藏以便快速访问。",
+        "h3": "复制、下载或收藏 SVG 图标"
+      }
+    }
+  },
+  "BrowsePage": {
+    "title": "浏览全部 SVG 标志 A–Z — 免费索引 | 5SVG",
+    "description": "5SVG 全部免费 SVG 标志与品牌图标的字母索引。跳转到详情页即可复制或下载矢量文件。",
+    "h1": "浏览全部 SVG 标志",
+    "lead": "主图库免费品牌标志 SVG 的完整 A–Z 索引。每个链接打开含复制、下载与许可说明的详情页。",
+    "logosCount": "（{count} 个标志）",
+    "backLibrary": "← 交互式图库",
+    "popularBrands": "热门品牌",
+    "categories": "分类"
+  },
+  "FavoritesPage": {
+    "title": "收藏",
+    "clearAll": "全部清除",
+    "emptyTitle": "还没有收藏",
+    "emptyBody": "点击任意 SVG 上的心形图标即可加入收藏。",
+    "browseSvgs": "浏览 SVG"
   }
 }

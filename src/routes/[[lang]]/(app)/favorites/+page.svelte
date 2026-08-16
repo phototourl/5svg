@@ -25,9 +25,11 @@
   import SearchXIcon from "@lucide/svelte/icons/search-x";
   import TrashIcon from "@lucide/svelte/icons/trash";
   import FolderHeart from "@lucide/svelte/icons/folder-heart";
+  import { getI18n } from "@/lib/i18n/context";
 
   // States:
   let searchTerm = $state<string>(getParamValue("search") || "");
+  const i18n = $derived(getI18n());
 
   let allFavorites = $derived($favoritesStore);
   let filteredFavorites = $state<Array<iSVG>>([]);
@@ -66,20 +68,16 @@
 <Search
   searchValue={searchTerm}
   onSearch={handleSearch}
-  placeholder="Search..."
 />
 
-<PageCard
-  containerClass="mt-2"
-  contentCardClass="max-h-[calc(100vh-7.6rem)] min-h-[calc(100vh-7.6rem)]"
->
+<PageCard containerClass="mt-2">
   <PageHeader>
     <div
       class="flex items-center space-x-2 font-medium text-neutral-950 dark:text-neutral-50"
     >
       {#if searchTerm}
         <Button
-          title="Clear Search"
+          title={i18n.t("Ui.clearSearch")}
           onclick={handleClearSearch}
           variant="ghost"
           size="icon"
@@ -89,15 +87,15 @@
       {:else}
         <FolderHeart size={18} strokeWidth={1.5} />
       {/if}
-      <p class="text-base font-medium">Favorites</p>
+      <p class="text-base font-medium">{i18n.t("FavoritesPage.title")}</p>
       {#if favoritesCount > 0}
         <span>-</span>
         {#if !searchTerm}
-          <span>{favoritesCount} SVGs</span>
+          <span>{favoritesCount} {i18n.t("Ui.svgs")}</span>
         {:else}
           <p>
             <span class="font-mono">{filteredFavorites.length}</span>
-            <span>search results</span>
+            <span>{i18n.t("Ui.searchResults")}</span>
           </p>
         {/if}
       {/if}
@@ -105,7 +103,7 @@
     {#if favoritesCount > 0}
       <Button variant="ghost" onclick={handleClearFavorites}>
         <TrashIcon size={14} strokeWidth={1.5} />
-        <span>Clear All</span>
+        <span>{i18n.t("FavoritesPage.clearAll")}</span>
       </Button>
     {/if}
   </PageHeader>
@@ -137,14 +135,13 @@
         class="flex w-full flex-col items-center justify-center space-y-4 py-6"
       >
         <FolderHeart size={48} strokeWidth={1} />
-        <h2 class="text-xl font-semibold">No favorites yet</h2>
+        <h2 class="text-xl font-semibold">{i18n.t("FavoritesPage.emptyTitle")}</h2>
         <p class="text-center text-neutral-600 dark:text-neutral-400">
-          Start adding SVGs to your favorites by clicking the heart icon on any
-          SVG.
+          {i18n.t("FavoritesPage.emptyBody")}
         </p>
         <a href="/library" class={buttonVariants({ variant: "outline" })}>
           <SearchIcon size={14} strokeWidth={1.5} />
-          <span>Browse SVGs</span>
+          <span>{i18n.t("FavoritesPage.browseSvgs")}</span>
         </a>
       </div>
     {/if}
