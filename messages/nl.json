@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ gratis SVG-bestanden — blader door Free SVG",
+      "library": "{count}+ gratis SVG",
       "favorites": "Download · favorieten opslaan · gratis voor persoonlijk gebruik",
-      "shop": "SVG Bundles vanaf $4.50 — eenmalig betalen, direct ZIP-download"
+      "shop": "SVG Bundles vanaf $4.50"
     },
     "showAll": "Alles tonen",
     "showLess": "Minder tonen",
@@ -204,7 +204,7 @@
       "q1": "Wat verkopen jullie?",
       "a1": "We verkopen originele craft SVG Bundles — digitale ZIP-packs met snijbestanden voor makers (Cricut, Silhouette, vinyl, shirts). We verkopen geen fysieke goederen. Gratis merklogo’s in Free SVG zijn gratis en worden niet als betaalde producten verkocht.",
       "q2": "Wat kost een Bundle?",
-      "a2": "Elke craft Bundle kost meestal $4.50 USD als eenmalige aankoop. Exacte prijzen staan op https://5svg.com/shop en op elke productpagina vóór betaling.",
+      "a2": "Elke craft Bundle kost meestal $4.50 USD als eenmalige aankoop. Exacte prijzen staan op de Bundles-pagina en op elke productpagina vóór betaling.",
       "q3": "Hoe wordt het product geleverd?",
       "a3": "Levering is 100% digitaal en direct na geslaagde betaling. Geen verzending. Gebruik een geldig e-mailadres bij checkout voor je bon.",
       "q4": "Heb ik een account of software-installatie nodig?",
@@ -214,7 +214,7 @@
       "q6": "Kan ik restitutie krijgen?",
       "a6": "Omdat Bundles digitale downloads zijn, bieden we doorgaans geen restitutie zodra de ZIP is geleverd en normaal beschikbaar blijft. Faalt de download door een probleem aan onze kant, mail dan support@5svg.com; we beoordelen na verificatie.",
       "q7": "Waar vind ik Privacy Policy en Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Links staan ook in de sitefooter.",
+      "a7": "Privacy Policy, Terms of Service en License staan in de sitefooter.",
       "q8": "Hoe bereik ik support?",
       "a8": "Mail support@5svg.com of gebruik de Contact-pagina. We reageren binnen 1–2 werkdagen (binnen 3 werkdagen bij factureringsvragen).",
       "contactBefore": "Voor bovenstaande en andere vragen gebruik je de ",
@@ -437,6 +437,14 @@
     "showAll": "Alles tonen",
     "showLess": "Minder tonen",
     "showMore": "Meer tonen",
+    "perPage": "Per pagina",
+    "perPageOption": "{count} / pagina",
+    "prevPage": "Vorige",
+    "nextPage": "Volgende",
+    "totalCount": "Totaal {total}",
+    "goToPage": "Ga naar",
+    "pageSuffix": "",
+    "showingRange": "{from}–{to} van {total}",
     "copySvg": "SVG kopiëren",
     "copyDisclaimer": "Zorg ervoor dat u toestemming van de makers heeft voordat u de SVG gebruikt. Aanpassingen zijn niet toegestaan."
   },

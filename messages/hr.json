@@ -54,9 +54,9 @@
       "software": "Softver"
     },
     "announcement": {
-      "library": "{count}+ besplatnih SVG datoteka — pregledajte Free SVG",
+      "library": "{count}+ besplatnih SVG",
       "favorites": "Preuzimanje · spremite favorite · besplatno za osobnu uporabu",
-      "shop": "SVG paketi od $4.50 — platite jednom, trenutačno ZIP preuzimanje"
+      "shop": "SVG paketi od $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Što prodajete?",
       "a1": "Prodajemo originalne craft SVG pakete — digitalne ZIP pakete datoteka za rezanje za kreatore (Cricut, Silhouette, vinil, majice). Ne prodajemo fizičku robu. Brend logotipi u Free SVG besplatni su i ne prodaju se.",
       "q2": "Koliko košta paket?",
-      "a2": "Svaki craft paket tipično košta $4.50 USD kao jednokratna kupnja. Točne cijene su na https://5svg.com/shop i na svakoj stranici proizvoda prije plaćanja.",
+      "a2": "Svaki craft paket tipično košta $4.50 USD kao jednokratna kupnja. Točne cijene su na Bundles stranici i na svakoj stranici proizvoda prije plaćanja.",
       "q3": "Kako se proizvod isporučuje?",
       "a3": "Isporuka je 100 % digitalna i trenutačna nakon uspješnog plaćanja. Bez fizičke dostave. Koristite važeću e-poštu na checkoutu za račun.",
       "q4": "Treba li mi račun ili instalacija softvera?",
@@ -210,7 +210,7 @@
       "q6": "Mogu li dobiti povrat?",
       "a6": "Budući da su paketi digitalna preuzimanja, općenito ne nudimo povrate nakon što je ZIP isporučen i dostupan za normalnu uporabu. Ako preuzimanje ne uspije zbog naše greške, pišite na support@5svg.com i pregledat ćemo nakon provjere.",
       "q7": "Gdje su Privatnost i Uvjeti?",
-      "a7": "Privatnost: https://5svg.com/privacy — Uvjeti: https://5svg.com/terms — Licenca: https://5svg.com/license. Poveznice su i u podnožju.",
+      "a7": "Privatnost, uvjeti i licenca su u podnožju.",
       "q8": "Kako kontaktirati podršku?",
       "a8": "E-pošta support@5svg.com ili stranica Kontakt. Odgovaramo u 1–2 radna dana (do 3 za naplatu).",
       "contactBefore": "Za gornja i druga pitanja koristite stranicu ",
@@ -279,6 +279,14 @@
     "showAll": "Prikaži sve",
     "showLess": "Prikaži manje",
     "showMore": "Prikaži više",
+    "perPage": "Po stranici",
+    "prevPage": "Prethodna",
+    "nextPage": "Sljedeća",
+    "showingRange": "{from}–{to} od {total}",
+    "totalCount": "Ukupno {total}",
+    "perPageOption": "{count} / stranicu",
+    "goToPage": "Idi na",
+    "pageSuffix": "",
     "copySvg": "Kopiraj SVG",
     "copyDisclaimer": "Provjerite imate li dopuštenje autora prije korištenja SVG-a. Izmjene nisu dopuštene."
   },

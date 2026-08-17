@@ -1,0 +1,13 @@
+---
+description: NEVER edit only en/zh — every string change must hit all 42 locales
+alwaysApply: true
+---
+
+# 多语言必须 42 全改
+
+用户已反复强调：不要每次提醒。
+
+- 改 `messages/` 里**任何一个**用户可见字符串 → **同一回合更新全部 42 个** `messages/*.json`（含 `en-GB`、`zh-TW`、`fr-CA` 等）。
+- **禁止**只改 en / zh（或只改两三个语种）就结束。
+- 收工前用 Grep 确认新 key / 改动的 key 在全部 locale 文件里都存在。
+- 详见 skill：`.cursor/skills/i18n-all-42-locales/SKILL.md`

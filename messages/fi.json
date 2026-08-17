@@ -54,9 +54,9 @@
       "software": "Ohjelmisto"
     },
     "announcement": {
-      "library": "{count}+ ilmaista SVG-tiedostoa — selaa Free SVG:tä",
+      "library": "{count}+ ilmaista SVG",
       "favorites": "Lataa · tallenna suosikit · ilmaiseksi henkilökohtaiseen käyttöön",
-      "shop": "SVG Bundles alkaen $4.50 — maksa kerran, lataa ZIP heti"
+      "shop": "SVG Bundles alkaen $4.50"
     },
     "showAll": "Näytä kaikki",
     "showLess": "Näytä vähemmän",
@@ -204,7 +204,7 @@
       "q1": "Mitä myytte?",
       "a1": "Myymme alkuperäisiä craft SVG Bundleja — digitaalisia ZIP-paketteja leikkuutiedostoilla tekijöille (Cricut, Silhouette, vinyyli, paidat). Emme myy fyysisiä tuotteita. Ilmaiset brändilogot Free SVG:ssä ovat ilmaisia, eikä niitä myydä maksullisina tuotteina.",
       "q2": "Paljonko Bundle maksaa?",
-      "a2": "Jokainen craft Bundle maksaa tyypillisesti $4.50 USD kertamaksuna. Tarkat hinnat näkyvät osoitteessa https://5svg.com/shop ja jokaisella tuotesivulla ennen maksua.",
+      "a2": "Jokainen craft Bundle maksaa tyypillisesti $4.50 USD kertamaksuna. Tarkat hinnat näkyvät Bundles-sivulla ja jokaisella tuotesivulla ennen maksua.",
       "q3": "Miten tuote toimitetaan?",
       "a3": "Toimitus on 100 % digitaalinen ja välitön onnistuneen maksun jälkeen. Ei postitusta. Käytä voimassa olevaa sähköpostia kassalla kuittia varten.",
       "q4": "Tarvitsenko tilin tai ohjelmistoasennuksen?",
@@ -214,7 +214,7 @@
       "q6": "Voinko saada hyvityksen?",
       "a6": "Koska Bundles ovat digitaalisia latauksia, emme yleensä tarjoa hyvitystä, kun ZIP on toimitettu ja pysyy normaalisti saatavilla. Jos lataus epäonnistuu meidän virheemme vuoksi, lähetä sähköpostia support@5svg.com — tarkistamme asian vahvistuksen jälkeen.",
       "q7": "Missä ovat Privacy Policy ja Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Linkit ovat myös sivuston alatunnisteessa.",
+      "a7": "Privacy Policy, Terms of Service ja License ovat sivuston alatunnisteessa.",
       "q8": "Miten otan yhteyttä tukeen?",
       "a8": "Lähetä sähköpostia support@5svg.com tai käytä Ota yhteyttä -sivua. Vastaamme 1–2 arkipäivässä (laskutusasioissa 3 arkipäivän kuluessa).",
       "contactBefore": "Yllä oleviin ja muihin kysymyksiin käytä sivuston ",
@@ -437,6 +437,14 @@
     "showAll": "Näytä kaikki",
     "showLess": "Näytä vähemmän",
     "showMore": "Näytä lisää",
+    "perPage": "Per sivu",
+    "prevPage": "Edellinen",
+    "nextPage": "Seuraava",
+    "showingRange": "{from}–{to} / {total}",
+    "totalCount": "Yhteensä {total}",
+    "perPageOption": "{count} / sivu",
+    "goToPage": "Siirry",
+    "pageSuffix": "",
     "copySvg": "Kopioi SVG",
     "copyDisclaimer": "Varmista, että sinulla on tekijöiden lupa ennen SVG:n käyttöä. Muokkaukset eivät ole sallittuja."
   },

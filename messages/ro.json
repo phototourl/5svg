@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ fișiere SVG gratuite — răsfoiți Free SVG",
+      "library": "{count}+ SVG gratuite",
       "favorites": "Descărcare · salvați favorite · gratuit pentru uz personal",
-      "shop": "Pachete SVG de la $4.50 — plătiți o dată, descărcare ZIP imediată"
+      "shop": "Pachete SVG de la $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Ce vindeți?",
       "a1": "Vindem pachete SVG craft originale — pachete ZIP digitale cu fișiere de tăiere pentru creatori (Cricut, Silhouette, vinil, tricouri). Nu vindem bunuri fizice. Logo-urile de brand din Free SVG sunt gratuite și nu sunt vândute.",
       "q2": "Cât costă un pachet?",
-      "a2": "Fiecare pachet craft costă de obicei $4.50 USD ca achiziție unică. Prețurile exacte apar pe https://5svg.com/shop și pe fiecare pagină de produs înainte de plată.",
+      "a2": "Fiecare pachet craft costă de obicei $4.50 USD ca achiziție unică. Prețurile exacte apar pe pagina Bundles și pe fiecare pagină de produs înainte de plată.",
       "q3": "Cum este livrat produsul?",
       "a3": "Livrarea este 100% digitală și imediată după plata reușită. Fără expediere. Folosiți un e-mail valid la checkout pentru chitanță.",
       "q4": "Am nevoie de cont sau de instalare software?",
@@ -210,7 +210,7 @@
       "q6": "Pot primi o rambursare?",
       "a6": "Deoarece pachetele sunt descărcări digitale, în general nu oferim rambursări odată ce ZIP-ul a fost livrat și rămâne disponibil pentru uz normal. Dacă descărcarea eșuează din cauza noastră, scrieți la support@5svg.com și vom analiza după verificare.",
       "q7": "Unde sunt Confidențialitatea și Termenii?",
-      "a7": "Confidențialitate: https://5svg.com/privacy — Termeni: https://5svg.com/terms — Licență: https://5svg.com/license. Linkurile apar și în subsol.",
+      "a7": "Confidențialitate, termeni și licență apar în subsol.",
       "q8": "Cum contactez asistența?",
       "a8": "E-mail support@5svg.com sau pagina Contact. Răspundem în 1–2 zile lucrătoare (în 3 pentru facturare).",
       "contactBefore": "Pentru întrebările de mai sus și altele, folosiți pagina ",
@@ -279,6 +279,14 @@
     "showAll": "Afișează tot",
     "showLess": "Afișează mai puțin",
     "showMore": "Afișează mai mult",
+    "perPage": "Pe pagină",
+    "prevPage": "Anterior",
+    "nextPage": "Următor",
+    "showingRange": "{from}–{to} din {total}",
+    "totalCount": "Total {total}",
+    "perPageOption": "{count} / pagină",
+    "goToPage": "Mergi la",
+    "pageSuffix": "",
     "copySvg": "Copiază SVG",
     "copyDisclaimer": "Asigurați-vă că aveți permisiunea creatorilor înainte de a utiliza SVG-ul. Modificările nu sunt permise."
   },

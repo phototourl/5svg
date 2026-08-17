@@ -54,9 +54,9 @@
       "software": "Programari"
     },
     "announcement": {
-      "library": "{count}+ fitxers SVG gratuïts — explora Free SVG",
+      "library": "{count}+ SVG gratuïts",
       "favorites": "Descarrega · desa preferits · gratuït per a ús personal",
-      "shop": "Paquets SVG des de $4.50 — paga un cop, descarrega el ZIP a l’instant"
+      "shop": "Paquets SVG des de $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Què veneu?",
       "a1": "Venem paquets craft SVG originals — packs ZIP digitals de fitxers de tall per a creadors (Cricut, Silhouette, vinil, samarretes). No venem béns físics. Els logos de marca a Free SVG són gratuïts i no es venen com a productes de pagament.",
       "q2": "Quant costa un paquet?",
-      "a2": "Cada paquet craft sol ser $4.50 USD com a compra única. Els preus exactes es mostren a https://5svg.com/shop i a cada pàgina de producte abans de pagar.",
+      "a2": "Cada paquet craft sol ser $4.50 USD com a compra única. Els preus exactes es mostren a la pàgina Bundles i a cada pàgina de producte abans de pagar.",
       "q3": "Com s’entrega el producte?",
       "a3": "L’entrega és 100% digital i instantània després d’un pagament correcte. Sense enviament. Feu servir un correu vàlid al pagament per al rebut.",
       "q4": "Cal un compte o instal·lar programari?",
@@ -210,7 +210,7 @@
       "q6": "Puc obtenir un reemborsament?",
       "a6": "Com que els paquets són descàrregues digitals, generalment no oferim reemborsaments un cop el ZIP s’ha entregat i continua disponible per a ús normal. Si la descàrrega falla per un problema nostre, envieu un correu a support@5svg.com i ho revisarem després de verificar-ho.",
       "q7": "On són la Política de privadesa i les Condicions del servei?",
-      "a7": "Política de privadesa: https://5svg.com/privacy — Condicions del servei: https://5svg.com/terms — Llicència: https://5svg.com/license. Els enllaços també són al peu del lloc.",
+      "a7": "Política de privadesa, condicions del servei i llicència són al peu del lloc.",
       "q8": "Com contacto amb el suport?",
       "a8": "Envieu un correu a support@5svg.com o feu servir la pàgina Contacteu-nos. Intentem respondre en 1–2 dies laborables (en 3 dies laborables per a temes de facturació).",
       "contactBefore": "Per a les preguntes anteriors i altres, feu servir la pàgina ",
@@ -433,6 +433,14 @@
     "showAll": "Mostra-ho tot",
     "showLess": "Mostra’n menys",
     "showMore": "Mostra’n més",
+    "perPage": "Per pàgina",
+    "prevPage": "Anterior",
+    "nextPage": "Següent",
+    "showingRange": "{from}–{to} de {total}",
+    "totalCount": "Total {total}",
+    "perPageOption": "{count} / pàgina",
+    "goToPage": "Anar a",
+    "pageSuffix": "",
     "copySvg": "Copia l’SVG",
     "copyDisclaimer": "Assegureu-vos que teniu el permís dels creadors abans d'utilitzar l'SVG. No es permeten modificacions."
   },

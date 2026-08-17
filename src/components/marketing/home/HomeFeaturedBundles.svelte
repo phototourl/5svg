@@ -5,7 +5,18 @@
   import { getI18n } from "@/lib/i18n/context";
 
   const i18n = $derived(getI18n());
-  const featuredBundles = getLiveThemeProducts().slice(0, 3);
+
+  /** Stamp pack first; skip Halloween (previous #1). Keep Christmas + Fall next. */
+  const featuredBundles = (() => {
+    const themes = getLiveThemeProducts();
+    const stamp = themes.find((p) => p.slug === "craft-stamp-seals-pack");
+    const rest = themes.filter(
+      (p) =>
+        p.slug !== "craft-stamp-seals-pack" &&
+        p.slug !== "craft-halloween-pack",
+    );
+    return (stamp ? [stamp, ...rest] : rest).slice(0, 3);
+  })();
 </script>
 
 <section class="border-b border-neutral-200 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900/40">

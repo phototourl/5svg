@@ -54,9 +54,9 @@
       "software": "Programvara"
     },
     "announcement": {
-      "library": "{count}+ gratis SVG-filer — bläddra i Free SVG",
+      "library": "{count}+ gratis SVG",
       "favorites": "Ladda ner · spara favoriter · gratis för personligt bruk",
-      "shop": "SVG Bundles från $4.50 — betala en gång, omedelbar ZIP-nedladdning"
+      "shop": "SVG Bundles från $4.50"
     },
     "showAll": "Visa alla",
     "showLess": "Visa mindre",
@@ -204,7 +204,7 @@
       "q1": "Vad säljer ni?",
       "a1": "Vi säljer original craft SVG Bundles — digitala ZIP-paket med skärfiler för makers (Cricut, Silhouette, vinyl, tröjor). Vi säljer inte fysiska varor. Gratis varumärkeslogotyper i Free SVG är gratis och säljs inte som betalda produkter.",
       "q2": "Vad kostar en Bundle?",
-      "a2": "Varje craft Bundle kostar vanligtvis $4.50 USD som engångsköp. Exakta priser visas på https://5svg.com/shop och på varje produktsida före betalning.",
+      "a2": "Varje craft Bundle kostar vanligtvis $4.50 USD som engångsköp. Exakta priser visas på Bundles-sidan och på varje produktsida före betalning.",
       "q3": "Hur levereras produkten?",
       "a3": "Leveransen är 100 % digital och omedelbar efter lyckad betalning. Ingen frakt. Ange giltig e-post i kassan för kvitto.",
       "q4": "Behöver jag konto eller programinstallation?",
@@ -214,7 +214,7 @@
       "q6": "Kan jag få återbetalning?",
       "a6": "Eftersom Bundles är digitala nedladdningar erbjuder vi i allmänhet inte återbetalning när ZIP har levererats och förblir tillgänglig för normalt bruk. Om nedladdning misslyckas på grund av ett fel hos oss, mejla support@5svg.com så granskar vi efter verifiering.",
       "q7": "Var finns Privacy Policy och Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Länkar finns också i sidfoten.",
+      "a7": "Privacy Policy, Terms of Service, and License are linked in the site footer.",
       "q8": "Hur kontaktar jag support?",
       "a8": "Mejla support@5svg.com eller använd sidan Kontakta oss. Vi svarar inom 1–2 arbetsdagar (inom 3 arbetsdagar för faktureringsfrågor).",
       "contactBefore": "För ovanstående och andra frågor, använd ",
@@ -437,6 +437,14 @@
     "showAll": "Visa alla",
     "showLess": "Visa mindre",
     "showMore": "Visa mer",
+    "perPage": "Per sida",
+    "perPageOption": "{count} / sida",
+    "prevPage": "Föregående",
+    "nextPage": "Nästa",
+    "totalCount": "Totalt {total}",
+    "goToPage": "Gå till",
+    "pageSuffix": "",
+    "showingRange": "{from}–{to} av {total}",
     "copySvg": "Kopiera SVG",
     "copyDisclaimer": "Se till att du har tillstånd från skaparna innan du använder SVG-filen. Ändringar är inte tillåtna."
   },

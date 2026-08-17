@@ -54,9 +54,9 @@
       "software": "Oprogramowanie"
     },
     "announcement": {
-      "library": "{count}+ darmowych plików SVG — przeglądaj Free SVG",
+      "library": "{count}+ darmowych SVG",
       "favorites": "Pobierz · zapisz ulubione · za darmo do użytku osobistego",
-      "shop": "SVG Bundles od $4.50 — płatność jednorazowa, natychmiastowy ZIP"
+      "shop": "SVG Bundles od $4.50"
     },
     "showAll": "Pokaż wszystko",
     "showLess": "Pokaż mniej",
@@ -204,7 +204,7 @@
       "q1": "Co sprzedajecie?",
       "a1": "Sprzedajemy oryginalne craft SVG Bundles — cyfrowe paczki ZIP z plikami do wycinania dla makerów (Cricut, Silhouette, vinyl, koszulki). Nie sprzedajemy produktów fizycznych. Darmowe logo marek w Free SVG są darmowe i nie są produktami płatnymi.",
       "q2": "Ile kosztuje Bundle?",
-      "a2": "Każdy Bundle craft zwykle kosztuje $4.50 USD jako zakup jednorazowy. Dokładne ceny są na https://5svg.com/shop i na każdej stronie produktu przed płatnością.",
+      "a2": "Każdy Bundle craft zwykle kosztuje $4.50 USD jako zakup jednorazowy. Dokładne ceny są na stronie Bundles i na każdej stronie produktu przed płatnością.",
       "q3": "Jak dostarczany jest produkt?",
       "a3": "Dostawa jest w 100% cyfrowa i natychmiastowa po udanej płatności. Bez wysyłki. Podaj ważny e-mail przy checkout dla potwierdzenia.",
       "q4": "Czy potrzebuję konta lub instalacji oprogramowania?",
@@ -214,7 +214,7 @@
       "q6": "Czy mogę dostać zwrot?",
       "a6": "Ponieważ Bundles to pobrania cyfrowe, zwykle nie oferujemy zwrotów, gdy ZIP został dostarczony i jest dostępny do normalnego użycia. Jeśli pobieranie nie działa z naszej winy, napisz na support@5svg.com — sprawdzimy po weryfikacji.",
       "q7": "Gdzie są Privacy Policy i Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Linki są też w stopce strony.",
+      "a7": "Privacy Policy, Terms of Service i License są w stopce strony.",
       "q8": "Jak skontaktować się z pomocą?",
       "a8": "Napisz na support@5svg.com lub użyj strony Kontakt. Odpowiadamy w ciągu 1–2 dni roboczych (do 3 dni roboczych w sprawach rozliczeń).",
       "contactBefore": "W powyższych i innych sprawach skorzystaj ze strony ",
@@ -437,6 +437,14 @@
     "showAll": "Pokaż wszystko",
     "showLess": "Pokaż mniej",
     "showMore": "Pokaż więcej",
+    "perPage": "Na stronę",
+    "prevPage": "Poprzednia",
+    "nextPage": "Następna",
+    "showingRange": "{from}–{to} z {total}",
+    "totalCount": "Łącznie {total}",
+    "perPageOption": "{count} / stronę",
+    "goToPage": "Idź do",
+    "pageSuffix": "",
     "copySvg": "Kopiuj SVG",
     "copyDisclaimer": "Upewnij się, że masz zgodę twórców przed użyciem pliku SVG. Modyfikacje są niedozwolone."
   },

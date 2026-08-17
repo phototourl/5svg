@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ file SVG gratis — sfoglia Free SVG",
+      "library": "{count}+ file SVG gratis",
       "favorites": "Scarica · salva i preferiti · gratis per uso personale",
-      "shop": "SVG Bundles da $4.50 — pagamento unico, download ZIP immediato"
+      "shop": "SVG Bundles da $4.50"
     },
     "showAll": "Mostra tutto",
     "showLess": "Mostra meno",
@@ -204,7 +204,7 @@
       "q1": "Cosa vendete?",
       "a1": "Vendiamo Bundles SVG craft originali — pack ZIP digitali di file di taglio per maker (Cricut, Silhouette, vinile, magliette). Non vendiamo prodotti fisici. I logo di marca in Free SVG sono gratis e non sono prodotti a pagamento.",
       "q2": "Quanto costa un Bundle?",
-      "a2": "Ogni Bundle craft costa in genere $4.50 USD come acquisto unico. I prezzi esatti sono su https://5svg.com/shop e su ogni pagina prodotto prima del pagamento.",
+      "a2": "Ogni Bundle craft costa in genere $4.50 USD come acquisto unico. I prezzi esatti sono sulla pagina Bundles e su ogni pagina prodotto prima del pagamento.",
       "q3": "Come viene consegnato il prodotto?",
       "a3": "La consegna è 100% digitale e immediata dopo il pagamento riuscito. Nessuna spedizione. Usa un’email valida al checkout per la ricevuta.",
       "q4": "Serve un account o un software da installare?",
@@ -214,7 +214,7 @@
       "q6": "Posso ottenere un rimborso?",
       "a6": "Poiché i Bundles sono download digitali, in genere non offriamo rimborsi una volta consegnato lo ZIP e restando disponibile per l’uso normale. Se il download fallisce per un problema nostro, scrivi a support@5svg.com e valuteremo dopo verifica.",
       "q7": "Dove trovo Privacy Policy e Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. I link sono anche nel footer del sito.",
+      "a7": "Privacy Policy, Terms of Service e License sono collegati nel footer del sito.",
       "q8": "Come contatto l’assistenza?",
       "a8": "Scrivi a support@5svg.com o usa la pagina Contattaci. Rispondiamo entro 1–2 giorni lavorativi (entro 3 giorni lavorativi per questioni di fatturazione).",
       "contactBefore": "Per queste e altre domande, usa la pagina ",
@@ -437,6 +437,14 @@
     "showAll": "Mostra tutto",
     "showLess": "Mostra meno",
     "showMore": "Mostra di più",
+    "perPage": "Per pagina",
+    "perPageOption": "{count} / pagina",
+    "prevPage": "Precedente",
+    "nextPage": "Successiva",
+    "totalCount": "Totale {total}",
+    "goToPage": "Vai a",
+    "pageSuffix": "",
+    "showingRange": "{from}–{to} di {total}",
     "copySvg": "Copia SVG",
     "copyDisclaimer": "Assicurati di avere l'autorizzazione dei creatori prima di utilizzare l'SVG. Non sono consentite modifiche."
   },

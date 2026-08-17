@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ datotecas SVG gratuitas — sfegliar Free SVG",
+      "library": "{count}+ SVG gratuitas",
       "favorites": "Telechargiar · memorisar favurits · gratuit per diever persunal",
-      "shop": "Pachets SVG a partir da $4.50 — pagar ina giada, ZIP immediat"
+      "shop": "Pachets SVG da $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Tge vendais Vus?",
       "a1": "Nus vendain pachets craft SVG originals — packs ZIP digitals da datotecas da tagl per makers (Cricut, Silhouette, vinyl, t-shirts). Nus na vendain betg bains fisics. Logos da marca en Free SVG èn gratuits e na vegnan betg vendids sco products pagads.",
       "q2": "Quant custa in pachet?",
-      "a2": "Mintga pachet craft custa tipicamain $4.50 USD sco cumpranza unica. Pretschs exacts stattan sin https://5svg.com/shop e sin mintga pagina da product avant che Vus pajais.",
+      "a2": "Mintga pachet craft custa tipicamain $4.50 USD sco cumpranza unica. Pretschs exacts stattan sin la pagina Bundles e sin mintga pagina da product avant che Vus pajais.",
       "q3": "Sco vegn il product consignà?",
       "a3": "La consegna è 100% digitala ed immediata suenter pajament reussì. Nagina spediziun. Utilisar in e-mail valid al checkout per la quittanza.",
       "q4": "Basegnai jau in conto u installaziun da software?",
@@ -210,7 +210,7 @@
       "q6": "Poss jau survegnir ina refusiun?",
       "a6": "Perquai che pachets èn telechargiaments digitals, nus na offrin en general naginas refusiuns uschespert che il ZIP è consignà e resta disponibel per diever normal. Sche il telechargiament na reussescha betg per ina problematica da nossa vart, scrivai a support@5svg.com e nus controllain suenter verificaziun.",
       "q7": "Nua èn Protecziun da datas e Cundiziuns d’utilisaziun?",
-      "a7": "Protecziun da datas: https://5svg.com/privacy — Cundiziuns: https://5svg.com/terms — Licenza: https://5svg.com/license. Links èn era en il pe da pagina.",
+      "a7": "Protecziun da datas, cundiziuns e licenza èn en il pe da pagina.",
       "q8": "Sco contactar il support?",
       "a8": "E-mail support@5svg.com u la pagina Contactar nus. Nus spitgains da responder entaifer 1–2 dis da lavur (entaifer 3 dis da lavur per dumondas da facturaziun).",
       "contactBefore": "Per las dumondas survart e per autras, utilisai per plaschair la pagina ",
@@ -279,6 +279,14 @@
     "showAll": "Mussar tut",
     "showLess": "Mussar damain",
     "showMore": "Mussar dapli",
+    "perPage": "Per pagina",
+    "prevPage": "Enavos",
+    "nextPage": "Proxim",
+    "showingRange": "{from}–{to} da {total}",
+    "totalCount": "Total {total}",
+    "perPageOption": "{count} / pagina",
+    "goToPage": "Ir a",
+    "pageSuffix": "",
     "copySvg": "Copiar SVG",
     "copyDisclaimer": "Assegurai che Vus haias il consentiment dals creaturs avant l'utilisaziun dal SVG. Modificaziuns n'èn betg lubidas."
   },

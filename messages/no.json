@@ -54,9 +54,9 @@
       "software": "Programvare"
     },
     "announcement": {
-      "library": "{count}+ gratis SVG-filer — bla gjennom Free SVG",
+      "library": "{count}+ gratis SVG",
       "favorites": "Last ned · lagre favoritter · gratis til personlig bruk",
-      "shop": "SVG Bundles fra $4.50 — betal én gang, umiddelbar ZIP-nedlasting"
+      "shop": "SVG Bundles fra $4.50"
     },
     "showAll": "Vis alle",
     "showLess": "Vis mindre",
@@ -204,7 +204,7 @@
       "q1": "Hva selger dere?",
       "a1": "Vi selger originale craft SVG Bundles — digitale ZIP-pakker med skjærefiler for makers (Cricut, Silhouette, vinyl, t-skjorter). Vi selger ikke fysiske varer. Gratis merkelogoer i Free SVG er gratis og selges ikke som betalte produkter.",
       "q2": "Hva koster en Bundle?",
-      "a2": "Hver craft Bundle koster vanligvis $4.50 USD som engangskjøp. Nøyaktige priser vises på https://5svg.com/shop og på hver produktside før betaling.",
+      "a2": "Hver craft Bundle koster vanligvis $4.50 USD som engangskjøp. Nøyaktige priser vises på Bundles-siden og på hver produktside før betaling.",
       "q3": "Hvordan leveres produktet?",
       "a3": "Levering er 100 % digital og umiddelbar etter vellykket betaling. Ingen frakt. Bruk gyldig e-post i kassen for kvittering.",
       "q4": "Trenger jeg konto eller programvareinstallasjon?",
@@ -214,7 +214,7 @@
       "q6": "Kan jeg få refusjon?",
       "a6": "Fordi Bundles er digitale nedlastinger, tilbyr vi generelt ikke refusjon når ZIP er levert og forblir tilgjengelig for normal bruk. Hvis nedlasting mislykkes på grunn av et problem hos oss, send e-post til support@5svg.com — vi vurderer etter verifisering.",
       "q7": "Hvor er Privacy Policy og Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Lenker finnes også i bunnteksten.",
+      "a7": "Privacy Policy, Terms of Service og License finnes i bunnteksten.",
       "q8": "Hvordan kontakter jeg support?",
       "a8": "Send e-post til support@5svg.com eller bruk siden Kontakt oss. Vi svarer innen 1–2 virkedager (innen 3 virkedager for fakturaspørsmål).",
       "contactBefore": "For ovenstående og andre spørsmål, bruk ",
@@ -437,6 +437,14 @@
     "showAll": "Vis alle",
     "showLess": "Vis mindre",
     "showMore": "Vis mer",
+    "perPage": "Per side",
+    "prevPage": "Forrige",
+    "nextPage": "Neste",
+    "showingRange": "{from}–{to} av {total}",
+    "totalCount": "Totalt {total}",
+    "perPageOption": "{count} / side",
+    "goToPage": "Gå til",
+    "pageSuffix": "",
     "copySvg": "Kopier SVG",
     "copyDisclaimer": "Sørg for at du har tillatelse fra skaperne før du bruker SVG-filen. Endringer er ikke tillatt."
   },

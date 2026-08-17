@@ -54,9 +54,9 @@
       "software": "Phần mềm"
     },
     "announcement": {
-      "library": "{count}+ tệp SVG miễn phí — duyệt thư viện miễn phí",
+      "library": "{count}+ tệp SVG miễn phí",
       "favorites": "Tải xuống · lưu yêu thích · miễn phí dùng cá nhân",
-      "shop": "Gói SVG từ $4.50 — thanh toán một lần, tải ZIP ngay"
+      "shop": "Gói SVG từ $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Bạn bán gì?",
       "a1": "Chúng tôi bán gói craft SVG gốc — gói ZIP kỹ thuật số gồm tệp cắt cho người làm thủ công (Cricut, Silhouette, vinyl, áo). Chúng tôi không bán hàng vật lý. Logo thương hiệu trong thư viện miễn phí miễn phí và không bán như sản phẩm trả phí.",
       "q2": "Một gói giá bao nhiêu?",
-      "a2": "Mỗi gói craft thường là $4.50 USD mua một lần. Giá chính xác hiển thị tại https://5svg.com/shop và trên mọi trang sản phẩm trước khi bạn thanh toán.",
+      "a2": "Mỗi gói craft thường là $4.50 USD mua một lần. Giá chính xác hiển thị tại trang Bundles và trên mọi trang sản phẩm trước khi bạn thanh toán.",
       "q3": "Sản phẩm được giao như thế nào?",
       "a3": "Giao hàng 100% kỹ thuật số và tức thì sau thanh toán thành công. Không vận chuyển. Dùng email hợp lệ lúc thanh toán để nhận biên lai.",
       "q4": "Tôi có cần tài khoản hoặc cài phần mềm không?",
@@ -210,7 +210,7 @@
       "q6": "Tôi có thể được hoàn tiền không?",
       "a6": "Vì gói là tải kỹ thuật số, chúng tôi thường không hoàn tiền khi ZIP đã được giao và vẫn dùng được bình thường. Nếu tải thất bại do lỗi phía chúng tôi, email support@5svg.com và chúng tôi sẽ xem xét sau khi xác minh.",
       "q7": "Chính sách quyền riêng tư và Điều khoản dịch vụ ở đâu?",
-      "a7": "Chính sách quyền riêng tư: https://5svg.com/privacy — Điều khoản dịch vụ: https://5svg.com/terms — Giấy phép: https://5svg.com/license. Liên kết cũng có ở chân trang.",
+      "a7": "Chính sách quyền riêng tư, Điều khoản dịch vụ và Giấy phép có ở chân trang.",
       "q8": "Làm sao liên hệ hỗ trợ?",
       "a8": "Email support@5svg.com hoặc dùng trang Liên hệ. Chúng tôi cố gắng trả lời trong 1–2 ngày làm việc (trong 3 ngày làm việc với vấn đề thanh toán).",
       "contactBefore": "Với các câu hỏi trên và khác, vui lòng dùng trang ",
@@ -433,6 +433,14 @@
     "showAll": "Hiện tất cả",
     "showLess": "Hiện ít hơn",
     "showMore": "Hiện thêm",
+    "perPage": "Mỗi trang",
+    "prevPage": "Trước",
+    "nextPage": "Sau",
+    "showingRange": "{from}–{to} / {total}",
+    "totalCount": "Tổng {total}",
+    "perPageOption": "{count} / trang",
+    "goToPage": "Đến",
+    "pageSuffix": "",
     "copySvg": "Sao chép SVG",
     "copyDisclaimer": "Vui lòng đảm bảo bạn đã có sự cho phép từ người sáng tạo trước khi sử dụng SVG. Không được phép chỉnh sửa."
   },

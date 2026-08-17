@@ -54,9 +54,9 @@
       "software": "Perisian"
     },
     "announcement": {
-      "library": "{count}+ fail SVG percuma — semak imbas pustaka percuma",
+      "library": "{count}+ fail SVG percuma",
       "favorites": "Muat turun · simpan kegemaran · percuma untuk kegunaan peribadi",
-      "shop": "Pakej SVG dari $4.50 — bayar sekali, muat turun ZIP serta-merta"
+      "shop": "Pakej SVG dari $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Apa yang anda jual?",
       "a1": "Kami menjual pakej craft SVG asal — pakej ZIP digital fail potong untuk pembuat (Cricut, Silhouette, vinyl, baju). Kami tidak menjual barangan fizikal. Logo jenama dalam pustaka percuma adalah percuma dan tidak dijual sebagai produk berbayar.",
       "q2": "Berapa harga satu pakej?",
-      "a2": "Setiap pakej craft biasanya $4.50 USD sebagai pembelian sekali. Harga tepat ditunjukkan di https://5svg.com/shop dan pada setiap halaman produk sebelum anda membayar.",
+      "a2": "Setiap pakej craft biasanya $4.50 USD sebagai pembelian sekali. Harga tepat ditunjukkan di halaman Bundles dan pada setiap halaman produk sebelum anda membayar.",
       "q3": "Bagaimana produk dihantar?",
       "a3": "Penghantaran 100% digital dan serta-merta selepas pembayaran berjaya. Tiada penghantaran fizikal. Gunakan e-mel yang sah di checkout untuk resit.",
       "q4": "Adakah saya perlu akaun atau pemasangan perisian?",
@@ -210,7 +210,7 @@
       "q6": "Bolehkah saya mendapat bayaran balik?",
       "a6": "Kerana pakej ialah muat turun digital, kami umumnya tidak menawarkan bayaran balik sebaik ZIP telah dihantar dan kekal tersedia untuk kegunaan biasa. Jika muat turun gagal kerana isu di pihak kami, e-mel support@5svg.com dan kami akan semak selepas pengesahan.",
       "q7": "Di manakah Dasar Privasi dan Syarat Perkhidmatan?",
-      "a7": "Dasar Privasi: https://5svg.com/privacy — Syarat Perkhidmatan: https://5svg.com/terms — Lesen: https://5svg.com/license. Pautan juga ada di pengaki laman.",
+      "a7": "Dasar Privasi, Syarat Perkhidmatan dan Lesen ada di pengaki laman.",
       "q8": "Bagaimana saya menghubungi sokongan?",
       "a8": "E-mel support@5svg.com atau gunakan halaman Hubungi kami. Kami bertujuan membalas dalam 1–2 hari bekerja (dalam 3 hari bekerja untuk isu bil).",
       "contactBefore": "Untuk soalan di atas dan lain-lain, sila gunakan halaman ",
@@ -433,6 +433,14 @@
     "showAll": "Tunjuk semua",
     "showLess": "Tunjuk kurang",
     "showMore": "Tunjuk lagi",
+    "perPage": "Setiap halaman",
+    "prevPage": "Sebelumnya",
+    "nextPage": "Seterusnya",
+    "showingRange": "{from}–{to} daripada {total}",
+    "totalCount": "Jumlah {total}",
+    "perPageOption": "{count} / halaman",
+    "goToPage": "Pergi ke",
+    "pageSuffix": "",
     "copySvg": "Salin SVG",
     "copyDisclaimer": "Sila pastikan anda mempunyai kebenaran daripada pencipta sebelum menggunakan SVG. Pengubahsuaian tidak dibenarkan."
   },

@@ -1,11 +1,11 @@
 <script lang="ts">
   import type { PageProps } from "./$types";
+  import { browser } from "$app/environment";
 
   import { cn } from "@/utils/cn";
   import { deleteParam } from "@/utils/searchParams";
   import { searchSvgsWithFuse } from "@/utils/searchWithFuse";
 
-  // Components:
   import Grid from "@/components/grid.svelte";
   import Search from "@/components/search.svelte";
   import PageCard from "@/components/pageCard.svelte";
@@ -14,19 +14,17 @@
   import PageHeader from "@/components/pageHeader.svelte";
   import SortSvgs from "@/components/svgs/sortSvgs.svelte";
   import SvgNotFound from "@/components/svgs/svgNotFound.svelte";
+  import SvgPagination from "@/components/svgs/SvgPagination.svelte";
   import { Button, buttonVariants } from "@/components/ui/button";
 
   import SearchXIcon from "@lucide/svelte/icons/search-x";
   import FolderIcon from "@lucide/svelte/icons/folder-open";
   import ArrowLeftIcon from "@lucide/svelte/icons/arrow-left";
-  import ChevronDownIcon from "@lucide/svelte/icons/chevron-down";
-  import ChevronUpIcon from "@lucide/svelte/icons/chevron-up";
 
   import { brand } from "@/brand";
   import { getDirectorySeo } from "@/config/directory-seo";
   import { getI18n } from "@/lib/i18n/context";
 
-  // SSR Data:
   let { data }: PageProps = $props();
 
   const i18n = $derived(getI18n());
@@ -35,11 +33,10 @@
     getDirectorySeo(data.category, data.initialSvgs.length),
   );
 
-  // States:
-  const INITIAL_DISPLAY = 30;
-  const INCREMENT = 10;
+  const DEFAULT_PAGE_SIZE = 50;
 
-  let maxDisplay = $state<number>(INITIAL_DISPLAY);
+  let pageSize = $state(DEFAULT_PAGE_SIZE);
+  let currentPage = $state(1);
   let sortOverride = $state<boolean | null>(null);
   let searchOverride = $state<string | null>(null);
 
@@ -58,30 +55,35 @@
       .map((result) => result.item);
   });
 
-  const displaySvgs = $derived(filteredSvgs.slice(0, maxDisplay));
+  const totalPages = $derived(
+    Math.max(1, Math.ceil(filteredSvgs.length / pageSize)),
+  );
+  const safePage = $derived(Math.min(currentPage, totalPages));
+
+  const displaySvgs = $derived.by(() => {
+    const start = (safePage - 1) * pageSize;
+    return filteredSvgs.slice(start, start + pageSize);
+  });
+
+  function resetPage() {
+    currentPage = 1;
+  }
 
   const handleSearch = (value: string) => {
     searchOverride = value;
-    maxDisplay = INITIAL_DISPLAY;
+    resetPage();
   };
 
   const handleClearSearch = () => {
     searchOverride = "";
-    maxDisplay = INITIAL_DISPLAY;
+    resetPage();
     deleteParam("search");
   };
 
-  const handleShowMore = () => {
-    maxDisplay += INCREMENT;
-  };
-
-  const handleShowLess = () => {
-    maxDisplay = INITIAL_DISPLAY;
-  };
-
-  const handleShowAll = () => {
-    maxDisplay = filteredSvgs.length;
-  };
+  function scrollToGridTop() {
+    if (!browser) return;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 
   const scriptClose = "</" + "script>";
   const collectionJsonLdHtml = $derived.by(() => {
@@ -172,20 +174,9 @@
         {isSorted}
         onSortedChange={(value) => {
           sortOverride = value;
-          maxDisplay = INITIAL_DISPLAY;
+          resetPage();
         }}
       />
-      {#if filteredSvgs.length > maxDisplay}
-        <Button variant="ghost" class="px-2.5" onclick={handleShowAll}>
-          <span>{i18n.t("Ui.showAll")}</span>
-        </Button>
-      {/if}
-      {#if maxDisplay > INITIAL_DISPLAY && filteredSvgs.length > INITIAL_DISPLAY}
-        <Button variant="ghost" class="px-2.5" onclick={handleShowLess}>
-          <span>{i18n.t("Ui.showLess")}</span>
-          <ChevronUpIcon size={16} strokeWidth={2} />
-        </Button>
-      {/if}
     </div>
   </PageHeader>
   <Container className="my-6">
@@ -201,25 +192,23 @@
         <SvgCard svgInfo={svg} />
       {/each}
     </Grid>
-    {#if filteredSvgs.length > maxDisplay}
-      <div class="mt-6 flex justify-center">
-        <Button
-          variant="outline"
-          size="lg"
-          class="px-2.5"
-          onclick={handleShowMore}
-        >
-          <span>{i18n.t("Ui.showMore")}</span>
-          <span class="text-neutral-600 dark:text-neutral-400">
-            (+ {Math.min(INCREMENT, filteredSvgs.length - maxDisplay)}
-            {i18n.t("Ui.svgs")})
-          </span>
-          <ChevronDownIcon size={16} strokeWidth={2} />
-        </Button>
-      </div>
-    {/if}
     {#if filteredSvgs.length === 0}
       <SvgNotFound svgTitle={searchTerm} category={data.category} />
+    {:else}
+      <SvgPagination
+        total={filteredSvgs.length}
+        page={safePage}
+        {pageSize}
+        onPageChange={(p) => {
+          currentPage = p;
+          scrollToGridTop();
+        }}
+        onPageSizeChange={(size) => {
+          pageSize = size;
+          resetPage();
+          scrollToGridTop();
+        }}
+      />
     {/if}
   </Container>
 </PageCard>

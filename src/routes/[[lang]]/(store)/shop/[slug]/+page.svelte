@@ -201,28 +201,27 @@
   <meta name="description" content={displayDescription} />
 </svelte:head>
 
-<Container className="my-10 max-w-4xl">
+<Container className="my-10 max-w-4xl pb-52 md:pb-0">
   <InternalLink href="/shop" className="text-sm text-brand-energy dark:text-brand">
     ← {i18n.t("shop.backToShop")}
   </InternalLink>
 
-  <div class="mt-6 grid items-start gap-8 md:grid-cols-2">
-    <ProductPreviewCarousel
-      previews={previews}
-      label={displayTitle}
-      variant={isWholeShop ? "wholeShop" : "pack"}
-    />
+  <div class="mt-6 grid min-w-0 items-start gap-8 md:grid-cols-2">
+    <div class="min-w-0">
+      <ProductPreviewCarousel
+        previews={previews}
+        label={displayTitle}
+        variant={isWholeShop ? "wholeShop" : "pack"}
+      />
+    </div>
 
-    <div>
+    <div class="min-w-0">
       <div class="text-xs font-semibold uppercase tracking-wide text-brand-energy dark:text-brand">
         {displayCategory}
       </div>
       <h1 class="mt-1 text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-50">
         {displayTitle}
       </h1>
-      <p class="mt-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
-        {displayDescription}
-      </p>
       <div class="mt-4 flex items-baseline gap-2">
         <span class="text-2xl font-semibold text-neutral-900 dark:text-neutral-50">
           {formatUsd(data.product.priceCents)}
@@ -236,6 +235,10 @@
       <p class="mt-1 text-xs text-neutral-500">
         {i18n.t("shop.fileCount", { count: data.product.fileCount })} ·
         {i18n.t(`shop.license.${data.product.license}`)}
+      </p>
+
+      <p class="mt-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        {displayDescription}
       </p>
 
       {#if data.sampleTitles.length}
@@ -256,18 +259,29 @@
         </ul>
       {/if}
 
-      <div class="mt-6">
-        <CheckoutPanel
-          phase={payPhase}
-          displayTitle={displayTitle}
-          mockCheckout={data.mockCheckout}
-          payMessage={payMessage}
-          emailHint={emailHint}
-          canRetry={!!paidOrderToken}
-          onBuy={buy}
-          onRetry={retryDownload}
-        />
-      </div>
+      <!-- EditStamp-style: mobile sticky pay strip; desktop inline card -->
+      {#if payPhase === "idle" || payPhase === "error" || payPhase === "ready"}
+        <div
+          class="fixed inset-x-0 bottom-0 z-40 border-t border-neutral-200 bg-white px-4 pt-3 pb-[max(0.5rem,env(safe-area-inset-bottom))] shadow-[0_-8px_24px_rgba(0,0,0,0.06)] md:static md:z-auto md:mt-6 md:border-0 md:bg-transparent md:p-0 md:shadow-none dark:border-neutral-800 dark:bg-neutral-950 md:dark:bg-transparent"
+          id="checkout"
+        >
+          <div class="mx-auto max-w-4xl md:max-w-none">
+            <CheckoutPanel
+              phase={payPhase}
+              displayTitle={displayTitle}
+              mockCheckout={data.mockCheckout}
+              payMessage={payMessage}
+              emailHint={emailHint}
+              canRetry={!!paidOrderToken}
+              priceCents={data.product.priceCents}
+              compareAtCents={data.product.compareAtCents}
+              docked
+              onBuy={buy}
+              onRetry={retryDownload}
+            />
+          </div>
+        </div>
+      {/if}
     </div>
   </div>
 </Container>

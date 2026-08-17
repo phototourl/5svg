@@ -53,9 +53,9 @@
       "termsOfService": "이용약관"
     },
     "announcement": {
-      "library": "{count}+ 무료 SVG — 무료 라이브러리 둘러보기",
+      "library": "{count}+ 무료 SVG",
       "favorites": "다운로드 · 즐겨찾기 · 개인 사용 무료",
-      "shop": "SVG 팩 $4.50부터 — 한 번 결제, 즉시 ZIP 다운로드"
+      "shop": "SVG 팩 $4.50부터"
     },
     "siteName": "5SVG",
     "showAll": "모두 보기",
@@ -151,7 +151,7 @@
       "q1": "무엇을 판매하나요?",
       "a1": "오리지널 공예 SVG 팩 — 메이커용 컷 파일 ZIP입니다. 실물 상품은 없습니다. 무료 라이브러리 브랜드 로고는 무료이며 유료 판매하지 않습니다.",
       "q2": "팩 가격은?",
-      "a2": "보통 $4.50 USD 1회 결제입니다. 정확한 가격은 https://5svg.com/shop 및 각 상품 페이지에 표시됩니다.",
+      "a2": "보통 $4.50 USD 1회 결제입니다. 정확한 가격은 Bundles 페이지 및 각 상품 페이지에 표시됩니다.",
       "q3": "어떻게 전달되나요?",
       "a3": "결제 성공 후 100% 디지털로 즉시 제공됩니다. 배송 없음. 영수증용으로 유효한 이메일을 입력하세요.",
       "q4": "계정이나 설치가 필요한가요?",
@@ -161,7 +161,7 @@
       "q6": "환불이 가능한가요?",
       "a6": "디지털 다운로드는 ZIP 제공 후 일반적으로 환불하지 않습니다. 당사 문제로 다운로드가 안 되면 support@5svg.com으로 문의하세요.",
       "q7": "개인정보처리방침과 약관은 어디에?",
-      "a7": "개인정보: https://5svg.com/privacy — 약관: https://5svg.com/terms — 라이선스: https://5svg.com/license. 푸터에도 있습니다.",
+      "a7": "개인정보, 약관, 라이선스는 푸터에서 확인할 수 있습니다.",
       "q8": "지원팀에 어떻게 연락하나요?",
       "a8": "support@5svg.com 또는 문의 페이지. 영업일 1–2일 내(결제 관련 최대 3일) 답변합니다.",
       "contactBefore": "위 내용 및 기타 문의는 사이트의 ",
@@ -283,6 +283,14 @@
     "showAll": "모두 보기",
     "showLess": "간략히 보기",
     "showMore": "더 보기",
+    "perPage": "페이지당",
+    "perPageOption": "{count}개/페이지",
+    "prevPage": "이전",
+    "nextPage": "다음",
+    "totalCount": "총 {total}개",
+    "goToPage": "이동",
+    "pageSuffix": "페이지",
+    "showingRange": "{from}–{to} / 총 {total}",
     "copySvg": "SVG 복사",
     "copyDisclaimer": "SVG를 사용하기 전에 창작자의 허가를 받았는지 확인해 주세요. 수정은 허용되지 않습니다."
   },

@@ -56,7 +56,7 @@
 </script>
 
 <div
-  class="relative"
+  class="relative min-w-0 w-full max-w-full"
   role="region"
   aria-roledescription="carousel"
   aria-label={label}
@@ -66,21 +66,21 @@
   <div
     class={isWholeShop
       ? "relative aspect-[16/10] overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-100 dark:border-neutral-700 dark:bg-neutral-100"
-      : "flex min-h-80 items-center justify-center rounded-2xl border border-neutral-200 bg-neutral-100 p-4 dark:border-neutral-700 dark:bg-neutral-100"}
+      : "flex min-h-64 items-center justify-center overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-100 p-4 sm:min-h-80 dark:border-neutral-700 dark:bg-neutral-100"}
   >
     <img
       src={current.path}
       alt={current.filename}
       class={isWholeShop
         ? "absolute inset-0 h-full w-full object-contain object-center transition-opacity duration-300"
-        : "max-h-80 w-full max-w-full object-contain transition-opacity duration-300"}
+        : "max-h-64 w-full max-w-full object-contain transition-opacity duration-300 sm:max-h-80"}
     />
   </div>
 
   {#if previews.length > 1}
     <button
       type="button"
-      class="absolute top-1/2 left-2 flex h-9 w-9 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-brand-energy text-[#22c55e] shadow-sm transition hover:scale-110 hover:bg-brand-energy-hover dark:bg-brand dark:text-brand-energy dark:hover:bg-brand-hover"
+      class="absolute top-1/2 left-2 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-brand-energy text-[#22c55e] shadow-sm transition hover:scale-110 hover:bg-brand-energy-hover sm:h-9 sm:w-9 dark:bg-brand dark:text-brand-energy dark:hover:bg-brand-hover"
       aria-label="Previous preview"
       onclick={() => go(-1)}
     >
@@ -88,28 +88,30 @@
     </button>
     <button
       type="button"
-      class="absolute top-1/2 right-2 flex h-9 w-9 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-brand-energy text-[#22c55e] shadow-sm transition hover:scale-110 hover:bg-brand-energy-hover dark:bg-brand dark:text-brand-energy dark:hover:bg-brand-hover"
+      class="absolute top-1/2 right-2 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-brand-energy text-[#22c55e] shadow-sm transition hover:scale-110 hover:bg-brand-energy-hover sm:h-9 sm:w-9 dark:bg-brand dark:text-brand-energy dark:hover:bg-brand-hover"
       aria-label="Next preview"
       onclick={() => go(1)}
     >
       <ChevronRight class="h-5 w-5" />
     </button>
 
-    <div class="mt-3 flex items-center justify-center gap-2">
-      {#each previews as preview, i (preview.path)}
-        <button
-          type="button"
-          class="h-2 w-2 rounded-full transition-colors {i === index
-            ? 'bg-brand'
-            : 'bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-600'}"
-          aria-label={`Preview ${i + 1}`}
-          aria-current={i === index}
-          onclick={() => goTo(i)}
-        ></button>
-      {/each}
-    </div>
+    {#if previews.length <= 12}
+      <div class="mt-3 flex flex-wrap items-center justify-center gap-2">
+        {#each previews as preview, i (preview.path)}
+          <button
+            type="button"
+            class="h-2.5 w-2.5 rounded-full transition-colors {i === index
+              ? 'bg-brand'
+              : 'bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-600'}"
+            aria-label={`Preview ${i + 1}`}
+            aria-current={i === index}
+            onclick={() => goTo(i)}
+          ></button>
+        {/each}
+      </div>
+    {/if}
 
-    <p class="mt-2 truncate text-center font-mono text-xs text-neutral-500">
+    <p class="mt-2 truncate px-1 text-center font-mono text-xs text-neutral-500">
       {#if isWholeShop}
         {index + 1}/{previews.length}
       {:else}
@@ -117,13 +119,14 @@
       {/if}
     </p>
 
-    <div class="mt-3 flex gap-2 overflow-x-auto pb-1">
+    <!-- min-w-0 + overflow-x-auto: many pack previews must scroll, not widen the page -->
+    <div class="mt-3 -mx-1 flex min-w-0 gap-2 overflow-x-auto overscroll-x-contain px-1 pb-1 [-webkit-overflow-scrolling:touch]">
       {#each previews as preview, i (preview.path)}
         <button
           type="button"
           class="shrink-0 overflow-hidden rounded-lg border bg-neutral-100 dark:border-neutral-600 dark:bg-neutral-100 {isWholeShop
             ? 'h-14 w-20'
-            : 'h-14 w-14 p-1'} {i === index
+            : 'h-16 w-16 p-1 sm:h-14 sm:w-14'} {i === index
             ? 'border-brand ring-1 ring-brand'
             : 'border-neutral-200 dark:border-neutral-600'}"
           onclick={() => goTo(i)}

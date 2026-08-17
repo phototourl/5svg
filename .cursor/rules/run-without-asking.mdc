@@ -1,0 +1,14 @@
+---
+description: Never make the user click Run/Allowlist — prefer Write over Shell
+alwaysApply: true
+---
+
+# No repeated approval clicks
+
+不要让用户反复点 Run / Allowlist / 授权。
+
+- **默认禁止 Shell**（含 `node`、`npm`、`node -e`、跑 scripts、随便 `git status`）。用 Write / StrReplace / Read / Grep 完成工作。
+- i18n、补全 42 语种、改 JSON：直接写 `messages/*.json` 与 `scripts/data/*`，不要执行 `node scripts/...`。
+- 只有用户**明确要求** commit / push / gh 时才用 Shell；合成**一条**命令做完，不要先单独弹一次 status。
+- 禁止嘴上说「不让你授权」却发起会弹审批的 Shell。
+- 弹窗出现就改用写文件继续（非 git 任务）；不要停下来等，不要在聊天里催「点 Run」。

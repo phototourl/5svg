@@ -54,9 +54,9 @@
       "software": "Szoftver"
     },
     "announcement": {
-      "library": "{count}+ ingyenes SVG fájl — böngéssze a Free SVG-t",
+      "library": "{count}+ ingyenes SVG",
       "favorites": "Letöltés · kedvencek mentése · ingyenes személyes használatra",
-      "shop": "SVG csomagok $4.50-tól — egyszer fizet, azonnali ZIP letöltés"
+      "shop": "SVG csomagok $4.50-tól"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Mit árulnak?",
       "a1": "Eredeti craft SVG csomagokat — digitális ZIP csomagokat vágófájlokkal alkotóknak (Cricut, Silhouette, vinyl, pólók). Nem árulunk fizikai árut. A Free SVG márkalogói ingyenesek, és nem kerülnek értékesítésre.",
       "q2": "Mennyibe kerül egy csomag?",
-      "a2": "Minden craft csomag jellemzően $4.50 USD egyszeri vásárlásként. A pontos árak a https://5svg.com/shop oldalon és minden termékoldalon láthatók fizetés előtt.",
+      "a2": "Minden craft csomag jellemzően $4.50 USD egyszeri vásárlásként. A pontos árak a Bundles oldalon és minden termékoldalon láthatók fizetés előtt.",
       "q3": "Hogyan történik a kézbesítés?",
       "a3": "A kézbesítés 100%-ban digitális és azonnali sikeres fizetés után. Nincs szállítás. Adjon meg érvényes e-mailt a checkoutnál a nyugtához.",
       "q4": "Szükségem van fiókra vagy szoftvertelepítésre?",
@@ -210,7 +210,7 @@
       "q6": "Kaphatok visszatérítést?",
       "a6": "Mivel a csomagok digitális letöltések, általában nem kínálunk visszatérítést, miután a ZIP kézbesítésre került és normál használatra elérhető. Ha a letöltés a mi hibánkból sikertelen, írjon a support@5svg.com címre, és ellenőrzés után felülvizsgáljuk.",
       "q7": "Hol vannak az Adatvédelem és a Feltételek?",
-      "a7": "Adatvédelem: https://5svg.com/privacy — Feltételek: https://5svg.com/terms — Licenc: https://5svg.com/license. A linkek a láblécben is megtalálhatók.",
+      "a7": "Adatvédelem, feltételek és licenc a láblécben találhatók.",
       "q8": "Hogyan érhetem el az ügyfélszolgálatot?",
       "a8": "E-mail: support@5svg.com vagy a Kapcsolat oldal. 1–2 munkanapon belül válaszolunk (számlázási ügyekben 3 munkanapon belül).",
       "contactBefore": "A fenti és egyéb kérdésekhez használja a ",
@@ -279,6 +279,14 @@
     "showAll": "Összes megjelenítése",
     "showLess": "Kevesebb megjelenítése",
     "showMore": "Több megjelenítése",
+    "perPage": "Oldalanként",
+    "prevPage": "Előző",
+    "nextPage": "Következő",
+    "showingRange": "{from}–{to} / {total}",
+    "totalCount": "Összesen {total}",
+    "perPageOption": "{count} / oldal",
+    "goToPage": "Ugrás",
+    "pageSuffix": "",
     "copySvg": "SVG másolása",
     "copyDisclaimer": "Kérjük, győződjön meg arról, hogy a készítők engedélyével rendelkezik az SVG használata előtt. Módosítás nem megengedett."
   },

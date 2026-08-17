@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ libreng SVG file — i-browse ang libreng koleksyon",
+      "library": "{count}+ libreng SVG",
       "favorites": "I-download · i-save ang paborito · libre para sa personal na gamit",
-      "shop": "Mga SVG Bundle mula $4.50 — magbayad nang isang beses, agad na ZIP download"
+      "shop": "SVG Bundle mula $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Ano ang ibinebenta ninyo?",
       "a1": "Nagbebenta kami ng orihinal na craft SVG Bundles — digital ZIP packs ng cut files para sa mga maker (Cricut, Silhouette, vinyl, shirts). Hindi kami nagbebenta ng physical goods. Libre ang brand logos sa libreng koleksyon at hindi ibinebenta bilang bayad na produkto.",
       "q2": "Magkano ang isang Bundle?",
-      "a2": "Karaniwang $4.50 USD ang bawat craft Bundle bilang one-time purchase. Ipinapakita ang eksaktong presyo sa https://5svg.com/shop at sa bawat product page bago ka magbayad.",
+      "a2": "Karaniwang $4.50 USD ang bawat craft Bundle bilang one-time purchase. Ipinapakita ang eksaktong presyo sa Bundles page at sa bawat product page bago ka magbayad.",
       "q3": "Paano dine-deliver ang produkto?",
       "a3": "100% digital at agad ang delivery pagkatapos ng matagumpay na bayad. Walang shipping. Gumamit ng valid email sa checkout para sa iyong resibo.",
       "q4": "Kailangan ba ng account o software install?",
@@ -210,7 +210,7 @@
       "q6": "Pwede ba akong makakuha ng refund?",
       "a6": "Dahil digital downloads ang Bundles, karaniwan naming hindi nag-aalok ng refund kapag na-deliver na ang ZIP at available pa para sa normal na gamit. Kung nabigo ang download dahil sa isyu sa aming panig, mag-email sa support@5svg.com at ire-review namin pagkatapos ng beripikasyon.",
       "q7": "Nasaan ang Privacy Policy at Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Nasa footer din ng site ang mga link.",
+      "a7": "Privacy Policy, Terms of Service, and License are in the site footer.",
       "q8": "Paano makipag-ugnayan sa support?",
       "a8": "Mag-email sa support@5svg.com o gamitin ang Makipag-ugnayan page. Layunin naming tumugon sa loob ng 1–2 araw ng trabaho (sa loob ng 3 araw ng trabaho para sa billing issues).",
       "contactBefore": "Para sa mga tanong sa itaas at iba pa, pakigamit ang ",
@@ -433,6 +433,14 @@
     "showAll": "Ipakita lahat",
     "showLess": "Magpakita ng mas kaunti",
     "showMore": "Magpakita pa",
+    "perPage": "Bawat page",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "showingRange": "{from}–{to} ng {total}",
+    "totalCount": "Kabuuan {total}",
+    "perPageOption": "{count} / page",
+    "goToPage": "Pumunta sa",
+    "pageSuffix": "",
     "copySvg": "Kopyahin ang SVG",
     "copyDisclaimer": "Pakiusap na tiyaking may pahintulot mula sa mga tagalikha bago gamitin ang SVG. Hindi pinapayagan ang mga pagbabago."
   },

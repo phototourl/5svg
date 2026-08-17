@@ -54,9 +54,9 @@
       "software": "Perangkat lunak"
     },
     "announcement": {
-      "library": "{count}+ file SVG gratis — jelajahi pustaka gratis",
+      "library": "{count}+ file SVG gratis",
       "favorites": "Unduh · simpan favorit · gratis untuk penggunaan pribadi",
-      "shop": "Paket SVG mulai $4.50 — bayar sekali, unduh ZIP instan"
+      "shop": "Paket SVG mulai $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Apa yang Anda jual?",
       "a1": "Kami menjual paket craft SVG asli — paket ZIP digital berisi file potong untuk pembuat (Cricut, Silhouette, vinyl, kaos). Kami tidak menjual barang fisik. Logo merek di pustaka gratis gratis dan tidak dijual sebagai produk berbayar.",
       "q2": "Berapa harga satu paket?",
-      "a2": "Setiap paket craft biasanya $4.50 USD sebagai pembelian sekali. Harga pasti ditampilkan di https://5svg.com/shop dan di setiap halaman produk sebelum Anda membayar.",
+      "a2": "Setiap paket craft biasanya $4.50 USD sebagai pembelian sekali. Harga pasti ditampilkan di halaman Bundles dan di setiap halaman produk sebelum Anda membayar.",
       "q3": "Bagaimana produk dikirim?",
       "a3": "Pengiriman 100% digital dan instan setelah pembayaran berhasil. Tanpa pengiriman fisik. Gunakan email yang valid di checkout untuk struk.",
       "q4": "Apakah saya perlu akun atau instal perangkat lunak?",
@@ -210,7 +210,7 @@
       "q6": "Bisakah saya mendapat pengembalian dana?",
       "a6": "Karena paket adalah unduhan digital, kami umumnya tidak menawarkan pengembalian dana setelah ZIP dikirim dan tetap tersedia untuk penggunaan normal. Jika unduhan gagal karena masalah di pihak kami, email support@5svg.com dan kami akan meninjau setelah verifikasi.",
       "q7": "Di mana Kebijakan Privasi dan Ketentuan Layanan?",
-      "a7": "Kebijakan Privasi: https://5svg.com/privacy — Ketentuan Layanan: https://5svg.com/terms — Lisensi: https://5svg.com/license. Tautan juga ada di footer situs.",
+      "a7": "Kebijakan Privasi, Ketentuan Layanan, dan Lisensi ada di footer situs.",
       "q8": "Bagaimana cara menghubungi dukungan?",
       "a8": "Email support@5svg.com atau gunakan halaman Hubungi kami. Kami berusaha membalas dalam 1–2 hari kerja (dalam 3 hari kerja untuk masalah penagihan).",
       "contactBefore": "Untuk pertanyaan di atas dan lainnya, silakan gunakan halaman ",
@@ -433,6 +433,14 @@
     "showAll": "Tampilkan semua",
     "showLess": "Tampilkan lebih sedikit",
     "showMore": "Tampilkan lebih banyak",
+    "perPage": "Per halaman",
+    "prevPage": "Sebelumnya",
+    "nextPage": "Berikutnya",
+    "showingRange": "{from}–{to} dari {total}",
+    "totalCount": "Total {total}",
+    "perPageOption": "{count} / halaman",
+    "goToPage": "Ke",
+    "pageSuffix": "",
     "copySvg": "Salin SVG",
     "copyDisclaimer": "Pastikan Anda memiliki izin dari pembuat sebelum menggunakan SVG. Modifikasi tidak diizinkan."
   },

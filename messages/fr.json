@@ -53,9 +53,9 @@
       "termsOfService": "Conditions d’utilisation"
     },
     "announcement": {
-      "library": "{count}+ SVG gratuits — parcourir Free SVG",
+      "library": "{count}+ SVG gratuits",
       "favorites": "Télécharger · favoris · usage personnel gratuit",
-      "shop": "SVG Bundles dès $4.50 — paiement unique, ZIP immédiat"
+      "shop": "SVG Bundles dès $4.50"
     },
     "siteName": "5SVG",
     "showAll": "Tout afficher",
@@ -151,7 +151,7 @@
       "q1": "Que vendez-vous ?",
       "a1": "Des Bundles SVG craft originaux — packs ZIP numériques pour makers. Pas de biens physiques. Les logos Free SVG sont gratuits et non vendus.",
       "q2": "Combien coûte un Bundle ?",
-      "a2": "Généralement $4.50 USD en paiement unique. Prix exacts sur https://5svg.com/shop et chaque fiche produit.",
+      "a2": "Généralement $4.50 USD en paiement unique. Prix exacts sur la page Bundles et chaque fiche produit.",
       "q3": "Comment le produit est-il livré ?",
       "a3": "Livraison 100 % numérique et immédiate après paiement réussi. Pas d'expédition. Indiquez un e-mail valide au checkout pour le reçu.",
       "q4": "Faut-il un compte ou un logiciel ?",
@@ -161,7 +161,7 @@
       "q6": "Puis-je être remboursé ?",
       "a6": "Téléchargements numériques : généralement pas de remboursement une fois le ZIP livré. Problème de notre côté : support@5svg.com.",
       "q7": "Où sont Confidentialité et Conditions ?",
-      "a7": "Confidentialité : https://5svg.com/privacy — Conditions : https://5svg.com/terms — Licence : https://5svg.com/license.",
+      "a7": "Confidentialité, conditions d’utilisation et licence sont liées dans le pied de page.",
       "q8": "Comment contacter le support ?",
       "a8": "support@5svg.com ou page Contact. Réponse sous 1–2 jours ouvrés (3 pour la facturation).",
       "contactBefore": "Pour ces questions ou d'autres, utilisez la page ",
@@ -283,6 +283,14 @@
     "showAll": "Tout afficher",
     "showLess": "Afficher moins",
     "showMore": "Afficher plus",
+    "perPage": "Par page",
+    "perPageOption": "{count} / page",
+    "prevPage": "Précédent",
+    "nextPage": "Suivant",
+    "totalCount": "Total {total}",
+    "goToPage": "Aller à",
+    "pageSuffix": "",
+    "showingRange": "{from}–{to} sur {total}",
     "copySvg": "Copier le SVG",
     "copyDisclaimer": "Veuillez vous assurer d'avoir l'autorisation des créateurs avant d'utiliser le SVG. Les modifications ne sont pas autorisées."
   },

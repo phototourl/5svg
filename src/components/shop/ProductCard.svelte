@@ -37,14 +37,14 @@
   className="group flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white no-underline shadow-sm transition-shadow hover:border-brand/40 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-950 dark:hover:border-brand/50"
 >
   <div
-    class="flex items-center justify-center bg-neutral-100 p-6 dark:bg-neutral-100 {isHome
+    class="flex items-center justify-center overflow-hidden bg-neutral-100 p-4 dark:bg-neutral-100 {isHome
       ? 'h-40'
       : 'h-44'}"
   >
     <img
       src={previewPath}
       alt={title}
-      class="max-h-full max-w-full object-contain transition-transform group-hover:scale-[1.02]"
+      class="h-full w-full object-contain object-center transition-transform group-hover:scale-[1.02]"
       loading={isHome ? "lazy" : undefined}
     />
   </div>

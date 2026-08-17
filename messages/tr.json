@@ -54,9 +54,9 @@
       "software": "Yazılım"
     },
     "announcement": {
-      "library": "{count}+ ücretsiz SVG dosyası — ücretsiz kütüphane’ye göz atın",
+      "library": "{count}+ ücretsiz SVG",
       "favorites": "İndir · favorilere kaydet · kişisel kullanım ücretsiz",
-      "shop": "SVG Bundles $4.50’den — bir kez ödeyin, anında ZIP indirin"
+      "shop": "SVG Bundles $4.50’den"
     },
     "showAll": "Tümünü göster",
     "showLess": "Daha az göster",
@@ -204,7 +204,7 @@
       "q1": "Ne satıyorsunuz?",
       "a1": "Orijinal craft SVG Bundles satıyoruz — maker’lar için kesim dosyalarının dijital ZIP paketleri (Cricut, Silhouette, vinil, tişört). Fiziksel ürün satmıyoruz. ücretsiz kütüphane’deki ücretsiz marka logoları ücretsizdir ve ücretli ürün olarak satılmaz.",
       "q2": "Bir Bundle ne kadar?",
-      "a2": "Her craft Bundle genellikle tek seferlik satın alma olarak $4.50 USD’dir. Kesin fiyatlar https://5svg.com/shop ve her ürün sayfasında ödemeden önce gösterilir.",
+      "a2": "Her craft Bundle genellikle tek seferlik satın alma olarak $4.50 USD’dir. Kesin fiyatlar Bundles sayfasında ve her ürün sayfasında ödemeden önce gösterilir.",
       "q3": "Ürün nasıl teslim edilir?",
       "a3": "Teslimat başarılı ödemeden sonra %100 dijital ve anlıktır. Kargo yok. Makbuz için ödeme sırasında geçerli e-posta kullanın.",
       "q4": "Hesap veya yazılım kurulumu gerekir mi?",
@@ -214,7 +214,7 @@
       "q6": "İade alabilir miyim?",
       "a6": "Bundles dijital indirme olduğundan, ZIP teslim edildikten ve normal kullanım için kullanılabilir kaldıktan sonra genellikle iade sunmayız. İndirme bizden kaynaklanan bir sorun nedeniyle başarısız olursa support@5svg.com’a yazın; doğrulamadan sonra inceleriz.",
       "q7": "Privacy Policy ve Terms of Service nerede?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Bağlantılar site altbilgisinde de vardır.",
+      "a7": "Privacy Policy, Terms of Service ve License site altbilgisinde yer alır.",
       "q8": "Destekle nasıl iletişime geçerim?",
       "a8": "support@5svg.com’a yazın veya Bize ulaşın sayfasını kullanın. 1–2 iş günü içinde yanıtlarız (faturalama için 3 iş günü içinde).",
       "contactBefore": "Yukarıdakiler ve diğer sorular için lütfen bu sitedeki ",
@@ -437,6 +437,14 @@
     "showAll": "Tümünü göster",
     "showLess": "Daha az göster",
     "showMore": "Daha fazla göster",
+    "perPage": "Sayfa başına",
+    "prevPage": "Önceki",
+    "nextPage": "Sonraki",
+    "showingRange": "{from}–{to} / {total}",
+    "totalCount": "Toplam {total}",
+    "perPageOption": "{count} / sayfa",
+    "goToPage": "Git",
+    "pageSuffix": "",
     "copySvg": "SVG kopyala",
     "copyDisclaimer": "SVG'yi kullanmadan önce oluşturuculardan izin aldığınızdan emin olun. Değişikliklere izin verilmez."
   },

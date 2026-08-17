@@ -89,3 +89,39 @@ code:has(.line:nth-child(2)) .line::before {
 code:has(.line:nth-child(2)) .line::before {
   @apply font-mono text-xs text-neutral-400 dark:text-neutral-600;
 }
+
+/* Footer badge marquee：仅移动端自动横向滚动（EditStamp） */
+@keyframes svg-badge-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.svg-badge-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: svg-badge-marquee 68s linear infinite;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .svg-badge-marquee-track {
+    animation: none;
+    will-change: auto;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .svg-badge-marquee-track:hover {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .svg-badge-marquee-track {
+    animation: none;
+  }
+}

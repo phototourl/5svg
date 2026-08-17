@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ kostenlose SVGs — kostenlose Bibliothek durchstöbern",
+      "library": "{count}+ Free SVG",
       "favorites": "Download · Favoriten · kostenlos für private Nutzung",
-      "shop": "SVG-Packs ab $4.50 — einmal zahlen, ZIP sofort laden"
+      "shop": "SVG Bundles ab $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Was verkaufen Sie?",
       "a1": "Originale Craft-SVG-Packs — digitale ZIP-Packs mit Schnittdateien für Maker. Keine physischen Waren. Markenlogos in kostenlose Bibliothek sind kostenlos und werden nicht verkauft.",
       "q2": "Was kostet ein Bundle?",
-      "a2": "Typischerweise $4.50 USD einmalig. Genaues Preis auf https://5svg.com/shop und jeder Produktseite.",
+      "a2": "Typischerweise $4.50 USD einmalig. Genaues Preis auf der Bundles-Seite und jeder Produktseite.",
       "q3": "Wie erfolgt die Lieferung?",
       "a3": "100 % digital und sofort nach Zahlung. Kein Versand. Gültige E-Mail beim Checkout für die Quittung.",
       "q4": "Brauche ich Konto oder Software?",
@@ -210,7 +210,7 @@
       "q6": "Kann ich eine Erstattung erhalten?",
       "a6": "Bei digitalen Downloads in der Regel nicht, sobald das ZIP geliefert wurde. Bei Problemen unsererseits: support@5svg.com.",
       "q7": "Wo sind Datenschutz und Nutzungsbedingungen?",
-      "a7": "Datenschutz: https://5svg.com/privacy — AGB: https://5svg.com/terms — Lizenz: https://5svg.com/license.",
+      "a7": "Datenschutz, AGB und Lizenz finden Sie in der Fußzeile.",
       "q8": "Wie erreiche ich den Support?",
       "a8": "support@5svg.com oder Kontaktseite. Antwort in 1–2 Werktagen (Billing bis 3).",
       "contactBefore": "Für obige und weitere Fragen nutzen Sie die Seite ",
@@ -279,6 +279,14 @@
     "showAll": "Alle anzeigen",
     "showLess": "Weniger anzeigen",
     "showMore": "Mehr anzeigen",
+    "perPage": "Pro Seite",
+    "perPageOption": "{count} / Seite",
+    "prevPage": "Zurück",
+    "nextPage": "Weiter",
+    "totalCount": "Gesamt {total}",
+    "goToPage": "Gehe zu",
+    "pageSuffix": "",
+    "showingRange": "{from}–{to} von {total}",
     "copySvg": "SVG kopieren",
     "copyDisclaimer": "Bitte stellen Sie sicher, dass Sie die Erlaubnis der Urheber haben, bevor Sie das SVG verwenden. Änderungen sind nicht gestattet."
   },

@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ bezplatných SVG souborů — procházejte Free SVG",
+      "library": "{count}+ bezplatných SVG",
       "favorites": "Stáhnout · uložit oblíbené · zdarma pro osobní použití",
-      "shop": "SVG Bundles od $4.50 — jednorázová platba, okamžité ZIP stažení"
+      "shop": "SVG Bundles od $4.50"
     },
     "showAll": "Zobrazit vše",
     "showLess": "Zobrazit méně",
@@ -204,7 +204,7 @@
       "q1": "Co prodáváte?",
       "a1": "Prodáváme originální craft SVG Bundles — digitální ZIP balíčky řezných souborů pro makery (Cricut, Silhouette, vinyl, trička). Nefyzické zboží. Bezplatná loga značek ve Free SVG jsou zdarma a nejsou placenými produkty.",
       "q2": "Kolik stojí Bundle?",
-      "a2": "Každý craft Bundle obvykle stojí $4.50 USD jako jednorázový nákup. Přesné ceny jsou na https://5svg.com/shop a na každé produktové stránce před platbou.",
+      "a2": "Každý craft Bundle obvykle stojí $4.50 USD jako jednorázový nákup. Přesné ceny jsou na stránce Bundles a na každé produktové stránce před platbou.",
       "q3": "Jak je produkt doručen?",
       "a3": "Doručení je 100% digitální a okamžité po úspěšné platbě. Bez dopravy. U pokladny zadejte platný e-mail pro potvrzení.",
       "q4": "Potřebuji účet nebo instalaci softwaru?",
@@ -214,7 +214,7 @@
       "q6": "Mohu získat refundaci?",
       "a6": "Protože Bundles jsou digitální stažení, obvykle nenabízíme refundaci poté, co byl ZIP doručen a zůstává dostupný k běžnému použití. Pokud stažení selže kvůli chybě na naší straně, napište na support@5svg.com — po ověření to posoudíme.",
       "q7": "Kde jsou Privacy Policy a Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — License: https://5svg.com/license. Odkazy jsou také v patičce webu.",
+      "a7": "Privacy Policy, Terms of Service a License jsou v patičce webu.",
       "q8": "Jak kontaktovat podporu?",
       "a8": "Pište na support@5svg.com nebo použijte stránku Kontaktujte nás. Odpovídáme do 1–2 pracovních dnů (do 3 pracovních dnů u fakturačních otázek).",
       "contactBefore": "Pro výše uvedené a další dotazy použijte stránku ",
@@ -437,6 +437,14 @@
     "showAll": "Zobrazit vše",
     "showLess": "Zobrazit méně",
     "showMore": "Zobrazit více",
+    "perPage": "Na stránku",
+    "prevPage": "Předchozí",
+    "nextPage": "Další",
+    "showingRange": "{from}–{to} z {total}",
+    "totalCount": "Celkem {total}",
+    "perPageOption": "{count} / stránku",
+    "goToPage": "Přejít na",
+    "pageSuffix": "",
     "copySvg": "Kopírovat SVG",
     "copyDisclaimer": "Před použitím SVG se ujistěte, že máte souhlas autorů. Úpravy nejsou povoleny."
   },

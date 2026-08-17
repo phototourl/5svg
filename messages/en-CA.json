@@ -54,9 +54,9 @@
       "software": "Software"
     },
     "announcement": {
-      "library": "{count}+ free SVG files — browse Free SVG",
+      "library": "{count}+ Free SVG Files",
       "favorites": "Download · save favourites · free for personal use",
-      "shop": "SVG Bundles from $4.50 — pay once, instant ZIP download"
+      "shop": "SVG Bundles from $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "What do you sell?",
       "a1": "We sell original craft SVG Bundles — digital ZIP packs of cut files for makers (Cricut, Silhouette, vinyl, shirts). We do not sell physical goods. Free brand logos in Free SVG are free and are not sold as paid products.",
       "q2": "How much does a Bundle cost?",
-      "a2": "Each craft Bundle is typically $4.50 USD as a one-time purchase. Exact prices are shown on https://5svg.com/shop and on every product page before you pay.",
+      "a2": "Each craft Bundle is typically $4.50 USD as a one-time purchase. Exact prices are shown on the Bundles page and on every product page before you pay.",
       "q3": "How is the product delivered?",
       "a3": "Delivery is 100% digital and instant after successful payment. No shipping. Use a valid email at checkout for your receipt.",
       "q4": "Do I need an account or software install?",
@@ -210,7 +210,7 @@
       "q6": "Can I get a refund?",
       "a6": "Because Bundles are digital downloads, we generally do not offer refunds once the ZIP has been delivered and remains available for normal use. If download fails due to an issue on our side, email support@5svg.com and we will review after verification.",
       "q7": "Where are Privacy Policy and Terms of Service?",
-      "a7": "Privacy Policy: https://5svg.com/privacy — Terms of Service: https://5svg.com/terms — Licence: https://5svg.com/license. Links are also in the site footer.",
+      "a7": "Privacy Policy, Terms of Service, and Licence are linked in the site footer.",
       "q8": "How do I contact support?",
       "a8": "Email support@5svg.com or use the Contact us page. We aim to reply within 1–2 business days (within 3 business days for billing issues).",
       "contactBefore": "For the above and other questions, please use the ",
@@ -279,6 +279,14 @@
     "showAll": "Show all",
     "showLess": "Show less",
     "showMore": "Show more",
+    "perPage": "Per page",
+    "perPageOption": "{count} / page",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "totalCount": "Total {total}",
+    "goToPage": "Go to",
+    "pageSuffix": "",
+    "showingRange": "{from}–{to} of {total}",
     "copySvg": "Copy SVG",
     "copyDisclaimer": "Please ensure you have permission from the creators before using the SVG. Modifications are not permitted."
   },

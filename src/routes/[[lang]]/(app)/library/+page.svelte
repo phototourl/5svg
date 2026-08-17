@@ -12,6 +12,7 @@
   import SvgCard from "@/components/svgs/svgCard.svelte";
   import SortSvgs from "@/components/svgs/sortSvgs.svelte";
   import Container from "@/components/container.svelte";
+  import SvgPagination from "@/components/svgs/SvgPagination.svelte";
 
   import PageCard from "@/components/pageCard.svelte";
   import PageHeader from "@/components/pageHeader.svelte";
@@ -25,7 +26,6 @@
   import SearchXIcon from "@lucide/svelte/icons/search-x";
   import { getI18n } from "@/lib/i18n/context";
 
-  // SSR Data:
   let { data }: PageProps = $props();
   const i18n = $derived(getI18n());
   const libraryTitle = $derived(i18n.t("LibraryPage.h1") || librarySeo.h1);
@@ -34,14 +34,12 @@
     i18n.t("LibraryPage.description") || librarySeo.description,
   );
 
-  // States:
-  const INITIAL_DISPLAY = 30;
-  const INCREMENT = 10;
+  const DEFAULT_PAGE_SIZE = 50;
 
-  let maxDisplay = $state<number>(INITIAL_DISPLAY);
+  let pageSize = $state(DEFAULT_PAGE_SIZE);
+  let currentPage = $state(1);
   let sortOverride = $state<boolean | null>(null);
   let searchOverride = $state<string | null>(null);
-  let sentinel = $state<HTMLDivElement | null>(null);
 
   const isSorted = $derived(sortOverride !== null ? sortOverride : data.sorted);
   const searchTerm = $derived(
@@ -61,47 +59,36 @@
       .map((result) => result.item);
   });
 
-  const displaySvgs = $derived(filteredSvgs.slice(0, maxDisplay));
+  const totalPages = $derived(
+    Math.max(1, Math.ceil(filteredSvgs.length / pageSize)),
+  );
+
+  const safePage = $derived(Math.min(currentPage, totalPages));
+
+  const displaySvgs = $derived.by(() => {
+    const start = (safePage - 1) * pageSize;
+    return filteredSvgs.slice(start, start + pageSize);
+  });
+
+  function resetPage() {
+    currentPage = 1;
+  }
 
   const handleSearch = (value: string) => {
     searchOverride = value;
-    maxDisplay = INITIAL_DISPLAY;
+    resetPage();
   };
 
   const handleClearSearch = () => {
     searchOverride = "";
-    maxDisplay = INITIAL_DISPLAY;
+    resetPage();
     deleteParam("search");
   };
 
-  function getScrollParent(node: HTMLElement | null): HTMLElement | null {
-    if (!node) return null;
-    const { overflow, overflowY } = getComputedStyle(node);
-    if (
-      overflow.includes("scroll") ||
-      overflow.includes("auto") ||
-      overflowY.includes("scroll") ||
-      overflowY.includes("auto")
-    ) {
-      return node;
-    }
-    return getScrollParent(node.parentElement);
+  function scrollToGridTop() {
+    if (!browser) return;
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
-
-  $effect(() => {
-    if (!sentinel) return;
-    const root = getScrollParent(sentinel.parentElement);
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && maxDisplay < filteredSvgs.length) {
-          maxDisplay += INCREMENT;
-        }
-      },
-      { root, rootMargin: "200px" },
-    );
-    observer.observe(sentinel);
-    return () => observer.disconnect();
-  });
 
   const scriptClose = "</" + "script>";
   const collectionJsonLdHtml =
@@ -133,7 +120,6 @@
   </p>
 </div>
 
-<!-- Category shortcuts (replaces old sidebar) -->
 <div class="mt-3 flex flex-wrap gap-2">
   {#each getPopularCategories(12) as cat (cat)}
     <InternalLink
@@ -185,7 +171,7 @@
         {isSorted}
         onSortedChange={(value) => {
           sortOverride = value;
-          maxDisplay = INITIAL_DISPLAY;
+          resetPage();
         }}
       />
     </div>
@@ -211,9 +197,23 @@
         <SvgCard svgInfo={svg} />
       {/each}
     </Grid>
-    <div bind:this={sentinel} class="h-1"></div>
     {#if filteredSvgs.length === 0}
       <SvgNotFound svgTitle={searchTerm} />
+    {:else}
+      <SvgPagination
+        total={filteredSvgs.length}
+        page={safePage}
+        {pageSize}
+        onPageChange={(p) => {
+          currentPage = p;
+          scrollToGridTop();
+        }}
+        onPageSizeChange={(size) => {
+          pageSize = size;
+          resetPage();
+          scrollToGridTop();
+        }}
+      />
     {/if}
   </Container>
 </PageCard>

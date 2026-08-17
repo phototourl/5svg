@@ -54,9 +54,9 @@
       "software": "Softvér"
     },
     "announcement": {
-      "library": "{count}+ bezplatných SVG súborov — prehliadajte Free SVG",
+      "library": "{count}+ bezplatných SVG",
       "favorites": "Stiahnutie · uložte obľúbené · zadarmo na osobné použitie",
-      "shop": "SVG balíky od $4.50 — zaplaťte raz, okamžité ZIP stiahnutie"
+      "shop": "SVG balíky od $4.50"
     }
   },
   "shop": {
@@ -200,7 +200,7 @@
       "q1": "Čo predávate?",
       "a1": "Predávame originálne craft SVG balíky — digitálne ZIP balíky rezných súborov pre tvorcov (Cricut, Silhouette, vinyl, tričká). Nepredávame fyzický tovar. Značkové logá vo Free SVG sú bezplatné a nepredávajú sa.",
       "q2": "Koľko stojí balík?",
-      "a2": "Každý craft balík stojí zvyčajne $4.50 USD ako jednorazový nákup. Presné ceny sú na https://5svg.com/shop a na každej produktovej stránke pred platbou.",
+      "a2": "Každý craft balík stojí zvyčajne $4.50 USD ako jednorazový nákup. Presné ceny sú na stránke Bundles a na každej produktovej stránke pred platbou.",
       "q3": "Ako sa produkt doručuje?",
       "a3": "Doručenie je 100 % digitálne a okamžité po úspešnej platbe. Bez dopravy. Pri checkoute použite platný e-mail na potvrdenie.",
       "q4": "Potrebujem účet alebo inštaláciu softvéru?",
@@ -210,7 +210,7 @@
       "q6": "Môžem dostať refundáciu?",
       "a6": "Keďže balíky sú digitálne sťahovania, zvyčajne neponúkame refundácie, keď bol ZIP doručený a zostáva dostupný na bežné použitie. Ak sťahovanie zlyhá z našej strany, napíšte na support@5svg.com a po overení to posúdime.",
       "q7": "Kde sú Súkromie a Podmienky?",
-      "a7": "Súkromie: https://5svg.com/privacy — Podmienky: https://5svg.com/terms — Licencia: https://5svg.com/license. Odkazy sú aj v pätičke.",
+      "a7": "Súkromie, podmienky a licencia sú v pätičke.",
       "q8": "Ako kontaktovať podporu?",
       "a8": "E-mail support@5svg.com alebo stránka Kontakt. Odpovedáme do 1–2 pracovných dní (do 3 pri fakturácii).",
       "contactBefore": "Pri vyššie uvedených a ďalších otázkach použite stránku ",
@@ -279,6 +279,14 @@
     "showAll": "Zobraziť všetko",
     "showLess": "Zobraziť menej",
     "showMore": "Zobraziť viac",
+    "perPage": "Na stránku",
+    "prevPage": "Predchádzajúca",
+    "nextPage": "Ďalšia",
+    "showingRange": "{from}–{to} z {total}",
+    "totalCount": "Spolu {total}",
+    "perPageOption": "{count} / strana",
+    "goToPage": "Prejsť na",
+    "pageSuffix": "",
     "copySvg": "Kopírovať SVG",
     "copyDisclaimer": "Pred použitím SVG sa uistite, že máte súhlas autorov. Úpravy nie sú povolené."
   },

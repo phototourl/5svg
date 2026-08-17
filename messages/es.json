@@ -53,9 +53,9 @@
       "termsOfService": "Términos del servicio"
     },
     "announcement": {
-      "library": "{count}+ SVG gratis — explora Free SVG",
+      "library": "{count}+ SVG gratis",
       "favorites": "Descargar · guardar favoritos · uso personal gratis",
-      "shop": "SVG Bundles desde $4.50 — pago único, descarga ZIP inmediata"
+      "shop": "SVG Bundles desde $4.50"
     },
     "siteName": "5SVG",
     "showAll": "Mostrar todo",
@@ -151,7 +151,7 @@
       "q1": "¿Qué venden?",
       "a1": "Vendemos Bundles SVG craft originales — packs ZIP digitales de archivos de corte para makers (Cricut, Silhouette, vinilo, camisetas). No vendemos productos físicos. Los logos de marca en Free SVG son gratis y no se venden como producto de pago.",
       "q2": "¿Cuánto cuesta un Bundle?",
-      "a2": "Cada Bundle craft suele costar $4.50 USD en compra única. El precio exacto se muestra en https://5svg.com/shop y en cada página de producto antes de pagar.",
+      "a2": "Cada Bundle craft suele costar $4.50 USD en compra única. El precio exacto se muestra en la página de Bundles y en cada página de producto antes de pagar.",
       "q3": "¿Cómo se entrega el producto?",
       "a3": "Entrega 100% digital e inmediata tras el pago. Sin envío. Usa un email válido en el checkout para el recibo.",
       "q4": "¿Necesito una cuenta o instalar software?",
@@ -161,7 +161,7 @@
       "q6": "¿Puedo obtener un reembolso?",
       "a6": "Al ser descargas digitales, generalmente no ofrecemos reembolso una vez entregado el ZIP y disponible el uso normal. Si la descarga falla por un problema nuestro, escribe a support@5svg.com.",
       "q7": "¿Dónde están la Política de privacidad y los Términos?",
-      "a7": "Privacidad: https://5svg.com/privacy — Términos: https://5svg.com/terms — Licencia: https://5svg.com/license. También en el pie del sitio.",
+      "a7": "Privacidad, términos y licencia están en el pie del sitio.",
       "q8": "¿Cómo contacto con soporte?",
       "a8": "Email support@5svg.com o la página Contáctanos. Respondemos en 1–2 días hábiles (hasta 3 en temas de facturación).",
       "contactBefore": "Para lo anterior u otras consultas, usa la página ",
@@ -283,6 +283,14 @@
     "showAll": "Mostrar todo",
     "showLess": "Mostrar menos",
     "showMore": "Mostrar más",
+    "perPage": "Por página",
+    "perPageOption": "{count} / página",
+    "prevPage": "Anterior",
+    "nextPage": "Siguiente",
+    "totalCount": "Total {total}",
+    "goToPage": "Ir a",
+    "pageSuffix": "",
+    "showingRange": "{from}–{to} de {total}",
     "copySvg": "Copiar SVG",
     "copyDisclaimer": "Asegúrese de tener permiso de los creadores antes de usar el SVG. No se permiten modificaciones."
   },
