@@ -201,7 +201,7 @@
   <meta name="description" content={displayDescription} />
 </svelte:head>
 
-<Container className="my-10 max-w-4xl pb-52 md:pb-0">
+<Container className="my-10 max-w-4xl">
   <InternalLink href="/shop" className="text-sm text-brand-energy dark:text-brand">
     ← {i18n.t("shop.backToShop")}
   </InternalLink>

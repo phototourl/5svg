@@ -1,12 +1,17 @@
 <script lang="ts">
+  import { page } from "$app/state";
   import { brand } from "@/brand";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import LanguageSwitcher from "@/components/layout/languageSwitcher.svelte";
   import BrandLogoLink from "@/components/marketing/BrandLogoLink.svelte";
   import MarketingLaunchBadges from "@/components/marketing/MarketingLaunchBadges.svelte";
   import { getI18n } from "@/lib/i18n/context";
+  import { cn } from "@/utils/cn";
 
   const i18n = $derived(getI18n());
+
+  /** Clear fixed mobile checkout dock on product detail (not shop index). */
+  const shopDetailDockPad = $derived(/\/shop\/[^/]+\/?$/.test(page.url.pathname));
 
   const productLinks = $derived([
     { href: "/", label: i18n.t("common.nav.home") },
@@ -32,8 +37,12 @@
   ]);
 </script>
 
-<footer class="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
-  <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+<footer
+  class={cn(
+    "border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950",
+    shopDetailDockPad && "pb-40 md:pb-0",
+  )}
+>  <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
     <div class="grid grid-cols-2 gap-8 md:grid-cols-5">
       <div class="col-span-2 flex flex-col items-start">
         <BrandLogoLink variant="footer" />

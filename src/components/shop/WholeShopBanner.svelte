@@ -29,17 +29,19 @@
   </p>
   <InternalLink
     href={`/shop/${slug}`}
-    className="mt-5 flex cursor-pointer items-stretch overflow-hidden rounded-2xl border border-brand/40 bg-white no-underline shadow-sm transition hover:border-brand hover:shadow-md dark:border-brand/50 dark:bg-neutral-950"
+    className="mt-5 flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-brand/40 bg-white no-underline shadow-sm transition hover:border-brand hover:shadow-md sm:flex-row sm:items-stretch dark:border-brand/50 dark:bg-neutral-950"
   >
-    <div class="relative w-[40%] shrink-0 bg-white md:w-[36%] dark:bg-white">
+    <div
+      class="relative w-full shrink-0 bg-neutral-100 sm:w-[40%] md:w-[36%] dark:bg-neutral-100"
+    >
       <img
         src={previewPath}
         alt=""
-        class="h-full w-full object-cover object-center"
+        class="block h-auto w-full object-contain object-center sm:h-full sm:min-h-[7.5rem] sm:object-cover"
       />
     </div>
     <div
-      class="flex min-w-0 flex-1 flex-col justify-center gap-2 border-l border-brand/20 bg-brand/5 px-4 py-4 sm:px-5 dark:border-brand/40 dark:bg-brand/10"
+      class="flex min-w-0 flex-1 flex-col justify-center gap-2 border-t border-brand/20 bg-brand/5 px-4 py-4 sm:border-t-0 sm:border-l sm:px-5 dark:border-brand/40 dark:bg-brand/10"
     >
       <p class="text-xs font-semibold uppercase tracking-wide text-brand-energy dark:text-brand">
         {i18n.t("shop.wholeShopBadge")}
