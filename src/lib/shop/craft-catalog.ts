@@ -28,7 +28,11 @@ function pack(
  * Craft packs: existing assets + 5svg original geometric cut files
  * (utils/generate-craft-expansions.ts). Target ~22–24 files each.
  * Whole Shop Bundle ($9.90) aggregates every pack — 8svg-style value SKU.
+ *
+ * Soft-launch: only slugs in LIVE_PACK_SLUGS are storefront-visible.
  */
+const LIVE_PACK_SLUGS = new Set(["craft-stamp-seals-pack"]);
+
 const INDIVIDUAL_CRAFT_PACKS: ShopProduct[] = [
   pack({
     slug: "craft-patriotic-pack",
@@ -340,7 +344,10 @@ const WHOLE_SHOP_BUNDLE = pack({
   tags: ["whole-shop", "bundle", "all-packs", "craft"],
 });
 
+/** Apply soft-launch visibility: draft packs stay in catalog but are hidden from shop/checkout. */
 export const CRAFT_PRODUCTS: ShopProduct[] = [
   WHOLE_SHOP_BUNDLE,
   ...INDIVIDUAL_CRAFT_PACKS,
-];
+].map((p) =>
+  LIVE_PACK_SLUGS.has(p.slug) ? p : { ...p, status: "draft" as const },
+);
