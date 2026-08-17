@@ -7,16 +7,22 @@
   import MarketingLaunchBadges from "@/components/marketing/MarketingLaunchBadges.svelte";
   import { getI18n } from "@/lib/i18n/context";
   import { cn } from "@/utils/cn";
+  import { isShopEnabled } from "@/lib/shop";
 
   const i18n = $derived(getI18n());
+  const shopOn = isShopEnabled();
 
   /** Clear fixed mobile checkout dock on product detail (not shop index). */
-  const shopDetailDockPad = $derived(/\/shop\/[^/]+\/?$/.test(page.url.pathname));
+  const shopDetailDockPad = $derived(
+    shopOn && /\/shop\/[^/]+\/?$/.test(page.url.pathname),
+  );
 
   const productLinks = $derived([
     { href: "/", label: i18n.t("common.nav.home") },
     { href: "/library", label: i18n.t("common.nav.freeSvg") },
-    { href: "/shop", label: i18n.t("common.nav.svgBundles") },
+    ...(shopOn
+      ? [{ href: "/shop", label: i18n.t("common.nav.svgBundles") }]
+      : []),
   ]);
 
   const companyLinks = $derived([

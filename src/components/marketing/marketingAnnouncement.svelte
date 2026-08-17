@@ -2,8 +2,10 @@
   import { svgsData } from "@/data";
   import InternalLink from "@/components/ui/links/internal-link.svelte";
   import { getI18n } from "@/lib/i18n/context";
+  import { isShopEnabled } from "@/lib/shop";
 
   const i18n = $derived(getI18n());
+  const shopOn = isShopEnabled();
 
   // Twin promo bars: same fixed height, short copy (no truncate / ellipsis)
   const barClass =
@@ -15,14 +17,16 @@
 >
   <InternalLink
     href="/library"
-    className={`${barClass} bg-brand-energy text-brand-energy-foreground hover:bg-brand-energy-hover`}
+    className={`${barClass} bg-brand-energy text-brand-energy-foreground hover:bg-brand-energy-hover ${shopOn ? "" : "md:flex-none"}`}
   >
     {i18n.t("common.announcement.library", { count: svgsData.length })}
   </InternalLink>
-  <InternalLink
-    href="/shop"
-    className={`${barClass} bg-brand text-brand-foreground hover:bg-brand-hover`}
-  >
-    {i18n.t("common.announcement.shop")}
-  </InternalLink>
+  {#if shopOn}
+    <InternalLink
+      href="/shop"
+      className={`${barClass} bg-brand text-brand-foreground hover:bg-brand-hover`}
+    >
+      {i18n.t("common.announcement.shop")}
+    </InternalLink>
+  {/if}
 </div>

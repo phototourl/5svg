@@ -1,5 +1,6 @@
 import { redirect, error } from "@sveltejs/kit";
 import type { RequestHandler } from "@sveltejs/kit";
+import { isShopEnabled } from "@/lib/shop";
 import { isCreemMockMode, markOrderPaid } from "@/lib/shop/server";
 
 /**
@@ -7,7 +8,7 @@ import { isCreemMockMode, markOrderPaid } from "@/lib/shop/server";
  * Real Creem replaces this with hosted checkout + webhook.
  */
 export const GET: RequestHandler = async ({ url }) => {
-  if (!isCreemMockMode()) {
+  if (!isShopEnabled() || !isCreemMockMode()) {
     throw error(404, "Not found");
   }
 

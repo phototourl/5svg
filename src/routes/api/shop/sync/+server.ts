@@ -1,10 +1,14 @@
 import { json, error } from "@sveltejs/kit";
 import type { RequestHandler } from "@sveltejs/kit";
 import { syncShopCheckout, getOrderByToken } from "@/lib/shop/server";
-import { getProductBySlug } from "@/lib/shop";
+import { getProductBySlug, isShopEnabled } from "@/lib/shop";
 import { DEFAULT_LOCALE, type AppLocale } from "@/lib/i18n/config";
 
 export const POST: RequestHandler = async ({ request }) => {
+  if (!isShopEnabled()) {
+    throw error(503, "Shop is temporarily unavailable");
+  }
+
   let body: {
     orderToken?: string;
     locale?: string;

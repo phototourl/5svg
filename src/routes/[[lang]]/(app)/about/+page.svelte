@@ -4,6 +4,7 @@
   import { getLegalPage } from "@/lib/i18n/legal-pages";
   import { page } from "$app/state";
   import type { Messages } from "@/lib/i18n/messages";
+  import { isShopEnabled } from "@/lib/shop";
 
   const i18n = $derived(getI18n());
   const legal = $derived(
@@ -17,7 +18,15 @@
   h1={legal.h1}
   sections={legal.sections}
   footerLinks={[
-    { type: "internal", href: "/shop", label: i18n.t("common.nav.svgBundles") },
+    ...(isShopEnabled()
+      ? [
+          {
+            type: "internal" as const,
+            href: "/shop",
+            label: i18n.t("common.nav.svgBundles"),
+          },
+        ]
+      : []),
     {
       type: "internal",
       href: "/terms",

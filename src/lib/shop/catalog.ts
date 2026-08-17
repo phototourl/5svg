@@ -1,5 +1,6 @@
 import type { ShopProduct } from "./types";
 import { CRAFT_PRODUCTS } from "./craft-catalog";
+import { SHOP_ENABLED } from "./flags";
 
 /**
  * Public Bundles storefront — craft packs only (8svg-style).
@@ -8,6 +9,7 @@ import { CRAFT_PRODUCTS } from "./craft-catalog";
 export const SHOP_PRODUCTS: ShopProduct[] = [...CRAFT_PRODUCTS];
 
 export function getLiveProducts(): ShopProduct[] {
+  if (!SHOP_ENABLED) return [];
   return SHOP_PRODUCTS.filter((p) => p.status === "live");
 }
 

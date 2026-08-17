@@ -1,5 +1,6 @@
 export type { ShopProduct, ShopOrder } from "./types";
 export { SHOP_RULES } from "./rules";
+export { SHOP_ENABLED, isShopEnabled } from "./flags";
 export {
   SHOP_PRODUCTS,
   getLiveProducts,

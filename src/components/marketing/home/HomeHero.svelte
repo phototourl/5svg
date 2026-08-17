@@ -5,8 +5,10 @@
   import { buttonVariants } from "@/components/ui/button";
   import { cn } from "@/utils/cn";
   import { getI18n } from "@/lib/i18n/context";
+  import { isShopEnabled } from "@/lib/shop";
 
   const i18n = $derived(getI18n());
+  const shopOn = isShopEnabled();
 </script>
 
 <section class="bg-white dark:bg-neutral-950">
@@ -23,21 +25,30 @@
         {i18n.t("home.hero.subtitle")}
       </p>
       <div class="mt-8 flex flex-wrap gap-3">
-        <InternalLink
-          href="/shop"
-          className={cn(buttonVariants({ size: "lg" }), "no-underline")}
-        >
-          {i18n.t("home.hero.ctaShop")}
-        </InternalLink>
-        <InternalLink
-          href="/library"
-          className={cn(
-            buttonVariants({ variant: "outline", size: "lg" }),
-            "no-underline",
-          )}
-        >
-          {i18n.t("home.hero.ctaFree")}
-        </InternalLink>
+        {#if shopOn}
+          <InternalLink
+            href="/shop"
+            className={cn(buttonVariants({ size: "lg" }), "no-underline")}
+          >
+            {i18n.t("home.hero.ctaShop")}
+          </InternalLink>
+          <InternalLink
+            href="/library"
+            className={cn(
+              buttonVariants({ variant: "outline", size: "lg" }),
+              "no-underline",
+            )}
+          >
+            {i18n.t("home.hero.ctaFree")}
+          </InternalLink>
+        {:else}
+          <InternalLink
+            href="/library"
+            className={cn(buttonVariants({ size: "lg" }), "no-underline")}
+          >
+            {i18n.t("home.hero.ctaFree")}
+          </InternalLink>
+        {/if}
       </div>
       <img
         src={homeMarketingImage.bannerLogo}

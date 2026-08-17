@@ -3,6 +3,7 @@ import { expandPathsForAllLocales } from "@/lib/i18n/sitemap";
 import { getTagPaths } from "@/config/tag-pages";
 import { getCategories, getIconDetailPaths, getSvgsByCategory } from "@/data";
 import { getDocsPaths } from "@/utils/docs-paths";
+import { SHOP_ENABLED } from "@/lib/shop/flags";
 
 /** Marketing home */
 export const marketingPaths = ["/"] as const;
@@ -14,9 +15,13 @@ export const browsePaths = ["/browse"] as const;
 export const tagIndexPaths = ["/tags", ...getTagPaths()] as const;
 
 /** App routes with a +page.svelte (excludes redirects like /directory, /docs) */
-export const appStaticPaths = brand.showDeveloperTools
-  ? (["/library", "/shop", "/favorites", "/extensions"] as const)
-  : (["/library", "/shop", "/favorites"] as const);
+const appCore = brand.showDeveloperTools
+  ? (["/library", "/favorites", "/extensions"] as const)
+  : (["/library", "/favorites"] as const);
+
+export const appStaticPaths = (
+  SHOP_ENABLED ? [...appCore, "/shop"] : [...appCore]
+) as readonly string[];
 
 export function getDirectoryPaths(): string[] {
   return getCategories()

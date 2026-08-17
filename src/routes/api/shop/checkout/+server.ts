@@ -1,10 +1,15 @@
 import { json, error } from "@sveltejs/kit";
 import type { RequestHandler } from "@sveltejs/kit";
 import { createShopCheckout } from "@/lib/shop/server";
+import { isShopEnabled } from "@/lib/shop";
 import { localizePath } from "@/lib/i18n/paths";
 import { DEFAULT_LOCALE, type AppLocale } from "@/lib/i18n/config";
 
 export const POST: RequestHandler = async ({ request }) => {
+  if (!isShopEnabled()) {
+    throw error(503, "Shop is temporarily unavailable");
+  }
+
   let body: { productSlug?: string; email?: string; locale?: string };
   try {
     body = await request.json();

@@ -1,9 +1,17 @@
 import { error } from "@sveltejs/kit";
 import type { ServerLoad } from "@sveltejs/kit";
-import { getProductBySlug, isWholeShopOffer } from "@/lib/shop";
+import {
+  getProductBySlug,
+  isShopEnabled,
+  isWholeShopOffer,
+} from "@/lib/shop";
 import { isCreemMockMode } from "@/lib/shop/server";
 
 export const load: ServerLoad = ({ params }) => {
+  if (!isShopEnabled()) {
+    throw error(404, "Not found");
+  }
+
   const product = getProductBySlug(params.slug ?? "");
   if (!product || product.status !== "live") {
     throw error(404, "Pack not found");

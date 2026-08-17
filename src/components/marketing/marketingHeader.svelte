@@ -10,17 +10,21 @@
   import { stripLocalePrefix } from "@/lib/i18n/paths";
   import { LOCALES } from "@/lib/i18n/config";
   import { isAppNavActive } from "@/lib/app-nav";
+  import { isShopEnabled } from "@/lib/shop";
 
   import Search from "@lucide/svelte/icons/search";
   import Menu from "@lucide/svelte/icons/menu";
 
   const i18n = $derived(getI18n());
   const pathname = $derived(stripLocalePrefix(page.url.pathname, LOCALES));
+  const shopOn = isShopEnabled();
 
   const navLinks = $derived([
     { href: "/", label: i18n.t("common.nav.home") },
     { href: "/library", label: i18n.t("common.nav.freeSvg") },
-    { href: "/shop", label: i18n.t("common.nav.svgBundles") },
+    ...(shopOn
+      ? [{ href: "/shop", label: i18n.t("common.nav.svgBundles") }]
+      : []),
     { href: "/contact", label: i18n.t("common.nav.contact") },
   ]);
 
@@ -49,15 +53,17 @@
 
     <div class="flex items-center gap-1">
       <LanguageSwitcher />
-      <InternalLink
-        href="/shop"
-        className={cn(
-          buttonVariants({ size: "sm" }),
-          "hidden no-underline sm:inline-flex",
-        )}
-      >
-        {i18n.t("common.nav.shopNow")}
-      </InternalLink>
+      {#if shopOn}
+        <InternalLink
+          href="/shop"
+          className={cn(
+            buttonVariants({ size: "sm" }),
+            "hidden no-underline sm:inline-flex",
+          )}
+        >
+          {i18n.t("common.nav.shopNow")}
+        </InternalLink>
+      {/if}
       <InternalLink
         href="/library"
         className={cn(

@@ -1,22 +1,18 @@
 /** Trust / legal pages (EditStamp-style structure, 5SVG product facts). */
 
 export const aboutPage = {
-  title: "About 5SVG — Free SVG Library & Craft Bundles",
+  title: "About 5SVG — Free SVG Library",
   description:
-    "5SVG is an independent free SVG logo library and a shop for original craft SVG Bundles. Digital downloads only — clear pricing on our Bundles page.",
+    "5SVG is an independent free SVG logo and icon library. Browse and download Free SVG anytime — no account required.",
   h1: "About 5SVG",
   sections: [
     {
       h2: "What we offer",
-      body: "5SVG hosts a free library of SVG brand logos and icons, plus paid craft SVG Bundles sold as one-time digital ZIP downloads. Free SVG stays free. Bundles are original cut-file packs for makers (Cricut, Silhouette, vinyl, shirts).",
-    },
-    {
-      h2: "What we sell",
-      body: "Through Bundles we sell digital craft SVG packs only — typically $4.50 USD each, pay once, instant ZIP download after payment. We do not sell physical goods. Current packs and prices are listed on the Bundles page (/shop).",
+      body: "5SVG hosts a free library of SVG brand logos and icons for makers and designers. Free SVG stays free — browse, copy, and download with no account required.",
     },
     {
       h2: "Who we are",
-      body: "5SVG is an independent project. We are not affiliated with, endorsed by, or sponsored by the brands whose logos appear in the free library. Paid Bundles are original craft designs we assemble or create for personal craft use.",
+      body: "5SVG is an independent project. We are not affiliated with, endorsed by, or sponsored by the brands whose logos appear in the free library.",
     },
     {
       h2: "Support",

@@ -12,9 +12,11 @@
   import HomeLibraryOverview from "@/components/marketing/home/HomeLibraryOverview.svelte";
   import { getHomeFaq } from "@/lib/i18n/home-faq";
   import { getI18n } from "@/lib/i18n/context";
+  import { isShopEnabled } from "@/lib/shop";
 
   const i18n = $derived(getI18n());
   const homeSeoFaq = $derived(getHomeFaq(i18n.t));
+  const shopOn = isShopEnabled();
 
   const marqueeRowA = sampleSvgs(20, 0);
   const marqueeRowB = sampleSvgs(20, 11);
@@ -50,15 +52,19 @@
           "query-input": "required name=search_term_string",
         },
       },
-      {
-        "@type": "Store",
-        "@id": `${brand.siteUrl}/#store`,
-        name: "5SVG Bundles",
-        url: `${brand.siteUrl}/shop`,
-        description:
-          "Digital craft SVG Bundles — one-time purchase ZIP downloads for makers.",
-        parentOrganization: { "@id": `${brand.siteUrl}/#organization` },
-      },
+      ...(shopOn
+        ? [
+            {
+              "@type": "Store",
+              "@id": `${brand.siteUrl}/#store`,
+              name: "5SVG Bundles",
+              url: `${brand.siteUrl}/shop`,
+              description:
+                "Digital craft SVG Bundles — one-time purchase ZIP downloads for makers.",
+              parentOrganization: { "@id": `${brand.siteUrl}/#organization` },
+            },
+          ]
+        : []),
       {
         "@type": "FAQPage",
         "@id": `${brand.siteUrl}/#faq`,

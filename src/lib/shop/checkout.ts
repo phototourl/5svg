@@ -4,6 +4,7 @@ import {
   setOrderStatus,
 } from "./orders";
 import { getProductBySlug } from "./catalog";
+import { SHOP_ENABLED } from "./flags";
 import { fulfillPaidOrder } from "./fulfill";
 import { env } from "$env/dynamic/private";
 import {
@@ -40,6 +41,10 @@ export function isCreemMockMode(): boolean {
 export async function createShopCheckout(
   input: CreateShopCheckoutInput,
 ): Promise<CreateShopCheckoutResult> {
+  if (!SHOP_ENABLED) {
+    return { ok: false, error: "Shop is temporarily unavailable" };
+  }
+
   const product = getProductBySlug(input.productSlug);
   if (!product || product.status !== "live") {
     return { ok: false, error: "Product not found" };

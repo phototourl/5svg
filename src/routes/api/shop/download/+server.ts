@@ -4,7 +4,7 @@ import { accessSync, constants } from "node:fs";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import JSZip from "jszip";
-import { getProductBySlug, collectSvgAssetPaths } from "@/lib/shop";
+import { getProductBySlug, collectSvgAssetPaths, isShopEnabled } from "@/lib/shop";
 import {
   getOrderByToken,
   bumpDownloadCount,
@@ -36,6 +36,10 @@ function resolveShopAssetRoot(): string {
 }
 
 export const GET: RequestHandler = async ({ url }) => {
+  if (!isShopEnabled()) {
+    return json({ error: "Shop is temporarily unavailable" }, { status: 503 });
+  }
+
   const token = url.searchParams.get("order_token")?.trim();
   if (!token) {
     return json({ error: "order_token required" }, { status: 400 });

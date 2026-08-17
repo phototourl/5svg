@@ -1,4 +1,6 @@
 import type { I18nContext } from "@/lib/i18n/context";
+import { isShopEnabled } from "@/lib/shop";
+
 export type AppNavLink = {
   href: string;
   label: string;
@@ -6,12 +8,18 @@ export type AppNavLink = {
 
 /** Primary links still used by legacy mobile/sidebar helpers if referenced. */
 export function getAppNavLinks(i18n: I18nContext): AppNavLink[] {
-  return [
+  const links: AppNavLink[] = [
     { href: "/", label: i18n.t("common.nav.home") },
     { href: "/library", label: i18n.t("common.nav.freeSvg") },
-    { href: "/shop", label: i18n.t("common.nav.svgBundles") },
     { href: "/contact", label: i18n.t("common.nav.contact") },
   ];
+  if (isShopEnabled()) {
+    links.splice(2, 0, {
+      href: "/shop",
+      label: i18n.t("common.nav.svgBundles"),
+    });
+  }
+  return links;
 }
 
 export function isAppNavActive(href: string, path: string): boolean {
@@ -31,3 +39,4 @@ export function isAppNavActive(href: string, path: string): boolean {
   }
   return path === href || path.startsWith(`${href}/`);
 }
+
